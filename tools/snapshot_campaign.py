@@ -30,12 +30,31 @@ NUMERICAL_CERTIFICATES = {
     )
 }
 VERIFIED_BLOCKED = {
+    "kissing-number-d11": {
+        "score": 0.0,
+        "leader_score": 0.0,
+        "objective_floor": 0.0,
+        "source_solution_id": 1492,
+        "payload_sha256": "b64f05c374548b2ff4a83deac3fe60d79b62d609f7d67d4986354efdf73bf6bf",
+        "reason_code": "objective-floor-and-ordinal-ranking",
+        "verifier_sha256": "3f62786f20e351f8cfef68538867f29a573d9fe20fc8a5e1428a55035a4bc5a3",
+        "pair_count": 176_121,
+        "contact_pair_count": 17_088,
+        "equal_scores_receive_joint_rank_1": False,
+        "equal_global_best_accepted": False,
+        "source_commit": "98073fca26654d048d70acdfe1e319a23e8e41c6",
+        "submission_http_status": 409,
+        "submission_error": "Submissions are disabled for this problem",
+        "tie_order": "evaluated_at ASC, then ordinal rank",
+        "evidence_path": "artifacts/evidence/kissing-d11-594-exact-audit.json",
+    },
     "kissing-number-d12": {
         "score": 0.0,
         "leader_score": 2.0,
         "candidate_sha256": "236d3931724d28cf306ecbda064c1ffb84e8a106e363227f00e6d5b147eb4749",
         "verifier_sha256": "eb043620439a6631451657013a12c66e55db43589431bcdad08e3b2189246ca8",
         "pair_count": 353_220,
+        "reason_code": "submission-disabled-http-409",
         "exact_distance_margin": "1.2449713530886666648293011033664E-7",
         "source_repository": "https://github.com/k-nic/841_in_12D",
         "source_commit": "eba37f0368f62828780d1f9d90315b367d2a612f",
@@ -517,10 +536,15 @@ def public_frontier(latest: dict[str, Any]) -> dict[str, Any]:
                 "verified_blocked": blocked,
             }
         )
+    blocked_lanes = sum(row["integrity"] == "domain-valid-blocked" for row in rows)
+    live_frontiers = sum(row["integrity"] == "active" for row in rows)
     return {
         "agent": AGENT,
+        "blocked_lanes": blocked_lanes,
         "generated_at": latest["generated_at"],
+        "live_frontiers": live_frontiers,
         "platform_first_places": sum(row["our_rank"] == 1 for row in rows),
+        "rankable_benchmarks": len(rows) - blocked_lanes,
         "domain_valid_first_places": sum(row["our_rank"] == 1 and row["integrity"] == "domain-valid" for row in rows),
         "problems": rows,
     }
@@ -532,8 +556,10 @@ def status_markdown(frontier: dict[str, Any]) -> str:
         "",
         f"Generated from the live Arena snapshot at `{frontier['generated_at']}`.",
         "",
-        f"Platform first places: **{frontier['platform_first_places']}/19**. "
-        f"Domain-valid first places: **{frontier['domain_valid_first_places']}/19**.",
+        f"Platform first places: **{frontier['platform_first_places']}/{frontier['rankable_benchmarks']} rankable lanes**. "
+        f"Domain-valid first places: **{frontier['domain_valid_first_places']}**. "
+        f"Live frontiers: **{frontier['live_frontiers']}**. "
+        f"Platform-blocked: **{frontier['blocked_lanes']}**. Total: **{len(frontier['problems'])}**.",
         "",
         "| Benchmark | Direction | Live leader | Our rank / score | Gate | Verifier | Evidence | Literature |",
         "|---|:---:|---:|---:|---:|---|---|---|",
@@ -542,8 +568,10 @@ def status_markdown(frontier: dict[str, Any]) -> str:
         arrow = "↑" if row["scoring"] == "maximize" else "↓"
         leader = row["leader"]
         leader_text = f"{leader['agentName']} `{format_score(leader['bestScore'])}` {arrow}"
-        if row["verified_blocked"]:
-            ours = "🧊 **score `0` verified; submissions disabled**"
+        if row["slug"] == "kissing-number-d11":
+            ours = "🧊 **retired: score floor reached; later ties cannot rank #1**"
+        elif row["slug"] == "kissing-number-d12":
+            ours = "🧊 **retired: score `0` verified; submissions disabled**"
         elif row["our_entry"]:
             icon = (
                 "⚠️"
@@ -563,8 +591,10 @@ def status_markdown(frontier: dict[str, Any]) -> str:
             if source_entrypoint
             else "[lane source](../src/campaign/)"
         )
-        if row["verified_blocked"]:
-            evidence = "[proof](../artifacts/evidence/kissing-number-d12.json) · [blocker](https://github.com/vinid/einstein-arena/issues/59)"
+        if row["slug"] == "kissing-number-d11":
+            evidence = "[exact audit](../artifacts/evidence/kissing-d11-594-exact-audit.json) · [explanation](BLOCKED_LANES.md)"
+        elif row["slug"] == "kissing-number-d12":
+            evidence = "[proof](../artifacts/evidence/kissing-number-d12.json) · [explanation](BLOCKED_LANES.md)"
         else:
             solution_links = " · ".join(
                 f"[#{sid}](https://einsteinarena.com/api/solutions/{sid})"
@@ -582,7 +612,7 @@ def status_markdown(frontier: dict[str, Any]) -> str:
             "> [!WARNING]",
             "> Tammes is a platform first place but not a spherical-code result; see [ETHICS.md](ETHICS.md).",
             "> PNT solution #2506 is a platform-only finite-horizon result: an exact audit proves it violates the written all-x bound already at x=1; see its global-proof handoff.",
-            "> Kissing d12/841 is domain-valid and verifier-perfect locally, but the Arena endpoint returns HTTP 409 because submissions are disabled; see [issue #59](https://github.com/vinid/einstein-arena/issues/59).",
+            "> Two kissing-number lanes are retired because the current platform rules make a new #1 impossible; see [BLOCKED_LANES.md](BLOCKED_LANES.md) for the exact score-floor, tie-order, and HTTP-409 evidence.",
             "",
             "The source of truth is [`data/frontier.json`](../data/frontier.json).",
             "",
@@ -608,6 +638,15 @@ def status_markdown(frontier: dict[str, Any]) -> str:
         next_move = literature.get(slug, "Literature packet pending.")
         lines.append(f"| [`{slug}`]({row['problem_url']}) | {method} | {next_move} |")
     return "\n".join(lines) + "\n"
+
+
+def snapshot_summary(frontier: dict[str, Any], mirrored_files: int) -> str:
+    return (
+        f"snapshot OK: {frontier['platform_first_places']}/{frontier['rankable_benchmarks']} "
+        f"rankable lanes led, {frontier['domain_valid_first_places']} domain-valid leaders, "
+        f"{frontier['live_frontiers']} live frontiers, {frontier['blocked_lanes']} blocked, "
+        f"{mirrored_files} mirrored files"
+    )
 
 
 def sanitize_receipt(receipt: dict[str, Any], artifact_name: str) -> dict[str, Any]:
@@ -1100,10 +1139,7 @@ def main() -> int:
         REPO / "data" / "published-manifest.json",
         {"generated_at": latest["generated_at"], "files": manifest},
     )
-    print(
-        f"snapshot OK: {frontier['platform_first_places']}/19 platform, "
-        f"{frontier['domain_valid_first_places']}/19 domain-valid, {len(manifest)} mirrored files"
-    )
+    print(snapshot_summary(frontier, len(manifest)))
     return 0
 
 

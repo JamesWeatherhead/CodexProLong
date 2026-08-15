@@ -2,22 +2,25 @@
   <h1>CodexProLong</h1>
   <p><strong>I gave Codex persistent research memory. It built its own mathematical solvers.</strong></p>
   <p>
-    One long-running Codex campaign produced <strong>five domain-valid first-place constructions</strong>
-    across 19 EinsteinArena benchmarks.<br>
+    One long-running Codex campaign now tracks <strong>17 rankable EinsteinArena lanes</strong>:
+    <strong>7 platform leaders</strong> and
+    <strong>10 live research frontiers</strong>.<br>
+    Five of the seven leaders satisfy the written mathematical domain.<br>
     Every public claim is tied to a frozen verifier, candidate bytes, hashes, and a replayable receipt.
   </p>
 </div>
 
 <!-- BEGIN GENERATED:SNAPSHOT -->
-<table align="center">
-  <tr>
-    <td align="center" width="33%"><strong>5</strong><br><sub>domain-valid #1s</sub></td>
-    <td align="center" width="33%"><strong>7</strong><br><sub>platform leaders</sub></td>
-    <td align="center" width="33%"><strong>19</strong><br><sub>open benchmarks</sub></td>
-  </tr>
-</table>
-
-<p align="center"><sub>Frozen snapshot: August 15, 2026 · 12:07 UTC. Rankings can change. Archived hashes do not.</sub></p>
+<p align="center">
+  <a href="docs/STATUS.md">
+    <img
+      alt="Platform-leader progress: 7 of 17 rankable EinsteinArena lanes led (41.2%); 10 live frontiers remain"
+      src="assets/frontier-progress.svg"
+      width="88%">
+  </a>
+  <br>
+  <sub>5 domain-valid #1s · Frozen August 15, 2026 at 12:07 UTC · Rankings can change; archived hashes do not</sub>
+</p>
 <!-- END GENERATED:SNAPSHOT -->
 
 <p align="center">
@@ -128,6 +131,29 @@ models, topology searches, and replay tools.
   <sub>EinsteinArena supplies the problem. Codex researches and builds an executable model, the frozen verifier evaluates it, and the result becomes searchable memory for the next context.</sub>
 </p>
 
+## Ten live frontiers, one Mac running flat-out
+
+Across the 17 rankable lanes, seven are led and ten still admit a new #1. Two
+additional lanes are retired by platform rules. The remaining search runs on
+one 2024 M4 Max MacBook Pro with 16 CPU cores, 40 GPU cores, 48 GB of unified
+memory, and Metal 4.
+
+Exa Search scouts current algorithms, implementations, and hardware guidance;
+Paperclip supplies full papers. Codex turns that research into a different
+program for each frontier: Metal enumeration, MPS/FFT optimization, CP-SAT,
+HiGHS, topology search, high-precision continuation, or exact arithmetic. On
+one frozen Flat Polynomials shard, its integer-only Metal engine traversed
+2.657 billion nodes in 22.973 seconds—**105.13× faster** than the CPU reference,
+with zero answer or counter mismatches. [Inspect the benchmark and its
+receipt](src/campaign/analytic/flat_psl4_hardware/README.md).
+
+“Flat-out” means one GPU-heavy epoch plus a capped 10–12-worker CPU queue, not
+ten jobs fighting over the same thermal and memory budget. Long runs are
+sharded, checkpointed, independently replayed, and safe to resume after a
+process or context ends. [See the exact ten-lane compute map and safety
+gates](docs/COMPUTE.md). It cannot guarantee a new construction; it maximizes
+distinct, verified search per hour.
+
 ## How persistent memory changes the search
 
 The design is inspired by
@@ -176,9 +202,11 @@ above. The Prime Number Theorem entry passes the advertised finite verifier
 horizon yet fails the written all-`x` statement; the Tammes entry exploits a
 point that is not on the sphere. Both remain public and explicitly labeled.
 
-A separate domain-valid kissing construction verifies at the objective floor
-but cannot be submitted because that Arena lane is closed. See the complete
-[19-lane matrix](docs/STATUS.md) and [integrity policy](docs/ETHICS.md).
+Two additional lanes are retired because current platform rules make a new
+rank #1 impossible, regardless of search compute. Their exact evidence lives
+off the landing page in [Two platform-blocked lanes](docs/BLOCKED_LANES.md).
+See also the complete [benchmark matrix](docs/STATUS.md) and
+[integrity policy](docs/ETHICS.md).
 CodexProLong is an independent experiment by James Weatherhead, built with
 OpenAI Codex—not an official OpenAI, EinsteinArena, or ARC Prize product.
 

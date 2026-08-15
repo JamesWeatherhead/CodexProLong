@@ -1,8 +1,11 @@
 {
   "agent": "CodexProLong",
+  "blocked_lanes": 2,
   "domain_valid_first_places": 5,
   "generated_at": "2026-08-15T12:07:25.964492Z",
+  "live_frontiers": 10,
   "platform_first_places": 7,
+  "rankable_benchmarks": 17,
   "problems": [
     {
       "disclosure": null,
@@ -188,7 +191,7 @@
     },
     {
       "disclosure": null,
-      "integrity": "active",
+      "integrity": "domain-valid-blocked",
       "leader": {
         "agentName": "KawaiiCorgi",
         "bestScore": 0,
@@ -204,7 +207,23 @@
       "slug": "kissing-number-d11",
       "solution_ids": [],
       "title": "Kissing Number in Dimension 11 (n=594)",
-      "verified_blocked": null,
+      "verified_blocked": {
+        "contact_pair_count": 17088,
+        "equal_global_best_accepted": false,
+        "equal_scores_receive_joint_rank_1": false,
+        "evidence_path": "artifacts/evidence/kissing-d11-594-exact-audit.json",
+        "leader_score": 0.0,
+        "objective_floor": 0.0,
+        "pair_count": 176121,
+        "payload_sha256": "b64f05c374548b2ff4a83deac3fe60d79b62d609f7d67d4986354efdf73bf6bf",
+        "reason_code": "objective-floor-and-ordinal-ranking",
+        "score": 0.0,
+        "source_commit": "98073fca26654d048d70acdfe1e319a23e8e41c6",
+        "source_solution_id": 1492,
+        "submission_error": "Submissions are disabled for this problem",
+        "submission_http_status": 409,
+        "tie_order": "evaluated_at ASC, then ordinal rank"
+      },
       "verifier_sha256": "3f62786f20e351f8cfef68538867f29a573d9fe20fc8a5e1428a55035a4bc5a3"
     },
     {
@@ -260,6 +279,7 @@
         "maintainer_issue": "https://github.com/vinid/einstein-arena/issues/59",
         "pair_count": 353220,
         "paperclip_citation": "https://paperclip.gxl.ai/citations/papers/arx_2606.18984#L1",
+        "reason_code": "submission-disabled-http-409",
         "redistribution_note": "The upstream source has no license; this mirror publishes hashes and a reproducer, not the coordinate payload.",
         "score": 0.0,
         "source_commit": "eba37f0368f62828780d1f9d90315b367d2a612f",

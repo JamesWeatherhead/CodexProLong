@@ -12,6 +12,10 @@ We label each claim as one of:
 - **verifier-valid only** — accepted by evaluator code but violates or escapes
   the written domain;
 - **local frontier** — improves our artifact but does not clear the live gate;
+- **platform-blocked / retired** — a new rank #1 is impossible under the
+  deployed submission or ranking semantics, so the lane remains in the full
+  inventory but receives no search compute and is excluded from the live
+  frontier count;
 - **negative result** — a bounded, reproducible search that found no candidate.
 
 The Tammes-50 platform first place is deliberately labeled verifier-valid only.
@@ -28,6 +32,12 @@ The public global audit preserves both counterexamples and a weak-duality proof
 that no coefficient-only repair on the same support can keep the historical
 winning score. We therefore do not count PNT among the domain-valid first
 places.
+
+The legacy kissing-number d11/594 and d12/841 lanes are platform-blocked for
+different reasons. The former already has an earlier exact score-zero holder
+and ordinal tie ranking; the latter has a verified score-zero candidate but a
+disabled submission endpoint. Their exact evidence and reopening conditions
+are kept in [BLOCKED_LANES.md](BLOCKED_LANES.md).
 
 The controller now forbids submission unless both `--confirm-domain-valid` and
 `--confirm-submit` are present. A separate Edges-vs-Triangles schema mismatch

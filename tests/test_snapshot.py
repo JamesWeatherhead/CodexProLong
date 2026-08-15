@@ -80,6 +80,24 @@ class SnapshotTests(unittest.TestCase):
                     "our_rank": None,
                     "verifier_sha256": MODULE.VERIFIED_BLOCKED["kissing-number-d12"]["verifier_sha256"],
                 },
+                "kissing-number-d11": {
+                    "title": "Kissing d11",
+                    "scoring": "minimize",
+                    "minImprovement": 0,
+                    "leader": {"agentName": "Other", "bestScore": 0.0, "rank": 1, "submissions": 1},
+                    "our_entry": None,
+                    "our_rank": None,
+                    "verifier_sha256": MODULE.VERIFIED_BLOCKED["kissing-number-d11"]["verifier_sha256"],
+                },
+                "live-problem": {
+                    "title": "Live",
+                    "scoring": "maximize",
+                    "minImprovement": 1e-8,
+                    "leader": {"agentName": "Other", "bestScore": 1.0, "rank": 1, "submissions": 1},
+                    "our_entry": None,
+                    "our_rank": None,
+                    "verifier_sha256": "d" * 64,
+                },
             },
         }
         result = MODULE.public_frontier(latest)
@@ -89,9 +107,29 @@ class SnapshotTests(unittest.TestCase):
             row for row in result["problems"] if row["slug"] == "prime-number-theorem"
         )
         self.assertEqual(numerical["integrity"], "numerical-certificate")
-        blocked = next(row for row in result["problems"] if row["slug"] == "kissing-number-d12")
-        self.assertEqual(blocked["integrity"], "domain-valid-blocked")
-        self.assertEqual(blocked["verified_blocked"]["score"], 0.0)
+        blocked = {
+            row["slug"]: row
+            for row in result["problems"]
+            if row["integrity"] == "domain-valid-blocked"
+        }
+        self.assertEqual(set(blocked), {"kissing-number-d11", "kissing-number-d12"})
+        self.assertEqual(
+            blocked["kissing-number-d11"]["verified_blocked"]["reason_code"],
+            "objective-floor-and-ordinal-ranking",
+        )
+        self.assertEqual(blocked["kissing-number-d12"]["verified_blocked"]["score"], 0.0)
+        self.assertEqual(result["blocked_lanes"], 2)
+        self.assertEqual(result["live_frontiers"], 1)
+        self.assertEqual(result["rankable_benchmarks"], 4)
+        status = MODULE.status_markdown(result)
+        self.assertIn("score floor reached; later ties cannot rank #1", status)
+        self.assertIn("score `0` verified; submissions disabled", status)
+        self.assertIn("BLOCKED_LANES.md", status)
+        self.assertEqual(
+            MODULE.snapshot_summary(result, 123),
+            "snapshot OK: 3/4 rankable lanes led, 1 domain-valid leaders, "
+            "1 live frontiers, 2 blocked, 123 mirrored files",
+        )
 
     def test_frontier_receipt_keeps_binary_artifact_suffix(self) -> None:
         source = Path("/tmp/campaign")

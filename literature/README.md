@@ -116,7 +116,7 @@ clipboard paths. It is a direct-citation packet, not a Paperclip repository.
 | `second-autocorrelation-inequality` | Run high-resolution projected Adam with noise, elitist respawn, upsampling, and explicit spike/comb initialization [1, 3]. |
 | `third-autocorrelation-inequality` | Treat the maximum convolution lag as an active bundle, use peak-switching basin hops, and test coarse SDP/rank-one topology seeds before exact high-resolution polishing [1, 3, 15, 16, 17]. |
 | `min-distance-ratio-2d` | Share heuristics across nearby \((d,n)\) instances, normalize similarity degrees of freedom, then polish the active diameter/contact graph [1]. |
-| `kissing-number-d11` | Optimize finite vector configurations, then exactify a sufficiently accurate zero-loss candidate; preserve reusable subcodes and share partial constructions [1, 10]. |
+| `kissing-number-d11` | Retired platform lane: preserve the exact score-zero audit and monitor only for a ranking-policy change [1, 10]. |
 | `prime-number-theorem` | Combine truncated Möbius structure with periodic Chebyshev--Sylvester schemes, smoothly tapered log-scale density, and nested Rosser--Iwaniec prime-factor support families, then require exact fixed-stream and analytic floor-sum checks [1, 18, 19, 20]. |
 | `uncertainty-principle` | Search Laguerre/Hermite Fourier-eigenfunction families through prescribed double roots, while testing the paper's warning that the best profile may be nonanalytic [1, 9]. |
 | `thomson-problem` | Seed nearly uniform spherical configurations, alternate gradient and stochastic perturbations, and use asymptotic energy residuals to compare basins [1]. |
@@ -127,7 +127,7 @@ clipboard paths. It is a direct-citation packet, not a Paperclip repository.
 | `heilbronn-triangles` | Use barycentric symmetry breaking, active signed-area constraints, lattice seeds, and fixed-sign MIQCP/MINLP branch-and-bound certificates; the newer exact-coordinate workflow is certified only through \(n\leq 9\), so it supplies machinery rather than an \(n=11\) construction [1, 4, 5, 12, 13, 14]. |
 | `circles-rectangle` | Jointly optimize rectangle aspect ratio and the active tangency graph, reusing fixed-center radius optimization and topology-changing void moves from square circle packing [1, 11, 12]. |
 | `difference-bases` | Seed Singer difference sets, then perform deficit-aware swaps while maintaining a fast difference-multiplicity table [1, 2]. |
-| `kissing-number-d12` | Archived target: retain the documented 60+60+720 block/bridge decomposition and 48-system flexibility as the reproducible explanation for the 841 construction [8]. |
+| `kissing-number-d12` | Retired platform lane: preserve the verified score-zero construction and monitor issue #59 for endpoint reopening [8]. |
 | `kissing-number-d11-605` | Build on collaborative 11-dimensional subcodes, optimize with structural perturbations, and require exact integer verification at the end [1, 10]. |
 | `kissing-number-d12-842` | Start inside the 840/841 structured family, perturb the flexible 48-systems under logarithmic Riesz energy, then search for an exactifiable 842nd-vector rearrangement [7, 8]. |
 

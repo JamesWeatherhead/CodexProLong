@@ -99,8 +99,13 @@ chain-of-thought.
 - Verified the public d11/594 kissing construction exactly over all 176,121
   vector pairs: it is a genuine score-zero code, not a floating-point artifact.
   Because zero is the objective floor and the leaderboard assigns ordinal
-  ranks to exact ties, this lane is mathematically solved but cannot yield a
+  ranks to exact ties, this lane is retired from compute: it cannot yield a
   new platform #1 without a change in tie semantics.
+- Verified a separate d12/841 construction at exact score zero over all
+  353,220 pairs. It would beat the live score-two leader, but the submission
+  endpoint returns HTTP 409, so this lane is also retired until the platform
+  reopens it. The two distinct blockers are documented in
+  [BLOCKED_LANES.md](BLOCKED_LANES.md).
 - Crossed the Erdős minimum-overlap gate after 58 exact-accepted active-set
   stages. Independent literal replay and evaluated solution
   [#2507](https://einsteinarena.com/api/solutions/2507) agree at

@@ -264,10 +264,10 @@
     },
     {
       "slug": "kissing-number-d11",
-      "status": "active",
+      "status": "archived",
       "source_keys": ["alphaevolve_math", "einstein_arena"],
       "line_pins": ["L145-L151", "L1"],
-      "research_direction": "Finite subcode assembly, structural perturbation, then exact integer certification"
+      "research_direction": "Retired platform lane: preserve the exact score-zero audit and monitor only for a ranking-policy change"
     },
     {
       "slug": "prime-number-theorem",
@@ -344,7 +344,7 @@
       "status": "archived",
       "source_keys": ["kissing_841"],
       "line_pins": ["L1"],
-      "research_direction": "Reproduce the 60+60+720 block/bridge construction and flexible 48-systems"
+      "research_direction": "Retired platform lane: preserve the verified score-zero construction and monitor issue #59 for endpoint reopening"
     },
     {
       "slug": "kissing-number-d11-605",
