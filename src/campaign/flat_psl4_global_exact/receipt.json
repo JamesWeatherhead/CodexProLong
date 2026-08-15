@@ -1,0 +1,65 @@
+{
+  "version": 1,
+  "generated_at": "2026-08-15T06:58:34Z",
+  "status": "exact_single_task_architecture_benchmark",
+  "claim_scope": {
+    "proved": "Three exact search architectures return the same canonical length-70 PSL-4 class on one fixed split-depth-12 task; the bit-parallel hybrid is fastest on the recorded machine.",
+    "not_proved": "The full 730810-task global enumeration is not complete, and the measured speed ratio is not asserted for every task."
+  },
+  "problem": {
+    "sequence_length": 70,
+    "maximum_peak_sidelobe": 4,
+    "split_depth": 12,
+    "global_task_count": 730810,
+    "benchmarked_task_index": 351916,
+    "canonical_answer": "0000011100001011111111110101001010111100110011001101010110010110010110"
+  },
+  "result": {
+    "raw_seconds": 82.2746,
+    "hybrid_seconds": 76.8479,
+    "prior_strong_seconds": 103.699,
+    "hybrid_speedup_over_raw": 1.0706161131273595,
+    "hybrid_speedup_over_prior_strong": 1.3494057742631875,
+    "raw_to_hybrid_node_reduction": 143.67165505484235,
+    "hybrid_nodes": 82824482,
+    "hybrid_exact_checks": 182221485,
+    "hybrid_exact_prunes": 100048090
+  },
+  "reproduction": {
+    "build": "clang++ -std=c++20 -O3 -Wall -Wextra -Wpedantic campaign/flat_psl4_global_exact/psl4_popcount.cpp -o /tmp/psl4_hybrid",
+    "self_test": "/tmp/psl4_hybrid --self-test",
+    "hybrid": "/tmp/psl4_hybrid --split-depth 12 --threads 1 --max-tasks 1 --near-bits 1001011001011001010100110011001100001010110101000000000010111100011111 --strong-switch-depth 24 --strong-exact-stride 1 --journal /tmp/psl4-hybrid.tsv",
+    "raw": "/tmp/psl4_hybrid --split-depth 12 --threads 1 --max-tasks 1 --near-bits 1001011001011001010100110011001100001010110101000000000010111100011111 --journal /tmp/psl4-raw.tsv"
+  },
+  "environment": {
+    "operating_system": "Darwin 25.5.0 arm64",
+    "cpu": "Apple M4 Max",
+    "logical_cpus": 16,
+    "memory_bytes": 51539607552,
+    "compiler": "Apple clang 21.0.0",
+    "parallel_threads": 1
+  },
+  "files": {
+    "psl4_popcount.cpp": "2ecfcba9ce4384515b5c255c4166f2b559ba18ac3e1c9b1ab6d099b4878c6879",
+    "README.md": "e4069e74f58ee98f09f775ae5117a0f7ba7b4d603277ad6eb8ff3ad9c4500860",
+    "HANDOFF.md": "42af4f464c9b15b9a63c651f9886cb26c635a17d0adee43f8463d6538d969ffe",
+    "literature.json": "7bdf056e72ed8de200bd90e55b82bfd3b11eb2b08e53f88b4b9633833dada228",
+    "benchmarks.json": "a7f163881057da9291330423c8d3dae9d599efcd9602217d18e00f4b88d0a3cd",
+    "runs/benchmark-hybrid-d24.tsv": "28759adfd82b4a922977d143a1df7755a7f7541a55491d3eb9b306de926a1a96",
+    "runs/benchmark-prior-strong.tsv": "6670e5b381c71f2f06a823c5daa7d469107a2a9ee567ff5353d605b8110c788d",
+    "runs/benchmark-raw.tsv": "8647a85cbf78fad2c2b7d88e109817c05737eb41f7ce6f913e1929cfb78f4c2d"
+  },
+  "research_provenance": {
+    "paperclip_used": true,
+    "exa_used": true,
+    "credentials_persisted": false,
+    "embedded_public_reference_sequences": 3,
+    "reference_sequence_use": "Attributed 70-bit correctness fixtures only; they do not seed or prune enumeration.",
+    "third_party_sequence_table_included": false
+  },
+  "external_writes": {
+    "einstein_arena": false,
+    "github": false,
+    "issues_or_discussions": false
+  }
+}

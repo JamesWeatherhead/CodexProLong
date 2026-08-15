@@ -1,0 +1,162 @@
+{
+  "canonical_run": "runs/20260815T064800Z-sliding-support",
+  "external_writes": {
+    "arena_post_or_reply": false,
+    "arena_submission": false,
+    "arena_vote": false,
+    "github_commit": false,
+    "github_issue_or_pr": false,
+    "github_push": false
+  },
+  "generated_at_utc": "2026-08-15T06:55:34Z",
+  "local_replay_payload_sha256": {
+    "runs/20260815T064800Z-sliding-support/best_topology.npy": "be31cf7b2c139998c468097346f9c7f9feac25a87cfbfd921518faed2a39a424",
+    "runs/20260815T064800Z-sliding-support/retained.npy": "fa8b06ad1c6ecade067a1bfe5fd86f207c9dfd026e7af6299f40b359497b5408",
+    "runs/20260815T064800Z-sliding-support/seed.npy": "b122a49ed64b07217948baa2119e28efe81e8179fd7f9e97da5e3717fea257bd"
+  },
+  "method": {
+    "accepted": 0,
+    "certificate_births_per_spec": 1,
+    "configurations_per_spec": 8,
+    "evaluations": 64,
+    "genuine_topology_definition": {
+      "material_threshold": 5.035052906511295e-14,
+      "minimum_l1_moved_fraction": 1e-06,
+      "minimum_material_births": 1,
+      "minimum_material_support_xor": 2
+    },
+    "genuine_topology_evaluations": 56,
+    "gradient_check": {
+      "epsilon": 1e-06,
+      "maximum_absolute_error": 6.755649995578844e-10
+    },
+    "movable_incumbent_counts": [
+      4,
+      8
+    ],
+    "name": "certificate-guided native support insertion plus joint packet relocation",
+    "packet_widths": [
+      65,
+      257,
+      1025,
+      5455
+    ],
+    "trial_specs": 8
+  },
+  "outcome": {
+    "best_genuine_topology": {
+      "candidate_values_sha256": "07dcd3b995b68a75eb078b07e9efa57b2024c379027ba392c6c0e8703774c991",
+      "configuration": "insert_only_floor_1e-06",
+      "evaluation": 50,
+      "gain_from_seed": -5.534729460754395e-05,
+      "gap_to_gate": 6.533857973678447e-05,
+      "movable_incumbents": 4,
+      "packet_width": 5455,
+      "score": 0.9635327720022921,
+      "topology": {
+        "l1_moved_fraction": 8.03385930279921e-06,
+        "material_births": 92,
+        "material_deaths": 0,
+        "material_support_xor": 92
+      }
+    },
+    "best_joint_relocation": {
+      "candidate_values_sha256": "4be0ab155a0cd57a4bf2cdc1adb841e01de1bb30c900dd995b0c90ddb5b49306",
+      "configuration": "joint_all_scale_1_floor_1e-06",
+      "evaluation": 21,
+      "gain_from_seed": -0.0032419073223354244,
+      "gap_to_gate": 0.003251898607464665,
+      "movable_incumbents": 4,
+      "packet_width": 257,
+      "score": 0.9603462119745643,
+      "topology": {
+        "l1_moved_fraction": 0.0026490495535611285,
+        "material_births": 42,
+        "material_deaths": 21,
+        "material_support_xor": 63
+      }
+    },
+    "best_overall": {
+      "candidate_values_sha256": "14f0cb8fd8f673c6cf7b709177ff4a788bb81c0e0a8bac3f3f747c58d82ed9f6",
+      "classification": "fails_predeclared_genuine_topology_threshold",
+      "evaluation": 57,
+      "gain_from_seed": 3.1775249098586755e-11,
+      "gap_to_gate": 9.991253353991425e-06,
+      "inserted_mass_fraction_before_global_normalization": 1.6111592554725864e-11,
+      "score": 0.9635881193286749,
+      "topology": {
+        "l1_moved_fraction": 4.116340084940196e-11,
+        "material_births": 22,
+        "material_deaths": 0,
+        "material_support_xor": 22
+      }
+    },
+    "gate_cleared": false,
+    "seed": {
+      "gap_to_gate": 9.991285129240524e-06,
+      "score": 0.9635881192968997,
+      "values_sha256": "8ad79d6fa04b566b852138709d959df928a7ec7cd36143d03a80901c1b485e34"
+    }
+  },
+  "problem": {
+    "frozen_corpus_sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb",
+    "minimum_improvement": 1e-05,
+    "public_leader": 0.963588110582029,
+    "scoring": "maximize",
+    "slug": "second-autocorrelation-inequality",
+    "strict_gate": 0.9635981105820289,
+    "verifier_sha256": "dc5ccffaa20ba6c112cab36ffe602c657372d192d8b486abd66b14bcad1ca768"
+  },
+  "publication_boundary": {
+    "exclude": [
+      "runs/SMOKE/**",
+      "runs/20260815T064500Z-sliding-support/**",
+      "runs/**/*.npy",
+      "__pycache__/**",
+      "*.pyc",
+      "*.tmp"
+    ],
+    "include": [
+      ".gitignore",
+      "README.md",
+      "HANDOFF.md",
+      "literature.json",
+      "receipt.json",
+      "search.py",
+      "replay.py",
+      "runs/20260815T064800Z-sliding-support/events.jsonl",
+      "runs/20260815T064800Z-sliding-support/gradient_check.json",
+      "runs/20260815T064800Z-sliding-support/independent_replay.json",
+      "runs/20260815T064800Z-sliding-support/input_manifest.json",
+      "runs/20260815T064800Z-sliding-support/specs.json",
+      "runs/20260815T064800Z-sliding-support/summary.json"
+    ],
+    "reason": "Smoke and the aborted pre-canonical run are noncanonical. NumPy arrays are large, and the frozen seed inherits SimpleTES/AGPL-derived provenance requiring separate licensing review."
+  },
+  "publish_safe_sha256": {
+    ".gitignore": "4bb73cf4336425efa00a30f94f8994bed91228a4ec443b57115cc74c3d0180ce",
+    "HANDOFF.md": "f6006f186c3ff368c4dd397019dc4a2d00344978498dc632fda104b222916254",
+    "README.md": "d35eebdf4730513db86af47963236c5bcebdcfb045b34b97fbe360038a9017ca",
+    "literature.json": "4903dd57a08f5013679127df423e1b86a4a29eb44de530b85fb864effc399e44",
+    "replay.py": "6c1abcc380838724358220d6b48c6c8f6ac9f7a1afcdefd2dc2eff10a7109492",
+    "runs/20260815T064800Z-sliding-support/events.jsonl": "1137899ce76a8f3b38333d2f3533d3c47c0a1fef7bab613ae84b6cc92f38be71",
+    "runs/20260815T064800Z-sliding-support/gradient_check.json": "3d6b097fefd4c3b8a9768e57edb2fed3c8c09f5cccf081565a75a63536887543",
+    "runs/20260815T064800Z-sliding-support/independent_replay.json": "0d6c208556b00bb32bd1306f0e7fd9e79b693a252987d236949fee3ab4ac0b21",
+    "runs/20260815T064800Z-sliding-support/input_manifest.json": "1f97d03ecc265b5f2d6e452a04b348ce634ac6cf7acf97814107e17d07924c6b",
+    "runs/20260815T064800Z-sliding-support/specs.json": "af5d2005a617b97ccb2bdf2f2caa09c1cc138a4f90ebbaa96ae29ee189fb516b",
+    "runs/20260815T064800Z-sliding-support/summary.json": "fd1e1b4e08f8796b6007b0f4a36fde2af3d4f03931dda2c9b9e2488dd4548161",
+    "search.py": "aed05a71c39ed302625790865ab9c9d51eebab060a441054ea3c9e6803141f62"
+  },
+  "replay": {
+    "append_only_behavior": "creates independent_replay.json only if absent; otherwise verifies exact bytes without overwrite",
+    "candidate_hash_mismatches": 0,
+    "command": "cd /path/to/EinsteinArena && ./.venv/bin/python campaign/analysis/second_autocorrelation_sliding_support/replay.py --run campaign/analysis/second_autocorrelation_sliding_support/runs/20260815T064800Z-sliding-support",
+    "evaluation_replay_sha256": "0e2a77eeb63167c68a2214993796b27a26fabbc60261921b1634f0e5d20c7835",
+    "evaluations_replayed": 64,
+    "maximum_absolute_score_delta": 0.0,
+    "status": "PASS"
+  },
+  "status": "frozen_negative_frontier",
+  "submission_candidate": false,
+  "version": 1
+}

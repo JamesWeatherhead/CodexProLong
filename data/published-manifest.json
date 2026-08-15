@@ -31,9 +31,29 @@
       "sha256": "a9590bb9e123797db93017af6e915cd63cbad0bc19b12f6a5e83b78068a0b78f"
     },
     {
+      "bytes": 1049,
+      "path": "artifacts/evidence/c2-sliding-support-gradient-check.json",
+      "sha256": "3d6b097fefd4c3b8a9768e57edb2fed3c8c09f5cccf081565a75a63536887543"
+    },
+    {
+      "bytes": 2487,
+      "path": "artifacts/evidence/c2-sliding-support-independent-replay.json",
+      "sha256": "0d6c208556b00bb32bd1306f0e7fd9e79b693a252987d236949fee3ab4ac0b21"
+    },
+    {
+      "bytes": 6847,
+      "path": "artifacts/evidence/c2-sliding-support.json",
+      "sha256": "deeff94784e3a00d926577c01d443b020c1a19ac6dbb0e4c83717084c5ec6e56"
+    },
+    {
       "bytes": 27963,
       "path": "artifacts/evidence/c3-asset-recovery.json",
       "sha256": "eb30759a6d795fb318012c921163f48b906deaae150f48965b71f1620f1b0ba0"
+    },
+    {
+      "bytes": 3253,
+      "path": "artifacts/evidence/c3-precision-escape.json",
+      "sha256": "b2f2b101f9741bb5f7e79f5b347dfd601155b3cad86292bb2bce6e899cdfa994"
     },
     {
       "bytes": 6149,
@@ -79,6 +99,16 @@
       "bytes": 6148,
       "path": "artifacts/evidence/flat-psl4-exact-neighbourhood.json",
       "sha256": "6aa99eb25c9e1a3f797e9bbe4c3c08c72689918e5f247c4ee667ad227a1cb1fd"
+    },
+    {
+      "bytes": 1840,
+      "path": "artifacts/evidence/flat-psl4-global-hybrid-benchmarks.json",
+      "sha256": "ec29ba18a44005d298b422ddaa1d14913c9f897c9fa9d93fd6fd3ef6fe83648b"
+    },
+    {
+      "bytes": 2825,
+      "path": "artifacts/evidence/flat-psl4-global-hybrid.json",
+      "sha256": "a28e5679bfc8feddafb27d1511c087134c4c26a5936fc011ea5c849623d11d93"
     },
     {
       "bytes": 93116,
@@ -198,7 +228,7 @@
     {
       "bytes": 819328,
       "path": "artifacts/frontier/third-autocorrelation-inequality.npy",
-      "sha256": "c3af7761fd3cf1a9a812b1ed04219eb17ceb5821946990efbd6f09d4d31679bd"
+      "sha256": "39c72ab7147413ded04ee4af3c6a15a0d4d66a91e05102b1ad3edac9dba6d13e"
     },
     {
       "bytes": 26074,
@@ -206,9 +236,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 40413,
+      "bytes": 40745,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "22411d63372d3bf2d7480f006633ffa5584faf0578a66b7ca3bf7c82d5d911b3"
+      "sha256": "bec94b42024c25a37761a197cd9d3267d6be69530a3ffa14e11112418cfff160"
     },
     {
       "bytes": 715,
@@ -351,6 +381,71 @@
       "sha256": "c93cadae176e258d806eaae55c087cd987c7ccb488b8326e36320ffb44e6e5a4"
     },
     {
+      "bytes": 90,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/.gitignore",
+      "sha256": "4bb73cf4336425efa00a30f94f8994bed91228a4ec443b57115cc74c3d0180ce"
+    },
+    {
+      "bytes": 3482,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/HANDOFF.md",
+      "sha256": "f6006f186c3ff368c4dd397019dc4a2d00344978498dc632fda104b222916254"
+    },
+    {
+      "bytes": 5990,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/README.md",
+      "sha256": "d35eebdf4730513db86af47963236c5bcebdcfb045b34b97fbe360038a9017ca"
+    },
+    {
+      "bytes": 5846,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/literature.json",
+      "sha256": "4903dd57a08f5013679127df423e1b86a4a29eb44de530b85fb864effc399e44"
+    },
+    {
+      "bytes": 6863,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/receipt.json",
+      "sha256": "003eafe03856c7521360551151784b10568400a5508825b4f0cc6cade715078d"
+    },
+    {
+      "bytes": 14931,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/replay.py",
+      "sha256": "6c1abcc380838724358220d6b48c6c8f6ac9f7a1afcdefd2dc2eff10a7109492"
+    },
+    {
+      "bytes": 184209,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/runs/20260815T064800Z-sliding-support/events.jsonl",
+      "sha256": "1137899ce76a8f3b38333d2f3533d3c47c0a1fef7bab613ae84b6cc92f38be71"
+    },
+    {
+      "bytes": 1049,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/runs/20260815T064800Z-sliding-support/gradient_check.json",
+      "sha256": "3d6b097fefd4c3b8a9768e57edb2fed3c8c09f5cccf081565a75a63536887543"
+    },
+    {
+      "bytes": 2487,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/runs/20260815T064800Z-sliding-support/independent_replay.json",
+      "sha256": "0d6c208556b00bb32bd1306f0e7fd9e79b693a252987d236949fee3ab4ac0b21"
+    },
+    {
+      "bytes": 1162,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/runs/20260815T064800Z-sliding-support/input_manifest.json",
+      "sha256": "1f97d03ecc265b5f2d6e452a04b348ce634ac6cf7acf97814107e17d07924c6b"
+    },
+    {
+      "bytes": 12638,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/runs/20260815T064800Z-sliding-support/specs.json",
+      "sha256": "af5d2005a617b97ccb2bdf2f2caa09c1cc138a4f90ebbaa96ae29ee189fb516b"
+    },
+    {
+      "bytes": 8942,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/runs/20260815T064800Z-sliding-support/summary.json",
+      "sha256": "fd1e1b4e08f8796b6007b0f4a36fde2af3d4f03931dda2c9b9e2488dd4548161"
+    },
+    {
+      "bytes": 34047,
+      "path": "src/campaign/analysis/second_autocorrelation_sliding_support/search.py",
+      "sha256": "aed05a71c39ed302625790865ab9c9d51eebab060a441054ea3c9e6803141f62"
+    },
+    {
       "bytes": 3777,
       "path": "src/campaign/analytic/c2_global_topology/HANDOFF.md",
       "sha256": "01fde23a95fd4957a6f94a7ff00cc885584f7fb23512191f1787eb2f9c209c1f"
@@ -399,6 +494,31 @@
       "bytes": 8800,
       "path": "src/campaign/analytic/c2_secondary/tangent_packet_continuation.py",
       "sha256": "0a1f05a5299fc4feb34a838a35a9e3a6ba1febaa2d7332f24189b1cfba791a68"
+    },
+    {
+      "bytes": 3153,
+      "path": "src/campaign/analytic/c3_precision_escape/HANDOFF.md",
+      "sha256": "af6332c92f8699e1be4dd32a8d6bdb7cd56c7fccbf2496c6ccc3565df06c66c0"
+    },
+    {
+      "bytes": 592,
+      "path": "src/campaign/analytic/c3_precision_escape/README.md",
+      "sha256": "988187d6d312e5f587645c09b7bb616e5c7fa6ad427223b388346da570ac52b4"
+    },
+    {
+      "bytes": 3214,
+      "path": "src/campaign/analytic/c3_precision_escape/receipt.json",
+      "sha256": "460a711aa54e8c75704a48ab62e3ee9cf35f77771538d51aa5d2391170743e2f"
+    },
+    {
+      "bytes": 2760,
+      "path": "src/campaign/analytic/c3_precision_escape/replay_exact.py",
+      "sha256": "04cc782268395f2c849456d2bd9b34a62c1be4565498da7da8be3956c89f97da"
+    },
+    {
+      "bytes": 9612,
+      "path": "src/campaign/analytic/c3_precision_escape/topology_transplant.py",
+      "sha256": "1421e229345490618515db930e930bde5359caf0fe50962fb1c66cef59a259c4"
     },
     {
       "bytes": 2129,
@@ -1076,6 +1196,51 @@
       "sha256": "b4166b1e1617bf1093136b13bcc9dd048e96a57108c79e743e5e19249e4ada39"
     },
     {
+      "bytes": 1828,
+      "path": "src/campaign/flat_psl4_global_exact/HANDOFF.md",
+      "sha256": "42af4f464c9b15b9a63c651f9886cb26c635a17d0adee43f8463d6538d969ffe"
+    },
+    {
+      "bytes": 3566,
+      "path": "src/campaign/flat_psl4_global_exact/README.md",
+      "sha256": "e4069e74f58ee98f09f775ae5117a0f7ba7b4d603277ad6eb8ff3ad9c4500860"
+    },
+    {
+      "bytes": 1840,
+      "path": "src/campaign/flat_psl4_global_exact/benchmarks.json",
+      "sha256": "a7f163881057da9291330423c8d3dae9d599efcd9602217d18e00f4b88d0a3cd"
+    },
+    {
+      "bytes": 2715,
+      "path": "src/campaign/flat_psl4_global_exact/literature.json",
+      "sha256": "7bdf056e72ed8de200bd90e55b82bfd3b11eb2b08e53f88b4b9633833dada228"
+    },
+    {
+      "bytes": 40465,
+      "path": "src/campaign/flat_psl4_global_exact/psl4_popcount.cpp",
+      "sha256": "2ecfcba9ce4384515b5c255c4166f2b559ba18ac3e1c9b1ab6d099b4878c6879"
+    },
+    {
+      "bytes": 3195,
+      "path": "src/campaign/flat_psl4_global_exact/receipt.json",
+      "sha256": "8b98432369a45043683d1ce102ccdfca2563fc847f7a0be4635ec35907fea463"
+    },
+    {
+      "bytes": 146,
+      "path": "src/campaign/flat_psl4_global_exact/runs/benchmark-hybrid-d24.tsv",
+      "sha256": "28759adfd82b4a922977d143a1df7755a7f7541a55491d3eb9b306de926a1a96"
+    },
+    {
+      "bytes": 120,
+      "path": "src/campaign/flat_psl4_global_exact/runs/benchmark-prior-strong.tsv",
+      "sha256": "6670e5b381c71f2f06a823c5daa7d469107a2a9ee567ff5353d605b8110c788d"
+    },
+    {
+      "bytes": 140,
+      "path": "src/campaign/flat_psl4_global_exact/runs/benchmark-raw.tsv",
+      "sha256": "8647a85cbf78fad2c2b7d88e109817c05737eb41f7ce6f913e1929cfb78f4c2d"
+    },
+    {
       "bytes": 5309,
       "path": "src/campaign/flat_psl4_recovery/HANDOFF.md",
       "sha256": "0b1d888fafa1ff4efa818d8b08794f471c35d2b059d96fd1e5651389d458a8e6"
@@ -1651,5 +1816,5 @@
       "sha256": "8ffd7435d2c9f12d852c61e6f44ce77d0d64f7a51fdac12bf72b662b90b49c6c"
     }
   ],
-  "generated_at": "2026-08-15T05:35:52.339936Z"
+  "generated_at": "2026-08-15T07:00:35.244811Z"
 }

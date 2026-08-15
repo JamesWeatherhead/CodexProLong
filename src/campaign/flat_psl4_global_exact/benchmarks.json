@@ -1,0 +1,58 @@
+{
+  "version": 1,
+  "status": "single_task_architecture_benchmark_not_global_enumeration",
+  "problem": {
+    "length": 70,
+    "maximum_peak_sidelobe": 4,
+    "split_depth": 12,
+    "global_task_count": 730810,
+    "benchmarked_task_index": 351916
+  },
+  "environment": {
+    "operating_system": "Darwin 25.5.0 arm64",
+    "cpu": "Apple M4 Max",
+    "logical_cpus": 16,
+    "memory_bytes": 51539607552,
+    "compiler": "Apple clang 21.0.0",
+    "flags": "-std=c++20 -O3 -Wall -Wextra -Wpedantic",
+    "parallel_threads": 1
+  },
+  "near_bits": "1001011001011001010100110011001100001010110101000000000010111100011111",
+  "canonical_answer": "0000011100001011111111110101001010111100110011001101010110010110010110",
+  "architectures": {
+    "raw_popcount": {
+      "nodes": 11899530408,
+      "leaves": 6501699893,
+      "central_rejects": 6501699892,
+      "seconds": 82.2746,
+      "journal": "runs/benchmark-raw.tsv"
+    },
+    "prior_strong_exact": {
+      "source_sha256": "9ea5c950b687970051f74d858d279e1a65699dcad0c2b23b5c1eece6285b3046",
+      "task_index_in_pruned_partition": 326400,
+      "nodes": 82687840,
+      "cheap_prunes": 148015616,
+      "exact_prunes": 100047901,
+      "seconds": 103.699,
+      "journal": "runs/benchmark-prior-strong.tsv"
+    },
+    "bit_parallel_hybrid": {
+      "strong_switch_depth": 24,
+      "strong_exact_stride": 1,
+      "moment_depth": 0,
+      "nodes": 82824482,
+      "leaves": 101,
+      "central_rejects": 100,
+      "strong_cheap_prunes": 66160332,
+      "exact_checks": 182221485,
+      "exact_prunes": 100048090,
+      "seconds": 76.8479,
+      "journal": "runs/benchmark-hybrid-d24.tsv"
+    }
+  },
+  "derived": {
+    "hybrid_speedup_over_raw": 1.0706161131273595,
+    "hybrid_speedup_over_prior_strong": 1.3494057742631875,
+    "raw_to_hybrid_node_reduction": 143.67165505484235
+  }
+}

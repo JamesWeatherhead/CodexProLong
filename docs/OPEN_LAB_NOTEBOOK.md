@@ -58,6 +58,11 @@ chain-of-thought.
   material-support cells but scored `0.9625196080123224`, below the retained
   seed. The compact event journal, source hashes, and independent replayer are
   public, while large third-party-derived arrays remain local pending licensing.
+- Followed that multiscale campaign with 64 exact sliding-support experiments.
+  Fifty-six made genuine finite support-topology changes; none materially
+  improved the retained seed. The frozen replay reconstructs every candidate
+  byte-for-byte and prevents future contexts from repeating the same
+  relocation family.
 - Verified the public d11/594 kissing construction exactly over all 176,121
   vector pairs: it is a genuine score-zero code, not a floating-point artifact.
   Because zero is the objective floor and the leaderboard assigns ordinal
@@ -78,13 +83,24 @@ chain-of-thought.
   above five failed the literal Arena verifier because it emitted a negative
   radius. The public packet retains hashes and replay code, not third-party
   payload bytes.
+- Built a clean-room exact length-70 PSL-4 hybrid enumerator. On the same fixed
+  global task, grouped 128-bit path-parity bounds reduced the raw search from
+  11.90 billion to 82.82 million nodes and improved wall time by 6.60%; it was
+  also 25.89% faster than the prior strong exact implementation. This is an
+  architecture benchmark, not a claim that all 730,810 tasks are complete.
+- Extended the C3 numerical frontier through two exact-accepted sign-wall
+  crossings. After screening 14,333 deletions, 100,152 block transplants,
+  20,000 single walls, and 7,140 wall pairs, literal `numpy.convolve` replay
+  reached `1.4515653796072292`; the remaining gate gap is
+  `3.5157170224e-6`, so no submission was made.
 
 ## Current high-information lanes
 
 - **Flat polynomials:** archival recovery reconstructed three of 72 published
-  length-70 PSL-4 classes. An exact outside-in enumerator and independent SAT
-  encodings now target the missing finite class table; solver timeouts are
-  recorded as timeouts, never promoted to UNSAT claims.
+  length-70 PSL-4 classes. The new bit-parallel hybrid gives the fastest exact
+  architecture measured so far on the fixed global benchmark; the next durable
+  step is to distribute its complete 730,810-task journal rather than repeat
+  local or seed-neighbour searches.
 - **Heilbronn:** the former q=143 timeout cells and bounded two-label topology
   releases are closed. The next rational-mesh campaign must change denominator
   or topology rather than repeat those finite domains.
@@ -93,8 +109,8 @@ chain-of-thought.
   route must coordinate integer carry order directly rather than add more
   finite-group randomization or first-gap patch depth.
 - **Third autocorrelation:** boundary-cell topology changes plus exact
-  all-coordinate continuation reached `1.4515653850221024`; this is a genuine
-  new basin but remains about `3.52e-6` short of the gate.
+  all-coordinate continuation reached `1.4515653796072292`; this is a genuine
+  adjacent-orthant frontier but remains about `3.516e-6` short of the gate.
 - **Geometry contact recombination:** Exa/Paperclip asset recovery replayed 17
   primary-source constructions, then a bounded crossover lane covered 550
   canonical contact graphs in each of square packing, rectangle packing, and

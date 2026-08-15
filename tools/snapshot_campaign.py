@@ -70,7 +70,7 @@ FRONTIER_ARTIFACTS = {
     "heilbronn-triangles": "geometry/runs/20260814T231710Z/heilbronn-triangles/best.json",
     "min-distance-ratio-2d": "geometry/runs/20260814T231106Z/min-distance-ratio-2d/best.json",
     "second-autocorrelation-inequality": "analytic/c2_global_topology/runs/20260815T041000Z-terminal-split/best.npy",
-    "third-autocorrelation-inequality": "c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/best.npy",
+    "third-autocorrelation-inequality": "analytic/c3_precision_escape/runs/20260815T063056Z-39272/best.npy",
     "thomson-problem": "geometry/runs/20260814T234800Z/thomson-problem/best.json",
 }
 FROZEN_VERIFIER_SNAPSHOTS = {
@@ -93,6 +93,8 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "flat-psl4-printed-neighbours": "flat_psl4_recovery/printed_neighbour_screen.json",
     "flat-psl4-best-replay": "flat_psl4_recovery/receipts/best_printed_neighbor_n71_delete70.json",
     "flat-psl4-exact-neighbourhood": "flat_psl4_enumerator/receipt.json",
+    "flat-psl4-global-hybrid": "flat_psl4_global_exact/receipt.json",
+    "flat-psl4-global-hybrid-benchmarks": "flat_psl4_global_exact/benchmarks.json",
     "geometry-literature-asset-replays": "literature_asset_hunt/receipt.json",
     "geometry-literature-asset-sources": "literature_asset_hunt/sources.json",
     "geometry-secondary-circle-assets": "literature_asset_hunt/secondary_circle_assets.json",
@@ -112,6 +114,18 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
         "analysis/second_autocorrelation_global_multiscale/runs/"
         "20260815T062500Z-bundle/source_manifest.json"
     ),
+    "c2-sliding-support": (
+        "analysis/second_autocorrelation_sliding_support/receipt.json"
+    ),
+    "c2-sliding-support-independent-replay": (
+        "analysis/second_autocorrelation_sliding_support/runs/"
+        "20260815T064800Z-sliding-support/independent_replay.json"
+    ),
+    "c2-sliding-support-gradient-check": (
+        "analysis/second_autocorrelation_sliding_support/runs/"
+        "20260815T064800Z-sliding-support/gradient_check.json"
+    ),
+    "c3-precision-escape": "analytic/c3_precision_escape/receipt.json",
     "c3-asset-recovery": "c3_asset_recovery/receipt.json",
     "kissing-d11-594-exact-audit": "kissing_d11_594_audit/receipt.json",
     "heilbronn-q143-exact-support-closure": "geometry/heilbronn_q143_cegis/receipt.json",
@@ -134,7 +148,7 @@ METHODS = {
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Active-bundle sequential linear programming over n=3,584 coordinates crossed the strict 1e-7 gate after 58 exact-accepted stages. Independent literal replay and evaluated solution #2507 agree at 0.3808585748578584.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
-    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. A separate 20-source archival recovery reconstructed three of 72 published PSL-4 classes. The latest exact outside-in enumerator closed 72 seed-neighbour split subtrees and 4,338,836,968 DFS nodes, rediscovering only the three source symmetry classes; this is a bounded frontier, not a full length-70 enumeration.",
+    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. A separate 20-source archival recovery reconstructed three of 72 published PSL-4 classes. The newest clean-room exact hybrid combines outside-in XOR/popcount with a grouped path-parity bound; on one fixed global task it is 6.60% faster than raw popcount, 25.89% faster than the prior strong solver, and visits 143.67x fewer nodes than raw. The full 730,810-task enumeration remains open.",
     "heilbronn-triangles": "A 100-digit active root, 462 topology trials, and exact q=25 lattice closure are supplemented by exact q=143 and q=144..220 rational-mesh campaigns. The latest packet closes 72 distinct finite labeled domains: 18 by determinant upper bounds and 57 fresh uncapped SAT formulas, with no candidate. These are finite-domain no-gos, not global proofs. An independent Escher asset replay scored 0.03372654309850653, below the gate.",
     "kissing-number-d11": "An exhaustive exact-rational audit verifies public solution #1492 as a genuine 594-vector score-0 construction over all 176,121 pairs. Zero is the objective floor, and the live API assigns later exact ties ordinal ranks rather than joint first place.",
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
@@ -142,9 +156,9 @@ METHODS = {
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
     "min-distance-ratio-2d": "A 100-digit active root, 280 release/promote trials, and 550 canonical contact-graph recombinations all return the same micro-polished basin. A separate adjacent-cardinality topology campaign exact-replayed 214 births/deaths and found 153 corpus-novel contact graphs; the best novel graph remains 0.00577 worse, while the overall best gains only 2.35e-11 against a 1e-7 gate.",
     "prime-number-theorem": "Changed-reach cutting planes produce evaluated solution #2506 at 0.9976572852677297. An exact rational sweep covers every real state in the advertised verifier horizon; a global all-x proof remains open.",
-    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. A separate Paperclip/Exa-grounded multiscale search reconstructed 360 coordinated cross-basin support mosaics, including a 67,863-cell finite topology change; none beat the retained seed, leaving a 9.9913e-6 gate gap.",
+    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. Paperclip/Exa-grounded multiscale and sliding-support campaigns then reconstructed 360 coordinated mosaics plus 64 exact relocation paths; 56 sliding paths changed topology, but none improved the seed materially. The strict gate gap remains 9.9913e-6.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
-    "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation reach 1.4515653850221024, still 3.52e-6 short of the gate. A commit-pinned audit replayed 25 public artifacts and ten payloads; the best distinct seed was 0.00211008 worse, while the strongest high-resolution asset exactly duplicated public submissions.",
+    "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation now reach 1.4515653796072292. The latest lane screened 14,333 deletions, 100,152 block transplants, 20,000 single sign walls, and 7,140 wall pairs; two exact-accepted orthant crossings gained another 5.41e-9, leaving a 3.5157e-6 gate gap.",
     "thomson-problem": "A literature-grounded N=72 to N=282 split campaign enumerated 48 alternative defect-free source triangulations and realized 30 distinct defect-free N=282 initial graphs. Exact isomorphism replay shows all 30 releases return to the incumbent topology; the best score differs only by 1.46e-11 float dust and remains 9.99986e-7 short.",
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
 }
@@ -154,16 +168,16 @@ SOURCE_ENTRYPOINTS = {
     "difference-bases": "discrete/difference_global/HANDOFF.md",
     "edges-vs-triangles": "discrete/edges_vs_triangles/HANDOFF.md",
     "erdos-min-overlap": "analytic/erdos_global/HANDOFF.md",
-    "flat-polynomials": "flat_psl4_enumerator/HANDOFF.md",
+    "flat-polynomials": "flat_psl4_global_exact/HANDOFF.md",
     "heilbronn-triangles": "geometry/heilbronn_rational_mesh_global/HANDOFF.md",
     "kissing-number-d11": "kissing_d11_594_audit/README.md",
     "min-distance-ratio-2d": "geometry/min_distance_ratio_global_escape/HANDOFF.md",
     "kissing-number-d12": "geometry/kissing_d12/HANDOFF.md",
     "prime-number-theorem": "discrete/prime_number_theorem/HANDOFF.md",
     "second-autocorrelation-inequality": (
-        "analysis/second_autocorrelation_global_multiscale/HANDOFF.md"
+        "analysis/second_autocorrelation_sliding_support/HANDOFF.md"
     ),
-    "third-autocorrelation-inequality": "c3_asset_recovery/HANDOFF.md",
+    "third-autocorrelation-inequality": "analytic/c3_precision_escape/HANDOFF.md",
     "thomson-problem": "geometry/thomson_282_topology_escape/HANDOFF.md",
 }
 ROOT_SOURCE_FILES = (
@@ -202,6 +216,15 @@ ROOT_SOURCE_FILES = (
     "flat_psl4_enumerator/runs/near-leukhin-24.jsonl",
     "flat_psl4_enumerator/runs/near-dimitrov-24.jsonl",
     "flat_psl4_enumerator/runs/near-pslrk-24.jsonl",
+    "flat_psl4_global_exact/README.md",
+    "flat_psl4_global_exact/HANDOFF.md",
+    "flat_psl4_global_exact/psl4_popcount.cpp",
+    "flat_psl4_global_exact/literature.json",
+    "flat_psl4_global_exact/benchmarks.json",
+    "flat_psl4_global_exact/receipt.json",
+    "flat_psl4_global_exact/runs/benchmark-raw.tsv",
+    "flat_psl4_global_exact/runs/benchmark-hybrid-d24.tsv",
+    "flat_psl4_global_exact/runs/benchmark-prior-strong.tsv",
     "analysis/second_autocorrelation_global_multiscale/.gitignore",
     "analysis/second_autocorrelation_global_multiscale/README.md",
     "analysis/second_autocorrelation_global_multiscale/HANDOFF.md",
@@ -220,6 +243,38 @@ ROOT_SOURCE_FILES = (
         "analysis/second_autocorrelation_global_multiscale/runs/"
         "20260815T062500Z-bundle/summary.json"
     ),
+    "analysis/second_autocorrelation_sliding_support/.gitignore",
+    "analysis/second_autocorrelation_sliding_support/README.md",
+    "analysis/second_autocorrelation_sliding_support/HANDOFF.md",
+    "analysis/second_autocorrelation_sliding_support/literature.json",
+    "analysis/second_autocorrelation_sliding_support/receipt.json",
+    "analysis/second_autocorrelation_sliding_support/search.py",
+    "analysis/second_autocorrelation_sliding_support/replay.py",
+    (
+        "analysis/second_autocorrelation_sliding_support/runs/"
+        "20260815T064800Z-sliding-support/events.jsonl"
+    ),
+    (
+        "analysis/second_autocorrelation_sliding_support/runs/"
+        "20260815T064800Z-sliding-support/gradient_check.json"
+    ),
+    (
+        "analysis/second_autocorrelation_sliding_support/runs/"
+        "20260815T064800Z-sliding-support/independent_replay.json"
+    ),
+    (
+        "analysis/second_autocorrelation_sliding_support/runs/"
+        "20260815T064800Z-sliding-support/input_manifest.json"
+    ),
+    (
+        "analysis/second_autocorrelation_sliding_support/runs/"
+        "20260815T064800Z-sliding-support/specs.json"
+    ),
+    (
+        "analysis/second_autocorrelation_sliding_support/runs/"
+        "20260815T064800Z-sliding-support/summary.json"
+    ),
+    "analytic/c3_precision_escape/receipt.json",
 )
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = (
@@ -257,8 +312,9 @@ UNPUBLISHED_WORK_IN_PROGRESS = {
     Path("discrete/prime_number_theorem/tail_select_mip.py"),
 }
 UNPUBLISHED_SOURCE_PREFIXES = {
-    Path("analytic/c3_precision_escape"),
     Path("discrete/difference_exact_synthesis"),
+    Path("geometry/circle_packing_multicontact_precision"),
+    Path("geometry/rectangle_multicontact_precision"),
 }
 
 

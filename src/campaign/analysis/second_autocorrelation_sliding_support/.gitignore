@@ -1,0 +1,6 @@
+runs/SMOKE/
+runs/20260815T064500Z-sliding-support/
+runs/**/*.npy
+__pycache__/
+*.pyc
+*.tmp

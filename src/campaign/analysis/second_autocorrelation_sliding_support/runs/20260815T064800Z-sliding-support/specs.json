@@ -1,0 +1,538 @@
+[
+  {
+    "atoms": [
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 615725,
+        "template_start": 615725
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 764605,
+        "template_start": 764605
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 621179,
+        "template_start": 621179
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 664806,
+        "template_start": 664806
+      },
+      {
+        "initial_direction": 1,
+        "kind": "birth",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 1048456,
+        "template_start": 491424
+      }
+    ],
+    "certificate": 0.0013776518206878314,
+    "donor_start": 491424,
+    "movable_count": 4,
+    "oracle_rank": 0,
+    "potential_material_births": 8,
+    "target_start": 1048456,
+    "width": 65
+  },
+  {
+    "atoms": [
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 615725,
+        "template_start": 615725
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 764605,
+        "template_start": 764605
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 621179,
+        "template_start": 621179
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 664806,
+        "template_start": 664806
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 610282,
+        "template_start": 610282
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 770069,
+        "template_start": 770069
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 223690,
+        "template_start": 223690
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 819233,
+        "template_start": 819233
+      },
+      {
+        "initial_direction": 1,
+        "kind": "birth",
+        "length": 65,
+        "shift_bound": 16,
+        "target_start": 1048456,
+        "template_start": 491424
+      }
+    ],
+    "certificate": 0.0013776518206878314,
+    "donor_start": 491424,
+    "movable_count": 8,
+    "oracle_rank": 0,
+    "potential_material_births": 8,
+    "target_start": 1048456,
+    "width": 65
+  },
+  {
+    "atoms": [
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 615629,
+        "template_start": 615629
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 764509,
+        "template_start": 764509
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 621083,
+        "template_start": 621083
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 824601,
+        "template_start": 824601
+      },
+      {
+        "initial_direction": -1,
+        "kind": "birth",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 1074428,
+        "template_start": 491328
+      }
+    ],
+    "certificate": 0.0021517533450558066,
+    "donor_start": 491328,
+    "movable_count": 4,
+    "oracle_rank": 0,
+    "potential_material_births": 27,
+    "target_start": 1074428,
+    "width": 257
+  },
+  {
+    "atoms": [
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 615629,
+        "template_start": 615629
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 764509,
+        "template_start": 764509
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 621083,
+        "template_start": 621083
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 824601,
+        "template_start": 824601
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 223594,
+        "template_start": 223594
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 686525,
+        "template_start": 686525
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 924389,
+        "template_start": 924389
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 586927,
+        "template_start": 586927
+      },
+      {
+        "initial_direction": -1,
+        "kind": "birth",
+        "length": 257,
+        "shift_bound": 64,
+        "target_start": 1074428,
+        "template_start": 491328
+      }
+    ],
+    "certificate": 0.0021517533450558066,
+    "donor_start": 491328,
+    "movable_count": 8,
+    "oracle_rank": 0,
+    "potential_material_births": 27,
+    "target_start": 1074428,
+    "width": 257
+  },
+  {
+    "atoms": [
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 746142,
+        "template_start": 746142
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 615245,
+        "template_start": 615245
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 895146,
+        "template_start": 895146
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 764125,
+        "template_start": 764125
+      },
+      {
+        "initial_direction": 1,
+        "kind": "birth",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 1904388,
+        "template_start": 490944
+      }
+    ],
+    "certificate": 0.00454473986725369,
+    "donor_start": 490944,
+    "movable_count": 4,
+    "oracle_rank": 0,
+    "potential_material_births": 104,
+    "target_start": 1904388,
+    "width": 1025
+  },
+  {
+    "atoms": [
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 746142,
+        "template_start": 746142
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 615245,
+        "template_start": 615245
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 895146,
+        "template_start": 895146
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 764125,
+        "template_start": 764125
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 889685,
+        "template_start": 889685
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 824217,
+        "template_start": 824217
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 620699,
+        "template_start": 620699
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 686141,
+        "template_start": 686141
+      },
+      {
+        "initial_direction": 1,
+        "kind": "birth",
+        "length": 1025,
+        "shift_bound": 256,
+        "target_start": 1904388,
+        "template_start": 490944
+      }
+    ],
+    "certificate": 0.00454473986725369,
+    "donor_start": 490944,
+    "movable_count": 8,
+    "oracle_rank": 0,
+    "potential_material_births": 104,
+    "target_start": 1904388,
+    "width": 1025
+  },
+  {
+    "atoms": [
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 890288,
+        "template_start": 890288
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 822002,
+        "template_start": 822002
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 685409,
+        "template_start": 685409
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 618484,
+        "template_start": 618484
+      },
+      {
+        "initial_direction": 1,
+        "kind": "birth",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 1927700,
+        "template_start": 488729
+      }
+    ],
+    "certificate": 0.006032735112156879,
+    "donor_start": 488729,
+    "movable_count": 4,
+    "oracle_rank": 0,
+    "potential_material_births": 138,
+    "target_start": 1927700,
+    "width": 5455
+  },
+  {
+    "atoms": [
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 890288,
+        "template_start": 890288
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 822002,
+        "template_start": 822002
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 685409,
+        "template_start": 685409
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 618484,
+        "template_start": 618484
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 663555,
+        "template_start": 663555
+      },
+      {
+        "initial_direction": 1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 581598,
+        "template_start": 581598
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 783765,
+        "template_start": 783765
+      },
+      {
+        "initial_direction": -1,
+        "kind": "existing",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 723657,
+        "template_start": 723657
+      },
+      {
+        "initial_direction": 1,
+        "kind": "birth",
+        "length": 5455,
+        "shift_bound": 512,
+        "target_start": 1927700,
+        "template_start": 488729
+      }
+    ],
+    "certificate": 0.006032735112156879,
+    "donor_start": 488729,
+    "movable_count": 8,
+    "oracle_rank": 0,
+    "potential_material_births": 138,
+    "target_start": 1927700,
+    "width": 5455
+  }
+]
