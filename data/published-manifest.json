@@ -736,6 +736,106 @@
       "sha256": "0a1f05a5299fc4feb34a838a35a9e3a6ba1febaa2d7332f24189b1cfba791a68"
     },
     {
+      "bytes": 62,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/.gitignore",
+      "sha256": "4bf61bbbd3b44efb6fb84d7ad23974725a5a428497a007b992e8e5cbca3725c3"
+    },
+    {
+      "bytes": 3630,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/HANDOFF.md",
+      "sha256": "3ebcce985f59727f0c543fe771f65694dee157577b0f3fb4f0142197b9f496d3"
+    },
+    {
+      "bytes": 1115,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/LICENSE",
+      "sha256": "0a0af9a78dab61531bfa1b949152040e0f09f6bc12b87daea57b2487776646e6"
+    },
+    {
+      "bytes": 1644,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/PROVENANCE_AND_RIGHTS.md",
+      "sha256": "a5aece55a421c66a8ca2b8e30aeddb630b392669903dcdf9430ef358497cce2b"
+    },
+    {
+      "bytes": 9333,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/PUBLICATION_MANIFEST.json",
+      "sha256": "1627d7447b0622aa5d1c7da01e7dd18d562feee10f1eb54634f1b0e7bf268414"
+    },
+    {
+      "bytes": 2899,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/README.md",
+      "sha256": "145b164a3be639735effbdee852230cd20539fcda2ddda15473718bc59a50def"
+    },
+    {
+      "bytes": 9140,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/audit_corpus.py",
+      "sha256": "a28f8cea273c5186893dc27462e7b6d5893e2411949e214f2490e59e4bbaaac2"
+    },
+    {
+      "bytes": 22652,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/corpus_audit.json",
+      "sha256": "798bb1fec3d963c1c4287e4fdce147a63822ac741c9dcc499edd7b150de869de"
+    },
+    {
+      "bytes": 14653,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/fourier_dual_newton.py",
+      "sha256": "e1e2dae1e5046b46ba6e1f88c7942c9fada696ec7a3a320eb1466bff04a00306"
+    },
+    {
+      "bytes": 13467,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/freeze_receipt.py",
+      "sha256": "d974fca5b1ab2426f6e9d05fc2e140880773fe8aa93f5627bf926e99d40aba65"
+    },
+    {
+      "bytes": 3851,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/literature.json",
+      "sha256": "9404a97815710ceda6f605f87be71fb12dfc1932c1ad9a26078af16f3c7fde07"
+    },
+    {
+      "bytes": 5091,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/publication_selftest.py",
+      "sha256": "b3a40a0fa9284dcf1cb026726b8cad7df55863a42ec04690bb09a86003b3f951"
+    },
+    {
+      "bytes": 4673,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/receipt.json",
+      "sha256": "5df58217553f05d4b3fe5c1e6533a89df36a32a84d1f07bfac264d2329f2375c"
+    },
+    {
+      "bytes": 10986,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/replay.py",
+      "sha256": "98d4f5e82d237048d996fddc677dfb4ff5c7722a32793571441eaf965022e2b4"
+    },
+    {
+      "bytes": 27,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/requirements.txt",
+      "sha256": "cf4d1dc9a101f290fca565d8a6fb4f3ca3f1ada0912c93a81bf37f3fcdf20973"
+    },
+    {
+      "bytes": 615,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/runs/20260815T124000Z/config.json",
+      "sha256": "202d75520851d6abfe0cd686f555bffa45e9975025834da16c3e7a7ba2ff1d36"
+    },
+    {
+      "bytes": 3592,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/runs/20260815T124000Z/events.jsonl",
+      "sha256": "24e5754dffa4e2e12418eee6e10f7199151fa873fed15f9fcc7c04e17755d72e"
+    },
+    {
+      "bytes": 927,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/runs/20260815T124000Z/summary.json",
+      "sha256": "5407bdb7174175aa02bd3443a8667a3a6dfa75b82a58a6a2b7860ab14fd1e840"
+    },
+    {
+      "bytes": 1597,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/test_packet.py",
+      "sha256": "c1324ae471df226b51781a05321d3f81df8649eb9e903948e7cf90105b084110"
+    },
+    {
+      "bytes": 2270,
+      "path": "src/campaign/analytic/c3_fourier_dual_newton/test_publication.py",
+      "sha256": "39f1edfc6d9060ec4c679fbcc99aed3f751dc0f25fd98a9da3d36299f8ed1264"
+    },
+    {
       "bytes": 3153,
       "path": "src/campaign/analytic/c3_precision_escape/HANDOFF.md",
       "sha256": "af6332c92f8699e1be4dd32a8d6bdb7cd56c7fccbf2496c6ccc3565df06c66c0"

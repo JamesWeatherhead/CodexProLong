@@ -1,0 +1,72 @@
+{
+  "schema": 1,
+  "clean_room_boundary": {
+    "copied_code": false,
+    "copied_coefficients": false,
+    "statement": "Primary sources motivated the mathematics only. No third-party implementation or construction byte was copied into this lane."
+  },
+  "paperclip": {
+    "usage": "The complete Paperclip skill was loaded first. Full text was read directly with line addresses; no Paperclip repository or clipboard mutation was created.",
+    "sources": [
+      {
+        "authors": ["Aaron Jaech", "Alan Joseph"],
+        "title": "Further Improvements to the Lower Bound for an Autoconvolution Inequality",
+        "year": 2025,
+        "paperclip_id": "arx_2508.02803",
+        "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2508.02803#L19-L38",
+        "used_claims": [
+          "High-resolution upsampling can inherit a coarse local maximum.",
+          "The first and third autoconvolution objectives exhibit peak locking and rugged nonsmooth surfaces."
+        ],
+        "scope_limit": "The paper's main inequality is nonnegative and different from signed C3; it motivates diagnostics rather than transferring a bound."
+      },
+      {
+        "authors": ["Weiting Lin", "Yuwei Chang", "Borching Su"],
+        "title": "Unimodular Waveform Design that Minimizes PSL of Ambiguity Function over A Continuous Doppler Frequency Shift Region of Interest",
+        "year": 2025,
+        "paperclip_id": "arx_2504.06038",
+        "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2504.06038#L3,L95-L129",
+        "used_claim": "A related peak-sidelobe problem can be lifted to an SDP with a rank-one constraint and tightened sequentially.",
+        "scope_limit": "The retained campaign already tested a coarse SROCR rank lift, so this lane deliberately uses a factor-space Newton system instead."
+      },
+      {
+        "title": "Skip the Hessian, Keep the Rates: Globalized Semismooth Newton with Lazy Hessian Updates",
+        "year": 2026,
+        "paperclip_id": "arx_2602.08069",
+        "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2602.08069#L1",
+        "used_claim": "Semismooth Newton methods can reuse matrix-free generalized-Hessian information for nonsmooth optimization while retaining fast local convergence.",
+        "scope_limit": "No convergence theorem is claimed for the nonconvex signed C3 polynomial-square constraint."
+      }
+    ]
+  },
+  "exa": {
+    "usage": "Read-only primary-source discovery through the configured Exa CLI; credentials were not printed, logged, or copied.",
+    "requests": [
+      {
+        "request_id": "b43a77b10a3d1f1cbf07ba02b96f0218",
+        "purpose": "Discover primary semismooth-Newton, generalized-Hessian, and active-set minimax literature."
+      },
+      {
+        "request_id": "545c8948442776c21bfce017c0f5c93e",
+        "purpose": "Discover primary one-sided Chebyshev, spectral-factorization, and peak-sidelobe literature."
+      }
+    ],
+    "primary_sources": [
+      {
+        "title": "The Primal-Dual Active Set Strategy as a Semismooth Newton Method",
+        "url": "https://epubs.siam.org/doi/10.1137/S1052623401383558",
+        "use": "Method provenance only."
+      },
+      {
+        "title": "Generalised Hessian, max function and weak convexity",
+        "url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/04F918E87B5CAC38C86C399B9CEEA617/S0004972700016683a.pdf/generalised_hessian_max_function_and_weak_convexity.pdf",
+        "use": "Method provenance only."
+      },
+      {
+        "title": "On suprema of autoconvolutions with an application to Sidon sets",
+        "url": "https://www.ams.org/journals/proc/2017-145-08/S0002-9939-2017-13690-9/S0002-9939-2017-13690-9.pdf",
+        "use": "Problem-family provenance only; no bound was transferred to signed C3."
+      }
+    ]
+  }
+}

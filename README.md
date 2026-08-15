@@ -119,6 +119,15 @@ receipt, and bounded H100 continuation gates without pretending the pilot is a
 frontier candidate.
 [C2 forced-bundle population →](src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/HANDOFF.md)
 
+For C3, a separate clean-room lane attacks the polynomial-square minimax
+structure directly. It screens six coefficient-cap projections, 3,980
+frequencywise square-root branches, and four matrix-free generalized Newton
+systems with the full softmax covariance term. The largest diagnostic gain is
+only `2.30e-11` against a remaining `3.52e-6` gate gap, so the packet closes
+this bounded spectral/Newton route without calling truncation an exact causal
+factorization or preserving numerical noise as a candidate.
+[C3 Fourier-dual/Newton packet →](src/campaign/analytic/c3_fourier_dual_newton/HANDOFF.md)
+
 For Difference Bases, the latest exact closure removes a limitation shared by
 the earlier shell searches. Fix the leader's 90 residue classes modulo 8,011,
 but allow every residue column an arbitrary finite, nonempty subset of
@@ -269,6 +278,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧠 [C2 forced active-lag bundle population](src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/HANDOFF.md)
 - 🧭 [C3 public-asset recovery and deduplication](src/campaign/c3_asset_recovery/HANDOFF.md)
 - 🧭 [C3 exact sign-wall precision escape](src/campaign/analytic/c3_precision_escape/HANDOFF.md)
+- 🌊 [C3 Fourier-dual and generalized-Newton probe](src/campaign/analytic/c3_fourier_dual_newton/HANDOFF.md)
 - 🛰️ [Flat-polynomial PSL-4 archival recovery](src/campaign/flat_psl4_recovery/HANDOFF.md)
 - 🧮 [Exact 4.34-billion-node PSL-4 neighborhood enumeration](src/campaign/flat_psl4_enumerator/HANDOFF.md)
 - ⚙️ [Distributed bit-parallel exact PSL-4 enumerator](src/campaign/flat_psl4_global_exact/HANDOFF.md)

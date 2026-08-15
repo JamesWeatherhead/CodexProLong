@@ -171,7 +171,7 @@ METHODS = {
     "prime-number-theorem": "Changed-reach cutting planes produce platform #1 solution #2506 at 0.9976572852677297, but an exact all-x audit proves it is not a mathematical certificate: S(1)=1.000099989952235... and S(8,015,392)=106.150121507295.... A nonnegative exact weak dual bounds every assignment on the same 2,000-key support by 0.997625778304447..., below the historical gate. The strongest new globally certified periodic divisor support scores 0.970073558281127. The complete Bober height-one classification peaks at Chebyshev 0.921292022934091; a 23-point symbolic dual proves Chebyshev optimal over all nonnegative combinations of 5,200 sporadic atoms at dilations 1..100. An Exa/Paperclip-grounded sweep of 3,312,606 explicit height-2/3 lists and 52 smooth divisor lattices also fails to improve on Chebyshev. A fundamentally different support identity is required.",
     "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. Paperclip/Exa-grounded multiscale and sliding-support campaigns reconstructed 360 mosaics plus 64 relocation paths without material gain. A native-grid pilot established hardware behavior but scored only 0.3593416133285091. A separate clean-room spike-comb population forces competing active lags and improves on every one of 16 exact bundle steps, yet its N=4,095 pilot reaches only 0.7156018568597436. No C2 gate was cleared; the retained frontier remains 9.9913e-6 short, and further native-scale work is gated by the published H100 stop criteria.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
-    "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation now reach 1.4515653796072292. The latest lane screened 14,333 deletions, 100,152 block transplants, 20,000 single sign walls, and 7,140 wall pairs; two exact-accepted orthant crossings gained another 5.41e-9, leaving a 3.5157e-6 gate gap.",
+    "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation now reach 1.4515653796072292. The topology lane screened 14,333 deletions, 100,152 block transplants, 20,000 single sign walls, and 7,140 wall pairs. A separate clean-room Fourier-dual probe then tested six cap projections, 3,980 square-root branches, and four generalized Newton systems; its largest diagnostic gain was only 2.30e-11 against the remaining 3.5157e-6 gate gap. This closes a bounded spectral/Newton mechanism, not the global problem.",
     "thomson-problem": "A literature-grounded N=72 to N=282 split campaign enumerated 48 alternative defect-free source triangulations and realized 30 distinct defect-free N=282 initial graphs, all returning to the incumbent. A disjoint direct-N282 scar campaign then tested 49 deterministic mutation paths spanning 44 exact graph classes at two amplitudes: all 98 releases again returned to the incumbent topology. The best score differs only by float dust and remains 9.99986e-7 short.",
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
 }
@@ -190,7 +190,7 @@ SOURCE_ENTRYPOINTS = {
     "second-autocorrelation-inequality": (
         "analysis/second_autocorrelation_native_basin/public_packet/README.md"
     ),
-    "third-autocorrelation-inequality": "analytic/c3_precision_escape/HANDOFF.md",
+    "third-autocorrelation-inequality": "analytic/c3_fourier_dual_newton/HANDOFF.md",
     "thomson-problem": "geometry/thomson_282_topology_escape/HANDOFF.md",
 }
 ROOT_SOURCE_FILES = (
@@ -408,6 +408,9 @@ DETACHED_EXACT_PUBLICATION_MANIFESTS = {
         "geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/"
         "PUBLICATION_MANIFEST.json"
     ): "b8882ead74d2ac5f81b13498453052776fd66aee09fce730cc02e05ebd4bc923",
+    Path(
+        "analytic/c3_fourier_dual_newton/PUBLICATION_MANIFEST.json"
+    ): "1627d7447b0622aa5d1c7da01e7dd18d562feee10f1eb54634f1b0e7bf268414",
 }
 
 PUBLICATION_ALLOWLIST = (

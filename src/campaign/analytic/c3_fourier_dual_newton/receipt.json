@@ -1,0 +1,81 @@
+{
+  "baseline": {
+    "artifact_sha256": "39c72ab7147413ded04ee4af3c6a15a0d4d66a91e05102b1ad3edac9dba6d13e",
+    "n": 102400,
+    "official_score": 1.4515653796072292,
+    "path": "analytic/c3_precision_escape/runs/20260815T063056Z-39272/best.npy",
+    "values_float64_sha256": "0258fdd4db984f2cce05d34d480ef2404e73169ac25562981c382c3668b5689e"
+  },
+  "bounded_search": {
+    "best_fft_screen_gain": 2.2956525569384212e-11,
+    "cap_projection_trials": 6,
+    "claim_limit": "Deterministic FFT proposal screens only: not an optimality or stationarity certificate and not an official-verifier improvement.",
+    "fourier_branch_candidates": 3980,
+    "gate_cleared": false,
+    "maximum_newton_fft_gain": 2.2956081480174362e-11,
+    "newton_systems": 4
+  },
+  "corpus": {
+    "all_c3_constructions_read": 40,
+    "all_c3_replies_read": 97,
+    "all_c3_threads_read": 20,
+    "construction_index_sha256": "d59cadb673d8dd1db81dcc905c45d5afc038b2798db03f47b006f4a948b52e53",
+    "database": "research_corpus/snapshots/20260815T003306Z/corpus.sqlite3",
+    "database_sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb",
+    "discussion_index_sha256": "585dca4f6f86a63c1b035dd25d9d36a56a2ac36c6ca44023214c9e5c7c50bacb",
+    "snapshot": "20260815T003306Z"
+  },
+  "deterministic_rerun": {
+    "config_sha256": "202d75520851d6abfe0cd686f555bffa45e9975025834da16c3e7a7ba2ff1d36",
+    "event_rows": 12,
+    "events_sha256": "24e5754dffa4e2e12418eee6e10f7199151fa873fed15f9fcc7c04e17755d72e",
+    "source_sha256": "e1e2dae1e5046b46ba6e1f88c7942c9fada696ec7a3a320eb1466bff04a00306",
+    "summary_sha256": "5407bdb7174175aa02bd3443a8667a3a6dfa75b82a58a6a2b7860ab14fd1e840"
+  },
+  "external_mutations": [],
+  "gate": {
+    "leader": 1.4515718638902069,
+    "minimum_improvement": 1e-05,
+    "remaining_gap": 3.5157170223953926e-06,
+    "strict_target": 1.4515618638902068
+  },
+  "privacy": {
+    "candidate_payloads_included": false,
+    "construction_author_labels_included": 0,
+    "construction_timestamps_included": 0,
+    "credentials_or_host_private_paths_included": false,
+    "discussion_bodies_included": 0,
+    "third_party_coefficient_values_included": 0
+  },
+  "problem": "third-autocorrelation-inequality",
+  "publication_files": {
+    ".gitignore": "4bf61bbbd3b44efb6fb84d7ad23974725a5a428497a007b992e8e5cbca3725c3",
+    "HANDOFF.md": "3ebcce985f59727f0c543fe771f65694dee157577b0f3fb4f0142197b9f496d3",
+    "LICENSE": "0a0af9a78dab61531bfa1b949152040e0f09f6bc12b87daea57b2487776646e6",
+    "PROVENANCE_AND_RIGHTS.md": "a5aece55a421c66a8ca2b8e30aeddb630b392669903dcdf9430ef358497cce2b",
+    "README.md": "145b164a3be639735effbdee852230cd20539fcda2ddda15473718bc59a50def",
+    "audit_corpus.py": "a28f8cea273c5186893dc27462e7b6d5893e2411949e214f2490e59e4bbaaac2",
+    "corpus_audit.json": "798bb1fec3d963c1c4287e4fdce147a63822ac741c9dcc499edd7b150de869de",
+    "fourier_dual_newton.py": "e1e2dae1e5046b46ba6e1f88c7942c9fada696ec7a3a320eb1466bff04a00306",
+    "freeze_receipt.py": "d974fca5b1ab2426f6e9d05fc2e140880773fe8aa93f5627bf926e99d40aba65",
+    "literature.json": "9404a97815710ceda6f605f87be71fb12dfc1932c1ad9a26078af16f3c7fde07",
+    "publication_selftest.py": "b3a40a0fa9284dcf1cb026726b8cad7df55863a42ec04690bb09a86003b3f951",
+    "replay.py": "98d4f5e82d237048d996fddc677dfb4ff5c7722a32793571441eaf965022e2b4",
+    "requirements.txt": "cf4d1dc9a101f290fca565d8a6fb4f3ca3f1ada0912c93a81bf37f3fcdf20973",
+    "runs/20260815T124000Z/config.json": "202d75520851d6abfe0cd686f555bffa45e9975025834da16c3e7a7ba2ff1d36",
+    "runs/20260815T124000Z/events.jsonl": "24e5754dffa4e2e12418eee6e10f7199151fa873fed15f9fcc7c04e17755d72e",
+    "runs/20260815T124000Z/summary.json": "5407bdb7174175aa02bd3443a8667a3a6dfa75b82a58a6a2b7860ab14fd1e840",
+    "test_packet.py": "c1324ae471df226b51781a05321d3f81df8649eb9e903948e7cf90105b084110",
+    "test_publication.py": "39f1edfc6d9060ec4c679fbcc99aed3f751dc0f25fd98a9da3d36299f8ed1264"
+  },
+  "reproduction_commands": {
+    "campaign_copied_allowlist_test": "python3 -B campaign/analytic/c3_fourier_dual_newton/test_publication.py",
+    "portable_campaign_replay": "python3 -B campaign/analytic/c3_fourier_dual_newton/replay.py",
+    "portable_src_campaign_replay": "python3 -B src/campaign/analytic/c3_fourier_dual_newton/replay.py",
+    "private_input_replay": "python3 -B campaign/analytic/c3_fourier_dual_newton/replay.py --with-private-input",
+    "src_campaign_copied_allowlist_test": "python3 -B src/campaign/analytic/c3_fourier_dual_newton/test_publication.py"
+  },
+  "schema": 2,
+  "status": "bounded_no_gate",
+  "verifier_sha256": "b8288d5943d72032f1d2bcf5d8a3b3a00cfd428ae0347a26bfc53974ec7ebce9"
+}

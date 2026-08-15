@@ -1,0 +1,19 @@
+{
+  "baseline_fft_score": 1.45156537960723,
+  "best_fft_screen_gain": 2.2956525569384212e-11,
+  "best_fft_screen_score": 1.4515653795842736,
+  "cap_projection_trials": 6,
+  "config_sha256": "202d75520851d6abfe0cd686f555bffa45e9975025834da16c3e7a7ba2ff1d36",
+  "events_sha256": "24e5754dffa4e2e12418eee6e10f7199151fa873fed15f9fcc7c04e17755d72e",
+  "fourier_branch_candidates": 3980,
+  "gate_cleared": false,
+  "maximum_newton_fft_gain": 2.2956081480174362e-11,
+  "newton_systems": 4,
+  "official_baseline_score": 1.4515653796072292,
+  "remaining_gate_gap": 3.5157170223953926e-06,
+  "schema": 1,
+  "screening_boundary": "FFT values are proposal diagnostics, not official-verifier receipts. No candidate approached the gate, so no Arena verify or submit was attempted.",
+  "source_sha256": "e1e2dae1e5046b46ba6e1f88c7942c9fada696ec7a3a320eb1466bff04a00306",
+  "status": "bounded_no_gate",
+  "strict_target": 1.4515618638902068
+}
