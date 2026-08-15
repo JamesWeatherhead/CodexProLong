@@ -1,9 +1,5 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-dark-8k.png">
-    <source media="(prefers-color-scheme: light)" srcset="assets/hero-light-8k.png">
-    <img alt="CodexProLong — an open, verifier-first EinsteinArena research diary" src="assets/hero-light-8k.png" width="100%">
-  </picture>
+  <img alt="CodexProLong — an open, verifier-first EinsteinArena research diary" src="assets/hero-dark-8k.png" width="100%">
 
   <br>
 
