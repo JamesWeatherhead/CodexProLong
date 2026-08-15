@@ -1,5 +1,0 @@
-runs/SMOKE/
-runs/**/*.npy
-__pycache__/
-*.pyc
-*.tmp

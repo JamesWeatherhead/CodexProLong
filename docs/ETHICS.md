@@ -1,45 +1,49 @@
-# Integrity policy
+# Integrity and claim policy
 
-Leaderboard position is not enough to call something a mathematical result.
+Leaderboard position is not enough to call an entry a mathematical result.
+CodexProLong uses three public labels:
 
-We label each claim as one of:
+- **domain-valid** — first in the frozen snapshot, accepted by the unchanged
+  verifier, and consistent with the written mathematical domain;
+- **platform-only** — first under deployed evaluator behavior but not a valid
+  construction for the full written problem; and
+- **live-frontier** — a rankable problem where another agent held first place
+  at the snapshot; an internal improvement that did not clear the public gate
+  is not promoted to a result.
 
-- **domain-valid** — conforms to the written mathematical domain and passes the
-  unchanged live verifier;
-- **numerical certificate** — satisfies the verifier's complete advertised
-  finite horizon and tolerance, but does not establish a stronger analytic
-  statement made in the problem text;
-- **verifier-valid only** — accepted by evaluator code but violates or escapes
-  the written domain;
-- **local frontier** — improves our artifact but does not clear the live gate;
-- **platform-blocked / retired** — a new rank #1 is impossible under the
-  deployed submission or ranking semantics, so the lane remains in the full
-  inventory but receives no search compute and is excluded from the live
-  frontier count;
-- **negative result** — a bounded, reproducible search that found no candidate.
+Only the five domain-valid entries are counted as valid first places.
 
-The Tammes-50 platform first place is deliberately labeled verifier-valid only.
-The evaluator leaves an exact zero vector at the origin instead of rejecting it
-or projecting it onto the unit sphere. We disclosed the mismatch publicly and
-do not represent that payload as a 50-point spherical code.
+## Two platform-only first places
 
-The Prime Number Theorem platform first place is labeled a platform-only
-numerical certificate. An exact rational sweep verifies every floor-sum state
-throughout the server's advertised horizon and the unchanged sampled verifier
-accepts it. It is not a certificate for the written all-`x` inequality: exact
-arithmetic already gives `S(1) > 1`, and a later integer witness exceeds `106`.
-The public global audit preserves both counterexamples and a weak-duality proof
-that no coefficient-only repair on the same support can keep the historical
-winning score. We therefore do not count PNT among the domain-valid first
-places.
+The **Tammes-50** entry exploited an evaluator gap that allowed a point at the
+origin rather than requiring every point to lie on the unit sphere. It led the
+platform snapshot but is not claimed as a spherical code.
 
-The legacy kissing-number d11/594 and d12/841 lanes are platform-blocked for
-different reasons. The former already has an earlier exact score-zero holder
-and ordinal tie ranking; the latter has a verified score-zero candidate but a
-disabled submission endpoint. Their exact evidence and reopening conditions
-are kept in [BLOCKED_LANES.md](BLOCKED_LANES.md).
+The **Prime Number Theorem** entry passed the platform's finite sampled
+verifier, but exact arithmetic showed that it violates the written all-`x`
+inequality. It led the platform snapshot but is not claimed as an analytic
+certificate.
 
-The controller now forbids submission unless both `--confirm-domain-valid` and
-`--confirm-submit` are present. A separate Edges-vs-Triangles schema mismatch
-was disclosed, tested, and then closed by the API's 500-row validation; it was
-not resubmitted after rejection.
+Both remain visible in [`snapshot.json`](../artifacts/snapshot.json). Hiding
+them would make the five-result claim look cleaner at the cost of accuracy.
+
+## Human approval boundary
+
+Codex selected research directions, wrote and revised programs, ran local
+experiments, interpreted failures, and chose follow-up work. James Weatherhead
+set the campaign goal, supplied access, approved external submissions, and is
+accountable for publication. “Autonomous” describes the research loop, not the
+absence of a human owner or approval boundary.
+
+## Evidence and rights
+
+Each counted result links to its public Arena record and a receipt containing
+the candidate hash, verifier hash, score, and verification time. The candidate
+bytes are not redistributed because their public starting payloads did not
+come with established redistribution terms. See the [evidence index](../artifacts/README.md)
+and [release notice](../NOTICE.md).
+
+Two legacy kissing-number lanes were also excluded from the 17-problem
+denominator because deployed submission or ranking rules prevented a new
+first-place entry. They are administrative exclusions, not hidden failed
+searches and not claims that the underlying mathematics is impossible.

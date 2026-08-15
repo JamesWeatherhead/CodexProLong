@@ -1,52 +1,53 @@
 # Architecture
 
-The campaign separates powers that are easy to blur in an agent demo:
+CodexProLong separates temporary model context from persistent research state.
 
-1. The controller owns the immutable event journal, live snapshot, budgets,
-   verifier hash, and terminal decision.
-2. Codex owns a persistent scratch workspace and may write arbitrary local
-   parsers, simulators, optimizers, and search programs.
-3. A narrow action CLI validates every external write.
-4. Candidate evaluation occurs in an offline, read-only Docker sandbox with
-   dropped capabilities and only the candidate, verifier, and runner mounted.
-5. Every material transition creates an atomic handoff that is sufficient for
-   a fresh context to resume.
-6. The public mirror exports owned source and evidence, then scans the entire
-   staged tree for credential formats before a push.
+```text
+problem + verifier
+        ↓
+Codex research turn ──→ Exa / Paperclip
+        ↓
+problem-specific program or executable world model
+        ↓
+local experiment ──→ frozen verification
+        ↓
+append-only journal + files + checkpoint
+        ↺ next context
+```
 
-This implements the useful core of filesystem memory without coupling the
-agent to ARC grids, a particular action enum, or one optimizer family.
+## Persistent research memory
 
-## Executable world models
+Every material observation, hypothesis, experiment, score, failure, and
+handoff was appended to a filesystem journal. Codex could search that history
+programmatically and keep working files across context rollovers. This follows
+the core insight of [PRO-LONG](https://github.com/alexisfox7/PRO-LONG): preserve
+the full trajectory outside the context window and let a coding agent retrieve
+what it needs with code.
 
-François Chollet describes the broader pattern as
-[“LLM-guided on-the-fly synthesis of a symbolic world model”](https://x.com/fchollet/status/2088243704603824311):
-the model makes its theory executable, tests it against evidence, and rewrites
-the program when the theory fails. Here, Codex can build a different parser,
-optimizer, simulator, or exact checker for each mathematical benchmark.
+The journal was not a polished knowledge base. Its value came from fidelity:
+failed attempts stayed available, successful programs remained executable, and
+a later context could inspect the evidence behind an earlier conclusion.
 
-Exa Search supplies web research and Paperclip supplies scientific literature.
-They are tools called by Codex, not subagents. Verified outcomes and failed
-experiments return to the append-only journal, so a later context can inspect
-the evidence behind the current world model instead of reconstructing it from
-scratch.
+## On-the-fly world models
 
-## Batch-action rule
+Different problems produced different machinery. Codex could write a parser,
+optimizer, simulator, exact checker, continuation method, or search program
+when that representation was useful. François Chollet describes this broader
+pattern as [“LLM-guided on-the-fly synthesis of a symbolic world model”](https://x.com/fchollet/status/2088243704603824311):
+the model makes its theory executable, tests it, and revises the program when
+the theory fails.
 
-Actions may be proposed in a batch for efficiency, but the controller records
-each result atomically and cancels the remainder whenever score, progress,
-state, or terminal status changes. That prevents stale plans from running after
-the world has changed.
+## Control boundary
 
-## Context rollover rule
+The research loop could act autonomously inside its local workspace. External
+submissions required human approval. Verification used pinned evaluator hashes,
+and public claims were reduced to solution IDs, scores, receipt hashes, and
+explicit integrity labels.
 
-Context is disposable. Before rollover, the agent writes a handoff containing:
+## What is not published here
 
-- the current best verified artifact and hash;
-- live leader, direction, and strict gate;
-- what was tried, with quantified bounds;
-- active processes/checkpoints;
-- the next highest-information experiment.
-
-The next context reads the journal and handoff instead of relying on chat
-memory.
+This document describes the system at a high level. The production controller,
+prompts, session transcripts, raw journal, research corpus, solver source,
+checkpoints, and executable world models are not included in the current
+release tree. Earlier source-bearing revisions remain available under their
+original MIT grant; see [NOTICE.md](../NOTICE.md) for the licensing boundary.

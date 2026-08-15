@@ -1,16 +1,13 @@
 # Security
 
-Do not commit provider keys, Arena credentials, browser cookies, Codex session
-rollouts, or Paperclip credentials. Run:
+This release contains no live controller, submission client, provider
+credentials, browser state, session transcript, or private research journal.
 
-```bash
-python tools/secret_scan.py .
-```
+Please report a suspected credential exposure, unsafe artifact, or
+verifier-integrity issue through a
+[private GitHub security advisory](https://github.com/JamesWeatherhead/CodexProLong/security/advisories/new)
+before public disclosure when exploitation could harm another user or service.
 
-before every push. If a credential reaches git history, revoke it first and
-then rewrite the affected history; deleting the current file is not enough.
-
-Security or verifier-integrity reports should be sent privately to the
-repository owner before public disclosure when exploitation could harm other
-users.
-
+If a credential is ever committed, revoke it before changing repository
+history. Deleting the current file is not sufficient to invalidate a secret
+already copied or cached.

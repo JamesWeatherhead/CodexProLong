@@ -1,3 +1,0 @@
-# Reproduce rank_lift_escape.py's semidefinite solver environment.
-cvxpy==1.7.5
-scs==3.2.11
