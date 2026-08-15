@@ -59,7 +59,15 @@ failures, and resume useful checkpoints. The agent selected and revised its
 research actions; James Weatherhead set the goal and approved external
 submissions and publication.
 
-`read → research → build → run → verify → remember → repeat`
+`hypothesize → search memory → refine → build → test → inspect → append evidence → update research state`
+
+Each cycle expands the research state. Successful programs, failed approaches,
+scores, observations, and useful checkpoints become evidence available to the
+next hypothesis.
+
+Over time, this produces an accumulating executable research state: hypotheses
+become code, experiments become evidence, and that evidence informs the next
+hypothesis.
 
 <p align="center">
   <a href="assets/codexprolong-system-loop.webp">
