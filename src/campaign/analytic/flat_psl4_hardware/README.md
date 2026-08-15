@@ -57,8 +57,10 @@ python3 campaign/analytic/flat_psl4_hardware/benchmark.py --full \
   --out /tmp/psl4-metal-receipt.json
 ```
 
-Replay the first class recovered by the separate production search using only
-Python's standard library:
+Replay both classes recovered by the separate production search using only
+Python's standard library. The replay checks exact PSL, every published hash,
+CPU/Metal counter equality, the first-place arithmetic, and pairwise
+non-equivalence under all eight retained symmetries:
 
 ```bash
 python3 campaign/analytic/flat_psl4_hardware/verify_discovery.py
@@ -143,15 +145,24 @@ filesystem root.
   receipts, and audit tree under `runs/20260815T104000Z/`. Its reconstructed
   artifact-set SHA-256 is
   `58ef80c142d9fc907ba0e716147f3ebb32a952fe0f4eaa7c89ed3a7020a18a31`.
-- First production discovery: shard 64 / task 549676 produced
+- Production discovery 04: shard 64 / task 549676 produced
   `0011001101001101100011001010100101010000110100000101000000000111111100`.
   Independent CPU replay matched all seven counters exactly, including
   103,573,514 nodes and one valid leaf. The class has exact PSL 4, is canonical
   under the eight retained symmetries, and is distinct from all three public
   fixtures. The unchanged Arena verifier scores it `1.5233061447261282`, so it
   does not clear the `1.280726494964255` first-place gate and was not submitted.
-  The compact, self-checking record is `discoveries/psl4_class_04.json`; mutable
-  production receipts remain excluded.
+  Its compact, self-checking record is `discoveries/psl4_class_04.json`.
+- Production discovery 05: shard 261 / task 357625 produced
+  `0000100000001100010011101010111010010000111111010011001011000110100110`.
+  Independent CPU replay again matched all seven counters exactly: 91,069,979
+  nodes, 181 leaves, 180 central rejects, 80,148,941 cheap prunes, 190,152,440
+  exact checks, 99,994,624 exact prunes, and one valid leaf. This class also has
+  exact PSL 4 and is canonical; it is symmetry-distinct from the three fixtures,
+  discovery 04, and all 24 retained flat-polynomials corpus rows. The unchanged
+  Arena verifier scores it `1.551067003100272`, so it also misses the gate and
+  was not submitted. Its compact record is `discoveries/psl4_class_05.json`.
+  Mutable production receipts remain excluded.
 
 The engine fails closed if a frontier would exceed the 32-bit output counter,
 the device's `maxBufferLength`, a Metal allocation fails, a command fails, or a
@@ -193,8 +204,8 @@ separate 09:30 `concurrency_receipt.json` is the bare-engine ceiling and the
 The retained audit correctly reports `status: incomplete`: this was exactly a
 two-shard, 182-task validation pilot, not a claim that the 730,810-task proof
 has run. An independent deployment audit later released a separate shadow run.
-It paused on the first new class, completed independent CPU and Arena replay,
-then resumed with that exact shard hash acknowledged; its changing
+It paused on each of the first two new classes, completed independent CPU and
+Arena replay, then resumed with each exact shard hash acknowledged; its changing
 `production_runs/` state and control handoffs are deliberately excluded from
 this frozen publication packet. Nothing here claims that live run is complete.
 

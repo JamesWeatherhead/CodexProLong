@@ -157,19 +157,19 @@ FRONTIER_RECEIPTS = {
 METHODS = {
     "circle-packing": "Exact replay reaches 2.635983095281623, still 7.92e-11 short. Beyond one-contact continuation, relocation, and 550 contact-graph recombinations, the codimension-two campaign solved 9,270 systems and deduplicated 5,147 unlabeled WL classes. A disjoint codimension-three campaign then tested 3,500 release triples and 2,848 genuine changed graphs. Exa archive recovery found the complete linked ClaudeEvolve strict generator, but it reproduces only 2.6359829285577328; the higher README headline has no recoverable candidate bytes and used a looser -1e-6 gap allowance. No tested topology or recovered asset escaped the canonical tolerance ceiling.",
     "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. The latest simultaneous-contact campaign exhausts all 2,016 two-contact and 41,664 three-contact releases from both rigid public graph classes: 11,933 nonlinear systems, 11,884 accepted endpoints, and 8,828 unlabeled WL classes. The canonical tolerance ceiling remains best, so a higher-codimension or genuinely different topology is required.",
-    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, block repairs, and a separate quadratic relative-difference-set family are closed. A carry-exact CSP proves infeasibility for every size 320..720 within the fixed 90-point cyclic-core/shell-0..7 family. An exhaustive Banakh–Gavrylkiv four-block interval-basis sweep covers every unit multiplier and cyclic cut for 114 prime powers q<=499. A separate clean-room Wichmann/Leech gap-family sweep exact-checks 498,002 parameter pairs; its best 360-mark basis covers only 43,318 versus 49,110 required. Finally, an unrestricted changed-core evolutionary run exact-replays 27 retained arrays but never improves the incumbent; its farthest accepted state changes five marks. These are bounded family/search closures, not a global lower bound.",
+    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, block repairs, and a separate quadratic relative-difference-set family are closed. A carry-exact CSP proves infeasibility for every size 320..720 within the fixed 90-point cyclic-core/shell-0..7 family. The newer carry-potential theorem removes that shell bound entirely at size 360: arbitrary finite nonempty integer heights on each of the leader's 90 residue classes reduce to 220 column shapes, and even a necessary relaxation omitting 2,961 middle-pair and every residue-zero constraint is infeasible. Banakh–Gavrylkiv and Wichmann/Leech family sweeps plus changed-core evolution also miss the gate. These are exact fixed-core and bounded family/search closures, not a global lower bound; the next exact attack must change the residue core.",
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Active-bundle sequential linear programming over n=3,584 coordinates crossed the strict 1e-7 gate after 58 exact-accepted stages. Independent literal replay and evaluated solution #2507 agree at 0.3808585748578584.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
     "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. Archival recovery reconstructed three of 72 published PSL-4 classes but found no missing table bytes after exact Exa, Paperclip, archive, code-index, and 25-slide visual audits. The clean-room hybrid visits 143.67x fewer nodes than raw, and its active-lag kernel replays a fixed 82,824,482-node task 1.461x faster. An independent SAT/PB formulation exactly agrees on 256 cubes, but MiniCard is 46.5x and CaDiCaL 661.9x slower than even the raw C++ DFS solve-only, so the resumable 730,810-task distributed C++ enumeration remains the honest exact route.",
-    "heilbronn-triangles": "A 100-digit active root, 462 topology trials, and exact q=25 lattice closure are supplemented by exact q=143 and q=144..220 rational-mesh campaigns. The latest packet closes 72 distinct finite labeled domains: 18 by determinant upper bounds and 57 fresh uncapped SAT formulas, with no candidate. These are finite-domain no-gos, not global proofs. An independent Escher asset replay scored 0.03372654309850653, below the gate.",
+    "heilbronn-triangles": "A 100-digit active root, 462 topology trials, exact q=25 closure, and q=143/q=144..220 rational-mesh campaigns are supplemented by all 1,819 distant active-triangle exchanges. Complex continuation reduces the 619 unresolved real paths to 334 reflection orbits; a bounded probe finds 12 generic roots and ten distinct target roots, all nonreal. Exact rational Krawczyk arithmetic certifies the incumbent uniquely inside a radius-1e-70 box and proves that root stays below the gate. These are finite or local no-gos, not a global proof; affine mixed-volume/root counting is the prerequisite for complete monodromy.",
     "kissing-number-d11": "An exhaustive exact-rational audit verifies public solution #1492 as a genuine 594-vector score-0 construction over all 176,121 pairs. Zero is the objective floor, and the live API assigns later exact ties ordinal ranks rather than joint first place.",
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
     "kissing-number-d12": "Published 841-code replays at exact verifier score 0 with 1.24497e-7 distance-squared margin; submission is blocked by HTTP 409, tracked in issue #59.",
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
     "min-distance-ratio-2d": "A 100-digit active root, 280 release/promote trials, and 550 canonical contact-graph recombinations all return the same micro-polished basin. A separate adjacent-cardinality topology campaign exact-replayed 214 births/deaths and found 153 corpus-novel contact graphs; the best novel graph remains 0.00577 worse, while the overall best gains only 2.35e-11 against a 1e-7 gate.",
     "prime-number-theorem": "Changed-reach cutting planes produce platform #1 solution #2506 at 0.9976572852677297, but an exact all-x audit proves it is not a mathematical certificate: S(1)=1.000099989952235... and S(8,015,392)=106.150121507295.... A nonnegative exact weak dual bounds every assignment on the same 2,000-key support by 0.997625778304447..., below the historical gate. The strongest new globally certified periodic divisor support scores 0.970073558281127. The complete Bober height-one classification peaks at Chebyshev 0.921292022934091; a 23-point symbolic dual proves Chebyshev optimal over all nonnegative combinations of 5,200 sporadic atoms at dilations 1..100. An Exa/Paperclip-grounded sweep of 3,312,606 explicit height-2/3 lists and 52 smooth divisor lattices also fails to improve on Chebyshev. A fundamentally different support identity is required.",
-    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. Paperclip/Exa-grounded multiscale and sliding-support campaigns then reconstructed 360 coordinated mosaics plus 64 exact relocation paths; 56 sliding paths changed topology, but none improved the seed materially. A separate 200-member-step native-grid pilot established implementation behavior but reached only 0.3593416133285091; its public packet contains receipt replay, generated-fixture tests, and a four-history H100 continuation plan, not the omitted optimizer, private acceptance adapter, or native checkpoint. No C2 gate was cleared; the retained local frontier remains 9.9913e-6 short.",
+    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. Paperclip/Exa-grounded multiscale and sliding-support campaigns reconstructed 360 mosaics plus 64 relocation paths without material gain. A native-grid pilot established hardware behavior but scored only 0.3593416133285091. A separate clean-room spike-comb population forces competing active lags and improves on every one of 16 exact bundle steps, yet its N=4,095 pilot reaches only 0.7156018568597436. No C2 gate was cleared; the retained frontier remains 9.9913e-6 short, and further native-scale work is gated by the published H100 stop criteria.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
     "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation now reach 1.4515653796072292. The latest lane screened 14,333 deletions, 100,152 block transplants, 20,000 single sign walls, and 7,140 wall pairs; two exact-accepted orthant crossings gained another 5.41e-9, leaving a 3.5157e-6 gate gap.",
     "thomson-problem": "A literature-grounded N=72 to N=282 split campaign enumerated 48 alternative defect-free source triangulations and realized 30 distinct defect-free N=282 initial graphs, all returning to the incumbent. A disjoint direct-N282 scar campaign then tested 49 deterministic mutation paths spanning 44 exact graph classes at two amplitudes: all 98 releases again returned to the incumbent topology. The best score differs only by float dust and remains 9.99986e-7 short.",
@@ -336,12 +336,15 @@ UNPUBLISHED_WORK_IN_PROGRESS = {
     Path("discrete/prime_number_theorem/tail_select_mip.py"),
 }
 UNPUBLISHED_SOURCE_PREFIXES = {
+    Path("analysis/second_autocorrelation_forced_bundle_population"),
+    Path("analytic/c3_fourier_dual_newton"),
     Path("analytic/flat_psl4_accelerator"),
     Path("analytic/flat_psl4_sat_pb"),
     Path("analytic/flat_psl4_table_recovery_exa"),
     Path("analytic/flat_psl4_hardware"),
     Path("discrete/difference_exact_synthesis"),
     Path("discrete/difference_exact_lns"),
+    Path("discrete/difference_carry_potentials"),
     Path("discrete/prime_number_theorem_global_proof"),
     Path("discrete/pnt_factorial_ratio_landau"),
     Path("discrete/pnt_landau_atom_packing"),
@@ -355,6 +358,8 @@ UNPUBLISHED_SOURCE_PREFIXES = {
     Path("geometry/claudeevolve_circle_recovery"),
     Path("geometry/heilbronn_flow_topology_global"),
     Path("geometry/heilbronn_contact_homotopy_interval"),
+    Path("geometry/heilbronn_affine_mixed_volume"),
+    Path("geometry/heilbronn_gamma_monodromy_interval"),
     Path("geometry/thomson_282_scar_escape"),
     Path("geometry/thomson_c560_distant_pentagon"),
 }
@@ -374,6 +379,7 @@ PUBLICATION_MANIFESTS = (
     Path("geometry/rectangle_multicontact_precision/PUBLICATION_MANIFEST.json"),
     Path("geometry/circle_packing_multicontact_global/PUBLICATION_MANIFEST.json"),
     Path("discrete/difference_interval_constructions/PUBLICATION_MANIFEST.json"),
+    Path("discrete/difference_carry_potentials/PUBLICATION_MANIFEST.json"),
     Path("geometry/claudeevolve_circle_recovery/PUBLICATION_MANIFEST.json"),
     Path("geometry/heilbronn_flow_topology_global/PUBLICATION_MANIFEST.json"),
     Path("geometry/heilbronn_contact_homotopy_interval/PUBLICATION_MANIFEST.json"),
@@ -388,6 +394,20 @@ EXACT_PUBLICATION_MANIFESTS = {
     Path("analysis/second_autocorrelation_native_basin/public_packet/manifest.json"): (
         "1766c2348daa062be65d98a8cc269108e0ac192e47a01babcb41609cedf9877b"
     ),
+}
+
+# Byte-for-byte packets whose manifest is authenticated by the digest below
+# but deliberately is not part of its own payload array.  These are exported
+# as ``payload + manifest`` with no generated PUBLICATION_EXPORT sidecar.
+DETACHED_EXACT_PUBLICATION_MANIFESTS = {
+    Path(
+        "analysis/second_autocorrelation_forced_bundle_population/"
+        "publication/PUBLICATION_MANIFEST.json"
+    ): "7dda1948993ee7b313d2a9a4928f333d0685b9bbd44af7893040c2a6cb3c5a74",
+    Path(
+        "geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/"
+        "PUBLICATION_MANIFEST.json"
+    ): "b8882ead74d2ac5f81b13498453052776fd66aee09fce730cc02e05ebd4bc923",
 }
 
 PUBLICATION_ALLOWLIST = (
@@ -608,7 +628,10 @@ def frontier_artifact_destination(slug: str, source: Path) -> Path:
 
 def publication_allowlist(publication: dict[str, Any]) -> list[dict[str, Any]]:
     """Normalize supported publication-manifest allowlist schemas."""
-    entries = publication.get("include", publication.get("allowlist"))
+    entries = publication.get(
+        "include",
+        publication.get("allowlist", publication.get("payload")),
+    )
     if entries is not None:
         if isinstance(entries, list):
             return entries
@@ -637,6 +660,8 @@ def exact_publication_paths(
     source: Path,
     manifest_relative: Path,
     detached_manifest_sha256: str,
+    *,
+    require_self_entry: bool = True,
 ) -> list[Path]:
     """Validate an exact, self-allowlisted packet and return source-relative paths."""
     manifest_path = source / manifest_relative
@@ -668,6 +693,10 @@ def exact_publication_paths(
         if src.is_symlink() or not src.is_file():
             raise ValueError(f"exact publication entry is not a regular file: {relative}")
         if relative == manifest_relative:
+            if not require_self_entry:
+                raise ValueError(
+                    "detached exact publication manifest must not list itself"
+                )
             self_entry_seen = True
             if entry.get("sha256") is not None or entry.get("bytes") is not None:
                 raise ValueError("exact publication manifest self hash/size must be null")
@@ -676,8 +705,11 @@ def exact_publication_paths(
                 raise ValueError(f"exact publication manifest mismatch: {relative}")
         paths.append(relative)
 
-    if not self_entry_seen:
+    if require_self_entry and not self_entry_seen:
         raise ValueError("exact publication manifest must allowlist itself")
+
+    if not require_self_entry:
+        paths.append(manifest_relative)
 
     packet_source = source / packet_root
     if any(path.is_symlink() for path in packet_source.rglob("*")):
@@ -695,6 +727,15 @@ def exact_publication_paths(
 def mirror_source(source: Path) -> list[dict[str, Any]]:
     copied: list[dict[str, Any]] = []
     destination_root = REPO / "src" / "campaign"
+
+    # A prior snapshot may have copied a subtree before it was declared WIP.
+    # Remove every unpublished destination first; manifest-backed packets below
+    # are then rebuilt from their exact allowlists.  This never touches the
+    # canonical campaign source or its active run state.
+    for prefix in UNPUBLISHED_SOURCE_PREFIXES:
+        destination = destination_root / prefix
+        if destination.exists():
+            shutil.rmtree(destination)
 
     def copy_relative(relative: Path) -> None:
         src = source / relative
@@ -852,6 +893,31 @@ def mirror_source(source: Path) -> list[dict[str, Any]]:
         if exported != expected:
             raise ValueError(
                 f"exact publication export mismatch: {packet_root}; "
+                f"extra={sorted(map(str, exported - expected))}; "
+                f"missing={sorted(map(str, expected - exported))}"
+            )
+
+    for (
+        manifest_relative,
+        detached_sha256,
+    ) in DETACHED_EXACT_PUBLICATION_MANIFESTS.items():
+        relatives = exact_publication_paths(
+            source,
+            manifest_relative,
+            detached_sha256,
+            require_self_entry=False,
+        )
+        packet_root = manifest_relative.parent
+        packet_destination = destination_root / packet_root
+        if packet_destination.exists():
+            shutil.rmtree(packet_destination)
+        for relative in relatives:
+            copy_relative(relative)
+        exported = relative_file_set(packet_destination)
+        expected = {relative.relative_to(packet_root) for relative in relatives}
+        if exported != expected:
+            raise ValueError(
+                f"detached exact publication export mismatch: {packet_root}; "
                 f"extra={sorted(map(str, exported - expected))}; "
                 f"missing={sorted(map(str, expected - exported))}"
             )

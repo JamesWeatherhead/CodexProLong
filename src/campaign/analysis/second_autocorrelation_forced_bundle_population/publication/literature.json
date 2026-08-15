@@ -1,0 +1,106 @@
+{
+  "schema": 1,
+  "clean_room_boundary": {
+    "copied_code": false,
+    "copied_coefficients": false,
+    "loaded_candidate_arrays": [],
+    "statement": "The lane derives the finite-max bundle formula from the published objective and generic gradient-sampling mathematics. No repository source, paper coefficient table, Arena candidate value, retained NumPy payload, or SimpleTES value is used."
+  },
+  "paperclip": {
+    "usage": "Direct, line-addressable full-text reads after loading the complete Paperclip skill; no Paperclip repository was created.",
+    "sources": [
+      {
+        "authors": ["Aaron Jaech", "Alan Joseph"],
+        "title": "Further Improvements to the Lower Bound for an Autoconvolution Inequality",
+        "year": 2025,
+        "paperclip_id": "arx_2508.02803",
+        "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2508.02803#L19-L38",
+        "used_claims": [
+          "The direct objective uses Simpson-style L2 integration, a Riemann-sum L1 term, and the largest convolution entry.",
+          "Fresh random populations, high-learning-rate noisy exploration, lower-learning-rate exploitation, and elitist respawn were effective at modest resolution.",
+          "The reported extremizer has a tall asymmetric spike plus a right-hand comb, and the authors explicitly propose tailored comb initializers.",
+          "Peak flattening distinguishes this objective, while navigating its nonsmooth surface remains open."
+        ]
+      },
+      {
+        "authors": ["James V. Burke", "Frank E. Curtis", "Adrian S. Lewis", "Michael L. Overton", "Lucas E. A. Simoes"],
+        "title": "Gradient Sampling Methods for Nonsmooth Optimization",
+        "year": 2018,
+        "paperclip_id": "arx_1804.11003",
+        "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_1804.11003#L16-L38",
+        "used_claims": [
+          "Near a nonsmooth point, gradients from nearby differentiable points can stabilize a search direction.",
+          "The robust direction uses the minimum-norm element of the convex hull of sampled gradients.",
+          "The convex-hull calculation is a small strongly convex simplex QP equivalent to a bundle subproblem."
+        ],
+        "scope_limit": "The C2 objective is maximized and has nonnegativity/simplex geometry, so the lane uses the finite-branch maximin dual as a heuristic specialization; no convergence theorem is claimed."
+      },
+      {
+        "authors": ["Christopher Boyer", "Zane Kun Li"],
+        "title": "An improved example for an autoconvolution inequality",
+        "year": 2025,
+        "paperclip_id": "arx_2506.16750",
+        "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2506.16750#L62-L80",
+        "used_claim": "The exact finite-step formula and the 23-to-115-to-575 optimization hierarchy independently support the formula audit and resolution-specific search premise."
+      },
+      {
+        "title": "ImprovEvolve: Basin-Hopping Meets LLM-Guided Evolutionary Search",
+        "year": 2026,
+        "paperclip_id": "arx_2602.10233",
+        "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2602.10233#L1",
+        "used_claim": "Separating initialization, local improvement, and intensity-scheduled perturbation operators improved the reported C2 lower bound; this supports an explicit population lifecycle rather than a monolithic local solve."
+      }
+    ]
+  },
+  "exa": {
+    "usage": "Read-only primary-source discovery and license inspection through the configured Exa CLI; credentials were not printed or copied.",
+    "requests": [
+      {
+        "request_id": "57da7fc4f4da3a74482915d6bfd1ba06",
+        "purpose": "Inspect the authors' primary C2 repository and its license."
+      },
+      {
+        "request_id": "21013d1dffa6a5195b1da50bf79970a6",
+        "purpose": "Discover primary gradient-sampling mathematics for nonsmooth nonconvex objectives."
+      },
+      {
+        "request_id": "f18748548b13622b9b2325c3498f24b3",
+        "purpose": "Inspect the official PyTorch license for an H100 implementation."
+      },
+      {
+        "request_id": "475a91eacb8c42c29fa132269d1d7392",
+        "purpose": "Inspect the official SciPy license for independent CPU replay."
+      },
+      {
+        "request_id": "6029c08217e610a72c17dab722bde632",
+        "purpose": "Inspect the official NumPy license for compact reference machinery."
+      }
+    ],
+    "primary_code": [
+      {
+        "repository": "ajaech/autocorrelation_inequality",
+        "url": "https://github.com/ajaech/autocorrelation_inequality",
+        "license": "MIT",
+        "use": "Provenance and algorithm-description cross-check only; no code or coefficients copied."
+      },
+      {
+        "repository": "pytorch/pytorch",
+        "url": "https://github.com/pytorch/pytorch/blob/main/LICENSE",
+        "license": "BSD-style / BSD-3-Clause project license",
+        "use": "Planned deterministic H100 tensor and FFT runtime."
+      },
+      {
+        "repository": "scipy/scipy",
+        "url": "https://github.com/scipy/scipy/blob/main/LICENSE.txt",
+        "license": "BSD-3-Clause",
+        "use": "Independent CPU overlap-add convolution replay."
+      },
+      {
+        "repository": "numpy/numpy",
+        "url": "https://github.com/numpy/numpy/blob/main/LICENSE.txt",
+        "license": "BSD-3-Clause project license",
+        "use": "Reference arrays and deterministic small QPs."
+      }
+    ]
+  }
+}

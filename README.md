@@ -84,10 +84,12 @@ nodes in 41.19 seconds (148.76 million nodes/second), projecting 46.78 hours
 with a measured shard-size envelope of 38.16–56.42 hours. A separate eight-
 shard shadow gate then completed 733/733 unique tasks and 25.80 billion nodes
 with zero counter, placement, or answer mismatches. The full two-stream shadow
-has since recovered a fourth symmetry-distinct PSL-4 class; an independent CPU
-replay matched all counters exactly, while the unchanged Arena verifier scored
-it `1.5233061447261282`, so it was not submitted. The proof resumed after that
-checkpoint. This remains an operational result, not a completeness claim:
+has since recovered two additional symmetry-distinct PSL-4 classes—the fourth
+and fifth retained classes. Independent CPU replays matched every Metal
+counter exactly, while the unchanged Arena verifier scored them
+`1.5233061447261282` and `1.551067003100272`; neither was submitted. The
+fail-closed proof resumed after each checkpoint. This remains an operational
+result, not a completeness claim:
 success still requires all 730,810 tasks exactly once across all 8,192 shards
 and an independent final audit.
 [Distributed engine →](src/campaign/flat_psl4_global_exact/README.md) ·
@@ -105,6 +107,29 @@ optimizer, frozen verifier, and private acceptance adapter, so it is not an
 end-to-end optimizer or score recomputation. The detached manifest SHA-256 is
 `1766c2348daa062be65d98a8cc269108e0ac192e47a01babcb41609cedf9877b`.
 [C2 native-basin packet →](src/campaign/analysis/second_autocorrelation_native_basin/public_packet/README.md)
+
+A second clean-room C2 route deliberately starts without an incumbent array.
+It generates a spike-comb population, drives each member onto a switching
+surface between competing lags, and optimizes the resulting finite maximin
+with a slack-aware simplex bundle from the first serious step. The analytic
+gradient check reaches `7.16e-11` relative error and all 16 pilot bundle steps
+improve, but the best `N=4,095` score is only `0.7156018568597436`, far below
+the live gate. The packet therefore publishes the machinery, source-regenerated
+receipt, and bounded H100 continuation gates without pretending the pilot is a
+frontier candidate.
+[C2 forced-bundle population →](src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/HANDOFF.md)
+
+For Difference Bases, the latest exact closure removes a limitation shared by
+the earlier shell searches. Fix the leader's 90 residue classes modulo 8,011,
+but allow every residue column an arbitrary finite, nonempty subset of
+unbounded integer heights. A counting argument forces four heights per column;
+the remaining boundary conditions reduce to 220 normalized column shapes. A
+strictly weaker 1,224-variable model—omitting all 2,961 middle-pair and all
+residue-zero constraints—is already infeasible, with a byte-reconstructed
+1.93 MB formula and an independent clean-room replay. This rules out the
+entire unbounded fixed-core family at size 360; the next attack must change
+the residue core, not merely widen its carry range.
+[Unbounded carry-potential closure →](src/campaign/discrete/difference_carry_potentials/HANDOFF.md)
 
 The Thomson lane also tested a genuinely different finite topology family:
 seven private, hash-identified C560 dual outputs at pentagon separation four,
@@ -127,6 +152,17 @@ only `0.03408442492012185`, and no path clears the gate. The bounded receipt
 also preserves the honest limit: 619 real branches remain unresolved beyond
 the explicit caps, so this is a closed search lane—not a global upper bound.
 [Heilbronn contact-homotopy census →](src/campaign/geometry/heilbronn_contact_homotopy_interval/HANDOFF.md)
+
+The 619 unresolved Heilbronn exchanges now also have an algebraic continuation
+route. Exact reflection reduces them to 334 target orbits; bounded complex
+monodromy finds 12 distinct generic roots, and 24 gamma paths into the two
+lowest-bound target systems reach ten distinct roots—all nonreal. Separately,
+an exact rational Krawczyk calculation certifies the incumbent root uniquely in
+a radius-`1e-70` box and proves its determinant upper bound remains below the
+live gate. This is a certified local result, not a completeness claim: the
+packet explicitly makes affine mixed-volume/root counting the prerequisite for
+any production enumeration.
+[Heilbronn gamma-monodromy packet →](src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/HANDOFF.md)
 
 ## What this repository is
 
@@ -221,6 +257,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧮 [Carry-exact Difference Bases family closure](src/campaign/discrete/difference_exact_synthesis/HANDOFF.md)
 - 📏 [Prime-power interval Difference Bases sweep](src/campaign/discrete/difference_interval_constructions/HANDOFF.md)
 - 📐 [Exact Wichmann/Leech interval-basis family sweep](src/campaign/discrete/difference_wichmann_leech/HANDOFF.md)
+- 🧮 [Unbounded fixed-core carry-potential closure](src/campaign/discrete/difference_carry_potentials/HANDOFF.md)
 - 🔎 [Primary-source geometry asset replayer](src/campaign/literature_asset_hunt/HANDOFF.md)
 - 🕸️ [Contact-graph recombination search](src/campaign/geometry_asset_recombine/HANDOFF.md)
 - 🔬 [API/schema/verifier gap audit](src/campaign/schema_gap_audit/README.md)
@@ -229,6 +266,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧬 [C2 global multiscale support-mosaic search](src/campaign/analysis/second_autocorrelation_global_multiscale/HANDOFF.md)
 - 🧬 [C2 sliding-support topology search](src/campaign/analysis/second_autocorrelation_sliding_support/HANDOFF.md)
 - 🧪 [C2 native-grid pilot and H100 plan](src/campaign/analysis/second_autocorrelation_native_basin/public_packet/README.md)
+- 🧠 [C2 forced active-lag bundle population](src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/HANDOFF.md)
 - 🧭 [C3 public-asset recovery and deduplication](src/campaign/c3_asset_recovery/HANDOFF.md)
 - 🧭 [C3 exact sign-wall precision escape](src/campaign/analytic/c3_precision_escape/HANDOFF.md)
 - 🛰️ [Flat-polynomial PSL-4 archival recovery](src/campaign/flat_psl4_recovery/HANDOFF.md)
@@ -249,6 +287,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧩 [Heilbronn q=144–220 rational-mesh closure](src/campaign/geometry/heilbronn_rational_mesh_global/HANDOFF.md)
 - 🌊 [Heilbronn continuous topology/death–rebirth search](src/campaign/geometry/heilbronn_flow_topology_global/HANDOFF.md)
 - 🧭 [Heilbronn distant-contact homotopy census](src/campaign/geometry/heilbronn_contact_homotopy_interval/HANDOFF.md)
+- 🧬 [Heilbronn gamma-monodromy and exact Krawczyk probe](src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/HANDOFF.md)
 - 🪐 [Thomson N=72→282 topology escape](src/campaign/geometry/thomson_282_topology_escape/HANDOFF.md)
 - 🌐 [Thomson N=282 scar/dislocation escape](src/campaign/geometry/thomson_282_scar_escape/README.md)
 - 🕸️ [Thomson C560 distant-pentagon spectral audit](src/campaign/geometry/thomson_c560_distant_pentagon/HANDOFF.md)

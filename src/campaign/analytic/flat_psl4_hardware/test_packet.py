@@ -202,12 +202,25 @@ def validate_discovery() -> dict:
     receipt = json.loads(completed.stdout)
     if (
         receipt.get("status") != "pass"
-        or receipt.get("exact_peak_sidelobe") != 4
-        or receipt.get("cpu_metal_counters_match") is not True
+        or receipt.get("discovered_class_count") != 2
+        or receipt.get("all_exact_peak_sidelobes") != 4
+        or receipt.get("all_cpu_metal_counters_match") is not True
+        or receipt.get("pairwise_symmetry_distinct") is not True
         or receipt.get("symmetry_distinct_public_fixture_count") != 3
-        or receipt.get("clears_first_place_gate") is not False
+        or receipt.get("retained_corpus_solution_count") != 24
+        or receipt.get("retained_corpus_symmetry_match_count") != 0
+        or receipt.get("any_clears_first_place_gate") is not False
+        or [item.get("name") for item in receipt.get("class_summaries", [])]
+        != ["psl4_class_04", "psl4_class_05"]
     ):
         raise AssertionError("production discovery replay failed")
+    for item in receipt["class_summaries"]:
+        if (
+            item.get("exact_peak_sidelobe") != 4
+            or item.get("cpu_metal_counters_match") is not True
+            or item.get("clears_first_place_gate") is not False
+        ):
+            raise AssertionError(f"discovery summary mismatch: {item.get('name')}")
     return receipt
 
 
@@ -691,8 +704,14 @@ def main() -> int:
         "manifest_files": len(manifest["files"]),
         "source_sha256": quick["source_sha256"],
         "random_parent_depth_cases": quick["self_test"]["random_parent_depth_cases"],
-        "discovered_class_exact_peak_sidelobe": discovery["exact_peak_sidelobe"],
-        "discovered_class_clears_gate": discovery["clears_first_place_gate"],
+        "discovered_class_count": discovery["discovered_class_count"],
+        "discovered_classes_exact_peak_sidelobe": discovery[
+            "all_exact_peak_sidelobes"
+        ],
+        "discovered_classes_clear_gate": discovery["any_clears_first_place_gate"],
+        "discovered_classes_pairwise_distinct": discovery[
+            "pairwise_symmetry_distinct"
+        ],
         "dispatcher_task_receipts": dispatch["task_receipt_count"],
         "retained_dispatcher_task_receipts": retained["task_receipts"],
         "retained_artifact_set_sha256": retained["validation_provenance"][

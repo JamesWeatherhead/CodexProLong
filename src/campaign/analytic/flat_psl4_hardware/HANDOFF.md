@@ -4,10 +4,10 @@
 
 Frozen, publication-safe candidate with a retained **two-stream isolated GPU
 validation pilot**. Independent re-audit passed and a separate 8,192-shard
-shadow run is active. It paused after its first new class, independently
-replayed the class on CPU and under the unchanged Arena verifier, then resumed;
-its mutable `production_runs/` state is excluded from this packet and is not a
-completion claim. Do not merge it into or modify the currently running
+shadow run is active. It paused after each of its first two new classes,
+independently replayed both on CPU and under the unchanged Arena verifier, then
+resumed; its mutable `production_runs/` state is excluded from this packet and
+is not a completion claim. Do not merge it into or modify the currently running
 canonical CPU run. No Arena submission, issue, comment, post, credential, or
 other external-state write occurred in this lane.
 
@@ -51,6 +51,25 @@ replay verifies PSL 4, canonicality, and non-equivalence to the three retained
 public fixtures. The unchanged Arena verifier returns `1.5233061447261282`,
 which misses the minimizing gate `1.280726494964255`; no submission was made.
 Only the compact authored record `discoveries/psl4_class_04.json` is published.
+
+### Second production discovery
+
+The same excluded production run found a fifth retained symmetry-distinct
+PSL-4 class at shard 261 / task 357625:
+
+```text
+0000100000001100010011101010111010010000111111010011001011000110100110
+```
+
+The Metal task and independent CPU replay agree exactly on 91,069,979 nodes,
+181 leaves, 180 central rejects, 80,148,941 cheap prunes, 190,152,440 exact
+checks, 99,994,624 exact prunes, and one valid leaf. Standard-library replay
+verifies PSL 4, canonicality, and non-equivalence to the three fixtures and the
+first published discovery. A hash-pinned audit of all 24 retained
+flat-polynomials corpus rows found no symmetry match. The unchanged Arena
+verifier returns `1.551067003100272`, again missing the minimizing gate, so no
+submission was made. Only the compact authored record
+`discoveries/psl4_class_05.json` is published.
 
 ### Hard task #351916
 

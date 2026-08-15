@@ -291,9 +291,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 42754,
+      "bytes": 43648,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "15ebb03064186d8591ab4b969485dfc11873f3f64b5cc32ab262ee8410d0ab71"
+      "sha256": "064743c4f79be36bfa0352598041b2fa85b331cab62c2f43c62b59dddee5a041"
     },
     {
       "bytes": 715,
@@ -389,6 +389,101 @@
       "bytes": 2019,
       "path": "src/campaign/README.md",
       "sha256": "44f86285de91713d3069575ea8d7c085eeb247edadee1d24ec46a546367a55fa"
+    },
+    {
+      "bytes": 6382,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/H100_PLAN.md",
+      "sha256": "c32dd7b34451290dc3f8bc1dcd7e1b150c051393f2572b400fdd3e943ae396f8"
+    },
+    {
+      "bytes": 3183,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/HANDOFF.md",
+      "sha256": "4bf0402e4c6b2cc0aa1d254e97304b36f96a28b1a75578023bf8e15a54665d16"
+    },
+    {
+      "bytes": 1097,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/LICENSE",
+      "sha256": "2d8364f63e6eab5282b71dd145e18d3d4245ae370d1a5cb24d39c9236e0a1108"
+    },
+    {
+      "bytes": 2540,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/PROVENANCE_AND_RIGHTS.md",
+      "sha256": "f2834803e08295e580559ed9d94c0258821d8df13a85deaa30c7c12aa7b2505b"
+    },
+    {
+      "bytes": 9865,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/PUBLICATION_MANIFEST.json",
+      "sha256": "7dda1948993ee7b313d2a9a4928f333d0685b9bbd44af7893040c2a6cb3c5a74"
+    },
+    {
+      "bytes": 4371,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/README.md",
+      "sha256": "237a44d5a79d4b686e43fe450d8cf67bd6f2b0e83c7b30bf21ae1ae8aefc0aad"
+    },
+    {
+      "bytes": 7310,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/audit_corpus.py",
+      "sha256": "6db8cabc07f406d77e9b372937381d2be74168b22a8d67eef1b2bbdd31bca60d"
+    },
+    {
+      "bytes": 76636,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/corpus_audit.json",
+      "sha256": "4c1219a5de41926f2d21d486a881670e903a187c97affbb9e594170604b61d0f"
+    },
+    {
+      "bytes": 24966,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/forced_bundle.py",
+      "sha256": "6f37f2f849015980c122876f5371fc5ffd947badf27bd34459630382025b220a"
+    },
+    {
+      "bytes": 5455,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/literature.json",
+      "sha256": "5e8c7c8ca0163fd1630e5bf71ff59d4083eae832e129a550b74d9bb21efa3755"
+    },
+    {
+      "bytes": 3451,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/replay.py",
+      "sha256": "d1e891d31039d0b07a6fc54c37bd70f6946c29887993d2c46e94e0861a3ee3bc"
+    },
+    {
+      "bytes": 27,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/requirements-replay.txt",
+      "sha256": "cf4d1dc9a101f290fca565d8a6fb4f3ca3f1ada0912c93a81bf37f3fcdf20973"
+    },
+    {
+      "bytes": 965,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/runs/20260815T120831Z-reference-pilot/HANDOFF.md",
+      "sha256": "ade51625b2bed06cb531e6738077e3f2eb1444ed367a80144355d8304668effd"
+    },
+    {
+      "bytes": 245,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/runs/20260815T120831Z-reference-pilot/config.json",
+      "sha256": "efc3e69c02989aa47de8cd718fe353adddc713f1fb43b13dbea50c51a792ae66"
+    },
+    {
+      "bytes": 3289,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/runs/20260815T120831Z-reference-pilot/events.jsonl",
+      "sha256": "fd50006cee51eed9c2b3650b76a6f278282c717cb895b4d4e7a7437dc53e30aa"
+    },
+    {
+      "bytes": 317,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/runs/20260815T120831Z-reference-pilot/independent_replay.json",
+      "sha256": "054c5cf016b8f1f918ef37919040ef806cfa446a410a79609c36973c9187e5b1"
+    },
+    {
+      "bytes": 27115,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/runs/20260815T120831Z-reference-pilot/summary.json",
+      "sha256": "3ef8769ec0bdf02aaa35250bab576f942f9d3a43a2b7d7ba829f472359c2976a"
+    },
+    {
+      "bytes": 5152,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/source_replay.py",
+      "sha256": "afb92cf65dd4b4705eaedb53f8a60c749440a44a65e44a33ebd75e7c3ad3dd01"
+    },
+    {
+      "bytes": 6733,
+      "path": "src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/test_publication.py",
+      "sha256": "dcbd0fb1cd43fa7fa38df87b05d2251c4fa52151abc8967daa0a391ca11cb387"
     },
     {
       "bytes": 51,
@@ -851,9 +946,9 @@
       "sha256": "144cac66f14bd9ff46ec8343aca9341e92e46efbed3af0317ab99a672e62fa04"
     },
     {
-      "bytes": 9936,
+      "bytes": 10808,
       "path": "src/campaign/analytic/flat_psl4_hardware/HANDOFF.md",
-      "sha256": "c5a1c34c3918100baa556ad7e6bc3d12ba5b90c09fce626782fcd21e921aa9c0"
+      "sha256": "2479d090aa3882444bdc4fc39f3181848fcec5206dc1539a9a2c806ba2e9a04e"
     },
     {
       "bytes": 1074,
@@ -866,19 +961,19 @@
       "sha256": "4f15720ce0d8aeffb3acfeffa7c64e7e1abe7dcb75b67dda61650fb6b95c6c15"
     },
     {
-      "bytes": 86444,
+      "bytes": 86788,
       "path": "src/campaign/analytic/flat_psl4_hardware/PUBLICATION_EXPORT.json",
-      "sha256": "aff93b596d4a31933c86e1c5122e9ed0897a6bc5dc1845a70f52fbffefabfbd8"
+      "sha256": "fc910965dc0679a3eed0164f04b4c88f8b9cf3e8d701e6fede01f3654e6ce7ac"
     },
     {
-      "bytes": 65182,
+      "bytes": 65437,
       "path": "src/campaign/analytic/flat_psl4_hardware/PUBLICATION_MANIFEST.json",
-      "sha256": "784623d5a92811c665029cf6d8f1a273fdd0dc16026d786dbdd95af6bc3bb3e7"
+      "sha256": "7441deaaa7763ae41623aaeb8a5dc269fc0a810f4657a19d0589e054c514bc23"
     },
     {
-      "bytes": 10081,
+      "bytes": 10953,
       "path": "src/campaign/analytic/flat_psl4_hardware/README.md",
-      "sha256": "1c4f10814d8764e10c9a399f19ffdb26486635715a47be6f65812e67441477e2"
+      "sha256": "4c69a70fe4a0f738940a14f4992414d4c5d92e15bd1dc2feb781a3d69fe0fd1f"
     },
     {
       "bytes": 13138,
@@ -901,6 +996,11 @@
       "sha256": "0483444e2eb53c8575d22a23d7dfd1156486990ea47bf54c58c32541406ae1e1"
     },
     {
+      "bytes": 2495,
+      "path": "src/campaign/analytic/flat_psl4_hardware/discoveries/psl4_class_05.json",
+      "sha256": "09118b28622a477cf452bce6839d3d303e1221e509fd229ccd3ed98c79141c5c"
+    },
+    {
       "bytes": 11598,
       "path": "src/campaign/analytic/flat_psl4_hardware/dispatcher_benchmark.py",
       "sha256": "c65bb4bb04e1e1a568c4225751cf3a114b69d06a6f18f49ee8d5eb7a96c070d8"
@@ -921,9 +1021,9 @@
       "sha256": "61dbf232d532c06059e1bb011957308316435ee3a109658868d9125b345cbb9e"
     },
     {
-      "bytes": 7939,
+      "bytes": 8028,
       "path": "src/campaign/analytic/flat_psl4_hardware/freeze.py",
-      "sha256": "1afbed3dff689ab972e4d6afefce887465d5a7cac0f13c69d1909e831127a926"
+      "sha256": "c36e6c37e371dd70aa8100cc0e5bcff81094504f518549fed61190b0258bca09"
     },
     {
       "bytes": 28416,
@@ -1926,14 +2026,14 @@
       "sha256": "69d692cf1a2384affda347a764fb59d23c2e946c73cefcbaf9b13322c47a4eea"
     },
     {
-      "bytes": 27127,
+      "bytes": 28058,
       "path": "src/campaign/analytic/flat_psl4_hardware/test_packet.py",
-      "sha256": "818db34700bfa63a15ec40b3282e6b82b98715367d2c28e56ef3831107159537"
+      "sha256": "32ecc50b57998302597ae3f9372c695cd41b336ca81eaa6d73579b3510917063"
     },
     {
-      "bytes": 4207,
+      "bytes": 6732,
       "path": "src/campaign/analytic/flat_psl4_hardware/verify_discovery.py",
-      "sha256": "b9a7d0fc152a5c79698608c62152477f8230edf3127b5082267bdcbd911822b6"
+      "sha256": "49207ebc086f15cc06f1dab556227a3d51704970f6781e65c1073fd3be69f14e"
     },
     {
       "bytes": 2440,
@@ -2304,6 +2404,121 @@
       "bytes": 13630,
       "path": "src/campaign/discrete/difference_bases/two_swap.py",
       "sha256": "1a0f1881b7284bfad7a7796c870422328d71040abb9492746d30a3af02a42794"
+    },
+    {
+      "bytes": 1403,
+      "path": "src/campaign/discrete/difference_carry_potentials/EXA_PROVENANCE.json",
+      "sha256": "8cc85571bdbf4d4d093fa691dc8165194c731e62ef707ebc8923ffeae425ecc6"
+    },
+    {
+      "bytes": 5003,
+      "path": "src/campaign/discrete/difference_carry_potentials/HANDOFF.md",
+      "sha256": "565843ea88171c683eb6745cd1a92263d2cb398c590754c9af6678557b5e40f4"
+    },
+    {
+      "bytes": 1074,
+      "path": "src/campaign/discrete/difference_carry_potentials/LICENSE",
+      "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "bytes": 3568,
+      "path": "src/campaign/discrete/difference_carry_potentials/PROVENANCE.md",
+      "sha256": "f4d67cb817cc13bf284f7dd39494cd9a74b852b41d4708bb5add7bef49d899d0"
+    },
+    {
+      "bytes": 7449,
+      "path": "src/campaign/discrete/difference_carry_potentials/PUBLICATION_EXPORT.json",
+      "sha256": "b86fe2d538684eda0b5855bb0bb4bed21c36874c4b0ae80b7842cc499b562fe5"
+    },
+    {
+      "bytes": 5410,
+      "path": "src/campaign/discrete/difference_carry_potentials/PUBLICATION_MANIFEST.json",
+      "sha256": "c78fe801453ec17d4dc08868b64ae5a7ae974a8858ef9afdd0ea6a28256c9d50"
+    },
+    {
+      "bytes": 4938,
+      "path": "src/campaign/discrete/difference_carry_potentials/README.md",
+      "sha256": "d3e7485a9d930e07d05ce1526930a2ddaa07b4ed37728988dc6b7b90297b5de2"
+    },
+    {
+      "bytes": 4860,
+      "path": "src/campaign/discrete/difference_carry_potentials/audit.py",
+      "sha256": "26360b4ef8be1253d7cc961b9c6e16fb6587866f698423728c31960889aeb866"
+    },
+    {
+      "bytes": 10774,
+      "path": "src/campaign/discrete/difference_carry_potentials/cleanroom_replay.py",
+      "sha256": "7a0065da37cafb5b854da49efce7992752a950b9f53c6a355c7b2685839387e7"
+    },
+    {
+      "bytes": 3911,
+      "path": "src/campaign/discrete/difference_carry_potentials/copied_allowlist_test.py",
+      "sha256": "fb93c0099861f6375744f9687beb20d7aa18197bd660463134552c037c492d62"
+    },
+    {
+      "bytes": 7094,
+      "path": "src/campaign/discrete/difference_carry_potentials/freeze_manifest.py",
+      "sha256": "f3ac2eb97aa0b68d13f8c0f561307c12c3bf5c80540007bb4997d56a0974daf2"
+    },
+    {
+      "bytes": 2147,
+      "path": "src/campaign/discrete/difference_carry_potentials/frozen_inputs.json",
+      "sha256": "64ff8b828048a103057a5359290ebe14338f56f1a30f4d41e82648f13e42a727"
+    },
+    {
+      "bytes": 617,
+      "path": "src/campaign/discrete/difference_carry_potentials/runs/20260815T121057Z/audit.json",
+      "sha256": "5e2a69dff097e288b5905828b101ccf24207a8a86e7557e9cc3989ed39939e89"
+    },
+    {
+      "bytes": 218,
+      "path": "src/campaign/discrete/difference_carry_potentials/runs/20260815T121057Z/checkpoint.json",
+      "sha256": "95376d38d9bde807ee2f5f3f3b9e35eae80e9000fcab200f8bb4e50d64478dad"
+    },
+    {
+      "bytes": 614,
+      "path": "src/campaign/discrete/difference_carry_potentials/runs/20260815T121057Z/cleanroom_replay.json",
+      "sha256": "6dc6c5d74490b723dcdfc7dc326a515395e73a11a2e37ef1bc7e4e435a09d8a3"
+    },
+    {
+      "bytes": 691,
+      "path": "src/campaign/discrete/difference_carry_potentials/runs/20260815T121057Z/config.json",
+      "sha256": "f89d4aab3d986e568d378b0f5c236350c28e6a44806f2efbceae16e0e4745e5d"
+    },
+    {
+      "bytes": 1536,
+      "path": "src/campaign/discrete/difference_carry_potentials/runs/20260815T121057Z/events.jsonl",
+      "sha256": "489ab2c8002277f4d150e3eac43a1436f45b0f1623291ff0ca5e297fb5ac7732"
+    },
+    {
+      "bytes": 431,
+      "path": "src/campaign/discrete/difference_carry_potentials/runs/20260815T121057Z/manifest.json",
+      "sha256": "9dcfb940ebdeab4a4a214a8cf7ed314560124be8f15eadce53439001292b7432"
+    },
+    {
+      "bytes": 1928061,
+      "path": "src/campaign/discrete/difference_carry_potentials/runs/20260815T121057Z/model.pb",
+      "sha256": "0fcb2054f099e398959e5318033f8969582becb5d6bbce072c40a6d455b0e4b4"
+    },
+    {
+      "bytes": 2460,
+      "path": "src/campaign/discrete/difference_carry_potentials/runs/20260815T121057Z/summary.json",
+      "sha256": "a5a6262638b08516c1856e356caed5be11f42e33450313a363b886d4729f77ae"
+    },
+    {
+      "bytes": 18426,
+      "path": "src/campaign/discrete/difference_carry_potentials/solver.py",
+      "sha256": "966ac9c50b7822408f341cc65112ab1094de4a7c80a776cf77cfaf9af9eb4fbc"
+    },
+    {
+      "bytes": 11457,
+      "path": "src/campaign/discrete/difference_carry_potentials/test_packet.py",
+      "sha256": "220039973be95b39af54a1ead3195445cdd1359b51763fd03f3de240d3d1b443"
+    },
+    {
+      "bytes": 2804,
+      "path": "src/campaign/discrete/difference_carry_potentials/test_solver.py",
+      "sha256": "324efef8932dd7925afa7552509a9e94ece97e53868dc1908a5ab252e5b08ca0"
     },
     {
       "bytes": 4482,
@@ -3931,6 +4146,111 @@
       "sha256": "a8dd299f63bf66495453b5433c0adb4b88e4ba69d9f6d610c00ebff2ba8c91a2"
     },
     {
+      "bytes": 73,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/.gitignore",
+      "sha256": "ca1c2e729b54faa1b55b90fe00918920e20bdb0602ae053fe30cc6b5257c75e6"
+    },
+    {
+      "bytes": 11237,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/HANDOFF.md",
+      "sha256": "7b21c29629fd2aed4a2f83c3c057bdb5f0a8cc74bfa6af01fb54912a1114bcf7"
+    },
+    {
+      "bytes": 1084,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/LICENSE",
+      "sha256": "af7677b58a0283f7dc09cfde7580fff7f0a81598f2d69edb6d6121c053138a23"
+    },
+    {
+      "bytes": 3169,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/PROVENANCE.md",
+      "sha256": "bcdccd4109faca2f600569a3a5781256c1572bfb9847e6e233a4b607cbf4e07b"
+    },
+    {
+      "bytes": 10249,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/PUBLICATION_MANIFEST.json",
+      "sha256": "b8882ead74d2ac5f81b13498453052776fd66aee09fce730cc02e05ebd4bc923"
+    },
+    {
+      "bytes": 3386,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/README.md",
+      "sha256": "f0e5f7db8d92c618f4f1aaaf2c347a3eb36a4ec1ceae2a8a4eac9f15b2bcc93e"
+    },
+    {
+      "bytes": 8128,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/audit.py",
+      "sha256": "7ba819a32ac208b5511c7fa32c63ce55b93ee88ac293687214f654002240d954"
+    },
+    {
+      "bytes": 9951,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/bounded_monodromy.py",
+      "sha256": "0fecbb83f5b72b37fd28ea28a1ba5685c2e8a9108920e6ba0e6c23f785cfd5ce"
+    },
+    {
+      "bytes": 115396,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/bounded_result.json",
+      "sha256": "0ed40f37c8796110e3dafcf5ae1191e87f1748da874e5a2a899cf1052476991f"
+    },
+    {
+      "bytes": 15559,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/core.py",
+      "sha256": "b7c7bb977cd398cac017e38a11468492b2bae909821eebb606029f76ca8023a9"
+    },
+    {
+      "bytes": 45885,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/derived_inputs.json",
+      "sha256": "d7ca8f329b94105a361c09208843da44e042a5d032940d988e1062f216092e87"
+    },
+    {
+      "bytes": 11271,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/exact_krawczyk.py",
+      "sha256": "468263e3cff50d26c216761f1af4c9600fe8f617533f855fd1d28a19ad7c4751"
+    },
+    {
+      "bytes": 11040,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/freeze_manifest.py",
+      "sha256": "d47a542f23a6a68963dd2970684bac4032a4a7f3603776fd25bbdc0a2bfb113b"
+    },
+    {
+      "bytes": 40974,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/incumbent_krawczyk.json",
+      "sha256": "f4041a16ea3e83b4d9e16079bf6e052dc7f781d84178f380c02e28eeab31e881"
+    },
+    {
+      "bytes": 2601,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/literature_sources.json",
+      "sha256": "6bc0ffd35df7ee6c855cf43138fd1234352fdc0a0334796ddc8639f04b72f750"
+    },
+    {
+      "bytes": 23215,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/public_replay.py",
+      "sha256": "23a7e68e8b839bc7e6917fc6ae2db02d05b6010f8436b2a0d1101a362e1cb80b"
+    },
+    {
+      "bytes": 6436,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/publication_selftest.py",
+      "sha256": "9e0d7dce3253e721fcd3a04d3697597c08a4ff6f567d1040b7c9486f5a00dd73"
+    },
+    {
+      "bytes": 184,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/replay.py",
+      "sha256": "6f1898b780b696baa0d389073e3717bafa763833262b29654b93829b2faf88b6"
+    },
+    {
+      "bytes": 2366,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/replay_receipt.json",
+      "sha256": "383556e3316be6acf6fa61895b5d81a8936fbb5d77806264b148137ae3a6e99b"
+    },
+    {
+      "bytes": 27,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/requirements.txt",
+      "sha256": "7f5f44616679c343a38e770fc11e76b5c81d63cbbffbddcc2193a4e5cdd3c2fb"
+    },
+    {
+      "bytes": 376246,
+      "path": "src/campaign/geometry/heilbronn_gamma_monodromy_interval/20260815T115727Z/target_manifest.json",
+      "sha256": "3c18c4da7008dac5eac90e3d4ab90837f57c76a322a0475c7973f55b11d7adff"
+    },
+    {
       "bytes": 2503,
       "path": "src/campaign/geometry/heilbronn_q143_cegis/HANDOFF.md",
       "sha256": "52a55bc3daa72ebf7f5023889c19c37d1554f7fd55535dd3a108d18d4e9a9cdb"
@@ -4666,5 +4986,5 @@
       "sha256": "8ffd7435d2c9f12d852c61e6f44ce77d0d64f7a51fdac12bf72b662b90b49c6c"
     }
   ],
-  "generated_at": "2026-08-15T07:00:35.244811Z"
+  "generated_at": "2026-08-15T12:07:25.964492Z"
 }

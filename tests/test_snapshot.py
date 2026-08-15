@@ -153,6 +153,13 @@ class SnapshotTests(unittest.TestCase):
             ],
         )
 
+    def test_publication_allowlist_accepts_payload_schema(self) -> None:
+        entries = [
+            {"path": "README.md", "sha256": "a" * 64, "bytes": 12},
+            {"path": "receipt.json", "sha256": "b" * 64, "bytes": 34},
+        ]
+        self.assertEqual(MODULE.publication_allowlist({"payload": entries}), entries)
+
     def test_relative_file_set_is_packet_local(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             packet = Path(temporary) / "src" / "campaign" / "analysis" / "packet"
@@ -219,6 +226,42 @@ class SnapshotTests(unittest.TestCase):
                     Path("analysis/lane/public_packet/manifest.json"),
                     MODULE.sha256(manifest),
                 )
+
+    def test_exact_publication_paths_accepts_detached_manifest(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            source = Path(temporary)
+            packet = source / "analysis" / "lane" / "publication"
+            packet.mkdir(parents=True)
+            readme = packet / "README.md"
+            readme.write_text("portable\n", encoding="utf-8")
+            manifest = packet / "PUBLICATION_MANIFEST.json"
+            manifest.write_text(
+                json.dumps(
+                    {
+                        "payload": [
+                            {
+                                "path": "README.md",
+                                "sha256": MODULE.sha256(readme),
+                                "bytes": readme.stat().st_size,
+                            }
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            relative = Path("analysis/lane/publication/PUBLICATION_MANIFEST.json")
+            self.assertEqual(
+                MODULE.exact_publication_paths(
+                    source,
+                    relative,
+                    MODULE.sha256(manifest),
+                    require_self_entry=False,
+                ),
+                [
+                    Path("analysis/lane/publication/README.md"),
+                    Path("analysis/lane/publication/PUBLICATION_MANIFEST.json"),
+                ],
+            )
 
 
 if __name__ == "__main__":

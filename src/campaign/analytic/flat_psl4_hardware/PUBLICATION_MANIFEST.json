@@ -17,18 +17,18 @@
       "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
     },
     {
-      "bytes": 10081,
+      "bytes": 10953,
       "license": "MIT",
       "path": "README.md",
       "role": "overview and reproducibility",
-      "sha256": "1c4f10814d8764e10c9a399f19ffdb26486635715a47be6f65812e67441477e2"
+      "sha256": "4c69a70fe4a0f738940a14f4992414d4c5d92e15bd1dc2feb781a3d69fe0fd1f"
     },
     {
-      "bytes": 9936,
+      "bytes": 10808,
       "license": "MIT",
       "path": "HANDOFF.md",
       "role": "frozen result and migration boundary",
-      "sha256": "c5a1c34c3918100baa556ad7e6bc3d12ba5b90c09fce626782fcd21e921aa9c0"
+      "sha256": "2479d090aa3882444bdc4fc39f3181848fcec5206dc1539a9a2c806ba2e9a04e"
     },
     {
       "bytes": 4131,
@@ -80,25 +80,25 @@
       "sha256": "0c098e8c2bce1895d21ab2f37ccfbd4638b24f53d2f1924f70d9a900b5d80afd"
     },
     {
-      "bytes": 4207,
+      "bytes": 6732,
       "license": "MIT",
       "path": "verify_discovery.py",
-      "role": "standalone exact replay of the first production discovery",
-      "sha256": "b9a7d0fc152a5c79698608c62152477f8230edf3127b5082267bdcbd911822b6"
+      "role": "standalone exact replay of both production discoveries",
+      "sha256": "49207ebc086f15cc06f1dab556227a3d51704970f6781e65c1073fd3be69f14e"
     },
     {
-      "bytes": 27127,
+      "bytes": 28058,
       "license": "MIT",
       "path": "test_packet.py",
       "role": "copied-allowlist regression",
-      "sha256": "818db34700bfa63a15ec40b3282e6b82b98715367d2c28e56ef3831107159537"
+      "sha256": "32ecc50b57998302597ae3f9372c695cd41b336ca81eaa6d73579b3510917063"
     },
     {
-      "bytes": 7939,
+      "bytes": 8028,
       "license": "MIT",
       "path": "freeze.py",
       "role": "deterministic manifest generator",
-      "sha256": "1afbed3dff689ab972e4d6afefce887465d5a7cac0f13c69d1909e831127a926"
+      "sha256": "c36e6c37e371dd70aa8100cc0e5bcff81094504f518549fed61190b0258bca09"
     },
     {
       "bytes": 4076,
@@ -127,6 +127,13 @@
       "path": "discoveries/psl4_class_04.json",
       "role": "fourth retained symmetry-distinct exact PSL-4 class",
       "sha256": "0483444e2eb53c8575d22a23d7dfd1156486990ea47bf54c58c32541406ae1e1"
+    },
+    {
+      "bytes": 2495,
+      "license": "MIT",
+      "path": "discoveries/psl4_class_05.json",
+      "role": "fifth retained symmetry-distinct exact PSL-4 class",
+      "sha256": "09118b28622a477cf452bce6839d3d303e1221e509fd229ccd3ed98c79141c5c"
     },
     {
       "bytes": 44360,
@@ -1515,7 +1522,7 @@
       "sha256": "69d692cf1a2384affda347a764fb59d23c2e946c73cefcbaf9b13322c47a4eea"
     }
   ],
-  "generated_at": "2026-08-15T11:46:25.984037+00:00",
+  "generated_at": "2026-08-15T12:54:21.504973+00:00",
   "license_holder": "James Weatherhead",
   "packet_license": "MIT",
   "platform_scope": "macOS with Apple Metal",

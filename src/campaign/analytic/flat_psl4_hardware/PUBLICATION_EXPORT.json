@@ -1,6 +1,6 @@
 {
   "canonical_manifest": "analytic/flat_psl4_hardware/PUBLICATION_MANIFEST.json",
-  "canonical_manifest_sha256": "784623d5a92811c665029cf6d8f1a273fdd0dc16026d786dbdd95af6bc3bb3e7",
+  "canonical_manifest_sha256": "7441deaaa7763ae41623aaeb8a5dc269fc0a810f4657a19d0589e054c514bc23",
   "files": [
     {
       "canonical_bytes": 1074,
@@ -11,20 +11,20 @@
       "public_sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
     },
     {
-      "canonical_bytes": 10081,
-      "canonical_sha256": "1c4f10814d8764e10c9a399f19ffdb26486635715a47be6f65812e67441477e2",
+      "canonical_bytes": 10953,
+      "canonical_sha256": "4c69a70fe4a0f738940a14f4992414d4c5d92e15bd1dc2feb781a3d69fe0fd1f",
       "path": "README.md",
       "portable_path_rewrite": false,
-      "public_bytes": 10081,
-      "public_sha256": "1c4f10814d8764e10c9a399f19ffdb26486635715a47be6f65812e67441477e2"
+      "public_bytes": 10953,
+      "public_sha256": "4c69a70fe4a0f738940a14f4992414d4c5d92e15bd1dc2feb781a3d69fe0fd1f"
     },
     {
-      "canonical_bytes": 9936,
-      "canonical_sha256": "c5a1c34c3918100baa556ad7e6bc3d12ba5b90c09fce626782fcd21e921aa9c0",
+      "canonical_bytes": 10808,
+      "canonical_sha256": "2479d090aa3882444bdc4fc39f3181848fcec5206dc1539a9a2c806ba2e9a04e",
       "path": "HANDOFF.md",
       "portable_path_rewrite": false,
-      "public_bytes": 9936,
-      "public_sha256": "c5a1c34c3918100baa556ad7e6bc3d12ba5b90c09fce626782fcd21e921aa9c0"
+      "public_bytes": 10808,
+      "public_sha256": "2479d090aa3882444bdc4fc39f3181848fcec5206dc1539a9a2c806ba2e9a04e"
     },
     {
       "canonical_bytes": 4131,
@@ -83,28 +83,28 @@
       "public_sha256": "0c098e8c2bce1895d21ab2f37ccfbd4638b24f53d2f1924f70d9a900b5d80afd"
     },
     {
-      "canonical_bytes": 4207,
-      "canonical_sha256": "b9a7d0fc152a5c79698608c62152477f8230edf3127b5082267bdcbd911822b6",
+      "canonical_bytes": 6732,
+      "canonical_sha256": "49207ebc086f15cc06f1dab556227a3d51704970f6781e65c1073fd3be69f14e",
       "path": "verify_discovery.py",
       "portable_path_rewrite": false,
-      "public_bytes": 4207,
-      "public_sha256": "b9a7d0fc152a5c79698608c62152477f8230edf3127b5082267bdcbd911822b6"
+      "public_bytes": 6732,
+      "public_sha256": "49207ebc086f15cc06f1dab556227a3d51704970f6781e65c1073fd3be69f14e"
     },
     {
-      "canonical_bytes": 27127,
-      "canonical_sha256": "818db34700bfa63a15ec40b3282e6b82b98715367d2c28e56ef3831107159537",
+      "canonical_bytes": 28058,
+      "canonical_sha256": "32ecc50b57998302597ae3f9372c695cd41b336ca81eaa6d73579b3510917063",
       "path": "test_packet.py",
       "portable_path_rewrite": false,
-      "public_bytes": 27127,
-      "public_sha256": "818db34700bfa63a15ec40b3282e6b82b98715367d2c28e56ef3831107159537"
+      "public_bytes": 28058,
+      "public_sha256": "32ecc50b57998302597ae3f9372c695cd41b336ca81eaa6d73579b3510917063"
     },
     {
-      "canonical_bytes": 7939,
-      "canonical_sha256": "1afbed3dff689ab972e4d6afefce887465d5a7cac0f13c69d1909e831127a926",
+      "canonical_bytes": 8028,
+      "canonical_sha256": "c36e6c37e371dd70aa8100cc0e5bcff81094504f518549fed61190b0258bca09",
       "path": "freeze.py",
       "portable_path_rewrite": false,
-      "public_bytes": 7939,
-      "public_sha256": "1afbed3dff689ab972e4d6afefce887465d5a7cac0f13c69d1909e831127a926"
+      "public_bytes": 8028,
+      "public_sha256": "c36e6c37e371dd70aa8100cc0e5bcff81094504f518549fed61190b0258bca09"
     },
     {
       "canonical_bytes": 4076,
@@ -137,6 +137,14 @@
       "portable_path_rewrite": false,
       "public_bytes": 2254,
       "public_sha256": "0483444e2eb53c8575d22a23d7dfd1156486990ea47bf54c58c32541406ae1e1"
+    },
+    {
+      "canonical_bytes": 2495,
+      "canonical_sha256": "09118b28622a477cf452bce6839d3d303e1221e509fd229ccd3ed98c79141c5c",
+      "path": "discoveries/psl4_class_05.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 2495,
+      "public_sha256": "09118b28622a477cf452bce6839d3d303e1221e509fd229ccd3ed98c79141c5c"
     },
     {
       "canonical_bytes": 44360,

@@ -1,0 +1,200 @@
+{
+  "canonical_run": {
+    "best_score": 0.7156018568597433,
+    "checkpoint_sha256_excluded": "32f3e85f848da524de2c78de31062d2020c251272ef3e635eb4a4d541c76a5c3",
+    "checkpoint_value_float64_le_sha256": "2e1f28c7303e0a70e6f0c25896a169c4a1daa4d84998046392f9e0bab276cffd",
+    "event_chain_head": "ab11c45b9e80fd3ad4c7d2018c29f91eb6f797050876874052909106e89da37d",
+    "gap_to_gate": 0.24799625372228562,
+    "gate_cleared": false,
+    "independent_score": 0.7156018568597436,
+    "path": "runs/20260815T120831Z-reference-pilot",
+    "strict_gate": 0.9635981105820289
+  },
+  "classification": "public_safe_text_only_bounded_mechanism_validation_not_a_candidate",
+  "commands": {
+    "canonical_checkpoint_replay": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python campaign/analysis/second_autocorrelation_forced_bundle_population/replay.py --run campaign/analysis/second_autocorrelation_forced_bundle_population/runs/20260815T120831Z-reference-pilot",
+    "canonical_self_test": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python campaign/analysis/second_autocorrelation_forced_bundle_population/forced_bundle.py self-test",
+    "copied_allowlist_test": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python campaign/analysis/second_autocorrelation_forced_bundle_population/publication/test_publication.py",
+    "copied_self_test": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python campaign/analysis/second_autocorrelation_forced_bundle_population/publication/forced_bundle.py self-test",
+    "copied_source_replay_no_checkpoint_file": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python campaign/analysis/second_autocorrelation_forced_bundle_population/publication/source_replay.py --run campaign/analysis/second_autocorrelation_forced_bundle_population/publication/runs/20260815T120831Z-reference-pilot",
+    "portable_packet_local_allowlist_test": "PYTHONDONTWRITEBYTECODE=1 python test_publication.py",
+    "portable_packet_local_source_replay": "PYTHONDONTWRITEBYTECODE=1 python source_replay.py --run runs/20260815T120831Z-reference-pilot",
+    "repository_root_context": ".",
+    "src_mirror_allowlist_test": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/test_publication.py",
+    "src_mirror_self_test": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/forced_bundle.py self-test",
+    "src_mirror_source_replay_no_checkpoint_file": "PYTHONDONTWRITEBYTECODE=1 .venv/bin/python src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/source_replay.py --run src/campaign/analysis/second_autocorrelation_forced_bundle_population/publication/runs/20260815T120831Z-reference-pilot"
+  },
+  "excluded_artifacts": [
+    {
+      "bytes": 32888,
+      "path": "campaign/analysis/second_autocorrelation_forced_bundle_population/runs/20260815T120831Z-reference-pilot/best.npy",
+      "reason": "clean-room below-gate checkpoint excluded; reconstructed and hashed only in memory by source_replay.py",
+      "sha256": "32f3e85f848da524de2c78de31062d2020c251272ef3e635eb4a4d541c76a5c3"
+    },
+    {
+      "bytes": 174448640,
+      "path": "campaign/research_corpus/snapshots/20260815T003306Z/corpus.sqlite3",
+      "reason": "frozen public-source corpus database excluded; audit retains zero coefficient values",
+      "sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb"
+    },
+    {
+      "bytes": 2726,
+      "path": "campaign/analysis/second_autocorrelation_forced_bundle_population/receipt.json",
+      "reason": "superseded nonportable source receipt; replaced by this list-form publication manifest",
+      "sha256": "d93a7ac9ceb9f205c76d6af657135d97bb4007b6763934c04a8a9001fc2bfb4a"
+    },
+    {
+      "bytes": 17657,
+      "path": "campaign/analysis/second_autocorrelation_forced_bundle_population/freeze_publication.py",
+      "reason": "local one-shot packaging tool; not needed to inspect or replay the frozen packet",
+      "sha256": "4475bfe2bd0f1428bb216ead37644fadbe13e9eb29b2c7145ba048c2244411c9"
+    }
+  ],
+  "exclusion_rules": [
+    "all checkpoint/array payloads (*.npy, *.npz, *.pt, *.pth)",
+    "all database/archive/binary payloads (*.sqlite, *.sqlite3, *.db, *.zip, *.gz, *.bin)",
+    "all credentials, private absolute paths, verifier source, and third-party source trees"
+  ],
+  "generated_utc": "2026-08-15T12:30:00Z",
+  "license": {
+    "dependencies_vendored": false,
+    "jaech_joseph_repository_reference_only": "MIT; no code or coefficients copied",
+    "license_path": "LICENSE",
+    "numpy": "BSD-3-Clause project license",
+    "packet_original_material": "MIT",
+    "pytorch_future_plan_only": "BSD-style / BSD-3-Clause project license",
+    "scipy": "BSD-3-Clause"
+  },
+  "manifest_root": "publication/",
+  "manifest_self_authentication": "SHA-256 is detached and reported at freeze; payload tree authenticates every other file",
+  "payload": [
+    {
+      "bytes": 6382,
+      "path": "H100_PLAN.md",
+      "provenance": "clean-room deterministic future-compute plan",
+      "sha256": "c32dd7b34451290dc3f8bc1dcd7e1b150c051393f2572b400fdd3e943ae396f8"
+    },
+    {
+      "bytes": 3183,
+      "path": "HANDOFF.md",
+      "provenance": "clean-room lane handoff",
+      "sha256": "4bf0402e4c6b2cc0aa1d254e97304b36f96a28b1a75578023bf8e15a54665d16"
+    },
+    {
+      "bytes": 1097,
+      "path": "LICENSE",
+      "provenance": "MIT grant for this packet's original clean-room material",
+      "sha256": "2d8364f63e6eab5282b71dd145e18d3d4245ae370d1a5cb24d39c9236e0a1108"
+    },
+    {
+      "bytes": 2540,
+      "path": "PROVENANCE_AND_RIGHTS.md",
+      "provenance": "clean-room provenance and dependency-license boundary",
+      "sha256": "f2834803e08295e580559ed9d94c0258821d8df13a85deaa30c7c12aa7b2505b"
+    },
+    {
+      "bytes": 4371,
+      "path": "README.md",
+      "provenance": "sanitized copy of clean-room lane README",
+      "sha256": "237a44d5a79d4b686e43fe450d8cf67bd6f2b0e83c7b30bf21ae1ae8aefc0aad"
+    },
+    {
+      "bytes": 7310,
+      "path": "audit_corpus.py",
+      "provenance": "clean-room corpus-audit source",
+      "sha256": "6db8cabc07f406d77e9b372937381d2be74168b22a8d67eef1b2bbdd31bca60d"
+    },
+    {
+      "bytes": 76636,
+      "path": "corpus_audit.json",
+      "provenance": "sanitized aggregate/hash audit with zero retained coefficient values",
+      "sha256": "4c1219a5de41926f2d21d486a881670e903a187c97affbb9e594170604b61d0f"
+    },
+    {
+      "bytes": 24966,
+      "path": "forced_bundle.py",
+      "provenance": "clean-room reference engine",
+      "sha256": "6f37f2f849015980c122876f5371fc5ffd947badf27bd34459630382025b220a"
+    },
+    {
+      "bytes": 5455,
+      "path": "literature.json",
+      "provenance": "Paperclip/Exa citation and license metadata",
+      "sha256": "5e8c7c8ca0163fd1630e5bf71ff59d4083eae832e129a550b74d9bb21efa3755"
+    },
+    {
+      "bytes": 3451,
+      "path": "replay.py",
+      "provenance": "clean-room independent checkpoint replay formula",
+      "sha256": "d1e891d31039d0b07a6fc54c37bd70f6946c29887993d2c46e94e0861a3ee3bc"
+    },
+    {
+      "bytes": 27,
+      "path": "requirements-replay.txt",
+      "provenance": "reference-environment runtime pins; dependencies are not vendored",
+      "sha256": "cf4d1dc9a101f290fca565d8a6fb4f3ca3f1ada0912c93a81bf37f3fcdf20973"
+    },
+    {
+      "bytes": 965,
+      "path": "runs/20260815T120831Z-reference-pilot/HANDOFF.md",
+      "provenance": "authenticated compact clean-room run receipt",
+      "sha256": "ade51625b2bed06cb531e6738077e3f2eb1444ed367a80144355d8304668effd"
+    },
+    {
+      "bytes": 245,
+      "path": "runs/20260815T120831Z-reference-pilot/config.json",
+      "provenance": "authenticated compact clean-room run receipt",
+      "sha256": "efc3e69c02989aa47de8cd718fe353adddc713f1fb43b13dbea50c51a792ae66"
+    },
+    {
+      "bytes": 3289,
+      "path": "runs/20260815T120831Z-reference-pilot/events.jsonl",
+      "provenance": "authenticated compact clean-room run receipt",
+      "sha256": "fd50006cee51eed9c2b3650b76a6f278282c717cb895b4d4e7a7437dc53e30aa"
+    },
+    {
+      "bytes": 317,
+      "path": "runs/20260815T120831Z-reference-pilot/independent_replay.json",
+      "provenance": "authenticated compact clean-room run receipt",
+      "sha256": "054c5cf016b8f1f918ef37919040ef806cfa446a410a79609c36973c9187e5b1"
+    },
+    {
+      "bytes": 27115,
+      "path": "runs/20260815T120831Z-reference-pilot/summary.json",
+      "provenance": "authenticated compact clean-room run receipt",
+      "sha256": "3ef8769ec0bdf02aaa35250bab576f942f9d3a43a2b7d7ba829f472359c2976a"
+    },
+    {
+      "bytes": 5152,
+      "path": "source_replay.py",
+      "provenance": "clean-room in-memory seed/config replay",
+      "sha256": "afb92cf65dd4b4705eaedb53f8a60c749440a44a65e44a33ebd75e7c3ad3dd01"
+    },
+    {
+      "bytes": 6733,
+      "path": "test_publication.py",
+      "provenance": "standard-library copied-allowlist test",
+      "sha256": "dcbd0fb1cd43fa7fa38df87b05d2251c4fa52151abc8967daa0a391ca11cb387"
+    }
+  ],
+  "payload_tree_sha256": "0fc76c575cb719813878f769b37288b82362198a4a8f73b7ee61b7b6dd7f47d6",
+  "policy": {
+    "arena_verifier_executed": false,
+    "checkpoint_payloads_included": false,
+    "coefficient_values_retained_from_public_corpus": 0,
+    "external_writes": [],
+    "public_corpus_database_included": false,
+    "source_replay_candidate_files_read": [],
+    "source_replay_candidate_files_written": [],
+    "third_party_candidate_bytes_included": false,
+    "verifier_source_included": false
+  },
+  "reference_environment": {
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "requirements": "requirements-replay.txt",
+    "scipy": "1.18.0"
+  },
+  "schema": "einstein-arena-publication-manifest-v1",
+  "verifier_sha256_record_only": "dc5ccffaa20ba6c112cab36ffe602c657372d192d8b486abd66b14bcad1ca768"
+}

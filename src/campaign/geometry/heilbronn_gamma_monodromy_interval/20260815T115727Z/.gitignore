@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.publication-selftest-*/
+target_manifest.rebuilt.json
