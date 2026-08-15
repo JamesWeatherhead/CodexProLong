@@ -94,15 +94,25 @@ class ReadmeClaimsTest(unittest.TestCase):
         errors = validate_readme(duplicated)
         self.assertTrue(any("exactly one assets/prolong-memory-codex.webp" in error for error in errors))
 
-    def test_run_details_are_removed_and_valid_definition_is_required(self) -> None:
+    def test_run_details_and_old_stats_are_removed(self) -> None:
         text = README.read_text(encoding="utf-8")
         with_details = text + "\nRun details and exact configuration\n"
-        without_definition = text.replace(
-            "“Valid #&#8203;1” means the construction ranked first in the frozen snapshot",
-            "A valid result is documented",
-        )
         self.assertTrue(any("forbidden claim" in error for error in validate_readme(with_details)))
-        self.assertTrue(any("Valid #1" in error for error in validate_readme(without_definition)))
+        for old_copy in (
+            "One persistent campaign reached five valid #1 constructions",
+            "Every positive claim links to public evidence",
+            "5 valid #1s",
+        ):
+            errors = validate_readme(text + f"\n{old_copy}\n")
+            self.assertTrue(any("forbidden claim" in error for error in errors))
+
+    def test_first_weekend_claim_is_required(self) -> None:
+        text = README.read_text(encoding="utf-8")
+        without_claim = text.replace(
+            "Following its first weekend of autonomous research, CodexProLong is #&#8203;1",
+            "CodexProLong has research results",
+        )
+        self.assertTrue(any("first weekend" in error for error in validate_readme(without_claim)))
 
     def test_generated_visuals_are_current(self) -> None:
         self.assertEqual(FIGURE.read_text(encoding="utf-8"), figure_svg())

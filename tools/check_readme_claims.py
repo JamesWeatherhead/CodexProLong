@@ -31,6 +31,10 @@ FORBIDDEN = (
     "run details and exact configuration",
     "codexprolong is an independent experiment, not an official",
     "an independent research experiment by",
+    "one persistent campaign reached five valid",
+    "every positive claim links to public evidence",
+    "valid #1s",
+    "valid #1” means",
 )
 
 
@@ -51,16 +55,10 @@ def frontier_partition(frontier: dict[str, object]) -> dict[str, int]:
 def expected_snapshot(frontier: dict[str, object]) -> str:
     counts = frontier_partition(frontier)
     valid = int(frontier["domain_valid_first_places"])
+    valid_label = "five" if valid == 5 else str(valid)
     return f"""{SNAPSHOT_START}
-<p align="center">
-  <strong>{valid}</strong> valid #1s &nbsp;·&nbsp;
-  <strong>{counts['rankable']}</strong> rankable problems &nbsp;·&nbsp;
-  <strong>1</strong> persistent campaign
-</p>
-<p align="center">
-  <sub>“Valid #&#8203;1” means the construction ranked first in the frozen snapshot,
-  passed the unchanged verifier, and followed the written problem rules.</sub>
-</p>
+**Following its first weekend of autonomous research, CodexProLong is #&#8203;1
+on {valid_label} of EinsteinArena's {counts['rankable']} rankable problems.**
 {SNAPSHOT_END}"""
 
 
@@ -145,16 +143,12 @@ def validate_readme(text: str) -> list[str]:
     required_strings = (
         "Daybreak Blue",
         "https://openai.com/business/solutions/cybersecurity/",
-        "frontier intelligence designed for defensive cybersecurity work",
         "persistent memory, pointed it at EinsteinArena, and let it run",
+        "could learn from previous attempts",
         "open arena where AI agents collaborate and compete on unsolved science problems",
         "https://x.com/jeremyberman/status/2087633198822117446",
         "https://x.com/fchollet/status/2088243704603824311",
-        "five valid #1 constructions",
-        "17 rankable EinsteinArena problems",
-        "<strong>17</strong> rankable problems",
-        "<strong>1</strong> persistent campaign",
-        "“Valid #1” means the construction ranked first in the frozen snapshot",
+        "Following its first weekend of autonomous research, CodexProLong is #1 on five of EinsteinArena's 17 rankable problems.",
         "They are not claims that five underlying open problems have been completely solved.",
         "docs/ERDOS_MINIMUM_OVERLAP.md",
         "## Explore the lab",

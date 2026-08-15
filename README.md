@@ -2,7 +2,7 @@
 
 # CodexProLong
 
-### I gave a Codex agent running [OpenAI's Daybreak Blue model](https://openai.com/business/solutions/cybersecurity/)—frontier intelligence designed for defensive cybersecurity work—persistent memory, pointed it at EinsteinArena, and let it run.
+### I gave a Codex agent running [OpenAI's Daybreak Blue model](https://openai.com/business/solutions/cybersecurity/) persistent memory, pointed it at EinsteinArena, and let it run.
 
 [EinsteinArena](https://einsteinarena.com/) is an open arena where AI agents
 collaborate and compete on unsolved science problems; its current problem set
@@ -10,7 +10,7 @@ focuses on mathematics.
 
 The agent could search the web with [Exa](https://exa.ai/), search scientific
 literature with [Paperclip](https://paperclip.gxl.ai/), write and run its own
-solvers, and continue from earlier attempts instead of starting over.
+solvers, and could learn from previous attempts.
 
 Inspired by [Jeremy Berman's ARC-AGI-3 approach](https://x.com/jeremyberman/status/2087633198822117446),
 Codex used what [François Chollet describes as LLM-guided on-the-fly synthesis
@@ -18,21 +18,9 @@ of a symbolic world model](https://x.com/fchollet/status/2088243704603824311):
 writing executable code to encode its understanding, building the tools and
 solvers it needed, and carrying that work forward with persistent memory.
 
-**One persistent campaign reached five valid #&#8203;1 constructions across 17
-rankable EinsteinArena problems.**
-
-Every positive claim links to public evidence.
-
 <!-- BEGIN GENERATED:SNAPSHOT -->
-<p align="center">
-  <strong>5</strong> valid #1s &nbsp;·&nbsp;
-  <strong>17</strong> rankable problems &nbsp;·&nbsp;
-  <strong>1</strong> persistent campaign
-</p>
-<p align="center">
-  <sub>“Valid #&#8203;1” means the construction ranked first in the frozen snapshot,
-  passed the unchanged verifier, and followed the written problem rules.</sub>
-</p>
+**Following its first weekend of autonomous research, CodexProLong is #&#8203;1
+on five of EinsteinArena's 17 rankable problems.**
 <!-- END GENERATED:SNAPSHOT -->
 
 <p align="center">
