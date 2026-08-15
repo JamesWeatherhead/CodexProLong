@@ -1,0 +1,101 @@
+{
+  "conclusion": "The bounded changed-core evolutionary/LNS run produced no strict gate-clearer. Every retained construction was independently recomputed with exact Python-integer difference bitsets.",
+  "files": {
+    "checkpoint.json": {
+      "bytes": 156661,
+      "sha256": "bcee6befb90ea7bf1b8faf86d7fb274b7d365c59d3b90995b6cbb031b9138fa8"
+    },
+    "config.json": {
+      "bytes": 1171,
+      "sha256": "c4b63fdbbce8c20d6a1a08f5d324e5ca3b6dda1194ee13c339dd496c5378e7fe"
+    },
+    "events.jsonl": {
+      "bytes": 27930,
+      "sha256": "7de78d99eaaa0c36f90d7e4e731c4947110ee752486765f4188b1d4e1b5583bf"
+    },
+    "solver.py": {
+      "bytes": 44897,
+      "sha256": "90dbe434724367d67716eb9d5d083d5b2a305dd57b4839f1487cfbf2ee4381de"
+    },
+    "summary.json": {
+      "bytes": 16388,
+      "sha256": "7fd0ff5aea3cda4808831770ee3876ab842e30f6b5e07efb0f0f818ac3ae8631"
+    }
+  },
+  "gate": {
+    "cleared": false,
+    "incumbent_gap_in_coverage": 1,
+    "required_coverage_at_360": 49110,
+    "target_basin_missing_difference_count": 178
+  },
+  "incumbent": {
+    "coverage": 49109,
+    "gate_clearing": false,
+    "marks_sha256": "498eaa873e07f473c282b00c8d7df51a706267d9438a99e1cef1c7abed1bc018",
+    "missing_target": 1,
+    "payload_sha256": "02b16426d5a66feb480d79c7e1c7c26bb18ffb50730c5a2c76861584ec59183b",
+    "score_denominator": 49109,
+    "score_float": 2.639027469506608,
+    "score_numerator": 129600
+  },
+  "pins": {
+    "cardinality": 360,
+    "leader_id": 634,
+    "leader_payload_sha256": "02b16426d5a66feb480d79c7e1c7c26bb18ffb50730c5a2c76861584ec59183b",
+    "snapshot_sha256": "6159d144ae3c57dc740cd4fd5b54e1a467589c44b355dcef98ceb4b0bc6d0d69",
+    "strict_gate": 2.6390274685066077,
+    "target": 49110,
+    "verifier_sha256": "a7521e8a701ac31131932d2a732769d65426d329f4a933c4819516adacf2e585"
+  },
+  "run": {
+    "accepted": 130,
+    "elapsed_seconds": 312.1490815000143,
+    "iterations": 600,
+    "maximum_accepted_changed_marks": 5,
+    "maximum_retained_changed_marks": 4,
+    "operator_accepts": {
+      "gap_crossover": 19,
+      "gap_scramble": 1,
+      "gap_transfer": 0,
+      "global_target_swap": 83,
+      "mark_crossover": 24,
+      "ruin_coordinate": 0,
+      "ruin_corresponding": 0,
+      "ruin_fragile_high": 1,
+      "ruin_fragile_low": 1,
+      "ruin_random": 1,
+      "ruin_rank_block": 0
+    },
+    "operator_calls": {
+      "gap_crossover": 65,
+      "gap_scramble": 34,
+      "gap_transfer": 50,
+      "global_target_swap": 104,
+      "mark_crossover": 65,
+      "ruin_coordinate": 56,
+      "ruin_corresponding": 56,
+      "ruin_fragile_high": 43,
+      "ruin_fragile_low": 46,
+      "ruin_random": 45,
+      "ruin_rank_block": 36
+    },
+    "proposals": 600,
+    "retained_records_replayed": 27,
+    "seed": 20260815,
+    "target_improvements": 1
+  },
+  "schema": "difference-global-evolution-audit-v1",
+  "status": "exact_replay_passed",
+  "target_basin_frontier": {
+    "coverage": 33087,
+    "gate_clearing": false,
+    "marks_sha256": "97a882d2df0b249502d8c87a51dd9ecf3344b1045928515f0fbe83ec62d5682d",
+    "maximum_mark": 56077,
+    "missing_target": 178,
+    "payload_sha256": "b5df93e8e8980db12d0c2c6a98ba4b8674a5f2a2f31306816c56c09b9802a383",
+    "score_denominator": 11029,
+    "score_float": 3.9169462326593525,
+    "score_numerator": 43200,
+    "tail_present": 1660
+  }
+}

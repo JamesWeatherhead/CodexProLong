@@ -56,7 +56,10 @@ the source of truth for automation.
 > literature-derived family rather than merely sampling it. A 23-point
 > [exact atom-packing dual](src/campaign/discrete/pnt_landau_atom_packing/HANDOFF.md)
 > further proves Chebyshev optimal over every nonnegative combination of 5,200
-> scaled sporadic atoms.
+> scaled sporadic atoms. An Exa/Paperclip-grounded
+> [height-2/3 family sweep](src/campaign/discrete/pnt_factorial_ratio_higher_height/HANDOFF.md)
+> then exact-replays 3.31 million explicit constructions and 52 divisor-lattice
+> relaxations; all remain at or below the same Chebyshev baseline.
 
 ### Latest checkpoint: exact search that can actually resume
 
@@ -168,6 +171,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧪 [Open lab notebook: decisions, successes, and failures](docs/OPEN_LAB_NOTEBOOK.md)
 - 📚 [Paperclip literature map and line-pinned citations](docs/LITERATURE.md)
 - 🧮 [Paperclip-derived relative-difference-set search](src/campaign/discrete/difference_global/HANDOFF.md)
+- 🧬 [Global changed-core Difference Bases evolution](src/campaign/discrete/difference_global_evolution/HANDOFF.md)
 - 🧮 [Carry-exact Difference Bases family closure](src/campaign/discrete/difference_exact_synthesis/HANDOFF.md)
 - 📏 [Prime-power interval Difference Bases sweep](src/campaign/discrete/difference_interval_constructions/HANDOFF.md)
 - 📐 [Exact Wichmann/Leech interval-basis family sweep](src/campaign/discrete/difference_wichmann_leech/HANDOFF.md)
@@ -188,6 +192,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🗄️ [PSL-4 table-recovery audit via Exa, Paperclip, and archives](src/campaign/analytic/flat_psl4_table_recovery_exa/publication/README.md)
 - 📜 [Complete Bober/Landau factorial-ratio certificate audit](src/campaign/discrete/pnt_factorial_ratio_landau/HANDOFF.md)
 - ⚛️ [Exact 5,200-atom Landau packing dual](src/campaign/discrete/pnt_landau_atom_packing/HANDOFF.md)
+- 🧱 [Higher-height factorial-ratio family and divisor-lattice sweep](src/campaign/discrete/pnt_factorial_ratio_higher_height/HANDOFF.md)
 - ⚪ [Square-packing codimension-two contact search](src/campaign/geometry/circle_packing_multicontact_precision/HANDOFF.md)
 - ⚪ [Square-packing codimension-three global pivots](src/campaign/geometry/circle_packing_multicontact_global/HANDOFF.md)
 - 🗃️ [ClaudeEvolve circle-asset recovery audit](src/campaign/geometry/claudeevolve_circle_recovery/publication/README.md)

@@ -117,6 +117,18 @@ class SnapshotTests(unittest.TestCase):
             },
         )
 
+    def test_publication_allowlist_accepts_list_schema(self) -> None:
+        entries = [{"path": "README.md", "sha256": "a" * 64, "bytes": 1}]
+        self.assertEqual(MODULE.publication_allowlist({"include": entries}), entries)
+
+    def test_publication_allowlist_normalizes_files_schema(self) -> None:
+        self.assertEqual(
+            MODULE.publication_allowlist(
+                {"files": {"README.md": {"sha256": "b" * 64, "bytes": 2}}}
+            ),
+            [{"path": "README.md", "sha256": "b" * 64, "bytes": 2}],
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

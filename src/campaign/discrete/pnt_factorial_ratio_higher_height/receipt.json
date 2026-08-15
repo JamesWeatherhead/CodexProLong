@@ -1,0 +1,34 @@
+{
+  "best_exact_candidate": {
+    "construction": "two identical Chebyshev height-one factors",
+    "global_landau_maximum_after_height_normalization": "1",
+    "global_landau_minimum_after_height_normalization": "0",
+    "height": 2,
+    "period": 30,
+    "score_decimal": "0.921292022934090780913408449961604716417080789093030241095500286433861809502716518116509933"
+  },
+  "bounds": {
+    "family_candidates_generated": 3312606,
+    "family_height_two_or_three": 1031225,
+    "family_parameter_bound": 160,
+    "gessel_parameter_bound": 18,
+    "largest_divisor_lattice_period": 9699690,
+    "max_family_exact_period": 10000000,
+    "smooth_divisor_lattice_runs": 52,
+    "three_parameter_bound": 36
+  },
+  "changed_support_frontier": "0.9700735582811269039224111546813584232761257686802398581542833971639969",
+  "gap_to_changed_support_frontier": "-0.04878153534703612300900270472",
+  "gap_to_live_gate": "-0.07636626233363891908659155004",
+  "hashes": {
+    "best_payload.json": "39879f7b01c16c401f45b97bb934054d0d5a7eb8fa620e106519f3b8b3f2fbe8",
+    "divisor_lattice_receipt.json": "fbe588dabac1efc93937d2f300bbc612242e664c0480e0fda515251e95706b49",
+    "family_search_checkpoint.json": "c3dbd51fabe38b53a9979de86c4136fce904f1f005322236f4e9d9031affb6b6",
+    "family_search_receipt.json": "56877234a5f5c9b982265f9523e4ea483266e005c31fb1bf7d5eec7339f698eb",
+    "span_receipt.json": "dbb5cbfb8a4b0555e736a7ca1a3da2227d4bf820b7e647aab3cc561e73444e98"
+  },
+  "live_gate": "0.9976582852677297",
+  "live_verifier_sha256": "fd76a069b269a521d6ded609bd79185bf859df778283bebc37719dfd15b1ded6",
+  "outcome": "bounded negative frontier; no submission",
+  "verifier_executed": false
+}

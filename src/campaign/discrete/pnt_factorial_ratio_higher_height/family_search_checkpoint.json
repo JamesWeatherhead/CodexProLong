@@ -1,0 +1,5738 @@
+{
+  "bounds": {
+    "bound": 160,
+    "gessel_bound": 18,
+    "max_exact_period": 10000000,
+    "three_bound": 36
+  },
+  "candidates_generated": 3312606,
+  "families_with_exact_replayable_member": 77,
+  "height_two_or_three_candidates": 1031225,
+  "per_family_best": [
+    {
+      "arena_coefficients_rational": {
+        "1": "1/1",
+        "2": "-1/1",
+        "3": "-1/1",
+        "30": "1/1",
+        "5": "-1/1"
+      },
+      "canonical_counts": {
+        "1": 2,
+        "10": -2,
+        "15": -2,
+        "30": 2,
+        "6": -2
+      },
+      "canonical_signed_list": [
+        1,
+        1,
+        -6,
+        -6,
+        -10,
+        -10,
+        -15,
+        -15,
+        30,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.0,
+        "full_integer_horizon": 300,
+        "horizon_argmax_first": 1,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 300,
+        "passes_live_threshold": true,
+        "score_binary64": 0.9212920229340907
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 1,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 30,
+        "states_checked": 30
+      },
+      "family": "Chebyshev-product-height2",
+      "height": 2,
+      "parameters": {
+        "repetitions": 2
+      },
+      "payload": {
+        "partial_function": {
+          "1": 1.0,
+          "2": -1.0,
+          "3": -1.0,
+          "30": 1.0,
+          "5": -1.0
+        }
+      },
+      "period": 30,
+      "score_decimal": "0.921292022934090780913408449961604716417080789093030241095500286433861809502716518116509933",
+      "score_interval": {
+        "lower_decimal_directed": "0.921292022934090780913408449961604716417080789093030241095500286433861809502716518116509925",
+        "upper_decimal_directed": "0.921292022934090780913408449961604716417080789093030241095500286433861809502716518116509926"
+      },
+      "screen_score_binary64": 0.9212920229340906
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/1",
+        "2": "-1/1",
+        "3": "-1/1",
+        "30": "1/1",
+        "5": "-1/1"
+      },
+      "canonical_counts": {
+        "1": 3,
+        "10": -3,
+        "15": -3,
+        "30": 3,
+        "6": -3
+      },
+      "canonical_signed_list": [
+        1,
+        1,
+        1,
+        -6,
+        -6,
+        -6,
+        -10,
+        -10,
+        -10,
+        -15,
+        -15,
+        -15,
+        30,
+        30,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.0,
+        "full_integer_horizon": 300,
+        "horizon_argmax_first": 1,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 300,
+        "passes_live_threshold": true,
+        "score_binary64": 0.9212920229340907
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          3
+        ],
+        "height": 3,
+        "is_integral_factorial_ratio": true,
+        "maximum": 3,
+        "maximum_at": 1,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 30,
+        "states_checked": 30
+      },
+      "family": "Chebyshev-product-height3",
+      "height": 3,
+      "parameters": {
+        "repetitions": 3
+      },
+      "payload": {
+        "partial_function": {
+          "1": 1.0,
+          "2": -1.0,
+          "3": -1.0,
+          "30": 1.0,
+          "5": -1.0
+        }
+      },
+      "period": 30,
+      "score_decimal": "0.921292022934090780913408449961604716417080789093030241095500286433861809502716518116509922",
+      "score_interval": {
+        "lower_decimal_directed": "0.921292022934090780913408449961604716417080789093030241095500286433861809502716518116509925",
+        "upper_decimal_directed": "0.921292022934090780913408449961604716417080789093030241095500286433861809502716518116509926"
+      },
+      "screen_score_binary64": 0.9212920229340906
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/1",
+        "2": "-3/2",
+        "3": "-1/1",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "2": -2,
+        "3": -3,
+        "6": 2
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -2,
+        -3,
+        -3,
+        -3,
+        6,
+        6
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.0,
+        "full_integer_horizon": 60,
+        "horizon_argmax_first": 1,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 60,
+        "passes_live_threshold": true,
+        "score_binary64": 0.7367511925403243
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 1,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 6,
+        "states_checked": 6
+      },
+      "family": "S5-14",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 2
+      },
+      "payload": {
+        "partial_function": {
+          "1": 1.0,
+          "2": -1.5,
+          "3": -1.0,
+          "6": 0.5
+        }
+      },
+      "period": 6,
+      "score_decimal": "0.736751192540324295793632723536082471545539395695857532347460256404969321284448718788979492",
+      "score_interval": {
+        "lower_decimal_directed": "0.736751192540324295793632723536082471545539395695857532347460256404969321284448718788979490",
+        "upper_decimal_directed": "0.736751192540324295793632723536082471545539395695857532347460256404969321284448718788979491"
+      },
+      "screen_score_binary64": 0.7367511925403244
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/1",
+        "2": "-3/2",
+        "3": "-1/1",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "2": -2,
+        "3": -3,
+        "6": 2
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -2,
+        -3,
+        -3,
+        -3,
+        6,
+        6
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.0,
+        "full_integer_horizon": 60,
+        "horizon_argmax_first": 1,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 60,
+        "passes_live_threshold": true,
+        "score_binary64": 0.7367511925403243
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 1,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 6,
+        "states_checked": 6
+      },
+      "family": "S5-30",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 1.0,
+          "2": -1.5,
+          "3": -1.0,
+          "6": 0.5
+        }
+      },
+      "period": 6,
+      "score_decimal": "0.736751192540324295793632723536082471545539395695857532347460256404969321284448718788979492",
+      "score_interval": {
+        "lower_decimal_directed": "0.736751192540324295793632723536082471545539395695857532347460256404969321284448718788979490",
+        "upper_decimal_directed": "0.736751192540324295793632723536082471545539395695857532347460256404969321284448718788979491"
+      },
+      "screen_score_binary64": 0.7367511925403244
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/1",
+        "2": "-2/1"
+      },
+      "canonical_counts": {
+        "1": -4,
+        "2": 2
+      },
+      "canonical_signed_list": [
+        -1,
+        -1,
+        -1,
+        -1,
+        2,
+        2
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.0,
+        "full_integer_horizon": 20,
+        "horizon_argmax_first": 1,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 20,
+        "passes_live_threshold": true,
+        "score_binary64": 0.6931471805599453
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 1,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 2,
+        "states_checked": 2
+      },
+      "family": "S3-05-product",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 1.0,
+          "2": -2.0
+        }
+      },
+      "period": 2,
+      "score_decimal": "0.693147180559945309417232121458176568075500134360255254120680009493393621969694715605863328",
+      "score_interval": {
+        "lower_decimal_directed": "0.693147180559945309417232121458176568075500134360255254120680009493393621969694715605863326",
+        "upper_decimal_directed": "0.693147180559945309417232121458176568075500134360255254120680009493393621969694715605863327"
+      },
+      "screen_score_binary64": 0.6931471805599453
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "1/2",
+        "3": "-1/1",
+        "4": "-1/2",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "12": 1,
+        "2": -1,
+        "3": -1,
+        "4": -2
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -3,
+        -4,
+        -4,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 2,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5852664033905275
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 2,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-11",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 4
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": 0.5,
+          "3": -1.0,
+          "4": -0.5,
+          "6": -0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.585266403390527461627524994210491281261683992773594857930680377487408765449402041479071742",
+      "score_interval": {
+        "lower_decimal_directed": "0.585266403390527461627524994210491281261683992773594857930680377487408765449402041479071739",
+        "upper_decimal_directed": "0.585266403390527461627524994210491281261683992773594857930680377487408765449402041479071740"
+      },
+      "screen_score_binary64": 0.5852664033905276
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "1/2",
+        "3": "-1/1",
+        "4": "-1/2",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "12": 1,
+        "2": -1,
+        "3": -1,
+        "4": -2
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -3,
+        -4,
+        -4,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 2,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5852664033905275
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 2,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-23",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 4
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": 0.5,
+          "3": -1.0,
+          "4": -0.5,
+          "6": -0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.585266403390527461627524994210491281261683992773594857930680377487408765449402041479071742",
+      "score_interval": {
+        "lower_decimal_directed": "0.585266403390527461627524994210491281261683992773594857930680377487408765449402041479071739",
+        "upper_decimal_directed": "0.585266403390527461627524994210491281261683992773594857930680377487408765449402041479071740"
+      },
+      "screen_score_binary64": 0.5852664033905276
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "3": "-1/1",
+        "4": "-1/1",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "12": 1,
+        "2": 1,
+        "3": -2,
+        "4": -2
+      },
+      "canonical_signed_list": [
+        2,
+        -3,
+        -3,
+        -4,
+        -4,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 60,
+        "horizon_argmax_first": 2,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 60,
+        "passes_live_threshold": true,
+        "score_binary64": 0.563464397400338
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 2,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-12",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 3
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "3": -1.0,
+          "4": -1.0,
+          "6": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.563464397400337968439324693171538329526664362105793718817290254031620915792025039887513662",
+      "score_interval": {
+        "lower_decimal_directed": "0.563464397400337968439324693171538329526664362105793718817290254031620915792025039887513658",
+        "upper_decimal_directed": "0.563464397400337968439324693171538329526664362105793718817290254031620915792025039887513659"
+      },
+      "screen_score_binary64": 0.563464397400338
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "3": "-1/1",
+        "4": "-1/1",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "12": 1,
+        "2": 1,
+        "3": -2,
+        "4": -2
+      },
+      "canonical_signed_list": [
+        2,
+        -3,
+        -3,
+        -4,
+        -4,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 60,
+        "horizon_argmax_first": 2,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 60,
+        "passes_live_threshold": true,
+        "score_binary64": 0.563464397400338
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 2,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S5-01",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 4
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "3": -1.0,
+          "4": -1.0,
+          "6": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.563464397400337968439324693171538329526664362105793718817290254031620915792025039887513662",
+      "score_interval": {
+        "lower_decimal_directed": "0.563464397400337968439324693171538329526664362105793718817290254031620915792025039887513658",
+        "upper_decimal_directed": "0.563464397400337968439324693171538329526664362105793718817290254031620915792025039887513659"
+      },
+      "screen_score_binary64": 0.563464397400338
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "3": "-1/1",
+        "4": "-1/1",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "12": 1,
+        "2": 1,
+        "3": -2,
+        "4": -2
+      },
+      "canonical_signed_list": [
+        2,
+        -3,
+        -3,
+        -4,
+        -4,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 60,
+        "horizon_argmax_first": 2,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 60,
+        "passes_live_threshold": true,
+        "score_binary64": 0.563464397400338
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 2,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S5-22",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 2
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "3": -1.0,
+          "4": -1.0,
+          "6": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.563464397400337968439324693171538329526664362105793718817290254031620915792025039887513662",
+      "score_interval": {
+        "lower_decimal_directed": "0.563464397400337968439324693171538329526664362105793718817290254031620915792025039887513658",
+        "upper_decimal_directed": "0.563464397400337968439324693171538329526664362105793718817290254031620915792025039887513659"
+      },
+      "screen_score_binary64": 0.563464397400338
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "2": "-1/2",
+        "24": "1/2",
+        "4": "-1/2",
+        "6": "-1/2",
+        "8": "-1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "12": -1,
+        "24": 1,
+        "3": -1,
+        "4": -1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        1,
+        -3,
+        -4,
+        -6,
+        -12,
+        24
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 240,
+        "horizon_argmax_first": 3,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 240,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5596425209383847
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 3,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 24,
+        "states_checked": 24
+      },
+      "family": "S3-07",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 12
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "2": -0.5,
+          "24": 0.5,
+          "4": -0.5,
+          "6": -0.5,
+          "8": -0.5
+        }
+      },
+      "period": 24,
+      "score_decimal": "0.559642520938384783216075580007199592260614088369102645735566735910163875554696817317087510",
+      "score_interval": {
+        "lower_decimal_directed": "0.559642520938384783216075580007199592260614088369102645735566735910163875554696817317087507",
+        "upper_decimal_directed": "0.559642520938384783216075580007199592260614088369102645735566735910163875554696817317087508"
+      },
+      "screen_score_binary64": 0.5596425209383848
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "2": "-1/2",
+        "24": "1/2",
+        "4": "-1/2",
+        "6": "-1/2",
+        "8": "-1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "12": -1,
+        "24": 1,
+        "3": -1,
+        "4": -1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        1,
+        -3,
+        -4,
+        -6,
+        -12,
+        24
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 240,
+        "horizon_argmax_first": 3,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 240,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5596425209383847
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 3,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 24,
+        "states_checked": 24
+      },
+      "family": "S5-07",
+      "height": 2,
+      "parameters": {
+        "a": 6,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "2": -0.5,
+          "24": 0.5,
+          "4": -0.5,
+          "6": -0.5,
+          "8": -0.5
+        }
+      },
+      "period": 24,
+      "score_decimal": "0.559642520938384783216075580007199592260614088369102645735566735910163875554696817317087510",
+      "score_interval": {
+        "lower_decimal_directed": "0.559642520938384783216075580007199592260614088369102645735566735910163875554696817317087507",
+        "upper_decimal_directed": "0.559642520938384783216075580007199592260614088369102645735566735910163875554696817317087508"
+      },
+      "screen_score_binary64": 0.5596425209383848
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "15": "1/2",
+        "2": "-1/2",
+        "5": "-1/1",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "15": -1,
+        "2": 1,
+        "30": 1,
+        "5": -1,
+        "6": -2
+      },
+      "canonical_signed_list": [
+        2,
+        -5,
+        -6,
+        -6,
+        -15,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 150,
+        "horizon_argmax_first": 3,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 150,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5542193266924039
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 3,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 30,
+        "states_checked": 30
+      },
+      "family": "S5-04",
+      "height": 2,
+      "parameters": {
+        "a": 3,
+        "b": -2
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "15": 0.5,
+          "2": -0.5,
+          "5": -1.0,
+          "6": -0.5
+        }
+      },
+      "period": 30,
+      "score_decimal": "0.55421932669240398347563285786988308117847479838930884427906936842536908660210498098399088",
+      "score_interval": {
+        "lower_decimal_directed": "0.554219326692403983475632857869883081178474798389308844279069368425369086602104980983990876",
+        "upper_decimal_directed": "0.554219326692403983475632857869883081178474798389308844279069368425369086602104980983990877"
+      },
+      "screen_score_binary64": 0.5542193266924039
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "3": "-3/2"
+      },
+      "canonical_counts": {
+        "1": -3,
+        "3": 1
+      },
+      "canonical_signed_list": [
+        -1,
+        -1,
+        -1,
+        3
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 30,
+        "horizon_argmax_first": 2,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 30,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5493061443340549
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 2,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 3,
+        "states_checked": 3
+      },
+      "family": "S3-04-multinomial",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 1,
+        "c": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "3": -1.5
+        }
+      },
+      "period": 3,
+      "score_decimal": "0.549306144334054845697622618461262852323745278911374725867347166818747146609304483436807875",
+      "score_interval": {
+        "lower_decimal_directed": "0.549306144334054845697622618461262852323745278911374725867347166818747146609304483436807877",
+        "upper_decimal_directed": "0.549306144334054845697622618461262852323745278911374725867347166818747146609304483436807878"
+      },
+      "screen_score_binary64": 0.5493061443340549
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "15": "-1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "9": "-1/2",
+        "90": "1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "10": -1,
+        "30": -1,
+        "45": -1,
+        "6": -1,
+        "90": 1
+      },
+      "canonical_signed_list": [
+        1,
+        -6,
+        -10,
+        -30,
+        -45,
+        90
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 900,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 900,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5437262727493668
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 90,
+        "states_checked": 90
+      },
+      "family": "S5-10",
+      "height": 2,
+      "parameters": {
+        "a": 15,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "15": -0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "9": -0.5,
+          "90": 0.5
+        }
+      },
+      "period": 90,
+      "score_decimal": "0.543726272749366771237251404467261640243969460031234945469703632730582811883387447338799472",
+      "score_interval": {
+        "lower_decimal_directed": "0.543726272749366771237251404467261640243969460031234945469703632730582811883387447338799480",
+        "upper_decimal_directed": "0.543726272749366771237251404467261640243969460031234945469703632730582811883387447338799481"
+      },
+      "screen_score_binary64": 0.5437262727493667
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "10": "-1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "60": "1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "20": -1,
+        "30": -1,
+        "5": -1,
+        "6": -1,
+        "60": 1
+      },
+      "canonical_signed_list": [
+        1,
+        -5,
+        -6,
+        -20,
+        -30,
+        60
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 600,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 600,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5409363369570228
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 60,
+        "states_checked": 60
+      },
+      "family": "S5-09",
+      "height": 2,
+      "parameters": {
+        "a": 10,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "10": -0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "60": 0.5
+        }
+      },
+      "period": 60,
+      "score_decimal": "0.540936336957022734007065797470261034204081550591165055270881865686500644520428929289795275",
+      "score_interval": {
+        "lower_decimal_directed": "0.540936336957022734007065797470261034204081550591165055270881865686500644520428929289795282",
+        "upper_decimal_directed": "0.540936336957022734007065797470261034204081550591165055270881865686500644520428929289795283"
+      },
+      "screen_score_binary64": 0.5409363369570227
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "16": "-1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "48": "1/2",
+        "8": "-1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "16": -1,
+        "24": -1,
+        "3": -1,
+        "48": 1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        1,
+        -3,
+        -6,
+        -16,
+        -24,
+        48
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 480,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 480,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5326723266460304
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 48,
+        "states_checked": 48
+      },
+      "family": "S3-25",
+      "height": 2,
+      "parameters": {
+        "a": 8,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "16": -0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "48": 0.5,
+          "8": -0.5
+        }
+      },
+      "period": 48,
+      "score_decimal": "0.532672326646030321268648798195278270557160052972437546688066827908667661424623648785389604",
+      "score_interval": {
+        "lower_decimal_directed": "0.532672326646030321268648798195278270557160052972437546688066827908667661424623648785389611",
+        "upper_decimal_directed": "0.532672326646030321268648798195278270557160052972437546688066827908667661424623648785389612"
+      },
+      "screen_score_binary64": 0.5326723266460305
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "24": "1/2",
+        "3": "-1/2",
+        "8": "-1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "12": -1,
+        "2": -1,
+        "24": 1,
+        "3": -1,
+        "8": -1
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -3,
+        -8,
+        -12,
+        24
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 240,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 240,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5236822618819121
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 24,
+        "states_checked": 24
+      },
+      "family": "S3-22",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 4
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "24": 0.5,
+          "3": -0.5,
+          "8": -0.5
+        }
+      },
+      "period": 24,
+      "score_decimal": "0.52368226188191216728617320425797116332267537450688251367223352524150225671459925927482365",
+      "score_interval": {
+        "lower_decimal_directed": "0.523682261881912167286173204257971163322675374506882513672233525241502256714599259274823645",
+        "upper_decimal_directed": "0.523682261881912167286173204257971163322675374506882513672233525241502256714599259274823646"
+      },
+      "screen_score_binary64": 0.5236822618819122
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "24": "1/2",
+        "3": "-1/2",
+        "8": "-1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "12": -1,
+        "2": -1,
+        "24": 1,
+        "3": -1,
+        "8": -1
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -3,
+        -8,
+        -12,
+        24
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 240,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 240,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5236822618819121
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 24,
+        "states_checked": 24
+      },
+      "family": "S5-18",
+      "height": 2,
+      "parameters": {
+        "a": 2,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "24": 0.5,
+          "3": -0.5,
+          "8": -0.5
+        }
+      },
+      "period": 24,
+      "score_decimal": "0.52368226188191216728617320425797116332267537450688251367223352524150225671459925927482365",
+      "score_interval": {
+        "lower_decimal_directed": "0.523682261881912167286173204257971163322675374506882513672233525241502256714599259274823645",
+        "upper_decimal_directed": "0.523682261881912167286173204257971163322675374506882513672233525241502256714599259274823646"
+      },
+      "screen_score_binary64": 0.5236822618819122
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "8": "-1/1"
+      },
+      "canonical_counts": {
+        "12": -1,
+        "2": 1,
+        "24": 1,
+        "3": -2,
+        "8": -1
+      },
+      "canonical_signed_list": [
+        2,
+        -3,
+        -3,
+        -8,
+        -12,
+        24
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5127812588868175
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 24,
+        "states_checked": 24
+      },
+      "family": "S5-20",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 4
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": 0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "8": -1.0
+        }
+      },
+      "period": 24,
+      "score_decimal": "0.512781258886817420692073053738494687455165559172981944115538463513608331885910758479044610",
+      "score_interval": {
+        "lower_decimal_directed": "0.512781258886817420692073053738494687455165559172981944115538463513608331885910758479044604",
+        "upper_decimal_directed": "0.512781258886817420692073053738494687455165559172981944115538463513608331885910758479044605"
+      },
+      "screen_score_binary64": 0.5127812588868176
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "14": "-1/2",
+        "2": "-1/2",
+        "28": "1/2",
+        "3": "-1/2",
+        "42": "1/2",
+        "7": "-1/2",
+        "84": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": -1,
+        "2": 1,
+        "28": -1,
+        "3": 1,
+        "42": -1,
+        "6": -1,
+        "84": 1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        3,
+        -6,
+        -12,
+        -28,
+        -42,
+        84
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 840,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 840,
+        "passes_live_threshold": true,
+        "score_binary64": 0.512008663478161
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 84,
+        "states_checked": 84
+      },
+      "family": "S3-24",
+      "height": 2,
+      "parameters": {
+        "a": 14,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "14": -0.5,
+          "2": -0.5,
+          "28": 0.5,
+          "3": -0.5,
+          "42": 0.5,
+          "7": -0.5,
+          "84": -0.5
+        }
+      },
+      "period": 84,
+      "score_decimal": "0.512008663478161017468275648252119798211740695943398883978195056583696405465229701845601810",
+      "score_interval": {
+        "lower_decimal_directed": "0.512008663478161017468275648252119798211740695943398883978195056583696405465229701845601810",
+        "upper_decimal_directed": "0.512008663478161017468275648252119798211740695943398883978195056583696405465229701845601811"
+      },
+      "screen_score_binary64": 0.5120086634781607
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "1/2",
+        "18": "1/2",
+        "2": "-1/2",
+        "36": "-1/2",
+        "4": "-1/1",
+        "9": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "18": -1,
+        "2": 1,
+        "3": 1,
+        "36": 1,
+        "4": -1,
+        "9": -2
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        3,
+        -4,
+        -9,
+        -9,
+        -18,
+        36
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 360,
+        "horizon_argmax_first": 3,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 360,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5078736324011348
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 3,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 36,
+        "states_checked": 36
+      },
+      "family": "S5-35",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 6
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": 0.5,
+          "18": 0.5,
+          "2": -0.5,
+          "36": -0.5,
+          "4": -1.0,
+          "9": -0.5
+        }
+      },
+      "period": 36,
+      "score_decimal": "0.507873632401134776752956632510556283077312196149451396569398936897158010197238517356976208",
+      "score_interval": {
+        "lower_decimal_directed": "0.507873632401134776752956632510556283077312196149451396569398936897158010197238517356976207",
+        "upper_decimal_directed": "0.507873632401134776752956632510556283077312196149451396569398936897158010197238517356976208"
+      },
+      "screen_score_binary64": 0.5078736324011347
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "2": -1,
+        "3": -1,
+        "6": 1
+      },
+      "canonical_signed_list": [
+        -1,
+        -2,
+        -3,
+        6
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 60,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 60,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5057021323536759
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 6,
+        "states_checked": 6
+      },
+      "family": "S3-13",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 2
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "6": -0.5
+        }
+      },
+      "period": 6,
+      "score_decimal": "0.505702132353675859321222016383356948853706017575772447640566919907171447294550480253691717",
+      "score_interval": {
+        "lower_decimal_directed": "0.505702132353675859321222016383356948853706017575772447640566919907171447294550480253691714",
+        "upper_decimal_directed": "0.505702132353675859321222016383356948853706017575772447640566919907171447294550480253691715"
+      },
+      "screen_score_binary64": 0.5057021323536759
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "2": -1,
+        "3": -1,
+        "6": 1
+      },
+      "canonical_signed_list": [
+        -1,
+        -2,
+        -3,
+        6
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 60,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 60,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5057021323536759
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 6,
+        "states_checked": 6
+      },
+      "family": "S5-08",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "6": -0.5
+        }
+      },
+      "period": 6,
+      "score_decimal": "0.505702132353675859321222016383356948853706017575772447640566919907171447294550480253691717",
+      "score_interval": {
+        "lower_decimal_directed": "0.505702132353675859321222016383356948853706017575772447640566919907171447294550480253691714",
+        "upper_decimal_directed": "0.505702132353675859321222016383356948853706017575772447640566919907171447294550480253691715"
+      },
+      "screen_score_binary64": 0.5057021323536759
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "2": -1,
+        "3": -1,
+        "6": 1
+      },
+      "canonical_signed_list": [
+        -1,
+        -2,
+        -3,
+        6
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 60,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 60,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5057021323536759
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 6,
+        "states_checked": 6
+      },
+      "family": "Wider",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 2
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "6": -0.5
+        }
+      },
+      "period": 6,
+      "score_decimal": "0.505702132353675859321222016383356948853706017575772447640566919907171447294550480253691717",
+      "score_interval": {
+        "lower_decimal_directed": "0.505702132353675859321222016383356948853706017575772447640566919907171447294550480253691714",
+        "upper_decimal_directed": "0.505702132353675859321222016383356948853706017575772447640566919907171447294550480253691715"
+      },
+      "screen_score_binary64": 0.5057021323536759
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "1/2",
+        "2": "-1/2",
+        "24": "-1/2",
+        "4": "-1/1",
+        "6": "-1/2",
+        "8": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": -1,
+        "2": 1,
+        "24": 1,
+        "3": 1,
+        "4": -1,
+        "6": -2
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        3,
+        -4,
+        -6,
+        -6,
+        -12,
+        24
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 240,
+        "horizon_argmax_first": 3,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 240,
+        "passes_live_threshold": true,
+        "score_binary64": 0.5018802558917227
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 3,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 24,
+        "states_checked": 24
+      },
+      "family": "S3-14",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 12
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": 0.5,
+          "2": -0.5,
+          "24": -0.5,
+          "4": -1.0,
+          "6": -0.5,
+          "8": 0.5
+        }
+      },
+      "period": 24,
+      "score_decimal": "0.501880255891722674097972903219018211587655743839081374558843401785714407057222257683265567",
+      "score_interval": {
+        "lower_decimal_directed": "0.501880255891722674097972903219018211587655743839081374558843401785714407057222257683265564",
+        "upper_decimal_directed": "0.501880255891722674097972903219018211587655743839081374558843401785714407057222257683265565"
+      },
+      "screen_score_binary64": 0.5018802558917227
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "10": "1/2",
+        "2": "-1/2",
+        "20": "-1/2",
+        "3": "-1/2",
+        "30": "-1/2",
+        "5": "-1/2",
+        "60": "1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "12": -1,
+        "2": -1,
+        "20": -1,
+        "3": -1,
+        "30": -1,
+        "6": 1,
+        "60": 1
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -3,
+        6,
+        -12,
+        -20,
+        -30,
+        60
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 600,
+        "horizon_argmax_first": 11,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 600,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4996637716930805
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 11,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 60,
+        "states_checked": 60
+      },
+      "family": "S3-15",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 30
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "10": 0.5,
+          "2": -0.5,
+          "20": -0.5,
+          "3": -0.5,
+          "30": -0.5,
+          "5": -0.5,
+          "60": 0.5
+        }
+      },
+      "period": 60,
+      "score_decimal": "0.499663771693080554565205891261501776959319327398088111076462168382758155781318395156859742",
+      "score_interval": {
+        "lower_decimal_directed": "0.499663771693080554565205891261501776959319327398088111076462168382758155781318395156859745",
+        "upper_decimal_directed": "0.499663771693080554565205891261501776959319327398088111076462168382758155781318395156859746"
+      },
+      "screen_score_binary64": 0.49966377169308057
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "10": "1/2",
+        "2": "-1/2",
+        "20": "-1/2",
+        "3": "-1/2",
+        "30": "-1/2",
+        "5": "-1/2",
+        "60": "1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "12": -1,
+        "2": -1,
+        "20": -1,
+        "3": -1,
+        "30": -1,
+        "6": 1,
+        "60": 1
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -3,
+        6,
+        -12,
+        -20,
+        -30,
+        60
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 600,
+        "horizon_argmax_first": 11,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 600,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4996637716930805
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 11,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 60,
+        "states_checked": 60
+      },
+      "family": "S5-23",
+      "height": 2,
+      "parameters": {
+        "a": 6,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "10": 0.5,
+          "2": -0.5,
+          "20": -0.5,
+          "3": -0.5,
+          "30": -0.5,
+          "5": -0.5,
+          "60": 0.5
+        }
+      },
+      "period": 60,
+      "score_decimal": "0.499663771693080554565205891261501776959319327398088111076462168382758155781318395156859742",
+      "score_interval": {
+        "lower_decimal_directed": "0.499663771693080554565205891261501776959319327398088111076462168382758155781318395156859745",
+        "upper_decimal_directed": "0.499663771693080554565205891261501776959319327398088111076462168382758155781318395156859746"
+      },
+      "screen_score_binary64": 0.49966377169308057
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "10": "-1/2",
+        "12": "1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "30": "1/2",
+        "6": "-1/2",
+        "60": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "10": -1,
+        "2": 1,
+        "20": -1,
+        "30": -1,
+        "5": 1,
+        "6": -1,
+        "60": 1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        5,
+        -6,
+        -10,
+        -20,
+        -30,
+        60
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 600,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 600,
+        "passes_live_threshold": true,
+        "score_binary64": 0.49472652491969304
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 60,
+        "states_checked": 60
+      },
+      "family": "S5-26",
+      "height": 2,
+      "parameters": {
+        "a": 10,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "10": -0.5,
+          "12": 0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "30": 0.5,
+          "6": -0.5,
+          "60": -0.5
+        }
+      },
+      "period": 60,
+      "score_decimal": "0.494726524919693046712583656039715929665714874967148038329503198386941069722449281582737725",
+      "score_interval": {
+        "lower_decimal_directed": "0.494726524919693046712583656039715929665714874967148038329503198386941069722449281582737727",
+        "upper_decimal_directed": "0.494726524919693046712583656039715929665714874967148038329503198386941069722449281582737728"
+      },
+      "screen_score_binary64": 0.494726524919693
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/1",
+        "2": "-1/2",
+        "24": "1/2",
+        "3": "-1/1",
+        "4": "1/2",
+        "6": "1/2",
+        "8": "-1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "12": -1,
+        "2": -2,
+        "24": 1,
+        "3": -1,
+        "4": 1,
+        "6": 1,
+        "8": -2
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -2,
+        -3,
+        4,
+        6,
+        -8,
+        -8,
+        -12,
+        24
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 240,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 240,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4877220028254396
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 24,
+        "states_checked": 24
+      },
+      "family": "S5-34",
+      "height": 2,
+      "parameters": {
+        "a": 2,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -1.0,
+          "2": -0.5,
+          "24": 0.5,
+          "3": -1.0,
+          "4": 0.5,
+          "6": 0.5,
+          "8": -0.5
+        }
+      },
+      "period": 24,
+      "score_decimal": "0.487722002825439551356270828508742734384736660644662381608900314572840637874501701232559785",
+      "score_interval": {
+        "lower_decimal_directed": "0.487722002825439551356270828508742734384736660644662381608900314572840637874501701232559783",
+        "upper_decimal_directed": "0.487722002825439551356270828508742734384736660644662381608900314572840637874501701232559784"
+      },
+      "screen_score_binary64": 0.4877220028254397
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "4": "-1/2",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": 1,
+        "2": 1,
+        "3": -1,
+        "4": -1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -3,
+        -4,
+        -6,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 7,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4839001263634864
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 7,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-08",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "4": -0.5,
+          "6": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633",
+      "score_interval": {
+        "lower_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133632",
+        "upper_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633"
+      },
+      "screen_score_binary64": 0.4839001263634864
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "4": "-1/2",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": 1,
+        "2": 1,
+        "3": -1,
+        "4": -1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -3,
+        -4,
+        -6,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 7,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4839001263634864
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 7,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-10",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 3
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "4": -0.5,
+          "6": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633",
+      "score_interval": {
+        "lower_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133632",
+        "upper_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633"
+      },
+      "screen_score_binary64": 0.4839001263634864
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "4": "-1/2",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": 1,
+        "2": 1,
+        "3": -1,
+        "4": -1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -3,
+        -4,
+        -6,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 7,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4839001263634864
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 7,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-17",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 3
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "4": -0.5,
+          "6": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633",
+      "score_interval": {
+        "lower_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133632",
+        "upper_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633"
+      },
+      "screen_score_binary64": 0.4839001263634864
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "4": "-1/2",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": 1,
+        "2": 1,
+        "3": -1,
+        "4": -1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -3,
+        -4,
+        -6,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 7,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4839001263634864
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 7,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-19",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 3
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "4": -0.5,
+          "6": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633",
+      "score_interval": {
+        "lower_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133632",
+        "upper_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633"
+      },
+      "screen_score_binary64": 0.4839001263634864
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "4": "-1/2",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": 1,
+        "2": 1,
+        "3": -1,
+        "4": -1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -3,
+        -4,
+        -6,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 7,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4839001263634864
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 7,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-29",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 4
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "4": -0.5,
+          "6": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633",
+      "score_interval": {
+        "lower_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133632",
+        "upper_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633"
+      },
+      "screen_score_binary64": 0.4839001263634864
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "4": "-1/2",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": 1,
+        "2": 1,
+        "3": -1,
+        "4": -1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -3,
+        -4,
+        -6,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 7,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4839001263634864
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 7,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-30",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 3
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "4": -0.5,
+          "6": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633",
+      "score_interval": {
+        "lower_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133632",
+        "upper_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633"
+      },
+      "screen_score_binary64": 0.4839001263634864
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "4": "-1/2",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": 1,
+        "2": 1,
+        "3": -1,
+        "4": -1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -3,
+        -4,
+        -6,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 7,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4839001263634864
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 7,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S5-19",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 3
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "4": -0.5,
+          "6": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633",
+      "score_interval": {
+        "lower_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133632",
+        "upper_decimal_directed": "0.483900126363486366133021715344403997118686386907971308527176796451383597637173478662133633"
+      },
+      "screen_score_binary64": 0.4839001263634864
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "15": "1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "30": "-1/2",
+        "5": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "10": -1,
+        "15": -1,
+        "2": 1,
+        "30": 1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -6,
+        -10,
+        -15,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 300,
+        "horizon_argmax_first": 17,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 300,
+        "passes_live_threshold": true,
+        "score_binary64": 0.48375091748571025
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 17,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 30,
+        "states_checked": 30
+      },
+      "family": "S3-28",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 5
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "15": 0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "30": -0.5,
+          "5": -0.5
+        }
+      },
+      "period": 30,
+      "score_decimal": "0.483750917485710234103945295696074910477723732358523629018439476866710692150348082911783743",
+      "score_interval": {
+        "lower_decimal_directed": "0.483750917485710234103945295696074910477723732358523629018439476866710692150348082911783740",
+        "upper_decimal_directed": "0.483750917485710234103945295696074910477723732358523629018439476866710692150348082911783741"
+      },
+      "screen_score_binary64": 0.48375091748571014
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "15": "1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "30": "-1/2",
+        "5": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "10": -1,
+        "15": -1,
+        "2": 1,
+        "30": 1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -6,
+        -10,
+        -15,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 300,
+        "horizon_argmax_first": 17,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 300,
+        "passes_live_threshold": true,
+        "score_binary64": 0.48375091748571025
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 17,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 30,
+        "states_checked": 30
+      },
+      "family": "S5-28",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 5
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "15": 0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "30": -0.5,
+          "5": -0.5
+        }
+      },
+      "period": 30,
+      "score_decimal": "0.483750917485710234103945295696074910477723732358523629018439476866710692150348082911783743",
+      "score_interval": {
+        "lower_decimal_directed": "0.483750917485710234103945295696074910477723732358523629018439476866710692150348082911783740",
+        "upper_decimal_directed": "0.483750917485710234103945295696074910477723732358523629018439476866710692150348082911783741"
+      },
+      "screen_score_binary64": 0.48375091748571014
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "18": "1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "36": "-1/2",
+        "4": "-1/2",
+        "6": "1/2",
+        "9": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": -1,
+        "18": -1,
+        "2": 1,
+        "36": 1,
+        "4": -1,
+        "6": 1,
+        "9": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -4,
+        6,
+        -9,
+        -12,
+        -18,
+        36
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 360,
+        "horizon_argmax_first": 7,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 360,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4719133733446622
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 7,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 36,
+        "states_checked": 36
+      },
+      "family": "S3-20",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 6
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "18": 0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "36": -0.5,
+          "4": -0.5,
+          "6": 0.5,
+          "9": -0.5
+        }
+      },
+      "period": 36,
+      "score_decimal": "0.471913373344662160823054256761327854139373482287231264506065726228496391357140959314712347",
+      "score_interval": {
+        "lower_decimal_directed": "0.471913373344662160823054256761327854139373482287231264506065726228496391357140959314712345",
+        "upper_decimal_directed": "0.471913373344662160823054256761327854139373482287231264506065726228496391357140959314712346"
+      },
+      "screen_score_binary64": 0.47191337334466205
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "10": "1/2",
+        "2": "-1/2",
+        "3": "-1/2",
+        "30": "-1/2",
+        "5": "-1/1",
+        "6": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "10": -1,
+        "15": -1,
+        "3": 1,
+        "30": 1,
+        "5": 1,
+        "6": -2
+      },
+      "canonical_signed_list": [
+        -1,
+        3,
+        5,
+        -6,
+        -6,
+        -10,
+        -15,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 300,
+        "horizon_argmax_first": 13,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 300,
+        "passes_live_threshold": true,
+        "score_binary64": 0.47052050501382037
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 13,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 30,
+        "states_checked": 30
+      },
+      "family": "S3-26",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 5
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "10": 0.5,
+          "2": -0.5,
+          "3": -0.5,
+          "30": -0.5,
+          "5": -1.0,
+          "6": 0.5
+        }
+      },
+      "period": 30,
+      "score_decimal": "0.470520505013820406161948695424374052795749299408395266041668083208565076869096486206499002",
+      "score_interval": {
+        "lower_decimal_directed": "0.470520505013820406161948695424374052795749299408395266041668083208565076869096486206498998",
+        "upper_decimal_directed": "0.470520505013820406161948695424374052795749299408395266041668083208565076869096486206498999"
+      },
+      "screen_score_binary64": 0.4705205050138203
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "3": "-1/1",
+        "4": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": 1,
+        "3": 1,
+        "4": -2,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        3,
+        -4,
+        -4,
+        -6,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4697418732972033
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-09",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 4
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "3": -1.0,
+          "4": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.469741873297203243391319640634128519915767303713552315577233709238509828454452922211427854",
+      "score_interval": {
+        "lower_decimal_directed": "0.469741873297203243391319640634128519915767303713552315577233709238509828454452922211427851",
+        "upper_decimal_directed": "0.469741873297203243391319640634128519915767303713552315577233709238509828454452922211427852"
+      },
+      "screen_score_binary64": 0.46974187329720335
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/2",
+        "2": "-1/2",
+        "3": "-1/1",
+        "4": "1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": 1,
+        "3": 1,
+        "4": -2,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        3,
+        -4,
+        -4,
+        -6,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4697418732972033
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-27",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 4
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -0.5,
+          "2": -0.5,
+          "3": -1.0,
+          "4": 0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.469741873297203243391319640634128519915767303713552315577233709238509828454452922211427854",
+      "score_interval": {
+        "lower_decimal_directed": "0.469741873297203243391319640634128519915767303713552315577233709238509828454452922211427851",
+        "upper_decimal_directed": "0.469741873297203243391319640634128519915767303713552315577233709238509828454452922211427852"
+      },
+      "screen_score_binary64": 0.46974187329720335
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/3",
+        "4": "-4/3"
+      },
+      "canonical_counts": {
+        "1": -4,
+        "4": 1
+      },
+      "canonical_signed_list": [
+        -1,
+        -1,
+        -1,
+        -1,
+        4
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.3333333333333333,
+        "full_integer_horizon": 40,
+        "horizon_argmax_first": 3,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 40,
+        "passes_live_threshold": true,
+        "score_binary64": 0.46209812037329684
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2,
+          3
+        ],
+        "height": 3,
+        "is_integral_factorial_ratio": true,
+        "maximum": 3,
+        "maximum_at": 3,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 4,
+        "states_checked": 4
+      },
+      "family": "Gessel-height3",
+      "height": 3,
+      "parameters": {
+        "ell": 1,
+        "k": 1,
+        "m": 1,
+        "n": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.3333333333333333,
+          "4": -1.3333333333333333
+        }
+      },
+      "period": 4,
+      "score_decimal": "0.46209812037329687294482141430545104538366675624017016941378667299559574797979647707057555",
+      "score_interval": {
+        "lower_decimal_directed": "0.462098120373296872944821414305451045383666756240170169413786672995595747979796477070575551",
+        "upper_decimal_directed": "0.462098120373296872944821414305451045383666756240170169413786672995595747979796477070575552"
+      },
+      "screen_score_binary64": 0.46209812037329684
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "12": "-1/1",
+        "2": "-1/2",
+        "3": "-1/1",
+        "6": "1/1"
+      },
+      "canonical_counts": {
+        "1": -2,
+        "12": 1,
+        "2": 2,
+        "4": -2,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        -1,
+        2,
+        2,
+        -4,
+        -4,
+        -6,
+        12
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 7,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.44793986730701385
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 7,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S3-31",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "12": -1.0,
+          "2": -0.5,
+          "3": -1.0,
+          "6": 1.0
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.447939867307013750203119339595175568180747673045751176463843585782721978797075920619869771",
+      "score_interval": {
+        "lower_decimal_directed": "0.447939867307013750203119339595175568180747673045751176463843585782721978797075920619869770",
+        "upper_decimal_directed": "0.447939867307013750203119339595175568180747673045751176463843585782721978797075920619869771"
+      },
+      "screen_score_binary64": 0.44793986730701385
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "18": "-1/1",
+        "2": "-1/2",
+        "3": "-1/1",
+        "6": "1/2",
+        "9": "1/2"
+      },
+      "canonical_counts": {
+        "1": -2,
+        "18": 1,
+        "2": 1,
+        "3": 1,
+        "6": -2,
+        "9": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        -1,
+        2,
+        3,
+        -6,
+        -6,
+        -9,
+        18
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 180,
+        "horizon_argmax_first": 11,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 180,
+        "passes_live_threshold": true,
+        "score_binary64": 0.42868577895812643
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 11,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 18,
+        "states_checked": 18
+      },
+      "family": "S3-18",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "18": -1.0,
+          "2": -0.5,
+          "3": -1.0,
+          "6": 0.5,
+          "9": 0.5
+        }
+      },
+      "period": 18,
+      "score_decimal": "0.428685778958126380497085113999115107956428224869077419404935807741238822631251067408595789",
+      "score_interval": {
+        "lower_decimal_directed": "0.428685778958126380497085113999115107956428224869077419404935807741238822631251067408595789",
+        "upper_decimal_directed": "0.428685778958126380497085113999115107956428224869077419404935807741238822631251067408595790"
+      },
+      "screen_score_binary64": 0.4286857789581263
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "14": "1/2",
+        "2": "-1/1",
+        "28": "-1/2",
+        "4": "1/2",
+        "7": "-1/1"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "14": -2,
+        "2": 1,
+        "28": 1,
+        "4": -2,
+        "7": 1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -4,
+        -4,
+        7,
+        -14,
+        -14,
+        28
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 280,
+        "horizon_argmax_first": 5,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 280,
+        "passes_live_threshold": true,
+        "score_binary64": 0.4165255637719005
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 5,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 28,
+        "states_checked": 28
+      },
+      "family": "S5-38",
+      "height": 2,
+      "parameters": {
+        "a": 7,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "14": 0.5,
+          "2": -1.0,
+          "28": -0.5,
+          "4": 0.5,
+          "7": -1.0
+        }
+      },
+      "period": 28,
+      "score_decimal": "0.416525563771900490492477123294941608223510624787796462087593771115545888336432337374923143",
+      "score_interval": {
+        "lower_decimal_directed": "0.416525563771900490492477123294941608223510624787796462087593771115545888336432337374923144",
+        "upper_decimal_directed": "0.416525563771900490492477123294941608223510624787796462087593771115545888336432337374923145"
+      },
+      "screen_score_binary64": 0.41652556377190064
+    },
+    {
+      "arena_coefficients_rational": {
+        "1": "1/2",
+        "18": "-1/2",
+        "2": "-1/1",
+        "6": "1/2",
+        "9": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "18": 1,
+        "2": -1,
+        "3": 1,
+        "9": -2
+      },
+      "canonical_signed_list": [
+        -1,
+        -2,
+        3,
+        -9,
+        -9,
+        18
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 0.5,
+        "full_integer_horizon": 180,
+        "horizon_argmax_first": 7,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": 0.0,
+        "horizon_states_checked": 180,
+        "passes_live_threshold": true,
+        "score_binary64": 0.39961643763787374
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 7,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 18,
+        "states_checked": 18
+      },
+      "family": "S3-06",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 9
+      },
+      "payload": {
+        "partial_function": {
+          "1": 0.5,
+          "18": -0.5,
+          "2": -1.0,
+          "6": 0.5,
+          "9": -0.5
+        }
+      },
+      "period": 18,
+      "score_decimal": "0.399616437637873722912818045947177838976402050645342567253748976466855023088081731953185014",
+      "score_interval": {
+        "lower_decimal_directed": "0.399616437637873722912818045947177838976402050645342567253748976466855023088081731953185013",
+        "upper_decimal_directed": "0.399616437637873722912818045947177838976402050645342567253748976466855023088081731953185014"
+      },
+      "screen_score_binary64": 0.3996164376378737
+    },
+    {
+      "arena_coefficients_rational": {
+        "2": "1/1",
+        "3": "-1/2",
+        "4": "-1/1",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "2": -1,
+        "3": -2,
+        "4": -1,
+        "6": 2
+      },
+      "canonical_signed_list": [
+        -2,
+        -3,
+        -3,
+        -4,
+        6,
+        6
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -1.3877787807814457e-17,
+        "full_integer_horizon": 60,
+        "horizon_argmax_first": 2,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": -8.326672684688674e-16,
+        "horizon_states_checked": 60,
+        "passes_live_threshold": true,
+        "score_binary64": 0.33241533721368954
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 2,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S5-03",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 2
+      },
+      "payload": {
+        "partial_function": {
+          "2": 1.0,
+          "3": -0.5,
+          "4": -1.0,
+          "6": -0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.332415337213689531966913986018812806834830983985708634110396917533823041802126801352225883",
+      "score_interval": {
+        "lower_decimal_directed": "0.332415337213689531966913986018812806834830983985708634110396917533823041802126801352225882",
+        "upper_decimal_directed": "0.332415337213689531966913986018812806834830983985708634110396917533823041802126801352225883"
+      },
+      "screen_score_binary64": 0.3324153372136896
+    },
+    {
+      "arena_coefficients_rational": {
+        "2": "1/1",
+        "3": "-1/2",
+        "4": "-1/1",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "2": -1,
+        "3": -2,
+        "4": -1,
+        "6": 2
+      },
+      "canonical_signed_list": [
+        -2,
+        -3,
+        -3,
+        -4,
+        6,
+        6
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -1.3877787807814457e-17,
+        "full_integer_horizon": 60,
+        "horizon_argmax_first": 2,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": -8.326672684688674e-16,
+        "horizon_states_checked": 60,
+        "passes_live_threshold": true,
+        "score_binary64": 0.33241533721368954
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 2,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "S5-25",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "2": 1.0,
+          "3": -0.5,
+          "4": -1.0,
+          "6": -0.5
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.332415337213689531966913986018812806834830983985708634110396917533823041802126801352225883",
+      "score_interval": {
+        "lower_decimal_directed": "0.332415337213689531966913986018812806834830983985708634110396917533823041802126801352225882",
+        "upper_decimal_directed": "0.332415337213689531966913986018812806834830983985708634110396917533823041802126801352225883"
+      },
+      "screen_score_binary64": 0.3324153372136896
+    },
+    {
+      "arena_coefficients_rational": {
+        "15": "1/2",
+        "16": "-1/2",
+        "2": "1/2",
+        "30": "-1/2",
+        "48": "1/2",
+        "5": "-1/2",
+        "6": "-1/2",
+        "8": "-1/2"
+      },
+      "canonical_counts": {
+        "120": 1,
+        "15": -1,
+        "16": 1,
+        "30": -1,
+        "40": -1,
+        "48": -1,
+        "5": 1,
+        "8": -1
+      },
+      "canonical_signed_list": [
+        5,
+        -8,
+        -15,
+        16,
+        -30,
+        -40,
+        -48,
+        120
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.734723475976807e-18,
+        "full_integer_horizon": 480,
+        "horizon_argmax_first": 454,
+        "horizon_maximum_binary64": 1.0000000000000009,
+        "horizon_minimum_binary64": 1.734723475976807e-18,
+        "horizon_states_checked": 480,
+        "passes_live_threshold": true,
+        "score_binary64": 0.2796720515914162
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 4,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 240,
+        "states_checked": 240
+      },
+      "family": "S5-12",
+      "height": 2,
+      "parameters": {
+        "a": 8,
+        "b": -5
+      },
+      "payload": {
+        "partial_function": {
+          "15": 0.5,
+          "16": -0.5,
+          "2": 0.5,
+          "30": -0.5,
+          "48": 0.5,
+          "5": -0.5,
+          "6": -0.5,
+          "8": -0.5
+        }
+      },
+      "period": 240,
+      "score_decimal": "0.279672051591416259578961370355270709489344389635103643359046048370409032290523012908193860",
+      "score_interval": {
+        "lower_decimal_directed": "0.279672051591416259578961370355270709489344389635103643359046048370409032290523012908193861",
+        "upper_decimal_directed": "0.279672051591416259578961370355270709489344389635103643359046048370409032290523012908193862"
+      },
+      "screen_score_binary64": 0.2796720515914161
+    },
+    {
+      "arena_coefficients_rational": {
+        "10": "1/2",
+        "12": "1/2",
+        "2": "1/2",
+        "3": "1/2",
+        "30": "-1/2",
+        "4": "-1/2",
+        "5": "-1/1",
+        "6": "-1/1"
+      },
+      "canonical_counts": {
+        "10": -2,
+        "12": -2,
+        "15": -1,
+        "2": -1,
+        "20": 1,
+        "30": 1,
+        "5": 1,
+        "6": 1
+      },
+      "canonical_signed_list": [
+        -2,
+        5,
+        6,
+        -10,
+        -10,
+        -12,
+        -12,
+        -15,
+        20,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.0408340855860843e-17,
+        "full_integer_horizon": 300,
+        "horizon_argmax_first": 291,
+        "horizon_maximum_binary64": 1.000000000000003,
+        "horizon_minimum_binary64": 1.0408340855860843e-17,
+        "horizon_states_checked": 300,
+        "passes_live_threshold": true,
+        "score_binary64": 0.27543170388364446
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 3,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 60,
+        "states_checked": 60
+      },
+      "family": "S5-27",
+      "height": 2,
+      "parameters": {
+        "a": 2,
+        "b": 5
+      },
+      "payload": {
+        "partial_function": {
+          "10": 0.5,
+          "12": 0.5,
+          "2": 0.5,
+          "3": 0.5,
+          "30": -0.5,
+          "4": -0.5,
+          "5": -1.0,
+          "6": -1.0
+        }
+      },
+      "period": 60,
+      "score_decimal": "0.275431703883644585619440364020876959041854635150530313398107957379428821719295805713475088",
+      "score_interval": {
+        "lower_decimal_directed": "0.275431703883644585619440364020876959041854635150530313398107957379428821719295805713475085",
+        "upper_decimal_directed": "0.275431703883644585619440364020876959041854635150530313398107957379428821719295805713475086"
+      },
+      "screen_score_binary64": 0.2754317038836444
+    },
+    {
+      "arena_coefficients_rational": {
+        "15": "-1/2",
+        "2": "1/2",
+        "20": "-1/2",
+        "30": "1/2",
+        "4": "-1/2",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "10": -1,
+        "15": -1,
+        "2": 1,
+        "3": -1,
+        "30": 1,
+        "4": -1
+      },
+      "canonical_signed_list": [
+        2,
+        -3,
+        -4,
+        -10,
+        -15,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -3.469446951953614e-18,
+        "full_integer_horizon": 300,
+        "horizon_argmax_first": 10,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": -1.0408340855860843e-15,
+        "horizon_states_checked": 300,
+        "passes_live_threshold": true,
+        "score_binary64": 0.2577883129502254
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 10,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 60,
+        "states_checked": 60
+      },
+      "family": "S5-32",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 5
+      },
+      "payload": {
+        "partial_function": {
+          "15": -0.5,
+          "2": 0.5,
+          "20": -0.5,
+          "30": 0.5,
+          "4": -0.5,
+          "6": -0.5
+        }
+      },
+      "period": 60,
+      "score_decimal": "0.257788312950225437513233243413464321720457461218826296567242429949402809706144353700967878",
+      "score_interval": {
+        "lower_decimal_directed": "0.257788312950225437513233243413464321720457461218826296567242429949402809706144353700967875",
+        "upper_decimal_directed": "0.257788312950225437513233243413464321720457461218826296567242429949402809706144353700967876"
+      },
+      "screen_score_binary64": 0.25778831295022536
+    },
+    {
+      "arena_coefficients_rational": {
+        "10": "1/2",
+        "12": "-1/2",
+        "2": "1/2",
+        "20": "-1/2",
+        "30": "-1/2",
+        "4": "-1/2",
+        "5": "-1/2",
+        "60": "1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "12": -1,
+        "15": -1,
+        "2": -1,
+        "3": -1,
+        "30": 1,
+        "5": -1,
+        "6": 1
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -3,
+        -5,
+        6,
+        -12,
+        -15,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.734723475976807e-18,
+        "full_integer_horizon": 600,
+        "horizon_argmax_first": 594,
+        "horizon_maximum_binary64": 1.000000000000001,
+        "horizon_minimum_binary64": 1.734723475976807e-18,
+        "horizon_states_checked": 600,
+        "passes_live_threshold": true,
+        "score_binary64": 0.2468127055162426
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 10,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 60,
+        "states_checked": 60
+      },
+      "family": "S5-24",
+      "height": 2,
+      "parameters": {
+        "a": 3,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "10": 0.5,
+          "12": -0.5,
+          "2": 0.5,
+          "20": -0.5,
+          "30": -0.5,
+          "4": -0.5,
+          "5": -0.5,
+          "60": 0.5
+        }
+      },
+      "period": 60,
+      "score_decimal": "0.246812705516242624904594883069823302532466318610201887256178708429172432134043155030013891",
+      "score_interval": {
+        "lower_decimal_directed": "0.246812705516242624904594883069823302532466318610201887256178708429172432134043155030013888",
+        "upper_decimal_directed": "0.246812705516242624904594883069823302532466318610201887256178708429172432134043155030013889"
+      },
+      "screen_score_binary64": 0.2468127055162426
+    },
+    {
+      "arena_coefficients_rational": {
+        "120": "1/2",
+        "2": "1/2",
+        "30": "-1/2",
+        "4": "-1/2",
+        "40": "-1/2",
+        "5": "-1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "24": -1,
+        "3": -1,
+        "30": -1,
+        "4": -1,
+        "60": 1
+      },
+      "canonical_signed_list": [
+        1,
+        -3,
+        -4,
+        -24,
+        -30,
+        60
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 6.071532165918825e-18,
+        "full_integer_horizon": 1200,
+        "horizon_argmax_first": 1194,
+        "horizon_maximum_binary64": 1.0000000000000073,
+        "horizon_minimum_binary64": 6.071532165918825e-18,
+        "horizon_states_checked": 1200,
+        "passes_live_threshold": true,
+        "score_binary64": 0.24379352518594496
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 14,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 120,
+        "states_checked": 120
+      },
+      "family": "S5-05",
+      "height": 2,
+      "parameters": {
+        "a": 6,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "120": 0.5,
+          "2": 0.5,
+          "30": -0.5,
+          "4": -0.5,
+          "40": -0.5,
+          "5": -0.5
+        }
+      },
+      "period": 120,
+      "score_decimal": "0.2437935251859449725265868205088957165852729735213597189741263326669657863774271124815979",
+      "score_interval": {
+        "lower_decimal_directed": "0.243793525185944972526586820508895716585272973521359718974126332666965786377427112481597903",
+        "upper_decimal_directed": "0.243793525185944972526586820508895716585272973521359718974126332666965786377427112481597904"
+      },
+      "screen_score_binary64": 0.24379352518594494
+    },
+    {
+      "arena_coefficients_rational": {
+        "18": "1/2",
+        "2": "1/2",
+        "36": "-1/2",
+        "4": "-1/2",
+        "6": "-1/2",
+        "9": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "18": 1,
+        "2": 1,
+        "4": -1,
+        "6": -1,
+        "9": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -4,
+        -6,
+        -9,
+        18
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -6.938893903907228e-18,
+        "full_integer_horizon": 360,
+        "horizon_argmax_first": 22,
+        "horizon_maximum_binary64": 0.9999999999999999,
+        "horizon_minimum_binary64": -2.4980018054066022e-15,
+        "horizon_states_checked": 360,
+        "passes_live_threshold": true,
+        "score_binary64": 0.2408643131580137
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 22,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 36,
+        "states_checked": 36
+      },
+      "family": "S3-21",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 6
+      },
+      "payload": {
+        "partial_function": {
+          "18": 0.5,
+          "2": 0.5,
+          "36": -0.5,
+          "4": -0.5,
+          "6": -0.5,
+          "9": -0.5
+        }
+      },
+      "period": 36,
+      "score_decimal": "0.240864313158013724350643549608602331447540104167146179799172389730698517367242720779424571",
+      "score_interval": {
+        "lower_decimal_directed": "0.240864313158013724350643549608602331447540104167146179799172389730698517367242720779424569",
+        "upper_decimal_directed": "0.240864313158013724350643549608602331447540104167146179799172389730698517367242720779424570"
+      },
+      "screen_score_binary64": 0.24086431315801368
+    },
+    {
+      "arena_coefficients_rational": {
+        "18": "1/2",
+        "2": "1/2",
+        "36": "-1/2",
+        "4": "-1/2",
+        "6": "-1/2",
+        "9": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "18": 1,
+        "2": 1,
+        "4": -1,
+        "6": -1,
+        "9": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -4,
+        -6,
+        -9,
+        18
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -6.938893903907228e-18,
+        "full_integer_horizon": 360,
+        "horizon_argmax_first": 22,
+        "horizon_maximum_binary64": 0.9999999999999999,
+        "horizon_minimum_binary64": -2.4980018054066022e-15,
+        "horizon_states_checked": 360,
+        "passes_live_threshold": true,
+        "score_binary64": 0.2408643131580137
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 22,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 36,
+        "states_checked": 36
+      },
+      "family": "S5-29",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 3
+      },
+      "payload": {
+        "partial_function": {
+          "18": 0.5,
+          "2": 0.5,
+          "36": -0.5,
+          "4": -0.5,
+          "6": -0.5,
+          "9": -0.5
+        }
+      },
+      "period": 36,
+      "score_decimal": "0.240864313158013724350643549608602331447540104167146179799172389730698517367242720779424571",
+      "score_interval": {
+        "lower_decimal_directed": "0.240864313158013724350643549608602331447540104167146179799172389730698517367242720779424569",
+        "upper_decimal_directed": "0.240864313158013724350643549608602331447540104167146179799172389730698517367242720779424570"
+      },
+      "screen_score_binary64": 0.24086431315801368
+    },
+    {
+      "arena_coefficients_rational": {
+        "2": "1/2",
+        "20": "-1/2",
+        "4": "-1/2",
+        "5": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "10": 1,
+        "4": -1,
+        "5": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        -4,
+        -5,
+        10
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 6.938893903907228e-18,
+        "full_integer_horizon": 200,
+        "horizon_argmax_first": 178,
+        "horizon_maximum_binary64": 1.0000000000000013,
+        "horizon_minimum_binary64": 6.938893903907228e-18,
+        "horizon_states_checked": 200,
+        "passes_live_threshold": true,
+        "score_binary64": 0.23583709808225978
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 14,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 20,
+        "states_checked": 20
+      },
+      "family": "S5-15",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 1
+      },
+      "payload": {
+        "partial_function": {
+          "2": 0.5,
+          "20": -0.5,
+          "4": -0.5,
+          "5": -0.5
+        }
+      },
+      "period": 20,
+      "score_decimal": "0.235837098082259812295956522726182283344475176001577477945114986908942054561941956359059902",
+      "score_interval": {
+        "lower_decimal_directed": "0.235837098082259812295956522726182283344475176001577477945114986908942054561941956359059901",
+        "upper_decimal_directed": "0.235837098082259812295956522726182283344475176001577477945114986908942054561941956359059902"
+      },
+      "screen_score_binary64": 0.2358370980822599
+    },
+    {
+      "arena_coefficients_rational": {
+        "12": "-1/2",
+        "16": "-1/2",
+        "2": "1/2",
+        "3": "-1/2",
+        "32": "-1/2",
+        "96": "1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "3": -1,
+        "32": -1,
+        "48": 1,
+        "6": -1,
+        "8": -1
+      },
+      "canonical_signed_list": [
+        1,
+        -3,
+        -6,
+        -8,
+        -32,
+        48
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -1.1275702593849246e-17,
+        "full_integer_horizon": 960,
+        "horizon_argmax_first": 8,
+        "horizon_maximum_binary64": 0.9999999999999999,
+        "horizon_minimum_binary64": -1.0824674490095276e-14,
+        "horizon_states_checked": 960,
+        "passes_live_threshold": true,
+        "score_binary64": 0.23037590426654259
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 8,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 96,
+        "states_checked": 96
+      },
+      "family": "S5-06",
+      "height": 2,
+      "parameters": {
+        "a": 8,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "12": -0.5,
+          "16": -0.5,
+          "2": 0.5,
+          "3": -0.5,
+          "32": -0.5,
+          "96": 0.5
+        }
+      },
+      "period": 96,
+      "score_decimal": "0.230375904266542544704422023348410706340641312623998641280700203285672211872214266350430943",
+      "score_interval": {
+        "lower_decimal_directed": "0.230375904266542544704422023348410706340641312623998641280700203285672211872214266350430943",
+        "upper_decimal_directed": "0.230375904266542544704422023348410706340641312623998641280700203285672211872214266350430944"
+      },
+      "screen_score_binary64": 0.23037590426654264
+    },
+    {
+      "arena_coefficients_rational": {
+        "14": "-1/1",
+        "2": "1/2",
+        "21": "-1/2",
+        "3": "-1/2",
+        "42": "1/2"
+      },
+      "canonical_counts": {
+        "1": 1,
+        "14": -1,
+        "2": -1,
+        "21": 1,
+        "3": -2
+      },
+      "canonical_signed_list": [
+        1,
+        -2,
+        -3,
+        -3,
+        -14,
+        21
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -1.3877787807814457e-17,
+        "full_integer_horizon": 420,
+        "horizon_argmax_first": 8,
+        "horizon_maximum_binary64": 0.9999999999999999,
+        "horizon_minimum_binary64": -5.828670879282072e-15,
+        "horizon_states_checked": 420,
+        "passes_live_threshold": true,
+        "score_binary64": 0.22631191052916327
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 8,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 42,
+        "states_checked": 42
+      },
+      "family": "S5-41",
+      "height": 2,
+      "parameters": {
+        "a": 7,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "14": -1.0,
+          "2": 0.5,
+          "21": -0.5,
+          "3": -0.5,
+          "42": 0.5
+        }
+      },
+      "period": 42,
+      "score_decimal": "0.226311910529163256618933735888206173666237491960121262253634117883704470071767903903857529",
+      "score_interval": {
+        "lower_decimal_directed": "0.226311910529163256618933735888206173666237491960121262253634117883704470071767903903857530",
+        "upper_decimal_directed": "0.226311910529163256618933735888206173666237491960121262253634117883704470071767903903857531"
+      },
+      "screen_score_binary64": 0.22631191052916327
+    },
+    {
+      "arena_coefficients_rational": {
+        "14": "1/2",
+        "2": "1/2",
+        "21": "1/2",
+        "28": "-1/2",
+        "4": "-1/2",
+        "42": "-1/2",
+        "6": "-1/2",
+        "7": "-1/2"
+      },
+      "canonical_counts": {
+        "12": -1,
+        "14": -1,
+        "2": -1,
+        "21": -1,
+        "3": -1,
+        "4": 1,
+        "42": 1,
+        "6": 1
+      },
+      "canonical_signed_list": [
+        -2,
+        -3,
+        4,
+        6,
+        -12,
+        -14,
+        -21,
+        42
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -6.938893903907228e-18,
+        "full_integer_horizon": 420,
+        "horizon_argmax_first": 22,
+        "horizon_maximum_binary64": 0.9999999999999999,
+        "horizon_minimum_binary64": -2.914335439641036e-15,
+        "horizon_states_checked": 420,
+        "passes_live_threshold": true,
+        "score_binary64": 0.22556591307359303
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 22,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 84,
+        "states_checked": 84
+      },
+      "family": "S3-16",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 21
+      },
+      "payload": {
+        "partial_function": {
+          "14": 0.5,
+          "2": 0.5,
+          "21": 0.5,
+          "28": -0.5,
+          "4": -0.5,
+          "42": -0.5,
+          "6": -0.5,
+          "7": -0.5
+        }
+      },
+      "period": 84,
+      "score_decimal": "0.225565913073593061804500749943472569359746916373274439321207995268495764936922070992207214",
+      "score_interval": {
+        "lower_decimal_directed": "0.225565913073593061804500749943472569359746916373274439321207995268495764936922070992207212",
+        "upper_decimal_directed": "0.225565913073593061804500749943472569359746916373274439321207995268495764936922070992207213"
+      },
+      "screen_score_binary64": 0.2255659130735932
+    },
+    {
+      "arena_coefficients_rational": {
+        "12": "-1/2",
+        "15": "-1/2",
+        "2": "1/2",
+        "20": "-1/2",
+        "3": "-1/2",
+        "30": "1/2"
+      },
+      "canonical_counts": {
+        "2": 1,
+        "20": -1,
+        "3": -1,
+        "30": 1,
+        "4": -1,
+        "5": -1
+      },
+      "canonical_signed_list": [
+        2,
+        -3,
+        -4,
+        -5,
+        -20,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -1.0408340855860843e-17,
+        "full_integer_horizon": 300,
+        "horizon_argmax_first": 8,
+        "horizon_maximum_binary64": 0.9999999999999999,
+        "horizon_minimum_binary64": -3.1225022567582528e-15,
+        "horizon_states_checked": 300,
+        "passes_live_threshold": true,
+        "score_binary64": 0.22182805389375285
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 8,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 60,
+        "states_checked": 60
+      },
+      "family": "S5-43",
+      "height": 2,
+      "parameters": {
+        "a": 10,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "12": -0.5,
+          "15": -0.5,
+          "2": 0.5,
+          "20": -0.5,
+          "3": -0.5,
+          "30": 0.5
+        }
+      },
+      "period": 60,
+      "score_decimal": "0.221828053893752821583330867664235892782518747356606164503909219280741190866046795658704015",
+      "score_interval": {
+        "lower_decimal_directed": "0.221828053893752821583330867664235892782518747356606164503909219280741190866046795658704012",
+        "upper_decimal_directed": "0.221828053893752821583330867664235892782518747356606164503909219280741190866046795658704013"
+      },
+      "screen_score_binary64": 0.22182805389375285
+    },
+    {
+      "arena_coefficients_rational": {
+        "11": "-1/1",
+        "2": "1/2",
+        "3": "-1/2",
+        "33": "1/2",
+        "66": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "2": 1,
+        "22": -1,
+        "33": 1,
+        "6": -2
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -6,
+        -6,
+        -22,
+        33
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -6.938893903907228e-18,
+        "full_integer_horizon": 660,
+        "horizon_argmax_first": 8,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": -4.579669976578771e-15,
+        "horizon_states_checked": 660,
+        "passes_live_threshold": true,
+        "score_binary64": 0.20656815367344042
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 8,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 66,
+        "states_checked": 66
+      },
+      "family": "S5-42",
+      "height": 2,
+      "parameters": {
+        "a": 11,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "11": -1.0,
+          "2": 0.5,
+          "3": -0.5,
+          "33": 0.5,
+          "66": -0.5
+        }
+      },
+      "period": 66,
+      "score_decimal": "0.206568153673440375777500768532786453918333884909554236984629284113902228163683039763514439",
+      "score_interval": {
+        "lower_decimal_directed": "0.206568153673440375777500768532786453918333884909554236984629284113902228163683039763514440",
+        "upper_decimal_directed": "0.206568153673440375777500768532786453918333884909554236984629284113902228163683039763514441"
+      },
+      "screen_score_binary64": 0.20656815367344034
+    },
+    {
+      "arena_coefficients_rational": {
+        "12": "-1/2",
+        "18": "1/2",
+        "2": "1/2",
+        "3": "-1/2",
+        "36": "-1/2",
+        "9": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "12": -1,
+        "18": 1,
+        "2": 1,
+        "3": -1,
+        "4": -1
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -3,
+        -4,
+        -12,
+        18
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -1.3877787807814457e-17,
+        "full_integer_horizon": 360,
+        "horizon_argmax_first": 8,
+        "horizon_maximum_binary64": 0.9999999999999999,
+        "horizon_minimum_binary64": -4.9960036108132044e-15,
+        "horizon_states_checked": 360,
+        "passes_live_threshold": true,
+        "score_binary64": 0.20490405410154114
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 8,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 36,
+        "states_checked": 36
+      },
+      "family": "S5-37",
+      "height": 2,
+      "parameters": {
+        "a": 6,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "12": -0.5,
+          "18": 0.5,
+          "2": 0.5,
+          "3": -0.5,
+          "36": -0.5,
+          "9": -0.5
+        }
+      },
+      "period": 36,
+      "score_decimal": "0.204904054101541108420741173859373902509601390304926047735839179062036898527145162737160708",
+      "score_interval": {
+        "lower_decimal_directed": "0.204904054101541108420741173859373902509601390304926047735839179062036898527145162737160707",
+        "upper_decimal_directed": "0.204904054101541108420741173859373902509601390304926047735839179062036898527145162737160708"
+      },
+      "screen_score_binary64": 0.20490405410154106
+    },
+    {
+      "arena_coefficients_rational": {
+        "12": "-1/2",
+        "20": "-1/2",
+        "24": "1/2",
+        "3": "1/2",
+        "4": "1/2",
+        "5": "-1/2",
+        "6": "-1/2",
+        "8": "-1/2"
+      },
+      "canonical_counts": {
+        "10": -1,
+        "15": -1,
+        "20": -1,
+        "24": -1,
+        "30": 1,
+        "40": 1,
+        "5": 1,
+        "6": -1
+      },
+      "canonical_signed_list": [
+        5,
+        -6,
+        -10,
+        -15,
+        -20,
+        -24,
+        30,
+        40
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.0408340855860843e-17,
+        "full_integer_horizon": 240,
+        "horizon_argmax_first": 237,
+        "horizon_maximum_binary64": 1.0000000000000024,
+        "horizon_minimum_binary64": 1.0408340855860843e-17,
+        "horizon_states_checked": 240,
+        "passes_live_threshold": true,
+        "score_binary64": 0.19605496256383395
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 4,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 120,
+        "states_checked": 120
+      },
+      "family": "S5-21",
+      "height": 2,
+      "parameters": {
+        "a": 4,
+        "b": 5
+      },
+      "payload": {
+        "partial_function": {
+          "12": -0.5,
+          "20": -0.5,
+          "24": 0.5,
+          "3": 0.5,
+          "4": 0.5,
+          "5": -0.5,
+          "6": -0.5,
+          "8": -0.5
+        }
+      },
+      "period": 120,
+      "score_decimal": "0.196054962563834011142805033812615117140486188402666272800058258118823395484516175746369888",
+      "score_interval": {
+        "lower_decimal_directed": "0.196054962563834011142805033812615117140486188402666272800058258118823395484516175746369888",
+        "upper_decimal_directed": "0.196054962563834011142805033812615117140486188402666272800058258118823395484516175746369889"
+      },
+      "screen_score_binary64": 0.19605496256383398
+    },
+    {
+      "arena_coefficients_rational": {
+        "12": "-1/1",
+        "3": "1/1",
+        "4": "-1/1"
+      },
+      "canonical_counts": {
+        "1": -2,
+        "3": -2,
+        "4": 2
+      },
+      "canonical_signed_list": [
+        -1,
+        -1,
+        -3,
+        -3,
+        4,
+        4
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.3877787807814457e-17,
+        "full_integer_horizon": 120,
+        "horizon_argmax_first": 105,
+        "horizon_maximum_binary64": 1.0000000000000016,
+        "horizon_minimum_binary64": 1.3877787807814457e-17,
+        "horizon_states_checked": 120,
+        "passes_live_threshold": true,
+        "score_binary64": 0.1874450482062694
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 3,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 12,
+        "states_checked": 12
+      },
+      "family": "Landau-Picon-height2",
+      "height": 2,
+      "parameters": {
+        "k": 1,
+        "n": 1
+      },
+      "payload": {
+        "partial_function": {
+          "12": -1.0,
+          "3": 1.0,
+          "4": -1.0
+        }
+      },
+      "period": 12,
+      "score_decimal": "0.187445048206269450096010105074819619221794116784482806480113089586222174675144235352171612",
+      "score_interval": {
+        "lower_decimal_directed": "0.187445048206269450096010105074819619221794116784482806480113089586222174675144235352171612",
+        "upper_decimal_directed": "0.187445048206269450096010105074819619221794116784482806480113089586222174675144235352171613"
+      },
+      "screen_score_binary64": 0.18744504820626942
+    },
+    {
+      "arena_coefficients_rational": {
+        "10": "-1/2",
+        "15": "-1/2",
+        "3": "1/2",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "10": 1,
+        "2": -1,
+        "3": -1,
+        "5": -1
+      },
+      "canonical_signed_list": [
+        -2,
+        -3,
+        -5,
+        10
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 6.938893903907228e-18,
+        "full_integer_horizon": 150,
+        "horizon_argmax_first": 147,
+        "horizon_maximum_binary64": 1.000000000000001,
+        "horizon_minimum_binary64": 6.938893903907228e-18,
+        "horizon_states_checked": 150,
+        "passes_live_threshold": true,
+        "score_binary64": 0.1716088356774289
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 9,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 30,
+        "states_checked": 30
+      },
+      "family": "S5-02",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 2
+      },
+      "payload": {
+        "partial_function": {
+          "10": -0.5,
+          "15": -0.5,
+          "3": 0.5,
+          "6": -0.5
+        }
+      },
+      "period": 30,
+      "score_decimal": "0.17160883567742892123593196545047956047149226954593970478874327554009268391066699412294548",
+      "score_interval": {
+        "lower_decimal_directed": "0.171608835677428921235931965450479560471492269545939704788743275540092683910666994122945479",
+        "upper_decimal_directed": "0.171608835677428921235931965450479560471492269545939704788743275540092683910666994122945480"
+      },
+      "screen_score_binary64": 0.171608835677429
+    },
+    {
+      "arena_coefficients_rational": {
+        "10": "-1/2",
+        "15": "-1/2",
+        "3": "1/2",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "10": 1,
+        "2": -1,
+        "3": -1,
+        "5": -1
+      },
+      "canonical_signed_list": [
+        -2,
+        -3,
+        -5,
+        10
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 6.938893903907228e-18,
+        "full_integer_horizon": 150,
+        "horizon_argmax_first": 147,
+        "horizon_maximum_binary64": 1.000000000000001,
+        "horizon_minimum_binary64": 6.938893903907228e-18,
+        "horizon_states_checked": 150,
+        "passes_live_threshold": true,
+        "score_binary64": 0.1716088356774289
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 9,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 30,
+        "states_checked": 30
+      },
+      "family": "S5-17",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 3
+      },
+      "payload": {
+        "partial_function": {
+          "10": -0.5,
+          "15": -0.5,
+          "3": 0.5,
+          "6": -0.5
+        }
+      },
+      "period": 30,
+      "score_decimal": "0.17160883567742892123593196545047956047149226954593970478874327554009268391066699412294548",
+      "score_interval": {
+        "lower_decimal_directed": "0.171608835677428921235931965450479560471492269545939704788743275540092683910666994122945479",
+        "upper_decimal_directed": "0.171608835677428921235931965450479560471492269545939704788743275540092683910666994122945480"
+      },
+      "screen_score_binary64": 0.171608835677429
+    },
+    {
+      "arena_coefficients_rational": {
+        "12": "-1/1",
+        "15": "-1/1",
+        "20": "-1/2",
+        "24": "1/2",
+        "4": "1/2",
+        "6": "1/2",
+        "60": "1/2",
+        "8": "-1/2"
+      },
+      "canonical_counts": {
+        "10": -2,
+        "15": -1,
+        "2": 1,
+        "20": 1,
+        "30": 1,
+        "5": 1,
+        "6": -1,
+        "8": -2
+      },
+      "canonical_signed_list": [
+        2,
+        5,
+        -6,
+        -8,
+        -8,
+        -10,
+        -10,
+        -15,
+        20,
+        30
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.734723475976807e-18,
+        "full_integer_horizon": 600,
+        "horizon_argmax_first": 582,
+        "horizon_maximum_binary64": 1.000000000000001,
+        "horizon_minimum_binary64": 1.734723475976807e-18,
+        "horizon_states_checked": 600,
+        "passes_live_threshold": true,
+        "score_binary64": 0.16954156035656295
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 6,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 120,
+        "states_checked": 120
+      },
+      "family": "S5-31",
+      "height": 2,
+      "parameters": {
+        "a": 2,
+        "b": 5
+      },
+      "payload": {
+        "partial_function": {
+          "12": -1.0,
+          "15": -1.0,
+          "20": -0.5,
+          "24": 0.5,
+          "4": 0.5,
+          "6": 0.5,
+          "60": 0.5,
+          "8": -0.5
+        }
+      },
+      "period": 120,
+      "score_decimal": "0.169541560356562933732241373141292212484118507654394120815099361721809338121588527346889552",
+      "score_interval": {
+        "lower_decimal_directed": "0.169541560356562933732241373141292212484118507654394120815099361721809338121588527346889552",
+        "upper_decimal_directed": "0.169541560356562933732241373141292212484118507654394120815099361721809338121588527346889553"
+      },
+      "screen_score_binary64": 0.1695415603565629
+    },
+    {
+      "arena_coefficients_rational": {
+        "10": "1/2",
+        "12": "-1/2",
+        "3": "1/2",
+        "30": "-1/2",
+        "4": "1/2",
+        "5": "-1/1",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "10": -1,
+        "12": -2,
+        "15": 1,
+        "2": -1,
+        "20": 1,
+        "5": -1,
+        "6": 1
+      },
+      "canonical_signed_list": [
+        -2,
+        -5,
+        6,
+        -10,
+        -12,
+        -12,
+        15,
+        20
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 1.0408340855860843e-17,
+        "full_integer_horizon": 300,
+        "horizon_argmax_first": 292,
+        "horizon_maximum_binary64": 1.000000000000003,
+        "horizon_minimum_binary64": 1.0408340855860843e-17,
+        "horizon_states_checked": 300,
+        "passes_live_threshold": true,
+        "score_binary64": 0.1599071737903203
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 4,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 60,
+        "states_checked": 60
+      },
+      "family": "S5-11",
+      "height": 2,
+      "parameters": {
+        "a": 2,
+        "b": 5
+      },
+      "payload": {
+        "partial_function": {
+          "10": 0.5,
+          "12": -0.5,
+          "3": 0.5,
+          "30": -0.5,
+          "4": 0.5,
+          "5": -1.0,
+          "6": -0.5
+        }
+      },
+      "period": 60,
+      "score_decimal": "0.159907173790320367383235010444514197695937946090487771044661289130529884724346686445831197",
+      "score_interval": {
+        "lower_decimal_directed": "0.159907173790320367383235010444514197695937946090487771044661289130529884724346686445831197",
+        "upper_decimal_directed": "0.159907173790320367383235010444514197695937946090487771044661289130529884724346686445831198"
+      },
+      "screen_score_binary64": 0.15990717379032027
+    },
+    {
+      "arena_coefficients_rational": {
+        "21": "-1/1",
+        "24": "1/2",
+        "3": "1/2",
+        "42": "1/2",
+        "6": "-1/2",
+        "8": "-1/2",
+        "84": "-1/2"
+      },
+      "canonical_counts": {
+        "2": -1,
+        "21": -1,
+        "28": -1,
+        "4": 1,
+        "56": 1,
+        "7": 1,
+        "8": -2
+      },
+      "canonical_signed_list": [
+        -2,
+        4,
+        7,
+        -8,
+        -8,
+        -21,
+        -28,
+        56
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 3.469446951953614e-18,
+        "full_integer_horizon": 840,
+        "horizon_argmax_first": 807,
+        "horizon_maximum_binary64": 1.0000000000000029,
+        "horizon_minimum_binary64": 3.469446951953614e-18,
+        "horizon_states_checked": 840,
+        "passes_live_threshold": true,
+        "score_binary64": 0.15682198411886977
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 15,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 168,
+        "states_checked": 168
+      },
+      "family": "S5-39",
+      "height": 2,
+      "parameters": {
+        "a": 7,
+        "b": -2
+      },
+      "payload": {
+        "partial_function": {
+          "21": -1.0,
+          "24": 0.5,
+          "3": 0.5,
+          "42": 0.5,
+          "6": -0.5,
+          "8": -0.5,
+          "84": -0.5
+        }
+      },
+      "period": 168,
+      "score_decimal": "0.156821984118869804795776895639594750543472898527042220060864529039512772198859558146106312",
+      "score_interval": {
+        "lower_decimal_directed": "0.156821984118869804795776895639594750543472898527042220060864529039512772198859558146106312",
+        "upper_decimal_directed": "0.156821984118869804795776895639594750543472898527042220060864529039512772198859558146106313"
+      },
+      "screen_score_binary64": 0.15682198411886988
+    },
+    {
+      "arena_coefficients_rational": {
+        "12": "-1/2",
+        "15": "-1/2",
+        "16": "-1/2",
+        "20": "-1/2",
+        "30": "1/2",
+        "32": "-1/2",
+        "4": "1/2",
+        "96": "1/2"
+      },
+      "canonical_counts": {
+        "120": 1,
+        "15": -1,
+        "16": 1,
+        "24": -1,
+        "30": -1,
+        "32": -1,
+        "40": -1,
+        "5": 1
+      },
+      "canonical_signed_list": [
+        5,
+        -15,
+        16,
+        -24,
+        -30,
+        -32,
+        -40,
+        120
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -8.673617379884035e-19,
+        "full_integer_horizon": 960,
+        "horizon_argmax_first": 8,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": -8.326672684688674e-16,
+        "horizon_states_checked": 960,
+        "passes_live_threshold": true,
+        "score_binary64": 0.15574888000307846
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 8,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 480,
+        "states_checked": 480
+      },
+      "family": "S5-16",
+      "height": 2,
+      "parameters": {
+        "a": 8,
+        "b": -5
+      },
+      "payload": {
+        "partial_function": {
+          "12": -0.5,
+          "15": -0.5,
+          "16": -0.5,
+          "20": -0.5,
+          "30": 0.5,
+          "32": -0.5,
+          "4": 0.5,
+          "96": 0.5
+        }
+      },
+      "period": 480,
+      "score_decimal": "0.155748880003078450250741280743062221226267789857116303737545715701251979776231818699172935",
+      "score_interval": {
+        "lower_decimal_directed": "0.155748880003078450250741280743062221226267789857116303737545715701251979776231818699172935",
+        "upper_decimal_directed": "0.155748880003078450250741280743062221226267789857116303737545715701251979776231818699172936"
+      },
+      "screen_score_binary64": 0.15574888000307838
+    },
+    {
+      "arena_coefficients_rational": {
+        "10": "-1/2",
+        "135": "-1/2",
+        "18": "1/2",
+        "27": "1/2",
+        "3": "1/2",
+        "30": "-1/2",
+        "54": "-1/2",
+        "6": "-1/2",
+        "9": "-1/2",
+        "90": "1/2"
+      },
+      "canonical_counts": {
+        "10": 1,
+        "15": 1,
+        "2": -1,
+        "27": -1,
+        "3": 1,
+        "30": -1,
+        "45": -1,
+        "5": -1,
+        "9": -1,
+        "90": 1
+      },
+      "canonical_signed_list": [
+        -2,
+        3,
+        -5,
+        -9,
+        10,
+        15,
+        -27,
+        -30,
+        -45,
+        90
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 6.071532165918825e-18,
+        "full_integer_horizon": 1350,
+        "horizon_argmax_first": 1335,
+        "horizon_maximum_binary64": 1.0000000000000082,
+        "horizon_minimum_binary64": 6.071532165918825e-18,
+        "horizon_states_checked": 1350,
+        "passes_live_threshold": true,
+        "score_binary64": 0.14887680953933236
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 27,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 270,
+        "states_checked": 270
+      },
+      "family": "S5-33",
+      "height": 2,
+      "parameters": {
+        "a": 1,
+        "b": 15
+      },
+      "payload": {
+        "partial_function": {
+          "10": -0.5,
+          "135": -0.5,
+          "18": 0.5,
+          "27": 0.5,
+          "3": 0.5,
+          "30": -0.5,
+          "54": -0.5,
+          "6": -0.5,
+          "9": -0.5,
+          "90": 0.5
+        }
+      },
+      "period": 270,
+      "score_decimal": "0.148876809539332390059441131382776915212838434854847664927259881186591945752067544664643444",
+      "score_interval": {
+        "lower_decimal_directed": "0.148876809539332390059441131382776915212838434854847664927259881186591945752067544664643446",
+        "upper_decimal_directed": "0.148876809539332390059441131382776915212838434854847664927259881186591945752067544664643447"
+      },
+      "screen_score_binary64": 0.14887680953933236
+    },
+    {
+      "arena_coefficients_rational": {
+        "12": "-1/2",
+        "16": "-1/2",
+        "18": "1/2",
+        "32": "-1/2",
+        "36": "-1/2",
+        "4": "1/2",
+        "9": "-1/2",
+        "96": "1/2"
+      },
+      "canonical_counts": {
+        "16": 1,
+        "18": -1,
+        "24": -1,
+        "3": 1,
+        "32": -1,
+        "72": 1,
+        "8": -1,
+        "9": -1
+      },
+      "canonical_signed_list": [
+        3,
+        -8,
+        -9,
+        16,
+        -18,
+        -24,
+        -32,
+        72
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -4.336808689942018e-18,
+        "full_integer_horizon": 960,
+        "horizon_argmax_first": 8,
+        "horizon_maximum_binary64": 1.0,
+        "horizon_minimum_binary64": -4.124305064134859e-15,
+        "horizon_states_checked": 960,
+        "passes_live_threshold": true,
+        "score_binary64": 0.13882488021086675
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 8,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 288,
+        "states_checked": 288
+      },
+      "family": "S5-13",
+      "height": 2,
+      "parameters": {
+        "a": 8,
+        "b": -3
+      },
+      "payload": {
+        "partial_function": {
+          "12": -0.5,
+          "16": -0.5,
+          "18": 0.5,
+          "32": -0.5,
+          "36": -0.5,
+          "4": 0.5,
+          "9": -0.5,
+          "96": 0.5
+        }
+      },
+      "period": 288,
+      "score_decimal": "0.138824880210866737088151586938200230953350432805436186969475675482547687437330185777629630",
+      "score_interval": {
+        "lower_decimal_directed": "0.138824880210866737088151586938200230953350432805436186969475675482547687437330185777629630",
+        "upper_decimal_directed": "0.138824880210866737088151586938200230953350432805436186969475675482547687437330185777629631"
+      },
+      "screen_score_binary64": 0.13882488021086675
+    },
+    {
+      "arena_coefficients_rational": {
+        "21": "-1/1",
+        "3": "1/2",
+        "4": "-1/2",
+        "42": "1/2",
+        "84": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -1,
+        "2": 1,
+        "21": -1,
+        "28": 1,
+        "4": -2
+      },
+      "canonical_signed_list": [
+        -1,
+        2,
+        -4,
+        -4,
+        -21,
+        28
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 6.938893903907228e-18,
+        "full_integer_horizon": 840,
+        "horizon_argmax_first": 816,
+        "horizon_maximum_binary64": 1.0000000000000058,
+        "horizon_minimum_binary64": 6.938893903907228e-18,
+        "horizon_states_checked": 840,
+        "passes_live_threshold": true,
+        "score_binary64": 0.11703984860044397
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 15,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 84,
+        "states_checked": 84
+      },
+      "family": "S5-36",
+      "height": 2,
+      "parameters": {
+        "a": 7,
+        "b": -1
+      },
+      "payload": {
+        "partial_function": {
+          "21": -1.0,
+          "3": 0.5,
+          "4": -0.5,
+          "42": 0.5,
+          "84": -0.5
+        }
+      },
+      "period": 84,
+      "score_decimal": "0.1170398486004440036426254067260275843394839109281310149158078002493941131214337775334163",
+      "score_interval": {
+        "lower_decimal_directed": "0.117039848600444003642625406726027584339483910928131014915807800249394113121433777533416299",
+        "upper_decimal_directed": "0.117039848600444003642625406726027584339483910928131014915807800249394113121433777533416300"
+      },
+      "screen_score_binary64": 0.11703984860044402
+    },
+    {
+      "arena_coefficients_rational": {
+        "12": "1/2",
+        "21": "-1/1",
+        "24": "-1/2",
+        "3": "1/2",
+        "4": "-1/2",
+        "42": "1/2",
+        "6": "-1/2",
+        "8": "1/2",
+        "84": "-1/2"
+      },
+      "canonical_counts": {
+        "14": 1,
+        "2": -1,
+        "21": 1,
+        "28": -1,
+        "4": 1,
+        "42": -1,
+        "56": 1,
+        "7": -1,
+        "8": -2
+      },
+      "canonical_signed_list": [
+        -2,
+        4,
+        -7,
+        -8,
+        -8,
+        14,
+        21,
+        -28,
+        -42,
+        56
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": 3.469446951953614e-18,
+        "full_integer_horizon": 840,
+        "horizon_argmax_first": 807,
+        "horizon_maximum_binary64": 1.0000000000000029,
+        "horizon_minimum_binary64": 3.469446951953614e-18,
+        "horizon_states_checked": 840,
+        "passes_live_threshold": true,
+        "score_binary64": 0.09905971907220766
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 15,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 168,
+        "states_checked": 168
+      },
+      "family": "S5-40",
+      "height": 2,
+      "parameters": {
+        "a": 7,
+        "b": -2
+      },
+      "payload": {
+        "partial_function": {
+          "12": 0.5,
+          "21": -1.0,
+          "24": -0.5,
+          "3": 0.5,
+          "4": -0.5,
+          "42": 0.5,
+          "6": -0.5,
+          "8": 0.5,
+          "84": -0.5
+        }
+      },
+      "period": 168,
+      "score_decimal": "0.0990597190722076956776742188514133698705145539970209488841411949150633037013849985122843690",
+      "score_interval": {
+        "lower_decimal_directed": "0.0990597190722076956776742188514133698705145539970209488841411949150633037013849985122843686",
+        "upper_decimal_directed": "0.0990597190722076956776742188514133698705145539970209488841411949150633037013849985122843687"
+      },
+      "screen_score_binary64": 0.09905971907220769
+    },
+    {
+      "arena_coefficients_rational": {
+        "15": "1/2",
+        "30": "-3/2",
+        "5": "1/2",
+        "6": "-1/2"
+      },
+      "canonical_counts": {
+        "1": -3,
+        "2": 1,
+        "5": -1,
+        "6": 1
+      },
+      "canonical_signed_list": [
+        -1,
+        -1,
+        -1,
+        2,
+        -5,
+        6
+      ],
+      "clean_room_live_mirror": {
+        "derived_f1_binary64": -6.938893903907228e-18,
+        "full_integer_horizon": 300,
+        "horizon_argmax_first": 15,
+        "horizon_maximum_binary64": 0.9999999999999999,
+        "horizon_minimum_binary64": -2.0816681711721685e-15,
+        "horizon_states_checked": 300,
+        "passes_live_threshold": true,
+        "score_binary64": 0.06816102690529532
+      },
+      "exact_period_replay": {
+        "distinct_values": [
+          0,
+          1,
+          2
+        ],
+        "height": 2,
+        "is_integral_factorial_ratio": true,
+        "maximum": 2,
+        "maximum_at": 15,
+        "minimum": 0,
+        "minimum_at": 0,
+        "period": 30,
+        "states_checked": 30
+      },
+      "family": "Askey",
+      "height": 2,
+      "parameters": {
+        "m": 1,
+        "n": 1
+      },
+      "payload": {
+        "partial_function": {
+          "15": 0.5,
+          "30": -1.5,
+          "5": 0.5,
+          "6": -0.5
+        }
+      },
+      "period": 30,
+      "score_decimal": "0.0681610269052953125117588621178271429143489608412658355635061103400203299421820450489655292",
+      "score_interval": {
+        "lower_decimal_directed": "0.0681610269052953125117588621178271429143489608412658355635061103400203299421820450489655292",
+        "upper_decimal_directed": "0.0681610269052953125117588621178271429143489608412658355635061103400203299421820450489655293"
+      },
+      "screen_score_binary64": 0.06816102690529532
+    }
+  ],
+  "period_cap_skips": {
+    "best_family": "S5-16",
+    "best_parameters": {
+      "a": 157,
+      "b": -90
+    },
+    "best_period": 10258380,
+    "best_score_binary64": 0.00014286159762919254,
+    "count": 394535
+  },
+  "section5_input_audit": {
+    "all_coprime_nonzero_sums": true,
+    "all_height_one_premises_exactly_replayed": true,
+    "largest_premise_period": 180,
+    "rows": 43
+  }
+}

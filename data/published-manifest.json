@@ -1256,6 +1256,71 @@
       "sha256": "6ccfdad148fe40936a1307b3f822795faa3bc6d953f36904f79a2443ef9b1574"
     },
     {
+      "bytes": 3834,
+      "path": "src/campaign/discrete/difference_global_evolution/HANDOFF.md",
+      "sha256": "bc101ddc9672a5f14a45b2a57d4bbb384216442603b114ffe27dc51283342687"
+    },
+    {
+      "bytes": 1913,
+      "path": "src/campaign/discrete/difference_global_evolution/PROVENANCE.md",
+      "sha256": "eefcbcd1b43cf1ccbd2ca854e23a7e5d43ab372ce1e55d5daf6a8659b67d2395"
+    },
+    {
+      "bytes": 4089,
+      "path": "src/campaign/discrete/difference_global_evolution/PUBLICATION_EXPORT.json",
+      "sha256": "3c958f0df54dcd05e40c7ad33015ac0d677cec3f834b1ec47e717a89b7312d32"
+    },
+    {
+      "bytes": 2799,
+      "path": "src/campaign/discrete/difference_global_evolution/PUBLICATION_MANIFEST.json",
+      "sha256": "061c8a1c4e20fef0544ebd4219860d9e015c83b0802c1c38398b75c96e691287"
+    },
+    {
+      "bytes": 2823,
+      "path": "src/campaign/discrete/difference_global_evolution/README.md",
+      "sha256": "20385626450e756481bc118667b7706e3e45c5f774e90841826dcc138937137e"
+    },
+    {
+      "bytes": 9506,
+      "path": "src/campaign/discrete/difference_global_evolution/audit_run.py",
+      "sha256": "6a7353ef4d902597d9c048a1ea3bd80a031bc64fbb04777d0e2e6d03e404349c"
+    },
+    {
+      "bytes": 2313,
+      "path": "src/campaign/discrete/difference_global_evolution/freeze.py",
+      "sha256": "3415cc33d1928a0639815640cdc90e21ab13a174edb60e779a18f956184be114"
+    },
+    {
+      "bytes": 3339,
+      "path": "src/campaign/discrete/difference_global_evolution/receipt.json",
+      "sha256": "4e9e1cc4dc9b1458fbfbe21ed04bb99f26c35c6a4c28f5fb1d7794893b837530"
+    },
+    {
+      "bytes": 1171,
+      "path": "src/campaign/discrete/difference_global_evolution/runs/20260815T091243Z_final600/config.json",
+      "sha256": "c4b63fdbbce8c20d6a1a08f5d324e5ca3b6dda1194ee13c339dd496c5378e7fe"
+    },
+    {
+      "bytes": 27930,
+      "path": "src/campaign/discrete/difference_global_evolution/runs/20260815T091243Z_final600/events.jsonl",
+      "sha256": "7de78d99eaaa0c36f90d7e4e731c4947110ee752486765f4188b1d4e1b5583bf"
+    },
+    {
+      "bytes": 16388,
+      "path": "src/campaign/discrete/difference_global_evolution/runs/20260815T091243Z_final600/summary.json",
+      "sha256": "7fd0ff5aea3cda4808831770ee3876ab842e30f6b5e07efb0f0f818ac3ae8631"
+    },
+    {
+      "bytes": 44897,
+      "path": "src/campaign/discrete/difference_global_evolution/solver.py",
+      "sha256": "90dbe434724367d67716eb9d5d083d5b2a305dd57b4839f1487cfbf2ee4381de"
+    },
+    {
+      "bytes": 4606,
+      "path": "src/campaign/discrete/difference_global_evolution/test_packet.py",
+      "sha256": "c4debab30b51bbb1e046ed1efc5ec88207a9c10f31a43c43d3cb661a3a409d83"
+    },
+    {
       "bytes": 2890,
       "path": "src/campaign/discrete/difference_interval_constructions/HANDOFF.md",
       "sha256": "ae39d15c7a08945ae9ce4dc835aa38a22c091ca0457c4ab59b7edffac3f63fea"
@@ -1504,6 +1569,116 @@
       "bytes": 7158,
       "path": "src/campaign/discrete/flat_search.py",
       "sha256": "bbf3b89c16fb416a608097a21ddb18a935a1bee3a56efa181e91eec8bd0e69cb"
+    },
+    {
+      "bytes": 411,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/EXA_PROVENANCE.json",
+      "sha256": "a4f50d004534a529b85285a713ae7e414862f7fa505902203e9610fe1bbdfeb7"
+    },
+    {
+      "bytes": 6564,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/HANDOFF.md",
+      "sha256": "555610b2e5038a65006ba0bb4f0c6e455070badb6157858abff9b47c8fd2871d"
+    },
+    {
+      "bytes": 1074,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/LICENSE",
+      "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "bytes": 1343,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/LIVE_METADATA.json",
+      "sha256": "1b2664c083d564064d5fc005be4ca7df92589d2ea6ad15e21c826883d4a37370"
+    },
+    {
+      "bytes": 7019,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/PUBLICATION_EXPORT.json",
+      "sha256": "ed3c9e95ed77adc8aedfa1479588b9f4ec120ae335262b6a86b92788f54ccad0"
+    },
+    {
+      "bytes": 5684,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/PUBLICATION_MANIFEST.json",
+      "sha256": "93e8aae01edec1c919461b01516c02121088a973312bb7ba4d913bd7b8d4a55c"
+    },
+    {
+      "bytes": 1047,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/README.md",
+      "sha256": "2ab8e85610bb827aadddf90a243ea4a1815162a34dcd4556072e316a1c0cd3ed"
+    },
+    {
+      "bytes": 1441,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/SCOPE.md",
+      "sha256": "f405a806128d99d8b29f49b9ad3d10ab9ed0ed46124c4e493c3d80e6ae1fe5bc"
+    },
+    {
+      "bytes": 2144,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/SOURCES.md",
+      "sha256": "45c1d757406479fa649713a80940736f72b30a4121a118b61abaab846655904b"
+    },
+    {
+      "bytes": 840,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/SOURCE_RECEIPT.md",
+      "sha256": "f7b01699ec444761c556c980997edb53f246b3ec4ae4d398673089ce834b43d7"
+    },
+    {
+      "bytes": 105,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/best_payload.json",
+      "sha256": "39879f7b01c16c401f45b97bb934054d0d5a7eb8fa620e106519f3b8b3f2fbe8"
+    },
+    {
+      "bytes": 60275,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/divisor_lattice_receipt.json",
+      "sha256": "fbe588dabac1efc93937d2f300bbc612242e664c0480e0fda515251e95706b49"
+    },
+    {
+      "bytes": 7200,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/divisor_lattice_screen.py",
+      "sha256": "40ef4145fc65f57df55c98d0ef8de04371de037030435f9c96d58184f8f287b0"
+    },
+    {
+      "bytes": 15822,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/family_search.py",
+      "sha256": "1f0d94a341c2a4e6a77a8c54e477a2f218ede40400cafd50fd22161f3e3b76a8"
+    },
+    {
+      "bytes": 148713,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/family_search_checkpoint.json",
+      "sha256": "c3dbd51fabe38b53a9979de86c4136fce904f1f005322236f4e9d9031affb6b6"
+    },
+    {
+      "bytes": 3075,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/family_search_receipt.json",
+      "sha256": "56877234a5f5c9b982265f9523e4ea483266e005c31fb1bf7d5eec7339f698eb"
+    },
+    {
+      "bytes": 8325,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/higher_height_core.py",
+      "sha256": "4184904b8024c61db3d08a4a55b0bbefaa730516438adff9c38e03558fb8f946"
+    },
+    {
+      "bytes": 1679,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/receipt.json",
+      "sha256": "c6c0c186ef389ed4b64666d8e84467c09cf58b9e458f0673cb46c95d8f676191"
+    },
+    {
+      "bytes": 27,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/requirements.txt",
+      "sha256": "cf4d1dc9a101f290fca565d8a6fb4f3ca3f1ada0912c93a81bf37f3fcdf20973"
+    },
+    {
+      "bytes": 663,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/span_receipt.json",
+      "sha256": "dbb5cbfb8a4b0555e736a7ca1a3da2227d4bf820b7e647aab3cc561e73444e98"
+    },
+    {
+      "bytes": 2961,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/verify_best.py",
+      "sha256": "53ab4fa720e0bd0a533167ff50575d50b5f3112d4878f747be3ce59a6564067f"
+    },
+    {
+      "bytes": 3832,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_higher_height/verify_span_identity.py",
+      "sha256": "eb0596b3670c9294b41a072023f0a174c085b80389abc3641e6753c30ecdd7cf"
     },
     {
       "bytes": 794,

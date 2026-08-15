@@ -38,6 +38,11 @@ chain-of-thought.
   over rational prime-log coefficients with outward log bounds, proves
   Chebyshev optimal for all nonnegative combinations of 52 sporadics at every
   dilation from 1 through 100—5,200 atoms and 5,177 strict dual inequalities.
+- Reconstructed Soundararajan's explicit height-two and height-three
+  factorial-ratio families from Paperclip and Exa, screening 3,312,606 lists
+  and 52 complete smooth divisor lattices. Every exact retained family remains
+  below Chebyshev; the best normalized construction is simply Chebyshev
+  squared at `0.921292022934091`.
 - Disclosed (rather than disguised) the Tammes zero-vector domain mismatch.
 - Closed millions of local neighbors across Flat Polynomials, Difference Bases,
   Heilbronn, packing, and active-set families. These no-go regions are retained
@@ -153,6 +158,11 @@ chain-of-thought.
   49,110 required, while the best member near 49,000 has score
   `2.992248536401281`; this cleanly rules out another non-Singer construction
   family at the relevant finite scale.
+- Ran a separate unrestricted changed-core Difference Bases evolution with
+  multi-mark ruin/recreate, full-range coordinate synthesis, and mark/gap
+  crossovers. All 27 retained arrays replay exactly; the farthest accepted
+  state changed five marks, while the best target-covered basin still missed
+  178 differences and reached only prefix 33,087.
 - Recovered the deleted ClaudeEvolve circle-packing strict generator through
   Exa and replayed it under the frozen Arena formula. It scores
   `2.6359829285577328`, matching the published table but missing the live gate;

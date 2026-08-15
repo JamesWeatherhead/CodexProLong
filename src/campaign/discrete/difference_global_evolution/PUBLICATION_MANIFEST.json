@@ -1,0 +1,73 @@
+{
+  "excluded": [
+    "runs/**/checkpoint.json (contains construction arrays)",
+    "runs/smoke_20/**",
+    "runs/20260815T090946Z_pilot300/**",
+    "__pycache__/**",
+    "all files not explicitly allowlisted above"
+  ],
+  "files": {
+    "HANDOFF.md": {
+      "bytes": 3834,
+      "license": "repository-authored clean-room code/documentation",
+      "sha256": "bc101ddc9672a5f14a45b2a57d4bbb384216442603b114ffe27dc51283342687"
+    },
+    "PROVENANCE.md": {
+      "bytes": 1913,
+      "license": "repository-authored clean-room code/documentation",
+      "sha256": "eefcbcd1b43cf1ccbd2ca854e23a7e5d43ab372ce1e55d5daf6a8659b67d2395"
+    },
+    "README.md": {
+      "bytes": 2823,
+      "license": "repository-authored clean-room code/documentation",
+      "sha256": "20385626450e756481bc118667b7706e3e45c5f774e90841826dcc138937137e"
+    },
+    "audit_run.py": {
+      "bytes": 9506,
+      "license": "repository-authored clean-room code/documentation",
+      "sha256": "6a7353ef4d902597d9c048a1ea3bd80a031bc64fbb04777d0e2e6d03e404349c"
+    },
+    "freeze.py": {
+      "bytes": 2313,
+      "license": "repository-authored clean-room code/documentation",
+      "sha256": "3415cc33d1928a0639815640cdc90e21ab13a174edb60e779a18f956184be114"
+    },
+    "receipt.json": {
+      "bytes": 3339,
+      "license": "repository-derived metadata; no construction arrays",
+      "sha256": "4e9e1cc4dc9b1458fbfbe21ed04bb99f26c35c6a4c28f5fb1d7794893b837530"
+    },
+    "runs/20260815T091243Z_final600/config.json": {
+      "bytes": 1171,
+      "license": "repository-derived metadata; no construction arrays",
+      "sha256": "c4b63fdbbce8c20d6a1a08f5d324e5ca3b6dda1194ee13c339dd496c5378e7fe"
+    },
+    "runs/20260815T091243Z_final600/events.jsonl": {
+      "bytes": 27930,
+      "license": "repository-derived metadata; no construction arrays",
+      "sha256": "7de78d99eaaa0c36f90d7e4e731c4947110ee752486765f4188b1d4e1b5583bf"
+    },
+    "runs/20260815T091243Z_final600/summary.json": {
+      "bytes": 16388,
+      "license": "repository-derived metadata; no construction arrays",
+      "sha256": "7fd0ff5aea3cda4808831770ee3876ab842e30f6b5e07efb0f0f818ac3ae8631"
+    },
+    "solver.py": {
+      "bytes": 44897,
+      "license": "repository-authored clean-room code/documentation",
+      "sha256": "90dbe434724367d67716eb9d5d083d5b2a305dd57b4839f1487cfbf2ee4381de"
+    },
+    "test_packet.py": {
+      "bytes": 4606,
+      "license": "repository-authored clean-room code/documentation",
+      "sha256": "c4debab30b51bbb1e046ed1efc5ec88207a9c10f31a43c43d3cb661a3a409d83"
+    }
+  },
+  "privacy": {
+    "arena_snapshot_included": false,
+    "construction_arrays_included": false,
+    "credentials_included": false,
+    "verifier_source_included": false
+  },
+  "schema": "difference-global-evolution-publication-v1"
+}

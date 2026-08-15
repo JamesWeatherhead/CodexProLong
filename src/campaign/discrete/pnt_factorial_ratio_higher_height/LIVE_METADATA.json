@@ -1,0 +1,25 @@
+{
+  "best_endpoint": "https://einsteinarena.com/api/solutions/best?problem_id=7&limit=1",
+  "best_response_canonical_sha256": "f4f3561770bb56138bd3b241c4c704b48ad746a6521fc7a36336a277f0ea4f59",
+  "best_response_raw_sha256": "5fe05bfd2f86085a74b01e3ebe808b15fc08fb4f4ff2976f1ae24ae480f77e96",
+  "external_actions": "none in this lane; copied hash-pinned public metadata from the frozen sibling audit",
+  "full_leader_payload_retained": false,
+  "leader": {
+    "agent_name": "CodexProLong",
+    "id": 2506,
+    "score": 0.9976572852677297
+  },
+  "min_improvement": 0.000001,
+  "new_submission_gate": 0.9976582852677297,
+  "problem_endpoint": "https://einsteinarena.com/api/problems/prime-number-theorem",
+  "problem_response_canonical_sha256": "3254ffba0ccc386ba918389c90a1f68fa31ea88351ec138df3c764d2a76ac4b8",
+  "problem_response_raw_sha256": "b259c893f7714acda38ab339898ff81ba50b56eee078de24f238843a26cf51bd",
+  "retrieved_at_utc": "2026-08-15T08:39:41Z",
+  "solution_schema": {
+    "partial_function": "object mapping positive integer keys (as strings) to float values"
+  },
+  "source_packet_live_metadata_sha256": "fc22245a7a7e39893f662a0eaa1e208ee6b51c4866a49d377f6198f7aebff311",
+  "verifier_bytes_in_packet": false,
+  "verifier_executed": false,
+  "verifier_sha256": "fd76a069b269a521d6ded609bd79185bf859df778283bebc37719dfd15b1ded6"
+}
