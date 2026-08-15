@@ -28,48 +28,71 @@
   <sub>Live snapshot: August 15, 2026. Rankings can change; archived hashes do not.</sub>
 </p>
 
-## The idea
+## What this is
 
-> **The operating idea:** I did not give Codex a single fixed solver. I gave it
-> a goal, research tools, frozen verifiers, and a filesystem.
+CodexProLong is a long-running computational-mathematics experiment. I give
+Codex a problem, a frozen verifier, and a goal—but not one universal solver.
+Codex investigates the problem and writes whatever executable model it needs:
+a search program, simulator, optimizer, SAT model, exact checker, or something
+new.
 
-Most agent sessions end when the context window ends. CodexProLong preserves
-the useful output of reasoning as durable software instead: programs, tests,
-checkpoints, experiment journals, and handoffs that the next agent can use.
+François Chollet, creator of ARC-AGI and co-founder of ARC Prize, describes
+this general pattern as
+[**“LLM-guided on-the-fly synthesis of a symbolic world model.”**](https://x.com/fchollet/status/2088243704603824311)
 
-Each of the 19 EinsteinArena construction benchmarks begins in an isolated
-workspace. Codex can study the problem, read the literature, build new tools,
-run experiments, and change strategy when an idea fails. It has produced exact
-C++ enumerators, Apple Metal search kernels, SAT/PB models, nonlinear
-optimizers, topology searches, archival-recovery tools, and independent replay
-harnesses. Different problem, different program.
+A symbolic world model is an executable account of how a problem works. In
+plain English: the LLM does not stop at explaining its theory. It turns the
+theory into code, runs the code, checks it against evidence, and rewrites the
+model when the theory is wrong. On ARC-AGI-3, that can mean learning the rules
+of an unfamiliar game. Here, it means learning useful structure inside a
+mathematical problem. Different problem, different program.
 
-I set the research goals, control external actions, and decide what qualifies
-as a scientifically honest claim. The verifier—not the narrative—decides
-whether an experiment advances the frontier.
+## The memory is the harness
 
-## Why “ProLong”?
+Most agent sessions forget their work when the context window ends. This one
+does not. The name credits
+[PRO-LONG](https://github.com/alexisfox7/PRO-LONG), the open-source harness that
+inspired the programmatic-memory design.
 
-The name credits [PRO-LONG](https://github.com/alexisfox7/PRO-LONG), the
-open-source programmatic-memory harness that demonstrated a powerful idea:
-model context can be disposable while files, programs, logs, and checkpoints
-remain durable.
+The core research journal is **append-only**: a new experiment adds a new
+record; it does not silently rewrite the old one. Each record preserves the
+route taken, the result, the relevant code or checkpoint, and the hashes that
+identify the exact artifacts. If an earlier conclusion was wrong, the
+correction is appended beside it, leaving the history inspectable.
 
-**Codex** is the research and coding agent. **ProLong** is the memory
-philosophy. CodexProLong is a clean-room, task-generic implementation inspired
-by that concept—not a fork, a new foundation model, or an official OpenAI
-product.
+Before starting another search, Codex searches the journal, handoffs, and
+receipts:
 
-## How the lab works
+- Has this route already been tried?
+- What failed, and why?
+- Is there a useful program or checkpoint to resume?
+- Which verifier, target, and artifact hashes were current?
 
-| | |
-|---|---|
-| **1 · Discover**<br>Codex uses [Exa Search](https://exa.ai) for web and publication discovery and [Paperclip](https://paperclip.gxl.ai) for searchable full-text literature. | **2 · Build**<br>Codex turns promising ideas into problem-specific programs instead of repeatedly solving the problem in prose. |
-| **3 · Verify**<br>Frozen evaluators, live improvement gates, and domain checks separate real constructions from numerical mirages. | **4 · Remember**<br>ProLong filesystem memory preserves code, evidence, failures, and resumable state across context windows. |
+That makes the memory less like a saved chat and more like a searchable lab
+notebook connected to a codebase. Context is disposable; the research state is
+not.
 
-<p align="center">
-  <sub>Exa and Paperclip are research tools used by Codex, not subagents or collaborators.</sub>
-</p>
+## The loop
+
+`set the gate → search memory → research → write code → run → verify → append → repeat`
+
+1. **I set the problem and verification gate.** I control external actions and
+   decide what qualifies as a scientifically honest claim.
+2. **Codex searches the existing memory.** It resumes useful work and avoids
+   repeating measured dead ends.
+3. **Codex researches and builds.** It can use
+   [Exa Search](https://exa.ai) and
+   [Paperclip](https://paperclip.gxl.ai) as research tools, then create whatever
+   problem-specific machinery it needs.
+4. **The verifier decides.** Candidates are replayed against the frozen
+   evaluator and checked against the written mathematical domain.
+5. **The result becomes memory.** Code, evidence, failures, checkpoints, and
+   receipts are appended for the next context to search.
+
+Codex is the agent. ProLong is the memory around its work. Exa and Paperclip
+are tools used by Codex, not subagents or collaborators. CodexProLong is an
+independent, clean-room experiment—not a fork, a new foundation model, or an
+official OpenAI or ARC Prize product.
 
 ## Selected results
 
