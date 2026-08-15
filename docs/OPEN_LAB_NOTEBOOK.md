@@ -57,12 +57,31 @@ chain-of-thought.
   Because zero is the objective floor and the leaderboard assigns ordinal
   ranks to exact ties, this lane is mathematically solved but cannot yield a
   new platform #1 without a change in tie semantics.
+- Crossed the Erdős minimum-overlap gate after 58 exact-accepted active-set
+  stages. Independent literal replay and evaluated solution
+  [#2507](https://einsteinarena.com/api/solutions/2507) agree at
+  `0.3808585748578584`, making it the seventh platform and fifth domain-valid
+  first place.
+- Replaced four q=143 Heilbronn SAT timeouts with deterministic exact support
+  formulas. Fresh solver processes replay all four original heterogeneous
+  radius-3/5 cells and 40 radius-8 one/two-label releases as UNSAT. The packet
+  is explicitly a finite-domain no-go rather than a formal global proof.
+- Audited current public evolutionary-search systems and exact-replayed their
+  available construction assets. Escher's circle and Heilbronn programs were
+  valid but below their gates; a Finch rectangle result with a headline score
+  above five failed the literal Arena verifier because it emitted a negative
+  radius. The public packet retains hashes and replay code, not third-party
+  payload bytes.
 
 ## Current high-information lanes
 
-- **Erdős minimum overlap:** the changed-grid n=3,584 exact active-set SLP has
-  reached `0.3808585875055632`, only `1.0289724e-8` above the strict gate, with
-  every continuation stage accepted so far.
+- **Flat polynomials:** archival recovery reconstructed three of 72 published
+  length-70 PSL-4 classes. An exact outside-in enumerator and independent SAT
+  encodings now target the missing finite class table; solver timeouts are
+  recorded as timeouts, never promoted to UNSAT claims.
+- **Heilbronn:** the former q=143 timeout cells and bounded two-label topology
+  releases are closed. The next rational-mesh campaign must change denominator
+  or topology rather than repeat those finite domains.
 - **Difference bases:** Singer-product local neighborhoods and the independent
   quadratic relative-difference-set topology are both frozen. The next credible
   route must coordinate integer carry order directly rather than add more

@@ -46,6 +46,11 @@
       "sha256": "4cfe9b6f8c3504842f7c6ece3607c1086bd5ef2785919628197129e08f73f4d1"
     },
     {
+      "bytes": 7867,
+      "path": "artifacts/evidence/evolver-asset-sweep-2026.json",
+      "sha256": "bd23d6bde9b79e21c381cea4d778c6de2098fd9a803b2a743734aaea59bf34e7"
+    },
+    {
       "bytes": 3980,
       "path": "artifacts/evidence/flat-psl4-archive-audit.json",
       "sha256": "aba73cd8cc325822edb893ae5a520f2893a72893a3ce9917712a609770854726"
@@ -84,6 +89,11 @@
       "bytes": 2516,
       "path": "artifacts/evidence/geometry-secondary-circle-assets.json",
       "sha256": "5d3d91e2a0eda5d50c6d85202b30f3c5599ddd691dbde0b9cf98926c7360fe7d"
+    },
+    {
+      "bytes": 41919,
+      "path": "artifacts/evidence/heilbronn-q143-exact-support-closure.json",
+      "sha256": "1374c02b703c86db3014e3b97222179011984434ba80c36de8149315023d69cc"
     },
     {
       "bytes": 3668,
@@ -146,9 +156,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 40081,
+      "bytes": 40413,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "50cb0a03629e9e558214c33e250e9fc7d3f5d8dd689337dbb170cd785d1caf0f"
+      "sha256": "22411d63372d3bf2d7480f006633ffa5584faf0578a66b7ca3bf7c82d5d911b3"
     },
     {
       "bytes": 715,
@@ -911,6 +921,16 @@
       "sha256": "9026c202038f0907e241961533a8ab241b5ce6357c59731eb7133f7e83d00b38"
     },
     {
+      "bytes": 3649,
+      "path": "src/campaign/evolver_asset_sweep_2026/HANDOFF.md",
+      "sha256": "91db66afb11001e8b859561d67a797fe9ca5d0e8239389104f289073386ba08e"
+    },
+    {
+      "bytes": 4750,
+      "path": "src/campaign/evolver_asset_sweep_2026/replay_exact.py",
+      "sha256": "37282318655a1986085b43a6326550346f20287f9d9d7a844c6f99078f82eab6"
+    },
+    {
       "bytes": 5309,
       "path": "src/campaign/flat_psl4_recovery/HANDOFF.md",
       "sha256": "0b1d888fafa1ff4efa818d8b08794f471c35d2b059d96fd1e5651389d458a8e6"
@@ -1064,6 +1084,36 @@
       "bytes": 13567,
       "path": "src/campaign/geometry/heilbronn_bnb/typed_pair_dfs.py",
       "sha256": "66aca5d6862d4482891a004d78493d69e1994bffe3ca461bfec1cbfaac77e9f2"
+    },
+    {
+      "bytes": 2503,
+      "path": "src/campaign/geometry/heilbronn_q143_cegis/HANDOFF.md",
+      "sha256": "52a55bc3daa72ebf7f5023889c19c37d1554f7fd55535dd3a108d18d4e9a9cdb"
+    },
+    {
+      "bytes": 5288,
+      "path": "src/campaign/geometry/heilbronn_q143_cegis/README.md",
+      "sha256": "6dbd94ad7a97fd582e84efe965f45c3505b1569b09aa60e1938a3701114f7b29"
+    },
+    {
+      "bytes": 13254,
+      "path": "src/campaign/geometry/heilbronn_q143_cegis/freeze_receipt.py",
+      "sha256": "60c0568bf39abc0a69b89824defc8b982fbb3cb5c26ca0b2e13aa5604b31f21e"
+    },
+    {
+      "bytes": 31528,
+      "path": "src/campaign/geometry/heilbronn_q143_cegis/q143_cegis.py",
+      "sha256": "3420bd824137f81552712a4c1c416409e6157fbe81bb4d4fdcaa5afac21be83c"
+    },
+    {
+      "bytes": 30158,
+      "path": "src/campaign/geometry/heilbronn_q143_cegis/support_closure.py",
+      "sha256": "7663f2f7f92532b64915fbb137ce822db660e0dda7d3f510e0ec7a4d8821baf0"
+    },
+    {
+      "bytes": 5134,
+      "path": "src/campaign/geometry/heilbronn_q143_cegis/verify_candidate.py",
+      "sha256": "1d77b5484de2d8d783c21cc79999706a0f50a6181bfde9ddbcd18e447a876fa0"
     },
     {
       "bytes": 21240,
@@ -1286,5 +1336,5 @@
       "sha256": "8ffd7435d2c9f12d852c61e6f44ce77d0d64f7a51fdac12bf72b662b90b49c6c"
     }
   ],
-  "generated_at": "2026-08-15T04:46:18.222122Z"
+  "generated_at": "2026-08-15T05:35:52.339936Z"
 }
