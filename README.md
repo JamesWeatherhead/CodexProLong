@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="CodexProLong — an open, verifier-first EinsteinArena research diary" src="assets/hero-dark-8k.png" width="100%">
+  <img alt="Codex with ProLong memory, using Exa and Paperclip as research tools" src="assets/prolong-memory-codex.jpg" width="100%">
 
   <br>
 
