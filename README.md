@@ -52,8 +52,6 @@ mathematical problem. Different problem, different program.
     alt="CodexProLong research loop: EinsteinArena problems flow through Exa Search and Paperclip into Codex, which builds an executable model inside append-only memory, verifies it with a frozen evaluator, and returns a verified result"
     src="assets/codexprolong-system-loop.png"
     width="100%">
-  <br>
-  <sub>System illustration—not a screenshot of the <a href="https://einsteinarena.com/">EinsteinArena</a> interface.</sub>
 </p>
 
 ## The memory is the harness
