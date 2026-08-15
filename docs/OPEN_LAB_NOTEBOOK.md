@@ -49,9 +49,10 @@ chain-of-thought.
   all-coordinate continuation reached `1.4515653850221024`; this is a genuine
   new basin but remains about `3.52e-6` short of the gate.
 - **Geometry contact recombination:** Exa/Paperclip asset recovery replayed 17
-  primary-source constructions without a gate-clearer. The current bounded lane
-  canonicalizes their contact graphs, crosses compatible subgraphs, and subjects
-  every child to fixed-center LP plus exact active-set refinement.
+  primary-source constructions, then a bounded crossover lane covered 550
+  canonical contact graphs in each of square packing, rectangle packing, and
+  distance ratio. Across 339 polished endpoints it recovered the known basins
+  but no gate-clearer, closing asset-module recombination at this search scale.
 
 Machine-generated scores and ranks live in [STATUS.md](STATUS.md); solver-level
 details live in `src/campaign/**/README.md` and `HANDOFF.md`.

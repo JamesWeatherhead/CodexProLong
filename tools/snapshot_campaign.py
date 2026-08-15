@@ -88,14 +88,15 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "difference-global-sparse-patch-candidate": "discrete/difference_global/candidates/sparse_patch_best.json",
     "geometry-literature-asset-replays": "literature_asset_hunt/receipt.json",
     "geometry-literature-asset-sources": "literature_asset_hunt/sources.json",
+    "geometry-contact-recombination": "geometry_asset_recombine/replay_receipt.json",
 }
 FRONTIER_RECEIPTS = {
     "edges-vs-triangles": "state/receipts/edges-vs-triangles/20260815T024004430186Z-c71bc6912f5a.json",
     "third-autocorrelation-inequality": "c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/receipt.json",
 }
 METHODS = {
-    "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short after 156 one-contact releases, 58 PAS-PCI relocations, and 80 clean-room FlowBoost-inspired seeds; a genuinely new multi-contact topology is required.",
-    "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short after 100 global/aspect and void endpoints spanning 24 graph classes, 22 absent from the full public corpus; a genuinely new multi-contact topology is required.",
+    "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short. Beyond the original releases and relocation seeds, a primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 80 rigid polished classes without escaping the known tolerance ceiling.",
+    "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. A primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 93 rigid polished classes; its strongest noncanonical endpoint remained 0.001584 below the gate.",
     "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109. A separate Paperclip-derived quadratic relative-difference-set campaign tested 2,400 global starts, 16 coordinate descents, and 121,111 exact sparse-patch births; finite-group coverage collapsed under integer carry ordering.",
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Independent literal-verifier replay of the n=3,584 active-bundle SLP reaches 0.38085862169567786, improving the public leader by 5.55e-8 but remaining 4.45e-8 short of the gate; a bounded n=64 Shor–McCormick/SROCR lift extracted only worse feasible basins.",
@@ -106,7 +107,7 @@ METHODS = {
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
     "kissing-number-d12": "Published 841-code replays at exact verifier score 0 with 1.24497e-7 distance-squared margin; submission is blocked by HTTP 409, tracked in issue #59.",
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
-    "min-distance-ratio-2d": "100-digit active root and 280 topology release/promote trials; best local gain is 2.35e-11 versus a 1e-7 gate.",
+    "min-distance-ratio-2d": "A 100-digit active root, 280 release/promote trials, and 550 canonical contact-graph recombinations all return the same micro-polished basin; the best exact gain is 2.35e-11 versus a 1e-7 gate.",
     "prime-number-theorem": "Changed-reach cutting planes produce evaluated solution #2506 at 0.9976572852677297. An exact rational sweep covers every real state in the advertised verifier horizon; a global all-x proof remains open.",
     "second-autocorrelation-inequality": "Exact replay reaches 0.9635881172701123 after changed-support packet births; 362 whole-region phase schedules and 378 finite-mass terminal split constructions found no global escape, leaving a 9.9933e-6 gate gap.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
@@ -115,13 +116,14 @@ METHODS = {
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
 }
 SOURCE_ENTRYPOINTS = {
-    "circle-packing": "geometry/circle_packing_topology/HANDOFF.md",
-    "circles-rectangle": "geometry/rectangle_topology/HANDOFF.md",
+    "circle-packing": "geometry_asset_recombine/HANDOFF.md",
+    "circles-rectangle": "geometry_asset_recombine/HANDOFF.md",
     "difference-bases": "discrete/difference_global/HANDOFF.md",
     "edges-vs-triangles": "discrete/edges_vs_triangles/HANDOFF.md",
     "erdos-min-overlap": "analytic/erdos_global/HANDOFF.md",
     "flat-polynomials": "analytic/flat_global/HANDOFF.md",
     "heilbronn-triangles": "geometry/heilbronn_bnb/HANDOFF.md",
+    "min-distance-ratio-2d": "geometry_asset_recombine/HANDOFF.md",
     "kissing-number-d12": "geometry/kissing_d12/HANDOFF.md",
     "prime-number-theorem": "discrete/prime_number_theorem/HANDOFF.md",
     "second-autocorrelation-inequality": "analytic/c2_global_topology/HANDOFF.md",
@@ -148,6 +150,7 @@ SOURCE_FAMILIES = (
     "erdos_root",
     "geometry",
     "literature_asset_hunt",
+    "geometry_asset_recombine",
     "research_corpus",
 )
 EXCLUDED_PARTS = {

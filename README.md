@@ -130,6 +130,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 📚 [Paperclip literature map and line-pinned citations](docs/LITERATURE.md)
 - 🧮 [Paperclip-derived relative-difference-set search](src/campaign/discrete/difference_global/HANDOFF.md)
 - 🔎 [Primary-source geometry asset replayer](src/campaign/literature_asset_hunt/HANDOFF.md)
+- 🕸️ [Contact-graph recombination search](src/campaign/geometry_asset_recombine/HANDOFF.md)
 - 🧱 [Harness architecture and trust boundaries](docs/ARCHITECTURE.md)
 - ⚖️ [Integrity policy and verifier disclosures](docs/ETHICS.md)
 - 🧾 [Machine-readable frontier](data/frontier.json)

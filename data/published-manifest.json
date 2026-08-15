@@ -26,6 +26,11 @@
       "sha256": "4cfe9b6f8c3504842f7c6ece3607c1086bd5ef2785919628197129e08f73f4d1"
     },
     {
+      "bytes": 6464,
+      "path": "artifacts/evidence/geometry-contact-recombination.json",
+      "sha256": "a2016ab711644a4b6328f77e11ed5a73f845db69c74264d26c6c8bff94620ad5"
+    },
+    {
       "bytes": 31785,
       "path": "artifacts/evidence/geometry-literature-asset-replays.json",
       "sha256": "aa67d79befa346c2d3178a0d113b92d432f9181e20340ac9a3483c9db71b433a"
@@ -1044,6 +1049,21 @@
       "bytes": 1221,
       "path": "src/campaign/geometry/verify_payload.py",
       "sha256": "62fe0a7560bb3d7be5b928486ee6dbde45d1ac196e91fe91c45a43c80567a3cf"
+    },
+    {
+      "bytes": 7364,
+      "path": "src/campaign/geometry_asset_recombine/HANDOFF.md",
+      "sha256": "6b3427771e2d2435cc8e756ad8f773da9808191ab0dc0547315ff4557c7d9234"
+    },
+    {
+      "bytes": 40807,
+      "path": "src/campaign/geometry_asset_recombine/recombine_search.py",
+      "sha256": "bcac67308145c0d1017c480b40a9082d9c0dc179aff8aa2d5021ea007548d827"
+    },
+    {
+      "bytes": 4974,
+      "path": "src/campaign/geometry_asset_recombine/replay_frozen.py",
+      "sha256": "b3349229e567c74d471eb6ccfe539785837cb62659c7ee551fd6a7219e4bf2c9"
     },
     {
       "bytes": 7611,
