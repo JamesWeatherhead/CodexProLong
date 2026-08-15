@@ -159,6 +159,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - ⚙️ [Distributed bit-parallel exact PSL-4 enumerator](src/campaign/flat_psl4_global_exact/HANDOFF.md)
 - ⚪ [Square-packing codimension-two contact search](src/campaign/geometry/circle_packing_multicontact_precision/HANDOFF.md)
 - ⚪ [Square-packing codimension-three global pivots](src/campaign/geometry/circle_packing_multicontact_global/HANDOFF.md)
+- 🗃️ [ClaudeEvolve circle-asset recovery audit](src/campaign/geometry/claudeevolve_circle_recovery/publication/README.md)
 - ▭ [Rectangle codimension-two/three contact search](src/campaign/geometry/rectangle_multicontact_precision/HANDOFF.md)
 - 🔐 [Heilbronn q=143 exact support closure](src/campaign/geometry/heilbronn_q143_cegis/HANDOFF.md)
 - 🧩 [Heilbronn q=144–220 rational-mesh closure](src/campaign/geometry/heilbronn_rational_mesh_global/HANDOFF.md)

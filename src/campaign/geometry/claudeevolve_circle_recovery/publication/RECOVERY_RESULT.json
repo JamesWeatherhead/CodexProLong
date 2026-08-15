@@ -1,0 +1,76 @@
+{
+  "result": "no_exact_headline_asset_and_no_gate_clearer",
+  "audited_repository": "BudEcosystem/ClaudeEvolve",
+  "github_repository_id": 1180207531,
+  "headline_claim": 2.6359835671240317,
+  "exact_headline_candidate_recovered": false,
+  "headline_generating_program_recovered": false,
+  "strict_lower_scoring_generator_recovered_locally": true,
+  "strict_generator_in_publication_packet": false,
+  "verification": {
+    "best_recovered_score": 2.635982928558,
+    "generated_strict_score": 2.6359829285577328,
+    "current_leader_score": 2.635983095260844,
+    "minimum_improvement": 1e-10,
+    "required_gate_score": 2.635983095360844,
+    "best_recovered_shortfall": 1.6680284398162826e-7,
+    "headline_margin_if_valid": 4.717631877e-7,
+    "clears_gate": false,
+    "submitted": false,
+    "offline_verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab",
+    "sandbox_image_digest": "sha256:3fd6a7bc24c5da2c6d42ab6827dd4814f09e8b542b22e3d422b2154a6a6c38bd"
+  },
+  "excluded_evidence_hashes": {
+    "cached_strict_generator_rendition_sha256": "c9cecd1550c468b2e30e1d47eb63f36f71df32a73cc2c449eea9afb33d1b7e3b",
+    "generated_strict_candidate_artifact_sha256": "7e24d3f9bd83e33149c4d392570c52cc1c72b84551adbcc59ae598f492e2183f",
+    "paper_table_candidate_artifact_sha256": "b87a7364229f23aeae949f745b678ef36cdf72d5fc60153cbe0cf93e701e6643"
+  },
+  "claim_inconsistencies": [
+    "The README headline allowed pair gaps greater than or equal to -1e-6.",
+    "The linked strict paper, coordinate table, and program instead reported approximately 2.6359829286 with a 1e-8 safety margin.",
+    "The README described seven initializers, ultra-fine coordinate descent, and warm-cache accumulation, but the recovered linked strict program used one ring initializer and 60 perturbation restarts.",
+    "The listed best_circle_packing_final.py was not recovered and the README labeled it 2.635982928557747, not the headline value."
+  ],
+  "search_coverage": {
+    "github_repository_id_endpoints_404": 8,
+    "public_push_events": 3,
+    "commit_shas_identified": 5,
+    "commit_objects_recovered": 0,
+    "immutable_raw_url_probes": 35,
+    "immutable_raw_url_404": 35,
+    "source_forks_found": 0,
+    "wayback_availability_checks": 8,
+    "wayback_snapshots_found": 0,
+    "wayback_cdx_clean_empty": 3,
+    "wayback_cdx_transient_503": 2,
+    "common_crawl_collections": 7,
+    "common_crawl_index_queries": 35,
+    "common_crawl_captures_found": 0,
+    "common_crawl_clean_no_capture": 30,
+    "common_crawl_transient_502_or_503": 5,
+    "sourcegraph_exact_score_mentions": 6,
+    "sourcegraph_exact_score_repositories": 1,
+    "sourcegraph_strict_or_final_filename_matches": 0,
+    "grep_app_queries": 6,
+    "grep_app_transient_503": 6,
+    "exa_requests": 12,
+    "exa_linked_urls_requested": 6,
+    "exa_linked_urls_recovered": 4,
+    "paperclip_exact_score_matches": 0,
+    "paperclip_project_name_matches": 0,
+    "paperclip_target_filename_matches": 0,
+    "related_registry_assets_found": 0
+  },
+  "limitations": [
+    "The deleted Git object database and tarballs were not recoverable.",
+    "Five Common Crawl, two Wayback, and six grep.app queries ended in transient service errors.",
+    "GitHub Packages listing was unavailable because the configured read-only token lacked read:packages.",
+    "Exa returned rendered cached text rather than cryptographic Git blob identity.",
+    "The original upstream LICENSE and NOTICE bytes were not recovered."
+  ],
+  "external_writes": {
+    "github": false,
+    "einsteinarena": false,
+    "submission": false
+  }
+}

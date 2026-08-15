@@ -102,6 +102,7 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "circle-packing-multicontact-precision": "geometry/circle_packing_multicontact_precision/receipt.json",
     "circle-packing-multicontact-replay": "geometry/circle_packing_multicontact_precision/replay_receipt.json",
     "circle-packing-codim3-global": "geometry/circle_packing_multicontact_global/receipt_v2.json",
+    "claudeevolve-circle-recovery": "geometry/claudeevolve_circle_recovery/publication/RECOVERY_RESULT.json",
     "circles-rectangle-multicontact-precision": "geometry/rectangle_multicontact_precision/receipt.json",
     "circles-rectangle-multicontact-replay": "geometry/rectangle_multicontact_precision/replay_receipt.json",
     "geometry-literature-asset-replays": "literature_asset_hunt/receipt.json",
@@ -151,7 +152,7 @@ FRONTIER_RECEIPTS = {
     "third-autocorrelation-inequality": "c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/receipt.json",
 }
 METHODS = {
-    "circle-packing": "Exact replay reaches 2.635983095281623, still 7.92e-11 short. Beyond one-contact continuation, relocation, and 550 contact-graph recombinations, the codimension-two campaign solved 9,270 systems and deduplicated 5,147 unlabeled WL classes. A disjoint codimension-three campaign then tested 3,500 release triples and 2,848 genuine changed graphs; its best changed topology remained 0.00625 below the gate. No tested topology escaped the canonical tolerance ceiling.",
+    "circle-packing": "Exact replay reaches 2.635983095281623, still 7.92e-11 short. Beyond one-contact continuation, relocation, and 550 contact-graph recombinations, the codimension-two campaign solved 9,270 systems and deduplicated 5,147 unlabeled WL classes. A disjoint codimension-three campaign then tested 3,500 release triples and 2,848 genuine changed graphs. Exa archive recovery found the complete linked ClaudeEvolve strict generator, but it reproduces only 2.6359829285577328; the higher README headline has no recoverable candidate bytes and used a looser -1e-6 gap allowance. No tested topology or recovered asset escaped the canonical tolerance ceiling.",
     "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. The latest simultaneous-contact campaign exhausts all 2,016 two-contact and 41,664 three-contact releases from both rigid public graph classes: 11,933 nonlinear systems, 11,884 accepted endpoints, and 8,828 unlabeled WL classes. The canonical tolerance ceiling remains best, so a higher-codimension or genuinely different topology is required.",
     "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, block repairs, and a separate quadratic relative-difference-set family are closed. A carry-exact CSP proves infeasibility for every size 320..720 within the fixed 90-point cyclic-core/shell-0..7 family. Independently, an exhaustive Banakh–Gavrylkiv four-block interval-basis sweep covers every unit multiplier and cyclic cut for 114 prime powers q<=499 plus complete tail sweeps at selected q; it regenerates but cannot beat the incumbent. These are family closures, not a global lower bound.",
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
@@ -346,6 +347,7 @@ PUBLICATION_MANIFESTS = (
     Path("geometry/rectangle_multicontact_precision/PUBLICATION_MANIFEST.json"),
     Path("geometry/circle_packing_multicontact_global/PUBLICATION_MANIFEST.json"),
     Path("discrete/difference_interval_constructions/PUBLICATION_MANIFEST.json"),
+    Path("geometry/claudeevolve_circle_recovery/PUBLICATION_MANIFEST.json"),
 )
 
 PUBLICATION_ALLOWLIST = (

@@ -1,0 +1,104 @@
+{
+  "provider": "Exa",
+  "credential_material_included": false,
+  "retrieved_content_included": false,
+  "note": "Ten search strings are normalized reconstructions because Exa responses did not echo the literal CLI query. The two contents requests preserve their exact URL lists.",
+  "requests": [
+    {
+      "request_id": "46966c2df3ed306171bd758986dbb809",
+      "operation": "search",
+      "normalized_query": "\"2.6359835671240317\" ClaudeEvolve",
+      "literal_query_preserved": false,
+      "results": 4
+    },
+    {
+      "request_id": "47c4e9ac5260977b0bf30e3ca7855bfc",
+      "operation": "search",
+      "normalized_query": "BudEcosystem ClaudeEvolve circle packing coordinates source code artifacts",
+      "literal_query_preserved": false,
+      "results": 10
+    },
+    {
+      "request_id": "fe83c54e3900e1f7d9424e3d616e6502",
+      "operation": "search",
+      "normalized_query": "deleted GitHub BudEcosystem ClaudeEvolve repository recovery cache fork",
+      "literal_query_preserved": false,
+      "results": 20
+    },
+    {
+      "request_id": "af4c06774793ea6de6f4e81cf78b7ead",
+      "operation": "search",
+      "normalized_query": "\"best_circle_packing_final.py\" ClaudeEvolve",
+      "literal_query_preserved": false,
+      "results": 3
+    },
+    {
+      "request_id": "0e8715761ae9853c2474aa600b4bc06b",
+      "operation": "search",
+      "normalized_query": "ClaudeEvolve 2.6359835671240317 seven patterns warm cache ultra-fine coordinate descent",
+      "literal_query_preserved": false,
+      "results": 4
+    },
+    {
+      "request_id": "d93f4fa6d998da98d17c69a381654113",
+      "operation": "search_with_text",
+      "normalized_query": "BudEcosystem/ClaudeEvolve evolve_output/best_circle_packing_strict.py",
+      "literal_query_preserved": false,
+      "results": 5
+    },
+    {
+      "request_id": "75b5c8237553cfcd56733cadc11447c4",
+      "operation": "search_with_text",
+      "normalized_query": "BudEcosystem/ClaudeEvolve docs/verify_circle_packing.py",
+      "literal_query_preserved": false,
+      "results": 5
+    },
+    {
+      "request_id": "2e767a4f0392f2276dde5480b095d9bd",
+      "operation": "search_with_text",
+      "normalized_query": "BudEcosystem/ClaudeEvolve docs/circle_packing_paper.md",
+      "literal_query_preserved": false,
+      "results": 5
+    },
+    {
+      "request_id": "58db8ce7af75a1e8979158c093599265",
+      "operation": "search_with_text",
+      "normalized_query": "BudEcosystem/ClaudeEvolve README.md",
+      "literal_query_preserved": false,
+      "results": 5
+    },
+    {
+      "request_id": "583a0595e5a5c55bfdfd5e80fe5453cc",
+      "operation": "search_with_full_text",
+      "normalized_query": "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/evolve_output/best_circle_packing_strict.py",
+      "literal_query_preserved": false,
+      "results": 1
+    },
+    {
+      "request_id": "0591aa6619fb2a6f3ec9444509e3bc5d",
+      "operation": "contents",
+      "urls": [
+        "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/README.md",
+        "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/docs/circle_packing_paper.md",
+        "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/docs/verify_circle_packing.py",
+        "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/evolve_output/best_circle_packing_strict.py",
+        "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/evolve_output/best_circle_packing_final.py"
+      ],
+      "results": 4,
+      "missing": [
+        "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/evolve_output/best_circle_packing_final.py"
+      ]
+    },
+    {
+      "request_id": "7a504dd1ca0ec3db374ca50ee1288638",
+      "operation": "contents",
+      "urls": [
+        "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/LICENSE"
+      ],
+      "results": 0,
+      "missing": [
+        "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/LICENSE"
+      ]
+    }
+  ]
+}

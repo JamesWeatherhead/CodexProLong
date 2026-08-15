@@ -116,6 +116,12 @@ chain-of-thought.
   cut was exhausted for 114 schema-compatible prime powers through 499, with
   complete tail sweeps at selected orders. The family exactly regenerates the
   incumbent at `q=89` but yields no improvement.
+- Recovered the deleted ClaudeEvolve circle-packing strict generator through
+  Exa and replayed it under the frozen Arena formula. It scores
+  `2.6359829285577328`, matching the published table but missing the live gate;
+  the higher README headline remains unsupported and used a documented
+  `-1e-6` gap allowance. The public packet keeps only normalized provenance and
+  the quantified result, not cached third-party code or candidate bytes.
 - Extended the C3 numerical frontier through two exact-accepted sign-wall
   crossings. After screening 14,333 deletions, 100,152 block transplants,
   20,000 single walls, and 7,140 wall pairs, literal `numpy.convolve` replay

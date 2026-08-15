@@ -81,6 +81,11 @@
       "sha256": "108f6bd2925f9aafe632dcd6db2b7bc3200cdac88fbdf1ae7ee55c7c22938668"
     },
     {
+      "bytes": 3603,
+      "path": "artifacts/evidence/claudeevolve-circle-recovery.json",
+      "sha256": "440771203c65b3ed11087d3791fd33d1fcb79a587317a5f2dd48271bdb0af0cc"
+    },
+    {
       "bytes": 10193,
       "path": "artifacts/evidence/difference-exact-synthesis.json",
       "sha256": "ce922ae5d194cde49551b45dac71eb286c814a36460392ce8a975c9bbd496b3b"
@@ -1794,6 +1799,46 @@
       "bytes": 21459,
       "path": "src/campaign/geometry/circle_packing_topology/void_relocate.py",
       "sha256": "5da21ca451206048a22f30f8ccd02b4c4ea8e9717dc554a940504c45029bf03c"
+    },
+    {
+      "bytes": 156,
+      "path": "src/campaign/geometry/claudeevolve_circle_recovery/.gitignore",
+      "sha256": "b21aa6be91caee9cc943f9cdf5d5204df68d0f35003fc5363e950473303bb667"
+    },
+    {
+      "bytes": 2470,
+      "path": "src/campaign/geometry/claudeevolve_circle_recovery/PUBLICATION_EXPORT.json",
+      "sha256": "49e6c3b98a412b1bb5ee3e3740a267e0d8ea38ec518d20c2aa31c29a6d706aba"
+    },
+    {
+      "bytes": 5594,
+      "path": "src/campaign/geometry/claudeevolve_circle_recovery/PUBLICATION_MANIFEST.json",
+      "sha256": "d78106ef8f8b8531f5d665be68647d84bf03cc3bd936ff4d7284861d6343a8d9"
+    },
+    {
+      "bytes": 3936,
+      "path": "src/campaign/geometry/claudeevolve_circle_recovery/publication/EXA_PROVENANCE.json",
+      "sha256": "fe2c7f864cff30f8363c8e0a5c9e0b4516713ca226bd33e1e43ff6e09775d921"
+    },
+    {
+      "bytes": 1031,
+      "path": "src/campaign/geometry/claudeevolve_circle_recovery/publication/LICENSE_PROVENANCE.md",
+      "sha256": "398bd40ad2ffd4645d20a7f8fb7777cac223d5057a17909f8bec6f4632b2d25c"
+    },
+    {
+      "bytes": 1020,
+      "path": "src/campaign/geometry/claudeevolve_circle_recovery/publication/PAPERCLIP_PROVENANCE.json",
+      "sha256": "d0826b4850490398411acbf1aea7d94ce6a7eae41ce084151ab98768471e62f2"
+    },
+    {
+      "bytes": 1400,
+      "path": "src/campaign/geometry/claudeevolve_circle_recovery/publication/README.md",
+      "sha256": "4e02ac035b89b63ba31952dbce4ce0cb9fd31ea75510c63f7cd83f8a54229bd1"
+    },
+    {
+      "bytes": 3601,
+      "path": "src/campaign/geometry/claudeevolve_circle_recovery/publication/RECOVERY_RESULT.json",
+      "sha256": "6c09be0257cfdb5197edb79acc4e6a6aa45410568c14291e1f32878ad289ef5f"
     },
     {
       "bytes": 1042,

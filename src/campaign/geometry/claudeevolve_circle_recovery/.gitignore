@@ -1,0 +1,6 @@
+# Default deny. Only the reviewed publication packet and its manifest are stageable.
+*
+!.gitignore
+!PUBLICATION_MANIFEST.json
+!publication/
+!publication/**
