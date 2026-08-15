@@ -111,6 +111,43 @@
       "year": 2026,
       "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2606.10402#L1",
       "vfs_path": "/papers/arx_2606.10402/content.lines"
+    },
+    "pas_pci": {
+      "title": "Packing Unequal Circles into a Square Container by Partitioning Narrow Action Spaces and Circle Items",
+      "authors": ["Kun He", "Mohammed Dosh", "Shenghao Zou"],
+      "year": 2017,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_1701.00541#L22-L26,L43-L45,L61-L68,L72-L96",
+      "vfs_path": "/papers/arx_1701.00541/content.lines"
+    },
+    "flowboost": {
+      "title": "Flow-based Extremal Mathematical Structure Discovery",
+      "authors": ["Gergely Bérczi", "Baran Hashemi", "Jonas Klüver"],
+      "year": 2026,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2601.18005#L1",
+      "vfs_path": "/papers/arx_2601.18005/content.lines"
+    },
+    "gigaevo": {
+      "title": "GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Algorithms",
+      "authors": [
+        "Valentin Khrulkov",
+        "Andrey Galichin",
+        "Denis Bashkirov",
+        "Dmitry Vinichenko",
+        "Oleg Travkin",
+        "Roman Alferov",
+        "Andrey Kuznetsov",
+        "Ivan Oseledets"
+      ],
+      "year": 2025,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2511.17592#L15-L20,L33-L46",
+      "vfs_path": "/papers/arx_2511.17592/content.lines"
+    },
+    "heilbronn_minlp_2026": {
+      "title": "From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization",
+      "authors": ["Nathan Sudermann-Merx"],
+      "year": 2026,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2603.11107#L1",
+      "vfs_path": "/papers/arx_2603.11107/content.lines"
     }
   },
   "problems": [
@@ -201,23 +238,23 @@
     {
       "slug": "circle-packing",
       "status": "active",
-      "source_keys": ["alphaevolve_math"],
-      "line_pins": ["L507-L521"],
-      "research_direction": "Fixed active tangency topology solves plus topology-changing perturbations"
+      "source_keys": ["alphaevolve_math", "pas_pci", "flowboost", "gigaevo"],
+      "line_pins": ["L507-L521", "L22-L26", "L43-L45", "L61-L68", "L72-L96", "L1", "L36-L42"],
+      "research_direction": "Global center search with fixed-center radius LP, pain-ranked void relocation, split-neighbour moves, and stochastic contact-graph perturbations"
     },
     {
       "slug": "heilbronn-triangles",
       "status": "active",
-      "source_keys": ["alphaevolve_math", "heilbronn_global_optimization", "heilbronn_asymptotic"],
-      "line_pins": ["L624-L634", "L7-L22", "L30-L53", "L168-L176", "L5-L24"],
-      "research_direction": "Barycentric symmetry breaking, active signed-area constraints, lattice seeds, fixed-sign MIQCP branch-and-bound"
+      "source_keys": ["alphaevolve_math", "heilbronn_global_optimization", "heilbronn_asymptotic", "flowboost", "gigaevo", "heilbronn_minlp_2026"],
+      "line_pins": ["L624-L634", "L7-L22", "L30-L53", "L168-L176", "L5-L24", "L1", "L33-L37"],
+      "research_direction": "Barycentric boundary symmetry, active signed-area topology search, lattice seeds, and fixed-sign MIQCP/MINLP certification with numerical-to-symbolic recovery"
     },
     {
       "slug": "circles-rectangle",
       "status": "active",
-      "source_keys": ["alphaevolve_math"],
-      "line_pins": ["L513-L521"],
-      "research_direction": "Joint aspect-ratio and active tangency-graph continuation"
+      "source_keys": ["alphaevolve_math", "pas_pci", "flowboost"],
+      "line_pins": ["L513-L521", "L22-L26", "L61-L68", "L72-L96", "L1"],
+      "research_direction": "Joint aspect-ratio/contact-graph continuation plus fixed-center radius optimization and changed-basin void relocations"
     },
     {
       "slug": "difference-bases",

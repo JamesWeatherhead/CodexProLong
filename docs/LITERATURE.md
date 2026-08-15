@@ -61,6 +61,15 @@ Machine-readable coverage and the reproducible query log live in
    examples are highly irregular combs [1, 3]. Coarse smooth ansatzes can erase
    precisely the structures that improve the bound.
 
+7. **Variable-radius circle packing needs topology-changing center moves.**
+   PAS-PCI ranks squeezed circles by a normalized pain score, moves them into
+   large or size-matched voids, splits narrow voids for paired relocations, and
+   alternates those jumps with continuous polishing [11]. FlowBoost independently
+   separates global center discovery from an exact fixed-center radius LP and
+   stochastic local refinement [12]. GigaEvo's n=26 run returned essentially
+   the established geometry at only rounded precision [13], reinforcing that
+   another decimal polish of the incumbent graph is not the useful frontier.
+
 ## Public-safe map for all 19 Arena slugs
 
 | Arena slug | Literature-grounded direction |
@@ -77,9 +86,9 @@ Machine-readable coverage and the reproducible query log live in
 | `tammes-problem` | Combine contact-graph topology, LP/SDP pruning, and multi-start spherical-code basin hopping [1, 6, 7]. |
 | `flat-polynomials` | Exploit reversal/sign symmetries, FFT-based exact-grid screening, and targeted bit flips at active unit-circle maxima; published asymptotics show why merely smooth profiles are insufficient [1]. |
 | `edges-vs-triangles` | Generate complete multipartite rows analytically from the exact Razborov curve and allocate rows to minimize the verifier's largest edge-density gap [1]. |
-| `circle-packing` | Maintain the active tangency/boundary graph, solve fixed-topology systems, and perturb topology when the KKT residual stalls; the literature characterizes this as continuing numerical refinement [1]. |
-| `heilbronn-triangles` | Use barycentric symmetry breaking, active signed-area constraints, lattice seeds, and fixed-sign MIQCP/branch-and-bound certificates [1, 4, 5]. |
-| `circles-rectangle` | Jointly optimize rectangle aspect ratio and the active tangency graph, reusing fixed-topology continuation from square circle packing [1]. |
+| `circle-packing` | Keep centers as the global-search variables, solve radii exactly for each center set, and generate changed contact graphs with pain-ranked void relocation, split-neighbour moves, and stochastic center perturbations [1, 11, 12, 13]. |
+| `heilbronn-triangles` | Use barycentric symmetry breaking, active signed-area constraints, lattice seeds, and fixed-sign MIQCP/MINLP branch-and-bound certificates; the newer exact-coordinate workflow is certified only through \(n\leq 9\), so it supplies machinery rather than an \(n=11\) construction [1, 4, 5, 12, 13, 14]. |
+| `circles-rectangle` | Jointly optimize rectangle aspect ratio and the active tangency graph, reusing fixed-center radius optimization and topology-changing void moves from square circle packing [1, 11, 12]. |
 | `difference-bases` | Seed Singer difference sets, then perform deficit-aware swaps while maintaining a fast difference-multiplicity table [1, 2]. |
 | `kissing-number-d12` | Archived target: retain the documented 60+60+720 block/bridge decomposition and 48-system flexibility as the reproducible explanation for the 841 construction [8]. |
 | `kissing-number-d11-605` | Build on collaborative 11-dimensional subcodes, optimize with structural perturbations, and require exact integer verification at the end [1, 10]. |
@@ -138,3 +147,15 @@ REFERENCES
 
 [10] Federico Bianchi, Yongchan Kwon, Aneesh Pappu, and James Zou. “Harnessing the Collective Intelligence of AI Agents in the Wild for New Discoveries.” *arXiv* (2026).
     https://paperclip.gxl.ai/citations/papers/arx_2606.10402#L1
+
+[11] Kun He, Mohammed Dosh, and Shenghao Zou. “Packing Unequal Circles into a Square Container by Partitioning Narrow Action Spaces and Circle Items.” *arXiv* (2017).
+    https://paperclip.gxl.ai/citations/papers/arx_1701.00541#L22-L26,L43-L45,L61-L68,L72-L96
+
+[12] Gergely Bérczi, Baran Hashemi, and Jonas Klüver. “Flow-based Extremal Mathematical Structure Discovery.” *arXiv* (2026).
+    https://paperclip.gxl.ai/citations/papers/arx_2601.18005#L1
+
+[13] Valentin Khrulkov, Andrey Galichin, Denis Bashkirov, Dmitry Vinichenko, Oleg Travkin, Roman Alferov, Andrey Kuznetsov, and Ivan Oseledets. “GigaEvo: An Open Source Optimization Framework Powered By LLMs And Evolution Algorithms.” *arXiv* (2025).
+    https://paperclip.gxl.ai/citations/papers/arx_2511.17592#L15-L20,L33-L46
+
+[14] Nathan Sudermann-Merx. “From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization.” *arXiv* (2026).
+    https://paperclip.gxl.ai/citations/papers/arx_2603.11107#L1

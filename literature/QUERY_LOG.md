@@ -46,6 +46,34 @@ paperclip head -n 2 /papers/arx_2606.18984/content.lines
 paperclip head -n 2 /papers/arx_2606.10402/content.lines
 ```
 
+## Changed-topology circle and Heilbronn follow-up
+
+```bash
+paperclip search -s arxiv "variable radius circle packing contact graph global rearrangement" -n 20
+paperclip search -s arxiv "Heilbronn triangle mixed integer exact coordinates" -n 20
+paperclip head -n 96 /papers/arx_1701.00541/content.lines
+paperclip cat /papers/arx_2601.18005/meta.json
+paperclip cat /papers/arx_2601.18005/content.lines
+paperclip head -n 50 /papers/arx_2511.17592/content.lines
+paperclip cat /papers/arx_2603.11107/content.lines
+```
+
+Observed 2026-08-15:
+
+- PAS-PCI provides explicit changed-basin operators: normalized pain ranking,
+  largest/best-matching void relocation, paired placement into a split narrow
+  void, one-step tabu memory, cross-size swaps, and LBFGS repolishing;
+- FlowBoost's Paperclip ingest currently contains its abstract only. That
+  abstract identifies stochastic local search, geometry-aware generation, and
+  direct reward guidance; the canonical arXiv HTML and official code were read
+  separately to inspect its fixed-centers radius LP and center perturbations;
+- GigaEvo reproduces the established n=26 circle geometry at rounded precision
+  and the same n=11 Heilbronn basin slightly below the leading score, useful as
+  a negative result against repeating generic evolutionary polishing; and
+- the 2026 Heilbronn MINLP/exact-coordinate paper certifies configurations only
+  through n=9. Its boundary symmetry breaking and numerical-to-symbolic
+  workflow transfer to the Arena n=11 task, but it is not an n=11 solution.
+
 ## DOI fetch limitation
 
 ```bash
