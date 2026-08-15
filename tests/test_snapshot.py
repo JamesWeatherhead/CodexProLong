@@ -58,6 +58,18 @@ class SnapshotTests(unittest.TestCase):
         self.assertEqual(blocked["integrity"], "domain-valid-blocked")
         self.assertEqual(blocked["verified_blocked"]["score"], 0.0)
 
+    def test_frontier_receipt_keeps_binary_artifact_suffix(self) -> None:
+        source = Path("/tmp/campaign")
+        c3 = MODULE.frontier_artifact_destination("third-autocorrelation-inequality", source)
+        graphon = MODULE.frontier_artifact_destination("edges-vs-triangles", source)
+        self.assertEqual(c3.suffix, ".npy")
+        self.assertEqual(graphon.suffix, ".json")
+
+    def test_portable_campaign_path_strips_host_prefix(self) -> None:
+        source = Path("/Users/example/EinsteinArena/campaign")
+        value = "/Users/example/EinsteinArena/campaign/c3_root/run/best.npy"
+        self.assertEqual(MODULE.portable_campaign_path(value, source), "campaign/c3_root/run/best.npy")
+
 
 if __name__ == "__main__":
     unittest.main()

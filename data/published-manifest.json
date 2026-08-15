@@ -48,7 +48,7 @@
     {
       "bytes": 819328,
       "path": "artifacts/frontier/third-autocorrelation-inequality.npy",
-      "sha256": "4c457f33cffa6821be30817e34477023aae9ac6b71363742154e59d307234a40"
+      "sha256": "c3af7761fd3cf1a9a812b1ed04219eb17ceb5821946990efbd6f09d4d31679bd"
     },
     {
       "bytes": 26074,
@@ -79,6 +79,11 @@
       "bytes": 717,
       "path": "artifacts/receipts/kissing-number-d12-842.json",
       "sha256": "5138779742da70497d0855303861fda445bb5e6b2bbbe2bb2b186f82220b302a"
+    },
+    {
+      "bytes": 2697,
+      "path": "artifacts/receipts/third-autocorrelation-inequality.json",
+      "sha256": "af1427d14ffabe8f38de234f34ca1d98a944112c365891179a9a680cc10a4aae"
     },
     {
       "bytes": 716,
@@ -331,6 +336,11 @@
       "sha256": "ecc0cac81efeab4066611923857244b561b7572842d62097fb1733bc77d89300"
     },
     {
+      "bytes": 9194,
+      "path": "src/campaign/c3_root/TOPOLOGY_ESCAPE_HANDOFF.md",
+      "sha256": "88b3fc3ad7613bd5fce91eb9883b09ed19dcac24c1d819e0fa85de61b3c19638"
+    },
+    {
       "bytes": 16166,
       "path": "src/campaign/c3_root/active_bundle_epigraph.py",
       "sha256": "f898ed5dc9aae9096207a3e77898f4817a6b1d7214908f3bcbcfb8f085c10a82"
@@ -366,9 +376,19 @@
       "sha256": "2f04a15517a7e901942eae3d979c83ff876438dc711ba635e72f8591bcd3eae6"
     },
     {
+      "bytes": 24869,
+      "path": "src/campaign/c3_root/rank_lift_escape.py",
+      "sha256": "39f76e6ac2229d3c73901c88215f193861dce2b73c61076db0c8363f5a00c0e9"
+    },
+    {
       "bytes": 1716,
       "path": "src/campaign/c3_root/repeat_checkpoint.py",
       "sha256": "fc0e5408ccf7a39bde5e991e7001ada7bab450150091801188572abdd74fbc15"
+    },
+    {
+      "bytes": 92,
+      "path": "src/campaign/c3_root/requirements-rank-lift.txt",
+      "sha256": "b91fcbb54667a880762b3a025a171e5b6664325fcb1131d4d4fa07feb599613a"
     },
     {
       "bytes": 2005,
@@ -391,9 +411,14 @@
       "sha256": "6dcc273aa658c8d0b307d3ce0079744aae23b4d3a4bc8a64dc9f3df53a363e84"
     },
     {
-      "bytes": 6904,
+      "bytes": 31302,
+      "path": "src/campaign/c3_root/topology_escape.py",
+      "sha256": "e1e380c5ee23935ee50bc097ce29d15e7a02c3bad37f04b1d5a63718201707a5"
+    },
+    {
+      "bytes": 8146,
       "path": "src/campaign/c3_root/turbo_supervisor.py",
-      "sha256": "930543382d36cd85b6eacd26edaf147abf1de5495e10388c97536d3205dd1371"
+      "sha256": "49ff84ec951d8f01c3295bc0fa834529b37e38a65e25785650de665621c21b6f"
     },
     {
       "bytes": 1323,

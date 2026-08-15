@@ -60,7 +60,7 @@ FRONTIER_ARTIFACTS = {
     "min-distance-ratio-2d": "geometry/runs/20260814T231106Z/min-distance-ratio-2d/best.json",
     "prime-number-theorem": "discrete/prime_number_theorem/group_refine_feasible.json",
     "second-autocorrelation-inequality": "analytic/c2_global_topology/runs/20260815T041000Z-terminal-split/best.npy",
-    "third-autocorrelation-inequality": "c3_root/runs-102400/20260815T011534Z/best.npy",
+    "third-autocorrelation-inequality": "c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/best.npy",
     "thomson-problem": "geometry/runs/20260814T234800Z/thomson-problem/best.json",
 }
 FROZEN_VERIFIER_SNAPSHOTS = {
@@ -68,6 +68,7 @@ FROZEN_VERIFIER_SNAPSHOTS = {
 }
 FRONTIER_RECEIPTS = {
     "edges-vs-triangles": "state/receipts/edges-vs-triangles/20260815T024004430186Z-c71bc6912f5a.json",
+    "third-autocorrelation-inequality": "c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/receipt.json",
 }
 METHODS = {
     "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short after 156 one-contact releases, 58 PAS-PCI relocations, and 80 clean-room FlowBoost-inspired seeds; a genuinely new multi-contact topology is required.",
@@ -86,7 +87,7 @@ METHODS = {
     "prime-number-theorem": "Exact cutting planes and 600 stratified support exchanges; best live-replayed local gain is 4.15e-7, below the 1e-6 gate.",
     "second-autocorrelation-inequality": "Exact replay reaches 0.9635881172701123 after changed-support packet births; 362 whole-region phase schedules and 378 finite-mass terminal split constructions found no global escape, leaving a 9.9933e-6 gate gap.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
-    "third-autocorrelation-inequality": "n=102,400 exact continuation gains 6.334e-6; a pivoted 68-mode all-lag epigraph closed after 4,666 cuts but gained only 8.9e-10, so the remaining 3.665e-6 needs a support/topology escape.",
+    "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation reach 1.4515653850221024; the frozen payload improves the pre-topology basin by 2.15e-8 but remains 3.52e-6 short of the gate.",
     "thomson-problem": "48 topology-changing seeds and exact tangent polishing return to the defect-minimal basin; no gate-clearer yet.",
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
 }
@@ -99,6 +100,7 @@ ROOT_SOURCE_FILES = (
     "arena_campaign.py",
     "verifier_runner.py",
     "tests/test_campaign.py",
+    "c3_root/requirements-rank-lift.txt",
 )
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = ("analytic", "c1_root", "c2_root", "c3_root", "discrete", "erdos_root", "geometry", "research_corpus")
@@ -114,8 +116,6 @@ EXCLUDED_PARTS = {
     "flat_global",
 }
 UNPUBLISHED_WORK_IN_PROGRESS = {
-    Path("c3_root/rank_lift_escape.py"),
-    Path("c3_root/topology_escape.py"),
     Path("discrete/prime_number_theorem/reach_extend.py"),
     Path("discrete/prime_number_theorem/tail_select_mip.py"),
 }
@@ -256,6 +256,23 @@ def sanitize_receipt(receipt: dict[str, Any], artifact_name: str) -> dict[str, A
     return clean
 
 
+def portable_campaign_path(value: str, source: Path) -> str:
+    """Remove host-specific prefixes while retaining campaign provenance."""
+    path = Path(value)
+    if not path.is_absolute():
+        return value
+    try:
+        return str(path.relative_to(source.parent))
+    except ValueError:
+        return path.name
+
+
+def frontier_artifact_destination(slug: str, source: Path) -> Path:
+    """Return the public artifact path without losing its source suffix."""
+    artifact_source = source / FRONTIER_ARTIFACTS[slug]
+    return REPO / "artifacts" / "frontier" / f"{slug}{artifact_source.suffix}"
+
+
 def mirror_source(source: Path) -> list[dict[str, Any]]:
     copied: list[dict[str, Any]] = []
     destination_root = REPO / "src" / "campaign"
@@ -324,14 +341,22 @@ def main() -> int:
 
     for slug, relative_text in FRONTIER_ARTIFACTS.items():
         src = source / relative_text
-        dst = REPO / "artifacts" / "frontier" / f"{slug}{src.suffix}"
+        dst = frontier_artifact_destination(slug, source)
         copy_file(src, dst)
         manifest.append({"path": str(dst.relative_to(REPO)), "sha256": sha256(dst), "bytes": dst.stat().st_size})
 
     for slug, relative_text in FRONTIER_RECEIPTS.items():
         receipt = json.loads((source / relative_text).read_text(encoding="utf-8"))
-        artifact = REPO / "artifacts" / "frontier" / f"{slug}.json"
+        artifact = frontier_artifact_destination(slug, source)
         receipt["candidate_path"] = str(artifact.relative_to(REPO))
+        if "payload" in receipt:
+            receipt["payload"] = receipt["candidate_path"]
+        for key in ("baseline_payload", "verifier_path"):
+            if key in receipt:
+                receipt[key] = portable_campaign_path(receipt[key], source)
+        for key in ("lineage", "reproduction_command"):
+            if key in receipt:
+                receipt[key] = [portable_campaign_path(item, source) for item in receipt[key]]
         dst = REPO / "artifacts" / "receipts" / f"{slug}.json"
         write_json(dst, receipt)
         manifest.append({"path": str(dst.relative_to(REPO)), "sha256": sha256(dst), "bytes": dst.stat().st_size})

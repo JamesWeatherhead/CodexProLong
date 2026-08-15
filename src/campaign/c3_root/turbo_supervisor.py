@@ -20,6 +20,7 @@ CAMPAIGN = ROOT.parent
 POLISHER = CAMPAIGN / "c1_root" / "smooth_polish.py"
 TARGET = 1.4515618638902069
 LEADER = 1.4515718638902069
+VERIFIER_SHA256 = "b8288d5943d72032f1d2bcf5d8a3b3a00cfd428ae0347a26bfc53974ec7ebce9"
 
 
 def exact_score(path: Path) -> float:
@@ -56,10 +57,36 @@ def main() -> int:
     parser.add_argument("--maxcor", type=int, default=200)
     parser.add_argument("--state-dir", type=Path, default=ROOT / "turbo")
     parser.add_argument("--resume", action="store_true")
+    parser.add_argument(
+        "--path-check-only",
+        action="store_true",
+        help="assert and print child path resolution without creating files",
+    )
     args = parser.parse_args()
     if args.cycles < 1:
         raise RuntimeError("cycles must be positive")
 
+    # The child runs with ``cwd=CAMPAIGN``.  Resolve the supervisor-owned
+    # directory first so a caller-provided relative path cannot silently gain
+    # a second ``campaign/`` prefix and evade the exact acceptance scan.
+    args.state_dir = args.state_dir.resolve()
+    if args.path_check_only:
+        run_root = args.state_dir / "runs"
+        child_view = (CAMPAIGN / run_root).resolve()
+        assert run_root.is_absolute()
+        assert child_view == run_root
+        print(
+            json.dumps(
+                {
+                    "child_cwd": str(CAMPAIGN),
+                    "child_run_root": str(child_view),
+                    "path_check_passed": True,
+                    "state_dir": str(args.state_dir),
+                },
+                sort_keys=True,
+            )
+        )
+        return 0
     state_path = args.state_dir / "state.json"
     events_path = args.state_dir / "events.jsonl"
     run_root = args.state_dir / "runs"
@@ -81,8 +108,10 @@ def main() -> int:
         "schema_version": 1,
         "best_path": str(current),
         "best_score": best_score,
+        "best_sha256": hashlib.sha256(current.read_bytes()).hexdigest(),
         "leader_score": LEADER,
         "target_score": TARGET,
+        "verifier_sha256": VERIFIER_SHA256,
         "gate_gap": best_score - TARGET,
         "cycles_completed": starting_cycle,
         "updated_at": datetime.now(UTC).isoformat(),
@@ -166,6 +195,7 @@ def main() -> int:
             "best_sha256": hashlib.sha256(current.read_bytes()).hexdigest(),
             "leader_score": LEADER,
             "target_score": TARGET,
+            "verifier_sha256": VERIFIER_SHA256,
             "gate_gap": best_score - TARGET,
             "cycles_completed": cycle,
             "updated_at": finished.isoformat(),
