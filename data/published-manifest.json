@@ -56,6 +56,11 @@
       "sha256": "b2f2b101f9741bb5f7e79f5b347dfd601155b3cad86292bb2bce6e899cdfa994"
     },
     {
+      "bytes": 6876,
+      "path": "artifacts/evidence/circle-packing-codim3-global.json",
+      "sha256": "ecc7d290d3496a30c749d2294d662736b71a681c2366ba5e938c8cf2688d98e4"
+    },
+    {
       "bytes": 14995,
       "path": "artifacts/evidence/circle-packing-multicontact-precision.json",
       "sha256": "044fca92a7f702d3337d0a62dff5e7b9fa0f3aec6071e28db289e588182a81a7"
@@ -104,6 +109,16 @@
       "bytes": 11494,
       "path": "artifacts/evidence/difference-global-sparse-patch-checkpoint.json",
       "sha256": "4cfe9b6f8c3504842f7c6ece3607c1086bd5ef2785919628197129e08f73f4d1"
+    },
+    {
+      "bytes": 5222,
+      "path": "artifacts/evidence/difference-interval-constructions.json",
+      "sha256": "527b0bfe5a4da29a13711c6a2006fc098d8a3065c6657800043fd91eccbd8aff"
+    },
+    {
+      "bytes": 3044,
+      "path": "artifacts/evidence/difference-interval-replay.json",
+      "sha256": "6c3de33ce718392ea19419325b9bfa32f0d8bd21d11a48a0e99f5cbeaa5f62d7"
     },
     {
       "bytes": 7867,
@@ -1051,6 +1066,101 @@
       "sha256": "6ccfdad148fe40936a1307b3f822795faa3bc6d953f36904f79a2443ef9b1574"
     },
     {
+      "bytes": 2890,
+      "path": "src/campaign/discrete/difference_interval_constructions/HANDOFF.md",
+      "sha256": "ae39d15c7a08945ae9ce4dc835aa38a22c091ca0457c4ab59b7edffac3f63fea"
+    },
+    {
+      "bytes": 861,
+      "path": "src/campaign/discrete/difference_interval_constructions/PROVENANCE.md",
+      "sha256": "b7481b2e05dd667106de0326ec9fc81a6eb2a647e40a89ed3904779d887ecedd"
+    },
+    {
+      "bytes": 6046,
+      "path": "src/campaign/discrete/difference_interval_constructions/PUBLICATION_EXPORT.json",
+      "sha256": "b0c4e980430877bd65680d7621ecd32afa292bc4a0b1f98c737a09acd418d054"
+    },
+    {
+      "bytes": 9620,
+      "path": "src/campaign/discrete/difference_interval_constructions/PUBLICATION_MANIFEST.json",
+      "sha256": "dff28a380c67abdf2ca1feba6852b8f6199b8b9556aa766bb20ec6d02ee70675"
+    },
+    {
+      "bytes": 1985,
+      "path": "src/campaign/discrete/difference_interval_constructions/README.md",
+      "sha256": "e09d73f1636c65eefde889ec87fd5da4cbaea4c64a87b19a33a5ab1619d100eb"
+    },
+    {
+      "bytes": 21573,
+      "path": "src/campaign/discrete/difference_interval_constructions/checkpoint.json",
+      "sha256": "e89f3cc3d77483b7cdbf8e6fe6a56b54edecb5ff8bcfe76581dff556d3632843"
+    },
+    {
+      "bytes": 34739,
+      "path": "src/campaign/discrete/difference_interval_constructions/checkpoint_large.json",
+      "sha256": "fb31843e5612b77a22abb77963249cd0dab6ec5102d275b26feb98f4d8abbd6b"
+    },
+    {
+      "bytes": 11842,
+      "path": "src/campaign/discrete/difference_interval_constructions/checkpoint_small.json",
+      "sha256": "4a1e6aaf565a4bd08700aca4a2dc5c4121943a2145324f2eb86abafba0dd1b64"
+    },
+    {
+      "bytes": 4186,
+      "path": "src/campaign/discrete/difference_interval_constructions/freeze_publication.py",
+      "sha256": "719d4f78d14b559b30b2e65bc56229aa335a31be6917e7c9305ffa1e75f826b4"
+    },
+    {
+      "bytes": 10455,
+      "path": "src/campaign/discrete/difference_interval_constructions/freeze_receipt.py",
+      "sha256": "137d1494ac2780742586c98d6edaa61cadc0e45c64372f15f643b255710f0c01"
+    },
+    {
+      "bytes": 18381,
+      "path": "src/campaign/discrete/difference_interval_constructions/prime_power_checkpoint.json",
+      "sha256": "7716cd57f28f0f07ff4d95fdb97d686bd77d863c54c800da7f2c273aad3fa21b"
+    },
+    {
+      "bytes": 12235,
+      "path": "src/campaign/discrete/difference_interval_constructions/prime_power_sweep.py",
+      "sha256": "1f7518433d911d6987eef9d5ed3f7794f4ded6a18044aa0cf4946512b599cfda"
+    },
+    {
+      "bytes": 5222,
+      "path": "src/campaign/discrete/difference_interval_constructions/receipt.json",
+      "sha256": "527b0bfe5a4da29a13711c6a2006fc098d8a3065c6657800043fd91eccbd8aff"
+    },
+    {
+      "bytes": 3114,
+      "path": "src/campaign/discrete/difference_interval_constructions/replay.py",
+      "sha256": "eee58bf8afdf1d938e9a13d01866ffc86ce6996dd0bd3d4d9fa9aa6981acbcf1"
+    },
+    {
+      "bytes": 3044,
+      "path": "src/campaign/discrete/difference_interval_constructions/replay_receipt.json",
+      "sha256": "6c3de33ce718392ea19419325b9bfa32f0d8bd21d11a48a0e99f5cbeaa5f62d7"
+    },
+    {
+      "bytes": 12517,
+      "path": "src/campaign/discrete/difference_interval_constructions/search.py",
+      "sha256": "459fdf161ae324eda486d83378184b492480f4f2b6a71c604e5473feecd4ebb9"
+    },
+    {
+      "bytes": 239167,
+      "path": "src/campaign/discrete/difference_interval_constructions/tail_checkpoint.json",
+      "sha256": "6138f1f0c99d66d5355971eb934b4a733c47aef56c24c3fba965c278ce0a51c3"
+    },
+    {
+      "bytes": 531445,
+      "path": "src/campaign/discrete/difference_interval_constructions/tail_full_checkpoint.json",
+      "sha256": "4b359168fbe1e03edcb1c62f528c7b02aa4aeb109481bb791177e6dc311d0614"
+    },
+    {
+      "bytes": 6225,
+      "path": "src/campaign/discrete/difference_interval_constructions/tail_sweep.py",
+      "sha256": "04c18ea3a3042bdd19df0e72732b1b923dae7cbd3ae63cbb4dc5d07c546755bd"
+    },
+    {
       "bytes": 8373,
       "path": "src/campaign/discrete/difference_search.py",
       "sha256": "4b312d78162de358a8bcd28040852d968bd14b8d9778841ac66553557809f7d3"
@@ -1439,6 +1549,96 @@
       "bytes": 2695,
       "path": "src/campaign/geometry/README.md",
       "sha256": "a2444991f90be804a0c78b385f4f08795fa367590cf0f3c75ec313f9d92e3fb3"
+    },
+    {
+      "bytes": 3553,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/HANDOFF.md",
+      "sha256": "2c39ab5d9a4b4a91d5387c4f6be2577abd9f8693bbcf1593a86db250aad8a197"
+    },
+    {
+      "bytes": 1235,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/LICENSES.md",
+      "sha256": "dd200040495805d0d65482ed7d3c11ea03535a1d08f047459f25ab7e93b59baa"
+    },
+    {
+      "bytes": 1868,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/PROVENANCE.md",
+      "sha256": "396f21dd0b3a73a0e4f4523f8a5b574e6371c1505f696963dd1be59bcaf9a0e4"
+    },
+    {
+      "bytes": 5857,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/PUBLICATION_EXPORT.json",
+      "sha256": "8af543e60ede5334f53821cefbffc122508a0f7aca0b7c47ecb31e4ff70f71f2"
+    },
+    {
+      "bytes": 25993,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/PUBLICATION_MANIFEST.json",
+      "sha256": "3f7935b0f131177ed1c282a7039275bcd79dd1f92022123072728b058611f0d0"
+    },
+    {
+      "bytes": 3646,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/README.md",
+      "sha256": "ff551b94eb8793bb354820a4a9ef8096a3c74fa3cb933ca70dffe000da20fd81"
+    },
+    {
+      "bytes": 2395,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/artifacts/20260815T074600Z_CANONICAL_STRAT2000_V2_best_changed.json",
+      "sha256": "5c02deb6df74a0a61659542aebec72b549538d38be3f92bf3b0a50c6a688409b"
+    },
+    {
+      "bytes": 2395,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/artifacts/20260815T074700Z_NEUTRAL_STRAT1000_V2_best_changed.json",
+      "sha256": "5922fe11b94ea32e63eb37b08b040e2a6e8507044256922f344837133f9481f1"
+    },
+    {
+      "bytes": 6509,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/build_publication_manifest.py",
+      "sha256": "ef651b6d5af65da0cc545ece206aeb7a584457d3ea2af93b2eaffea04f297dcf"
+    },
+    {
+      "bytes": 23322,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/codim3_pivots.py",
+      "sha256": "a56cf2c458758f4f5ee59c48d9f80c319738402ebabdb190fc6a340d1dea8eae"
+    },
+    {
+      "bytes": 2134,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/public_verifier_formula.py",
+      "sha256": "473013bd30351888b1533b7a98c436610cc34e970de6e945e0dbb1484eb4c164"
+    },
+    {
+      "bytes": 6876,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/receipt_v2.json",
+      "sha256": "ecc7d290d3496a30c749d2294d662736b71a681c2366ba5e938c8cf2688d98e4"
+    },
+    {
+      "bytes": 1074,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/reference/CODEXPROLONG_LICENSE.txt",
+      "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "bytes": 1070,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/reference/EINSTEIN_ARENA_LICENSE.txt",
+      "sha256": "e50ed393879923ce49fe8101751836d541f8d09daf9a877aa484783789d4480c"
+    },
+    {
+      "bytes": 1049,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/reference/frozen_verifier.py.b64",
+      "sha256": "5d1dc3ceeff115f38b003b3d0fe2277278c44bc323d58eba657a607712bc530d"
+    },
+    {
+      "bytes": 4376,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/replay_public.py",
+      "sha256": "4da74d07d7f5c695e1d44c181258e50cd0bc93fc59c7ccf23ef038aeb3e835c2"
+    },
+    {
+      "bytes": 1230,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/test_public_replay.py",
+      "sha256": "731a3c2ae97a322651e139499f67f426608131e407637ba27f95e0458cc5c89e"
+    },
+    {
+      "bytes": 5771,
+      "path": "src/campaign/geometry/circle_packing_multicontact_global/verify_publication.py",
+      "sha256": "a3b636eb7d5d4b0cf4a9bbc67b475b98f7c028622ad973d4e0516ae2a29e1d86"
     },
     {
       "bytes": 3383,

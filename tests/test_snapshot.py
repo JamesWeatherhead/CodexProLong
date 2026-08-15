@@ -103,6 +103,20 @@ class SnapshotTests(unittest.TestCase):
             },
         )
 
+    def test_portable_json_preserves_paperclip_virtual_paths(self) -> None:
+        source = Path("/Users/example/EinsteinArena/campaign")
+        value = {
+            "paperclip": "/papers/arx_1701.00541/content.lines",
+            "temporary": "/tmp/private-search/result.json",
+        }
+        self.assertEqual(
+            MODULE.portable_json(value, source),
+            {
+                "paperclip": "/papers/arx_1701.00541/content.lines",
+                "temporary": "result.json",
+            },
+        )
+
 
 if __name__ == "__main__":
     unittest.main()

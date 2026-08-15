@@ -97,8 +97,11 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "flat-psl4-global-hybrid-benchmarks": "flat_psl4_global_exact/benchmarks.json",
     "flat-psl4-global-scaling-profile": "flat_psl4_global_exact/scaling_profile.json",
     "difference-exact-synthesis": "discrete/difference_exact_synthesis/receipt.json",
+    "difference-interval-constructions": "discrete/difference_interval_constructions/receipt.json",
+    "difference-interval-replay": "discrete/difference_interval_constructions/replay_receipt.json",
     "circle-packing-multicontact-precision": "geometry/circle_packing_multicontact_precision/receipt.json",
     "circle-packing-multicontact-replay": "geometry/circle_packing_multicontact_precision/replay_receipt.json",
+    "circle-packing-codim3-global": "geometry/circle_packing_multicontact_global/receipt_v2.json",
     "circles-rectangle-multicontact-precision": "geometry/rectangle_multicontact_precision/receipt.json",
     "circles-rectangle-multicontact-replay": "geometry/rectangle_multicontact_precision/replay_receipt.json",
     "geometry-literature-asset-replays": "literature_asset_hunt/receipt.json",
@@ -148,9 +151,9 @@ FRONTIER_RECEIPTS = {
     "third-autocorrelation-inequality": "c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/receipt.json",
 }
 METHODS = {
-    "circle-packing": "Exact replay reaches 2.635983095281623, still 7.92e-11 short. Beyond one-contact continuation, relocation, and 550 contact-graph recombinations, the latest clean-room codimension-two campaign solved 9,270 graph systems, accepted 8,699 labeled endpoints, and deduplicated 5,147 unlabeled WL classes. No changed topology escaped the canonical tolerance ceiling.",
+    "circle-packing": "Exact replay reaches 2.635983095281623, still 7.92e-11 short. Beyond one-contact continuation, relocation, and 550 contact-graph recombinations, the codimension-two campaign solved 9,270 systems and deduplicated 5,147 unlabeled WL classes. A disjoint codimension-three campaign then tested 3,500 release triples and 2,848 genuine changed graphs; its best changed topology remained 0.00625 below the gate. No tested topology escaped the canonical tolerance ceiling.",
     "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. The latest simultaneous-contact campaign exhausts all 2,016 two-contact and 41,664 three-contact releases from both rigid public graph classes: 11,933 nonlinear systems, 11,884 accepted endpoints, and 8,828 unlabeled WL classes. The canonical tolerance ceiling remains best, so a higher-codimension or genuinely different topology is required.",
-    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, block repairs, and a separate quadratic relative-difference-set family are closed. The newest carry-exact CSP lets every residue column independently choose any nonempty subset of shells 0..7; 19 independently rebuilt formulas prove infeasibility for every size 320..720 within that fixed 90-point cyclic-core family. This is a family closure, not a global difference-basis proof.",
+    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, block repairs, and a separate quadratic relative-difference-set family are closed. A carry-exact CSP proves infeasibility for every size 320..720 within the fixed 90-point cyclic-core/shell-0..7 family. Independently, an exhaustive Banakh–Gavrylkiv four-block interval-basis sweep covers every unit multiplier and cyclic cut for 114 prime powers q<=499 plus complete tail sweeps at selected q; it regenerates but cannot beat the incumbent. These are family closures, not a global lower bound.",
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Active-bundle sequential linear programming over n=3,584 coordinates crossed the strict 1e-7 gate after 58 exact-accepted stages. Independent literal replay and evaluated solution #2507 agree at 0.3808585748578584.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
@@ -169,7 +172,7 @@ METHODS = {
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
 }
 SOURCE_ENTRYPOINTS = {
-    "circle-packing": "geometry/circle_packing_multicontact_precision/HANDOFF.md",
+    "circle-packing": "geometry/circle_packing_multicontact_global/HANDOFF.md",
     "circles-rectangle": "geometry/rectangle_multicontact_precision/HANDOFF.md",
     "difference-bases": "discrete/difference_exact_synthesis/HANDOFF.md",
     "edges-vs-triangles": "discrete/edges_vs_triangles/HANDOFF.md",
@@ -341,6 +344,8 @@ UNPUBLISHED_SOURCE_PREFIXES = {
 PUBLICATION_MANIFESTS = (
     Path("geometry/circle_packing_multicontact_precision/PUBLICATION_MANIFEST.json"),
     Path("geometry/rectangle_multicontact_precision/PUBLICATION_MANIFEST.json"),
+    Path("geometry/circle_packing_multicontact_global/PUBLICATION_MANIFEST.json"),
+    Path("discrete/difference_interval_constructions/PUBLICATION_MANIFEST.json"),
 )
 
 PUBLICATION_ALLOWLIST = (
@@ -535,7 +540,21 @@ def portable_json(value: Any, source: Path) -> Any:
     if isinstance(value, list):
         return [portable_json(item, source) for item in value]
     if isinstance(value, str) and Path(value).is_absolute():
-        return portable_campaign_path(value, source)
+        path = Path(value)
+        try:
+            path.relative_to(source.parent)
+            return portable_campaign_path(value, source)
+        except ValueError:
+            pass
+        host_roots = (
+            Path("/Users"),
+            Path("/home"),
+            Path("/tmp"),
+            Path("/private/var"),
+            Path("/var/folders"),
+        )
+        if any(path.is_relative_to(root) for root in host_roots):
+            return path.name
     return value
 
 
@@ -637,13 +656,22 @@ def mirror_source(source: Path) -> list[dict[str, Any]]:
         publication = json.loads(manifest_path.read_text(encoding="utf-8"))
         packet_root = manifest_relative.parent
         export_entries: list[dict[str, Any]] = []
-        for entry in publication["include"]:
-            relative = packet_root / entry["path"]
+        entries = publication.get("include", publication.get("allowlist"))
+        if entries is None:
+            raise ValueError(f"publication manifest has no allowlist: {manifest_relative}")
+        for entry in entries:
+            entry_path = Path(entry["path"])
+            if entry_path.parts and entry_path.parts[0] == "campaign":
+                relative = Path(*entry_path.parts[1:])
+                public_entry_path = str(relative.relative_to(packet_root))
+            else:
+                relative = packet_root / entry_path
+                public_entry_path = entry["path"]
             src = source / relative
             if sha256(src) != entry["sha256"] or src.stat().st_size != entry["bytes"]:
                 raise ValueError(f"publication manifest mismatch: {relative}")
             export_record = copy_portable_publication_entry(relative)
-            export_record["path"] = entry["path"]
+            export_record["path"] = public_entry_path
             export_entries.append(export_record)
         copy_relative(manifest_relative)
         export_relative = packet_root / "PUBLICATION_EXPORT.json"

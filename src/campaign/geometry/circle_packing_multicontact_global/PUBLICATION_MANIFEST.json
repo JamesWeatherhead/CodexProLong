@@ -1,0 +1,513 @@
+{
+  "allowlist": [
+    {
+      "bytes": 3553,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/HANDOFF.md",
+      "sha256": "2c39ab5d9a4b4a91d5387c4f6be2577abd9f8693bbcf1593a86db250aad8a197"
+    },
+    {
+      "bytes": 1235,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/LICENSES.md",
+      "sha256": "dd200040495805d0d65482ed7d3c11ea03535a1d08f047459f25ab7e93b59baa"
+    },
+    {
+      "bytes": 1868,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/PROVENANCE.md",
+      "sha256": "396f21dd0b3a73a0e4f4523f8a5b574e6371c1505f696963dd1be59bcaf9a0e4"
+    },
+    {
+      "bytes": 3646,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/README.md",
+      "sha256": "ff551b94eb8793bb354820a4a9ef8096a3c74fa3cb933ca70dffe000da20fd81"
+    },
+    {
+      "bytes": 2395,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/artifacts/20260815T074600Z_CANONICAL_STRAT2000_V2_best_changed.json",
+      "sha256": "5c02deb6df74a0a61659542aebec72b549538d38be3f92bf3b0a50c6a688409b"
+    },
+    {
+      "bytes": 2395,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/artifacts/20260815T074700Z_NEUTRAL_STRAT1000_V2_best_changed.json",
+      "sha256": "5922fe11b94ea32e63eb37b08b040e2a6e8507044256922f344837133f9481f1"
+    },
+    {
+      "bytes": 6509,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/build_publication_manifest.py",
+      "sha256": "ef651b6d5af65da0cc545ece206aeb7a584457d3ea2af93b2eaffea04f297dcf"
+    },
+    {
+      "bytes": 23322,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/codim3_pivots.py",
+      "sha256": "a56cf2c458758f4f5ee59c48d9f80c319738402ebabdb190fc6a340d1dea8eae"
+    },
+    {
+      "bytes": 2134,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/public_verifier_formula.py",
+      "sha256": "473013bd30351888b1533b7a98c436610cc34e970de6e945e0dbb1484eb4c164"
+    },
+    {
+      "bytes": 6876,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/receipt_v2.json",
+      "sha256": "ecc7d290d3496a30c749d2294d662736b71a681c2366ba5e938c8cf2688d98e4"
+    },
+    {
+      "bytes": 1074,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/reference/CODEXPROLONG_LICENSE.txt",
+      "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "bytes": 1070,
+      "license_id": "einstein-arena-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/reference/EINSTEIN_ARENA_LICENSE.txt",
+      "sha256": "e50ed393879923ce49fe8101751836d541f8d09daf9a877aa484783789d4480c"
+    },
+    {
+      "bytes": 1049,
+      "license_id": "einstein-arena-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/reference/frozen_verifier.py.b64",
+      "sha256": "5d1dc3ceeff115f38b003b3d0fe2277278c44bc323d58eba657a607712bc530d"
+    },
+    {
+      "bytes": 4376,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/replay_public.py",
+      "sha256": "4da74d07d7f5c695e1d44c181258e50cd0bc93fc59c7ccf23ef038aeb3e835c2"
+    },
+    {
+      "bytes": 1230,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/test_public_replay.py",
+      "sha256": "731a3c2ae97a322651e139499f67f426608131e407637ba27f95e0458cc5c89e"
+    },
+    {
+      "bytes": 5771,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/verify_publication.py",
+      "sha256": "a3b636eb7d5d4b0cf4a9bbc67b475b98f7c028622ad973d4e0516ae2a29e1d86"
+    }
+  ],
+  "excluded_local_files": [
+    {
+      "bytes": 30313,
+      "license_id": "excluded-derived",
+      "path": "campaign/geometry/circle_packing_multicontact_global/__pycache__/codim3_pivots.cpython-312.pyc",
+      "reason": "generated interpreter cache",
+      "sha256": "8a7836a5b59f0f4d74fa2f2c2480c19cfae9288469f0af80781539f8354d5788"
+    },
+    {
+      "bytes": 11300,
+      "license_id": "excluded-derived",
+      "path": "campaign/geometry/circle_packing_multicontact_global/__pycache__/freeze_receipt.cpython-312.pyc",
+      "reason": "generated interpreter cache",
+      "sha256": "93ca2a1c4ffbe44bc0610b9f97b423fb0058bab20161de2a2445f64e7b484951"
+    },
+    {
+      "bytes": 3897,
+      "license_id": "excluded-derived",
+      "path": "campaign/geometry/circle_packing_multicontact_global/__pycache__/public_verifier_formula.cpython-312.pyc",
+      "reason": "generated interpreter cache",
+      "sha256": "c332b8f9b904a46ddc63a5e9fc053b681d3dd2e9f4057420e0eec207d158cbae"
+    },
+    {
+      "bytes": 6559,
+      "license_id": "excluded-derived",
+      "path": "campaign/geometry/circle_packing_multicontact_global/__pycache__/replay_public.cpython-312.pyc",
+      "reason": "generated interpreter cache",
+      "sha256": "a9d54ed01b8bfc23080ccd66503a7eecf2651614647ea3a950dbbb0d5b7ffda8"
+    },
+    {
+      "bytes": 2395,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/artifacts/20260815T073600Z_CANONICAL_STRAT2000_best_changed.json",
+      "reason": "superseded non-V2 compact artifact",
+      "sha256": "5c02deb6df74a0a61659542aebec72b549538d38be3f92bf3b0a50c6a688409b"
+    },
+    {
+      "bytes": 2395,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/artifacts/20260815T073800Z_NEUTRAL_STRAT1000_best_changed.json",
+      "reason": "superseded non-V2 compact artifact",
+      "sha256": "5922fe11b94ea32e63eb37b08b040e2a6e8507044256922f344837133f9481f1"
+    },
+    {
+      "bytes": 8811,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/freeze_receipt.py",
+      "reason": "private full-run reproduction helper with non-allowlisted campaign dependencies",
+      "sha256": "9e8139959b2d77d6bc8581fffacbc85142e5b192fb1a8ebbab7d286529ecd06a"
+    },
+    {
+      "bytes": 6855,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/receipt.json",
+      "reason": "superseded pre-citation-correction receipt",
+      "sha256": "67c944f32952967a5d0c85c7e84c649d05d4f094ace3f5398b6a7449e35527c4"
+    },
+    {
+      "bytes": 2391,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073500Z_CANONICAL_PAIN500/best.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "1687cce42aa2be9f5cf360382bc24a5604aafd88295cfe594b5dd976c0a92e65"
+    },
+    {
+      "bytes": 1400,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073500Z_CANONICAL_PAIN500/checkpoint.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "c319d2ca042a9fbc89a31e069d6fc1b23acb1fb2fdb794f3633012e013e99439"
+    },
+    {
+      "bytes": 7801,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073500Z_CANONICAL_PAIN500/config.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "1366900e504d819c26752224d5c306678d74849df3be4fd825434e89c57a25ab"
+    },
+    {
+      "bytes": 10920,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073500Z_CANONICAL_PAIN500/events.jsonl",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "e465080eabdd0ed03b456acf2f167b4c5ba1b19269c12acbe013dd6001647602"
+    },
+    {
+      "bytes": 9569,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073500Z_CANONICAL_PAIN500/summary.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "6f1af94ad8ebe82967e5a20827d3f667c74736a4d73c7707fbd4e7360868e7d5"
+    },
+    {
+      "bytes": 2391,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073600Z_CANONICAL_STRAT2000/best.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "1687cce42aa2be9f5cf360382bc24a5604aafd88295cfe594b5dd976c0a92e65"
+    },
+    {
+      "bytes": 2395,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073600Z_CANONICAL_STRAT2000/best_changed.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "5c02deb6df74a0a61659542aebec72b549538d38be3f92bf3b0a50c6a688409b"
+    },
+    {
+      "bytes": 2512,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073600Z_CANONICAL_STRAT2000/best_changed_record.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "c560a116130cfc40e6271226ba8de10ba3e8c8f1712a1339925743c804297c23"
+    },
+    {
+      "bytes": 4129,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073600Z_CANONICAL_STRAT2000/checkpoint.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "4205c24c525112fef547dac030f8f7be55377d2ad064c326ff10c9b5dc526c48"
+    },
+    {
+      "bytes": 7810,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073600Z_CANONICAL_STRAT2000/config.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "068ed9b8a5b4fcfc001397c7ed1bad3aa8a078df22119119e95583eb03de3cbb"
+    },
+    {
+      "bytes": 2951762,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073600Z_CANONICAL_STRAT2000/events.jsonl",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "331bebccf140686fc64bcf7c1ef336f11c30c37141ac9ce3cbf254e46e6a0445"
+    },
+    {
+      "bytes": 12307,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073600Z_CANONICAL_STRAT2000/summary.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "b1468833fefab3237edb50cc0cbeeaf479936b7442ccc8fafed89fe05a34d069"
+    },
+    {
+      "bytes": 2387,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073800Z_NEUTRAL_STRAT1000/best.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "72d1b8411d80a72106d73d112022e4af434acfdeed798b3270101d61554dc50b"
+    },
+    {
+      "bytes": 2395,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073800Z_NEUTRAL_STRAT1000/best_changed.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "5922fe11b94ea32e63eb37b08b040e2a6e8507044256922f344837133f9481f1"
+    },
+    {
+      "bytes": 2521,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073800Z_NEUTRAL_STRAT1000/best_changed_record.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "8a8a52645f77eaadde7e7be5cef354de6c763c3ef63cb171d68a754a61e78c50"
+    },
+    {
+      "bytes": 4129,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073800Z_NEUTRAL_STRAT1000/checkpoint.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "673e0f48af036bf41578e1b8bbc792973e301914a920ed5708fd17cfb2e858cf"
+    },
+    {
+      "bytes": 7847,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073800Z_NEUTRAL_STRAT1000/config.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "43cb07e3da290558eb8a64d83b98aae3ee84083008c15e26c5268e3a584bd058"
+    },
+    {
+      "bytes": 1551515,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073800Z_NEUTRAL_STRAT1000/events.jsonl",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "8319501f9a38d88d0f6b8db65d798a1c304a9be3a6033ca8b64d55d58bf407a7"
+    },
+    {
+      "bytes": 12344,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T073800Z_NEUTRAL_STRAT1000/summary.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "d0ff7e46ce3d2b79b140f027e81552c36c2e7949cef07cb5d82a85c7702d1cae"
+    },
+    {
+      "bytes": 2391,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074500Z_CANONICAL_PAIN500_V2/best.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "1687cce42aa2be9f5cf360382bc24a5604aafd88295cfe594b5dd976c0a92e65"
+    },
+    {
+      "bytes": 1403,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074500Z_CANONICAL_PAIN500_V2/checkpoint.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "0d95ba366d86818f6c36c6217ba4e26888df37c8e2874e68c56eb86f8073a083"
+    },
+    {
+      "bytes": 7804,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074500Z_CANONICAL_PAIN500_V2/config.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "e718a5fab10d345725e88202fdfd50a25b76be4f2cb9cf0391ff9dac9b096ed9"
+    },
+    {
+      "bytes": 10929,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074500Z_CANONICAL_PAIN500_V2/events.jsonl",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "7149d95e55c67863ca607d65d79ffe0ad33368149858258746debfcfa89c6f93"
+    },
+    {
+      "bytes": 9575,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074500Z_CANONICAL_PAIN500_V2/summary.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "8a0a5e102a4aefb28893682b212542394bc5a1701151da6205165fc2f6be6c41"
+    },
+    {
+      "bytes": 2391,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074600Z_CANONICAL_STRAT2000_V2/best.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "1687cce42aa2be9f5cf360382bc24a5604aafd88295cfe594b5dd976c0a92e65"
+    },
+    {
+      "bytes": 2395,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074600Z_CANONICAL_STRAT2000_V2/best_changed.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "5c02deb6df74a0a61659542aebec72b549538d38be3f92bf3b0a50c6a688409b"
+    },
+    {
+      "bytes": 2515,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074600Z_CANONICAL_STRAT2000_V2/best_changed_record.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "77e385f4b9f18fdd0ae208a103020f5abf027b3a3a369d62065ecbcc0b68ccf3"
+    },
+    {
+      "bytes": 4135,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074600Z_CANONICAL_STRAT2000_V2/checkpoint.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "3a48b8012257327619d0027af0743a98ed87cb8e40b9cc337a243b63038e37b9"
+    },
+    {
+      "bytes": 7813,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074600Z_CANONICAL_STRAT2000_V2/config.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "c5ecaa6c698282d1be382e8130a4200b003438913a590dd041195aea5de033ac"
+    },
+    {
+      "bytes": 2951780,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074600Z_CANONICAL_STRAT2000_V2/events.jsonl",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "78f4c68b4ecc41a7c70474176dc9a9aa5202d5105980d2266dc5468338455a9f"
+    },
+    {
+      "bytes": 12316,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074600Z_CANONICAL_STRAT2000_V2/summary.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "26b63d2d4f8f08b08cb1ea27a5b4962fb32c2f4fbf0cb6161539e4901846f26b"
+    },
+    {
+      "bytes": 2387,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074700Z_NEUTRAL_STRAT1000_V2/best.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "72d1b8411d80a72106d73d112022e4af434acfdeed798b3270101d61554dc50b"
+    },
+    {
+      "bytes": 2395,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074700Z_NEUTRAL_STRAT1000_V2/best_changed.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "5922fe11b94ea32e63eb37b08b040e2a6e8507044256922f344837133f9481f1"
+    },
+    {
+      "bytes": 2524,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074700Z_NEUTRAL_STRAT1000_V2/best_changed_record.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "491a8458c0d1906c35bab5f303958abbccaf078d207ad03ada47e0111be734a2"
+    },
+    {
+      "bytes": 4135,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074700Z_NEUTRAL_STRAT1000_V2/checkpoint.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "eed1d0a7f84a116f2cde8559540876ddceb87ade20358a83aa509cfb5aa30bba"
+    },
+    {
+      "bytes": 7850,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074700Z_NEUTRAL_STRAT1000_V2/config.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "8946df4f6501266856a7323d6f2b86b26053d522b751cfd919fa3f1920afe2a2"
+    },
+    {
+      "bytes": 1551533,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074700Z_NEUTRAL_STRAT1000_V2/events.jsonl",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "feffa1cc64d7b93c2ccc07b58c92b036769515fbf2e2d49e904a3611f1fadbdf"
+    },
+    {
+      "bytes": 12353,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/20260815T074700Z_NEUTRAL_STRAT1000_V2/summary.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "61214dd56cb8f99d3286385d8761fde35a48ddd3cab4a819165191f037da7e32"
+    },
+    {
+      "bytes": 2391,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/SMOKE_5/best.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "1687cce42aa2be9f5cf360382bc24a5604aafd88295cfe594b5dd976c0a92e65"
+    },
+    {
+      "bytes": 1367,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/SMOKE_5/checkpoint.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "8ac8f3d46fb56f2705bc39e8bff96ec424c2b52e14d1d4b0112908c2a17aae69"
+    },
+    {
+      "bytes": 7771,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/SMOKE_5/config.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "548466daaabfc9319a4928d912f5c50597b6607d38220c6d3a29c10f417ba7f9"
+    },
+    {
+      "bytes": 10827,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/SMOKE_5/events.jsonl",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "6bae0eb44d652a5b52cbf3f3fcf3b50b70494a1199059e7382225fe3afc2b64a"
+    },
+    {
+      "bytes": 9506,
+      "license_id": "codexprolong-generated-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/runs/SMOKE_5/summary.json",
+      "reason": "private raw run stream; compact hash-pinned receipt and payload are published",
+      "sha256": "f795733e5729d50e5fb74bd82e001a9b1e8f081dbb01badffa5ecbda8987ae04"
+    },
+    {
+      "bytes": 1508,
+      "license_id": "codexprolong-mit",
+      "path": "campaign/geometry/circle_packing_multicontact_global/test_codim3_pivots.py",
+      "reason": "private full-run reproduction helper with non-allowlisted campaign dependencies",
+      "sha256": "912a4e8a90fda2134c8e9c32ec413d8c6261edd9aab43463021c6acc8a33d152"
+    }
+  ],
+  "frozen_date": "2026-08-15",
+  "hash_algorithm": "sha256",
+  "licenses": {
+    "codexprolong-generated-mit": {
+      "applies_to": "locally generated receipts and candidate coordinates",
+      "copyright": "Copyright (c) 2026 James Weatherhead",
+      "name": "MIT License",
+      "source": "reference/CODEXPROLONG_LICENSE.txt"
+    },
+    "codexprolong-mit": {
+      "applies_to": "original source, tests, and prose",
+      "copyright": "Copyright (c) 2026 James Weatherhead",
+      "name": "MIT License",
+      "source": "reference/CODEXPROLONG_LICENSE.txt"
+    },
+    "einstein-arena-mit": {
+      "applies_to": "base64-wrapped frozen verifier reference and license notice",
+      "copyright": "Copyright (c) 2026 EinsteinArena",
+      "name": "MIT License",
+      "source": "reference/EINSTEIN_ARENA_LICENSE.txt",
+      "upstream_commit": "98073fca26654d048d70acdfe1e319a23e8e41c6"
+    },
+    "excluded-derived": {
+      "applies_to": "Python bytecode/cache files",
+      "name": "Derived build artifact; not published",
+      "source": "corresponding local source"
+    }
+  },
+  "public_commands": [
+    "python3 campaign/geometry/circle_packing_multicontact_global/test_public_replay.py",
+    "python3 campaign/geometry/circle_packing_multicontact_global/replay_public.py",
+    "python3 campaign/geometry/circle_packing_multicontact_global/verify_publication.py"
+  ],
+  "root": "campaign/geometry/circle_packing_multicontact_global",
+  "schema": "codexprolong-publication-manifest-v1",
+  "scope_note": "The exclusion ledger is exact for files below root at generation time; out-of-tree temporary files and unrelated campaign paths are outside scope.",
+  "security": {
+    "downloaded_verifier_dynamic_import_or_exec": false,
+    "external_writes": [],
+    "public_paths": "repository-relative",
+    "verifier_reference_handling": "base64-decode in memory solely for SHA-256; never write, import, compile, evaluate, or execute"
+  },
+  "self": {
+    "hash_note": "self hash is reported out-of-band after deterministic generation",
+    "license_id": "codexprolong-mit",
+    "path": "campaign/geometry/circle_packing_multicontact_global/PUBLICATION_MANIFEST.json"
+  }
+}

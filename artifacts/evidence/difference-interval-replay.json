@@ -1,0 +1,101 @@
+{
+  "complete_tail_replays": [
+    89,
+    101
+  ],
+  "frozen_verifier_executed": false,
+  "gate_clearing": false,
+  "landmark_k0_replays": [
+    {
+      "best_boundary_index": 30,
+      "best_boundary_residue": 1211,
+      "best_multiplier": 208,
+      "candidate_sha256": "78945719eae9f3f31f519565654f409a899d7a2c533b0f767054ca39c3878350",
+      "cardinality": 216,
+      "coverage": 17667,
+      "gap_to_gate": 0.0018283644022054624,
+      "maximum_empty_arc": 490,
+      "modulus": 2863,
+      "polynomial_a": 1,
+      "polynomial_b": 5,
+      "q": 53,
+      "residue_count": 54,
+      "residue_sha256": "63e930a2c50dfc88e6585dbd12ea77f7820c4a0958fbbd06798bf2ce3ec66a76",
+      "score": 2.640855832908813,
+      "unit_multipliers": 2448
+    },
+    {
+      "best_boundary_index": 36,
+      "best_boundary_residue": 2714,
+      "best_multiplier": 568,
+      "candidate_sha256": "498eaa873e07f473c282b00c8d7df51a706267d9438a99e1cef1c7abed1bc018",
+      "cardinality": 360,
+      "coverage": 49109,
+      "gap_to_gate": 1.000000082740371e-09,
+      "maximum_empty_arc": 1044,
+      "modulus": 8011,
+      "polynomial_a": 1,
+      "polynomial_b": 4,
+      "q": 89,
+      "residue_count": 90,
+      "residue_sha256": "2b652599f4fe211f6db818bae74c2945e785682cb0e42c048009f9512e8e9592",
+      "score": 2.639027469506608,
+      "unit_multipliers": 8010
+    },
+    {
+      "best_boundary_index": 51,
+      "best_boundary_residue": 4111,
+      "best_multiplier": 2587,
+      "candidate_sha256": "dcc95adeb0103e05f83a078b6ef95c9224ef5027fbb22d6885e7d9f6a660daa6",
+      "cardinality": 392,
+      "coverage": 58039,
+      "gap_to_gate": 0.008571559733024259,
+      "maximum_empty_arc": 998,
+      "modulus": 9507,
+      "polynomial_a": 1,
+      "polynomial_b": 3,
+      "q": 97,
+      "residue_count": 98,
+      "residue_sha256": "aab99ae56767c426d2edf7241f21368af7cc5ac33f7c702a83580ec0552a3dc3",
+      "score": 2.647599028239632,
+      "unit_multipliers": 6336
+    }
+  ],
+  "landmark_prime_power_replay": {
+    "base_degree": 6,
+    "base_modulus_low_to_high": [
+      1,
+      1,
+      0,
+      0,
+      0,
+      0
+    ],
+    "base_prime": 2,
+    "best_boundary_index": 20,
+    "best_boundary_residue": 1050,
+    "best_multiplier": 239,
+    "candidate_sha256": "5405de62431d8c47f7eec765542cf7fa43f534f6fc228b0b7e289b2ab1c65453",
+    "cardinality": 260,
+    "coverage": 25533,
+    "gap_to_gate": 0.008526677108870118,
+    "maximum_empty_arc": 568,
+    "modulus": 4161,
+    "q": 64,
+    "residue_count": 65,
+    "residue_sha256": "4e033672df8ad07fd60e184fa42781b521df5562db717a57483711ecb4a8c869",
+    "score": 2.647554145615478,
+    "tower_polynomial_a": 0,
+    "tower_polynomial_b": 2,
+    "tower_projective_generator": [
+      0,
+      1,
+      1
+    ],
+    "unit_multipliers": 2592
+  },
+  "maximum_score_improvement": 0.0,
+  "receipt_sha256": "527b0bfe5a4da29a13711c6a2006fc098d8a3065c6657800043fd91eccbd8aff",
+  "target_strictly_below": 2.6390274685066077,
+  "verifier_sha256": "a7521e8a701ac31131932d2a732769d65426d329f4a933c4819516adacf2e585"
+}

@@ -1,0 +1,136 @@
+{
+  "canonical_manifest": "geometry/circle_packing_multicontact_global/PUBLICATION_MANIFEST.json",
+  "canonical_manifest_sha256": "3f7935b0f131177ed1c282a7039275bcd79dd1f92022123072728b058611f0d0",
+  "files": [
+    {
+      "canonical_bytes": 3553,
+      "canonical_sha256": "2c39ab5d9a4b4a91d5387c4f6be2577abd9f8693bbcf1593a86db250aad8a197",
+      "path": "HANDOFF.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 3553,
+      "public_sha256": "2c39ab5d9a4b4a91d5387c4f6be2577abd9f8693bbcf1593a86db250aad8a197"
+    },
+    {
+      "canonical_bytes": 1235,
+      "canonical_sha256": "dd200040495805d0d65482ed7d3c11ea03535a1d08f047459f25ab7e93b59baa",
+      "path": "LICENSES.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 1235,
+      "public_sha256": "dd200040495805d0d65482ed7d3c11ea03535a1d08f047459f25ab7e93b59baa"
+    },
+    {
+      "canonical_bytes": 1868,
+      "canonical_sha256": "396f21dd0b3a73a0e4f4523f8a5b574e6371c1505f696963dd1be59bcaf9a0e4",
+      "path": "PROVENANCE.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 1868,
+      "public_sha256": "396f21dd0b3a73a0e4f4523f8a5b574e6371c1505f696963dd1be59bcaf9a0e4"
+    },
+    {
+      "canonical_bytes": 3646,
+      "canonical_sha256": "ff551b94eb8793bb354820a4a9ef8096a3c74fa3cb933ca70dffe000da20fd81",
+      "path": "README.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 3646,
+      "public_sha256": "ff551b94eb8793bb354820a4a9ef8096a3c74fa3cb933ca70dffe000da20fd81"
+    },
+    {
+      "canonical_bytes": 2395,
+      "canonical_sha256": "5c02deb6df74a0a61659542aebec72b549538d38be3f92bf3b0a50c6a688409b",
+      "path": "artifacts/20260815T074600Z_CANONICAL_STRAT2000_V2_best_changed.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 2395,
+      "public_sha256": "5c02deb6df74a0a61659542aebec72b549538d38be3f92bf3b0a50c6a688409b"
+    },
+    {
+      "canonical_bytes": 2395,
+      "canonical_sha256": "5922fe11b94ea32e63eb37b08b040e2a6e8507044256922f344837133f9481f1",
+      "path": "artifacts/20260815T074700Z_NEUTRAL_STRAT1000_V2_best_changed.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 2395,
+      "public_sha256": "5922fe11b94ea32e63eb37b08b040e2a6e8507044256922f344837133f9481f1"
+    },
+    {
+      "canonical_bytes": 6509,
+      "canonical_sha256": "ef651b6d5af65da0cc545ece206aeb7a584457d3ea2af93b2eaffea04f297dcf",
+      "path": "build_publication_manifest.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 6509,
+      "public_sha256": "ef651b6d5af65da0cc545ece206aeb7a584457d3ea2af93b2eaffea04f297dcf"
+    },
+    {
+      "canonical_bytes": 23322,
+      "canonical_sha256": "a56cf2c458758f4f5ee59c48d9f80c319738402ebabdb190fc6a340d1dea8eae",
+      "path": "codim3_pivots.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 23322,
+      "public_sha256": "a56cf2c458758f4f5ee59c48d9f80c319738402ebabdb190fc6a340d1dea8eae"
+    },
+    {
+      "canonical_bytes": 2134,
+      "canonical_sha256": "473013bd30351888b1533b7a98c436610cc34e970de6e945e0dbb1484eb4c164",
+      "path": "public_verifier_formula.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 2134,
+      "public_sha256": "473013bd30351888b1533b7a98c436610cc34e970de6e945e0dbb1484eb4c164"
+    },
+    {
+      "canonical_bytes": 6876,
+      "canonical_sha256": "ecc7d290d3496a30c749d2294d662736b71a681c2366ba5e938c8cf2688d98e4",
+      "path": "receipt_v2.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 6876,
+      "public_sha256": "ecc7d290d3496a30c749d2294d662736b71a681c2366ba5e938c8cf2688d98e4"
+    },
+    {
+      "canonical_bytes": 1074,
+      "canonical_sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634",
+      "path": "reference/CODEXPROLONG_LICENSE.txt",
+      "portable_path_rewrite": false,
+      "public_bytes": 1074,
+      "public_sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "canonical_bytes": 1070,
+      "canonical_sha256": "e50ed393879923ce49fe8101751836d541f8d09daf9a877aa484783789d4480c",
+      "path": "reference/EINSTEIN_ARENA_LICENSE.txt",
+      "portable_path_rewrite": false,
+      "public_bytes": 1070,
+      "public_sha256": "e50ed393879923ce49fe8101751836d541f8d09daf9a877aa484783789d4480c"
+    },
+    {
+      "canonical_bytes": 1049,
+      "canonical_sha256": "5d1dc3ceeff115f38b003b3d0fe2277278c44bc323d58eba657a607712bc530d",
+      "path": "reference/frozen_verifier.py.b64",
+      "portable_path_rewrite": false,
+      "public_bytes": 1049,
+      "public_sha256": "5d1dc3ceeff115f38b003b3d0fe2277278c44bc323d58eba657a607712bc530d"
+    },
+    {
+      "canonical_bytes": 4376,
+      "canonical_sha256": "4da74d07d7f5c695e1d44c181258e50cd0bc93fc59c7ccf23ef038aeb3e835c2",
+      "path": "replay_public.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 4376,
+      "public_sha256": "4da74d07d7f5c695e1d44c181258e50cd0bc93fc59c7ccf23ef038aeb3e835c2"
+    },
+    {
+      "canonical_bytes": 1230,
+      "canonical_sha256": "731a3c2ae97a322651e139499f67f426608131e407637ba27f95e0458cc5c89e",
+      "path": "test_public_replay.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 1230,
+      "public_sha256": "731a3c2ae97a322651e139499f67f426608131e407637ba27f95e0458cc5c89e"
+    },
+    {
+      "canonical_bytes": 5771,
+      "canonical_sha256": "a3b636eb7d5d4b0cf4a9bbc67b475b98f7c028622ad973d4e0516ae2a29e1d86",
+      "path": "verify_publication.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 5771,
+      "public_sha256": "a3b636eb7d5d4b0cf4a9bbc67b475b98f7c028622ad973d4e0516ae2a29e1d86"
+    }
+  ],
+  "policy": "Canonical bytes are hash-checked before export. Absolute host paths in manifest-approved JSON/JSONL are rewritten to portable campaign-relative paths; all other bytes are copied verbatim.",
+  "schema_version": 1
+}

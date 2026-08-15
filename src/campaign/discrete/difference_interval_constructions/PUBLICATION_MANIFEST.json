@@ -1,0 +1,181 @@
+{
+  "dependencies_not_copied": [
+    {
+      "item": "EinsteinArena difference-bases verifier",
+      "license": "MIT in vinid/einstein-arena; retain its license if copied",
+      "sha256": "a7521e8a701ac31131932d2a732769d65426d329f4a933c4819516adacf2e585"
+    },
+    {
+      "item": "frozen EinsteinArena public corpus database",
+      "license": "not copied; contains GET-readable public Arena text and submissions with no blanket relicensing asserted here",
+      "sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb"
+    },
+    {
+      "doi": "10.1142/S0219498819500816",
+      "item": "Banakh--Gavrylkiv paper",
+      "license": "not copied; only bibliographic facts and a source link are included"
+    },
+    {
+      "item": "SymPy runtime dependency",
+      "license": "BSD-3-Clause; package bytes are not copied"
+    }
+  ],
+  "exclude": [
+    {
+      "bytes": 1898,
+      "decision": "exclude",
+      "licensing": "Original generated campaign output; excluded only because an authoritative complete checkpoint supersedes it.",
+      "path": "checkpoint_q97.json",
+      "reason": "single-order checkpoint superseded by checkpoint_large.json",
+      "sha256": "55e2383a9edbbc1de3feeb9902573e16b53bfb355bb7cf2bc5f3c2f2ede25282"
+    },
+    {
+      "bytes": 3954,
+      "decision": "exclude",
+      "licensing": "Original generated campaign output; excluded only because an authoritative complete checkpoint supersedes it.",
+      "path": "prime_power_smoke.json",
+      "reason": "smoke checkpoint superseded by prime_power_checkpoint.json",
+      "sha256": "39ab2393326a1e51c6a0d053e070d1080ae92793fc01356e1ba856a9e44c5f2f"
+    }
+  ],
+  "include": [
+    {
+      "bytes": 2890,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "HANDOFF.md",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "ae39d15c7a08945ae9ce4dc835aa38a22c091ca0457c4ab59b7edffac3f63fea"
+    },
+    {
+      "bytes": 861,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "PROVENANCE.md",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "b7481b2e05dd667106de0326ec9fc81a6eb2a647e40a89ed3904779d887ecedd"
+    },
+    {
+      "bytes": 1985,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "README.md",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "e09d73f1636c65eefde889ec87fd5da4cbaea4c64a87b19a33a5ab1619d100eb"
+    },
+    {
+      "bytes": 21573,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "checkpoint.json",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "e89f3cc3d77483b7cdbf8e6fe6a56b54edecb5ff8bcfe76581dff556d3632843"
+    },
+    {
+      "bytes": 34739,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "checkpoint_large.json",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "fb31843e5612b77a22abb77963249cd0dab6ec5102d275b26feb98f4d8abbd6b"
+    },
+    {
+      "bytes": 11842,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "checkpoint_small.json",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "4a1e6aaf565a4bd08700aca4a2dc5c4121943a2145324f2eb86abafba0dd1b64"
+    },
+    {
+      "bytes": 4186,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "freeze_publication.py",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "719d4f78d14b559b30b2e65bc56229aa335a31be6917e7c9305ffa1e75f826b4"
+    },
+    {
+      "bytes": 10455,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "freeze_receipt.py",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "137d1494ac2780742586c98d6edaa61cadc0e45c64372f15f643b255710f0c01"
+    },
+    {
+      "bytes": 18381,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "prime_power_checkpoint.json",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "7716cd57f28f0f07ff4d95fdb97d686bd77d863c54c800da7f2c273aad3fa21b"
+    },
+    {
+      "bytes": 12235,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "prime_power_sweep.py",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "1f7518433d911d6987eef9d5ed3f7794f4ded6a18044aa0cf4946512b599cfda"
+    },
+    {
+      "bytes": 5222,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "receipt.json",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "527b0bfe5a4da29a13711c6a2006fc098d8a3065c6657800043fd91eccbd8aff"
+    },
+    {
+      "bytes": 3114,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "replay.py",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "eee58bf8afdf1d938e9a13d01866ffc86ce6996dd0bd3d4d9fa9aa6981acbcf1"
+    },
+    {
+      "bytes": 3044,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "replay_receipt.json",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "6c3de33ce718392ea19419325b9bfa32f0d8bd21d11a48a0e99f5cbeaa5f62d7"
+    },
+    {
+      "bytes": 12517,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "search.py",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "459fdf161ae324eda486d83378184b492480f4f2b6a71c604e5473feecd4ebb9"
+    },
+    {
+      "bytes": 239167,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "tail_checkpoint.json",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "6138f1f0c99d66d5355971eb934b4a733c47aef56c24c3fba965c278ce0a51c3"
+    },
+    {
+      "bytes": 531445,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "tail_full_checkpoint.json",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "4b359168fbe1e03edcb1c62f528c7b02aa4aeb109481bb791177e6dc311d0614"
+    },
+    {
+      "bytes": 6225,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party source, database, verifier, or candidate bytes are embedded.",
+      "path": "tail_sweep.py",
+      "reason": "frozen original source, documentation, or deterministic generated receipt/checkpoint",
+      "sha256": "04c18ea3a3042bdd19df0e72732b1b923dae7cbd3ae63cbb4dc5d07c546755bd"
+    }
+  ],
+  "policy": "conservative public mirror with transient checkpoints and generated caches excluded",
+  "scope": "campaign/discrete/difference_interval_constructions"
+}

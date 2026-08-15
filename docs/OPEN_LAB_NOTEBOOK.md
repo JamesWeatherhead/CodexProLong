@@ -107,6 +107,15 @@ chain-of-thought.
   8,828 unlabeled classes. Neither escaped its canonical tolerance ceiling;
   clean-room replay formulas and publication manifests preserve the result
   without redistributing unlicensed coordinate payloads.
+- Extended square packing to genuinely codimension-three branches without
+  repeating the pair-release search: 3,500 release triples produced 2,848
+  genuine changed contact graphs and 2,541 exact-accepted endpoints. The best
+  changed graph remained `0.006254284194540105` below the strict gate.
+- Reconstructed the Banakh--Gavrylkiv four-block interval Difference Bases
+  family directly from the primary theorem. Every unit multiplier and cyclic
+  cut was exhausted for 114 schema-compatible prime powers through 499, with
+  complete tail sweeps at selected orders. The family exactly regenerates the
+  incumbent at `q=89` but yields no improvement.
 - Extended the C3 numerical frontier through two exact-accepted sign-wall
   crossings. After screening 14,333 deletions, 100,152 block transplants,
   20,000 single walls, and 7,140 wall pairs, literal `numpy.convolve` replay
