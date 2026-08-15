@@ -96,6 +96,11 @@
       "sha256": "1374c02b703c86db3014e3b97222179011984434ba80c36de8149315023d69cc"
     },
     {
+      "bytes": 26390,
+      "path": "artifacts/evidence/heilbronn-rational-mesh-closure.json",
+      "sha256": "81bb128183c221c3b7998cff6935a6b28d8937716a5f3f80e9e9d12e1d3d3a25"
+    },
+    {
       "bytes": 3668,
       "path": "artifacts/evidence/kissing-d11-594-exact-audit.json",
       "sha256": "7e8ffcd9d1984c9ceb64c5f7c6674240c79b128a14dc8960cf687c1367cce5e9"
@@ -106,14 +111,39 @@
       "sha256": "114e9f053800d24c1222e3a02f5347f547ca855e89dd6d4aa0101a8f3b33b023"
     },
     {
+      "bytes": 4197,
+      "path": "artifacts/evidence/min-distance-global-topology-escape.json",
+      "sha256": "d1968861333afe76ee242f2956f15e6f5d0eb25a8a8ce3ace768b38e7cd7ce92"
+    },
+    {
       "bytes": 64511,
       "path": "artifacts/evidence/prime-number-theorem-full-horizon.json",
       "sha256": "1ec5b03f9b1d72af559df9b4240e8c2384068d267044b48f86138dd1424d5f7c"
     },
     {
+      "bytes": 2077,
+      "path": "artifacts/evidence/rectangle-precision-escape.json",
+      "sha256": "e1c58e33c94a6595fa5d98e059ac11a744c1820a2e48f5382c6364a84317073a"
+    },
+    {
       "bytes": 5711,
       "path": "artifacts/evidence/schema-gap-audit.json",
       "sha256": "a73011fda67f2da4b26e05e86a3dca82789b2adafddfec67b5733f1448a2b979"
+    },
+    {
+      "bytes": 2256,
+      "path": "artifacts/evidence/thomson-topology-escape.json",
+      "sha256": "dea488c7aea514fb56aa0c9bc9044fecc45d9476ba01789bab737325e464c969"
+    },
+    {
+      "bytes": 1187,
+      "path": "artifacts/evidence/thomson-topology-independent-replay.json",
+      "sha256": "b59f0a894667f34ac26914ad95375ea0851cc1effedaadbcd4bb36904f410b3c"
+    },
+    {
+      "bytes": 5414,
+      "path": "artifacts/evidence/thomson-topology-isomorphism-audit.json",
+      "sha256": "144b40cb2db8f0396384cbc4e82d608edcf07b58c7b205f30756bb444ac6369f"
     },
     {
       "bytes": 2394,
@@ -1116,6 +1146,61 @@
       "sha256": "1d77b5484de2d8d783c21cc79999706a0f50a6181bfde9ddbcd18e447a876fa0"
     },
     {
+      "bytes": 25,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/.gitignore",
+      "sha256": "670eb88f324c3030e46eb13d450d910c0292ad5f05db40c4de6c28a78050693b"
+    },
+    {
+      "bytes": 1798,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/HANDOFF.md",
+      "sha256": "b2703429a9c3522fb757c7b0439aedb29cfc53c97a2a04fc5e2d6803ec107292"
+    },
+    {
+      "bytes": 6904,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/README.md",
+      "sha256": "9dedf31188a8a79e90405464136cc7703e13a68405f8d8b3cb14ccf6362ebcf3"
+    },
+    {
+      "bytes": 121708,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/case_manifest.json",
+      "sha256": "4aef22d0653edbb2833bdcc2cd6bf1a4ea070cef32ad0666f44aed53756203c9"
+    },
+    {
+      "bytes": 49961,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/denominator_screen.json",
+      "sha256": "5d24c5e559e50374b27ae22383fd8c9dbf0ffca14bb4f0342285320375d4d066"
+    },
+    {
+      "bytes": 4445,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/freeze_manifest.py",
+      "sha256": "0f212096a09cf8d6c56a28fc7386ddae0b6f08414bc81231a5c06f0015e847f2"
+    },
+    {
+      "bytes": 2180,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/literature_sources.json",
+      "sha256": "86de28f064140b3d5b997aa861bce80680ee7de2a0cd93c8dc3f79d81c97f6d1"
+    },
+    {
+      "bytes": 41050,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/rational_mesh_search.py",
+      "sha256": "67ac382fa33eafbfec8233f59b0269533e2cecafbcb8c05c754843024fc77271"
+    },
+    {
+      "bytes": 10692,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/replay_no_go.py",
+      "sha256": "9b4da41c5281bb5eeb4b99945666e1c46b194f11c86669ba4e976dada5fac914"
+    },
+    {
+      "bytes": 26390,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/replay_receipt.json",
+      "sha256": "81bb128183c221c3b7998cff6935a6b28d8937716a5f3f80e9e9d12e1d3d3a25"
+    },
+    {
+      "bytes": 7000,
+      "path": "src/campaign/geometry/heilbronn_rational_mesh_global/screen_denominators.py",
+      "sha256": "6cc72ee8b5af41f5c435b90885a3ad0da686802076d34ab5c121c77dc1e56b73"
+    },
+    {
       "bytes": 21240,
       "path": "src/campaign/geometry/heilbronn_topology_search.py",
       "sha256": "668f5980875bb52d95f4689db07f0254ebe95695e30b159594037181e8210f22"
@@ -1171,6 +1256,66 @@
       "sha256": "26ece6202c8943db21c6074ec61cf268518523f4d9372fa5c6e29a18d040d1c2"
     },
     {
+      "bytes": 5434,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/HANDOFF.md",
+      "sha256": "e113674bc7739b52c33e32329673f4b625b3825ea45ef9f3b03b19dcbbd0d89c"
+    },
+    {
+      "bytes": 3042,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/README.md",
+      "sha256": "0d4463ccc3daa9d6c382186cdbd71b7323ee674c1d1a58c636263abb973e80f6"
+    },
+    {
+      "bytes": 29747,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/adjacent_topology_escape.py",
+      "sha256": "9f2106e9212a945e3cc02330c182bdc1807e2ef66841dedb38af70d931ecc342"
+    },
+    {
+      "bytes": 5134,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/assets.json",
+      "sha256": "38a1af0538bbc5c41b0e0238af0c0265cd7da13cce260217e920728687f34941"
+    },
+    {
+      "bytes": 4126,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/freeze_receipt.py",
+      "sha256": "31126c7528c7b7576a10948fb76ab16317ede5ac3e511a6c22e2b5a654a9949e"
+    },
+    {
+      "bytes": 4197,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/receipt.json",
+      "sha256": "d1968861333afe76ee242f2956f15e6f5d0eb25a8a8ce3ace768b38e7cd7ce92"
+    },
+    {
+      "bytes": 9094,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/replay_receipt.py",
+      "sha256": "b182e5b016721c31305bdf673d869f77d0d47bcc72218918775dea63712c2ca7"
+    },
+    {
+      "bytes": 997,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/runs/FINAL_V2/best.json",
+      "sha256": "f9e6d812a4545651905bb2589c3b4cc01306727439d8a046fb673b9b8f721b9f"
+    },
+    {
+      "bytes": 7525,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/runs/FINAL_V2/corpus_audit.json",
+      "sha256": "944eccb65d088794ef339dfc56a28a8f77300399dd8ed036d96dd0a3b93fe30b"
+    },
+    {
+      "bytes": 525357,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/runs/FINAL_V2/events.jsonl",
+      "sha256": "5c7876f9db83ec923a51664db36ee5682cdf81bd3dcbdf6b556581465304c46a"
+    },
+    {
+      "bytes": 14902,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/runs/FINAL_V2/reconstructed_assets.json",
+      "sha256": "f801ac52472b5f45be51f4cafea14175cdd6589296e4ddb6e23f2e598d762501"
+    },
+    {
+      "bytes": 30549,
+      "path": "src/campaign/geometry/min_distance_ratio_global_escape/runs/FINAL_V2/summary.json",
+      "sha256": "9a3ac03edc6335bb8b806670645310fc830774d167874cac799491ab4192180f"
+    },
+    {
       "bytes": 18118,
       "path": "src/campaign/geometry/min_distance_topology_search.py",
       "sha256": "a8f3f7c6cefeb1a724196bdc49a68cb84a2e62be66a873e9a426c5f88d40905f"
@@ -1194,6 +1339,16 @@
       "bytes": 16190,
       "path": "src/campaign/geometry/rectangle_packing_search.py",
       "sha256": "7a8753e6bcca1be1aa24ffb7c6ac98911abe9ebd012be64978c5ddb763d86638"
+    },
+    {
+      "bytes": 2112,
+      "path": "src/campaign/geometry/rectangle_precision_escape/HANDOFF.md",
+      "sha256": "9678f3c6d68c4127cc2d912cfef5d95ecd747343b04989819a16d881ad829e4b"
+    },
+    {
+      "bytes": 5242,
+      "path": "src/campaign/geometry/rectangle_precision_escape/audit_numeric_lattice.py",
+      "sha256": "76439219248fff68fd43ffde2ea2dd182817b9f596953cb820a2f610212e31e8"
     },
     {
       "bytes": 9542,
@@ -1234,6 +1389,51 @@
       "bytes": 22369,
       "path": "src/campaign/geometry/tammes_d6_search.py",
       "sha256": "39926a169772d22bcdfd444365a987907876d133db2e1d82156c180c21e477b0"
+    },
+    {
+      "bytes": 25,
+      "path": "src/campaign/geometry/thomson_282_topology_escape/.gitignore",
+      "sha256": "81e271d4422393e3d29464a347e947c574d2868f63a51389a969d69a611a01a9"
+    },
+    {
+      "bytes": 7242,
+      "path": "src/campaign/geometry/thomson_282_topology_escape/HANDOFF.md",
+      "sha256": "e1a5bf07b95b9790425e04dc215d3165dff3b5425dc44daf5b52e582a8263530"
+    },
+    {
+      "bytes": 766,
+      "path": "src/campaign/geometry/thomson_282_topology_escape/README.md",
+      "sha256": "5435be1771ecd70eae1c0f09e3c87e0934a460822aba8c9e5dda4ffb41d612af"
+    },
+    {
+      "bytes": 3744,
+      "path": "src/campaign/geometry/thomson_282_topology_escape/isomorphism_audit.py",
+      "sha256": "c0a6213a2a064013eaf93ecfaeb233ef8c01f985bbc21478a0f073a5540b3de9"
+    },
+    {
+      "bytes": 2861,
+      "path": "src/campaign/geometry/thomson_282_topology_escape/literature.json",
+      "sha256": "c6180ac7a51427f42e84cd55212e0bd4ade587695af5f7bef6fde6e00559c3f3"
+    },
+    {
+      "bytes": 408,
+      "path": "src/campaign/geometry/thomson_282_topology_escape/live_read_check.json",
+      "sha256": "b23fe364d014714c5d1daf42d98d03954eedd6038a35a5188492b9b1d6c71663"
+    },
+    {
+      "bytes": 2259,
+      "path": "src/campaign/geometry/thomson_282_topology_escape/receipt.json",
+      "sha256": "a45750cdbfab7a1dbe672ad0013fab6a32af45c8a26273423575008f38ec3088"
+    },
+    {
+      "bytes": 13034,
+      "path": "src/campaign/geometry/thomson_282_topology_escape/replay.py",
+      "sha256": "f598c16ca1b84a18da7b9fb8107569342b1b8fa80c5cf496bd0e84fe1dfcd35a"
+    },
+    {
+      "bytes": 27663,
+      "path": "src/campaign/geometry/thomson_282_topology_escape/search.py",
+      "sha256": "0afa1b045b7379b63aea9854268b72de3ee1df9a4485d5c6400d293c91dc2e13"
     },
     {
       "bytes": 19321,

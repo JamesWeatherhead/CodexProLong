@@ -1,0 +1,29 @@
+{
+  "best_candidate_sha256": "fab938c8a6aecfbf19576935805010cf8abe32f09483dfba41548d458d6ad667",
+  "domain": {
+    "finite": true,
+    "norm_max": 1.0000000000000002,
+    "norm_min": 0.9999999999999999,
+    "shape": [
+      282,
+      3
+    ]
+  },
+  "events_sha256": "a6de412b54248d88a8613b88e7c8a48b19f4c72ed8d0eb5739eb74738cc4e2e1",
+  "gate_clearing": false,
+  "gate_gap": 9.999857866205275e-07,
+  "n72_source_sha256": "2e2cede090d3498e42c3b360f2aa6847bb3d813de9ff573aa6d654e1e4b3f883",
+  "official_verifier_score": 37147.29441846225,
+  "pairwise_wl_distinct_class_count": 49,
+  "receipt_sha256": "a10a926ff92f30a8166e50862a777226091a29f505de0469d8a176bb02df68a1",
+  "run": "campaign/geometry/thomson_282_topology_escape/runs/20260815T_THOMSON_SPLIT_V1",
+  "status": "pass",
+  "summary_sha256": "433dc3a15d958f4029f9d1152d4065bf4a29087c828ad1c5aa0b6fd411919cf3",
+  "target_strictly_below": 37147.29441746226,
+  "topology_class_count": 49,
+  "total_candidate_bytes_hashed": 782212,
+  "trial_count": 30,
+  "unique_replayed_final_topology_count": 1,
+  "unique_replayed_initial_topology_count": 30,
+  "verifier_sha256": "4cdf454acc790c97f2cfcb1e62f44f571ff9f44f87566c341865bc1c234ba5af"
+}

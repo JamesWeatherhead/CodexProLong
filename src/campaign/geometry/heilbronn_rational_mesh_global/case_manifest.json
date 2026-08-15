@@ -1,0 +1,5748 @@
+{
+  "batches": [
+    {
+      "case_keys": [
+        "q156-public-630-r2",
+        "q156-public-1006-r2",
+        "q156-public-649-r2",
+        "q156-public-850-r2",
+        "q156-public-847-r2",
+        "q156-public-704-r2",
+        "q156-public-1189-r2",
+        "q156-public-1144-r2",
+        "q156-public-1111-r2",
+        "q152-public-630-r2",
+        "q152-public-649-r2",
+        "q152-public-850-r2",
+        "q152-public-847-r2",
+        "q152-public-704-r2",
+        "q152-public-1189-r2",
+        "q152-public-1144-r2",
+        "q152-public-1111-r2",
+        "q174-public-630-r2",
+        "q174-public-1004-r2",
+        "q174-public-649-r2",
+        "q174-public-850-r2",
+        "q174-public-847-r2",
+        "q174-public-704-r2",
+        "q174-public-1189-r2",
+        "q174-public-1144-r2",
+        "q174-public-1111-r2",
+        "q210-public-630-r2",
+        "q210-public-649-r2",
+        "q210-public-850-r2",
+        "q210-public-847-r2",
+        "q210-public-704-r2",
+        "q210-public-1189-r2",
+        "q210-public-1144-r2",
+        "q210-public-1111-r2"
+      ],
+      "name": "PUBLIC_V2",
+      "phases": [
+        "public"
+      ],
+      "summary_sha256": "237a4e4d83225678fc4cddfadd25e58a27eb17bd3d101b8962f315ec70d390ce"
+    },
+    {
+      "case_keys": [
+        "q156-birth-side0-label10-proportional",
+        "q156-birth-side0-label10-first",
+        "q156-birth-side0-label10-second",
+        "q156-birth-side1-label8-proportional",
+        "q156-birth-side1-label8-first",
+        "q156-birth-side1-label8-second",
+        "q156-birth-side2-label0-proportional",
+        "q156-birth-side2-label0-first",
+        "q156-birth-side2-label0-second",
+        "q156-double-birth-sides01-labels10-8",
+        "q156-double-birth-sides02-labels10-0",
+        "q156-double-birth-sides12-labels8-0",
+        "q156-boundary-death-0s2",
+        "q156-boundary-death-1s2",
+        "q156-boundary-death-5s1",
+        "q156-boundary-death-7s0",
+        "q156-boundary-death-8s1",
+        "q156-boundary-death-10s0",
+        "q156-boundary-death-0s2-1s2",
+        "q156-boundary-death-0s2-5s1",
+        "q156-boundary-death-0s2-7s0",
+        "q156-boundary-death-0s2-8s1",
+        "q156-boundary-death-0s2-10s0",
+        "q156-boundary-death-1s2-5s1",
+        "q156-boundary-death-1s2-7s0",
+        "q156-boundary-death-1s2-8s1",
+        "q156-boundary-death-1s2-10s0",
+        "q156-boundary-death-5s1-7s0",
+        "q156-boundary-death-5s1-8s1",
+        "q156-boundary-death-5s1-10s0",
+        "q156-boundary-death-7s0-8s1",
+        "q156-boundary-death-7s0-10s0",
+        "q156-boundary-death-8s1-10s0",
+        "q156-crossover-630-1015",
+        "q156-crossover-630-1006",
+        "q156-crossover-630-649",
+        "q156-crossover-1015-1006",
+        "q174-crossover-630-1015",
+        "q174-crossover-630-1006",
+        "q174-crossover-630-649",
+        "q174-crossover-1015-1006"
+      ],
+      "name": "TOPOLOGY_V2",
+      "phases": [
+        "topology"
+      ],
+      "summary_sha256": "e9687326a5447a8e715a5ecb5538f93f0cedcbabaf2047661af9e74074c45523"
+    }
+  ],
+  "claim_scope": "Exact no-go only for the recorded finite labeled rational-mesh domains; not a global lattice or continuous impossibility proof.",
+  "denominators": [
+    156,
+    152,
+    174,
+    210
+  ],
+  "distinct_domain_count": 72,
+  "enumerated_case_count": 75,
+  "external_writes": [],
+  "mode": "compact deterministic exact finite-domain manifest",
+  "network_used": false,
+  "records": [
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 851,
+      "clause_count": 4255,
+      "clause_sha256": "319b187c3d5f750584ecab93464e233d18cbcf261e4eecf30e2ca88476b566d8",
+      "decision_variable_count": 167,
+      "denominator": 156,
+      "domain_coordinates_sha256": "bf2dc6295e134c06d1aacaeff441d5e3b249ce2d8c8068261230651e702667e3",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        12,
+        19,
+        12,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q156-public-630-r2",
+      "literal_count": 24026,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          630,
+          678,
+          1157,
+          1425,
+          768,
+          1015,
+          913
+        ],
+        "public_score": 0.036529889880030156,
+        "representative_id": 630
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 3787,
+          "literals": 22945
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 822,
+      "clause_count": 4333,
+      "clause_sha256": "eb222241566f68fee0d1b94aa5173aad06d50bd3f00e05489693bd9eebfb73d4",
+      "decision_variable_count": 167,
+      "denominator": 156,
+      "domain_coordinates_sha256": "eb055bb44343091866d38604300fb13260748b018c5dbbc2b7fbd33ec6050c7b",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        12,
+        19,
+        12,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q156-public-1006-r2",
+      "literal_count": 24232,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1006,
+          1005,
+          1004
+        ],
+        "public_score": 0.03650293440746871,
+        "representative_id": 1006
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 3865,
+          "literals": 23151
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 808,
+      "clause_count": 4162,
+      "clause_sha256": "8f3f347851ef40c470419120c8e62860673015ea2ff12addc653e78baa377d42",
+      "decision_variable_count": 167,
+      "denominator": 156,
+      "domain_coordinates_sha256": "bb70edd0ee078fc50f88eaa9efae9ea05d22139e2320582b1b7f221fd69aaa04",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        12,
+        19,
+        12,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q156-public-649-r2",
+      "literal_count": 22985,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          649
+        ],
+        "public_score": 0.033592017119264315,
+        "representative_id": 649
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 3694,
+          "literals": 21904
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 695,
+      "denominator": 156,
+      "domain_coordinates_sha256": "b07e0c545d65de46ad5aebd34a6c1c2ac10643d1428801b9c70652bf53a906cc",
+      "domain_sizes": [
+        19,
+        12,
+        19,
+        19,
+        19,
+        12,
+        12,
+        12,
+        19,
+        12,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 886,
+          "triple": [
+            0,
+            4,
+            7
+          ]
+        }
+      ],
+      "key": "q156-public-850-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          850
+        ],
+        "public_score": 0.030931813350982173,
+        "representative_id": 850
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 889
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 701,
+      "clause_count": 4919,
+      "clause_sha256": "a369aaadc1cae7c7fafb92dd733360ef7b3d6c1088682eac2f1ed1cfcb7c9831",
+      "decision_variable_count": 167,
+      "denominator": 156,
+      "domain_coordinates_sha256": "5b34b1100f0f64a8a2f48a76e7aa4498faf5e2cc4ae06409b800c0bf4dc32ca9",
+      "domain_sizes": [
+        12,
+        19,
+        19,
+        12,
+        19,
+        12,
+        19,
+        19,
+        12,
+        12,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q156-public-847-r2",
+      "literal_count": 18831,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          847
+        ],
+        "public_score": 0.030339841450981453,
+        "representative_id": 847
+      },
+      "nontrivial_triple_count": 31,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 4451,
+          "literals": 17750
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 650,
+      "denominator": 156,
+      "domain_coordinates_sha256": "73a71dab331cf0271e0b339c8b07850ef81fdca5aadf3c1c1f3147be8c2e8319",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        16,
+        19,
+        16,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 882,
+          "triple": [
+            1,
+            6,
+            7
+          ]
+        }
+      ],
+      "key": "q156-public-704-r2",
+      "metadata": {
+        "boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "public_ids": [
+          704
+        ],
+        "public_score": 0.02882321539303138,
+        "representative_id": 704
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 889
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 609,
+      "denominator": 156,
+      "domain_coordinates_sha256": "643da28f248fbaddc1648ec776dcf790470e73710e67744eea863d286fa691ee",
+      "domain_sizes": [
+        19,
+        12,
+        19,
+        12,
+        19,
+        6,
+        19,
+        12,
+        12,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 814,
+          "triple": [
+            5,
+            7,
+            10
+          ]
+        }
+      ],
+      "key": "q156-public-1189-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1189
+        ],
+        "public_score": 0.028086432087855193,
+        "representative_id": 1189
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 889
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 312,
+      "denominator": 156,
+      "domain_coordinates_sha256": "f2899654d83d93c1cef38c6b784a852c7ee688f27031d226cb2a9cd6ea51e2a3",
+      "domain_sizes": [
+        19,
+        12,
+        12,
+        19,
+        6,
+        6,
+        19,
+        19,
+        19,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 688,
+          "triple": [
+            0,
+            1,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 712,
+          "triple": [
+            0,
+            6,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 620,
+          "triple": [
+            0,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 688,
+          "triple": [
+            0,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 496,
+          "triple": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 808,
+          "triple": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 760,
+          "triple": [
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 872,
+          "triple": [
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 888,
+          "triple": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 756,
+          "triple": [
+            3,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 808,
+          "triple": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 624,
+          "triple": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 550,
+          "triple": [
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 610,
+          "triple": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "key": "q156-public-1144-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1144
+        ],
+        "public_score": 0.014837472646413842,
+        "representative_id": 1144
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 889
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 269,
+      "denominator": 156,
+      "domain_coordinates_sha256": "07f3eefb3e7dad15b1cab8980e62b38454382cd3615ab528e9ff9dc907d234c0",
+      "domain_sizes": [
+        19,
+        19,
+        6,
+        19,
+        12,
+        6,
+        19,
+        19,
+        12,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 696,
+          "triple": [
+            0,
+            1,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 565,
+          "triple": [
+            0,
+            1,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 822,
+          "triple": [
+            0,
+            2,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 642,
+          "triple": [
+            0,
+            6,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 546,
+          "triple": [
+            0,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 614,
+          "triple": [
+            0,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 624,
+          "triple": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "maximum_numerator": 570,
+          "triple": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 603,
+          "triple": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 656,
+          "triple": [
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 605,
+          "triple": [
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 885,
+          "triple": [
+            3,
+            6,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 694,
+          "triple": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 784,
+          "triple": [
+            3,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 776,
+          "triple": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 616,
+          "triple": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 532,
+          "triple": [
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 568,
+          "triple": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "key": "q156-public-1111-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1111
+        ],
+        "public_score": 0.013144663385381455,
+        "representative_id": 1111
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 889
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 789,
+      "clause_count": 4246,
+      "clause_sha256": "086e78a88be7975a98549437e89712bd960e57c3f13e37c1e1361f679d48883d",
+      "decision_variable_count": 167,
+      "denominator": 152,
+      "domain_coordinates_sha256": "47b6526e7d59e1ad59d31b7b8ed6ba9f3be340501a23e861806233124dfdf052",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        12,
+        19,
+        12,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q152-public-630-r2",
+      "literal_count": 23501,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          630,
+          678,
+          1157,
+          1425,
+          768,
+          1015,
+          913,
+          1006,
+          1005,
+          1004
+        ],
+        "public_score": 0.036529889880030156,
+        "representative_id": 630
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 3778,
+          "literals": 22420
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 844,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 782,
+      "clause_count": 4251,
+      "clause_sha256": "7b32ca055bff60dfcf8fc4454d03171a23e89491e3661dd59af572d902e56251",
+      "decision_variable_count": 167,
+      "denominator": 152,
+      "domain_coordinates_sha256": "c04d72e7b4b8cba46b326345f603a854f77af132ec8596f981369c007433b04b",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        12,
+        19,
+        12,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q152-public-649-r2",
+      "literal_count": 23276,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          649
+        ],
+        "public_score": 0.033592017119264315,
+        "representative_id": 649
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 3783,
+          "literals": 22195
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 844,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 684,
+      "clause_count": 4508,
+      "clause_sha256": "0ec6dbced243d6694b462aaca3ba475b540e0aab8f1fef2d0fe606ccfe0745b5",
+      "decision_variable_count": 167,
+      "denominator": 152,
+      "domain_coordinates_sha256": "1210ebe48da0a3b379b5cfefe86b1d1ff83492791f8235edb1881f0150ef63a0",
+      "domain_sizes": [
+        19,
+        12,
+        19,
+        19,
+        19,
+        12,
+        12,
+        12,
+        19,
+        12,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q152-public-850-r2",
+      "literal_count": 18636,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          850
+        ],
+        "public_score": 0.030931813350982173,
+        "representative_id": 850
+      },
+      "nontrivial_triple_count": 25,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 4040,
+          "literals": 17555
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 844,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 629,
+      "clause_count": 5011,
+      "clause_sha256": "9cd8a6fa54356e46ff5a305288fec9271ad82c97714b7e9a19e56281d5488306",
+      "decision_variable_count": 171,
+      "denominator": 152,
+      "domain_coordinates_sha256": "ee71e58edd8f55bc8eb20a250db0bc1cdff579bac96b54fd3218a44e2d3480ce",
+      "domain_sizes": [
+        16,
+        19,
+        19,
+        12,
+        19,
+        12,
+        19,
+        19,
+        12,
+        12,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q152-public-847-r2",
+      "literal_count": 20037,
+      "metadata": {
+        "boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "public_ids": [
+          847
+        ],
+        "public_score": 0.030339841450981453,
+        "representative_id": 847
+      },
+      "nontrivial_triple_count": 32,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 480,
+          "literals": 1109
+        },
+        "support": {
+          "clauses": 4531,
+          "literals": 18928
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 844,
+      "total_variable_count": 331
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        0
+      ],
+      "center_minimum_numerator": 624,
+      "clause_count": 6363,
+      "clause_sha256": "dc63c0110d8e91ae2a002fb89294e49eadcdefdf8d1e5a4b82a025898c49e29e",
+      "decision_variable_count": 182,
+      "denominator": 152,
+      "domain_coordinates_sha256": "04b9ed433ae3f0235dca8ad15f5ebe8f706f9811d521c0df1d67d1bb24d2e46f",
+      "domain_sizes": [
+        12,
+        16,
+        19,
+        19,
+        19,
+        19,
+        19,
+        16,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q152-public-704-r2",
+      "literal_count": 26093,
+      "metadata": {
+        "boundary_counts": [
+          1,
+          2,
+          0
+        ],
+        "public_ids": [
+          704
+        ],
+        "public_score": 0.02882321539303138,
+        "representative_id": 704
+      },
+      "nontrivial_triple_count": 29,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 513,
+          "literals": 1186
+        },
+        "support": {
+          "clauses": 5850,
+          "literals": 24907
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 844,
+      "total_variable_count": 353
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 558,
+      "denominator": 152,
+      "domain_coordinates_sha256": "34fab55d095134cb1ad3929b5bc86336d8b6842a5a67db99945405429c5dca3c",
+      "domain_sizes": [
+        19,
+        12,
+        19,
+        12,
+        19,
+        6,
+        19,
+        12,
+        12,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 838,
+          "triple": [
+            0,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 792,
+          "triple": [
+            5,
+            7,
+            10
+          ]
+        }
+      ],
+      "key": "q152-public-1189-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1189
+        ],
+        "public_score": 0.028086432087855193,
+        "representative_id": 1189
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 844
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 260,
+      "denominator": 152,
+      "domain_coordinates_sha256": "e67cedfaf4ff0cb91f139e85c52b470247dea71b4d697aa03e6764806552f565",
+      "domain_sizes": [
+        19,
+        12,
+        12,
+        19,
+        6,
+        6,
+        19,
+        19,
+        19,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 826,
+          "triple": [
+            0,
+            1,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 760,
+          "triple": [
+            0,
+            1,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 768,
+          "triple": [
+            0,
+            2,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 704,
+          "triple": [
+            0,
+            6,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 612,
+          "triple": [
+            0,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 610,
+          "triple": [
+            0,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 480,
+          "triple": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 751,
+          "triple": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 592,
+          "triple": [
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 827,
+          "triple": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 742,
+          "triple": [
+            3,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 789,
+          "triple": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 608,
+          "triple": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 536,
+          "triple": [
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 610,
+          "triple": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "key": "q152-public-1144-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1144
+        ],
+        "public_score": 0.014837472646413842,
+        "representative_id": 1144
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 844
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 265,
+      "denominator": 152,
+      "domain_coordinates_sha256": "fd5269790c2a9c5ba7ebd934be7263e02bf65fc70606e01569de827fc2a22af3",
+      "domain_sizes": [
+        19,
+        19,
+        6,
+        19,
+        12,
+        6,
+        19,
+        19,
+        12,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 702,
+          "triple": [
+            0,
+            1,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 582,
+          "triple": [
+            0,
+            1,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 840,
+          "triple": [
+            0,
+            1,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 581,
+          "triple": [
+            0,
+            6,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 530,
+          "triple": [
+            0,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 587,
+          "triple": [
+            0,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 608,
+          "triple": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "maximum_numerator": 548,
+          "triple": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 612,
+          "triple": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 640,
+          "triple": [
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 654,
+          "triple": [
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 672,
+          "triple": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 711,
+          "triple": [
+            3,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 754,
+          "triple": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 600,
+          "triple": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 817,
+          "triple": [
+            4,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 837,
+          "triple": [
+            5,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 495,
+          "triple": [
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 585,
+          "triple": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "key": "q152-public-1111-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1111
+        ],
+        "public_score": 0.013144663385381455,
+        "representative_id": 1111
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 844
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 1078,
+      "clause_count": 4020,
+      "clause_sha256": "ad63a8356a33b59d5f14e34c65322da2fb5cc9b6b69ab02d305578f0690358df",
+      "decision_variable_count": 167,
+      "denominator": 174,
+      "domain_coordinates_sha256": "89c407c2a1100398c936f401438322e53a192d58ccf8db01fe4f4e47b1fe14da",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        12,
+        19,
+        12,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q174-public-630-r2",
+      "literal_count": 23166,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          630,
+          678,
+          1157,
+          1425,
+          768,
+          1015,
+          913,
+          1006,
+          1005
+        ],
+        "public_score": 0.036529889880030156,
+        "representative_id": 630
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 3552,
+          "literals": 22085
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1106,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 1063,
+      "clause_count": 4043,
+      "clause_sha256": "005f0ed516bfb07b55a682f19e49e5b65c953060bf15fc573d403f079c59ebf2",
+      "decision_variable_count": 167,
+      "denominator": 174,
+      "domain_coordinates_sha256": "9dedcc68a4696080ec42f927d8bad95f46555830493f477aad29b433a9e01bca",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        12,
+        19,
+        12,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q174-public-1004-r2",
+      "literal_count": 23355,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1004
+        ],
+        "public_score": 0.03626928027298876,
+        "representative_id": 1004
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 3575,
+          "literals": 22274
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1106,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 943,
+      "clause_count": 4376,
+      "clause_sha256": "fd660c5e9c9b457f80e34c37808a18d8a5a1ebe8518b693b9f00a89643dcda30",
+      "decision_variable_count": 171,
+      "denominator": 174,
+      "domain_coordinates_sha256": "5b79fa38fd34f9103da9f81a242c18a22fad117f62de8cf69315553c14d72ace",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        12,
+        19,
+        16,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q174-public-649-r2",
+      "literal_count": 23008,
+      "metadata": {
+        "boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "public_ids": [
+          649
+        ],
+        "public_score": 0.033592017119264315,
+        "representative_id": 649
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 480,
+          "literals": 1109
+        },
+        "support": {
+          "clauses": 3896,
+          "literals": 21899
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1106,
+      "total_variable_count": 331
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 882,
+      "clause_count": 4311,
+      "clause_sha256": "801c193a779be913cc6a054890713ead3ae40ffe78fd1de2a036ea4d6dd23d3a",
+      "decision_variable_count": 167,
+      "denominator": 174,
+      "domain_coordinates_sha256": "2ef4194ae98e45ebcb6d64b17580ed641f74862808892341ee782cf14d6be5e1",
+      "domain_sizes": [
+        19,
+        12,
+        19,
+        19,
+        19,
+        12,
+        12,
+        12,
+        19,
+        12,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q174-public-850-r2",
+      "literal_count": 16750,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          850
+        ],
+        "public_score": 0.030931813350982173,
+        "representative_id": 850
+      },
+      "nontrivial_triple_count": 24,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 3843,
+          "literals": 15669
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1106,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 869,
+      "clause_count": 4829,
+      "clause_sha256": "20ffb245517b594f1cac79762280c4ac72a065d5ec7dec6695944cd9d3e375f6",
+      "decision_variable_count": 171,
+      "denominator": 174,
+      "domain_coordinates_sha256": "f25e973b3ad394181e6657c3491ee097cf38ca5e638923ebc34fdd5610c5e382",
+      "domain_sizes": [
+        16,
+        19,
+        19,
+        12,
+        19,
+        12,
+        19,
+        19,
+        12,
+        12,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q174-public-847-r2",
+      "literal_count": 19631,
+      "metadata": {
+        "boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "public_ids": [
+          847
+        ],
+        "public_score": 0.030339841450981453,
+        "representative_id": 847
+      },
+      "nontrivial_triple_count": 27,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 480,
+          "literals": 1109
+        },
+        "support": {
+          "clauses": 4349,
+          "literals": 18522
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1106,
+      "total_variable_count": 331
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 833,
+      "denominator": 174,
+      "domain_coordinates_sha256": "3e4ed39edc447fe8fd7ad4b03ff52c84a9c667aba1761cac551d13751194f66b",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        19,
+        19,
+        16,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 1100,
+          "triple": [
+            1,
+            6,
+            7
+          ]
+        }
+      ],
+      "key": "q174-public-704-r2",
+      "metadata": {
+        "boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "public_ids": [
+          704
+        ],
+        "public_score": 0.02882321539303138,
+        "representative_id": 704
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 1106
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 766,
+      "denominator": 174,
+      "domain_coordinates_sha256": "3bbfc5b37bcbf05dab2c6b5baf3796ed8c1d0b174c563733d84ae328e6477cbd",
+      "domain_sizes": [
+        19,
+        12,
+        19,
+        12,
+        19,
+        6,
+        19,
+        12,
+        12,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 1068,
+          "triple": [
+            0,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 1080,
+          "triple": [
+            3,
+            5,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 1066,
+          "triple": [
+            5,
+            7,
+            10
+          ]
+        }
+      ],
+      "key": "q174-public-1189-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1189
+        ],
+        "public_score": 0.028086432087855193,
+        "representative_id": 1189
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 1106
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 348,
+      "denominator": 174,
+      "domain_coordinates_sha256": "8ea41dd339885c8f8977eafedb85b444858522f99917d52f4df1efa0e799995b",
+      "domain_sizes": [
+        19,
+        12,
+        12,
+        19,
+        6,
+        6,
+        19,
+        19,
+        19,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 1064,
+          "triple": [
+            0,
+            1,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 891,
+          "triple": [
+            0,
+            1,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 956,
+          "triple": [
+            0,
+            2,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 1092,
+          "triple": [
+            0,
+            4,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 852,
+          "triple": [
+            0,
+            6,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 748,
+          "triple": [
+            0,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 775,
+          "triple": [
+            0,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 594,
+          "triple": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 969,
+          "triple": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 850,
+          "triple": [
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 1075,
+          "triple": [
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 1057,
+          "triple": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 880,
+          "triple": [
+            3,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 977,
+          "triple": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 696,
+          "triple": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 1101,
+          "triple": [
+            5,
+            8,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 660,
+          "triple": [
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 749,
+          "triple": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "key": "q174-public-1144-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1144
+        ],
+        "public_score": 0.014837472646413842,
+        "representative_id": 1144
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 1106
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 335,
+      "denominator": 174,
+      "domain_coordinates_sha256": "b08542e2171126bbc0c0441ce9989ef3748cfe77be17525d95f33d7eafe2ae2b",
+      "domain_sizes": [
+        19,
+        19,
+        6,
+        19,
+        12,
+        6,
+        19,
+        19,
+        12,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 819,
+          "triple": [
+            0,
+            1,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 740,
+          "triple": [
+            0,
+            1,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 1053,
+          "triple": [
+            0,
+            1,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 712,
+          "triple": [
+            0,
+            6,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 622,
+          "triple": [
+            0,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 691,
+          "triple": [
+            0,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 696,
+          "triple": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "maximum_numerator": 734,
+          "triple": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 675,
+          "triple": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 732,
+          "triple": [
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 777,
+          "triple": [
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 1060,
+          "triple": [
+            3,
+            6,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 825,
+          "triple": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 934,
+          "triple": [
+            3,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 973,
+          "triple": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 688,
+          "triple": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 967,
+          "triple": [
+            4,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 1084,
+          "triple": [
+            5,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 677,
+          "triple": [
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 674,
+          "triple": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "key": "q174-public-1111-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1111
+        ],
+        "public_score": 0.013144663385381455,
+        "representative_id": 1111
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 1106
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 1532,
+      "clause_count": 4109,
+      "clause_sha256": "57716161b6b1be54d5cfb2b239672d4bd6cb56dd71b5774a26ae9c157b18c6db",
+      "decision_variable_count": 167,
+      "denominator": 210,
+      "domain_coordinates_sha256": "0e3ea85395bada626a19fa58c371832ba71793e269531cae95e4b81b1b926a58",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        12,
+        19,
+        12,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q210-public-630-r2",
+      "literal_count": 23057,
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          630,
+          678,
+          1157,
+          1425,
+          768,
+          1015,
+          913,
+          1006,
+          1005,
+          1004
+        ],
+        "public_score": 0.036529889880030156,
+        "representative_id": 630
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 468,
+          "literals": 1081
+        },
+        "support": {
+          "clauses": 3641,
+          "literals": 21976
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1611,
+      "total_variable_count": 323
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 1488,
+      "clause_count": 4131,
+      "clause_sha256": "6c27711945ec87bc4e52fed04d977a80b2cfd9852864044ff314ad1dd63f3308",
+      "decision_variable_count": 171,
+      "denominator": 210,
+      "domain_coordinates_sha256": "6df7d0b3cb574e381aaaf9395348a741e14eb96365702fefc79dbca5e9d0bcc0",
+      "domain_sizes": [
+        12,
+        12,
+        19,
+        19,
+        19,
+        12,
+        19,
+        16,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [],
+      "key": "q210-public-649-r2",
+      "literal_count": 23290,
+      "metadata": {
+        "boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "public_ids": [
+          649
+        ],
+        "public_score": 0.033592017119264315,
+        "representative_id": 649
+      },
+      "nontrivial_triple_count": 22,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 480,
+          "literals": 1109
+        },
+        "support": {
+          "clauses": 3651,
+          "literals": 22181
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1611,
+      "total_variable_count": 331
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 1278,
+      "denominator": 210,
+      "domain_coordinates_sha256": "be6f8d3da12cc406f13ecfdb520a4a05fce78653bd98e4ec74f54f98ba7aa54d",
+      "domain_sizes": [
+        19,
+        12,
+        19,
+        19,
+        19,
+        12,
+        12,
+        12,
+        19,
+        12,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 1592,
+          "triple": [
+            0,
+            4,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 1610,
+          "triple": [
+            1,
+            3,
+            4
+          ]
+        },
+        {
+          "maximum_numerator": 1610,
+          "triple": [
+            2,
+            5,
+            10
+          ]
+        }
+      ],
+      "key": "q210-public-850-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          850
+        ],
+        "public_score": 0.030931813350982173,
+        "representative_id": 850
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 1611
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 1250,
+      "denominator": 210,
+      "domain_coordinates_sha256": "24494f4cf5f34c1282259ea0bfea2cece79cbf4a19a970c48f911f18bf73e087",
+      "domain_sizes": [
+        16,
+        19,
+        19,
+        12,
+        19,
+        12,
+        19,
+        19,
+        12,
+        12,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 1569,
+          "triple": [
+            4,
+            5,
+            10
+          ]
+        }
+      ],
+      "key": "q210-public-847-r2",
+      "metadata": {
+        "boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "public_ids": [
+          847
+        ],
+        "public_score": 0.030339841450981453,
+        "representative_id": 847
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 1611
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        0
+      ],
+      "center_minimum_numerator": 1197,
+      "denominator": 210,
+      "domain_coordinates_sha256": "97b3bc4d9fafd785961bdaddb5572fff4d1b8eae976a3288390fe8fd122d94ed",
+      "domain_sizes": [
+        12,
+        16,
+        19,
+        19,
+        19,
+        19,
+        19,
+        16,
+        12,
+        19,
+        12
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 1563,
+          "triple": [
+            1,
+            6,
+            7
+          ]
+        }
+      ],
+      "key": "q210-public-704-r2",
+      "metadata": {
+        "boundary_counts": [
+          1,
+          2,
+          0
+        ],
+        "public_ids": [
+          704
+        ],
+        "public_score": 0.02882321539303138,
+        "representative_id": 704
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 1611
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 1134,
+      "denominator": 210,
+      "domain_coordinates_sha256": "45f6d49767ef2580d269bb9f1653a4731ff1a61a41226d663029926f7e56a5c8",
+      "domain_sizes": [
+        19,
+        12,
+        19,
+        12,
+        19,
+        6,
+        19,
+        12,
+        12,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 1498,
+          "triple": [
+            0,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 1470,
+          "triple": [
+            5,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 1545,
+          "triple": [
+            6,
+            7,
+            10
+          ]
+        }
+      ],
+      "key": "q210-public-1189-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1189
+        ],
+        "public_score": 0.028086432087855193,
+        "representative_id": 1189
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 1611
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 582,
+      "denominator": 210,
+      "domain_coordinates_sha256": "554d5cc4cfa6e9b5edad31f0b18685de9174255c7149f7e715a3a93f0553344f",
+      "domain_sizes": [
+        19,
+        12,
+        12,
+        19,
+        6,
+        6,
+        19,
+        19,
+        19,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 1419,
+          "triple": [
+            0,
+            1,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 1249,
+          "triple": [
+            0,
+            1,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 1286,
+          "triple": [
+            0,
+            2,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 1602,
+          "triple": [
+            0,
+            2,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 1363,
+          "triple": [
+            0,
+            4,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 1215,
+          "triple": [
+            0,
+            6,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 1003,
+          "triple": [
+            0,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 990,
+          "triple": [
+            0,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 830,
+          "triple": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 1314,
+          "triple": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 1020,
+          "triple": [
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 1338,
+          "triple": [
+            2,
+            5,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 1496,
+          "triple": [
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 1444,
+          "triple": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 1221,
+          "triple": [
+            3,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 1334,
+          "triple": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 1050,
+          "triple": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 1382,
+          "triple": [
+            5,
+            8,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 936,
+          "triple": [
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 980,
+          "triple": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "key": "q210-public-1144-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1144
+        ],
+        "public_score": 0.014837472646413842,
+        "representative_id": 1144
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 1611
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 492,
+      "denominator": 210,
+      "domain_coordinates_sha256": "bf0995d01bc2cc08d7db85b7c86ca7ccd7c1d68d45c367f5503004eccf89bb5f",
+      "domain_sizes": [
+        19,
+        19,
+        6,
+        19,
+        12,
+        6,
+        19,
+        19,
+        12,
+        19,
+        19
+      ],
+      "family": "public_basin_radius2",
+      "impossible_triples": [
+        {
+          "maximum_numerator": 1187,
+          "triple": [
+            0,
+            1,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 927,
+          "triple": [
+            0,
+            1,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 1438,
+          "triple": [
+            0,
+            1,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 1360,
+          "triple": [
+            0,
+            2,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 919,
+          "triple": [
+            0,
+            6,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 911,
+          "triple": [
+            0,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 1032,
+          "triple": [
+            0,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 1050,
+          "triple": [
+            1,
+            2,
+            5
+          ]
+        },
+        {
+          "maximum_numerator": 907,
+          "triple": [
+            1,
+            2,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 994,
+          "triple": [
+            1,
+            3,
+            6
+          ]
+        },
+        {
+          "maximum_numerator": 1006,
+          "triple": [
+            2,
+            4,
+            8
+          ]
+        },
+        {
+          "maximum_numerator": 998,
+          "triple": [
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 1540,
+          "triple": [
+            3,
+            6,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 1172,
+          "triple": [
+            3,
+            7,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 1200,
+          "triple": [
+            3,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 1341,
+          "triple": [
+            3,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 1035,
+          "triple": [
+            4,
+            5,
+            7
+          ]
+        },
+        {
+          "maximum_numerator": 1383,
+          "triple": [
+            4,
+            6,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 1272,
+          "triple": [
+            5,
+            8,
+            9
+          ]
+        },
+        {
+          "maximum_numerator": 802,
+          "triple": [
+            7,
+            9,
+            10
+          ]
+        },
+        {
+          "maximum_numerator": 990,
+          "triple": [
+            8,
+            9,
+            10
+          ]
+        }
+      ],
+      "key": "q210-public-1111-r2",
+      "metadata": {
+        "boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "public_ids": [
+          1111
+        ],
+        "public_score": 0.013144663385381455,
+        "representative_id": 1111
+      },
+      "status": "triple_upper_bound_unsatisfiable",
+      "threshold_numerator": 1611
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        1,
+        1
+      ],
+      "center_minimum_numerator": 791,
+      "clause_count": 2378,
+      "clause_sha256": "b123b0b90d09f78f130b7360f392ed6cc4d57ca63c5b66fad4a1b172cf07066d",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "da13eeeed211274f9c558a0cda4510907b49d1951d6872d9c9cab3c57a7ecd5b",
+      "domain_sizes": [
+        12,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        12,
+        19,
+        5
+      ],
+      "family": "forced_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-birth-side0-label10-proportional",
+      "literal_count": 12605,
+      "metadata": {
+        "born": [
+          [
+            10,
+            0
+          ]
+        ],
+        "center_boundary_counts": [
+          2,
+          1,
+          1
+        ],
+        "redistribution": "proportional",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 1994,
+          "literals": 11720
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        1,
+        1
+      ],
+      "center_minimum_numerator": 791,
+      "clause_count": 2378,
+      "clause_sha256": "b123b0b90d09f78f130b7360f392ed6cc4d57ca63c5b66fad4a1b172cf07066d",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "da13eeeed211274f9c558a0cda4510907b49d1951d6872d9c9cab3c57a7ecd5b",
+      "domain_sizes": [
+        12,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        12,
+        19,
+        5
+      ],
+      "family": "forced_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-birth-side0-label10-first",
+      "literal_count": 12605,
+      "metadata": {
+        "born": [
+          [
+            10,
+            0
+          ]
+        ],
+        "center_boundary_counts": [
+          2,
+          1,
+          1
+        ],
+        "redistribution": "first",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 1994,
+          "literals": 11720
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        1,
+        1
+      ],
+      "center_minimum_numerator": 791,
+      "clause_count": 2459,
+      "clause_sha256": "c48cce53406276875b2da23c246ef62f4801639a189d7a2de4fec99645416ac1",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "e4f0fc842eaf104a86db6e597c29fb8e60ef72b7fd526c31b9c4722df5984cdb",
+      "domain_sizes": [
+        12,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        12,
+        19,
+        5
+      ],
+      "family": "forced_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-birth-side0-label10-second",
+      "literal_count": 12583,
+      "metadata": {
+        "born": [
+          [
+            10,
+            0
+          ]
+        ],
+        "center_boundary_counts": [
+          2,
+          1,
+          1
+        ],
+        "redistribution": "second",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 2075,
+          "literals": 11698
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 791,
+      "clause_count": 2421,
+      "clause_sha256": "c654e09c6f0dbfa75bfd92c480a4f1d38dd9c1ea8f53d8d909a2c09ab086000c",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "653d194c7e73551e5d3f91b5cad7bb19da8d575fd50f47a5d871640600ce46d4",
+      "domain_sizes": [
+        12,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        12
+      ],
+      "family": "forced_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-birth-side1-label8-proportional",
+      "literal_count": 12520,
+      "metadata": {
+        "born": [
+          [
+            8,
+            1
+          ]
+        ],
+        "center_boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "redistribution": "proportional",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 2037,
+          "literals": 11635
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 737,
+      "clause_count": 2415,
+      "clause_sha256": "6fc3fb5b8eec0a4bc4e60afded95102924ee112e1edcefbb4aa59310b07c8e3e",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "aa437bfff0dd378a24a8063f7269b415dcfa0521e1c4f4e339ea35323cc554d9",
+      "domain_sizes": [
+        12,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        12
+      ],
+      "family": "forced_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-birth-side1-label8-first",
+      "literal_count": 12365,
+      "metadata": {
+        "born": [
+          [
+            8,
+            1
+          ]
+        ],
+        "center_boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "redistribution": "first",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 2031,
+          "literals": 11480
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 791,
+      "clause_count": 2421,
+      "clause_sha256": "c654e09c6f0dbfa75bfd92c480a4f1d38dd9c1ea8f53d8d909a2c09ab086000c",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "653d194c7e73551e5d3f91b5cad7bb19da8d575fd50f47a5d871640600ce46d4",
+      "domain_sizes": [
+        12,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        12
+      ],
+      "family": "forced_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-birth-side1-label8-second",
+      "literal_count": 12520,
+      "metadata": {
+        "born": [
+          [
+            8,
+            1
+          ]
+        ],
+        "center_boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "redistribution": "second",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 2037,
+          "literals": 11635
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        1,
+        2
+      ],
+      "center_minimum_numerator": 768,
+      "clause_count": 2314,
+      "clause_sha256": "0d64d9784eb36ef54001aab011e952983e4a392e54071f8238852980179a4083",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "7761de435f0a9399012e24e74db96256b50af657d9379fb0b66f50256fa7641a",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        12,
+        19,
+        12
+      ],
+      "family": "forced_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-birth-side2-label0-proportional",
+      "literal_count": 12514,
+      "metadata": {
+        "born": [
+          [
+            0,
+            2
+          ]
+        ],
+        "center_boundary_counts": [
+          1,
+          1,
+          2
+        ],
+        "redistribution": "proportional",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 1930,
+          "literals": 11629
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        1,
+        2
+      ],
+      "center_minimum_numerator": 768,
+      "clause_count": 2321,
+      "clause_sha256": "6f0bf3fa789be8a5697a6f75eb0c2461560aeb9df6dddf4985729d8ad8434eb1",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "02b6fc7f573d492d526b62952e9c57e492b357d71878d43bcb0aced252344d02",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        12,
+        19,
+        12
+      ],
+      "family": "forced_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-birth-side2-label0-first",
+      "literal_count": 12499,
+      "metadata": {
+        "born": [
+          [
+            0,
+            2
+          ]
+        ],
+        "center_boundary_counts": [
+          1,
+          1,
+          2
+        ],
+        "redistribution": "first",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 1937,
+          "literals": 11614
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        1,
+        2
+      ],
+      "center_minimum_numerator": 768,
+      "clause_count": 2314,
+      "clause_sha256": "0d64d9784eb36ef54001aab011e952983e4a392e54071f8238852980179a4083",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "7761de435f0a9399012e24e74db96256b50af657d9379fb0b66f50256fa7641a",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        12,
+        19,
+        12
+      ],
+      "family": "forced_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-birth-side2-label0-second",
+      "literal_count": 12514,
+      "metadata": {
+        "born": [
+          [
+            0,
+            2
+          ]
+        ],
+        "center_boundary_counts": [
+          1,
+          1,
+          2
+        ],
+        "redistribution": "second",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 1930,
+          "literals": 11629
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 791,
+      "clause_count": 2106,
+      "clause_sha256": "47a792c3713826cca1f436ceb1350d1442275e384c831322b6d6d130ad79e377",
+      "decision_variable_count": 132,
+      "denominator": 156,
+      "domain_coordinates_sha256": "ad90bf45fa59e6a7651e3204f44deb9de3d313ee7b0802fcea9fbde3b08f0cb5",
+      "domain_sizes": [
+        12,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-double-birth-sides01-labels10-8",
+      "literal_count": 10633,
+      "metadata": {
+        "born": [
+          [
+            10,
+            0
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "center_boundary_counts": [
+          2,
+          2,
+          1
+        ],
+        "redistribution": "proportional",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 363,
+          "literals": 836
+        },
+        "support": {
+          "clauses": 1743,
+          "literals": 9797
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 253
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        1,
+        2
+      ],
+      "center_minimum_numerator": 807,
+      "clause_count": 1965,
+      "clause_sha256": "83accb14d793264b4762141cb3069fd8bfb2d4ddb95add6c560244d11e4a17ba",
+      "decision_variable_count": 132,
+      "denominator": 156,
+      "domain_coordinates_sha256": "f203031d16dff8046a71ed3a0ca06136018c1aa0a5a39da029fb0e3c4bee823e",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        12,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-double-birth-sides02-labels10-0",
+      "literal_count": 10489,
+      "metadata": {
+        "born": [
+          [
+            10,
+            0
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "center_boundary_counts": [
+          2,
+          1,
+          2
+        ],
+        "redistribution": "proportional",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 363,
+          "literals": 836
+        },
+        "support": {
+          "clauses": 1602,
+          "literals": 9653
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 253
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 791,
+      "clause_count": 2106,
+      "clause_sha256": "43e49240d2cdbb910a9def06fbc92173d41975c798cd0e0f0a22426ff7fabe92",
+      "decision_variable_count": 132,
+      "denominator": 156,
+      "domain_coordinates_sha256": "27f1814fbfead949ded038182efe534f7c874791466b30f32b5dcbd4b210cc99",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        12
+      ],
+      "family": "forced_double_boundary_birth",
+      "impossible_triples": [],
+      "key": "q156-double-birth-sides12-labels8-0",
+      "literal_count": 10633,
+      "metadata": {
+        "born": [
+          [
+            8,
+            1
+          ],
+          [
+            0,
+            2
+          ]
+        ],
+        "center_boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "redistribution": "proportional",
+        "source_public_id": 1015
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 363,
+          "literals": 836
+        },
+        "support": {
+          "clauses": 1743,
+          "literals": 9797
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 253
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 671,
+      "clause_count": 2301,
+      "clause_sha256": "782a4f6d6096465eeebef744b1153f70323fa1666be455c90a37575f18ed40d0",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "016d2f53570bd5096dddf421bdcad692306357c0b251293bc1e78c86a4b0c700",
+      "domain_sizes": [
+        19,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_single_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-0s2",
+      "literal_count": 12451,
+      "metadata": {
+        "center_boundary_counts": [
+          2,
+          2,
+          1
+        ],
+        "deaths": [
+          [
+            0,
+            2
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 22,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 1917,
+          "literals": 11566
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 517,
+      "clause_count": 2387,
+      "clause_sha256": "d22179393b677126d93cbd3909c696847ba8604bb4b79d0cad5c92a3fa6f4e43",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "a54cf9745308bebf7725ccddc708a140fc578eb46d77575eb506411f39850c95",
+      "domain_sizes": [
+        5,
+        19,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_single_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-1s2",
+      "literal_count": 13891,
+      "metadata": {
+        "center_boundary_counts": [
+          2,
+          2,
+          1
+        ],
+        "deaths": [
+          [
+            1,
+            2
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 24,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 2003,
+          "literals": 13006
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        1,
+        2
+      ],
+      "center_minimum_numerator": 601,
+      "clause_count": 2220,
+      "clause_sha256": "09c62d7c805117b9fb0961ef3191a66600c2a7d05edee394c3c4a6207a119099",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "0e0e4449dc3036cddc512a02869c6e799c8f06a53164fa1173b02cdca07f936e",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        19,
+        19,
+        5,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_single_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-5s1",
+      "literal_count": 11898,
+      "metadata": {
+        "center_boundary_counts": [
+          2,
+          1,
+          2
+        ],
+        "deaths": [
+          [
+            5,
+            1
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 22,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 1836,
+          "literals": 11013
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 517,
+      "clause_count": 2387,
+      "clause_sha256": "438bf9fec04e977eb69b27f5d1cf90ae3a60ed243687aab4bc030671f3f78b00",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "8b3ec3f9b7adb6cbce5307e05401645b5791e34a93f67824b242c500db2767ba",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        19,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_single_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-7s0",
+      "literal_count": 13891,
+      "metadata": {
+        "center_boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "deaths": [
+          [
+            7,
+            0
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 24,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 2003,
+          "literals": 13006
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        1,
+        2
+      ],
+      "center_minimum_numerator": 601,
+      "clause_count": 2220,
+      "clause_sha256": "3f4aafafca3c8b979d3de5ff1351078bc239b0966db48f15a9d4d50ec4522ce7",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "06aef83d3aec6edd9b6f6e96a1e9c6ba625a92cf96a1619f69fb523ba1bb6b41",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        19,
+        19,
+        5
+      ],
+      "family": "forced_single_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-8s1",
+      "literal_count": 11898,
+      "metadata": {
+        "center_boundary_counts": [
+          2,
+          1,
+          2
+        ],
+        "deaths": [
+          [
+            8,
+            1
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 22,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 1836,
+          "literals": 11013
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 671,
+      "clause_count": 2301,
+      "clause_sha256": "cf93e5779eac8e0efa043ae47a1b448e98dddc79823e8c02a0b2c7d0169b16be",
+      "decision_variable_count": 139,
+      "denominator": 156,
+      "domain_coordinates_sha256": "c2d1b7b282286a3ebcbdab22594ce680638c97e3bdb824afb482c07aafe974d9",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        19
+      ],
+      "family": "forced_single_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-10s0",
+      "literal_count": 12451,
+      "metadata": {
+        "center_boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "deaths": [
+          [
+            10,
+            0
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 22,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 384,
+          "literals": 885
+        },
+        "support": {
+          "clauses": 1917,
+          "literals": 11566
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 267
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        0
+      ],
+      "center_minimum_numerator": 595,
+      "clause_count": 3074,
+      "clause_sha256": "509588ee1df7b3ebc3374af34fd4a1fd3fa89cfcebb14da15aea154b5b26aa77",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "8c2d2e288048bf7ffdf61eedcdfb4cc7346d31ab9aea4ed82aa60f78c0f5e1a3",
+      "domain_sizes": [
+        19,
+        19,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-0s2-1s2",
+      "literal_count": 18078,
+      "metadata": {
+        "center_boundary_counts": [
+          2,
+          2,
+          0
+        ],
+        "deaths": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 25,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2648,
+          "literals": 17095
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        1,
+        1
+      ],
+      "center_minimum_numerator": 601,
+      "clause_count": 2962,
+      "clause_sha256": "1c07ab95e932df10c2942cb2cf2784dd2a467caf8d09442274236841b3f0c318",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "fa046f1aafb90f30b4e9d29b0c3a6e31c980071c021fc41d31f1bbd1a013c9cf",
+      "domain_sizes": [
+        19,
+        5,
+        19,
+        19,
+        19,
+        19,
+        19,
+        5,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-0s2-5s1",
+      "literal_count": 15806,
+      "metadata": {
+        "center_boundary_counts": [
+          2,
+          1,
+          1
+        ],
+        "deaths": [
+          [
+            0,
+            2
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2536,
+          "literals": 14823
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 517,
+      "clause_count": 2936,
+      "clause_sha256": "70a41aa5ac3493949bebaa02b7a391cef396f24637d9d5942440a0e8b3c84bac",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "d362cc78e20721aedd8f10c8fa538abca4c45bac8389ca1acfa48a2b39c5564e",
+      "domain_sizes": [
+        19,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        19,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-0s2-7s0",
+      "literal_count": 18384,
+      "metadata": {
+        "center_boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "deaths": [
+          [
+            0,
+            2
+          ],
+          [
+            7,
+            0
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 25,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2510,
+          "literals": 17401
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        1,
+        1
+      ],
+      "center_minimum_numerator": 601,
+      "clause_count": 2925,
+      "clause_sha256": "73b091871de340eaf028673d448f52fcee3497de51919dddbc5fcef69c5a00c2",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "ba51b179535a491e8877d99cf713e1547347d2755f02b1b41e6e2f9d4fae0c65",
+      "domain_sizes": [
+        19,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        19,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-0s2-8s1",
+      "literal_count": 16442,
+      "metadata": {
+        "center_boundary_counts": [
+          2,
+          1,
+          1
+        ],
+        "deaths": [
+          [
+            0,
+            2
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2499,
+          "literals": 15459
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 671,
+      "clause_count": 2983,
+      "clause_sha256": "68fa39bce7e72d02264dbb5eb8165ebe74ba89d4c03f4da18af24871b26dc2c6",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "14b8aa1719dfc9c6117dca4776689085bd44c076e2ed01b6cc79c9b35b0e0c9a",
+      "domain_sizes": [
+        19,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        19
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-0s2-10s0",
+      "literal_count": 17810,
+      "metadata": {
+        "center_boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "deaths": [
+          [
+            0,
+            2
+          ],
+          [
+            10,
+            0
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2557,
+          "literals": 16827
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        1,
+        1
+      ],
+      "center_minimum_numerator": 517,
+      "clause_count": 2830,
+      "clause_sha256": "600931f8aee3bf455b0552826741025a0b7c5163792f958a92b4f931cfaa8faa",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "bc98f2f1baffa9b0b33427e76136f59325fabf67a2709f96cdc6b628a0bdb286",
+      "domain_sizes": [
+        5,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        5,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-1s2-5s1",
+      "literal_count": 17384,
+      "metadata": {
+        "center_boundary_counts": [
+          2,
+          1,
+          1
+        ],
+        "deaths": [
+          [
+            1,
+            2
+          ],
+          [
+            5,
+            1
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 25,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2404,
+          "literals": 16401
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 517,
+      "clause_count": 3206,
+      "clause_sha256": "cfc102e19ef5356a390b7ee736da20ff4767ee22b0689b4137f064bd4cbbdcbf",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "30d572adaec8d7219d6f4c90029573de239d31c95af01df85a1f12f72e3e962a",
+      "domain_sizes": [
+        5,
+        19,
+        19,
+        19,
+        19,
+        5,
+        19,
+        19,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-1s2-7s0",
+      "literal_count": 20309,
+      "metadata": {
+        "center_boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "deaths": [
+          [
+            1,
+            2
+          ],
+          [
+            7,
+            0
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 27,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2780,
+          "literals": 19326
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        1,
+        1
+      ],
+      "center_minimum_numerator": 517,
+      "clause_count": 2810,
+      "clause_sha256": "2e3960148acedd11e7ec0068738e24a63353d7c6f578c9f3d0f11a6f3679b1fd",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "77d548e260e87e2a8dd07f9df85553530fef09faf75e24983a61b7f2ad0a6ec5",
+      "domain_sizes": [
+        5,
+        19,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        19,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-1s2-8s1",
+      "literal_count": 16973,
+      "metadata": {
+        "center_boundary_counts": [
+          2,
+          1,
+          1
+        ],
+        "deaths": [
+          [
+            1,
+            2
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 25,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2384,
+          "literals": 15990
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        2,
+        1
+      ],
+      "center_minimum_numerator": 517,
+      "clause_count": 2936,
+      "clause_sha256": "71c108919d7951f70f3dc780b8d510d91ced9d11e998d5b24b532597ffbdefa7",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "31a5c68faf9630401a9ea73050498aae135337f95a6b67f904ca7add28fc4d5e",
+      "domain_sizes": [
+        5,
+        19,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        5,
+        19,
+        19
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-1s2-10s0",
+      "literal_count": 18384,
+      "metadata": {
+        "center_boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "deaths": [
+          [
+            1,
+            2
+          ],
+          [
+            10,
+            0
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 25,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2510,
+          "literals": 17401
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        1,
+        2
+      ],
+      "center_minimum_numerator": 517,
+      "clause_count": 2810,
+      "clause_sha256": "eb2416eb5d868f754561d8cc453fec05bee86ac3ddabfe1bb866b21e1763cdae",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "904147969881ed8af196a9228122fa48700fa74b93ab63865af4a2e86b244de2",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-5s1-7s0",
+      "literal_count": 16973,
+      "metadata": {
+        "center_boundary_counts": [
+          1,
+          1,
+          2
+        ],
+        "deaths": [
+          [
+            5,
+            1
+          ],
+          [
+            7,
+            0
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 25,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2384,
+          "literals": 15990
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        0,
+        2
+      ],
+      "center_minimum_numerator": 670,
+      "clause_count": 3053,
+      "clause_sha256": "e9e1edbec940b368f44b90ec640ccc4ba2b155c66041a3ad7b7bda03bcfc588f",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "ad733adedf5c45e69516b5cc2ffade345d53da394d8f6b76968914a3307c17b4",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        19,
+        19,
+        5,
+        19,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-5s1-8s1",
+      "literal_count": 16452,
+      "metadata": {
+        "center_boundary_counts": [
+          2,
+          0,
+          2
+        ],
+        "deaths": [
+          [
+            5,
+            1
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2627,
+          "literals": 15469
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        1,
+        2
+      ],
+      "center_minimum_numerator": 601,
+      "clause_count": 2925,
+      "clause_sha256": "d9131575f0bf3a9b6105f09298f00ab52f8c9118815b76024c6c32f089fcb660",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "26f9c70e60b0828364ae2749af49fb9f98641e9c2cc25dd74ee0f0ae96cb2338",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        19,
+        19,
+        5,
+        5,
+        19,
+        19
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-5s1-10s0",
+      "literal_count": 16442,
+      "metadata": {
+        "center_boundary_counts": [
+          1,
+          1,
+          2
+        ],
+        "deaths": [
+          [
+            5,
+            1
+          ],
+          [
+            10,
+            0
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2499,
+          "literals": 15459
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        1,
+        2
+      ],
+      "center_minimum_numerator": 517,
+      "clause_count": 2830,
+      "clause_sha256": "10b8c657b15fd7bb53b88ef21926f92008d3374eec73db327e9102ad74638cba",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "9699789f6c1c1bdcb31a4590d7c8f4e190b1fe83d6b52a612a5da4ec09c45e6d",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        19,
+        19,
+        19,
+        5
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-7s0-8s1",
+      "literal_count": 17384,
+      "metadata": {
+        "center_boundary_counts": [
+          1,
+          1,
+          2
+        ],
+        "deaths": [
+          [
+            7,
+            0
+          ],
+          [
+            8,
+            1
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 25,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2404,
+          "literals": 16401
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        0,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 595,
+      "clause_count": 3074,
+      "clause_sha256": "c49b1f5a74f5aa01025251ef3a1a351e61169d96be4d4e52382dfabd91e32490",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "96aef16c5ba2c21410de2a86c150b8eb6143d108870085d48a23a1c6dd0bbf35",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        19,
+        5,
+        19,
+        19
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-7s0-10s0",
+      "literal_count": 18078,
+      "metadata": {
+        "center_boundary_counts": [
+          0,
+          2,
+          2
+        ],
+        "deaths": [
+          [
+            7,
+            0
+          ],
+          [
+            10,
+            0
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 25,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2648,
+          "literals": 17095
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        1,
+        2
+      ],
+      "center_minimum_numerator": 601,
+      "clause_count": 2962,
+      "clause_sha256": "1cb67d5c3bb626ec4559de078fb2f54b1a3e61d1fa5d8aa0fafa303aeb2cf51e",
+      "decision_variable_count": 153,
+      "denominator": 156,
+      "domain_coordinates_sha256": "b36f2ad37035432cb825c546f34607c361dd7a58b05a5e92357c27d548622cf1",
+      "domain_sizes": [
+        5,
+        5,
+        19,
+        19,
+        19,
+        5,
+        19,
+        5,
+        19,
+        19,
+        19
+      ],
+      "family": "forced_double_boundary_death",
+      "impossible_triples": [],
+      "key": "q156-boundary-death-8s1-10s0",
+      "literal_count": 15806,
+      "metadata": {
+        "center_boundary_counts": [
+          1,
+          1,
+          2
+        ],
+        "deaths": [
+          [
+            8,
+            1
+          ],
+          [
+            10,
+            0
+          ]
+        ],
+        "source_public_id": 630,
+        "surviving_boundary_points_forced": true
+      },
+      "nontrivial_triple_count": 23,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 426,
+          "literals": 983
+        },
+        "support": {
+          "clauses": 2536,
+          "literals": 14823
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 295
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 851,
+      "clause_count": 764,
+      "clause_sha256": "7d0db119d3180e22177b1b21778e3145014a5aaa208533b10941172fc7715cfa",
+      "decision_variable_count": 74,
+      "denominator": 156,
+      "domain_coordinates_sha256": "2a433e0840a66b246caa23fe7bfc3acc80a87ebee6fead5d52dbea1e64e7984f",
+      "domain_sizes": [
+        8,
+        5,
+        7,
+        7,
+        7,
+        5,
+        7,
+        5,
+        8,
+        7,
+        8
+      ],
+      "family": "cross_basin_disconnected_union",
+      "impossible_triples": [],
+      "key": "q156-crossover-630-1015",
+      "literal_count": 2667,
+      "metadata": {
+        "coordinate_permutation": [
+          0,
+          1,
+          2
+        ],
+        "first_boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "matching_inf_max": 1,
+        "matching_l1_inf_sum": 3,
+        "radius_per_component": 1,
+        "second_boundary_counts": [
+          1,
+          1,
+          1
+        ],
+        "secondary_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "source_public_ids": [
+          630,
+          1015
+        ]
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 189,
+          "literals": 430
+        },
+        "support": {
+          "clauses": 575,
+          "literals": 2237
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 137
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 851,
+      "clause_count": 745,
+      "clause_sha256": "9efd70436a7a429f4f47c9324f51102b7bf0a2d100358f0765b39407974ef75e",
+      "decision_variable_count": 72,
+      "denominator": 156,
+      "domain_coordinates_sha256": "d8d918b759abe30839128518b6f45a80933523124da037faabeef57344c85ca6",
+      "domain_sizes": [
+        7,
+        5,
+        7,
+        7,
+        7,
+        5,
+        7,
+        8,
+        5,
+        7,
+        7
+      ],
+      "family": "cross_basin_disconnected_union",
+      "impossible_triples": [],
+      "key": "q156-crossover-630-1006",
+      "literal_count": 2517,
+      "metadata": {
+        "coordinate_permutation": [
+          0,
+          1,
+          2
+        ],
+        "first_boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "matching_inf_max": 1,
+        "matching_l1_inf_sum": 3,
+        "radius_per_component": 1,
+        "second_boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "secondary_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "source_public_ids": [
+          630,
+          1006
+        ]
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 183,
+          "literals": 416
+        },
+        "support": {
+          "clauses": 562,
+          "literals": 2101
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 133
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 851,
+      "clause_count": 1022,
+      "clause_sha256": "6474083d0dab292b1e80ca47d25d0db13c8425bc1f80623cdf6d1ce09a0615a7",
+      "decision_variable_count": 84,
+      "denominator": 156,
+      "domain_coordinates_sha256": "809b454cd3d7f89c1dfd9bb574994b5d7a30dd9424ca932a7cdede5f2c30ef28",
+      "domain_sizes": [
+        5,
+        8,
+        7,
+        7,
+        10,
+        5,
+        10,
+        8,
+        7,
+        10,
+        7
+      ],
+      "family": "cross_basin_disconnected_union",
+      "impossible_triples": [],
+      "key": "q156-crossover-630-649",
+      "literal_count": 3588,
+      "metadata": {
+        "coordinate_permutation": [
+          0,
+          1,
+          2
+        ],
+        "first_boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "matching_inf_max": 1,
+        "matching_l1_inf_sum": 7,
+        "radius_per_component": 1,
+        "second_boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "secondary_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "source_public_ids": [
+          630,
+          649
+        ]
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 219,
+          "literals": 500
+        },
+        "support": {
+          "clauses": 803,
+          "literals": 3088
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 157
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        1,
+        1
+      ],
+      "center_minimum_numerator": 768,
+      "clause_count": 843,
+      "clause_sha256": "86c00a4083269056c4712babb8ef2a3b614fadc0cd9c63b5470de67b17f1357d",
+      "decision_variable_count": 77,
+      "denominator": 156,
+      "domain_coordinates_sha256": "693c48ba4bde4befe1264de38bad16be8c660d86868471f0fda311deee792a06",
+      "domain_sizes": [
+        8,
+        5,
+        7,
+        7,
+        7,
+        5,
+        7,
+        8,
+        8,
+        7,
+        8
+      ],
+      "family": "cross_basin_disconnected_union",
+      "impossible_triples": [],
+      "key": "q156-crossover-1015-1006",
+      "literal_count": 2926,
+      "metadata": {
+        "coordinate_permutation": [
+          0,
+          1,
+          2
+        ],
+        "first_boundary_counts": [
+          1,
+          1,
+          1
+        ],
+        "matching_inf_max": 1,
+        "matching_l1_inf_sum": 4,
+        "radius_per_component": 1,
+        "second_boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "secondary_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "source_public_ids": [
+          1015,
+          1006
+        ]
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 198,
+          "literals": 451
+        },
+        "support": {
+          "clauses": 645,
+          "literals": 2475
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 889,
+      "total_variable_count": 143
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 1078,
+      "clause_count": 744,
+      "clause_sha256": "24a687a68e9881a2e6f9db4b9023cbbb633954366049a4acc0fb54dd353bcc5c",
+      "decision_variable_count": 74,
+      "denominator": 174,
+      "domain_coordinates_sha256": "e648667f0b3b66ffa9eac6f7bb438164a860ab7f0a4419a1c7ee8335fa94478f",
+      "domain_sizes": [
+        8,
+        5,
+        7,
+        7,
+        7,
+        5,
+        7,
+        5,
+        8,
+        7,
+        8
+      ],
+      "family": "cross_basin_disconnected_union",
+      "impossible_triples": [],
+      "key": "q174-crossover-630-1015",
+      "literal_count": 2607,
+      "metadata": {
+        "coordinate_permutation": [
+          0,
+          1,
+          2
+        ],
+        "first_boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "matching_inf_max": 1,
+        "matching_l1_inf_sum": 3,
+        "radius_per_component": 1,
+        "second_boundary_counts": [
+          1,
+          1,
+          1
+        ],
+        "secondary_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "source_public_ids": [
+          630,
+          1015
+        ]
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 189,
+          "literals": 430
+        },
+        "support": {
+          "clauses": 555,
+          "literals": 2177
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1106,
+      "total_variable_count": 137
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 1078,
+      "clause_count": 650,
+      "clause_sha256": "064ba6ae9202e84f2e0085c4964a97ecf2943e52a9a2c6370d1712a2aa1dae64",
+      "decision_variable_count": 68,
+      "denominator": 174,
+      "domain_coordinates_sha256": "ab0b83a0a8e82e9c17291b36510a3bfd0d1e5c060aef8a53138ffe90988989ef",
+      "domain_sizes": [
+        5,
+        5,
+        7,
+        7,
+        7,
+        5,
+        7,
+        8,
+        5,
+        7,
+        5
+      ],
+      "family": "cross_basin_disconnected_union",
+      "impossible_triples": [],
+      "key": "q174-crossover-630-1006",
+      "literal_count": 2147,
+      "metadata": {
+        "coordinate_permutation": [
+          0,
+          1,
+          2
+        ],
+        "first_boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "matching_inf_max": 1,
+        "matching_l1_inf_sum": 1,
+        "radius_per_component": 1,
+        "second_boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "secondary_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "source_public_ids": [
+          630,
+          1006
+        ]
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 171,
+          "literals": 388
+        },
+        "support": {
+          "clauses": 479,
+          "literals": 1759
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1106,
+      "total_variable_count": 125
+    },
+    {
+      "center_boundary_counts": [
+        2,
+        2,
+        2
+      ],
+      "center_minimum_numerator": 1078,
+      "clause_count": 981,
+      "clause_sha256": "6b63cb93f4077bf7814192cd14ca3fe8182bc2c9bbf049fab9e1faa94cb424ba",
+      "decision_variable_count": 82,
+      "denominator": 174,
+      "domain_coordinates_sha256": "f94e693c38d7082d3d5a5dc68cab029fe0956866c7d74f8ea312b0b1060bb781",
+      "domain_sizes": [
+        5,
+        8,
+        7,
+        10,
+        10,
+        5,
+        7,
+        8,
+        7,
+        10,
+        5
+      ],
+      "family": "cross_basin_disconnected_union",
+      "impossible_triples": [],
+      "key": "q174-crossover-630-649",
+      "literal_count": 3344,
+      "metadata": {
+        "coordinate_permutation": [
+          0,
+          1,
+          2
+        ],
+        "first_boundary_counts": [
+          2,
+          2,
+          2
+        ],
+        "matching_inf_max": 1,
+        "matching_l1_inf_sum": 6,
+        "radius_per_component": 1,
+        "second_boundary_counts": [
+          1,
+          2,
+          1
+        ],
+        "secondary_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "source_public_ids": [
+          630,
+          649
+        ]
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 213,
+          "literals": 486
+        },
+        "support": {
+          "clauses": 768,
+          "literals": 2858
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1106,
+      "total_variable_count": 153
+    },
+    {
+      "center_boundary_counts": [
+        1,
+        1,
+        1
+      ],
+      "center_minimum_numerator": 977,
+      "clause_count": 794,
+      "clause_sha256": "778c93e491e67da4e8e4dc4d585c736666e5882761772b19b8667ecbf5b36e18",
+      "decision_variable_count": 77,
+      "denominator": 174,
+      "domain_coordinates_sha256": "e8ae978dbca5e769f9e6a6a2ce846193e1ff0a7e1cd4031f42186896296f5c0a",
+      "domain_sizes": [
+        8,
+        5,
+        7,
+        7,
+        7,
+        5,
+        7,
+        8,
+        8,
+        7,
+        8
+      ],
+      "family": "cross_basin_disconnected_union",
+      "impossible_triples": [],
+      "key": "q174-crossover-1015-1006",
+      "literal_count": 2785,
+      "metadata": {
+        "coordinate_permutation": [
+          0,
+          1,
+          2
+        ],
+        "first_boundary_counts": [
+          1,
+          1,
+          1
+        ],
+        "matching_inf_max": 1,
+        "matching_l1_inf_sum": 4,
+        "radius_per_component": 1,
+        "second_boundary_counts": [
+          1,
+          2,
+          2
+        ],
+        "secondary_assignment": [
+          0,
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ],
+        "source_public_ids": [
+          1015,
+          1006
+        ]
+      },
+      "nontrivial_triple_count": 21,
+      "section_counts": {
+        "exactly_one": {
+          "clauses": 198,
+          "literals": 451
+        },
+        "support": {
+          "clauses": 596,
+          "literals": 2334
+        }
+      },
+      "status": "unsatisfiable",
+      "threshold_numerator": 1106,
+      "total_variable_count": 143
+    }
+  ],
+  "schema": 1,
+  "screen_sha256": "5d24c5e559e50374b27ae22383fd8c9dbf0ffca14bb4f0342285320375d4d066",
+  "search_source_sha256": "67ac382fa33eafbfec8233f59b0269533e2cecafbcb8c05c754843024fc77271",
+  "snapshot_sha256": "e6332c0715a82c9e62d9029385a7db1cab46549bf482ff65dca30e9ee5468d90",
+  "target_strictly_above_decimal": "0.036529890880030155",
+  "verifier_sha256": "6afecf9539c4e9038cd6188e4e77efec00c9905b688728ad58f69dbfedc2441d"
+}

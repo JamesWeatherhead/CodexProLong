@@ -1,0 +1,1255 @@
+{
+  "asset_recovery_reports": {
+    "14": {
+      "cost": 9.873087266906726e-30,
+      "diameter_squared": 10.994717905673024,
+      "finite_distinct": true,
+      "jacobian_rank": 25,
+      "max_residual": 3.552713678800501e-15,
+      "maximum": 3.3158283890565,
+      "maximum_edges": [
+        [
+          0,
+          13
+        ],
+        [
+          1,
+          12
+        ],
+        [
+          2,
+          11
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          12
+        ],
+        [
+          5,
+          6
+        ]
+      ],
+      "method": "contact_equalities",
+      "minimum": 0.9999999999999998,
+      "minimum_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          5,
+          7
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          11
+        ],
+        [
+          7,
+          9
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          9,
+          12
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          10,
+          12
+        ],
+        [
+          11,
+          13
+        ]
+      ],
+      "score": 10.994717905673031,
+      "variable_count": 25
+    },
+    "15": {
+      "cost": 1.4766490069605815e-29,
+      "diameter_squared": 12.038438277928677,
+      "finite_distinct": true,
+      "jacobian_rank": 27,
+      "max_residual": 3.552713678800501e-15,
+      "maximum": 3.4696452668722024,
+      "maximum_edges": [
+        [
+          0,
+          12
+        ],
+        [
+          0,
+          13
+        ],
+        [
+          0,
+          14
+        ],
+        [
+          1,
+          13
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          4,
+          13
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          6,
+          12
+        ]
+      ],
+      "method": "contact_equalities",
+      "minimum": 0.9999999999999997,
+      "minimum_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          1,
+          4
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          5
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          7
+        ],
+        [
+          5,
+          6
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          11
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          10
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          10,
+          13
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          14
+        ],
+        [
+          13,
+          14
+        ]
+      ],
+      "score": 12.038438277928686,
+      "variable_count": 27
+    },
+    "17": {
+      "cost": 2.17368157243321e-29,
+      "diameter_squared": 14.090518704772531,
+      "finite_distinct": true,
+      "jacobian_rank": 31,
+      "max_residual": 3.552713678800501e-15,
+      "maximum": 3.7537339683004354,
+      "maximum_edges": [
+        [
+          0,
+          15
+        ],
+        [
+          0,
+          16
+        ],
+        [
+          1,
+          14
+        ],
+        [
+          2,
+          13
+        ],
+        [
+          4,
+          6
+        ],
+        [
+          4,
+          10
+        ],
+        [
+          6,
+          13
+        ]
+      ],
+      "method": "contact_equalities",
+      "minimum": 0.9999999999999997,
+      "minimum_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          3
+        ],
+        [
+          1,
+          5
+        ],
+        [
+          2,
+          3
+        ],
+        [
+          2,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          3,
+          8
+        ],
+        [
+          4,
+          5
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          8
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          10
+        ],
+        [
+          7,
+          8
+        ],
+        [
+          7,
+          10
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          8,
+          12
+        ],
+        [
+          9,
+          11
+        ],
+        [
+          9,
+          13
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          13
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          12,
+          14
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          16
+        ]
+      ],
+      "score": 14.090518704772544,
+      "variable_count": 31
+    },
+    "18": {
+      "anchor": [
+        11,
+        12
+      ],
+      "finite_distinct": true,
+      "locked_edge_count": 23,
+      "maximum": 3.8373527452771166,
+      "maximum_edges": [
+        [
+          0,
+          17
+        ],
+        [
+          1,
+          16
+        ],
+        [
+          2,
+          12
+        ],
+        [
+          2,
+          15
+        ],
+        [
+          3,
+          10
+        ],
+        [
+          3,
+          16
+        ],
+        [
+          5,
+          12
+        ],
+        [
+          7,
+          10
+        ]
+      ],
+      "method": "contact_lock_then_full_epigraph",
+      "minimum": 0.9999999999999979,
+      "minimum_edges": [
+        [
+          0,
+          1
+        ],
+        [
+          0,
+          2
+        ],
+        [
+          0,
+          4
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          5
+        ],
+        [
+          3,
+          6
+        ],
+        [
+          3,
+          7
+        ],
+        [
+          4,
+          8
+        ],
+        [
+          4,
+          9
+        ],
+        [
+          5,
+          9
+        ],
+        [
+          5,
+          10
+        ],
+        [
+          6,
+          7
+        ],
+        [
+          6,
+          8
+        ],
+        [
+          7,
+          12
+        ],
+        [
+          8,
+          9
+        ],
+        [
+          8,
+          11
+        ],
+        [
+          9,
+          14
+        ],
+        [
+          10,
+          14
+        ],
+        [
+          11,
+          12
+        ],
+        [
+          11,
+          15
+        ],
+        [
+          12,
+          15
+        ],
+        [
+          13,
+          16
+        ],
+        [
+          14,
+          16
+        ],
+        [
+          15,
+          17
+        ],
+        [
+          16,
+          17
+        ]
+      ],
+      "ranked_signature": "8982f8ee66912f714309498ab83eee6f2eae2572167e5b199e1267ae931d163f",
+      "score": 14.725276091685885,
+      "stages": [
+        {
+          "constraint_min": -3.3306690738754696e-16,
+          "equality_max_abs": 4.440892098500626e-16,
+          "iterations": 127,
+          "message": "Optimization terminated successfully",
+          "ranked_signature": "def42c0311f4a4c4bf28ffd8f450883cfaace0855dd921868c72e675867231e3",
+          "score": 15.024795131560458,
+          "stage": "inherited_contact_lock",
+          "status": 0,
+          "success": true
+        },
+        {
+          "constraint_min": -4.218847493575595e-15,
+          "iterations": 8,
+          "message": "Optimization terminated successfully",
+          "ranked_signature": "8982f8ee66912f714309498ab83eee6f2eae2572167e5b199e1267ae931d163f",
+          "score": 14.725276091685885,
+          "stage": "free_release_1",
+          "status": 0,
+          "success": true
+        },
+        {
+          "constraint_min": -4.218847493575595e-15,
+          "iterations": 1,
+          "message": "Optimization terminated successfully",
+          "ranked_signature": "8982f8ee66912f714309498ab83eee6f2eae2572167e5b199e1267ae931d163f",
+          "score": 14.725276091685885,
+          "stage": "free_release_2",
+          "status": 0,
+          "success": true
+        },
+        {
+          "constraint_min": -4.218847493575595e-15,
+          "iterations": 1,
+          "message": "Optimization terminated successfully",
+          "ranked_signature": "8982f8ee66912f714309498ab83eee6f2eae2572167e5b199e1267ae931d163f",
+          "score": 14.725276091685885,
+          "stage": "free_release_3",
+          "status": 0,
+          "success": true
+        }
+      ],
+      "threshold_signature": "0d0f480edcd7615d6c235c3f42bff928b7ba70306900ff738bb5b6ef9dc4bbb6"
+    }
+  },
+  "assets_sha256": "38a1af0538bbc5c41b0e0238af0c0265cd7da13cce260217e920728687f34941",
+  "best_endpoint_absent_from_retained_corpus": {
+    "index": 55,
+    "method": "n18_delete2",
+    "official_score": 12.894999598753586,
+    "operation": {
+      "deleted": [
+        2,
+        8
+      ]
+    },
+    "ranked_signature": "cac2cd4ff02ed5fc5e87d2e97997c2902a7790f9a1f120736aa9241676272035",
+    "threshold_signature": "649f2a039186a5788f0bc99208f3af429909a8a612717de3a27e775fcf9b215d"
+  },
+  "best_official_score": 12.889229907694041,
+  "best_payload": "/Users/jacweath/EinsteinArena/campaign/geometry/min_distance_ratio_global_escape/runs/FINAL_V2/best.json",
+  "best_payload_sha256": "f9e6d812a4545651905bb2589c3b4cc01306727439d8a046fb673b9b8f721b9f",
+  "candidate_count": 214,
+  "claim_scope": "Bounded deterministic adjacent-cardinality screen: all 17 n=17 deletions, all 153 n=18 two-point deletions, and configured multistart n=15/n=14 births. It is not a global proof for the continuous n=16 problem.",
+  "corpus_audit": {
+    "database_sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb",
+    "discussion_record_set_sha256": "74e8f03cbb9fe2fcb19fde615ef501f42275321ac33f0d942a4a795d074fd7b3",
+    "maximum_stored_vs_replayed_score_delta": 0.0,
+    "reply_count": 167,
+    "solution_count": 16,
+    "solution_record_set_sha256": "bdbf8784d3a99cd8b1894f2587408c1df2939f16c77961c76c8ee631e0756fba",
+    "technique_term_counts": {
+      "active set": 31,
+      "anneal": 25,
+      "cma": 9,
+      "contact graph": 150,
+      "differential evolution": 5,
+      "lattice": 15,
+      "nullspace": 5,
+      "slsqp": 5,
+      "softmax": 6,
+      "two-ring": 21
+    },
+    "thread_count": 29
+  },
+  "corpus_database_sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb",
+  "distinct_ranked_endpoint_signatures": 155,
+  "endpoint_signature_set_sha256": "5b737befe247e4630fc3ee1888b8184ed6797536a99dacf3ee2f605062765344",
+  "endpoint_signatures_absent_from_retained_corpus_count": 153,
+  "events_sha256": "5c7876f9db83ec923a51664db36ee5682cdf81bd3dcbdf6b556581465304c46a",
+  "gate": 1e-07,
+  "gate_clearing": false,
+  "improvement_over_leader": 2.347988470319251e-11,
+  "leader": 12.889229907717521,
+  "literature": [
+    "https://paperclip.gxl.ai/citations/papers/arx_2511.02864#L636-L640",
+    "https://arxiv.org/abs/2601.05943",
+    "https://www.renyi.hu/~p_erdos/1951-03.pdf"
+  ],
+  "method": "published adjacent-cardinality contact-graph birth/death",
+  "method_counts": {
+    "n14_birth2": 12,
+    "n15_birth1": 32,
+    "n17_delete1": 17,
+    "n18_delete2": 153
+  },
+  "n16_published_diagram_duplicate": {
+    "conclusion": "published n=16 diagram is not a new minimum-contact topology",
+    "diagram_minimum_edges": 22,
+    "leader_minimum_edges": 22,
+    "minimum_graph_isomorphic": true,
+    "one_diagram_to_leader_mapping": {
+      "0": 9,
+      "1": 8,
+      "10": 0,
+      "11": 11,
+      "12": 3,
+      "13": 7,
+      "14": 14,
+      "15": 5,
+      "2": 13,
+      "3": 6,
+      "4": 1,
+      "5": 12,
+      "6": 2,
+      "7": 15,
+      "8": 10,
+      "9": 4
+    }
+  },
+  "novel_endpoint_signature_set_sha256": "9dcf1432f9d7acfa51106ae1f90d7adfa1bdee2746251ce4e9ff370fa09f90f3",
+  "run_id": "FINAL_V2",
+  "shortfall_to_strict_target": 9.997651950754971e-08,
+  "strict_target": 12.889229807717522,
+  "top_candidates": [
+    {
+      "index": 130,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.889229907694041,
+      "operation": {
+        "deleted": [
+          8,
+          14
+        ]
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 14.725276091685885,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 125,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.889229907694045,
+      "operation": {
+        "deleted": [
+          8,
+          9
+        ]
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 14.725276091685881,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 185,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.889229907694045,
+      "operation": {
+        "birth_points": [
+          [
+            -1.4839268554457414,
+            1.2578645667708
+          ]
+        ],
+        "fixed_parent_score": 17.032855761675272,
+        "random_seed": 15
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 17.032855761675272,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 200,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.889229907694045,
+      "operation": {
+        "birth_points": [
+          [
+            2.916932747101249,
+            0.5704111176056084
+          ]
+        ],
+        "fixed_parent_score": 17.630002185381,
+        "random_seed": 30
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 17.630002185381,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 179,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.889229907694048,
+      "operation": {
+        "birth_points": [
+          [
+            2.416932747048055,
+            3.4334295213248227
+          ]
+        ],
+        "fixed_parent_score": 17.630002182169132,
+        "random_seed": 9
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 17.630002182169132,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 151,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.889229907694057,
+      "operation": {
+        "deleted": [
+          11,
+          14
+        ]
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 14.725276091685885,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 195,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.889229907694057,
+      "operation": {
+        "birth_points": [
+          [
+            -1.4839268557040037,
+            1.2578645662001202
+          ]
+        ],
+        "fixed_parent_score": 17.032855765995865,
+        "random_seed": 25
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 17.032855765995865,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 207,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n14_birth2",
+      "official_score": 12.889229907694057,
+      "operation": {
+        "birth_points": [
+          [
+            -1.852976663251798,
+            -2.1663825242963437
+          ],
+          [
+            2.1167762458120016,
+            -3.349713434518522
+          ]
+        ],
+        "fixed_parent_score": 17.172230893075465,
+        "random_seed": 5
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 17.172230893075465,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 188,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.88922990769406,
+      "operation": {
+        "birth_points": [
+          [
+            -1.4839268554313347,
+            1.2578645666958332
+          ]
+        ],
+        "fixed_parent_score": 17.032855763329348,
+        "random_seed": 18
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 17.032855763329348,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 126,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.889229907694064,
+      "operation": {
+        "deleted": [
+          8,
+          10
+        ]
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 14.725276091685881,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 173,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.889229907694064,
+      "operation": {
+        "birth_points": [
+          [
+            -1.4839268555192457,
+            1.2578645668298434
+          ]
+        ],
+        "fixed_parent_score": 17.0328557616315,
+        "random_seed": 3
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 17.0328557616315,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 193,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.889229907694064,
+      "operation": {
+        "birth_points": [
+          [
+            -1.4839268552759484,
+            1.2578645669063067
+          ]
+        ],
+        "fixed_parent_score": 17.03285576308771,
+        "random_seed": 23
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 17.03285576308771,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 177,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.889229907694068,
+      "operation": {
+        "birth_points": [
+          [
+            -1.4839268553276819,
+            1.2578645668292057
+          ]
+        ],
+        "fixed_parent_score": 17.032855763292847,
+        "random_seed": 7
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 17.032855763292847,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 94,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.88922990769408,
+      "operation": {
+        "deleted": [
+          5,
+          8
+        ]
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 14.725276091685881,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 114,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.889229907694089,
+      "operation": {
+        "deleted": [
+          6,
+          17
+        ]
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 14.725276091685885,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 88,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.889229907694096,
+      "operation": {
+        "deleted": [
+          4,
+          14
+        ]
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 14.725276091685885,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 132,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.889229907694096,
+      "operation": {
+        "deleted": [
+          8,
+          16
+        ]
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 14.725276091685885,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 84,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.889229907694112,
+      "operation": {
+        "deleted": [
+          4,
+          10
+        ]
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 14.725276091685881,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 90,
+      "matched_retained_solution_index": 9,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.889229907694164,
+      "operation": {
+        "deleted": [
+          4,
+          16
+        ]
+      },
+      "ranked_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d",
+      "seed_score": 14.725276091685885,
+      "threshold_signature": "8d9efbe7c890168c01797d9a4198dc0cbd4a447c2b4fe4b3f6a7a5b7713d842d"
+    },
+    {
+      "index": 112,
+      "matched_retained_solution_index": 8,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.890516727902764,
+      "operation": {
+        "deleted": [
+          6,
+          15
+        ]
+      },
+      "ranked_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0",
+      "seed_score": 14.725276091685885,
+      "threshold_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0"
+    },
+    {
+      "index": 184,
+      "matched_retained_solution_index": 8,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.890516727902764,
+      "operation": {
+        "birth_points": [
+          [
+            2.4169327466717494,
+            3.4334295218543724
+          ]
+        ],
+        "fixed_parent_score": 17.63000218410622,
+        "random_seed": 14
+      },
+      "ranked_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0",
+      "seed_score": 17.63000218410622,
+      "threshold_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0"
+    },
+    {
+      "index": 206,
+      "matched_retained_solution_index": 8,
+      "matches_retained_signature": true,
+      "method": "n14_birth2",
+      "official_score": 12.890516727902765,
+      "operation": {
+        "birth_points": [
+          [
+            2.116776245778653,
+            -3.34971343449818
+          ],
+          [
+            -1.845151027700305,
+            -2.2625592745299175
+          ]
+        ],
+        "fixed_parent_score": 17.17223089275926,
+        "random_seed": 4
+      },
+      "ranked_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0",
+      "seed_score": 17.17223089275926,
+      "threshold_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0"
+    },
+    {
+      "index": 5,
+      "matched_retained_solution_index": 8,
+      "matches_retained_signature": true,
+      "method": "n17_delete1",
+      "official_score": 12.890516727902776,
+      "operation": {
+        "deleted": [
+          5
+        ]
+      },
+      "ranked_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0",
+      "seed_score": 14.090518704772544,
+      "threshold_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0"
+    },
+    {
+      "index": 81,
+      "matched_retained_solution_index": 8,
+      "matches_retained_signature": true,
+      "method": "n18_delete2",
+      "official_score": 12.890516727902778,
+      "operation": {
+        "deleted": [
+          4,
+          7
+        ]
+      },
+      "ranked_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0",
+      "seed_score": 14.725276091685881,
+      "threshold_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0"
+    },
+    {
+      "index": 8,
+      "matched_retained_solution_index": 8,
+      "matches_retained_signature": true,
+      "method": "n17_delete1",
+      "official_score": 12.890516727902794,
+      "operation": {
+        "deleted": [
+          8
+        ]
+      },
+      "ranked_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0",
+      "seed_score": 14.090518704772544,
+      "threshold_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0"
+    },
+    {
+      "index": 186,
+      "matched_retained_solution_index": 8,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.890516727902794,
+      "operation": {
+        "birth_points": [
+          [
+            2.4169327468265784,
+            3.43342952137955
+          ]
+        ],
+        "fixed_parent_score": 17.630002181136557,
+        "random_seed": 16
+      },
+      "ranked_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0",
+      "seed_score": 17.630002181136557,
+      "threshold_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0"
+    },
+    {
+      "index": 213,
+      "matched_retained_solution_index": 8,
+      "matches_retained_signature": true,
+      "method": "n14_birth2",
+      "official_score": 12.890516727902797,
+      "operation": {
+        "birth_points": [
+          [
+            1.8561169361781535,
+            0.5167821528538918
+          ],
+          [
+            2.116776245994681,
+            -3.3497134357258895
+          ]
+        ],
+        "fixed_parent_score": 17.172230901091048,
+        "random_seed": 11
+      },
+      "ranked_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0",
+      "seed_score": 17.172230901091048,
+      "threshold_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0"
+    },
+    {
+      "index": 205,
+      "matched_retained_solution_index": 8,
+      "matches_retained_signature": true,
+      "method": "n14_birth2",
+      "official_score": 12.890516727902801,
+      "operation": {
+        "birth_points": [
+          [
+            -1.116776245872985,
+            -3.3497134345881254
+          ],
+          [
+            2.8333909133762214,
+            -2.288490230366646
+          ]
+        ],
+        "fixed_parent_score": 17.172230893839497,
+        "random_seed": 3
+      },
+      "ranked_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0",
+      "seed_score": 17.172230893839497,
+      "threshold_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0"
+    },
+    {
+      "index": 174,
+      "matched_retained_solution_index": 8,
+      "matches_retained_signature": true,
+      "method": "n15_birth1",
+      "official_score": 12.890516727902853,
+      "operation": {
+        "birth_points": [
+          [
+            2.4169327467508728,
+            3.4334295215792983
+          ]
+        ],
+        "fixed_parent_score": 17.63000218269203,
+        "random_seed": 4
+      },
+      "ranked_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0",
+      "seed_score": 17.63000218269203,
+      "threshold_signature": "e3c14e0e7edfbc4ac0bd8cc4387a38f7bc5b8de692f3439a8b3c14c5e6c858a0"
+    },
+    {
+      "index": 55,
+      "matched_retained_solution_index": null,
+      "matches_retained_signature": false,
+      "method": "n18_delete2",
+      "official_score": 12.894999598753586,
+      "operation": {
+        "deleted": [
+          2,
+          8
+        ]
+      },
+      "ranked_signature": "cac2cd4ff02ed5fc5e87d2e97997c2902a7790f9a1f120736aa9241676272035",
+      "seed_score": 14.725276091685885,
+      "threshold_signature": "649f2a039186a5788f0bc99208f3af429909a8a612717de3a27e775fcf9b215d"
+    }
+  ],
+  "verifier_sha256": "2971cbb9e16752afe8d1d8067e6358d924b117ebeac0db41434ab19bfc8436ad"
+}

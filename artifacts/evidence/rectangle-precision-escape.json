@@ -1,0 +1,40 @@
+{
+  "created_at_utc": "2026-08-15T05:47:26Z",
+  "external_mutations": [],
+  "frozen_seed": {
+    "artifact_sha256": "0423ef27077517c0b7b60ea482f822e7b1b363e4733f6e9f9887055aa534d93c",
+    "canonical_payload_sha256": "dec42df705d59fb35d9573b3201a983b4ef661fb4cac1a65dcfeb1c924cf12b1",
+    "exact_score": 2.365832385227916,
+    "gate_shortfall": 8.008126667059515e-11,
+    "path": "campaign/geometry/rectangle_topology/runs/20260815T022200Z/stochastic_relax/topologies/cdea3037dafa48f9/candidate.json"
+  },
+  "gate_clearers": [],
+  "leader": 2.365832385207997,
+  "next_route": "A genuinely different multi-contact topology is still required; same-cage precision, translation, and float64 lattice rounding did not bridge the gate.",
+  "numeric_audit": {
+    "best_exact_gap_to_gate": -6.39927222323422e-10,
+    "best_exact_replayed_score": 2.36583238466807,
+    "best_joint_constraint_slack": -1.0667147194332864e-11,
+    "best_strict_lp_raw_score": 2.365832384953663,
+    "exact_gate_hits": 0,
+    "interpretation": "At the required score scale, no tested translation/binade/rounding phase simultaneously satisfies the active pair bundle and the literal perimeter computation.",
+    "symmetry_lattice_states": 12000,
+    "uniform_gate_dilation_samples": 5000000
+  },
+  "primary_asset_audit": [
+    {
+      "arxiv": "2601.05943",
+      "result": "The 2026 paper formulates this exact objective, but its reported rectangle constructions are n=26 and n=27, rounded to five decimals; it publishes no n=21 coordinates.",
+      "source": "Global Optimization for Combinatorial Geometry Problems"
+    },
+    {
+      "arxiv": "2605.22613",
+      "result": "The paper reports normalized family-level metrics and prompts, not a downloadable n=21 final construction; no primary code/data repository surfaced.",
+      "source": "Evolutionary Multi-Task Optimization for LLM-Guided Program Discovery"
+    }
+  ],
+  "schema_version": 1,
+  "slug": "circles-rectangle",
+  "strict_gate": 2.365832385307997,
+  "verifier_sha256": "c36cb4b5239e992b953f3839506562e15d21097830adc8881184c5a597866df9"
+}

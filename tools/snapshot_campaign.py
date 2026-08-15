@@ -103,6 +103,12 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "c3-asset-recovery": "c3_asset_recovery/receipt.json",
     "kissing-d11-594-exact-audit": "kissing_d11_594_audit/receipt.json",
     "heilbronn-q143-exact-support-closure": "geometry/heilbronn_q143_cegis/receipt.json",
+    "heilbronn-rational-mesh-closure": "geometry/heilbronn_rational_mesh_global/replay_receipt.json",
+    "rectangle-precision-escape": "geometry/rectangle_precision_escape/receipt.json",
+    "min-distance-global-topology-escape": "geometry/min_distance_ratio_global_escape/receipt.json",
+    "thomson-topology-escape": "geometry/thomson_282_topology_escape/receipt.json",
+    "thomson-topology-independent-replay": "geometry/thomson_282_topology_escape/runs/20260815T_THOMSON_SPLIT_V1/independent_replay.json",
+    "thomson-topology-isomorphism-audit": "geometry/thomson_282_topology_escape/runs/20260815T_THOMSON_SPLIT_V1/exact_isomorphism_audit.json",
     "evolver-asset-sweep-2026": "evolver_asset_sweep_2026/receipt.json",
 }
 FRONTIER_RECEIPTS = {
@@ -111,39 +117,40 @@ FRONTIER_RECEIPTS = {
 }
 METHODS = {
     "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short. Beyond the original releases and relocation seeds, a primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 80 rigid polished classes without escaping the known tolerance ceiling. Three additional evolution archives were independently replayed: rEVOLVE and mangoEvolve were invalid or duplicate, while Escher's MIT-licensed program scored 2.6352223117773934 and was safely below the gate.",
-    "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. A primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 93 rigid polished classes; its strongest noncanonical endpoint remained 0.001584 below the gate.",
+    "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. A primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 93 rigid polished classes. A separate five-million-state legal-float/binade audit and 12,000-state symmetric lattice/LP screen found zero precision escape, so a genuinely different contact topology is required.",
     "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109. A separate Paperclip-derived quadratic relative-difference-set campaign tested 2,400 global starts, 16 coordinate descents, and 121,111 exact sparse-patch births; finite-group coverage collapsed under integer carry ordering.",
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Active-bundle sequential linear programming over n=3,584 coordinates crossed the strict 1e-7 gate after 58 exact-accepted stages. Independent literal replay and evaluated solution #2507 agree at 0.3808585748578584.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
     "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. A separate 20-source archival recovery reconstructed three of 72 published PSL-4 classes and replayed 1,657 length-adjusted candidates; the complete historical table remains the strongest finite lead.",
-    "heilbronn-triangles": "A 100-digit active root, 462 topology trials, and exact q=25 lattice closure are supplemented by an exact q=143 support-clause campaign: all four former radius-3/5 timeout cells and 40 radius-8 one/two-label releases replay UNSAT. This is a finite-domain no-go, not a global proof. An independent Escher asset replay scored 0.03372654309850653, below the gate.",
+    "heilbronn-triangles": "A 100-digit active root, 462 topology trials, and exact q=25 lattice closure are supplemented by exact q=143 and q=144..220 rational-mesh campaigns. The latest packet closes 72 distinct finite labeled domains: 18 by determinant upper bounds and 57 fresh uncapped SAT formulas, with no candidate. These are finite-domain no-gos, not global proofs. An independent Escher asset replay scored 0.03372654309850653, below the gate.",
     "kissing-number-d11": "An exhaustive exact-rational audit verifies public solution #1492 as a genuine 594-vector score-0 construction over all 176,121 pairs. Zero is the objective floor, and the live API assigns later exact ties ordinal ranks rather than joint first place.",
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
     "kissing-number-d12": "Published 841-code replays at exact verifier score 0 with 1.24497e-7 distance-squared margin; submission is blocked by HTTP 409, tracked in issue #59.",
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
-    "min-distance-ratio-2d": "A 100-digit active root, 280 release/promote trials, and 550 canonical contact-graph recombinations all return the same micro-polished basin; the best exact gain is 2.35e-11 versus a 1e-7 gate.",
+    "min-distance-ratio-2d": "A 100-digit active root, 280 release/promote trials, and 550 canonical contact-graph recombinations all return the same micro-polished basin. A separate adjacent-cardinality topology campaign exact-replayed 214 births/deaths and found 153 corpus-novel contact graphs; the best novel graph remains 0.00577 worse, while the overall best gains only 2.35e-11 against a 1e-7 gate.",
     "prime-number-theorem": "Changed-reach cutting planes produce evaluated solution #2506 at 0.9976572852677297. An exact rational sweep covers every real state in the advertised verifier horizon; a global all-x proof remains open.",
     "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. The recovered comb aligns above 0.996 with the incumbent envelope after registration, and the entire transfer gained only 2.03e-9, leaving a 9.9913e-6 gate gap.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
     "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation reach 1.4515653850221024, still 3.52e-6 short of the gate. A commit-pinned audit replayed 25 public artifacts and ten payloads; the best distinct seed was 0.00211008 worse, while the strongest high-resolution asset exactly duplicated public submissions.",
-    "thomson-problem": "48 topology-changing seeds and exact tangent polishing return to the defect-minimal basin; no gate-clearer yet.",
+    "thomson-problem": "A literature-grounded N=72 to N=282 split campaign enumerated 48 alternative defect-free source triangulations and realized 30 distinct defect-free N=282 initial graphs. Exact isomorphism replay shows all 30 releases return to the incumbent topology; the best score differs only by 1.46e-11 float dust and remains 9.99986e-7 short.",
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
 }
 SOURCE_ENTRYPOINTS = {
     "circle-packing": "geometry_asset_recombine/HANDOFF.md",
-    "circles-rectangle": "geometry_asset_recombine/HANDOFF.md",
+    "circles-rectangle": "geometry/rectangle_precision_escape/HANDOFF.md",
     "difference-bases": "discrete/difference_global/HANDOFF.md",
     "edges-vs-triangles": "discrete/edges_vs_triangles/HANDOFF.md",
     "erdos-min-overlap": "analytic/erdos_global/HANDOFF.md",
     "flat-polynomials": "flat_psl4_recovery/HANDOFF.md",
-    "heilbronn-triangles": "geometry/heilbronn_q143_cegis/HANDOFF.md",
+    "heilbronn-triangles": "geometry/heilbronn_rational_mesh_global/HANDOFF.md",
     "kissing-number-d11": "kissing_d11_594_audit/README.md",
-    "min-distance-ratio-2d": "geometry_asset_recombine/HANDOFF.md",
+    "min-distance-ratio-2d": "geometry/min_distance_ratio_global_escape/HANDOFF.md",
     "kissing-number-d12": "geometry/kissing_d12/HANDOFF.md",
     "prime-number-theorem": "discrete/prime_number_theorem/HANDOFF.md",
     "second-autocorrelation-inequality": "c2_simpletes_transfer/HANDOFF.md",
     "third-autocorrelation-inequality": "c3_asset_recovery/HANDOFF.md",
+    "thomson-problem": "geometry/thomson_282_topology_escape/HANDOFF.md",
 }
 ROOT_SOURCE_FILES = (
     "AGENTS.md",
@@ -155,6 +162,22 @@ ROOT_SOURCE_FILES = (
     "verifier_runner.py",
     "tests/test_campaign.py",
     "c3_root/requirements-rank-lift.txt",
+    "geometry/heilbronn_rational_mesh_global/.gitignore",
+    "geometry/heilbronn_rational_mesh_global/literature_sources.json",
+    "geometry/heilbronn_rational_mesh_global/denominator_screen.json",
+    "geometry/heilbronn_rational_mesh_global/case_manifest.json",
+    "geometry/heilbronn_rational_mesh_global/replay_receipt.json",
+    "geometry/thomson_282_topology_escape/.gitignore",
+    "geometry/thomson_282_topology_escape/literature.json",
+    "geometry/thomson_282_topology_escape/live_read_check.json",
+    "geometry/thomson_282_topology_escape/receipt.json",
+    "geometry/min_distance_ratio_global_escape/assets.json",
+    "geometry/min_distance_ratio_global_escape/receipt.json",
+    "geometry/min_distance_ratio_global_escape/runs/FINAL_V2/best.json",
+    "geometry/min_distance_ratio_global_escape/runs/FINAL_V2/corpus_audit.json",
+    "geometry/min_distance_ratio_global_escape/runs/FINAL_V2/events.jsonl",
+    "geometry/min_distance_ratio_global_escape/runs/FINAL_V2/reconstructed_assets.json",
+    "geometry/min_distance_ratio_global_escape/runs/FINAL_V2/summary.json",
 )
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = (
@@ -192,8 +215,10 @@ UNPUBLISHED_WORK_IN_PROGRESS = {
     Path("discrete/prime_number_theorem/tail_select_mip.py"),
 }
 UNPUBLISHED_SOURCE_PREFIXES = {
-    Path("geometry/heilbronn_rational_mesh_global"),
-    Path("geometry/rectangle_precision_escape"),
+    Path("analysis/second_autocorrelation_global_multiscale"),
+    Path("analytic/c3_precision_escape"),
+    Path("discrete/difference_exact_synthesis"),
+    Path("flat_psl4_enumerator"),
 }
 
 

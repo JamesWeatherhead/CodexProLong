@@ -1,0 +1,42 @@
+{
+  "best_replay_score": 37147.29441846225,
+  "canonical_run": "runs/20260815T_THOMSON_SPLIT_V1",
+  "counts": {
+    "alternative_nonisomorphic_n72_classes": 48,
+    "distinct_defect_free_n282_initial_triangulations": 30,
+    "exactly_isomorphic_incumbent_endpoints": 30,
+    "lbfgs_iterations": 3439,
+    "objective_gradient_evaluations": 3810,
+    "released_trials": 30
+  },
+  "external_actions": {
+    "arena_submission": false,
+    "discussion_post": false,
+    "git_commit": false,
+    "git_push": false,
+    "issue": false
+  },
+  "frozen_at": "2026-08-15T06:06:02Z",
+  "gate_clearing": false,
+  "gate_gap": 9.999857866205275e-07,
+  "hashes": {
+    "best_candidate_sha256": "fab938c8a6aecfbf19576935805010cf8abe32f09483dfba41548d458d6ad667",
+    "event_log_sha256": "a6de412b54248d88a8613b88e7c8a48b19f4c72ed8d0eb5739eb74738cc4e2e1",
+    "exact_isomorphism_audit_sha256": "a5c6be49706dbde39e0e179c3ad4c5ef46b6a87e26abd0ed71e0edb9f1bd7346",
+    "independent_replay_sha256": "9b6f7237e6c71ee91b7a60516256a0c2cc554ac87f1d4884b4c90d70b63a2398",
+    "isomorphism_audit_py_sha256": "c0a6213a2a064013eaf93ecfaeb233ef8c01f985bbc21478a0f073a5540b3de9",
+    "live_read_check_sha256": "b23fe364d014714c5d1daf42d98d03954eedd6038a35a5188492b9b1d6c71663",
+    "n72_source_sha256": "2e2cede090d3498e42c3b360f2aa6847bb3d813de9ff573aa6d654e1e4b3f883",
+    "replay_py_sha256": "f598c16ca1b84a18da7b9fb8107569342b1b8fa80c5cf496bd0e84fe1dfcd35a",
+    "search_py_sha256": "0afa1b045b7379b63aea9854268b72de3ee1df9a4485d5c6400d293c91dc2e13",
+    "search_receipt_sha256": "a10a926ff92f30a8166e50862a777226091a29f505de0469d8a176bb02df68a1",
+    "snapshot_sha256": "4e7c1ccf2b31a03841791a796bdea8a21a0408778f593e7110de2a026bbdb0cd",
+    "summary_sha256": "433dc3a15d958f4029f9d1152d4065bf4a29087c828ad1c5aa0b6fd411919cf3",
+    "verifier_sha256": "4cdf454acc790c97f2cfcb1e62f44f571ff9f44f87566c341865bc1c234ba5af"
+  },
+  "live_score": 37147.29441846226,
+  "scope": "Up to four degree-preserving two-flip macro moves from the Cambridge N=72 defect-free source, exact 4N-6 edge splitting, retained defect-free N=282 realizations, and unconstrained tangent L-BFGS release.",
+  "slug": "thomson-problem",
+  "status": "bounded_negative_frontier",
+  "strict_gate": 37147.29441746226
+}

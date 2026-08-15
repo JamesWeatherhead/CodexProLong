@@ -1,0 +1,57 @@
+{
+  "exa": {
+    "query": "primary literature Thomson problem N=282 global minimum icosadeltahedral T=28 alternate triangulations 12 pentagons topology configurations",
+    "retrieved_at": "2026-08-15T06:03:30Z",
+    "role": "Discovery only; every operative scientific claim below is pinned to primary full text."
+  },
+  "sources": [
+    {
+      "authors": "Eric Lewin Altschuler and Antonio Perez-Garrido",
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_cond-mat0509501#L5-L16",
+      "doi": "10.1103/PhysRevE.73.036108",
+      "operative_claims": [
+        "Defect-free icosadeltahedral configurations have N=10(h^2+hk+k^2)+2.",
+        "The split construction inserts a charge on each of the 3N-6 edges and produces 4N-6 charges.",
+        "The paper identifies (72,282) as a split pair of apparent global minima."
+      ],
+      "title": "Defect free global minima in Thomson's problem of charges on a sphere"
+    },
+    {
+      "authors": "Eric Lewin Altschuler and Antonio Perez-Garrido",
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_cond-mat0509501#L25-L28",
+      "doi": "10.1103/PhysRevE.73.036108",
+      "operative_claims": [
+        "The tabulated (h,k)=(4,2), N=282 energy is 37147.294418474.",
+        "The authors explicitly leave open the existence of lower defect-free configurations in the 100-500 regime."
+      ],
+      "title": "Defect free global minima in Thomson's problem of charges on a sphere"
+    },
+    {
+      "authors": "Shota Ono",
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2107.06519#L4-L10",
+      "doi": "10.1103/PhysRevB.104.094105",
+      "operative_claims": [
+        "N=282 is a vibrational magic number associated with an icosahedral charge structure."
+      ],
+      "title": "Magic numbers for vibrational frequency of charged particles on a sphere"
+    },
+    {
+      "authors": "Shota Ono",
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2107.06519#L44-L47",
+      "doi": "10.1103/PhysRevB.104.094105",
+      "operative_claims": [
+        "The study used more than 200 random starts and BFGS for N up to 200, and used Cambridge Cluster Database coordinates for N=282 and neighbors."
+      ],
+      "title": "Magic numbers for vibrational frequency of charged particles on a sphere"
+    },
+    {
+      "authors": "Mark Bowick, Angelo Cacciuto, David R. Nelson, and Alex Travesset",
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_cond-mat0206144#L8-L16",
+      "doi": "10.1103/PhysRevLett.89.185502",
+      "operative_claims": [
+        "For modest particle counts the minimum defect content is twelve positive fivefold disclinations; additional 5/7 defects become favorable only at larger sizes."
+      ],
+      "title": "Crystalline Order on a Sphere and the Generalized Thomson Problem"
+    }
+  ]
+}
