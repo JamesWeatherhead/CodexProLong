@@ -1,0 +1,252 @@
+{
+  "capacity_closure": {
+    "config_sha256": "b1a7bd8a49bab69a085174da105261336ccac01b6465e3b30c5f0e293d2b094c",
+    "events_sha256": "abfa10b822706892cb56ba910c93b71fe3fcf0f4b12770030cbc6173abbc2116",
+    "formula_count": 7,
+    "monotonicity": "adding unused shell points preserves all existing differences",
+    "rebuilds": [
+      {
+        "closed_range": [
+          320,
+          329
+        ],
+        "model_bytes": 253226572,
+        "model_sha256": "c4a813b0948cbc8ea5b0facaf18e62f2561e5075553fc19acab0e7e316a41325",
+        "status": "INFEASIBLE",
+        "target": 38803,
+        "total": 329
+      },
+      {
+        "closed_range": [
+          330,
+          339
+        ],
+        "model_bytes": 215119183,
+        "model_sha256": "bdc5fad6aba6d7d69796e15cd6a020b20e07118fc23d391ee29dadbfd241e4c1",
+        "status": "INFEASIBLE",
+        "target": 41266,
+        "total": 339
+      },
+      {
+        "closed_range": [
+          340,
+          349
+        ],
+        "model_bytes": 176804429,
+        "model_sha256": "456d2a64b267841a5db710198edf14b2a3f17ee95fe28006451b056ce9f06aa6",
+        "status": "INFEASIBLE",
+        "target": 43805,
+        "total": 349
+      },
+      {
+        "closed_range": [
+          350,
+          356
+        ],
+        "model_bytes": 142221138,
+        "model_sha256": "e3d14a0fc44fa6c629d69b99f9b05cd2823bb8fe23cad40b196c51bb130cf22b",
+        "status": "INFEASIBLE",
+        "target": 46419,
+        "total": 356
+      },
+      {
+        "closed_range": [
+          357,
+          359
+        ],
+        "model_bytes": 116213750,
+        "model_sha256": "1aa526af5b7ed79f9b3669af10461021e63921d9ce369837aafccf0bd27f21dc",
+        "status": "INFEASIBLE",
+        "target": 48294,
+        "total": 359
+      },
+      {
+        "closed_range": [
+          372,
+          384
+        ],
+        "model_bytes": 72214632,
+        "model_sha256": "f95f3fd2e0c34bcb188d7c5d6b21ef2b7eb5d6be0e2e59607d22e7d306389537",
+        "status": "INFEASIBLE",
+        "target": 52438,
+        "total": 384
+      },
+      {
+        "closed_range": [
+          385,
+          411
+        ],
+        "model_bytes": 38772679,
+        "model_sha256": "c5aad136d43f891bc3a2f6c4714b30e4aef33413b197f531bbbc7fec1330db75",
+        "status": "INFEASIBLE",
+        "target": 56167,
+        "total": 411
+      }
+    ],
+    "summary_sha256": "a7ca5d878ddcf40d85eab5892c62d631a60d18277c63142870922f21c3b4a904"
+  },
+  "claim": "Within the frozen leader's 90-residue modulo-8011 core and arbitrary independent support subsets of shells 0..7, no cardinality 320..720 can clear the live gate: 320..411 are exact finite CP-SAT closures, and 412..720 require an unavailable height difference 8.",
+  "direct_closure": {
+    "config_sha256": "a74caa86a4d7375f24ef166c9e4bd15b332cc1b6a66c34569f9ccf6fe8880360",
+    "events_sha256": "7692fa0315ae2d11539d9598eba8226521f9aa32765bf5dace046517b60a63af",
+    "formula_count": 12,
+    "rebuilds": [
+      {
+        "model_bytes": 106782225,
+        "model_sha256": "405cdf2af8d121bdbe88d738a1c5c0356909f3a3810af66c90a6af8b146ecab7",
+        "status": "INFEASIBLE",
+        "target": 49110,
+        "total": 360
+      },
+      {
+        "model_bytes": 104093546,
+        "model_sha256": "2b83ce800ec317f987e22b80635385fcd8451543a049bb07e0682c0c09fda6c9",
+        "status": "INFEASIBLE",
+        "target": 49383,
+        "total": 361
+      },
+      {
+        "model_bytes": 101298342,
+        "model_sha256": "f0b3f83195b35c58a0a6389c3be34ed0a2d2b4760a3b0d131be5b85176d2206f",
+        "status": "INFEASIBLE",
+        "target": 49657,
+        "total": 362
+      },
+      {
+        "model_bytes": 98457220,
+        "model_sha256": "baf3160fe3604190fb32674a7dba140d936e5b408b489234c6fe83f56638b6a0",
+        "status": "INFEASIBLE",
+        "target": 49931,
+        "total": 363
+      },
+      {
+        "model_bytes": 95499986,
+        "model_sha256": "bb85230a8af3529a958bd53860bdd86fd861133d6a826c223103b96a3b2932b8",
+        "status": "INFEASIBLE",
+        "target": 50207,
+        "total": 364
+      },
+      {
+        "model_bytes": 92583568,
+        "model_sha256": "f78fc6961d6dac0f1cc1e546cbb4fae2b165cd05af495413818fc14e84a2a565",
+        "status": "INFEASIBLE",
+        "target": 50483,
+        "total": 365
+      },
+      {
+        "model_bytes": 89504503,
+        "model_sha256": "82d00360fa07495e57776466906cb1cd02a01e679e41931f683f24cb21f1e287",
+        "status": "INFEASIBLE",
+        "target": 50760,
+        "total": 366
+      },
+      {
+        "model_bytes": 86405647,
+        "model_sha256": "2776b0527b9b2fe47b6dd794fbc586b8a9656f118ab9c1ce37ffeb16ed9f6e94",
+        "status": "INFEASIBLE",
+        "target": 51038,
+        "total": 367
+      },
+      {
+        "model_bytes": 83209853,
+        "model_sha256": "cbc3976bb6a5e1f2eaf228f13aac8a77512f0fe3024e14abe1d533ac496bd078",
+        "status": "INFEASIBLE",
+        "target": 51316,
+        "total": 368
+      },
+      {
+        "model_bytes": 79918355,
+        "model_sha256": "076655f0754ca4f601634e8e0606b6c29405678bbade35236b71927080eaf166",
+        "status": "INFEASIBLE",
+        "target": 51596,
+        "total": 369
+      },
+      {
+        "model_bytes": 76631959,
+        "model_sha256": "854a4b66a42293b8ec0ff487e6e6ab91166c0a930158a701c61df768133e69a6",
+        "status": "INFEASIBLE",
+        "target": 51876,
+        "total": 370
+      },
+      {
+        "model_bytes": 73666147,
+        "model_sha256": "02606c95442dedd0c1aa0bc818c492eda1509c310f012bc95d0ddbb4822c1fae",
+        "status": "INFEASIBLE",
+        "target": 52156,
+        "total": 371
+      }
+    ],
+    "sizes": [
+      360,
+      371
+    ],
+    "summary_sha256": "7a90e785d8ba5a8ed04e32454e4f0e17a2ff6b4e23d069801197aaa936cb413f"
+  },
+  "excluded_inputs": [
+    "campaign/discrete/difference_global/checkpoints/public_latest.json",
+    "all Arena full-discussion snapshots and third-party payload arrays",
+    "campaign/discrete/difference_exact_synthesis/capacity_closure.py",
+    "campaign/discrete/difference_exact_synthesis/runs/20260815T065500Z_capacity_closure/",
+    "__pycache__/"
+  ],
+  "external_writes": false,
+  "gate_cleared": false,
+  "leader": {
+    "coverage": 49109,
+    "gate_score": 2.6390274685066077,
+    "id": 634,
+    "min_improvement": 1e-09,
+    "payload_sha256": "02b16426d5a66feb480d79c7e1c7c26bb18ffb50730c5a2c76861584ec59183b",
+    "score": 2.639027469506608,
+    "score_fraction": "129600/49109",
+    "size": 360
+  },
+  "pins": {
+    "historical_solver_source_sha256": "6704fa33ff1046cb3b8af03bf48d9b8476beb49c858b87d9af5ba89e81ef4508",
+    "ortools_version": "9.14.6206",
+    "public_snapshot_sha256": "6159d144ae3c57dc740cd4fd5b54e1a467589c44b355dcef98ceb4b0bc6d0d69",
+    "public_solver_source_sha256": "f9c9bb10ce3589707d96aa421e2dc0991b4f681ccfdb550cde17f4f3194c80d4",
+    "residues_sha256": "8ccb0f4af4714bca24725a8acfb533c46b75cd752c3830c9c7e8308fc7df0ca4",
+    "verifier_sha256": "a7521e8a701ac31131932d2a732769d65426d329f4a933c4819516adacf2e585"
+  },
+  "publish_safe_artifacts": {
+    "campaign/discrete/difference_exact_synthesis/HANDOFF.md": "de430884931e4535ecbc0841e582e85b51ac64eb40bb6ef863299a3b9b1c9b9e",
+    "campaign/discrete/difference_exact_synthesis/PROVENANCE.md": "a31244a34dc5e011547b3fa08dbbac247ca63cfe26829ff793bbc352f048691a",
+    "campaign/discrete/difference_exact_synthesis/README.md": "306328b796fb8bcdc7923bb5337694cc46b2c19ef584ec824ca27cfc2471030f",
+    "campaign/discrete/difference_exact_synthesis/carry_exact_csp.py": "f9c9bb10ce3589707d96aa421e2dc0991b4f681ccfdb550cde17f4f3194c80d4",
+    "campaign/discrete/difference_exact_synthesis/complete_capacity_closure.py": "c1a88ad31c49fa001c3a7c5a603eed15df335cc0f22f905ddd1cfe45c51d1a4e",
+    "campaign/discrete/difference_exact_synthesis/freeze_receipt.py": "e9e5cc1cd58e816134eaee072de4fa35128dadb23044a19bad0051143e950a54",
+    "campaign/discrete/difference_exact_synthesis/frozen_inputs.json": "93607a7a49f611d433526b139c74762f37ebb2aff83dc43219e9471ddaf39bc7",
+    "campaign/discrete/difference_exact_synthesis/public_replay.py": "694de24e356a1b2cd557070106152bcc3af7979c4944aca8fed03bcd1978c41d",
+    "campaign/discrete/difference_exact_synthesis/runs/20260815T063528Z_height7_full_support/config.json": "a74caa86a4d7375f24ef166c9e4bd15b332cc1b6a66c34569f9ccf6fe8880360",
+    "campaign/discrete/difference_exact_synthesis/runs/20260815T063528Z_height7_full_support/events.jsonl": "7692fa0315ae2d11539d9598eba8226521f9aa32765bf5dace046517b60a63af",
+    "campaign/discrete/difference_exact_synthesis/runs/20260815T063528Z_height7_full_support/summary.json": "7a90e785d8ba5a8ed04e32454e4f0e17a2ff6b4e23d069801197aaa936cb413f",
+    "campaign/discrete/difference_exact_synthesis/runs/20260815T073000Z_complete_capacity_closure/config.json": "b1a7bd8a49bab69a085174da105261336ccac01b6465e3b30c5f0e293d2b094c",
+    "campaign/discrete/difference_exact_synthesis/runs/20260815T073000Z_complete_capacity_closure/events.jsonl": "abfa10b822706892cb56ba910c93b71fe3fcf0f4b12770030cbc6173abbc2116",
+    "campaign/discrete/difference_exact_synthesis/runs/20260815T073000Z_complete_capacity_closure/summary.json": "a7ca5d878ddcf40d85eab5892c62d631a60d18277c63142870922f21c3b4a904",
+    "campaign/discrete/difference_exact_synthesis/test_carry_exact_csp.py": "7654c85c2dd321cd1e232cbe58f36f7543d13b4e62c10a0b53c282322e011278"
+  },
+  "schema": 1,
+  "scope_caveat": "This is not a global Difference Bases impossibility result; sizes below 320, other shell ranges, changed residue cores, and non-quotient constructions remain outside the proof family. CP-SAT emitted no DRAT/LRAT certificate.",
+  "structural_ceiling": {
+    "critical_integer": 64089,
+    "maximum_height_difference": 7,
+    "size_412_required_coverage": 64321,
+    "sizes": [
+      412,
+      720
+    ],
+    "unique_residue_one_witness": [
+      1,
+      0
+    ]
+  },
+  "tests": {
+    "command": ".venv/bin/python campaign/discrete/difference_exact_synthesis/test_carry_exact_csp.py -v",
+    "count": 6,
+    "public_replay_command": ".venv/bin/python campaign/discrete/difference_exact_synthesis/public_replay.py",
+    "public_replay_formula_count": 19,
+    "public_replay_status": "pass",
+    "status": "pass"
+  }
+}

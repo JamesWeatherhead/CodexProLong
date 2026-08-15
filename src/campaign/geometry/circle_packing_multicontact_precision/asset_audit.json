@@ -1,0 +1,46 @@
+{
+  "archive_probe": {
+    "common_crawl": {
+      "collections_checked": [
+        "CC-MAIN-2026-21",
+        "CC-MAIN-2026-25",
+        "CC-MAIN-2026-30"
+      ],
+      "raw_github_asset_found": false
+    },
+    "github_api_current": "repository and code endpoints returned 404 after repository deletion",
+    "github_indexed_fork_count": 0,
+    "wayback_raw_asset_found": false
+  },
+  "claudeevolve": {
+    "classification": "archival score discrepancy; no gate-valid headline artifact recovered",
+    "license_when_indexed": "Apache-2.0",
+    "paper_coordinate_replay": "external_asset_replay.json",
+    "paper_score_claim": 2.6359829286,
+    "readme_headline_claim": 2.6359835671240317,
+    "repository_state": "deleted by the time of this audit",
+    "search_result": "Exact-score and best_circle_packing_final.py searches returned only the repository root, README, directory index, and README mirror. The indexed strict Python file is an optimization procedure, not a fixed higher-scoring coordinate artifact.",
+    "sources": [
+      "https://github.com/BudEcosystem/ClaudeEvolve",
+      "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/README.md",
+      "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/docs/circle_packing_paper.md",
+      "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/evolve_output/best_circle_packing_strict.py",
+      "https://github.com/Shiyao-Huang/awesome-agent-evolution/blob/main/raw-github/budecosystem_claudeevolve.md"
+    ]
+  },
+  "google_alphaevolve": {
+    "classification": "inferior baseline only",
+    "result": "The public circle-packing example contains a ring baseline but no evolved coordinate/result artifact.",
+    "source": "https://github.com/Google-Cloud-AI/alphaevolve-on-googlecloud/tree/main/examples/circle_packing"
+  },
+  "paperclip_sources": [
+    {
+      "citation": "https://paperclip.gxl.ai/citations/papers/arx_2403.06211#L119-L124,L127-L138",
+      "use": "layout-graph transformation and graph hashing motivated exhaustive contact-graph deduplication"
+    },
+    {
+      "citation": "https://paperclip.gxl.ai/citations/papers/arx_2206.07165#L62-L72,L94-L98,L127-L149",
+      "use": "flex/stress and rigidity dimension counts motivated codimension-two contact release"
+    }
+  ]
+}

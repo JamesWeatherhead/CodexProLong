@@ -1,7 +1,8 @@
 # Global length-70 PSL-4 exact search
 
-Status: **exact hybrid enumerator frozen at a benchmarked implementation
-frontier; the full 730,810-task search is not complete**.
+Status: **exact hybrid enumerator and crash-safe distributed dispatcher frozen
+at a benchmarked implementation frontier; the full 730,810-task search is not
+complete**.
 
 This clean-room C++20 solver combines two exact branch-and-bound regimes for
 length-70 binary sequences with aperiodic peak sidelobe level at most four:
@@ -36,6 +37,43 @@ finished or that every task has the same speed ratio.
 Machine-readable counters and exact commands are in `benchmarks.json`; the raw
 one-line journals are under `runs/`.
 
+## Workload profile and distributed execution
+
+The global task tree is strongly heterogeneous. A deterministic SplitMix64
+sample over eight virtual shards evaluated 825 tasks at a 100,000-node cap:
+105 completed and 720 reached the cap. On one 101-task shard raised to 500,000
+nodes, 15 completed and 86 still reached the cap. These are workload
+measurements—not completeness records and not a statistical theorem about the
+unseen tasks. Exact counters and journal hashes are in `scaling_profile.json`.
+
+`psl4_popcount.cpp` now exposes `--task-shards` and `--task-shard` so a task is
+assigned by `SplitMix64(task_index) % task_shards`. The hash makes many small
+virtual shards substantially less sensitive to contiguous hard regions.
+`psl4_dispatch.py` dynamically runs those virtual shards across local worker
+processes and supplies the missing durability layer:
+
+- an immutable source/binary/config hash at run start;
+- one append-only solver journal and atomic receipt per virtual shard;
+- safe restart that accepts only final `COMPLETE` rows;
+- exact task-to-shard and task-count validation; and
+- a final coverage receipt only after all 730,810 indices are present exactly
+  once.
+
+Example exact launch:
+
+```sh
+python3 campaign/flat_psl4_global_exact/psl4_dispatch.py \
+  --binary /tmp/psl4_hybrid \
+  --source campaign/flat_psl4_global_exact/psl4_popcount.cpp \
+  --run-dir campaign/flat_psl4_global_exact/runs/global-v1 \
+  --virtual-shards 4096 \
+  --workers 15
+```
+
+The same command resumes after interruption. Node-limited profiling must use a
+separate journal: `TRUNCATED` rows are intentionally rejected by the dispatcher
+and can never satisfy an exact shard receipt.
+
 ## Correctness checks
 
 `--self-test` compares the precomputed/grouped range with a deliberately slow
@@ -52,11 +90,13 @@ clang++ -std=c++20 -O3 -Wall -Wextra -Wpedantic \
   campaign/flat_psl4_global_exact/psl4_popcount.cpp \
   -o /tmp/psl4_hybrid
 /tmp/psl4_hybrid --self-test
+python3 campaign/flat_psl4_global_exact/psl4_dispatch.py --self-test
 ```
 
 The recommended exact regime is `--strong-switch-depth 24` with
 `--strong-exact-stride 1`. Journals are append-only and completed tasks are
-skipped on restart.
+skipped on restart; the dispatcher additionally verifies global partition
+coverage before emitting `COMPLETE.json`.
 
 ## Literature routing
 

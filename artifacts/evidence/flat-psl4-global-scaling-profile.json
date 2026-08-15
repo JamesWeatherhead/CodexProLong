@@ -1,0 +1,128 @@
+{
+  "cap_100000": {
+    "complete_tasks": 105,
+    "completion_fraction": 0.12727272727272726,
+    "sampled_tasks": 825,
+    "shards": [
+      {
+        "complete": 13,
+        "file": "runs/profile-20260815T0714Z/psl4-cap100k-shard0.tsv",
+        "nodes": 8800037,
+        "sha256": "9627c77c15a0c5bab0eeb5491ce3e17606b82fb2f9cdde54875ccb0299efbb4b",
+        "shard": 0,
+        "solver_seconds": 8.363522914,
+        "tasks": 101,
+        "truncated": 88
+      },
+      {
+        "complete": 7,
+        "file": "runs/profile-20260815T0714Z/psl4-cap100k-shard1.tsv",
+        "nodes": 9398811,
+        "sha256": "e4b9ee50fe8c80edc899136ed464f83fe6937a296222e14c16faa6bf0a8cb0a9",
+        "shard": 1,
+        "solver_seconds": 8.834607156,
+        "tasks": 100,
+        "truncated": 93
+      },
+      {
+        "complete": 22,
+        "file": "runs/profile-20260815T0714Z/psl4-cap100k-shard2.tsv",
+        "nodes": 7742055,
+        "sha256": "7d708c8167e8d7538745f437612360dbe7debce18e93f080192e495a25304f92",
+        "shard": 2,
+        "solver_seconds": 7.324932238,
+        "tasks": 98,
+        "truncated": 76
+      },
+      {
+        "complete": 17,
+        "file": "runs/profile-20260815T0714Z/psl4-cap100k-shard3.tsv",
+        "nodes": 10107094,
+        "sha256": "ffbe66d61fa8de28c1b2583064a1d7b367962b5a1676ea37d2b187bed8cfdc42",
+        "shard": 3,
+        "solver_seconds": 9.587492696,
+        "tasks": 118,
+        "truncated": 101
+      },
+      {
+        "complete": 9,
+        "file": "runs/profile-20260815T0714Z/psl4-cap100k-shard4.tsv",
+        "nodes": 9602801,
+        "sha256": "180c1ec4490e3f0cf50d4c584ecc893fe83cde7ac5ae5b521ca16e5fd1e8405c",
+        "shard": 4,
+        "solver_seconds": 9.126756159,
+        "tasks": 104,
+        "truncated": 95
+      },
+      {
+        "complete": 14,
+        "file": "runs/profile-20260815T0714Z/psl4-cap100k-shard5.tsv",
+        "nodes": 9558217,
+        "sha256": "d617c8de95d70be4d2077bb8ae4a82d82b18db838e714465fae7c988281fc3c3",
+        "shard": 5,
+        "solver_seconds": 8.986237632,
+        "tasks": 109,
+        "truncated": 95
+      },
+      {
+        "complete": 13,
+        "file": "runs/profile-20260815T0714Z/psl4-cap100k-shard6.tsv",
+        "nodes": 9400118,
+        "sha256": "0760e0e4679542fd3d2e74713dfe67f38185e9a24088bcdf814933a1b6caceef",
+        "shard": 6,
+        "solver_seconds": 8.923405859,
+        "tasks": 107,
+        "truncated": 94
+      },
+      {
+        "complete": 10,
+        "file": "runs/profile-20260815T0714Z/psl4-cap100k-shard7.tsv",
+        "nodes": 7888769,
+        "sha256": "32b8783db7fecf73ce282d3749a530e12ddaadf6746ad78191fecccce7928732",
+        "shard": 7,
+        "solver_seconds": 7.469717822,
+        "tasks": 88,
+        "truncated": 78
+      }
+    ],
+    "solver_seconds": 68.616672475,
+    "total_nodes": 72497902,
+    "truncated_tasks": 720
+  },
+  "cap_500000": {
+    "complete_tasks": 15,
+    "completion_fraction": 0.1485148514851485,
+    "file": "runs/profile-20260815T0714Z/psl4-cap500k-shard0.tsv",
+    "sampled_tasks": 101,
+    "sha256": "2e4d3c95cfd068d3332fa1eeea96c91f15061ba678d53219712ad81aa98140d5",
+    "solver_seconds": 38.805394293,
+    "total_nodes": 43716792,
+    "truncated_tasks": 86
+  },
+  "dispatcher_smoke": {
+    "complete_nodes": 1,
+    "complete_tasks": 1,
+    "expected_task": 25518,
+    "first_run_and_resume_validation": "pass",
+    "shard": 25214,
+    "virtual_shards": 1000003
+  },
+  "generated_at": "2026-08-15T07:18:00Z",
+  "scope": {
+    "claim": "The recorded shards quantify workload shape and validate deterministic partitioning; they are not a completed global enumeration or a statistical theorem about every task.",
+    "global_task_count": 730810,
+    "sampled_shards": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "task_partition": "SplitMix64(task_index) modulo 7308"
+  },
+  "status": "deterministic_capped_workload_profile",
+  "version": 1
+}

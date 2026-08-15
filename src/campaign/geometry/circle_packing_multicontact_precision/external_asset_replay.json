@@ -1,0 +1,31 @@
+{
+  "asset": "ClaudeEvolve paper strict coordinate table",
+  "asset_source": "https://github.com/BudEcosystem/ClaudeEvolve/blob/main/docs/circle_packing_paper.md",
+  "classification": "physical-strict",
+  "evaluation_mirror": {
+    "frozen_verifier_executed": false,
+    "path": "campaign/geometry/circle_packing_multicontact_precision/verifier_formula.py",
+    "sha256": "ad11321f9c010f03f850f6ebf41fb82533f772dad8b8ee080386de275bce830a"
+  },
+  "gap_to_gate": 1.6680284398162826e-07,
+  "gate_clearing": false,
+  "literal_verifier_accepted": true,
+  "literal_verifier_score": 2.635982928558,
+  "maximum_pair_overrun": 0.0,
+  "maximum_wall_overrun": 0.0,
+  "minimum_pair_gap": 9.998709471492617e-09,
+  "minimum_wall_slack": 9.99999993922529e-09,
+  "payload": "campaign/geometry/circle_packing_multicontact_precision/recovered_claudeevolve_strict.json",
+  "payload_sha256": "b87a7364229f23aeae949f745b678ef36cdf72d5fc60153cbe0cf93e701e6643",
+  "schema_valid": true,
+  "solution_schema": {
+    "circles": "array of [x, y, r] triples"
+  },
+  "source_claims": {
+    "paper_full_precision": 2.6359829286,
+    "readme_headline_without_recovered_coordinates": 2.6359835671240317
+  },
+  "target_strictly_above": 2.635983095360844,
+  "verifier": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+  "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+}

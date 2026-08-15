@@ -1,0 +1,653 @@
+{
+  "accepted_labeled_graphs": 5215,
+  "base": {
+    "literal_verifier_accepted": true,
+    "literal_verifier_score": 2.343316505534278,
+    "maximum_pair_overrun": 9.999999717180685e-10,
+    "maximum_perimeter_overrun": 1.000000082740371e-09,
+    "nextafter_buffer_steps": 3,
+    "physical_strict": false,
+    "schema_valid": true,
+    "screen": {
+      "accepted_screen": true,
+      "aspect_ratio": 1.2856578147110955,
+      "height": 0.8750216187775237,
+      "minimum_pair_slack": 2.828193152570687e-17,
+      "minimum_radius": 0.07487589208889331,
+      "perimeter_slack": 0.0,
+      "score": 2.343316505534278,
+      "width": 1.1249783822224764
+    },
+    "verifier_tolerance_only": true
+  },
+  "base_active": [
+    [
+      "P",
+      0,
+      1
+    ],
+    [
+      "P",
+      0,
+      5
+    ],
+    [
+      "P",
+      1,
+      2
+    ],
+    [
+      "P",
+      1,
+      5
+    ],
+    [
+      "P",
+      1,
+      6
+    ],
+    [
+      "P",
+      2,
+      3
+    ],
+    [
+      "P",
+      2,
+      6
+    ],
+    [
+      "P",
+      2,
+      7
+    ],
+    [
+      "P",
+      3,
+      4
+    ],
+    [
+      "P",
+      3,
+      7
+    ],
+    [
+      "P",
+      3,
+      8
+    ],
+    [
+      "P",
+      4,
+      8
+    ],
+    [
+      "P",
+      4,
+      9
+    ],
+    [
+      "P",
+      5,
+      6
+    ],
+    [
+      "P",
+      5,
+      10
+    ],
+    [
+      "P",
+      5,
+      11
+    ],
+    [
+      "P",
+      6,
+      7
+    ],
+    [
+      "P",
+      6,
+      11
+    ],
+    [
+      "P",
+      6,
+      12
+    ],
+    [
+      "P",
+      7,
+      8
+    ],
+    [
+      "P",
+      7,
+      12
+    ],
+    [
+      "P",
+      7,
+      13
+    ],
+    [
+      "P",
+      8,
+      9
+    ],
+    [
+      "P",
+      8,
+      13
+    ],
+    [
+      "P",
+      8,
+      14
+    ],
+    [
+      "P",
+      9,
+      14
+    ],
+    [
+      "P",
+      10,
+      11
+    ],
+    [
+      "P",
+      10,
+      15
+    ],
+    [
+      "P",
+      10,
+      20
+    ],
+    [
+      "P",
+      11,
+      12
+    ],
+    [
+      "P",
+      11,
+      15
+    ],
+    [
+      "P",
+      12,
+      13
+    ],
+    [
+      "P",
+      12,
+      15
+    ],
+    [
+      "P",
+      12,
+      16
+    ],
+    [
+      "P",
+      12,
+      17
+    ],
+    [
+      "P",
+      13,
+      14
+    ],
+    [
+      "P",
+      13,
+      17
+    ],
+    [
+      "P",
+      13,
+      18
+    ],
+    [
+      "P",
+      14,
+      18
+    ],
+    [
+      "P",
+      14,
+      19
+    ],
+    [
+      "P",
+      15,
+      16
+    ],
+    [
+      "P",
+      15,
+      20
+    ],
+    [
+      "P",
+      16,
+      17
+    ],
+    [
+      "P",
+      16,
+      20
+    ],
+    [
+      "P",
+      17,
+      18
+    ],
+    [
+      "P",
+      18,
+      19
+    ],
+    [
+      "W",
+      0,
+      "L"
+    ],
+    [
+      "W",
+      0,
+      "B"
+    ],
+    [
+      "W",
+      1,
+      "B"
+    ],
+    [
+      "W",
+      2,
+      "B"
+    ],
+    [
+      "W",
+      3,
+      "B"
+    ],
+    [
+      "W",
+      4,
+      "R"
+    ],
+    [
+      "W",
+      4,
+      "B"
+    ],
+    [
+      "W",
+      5,
+      "L"
+    ],
+    [
+      "W",
+      9,
+      "R"
+    ],
+    [
+      "W",
+      10,
+      "L"
+    ],
+    [
+      "W",
+      14,
+      "R"
+    ],
+    [
+      "W",
+      16,
+      "T"
+    ],
+    [
+      "W",
+      17,
+      "T"
+    ],
+    [
+      "W",
+      18,
+      "T"
+    ],
+    [
+      "W",
+      19,
+      "R"
+    ],
+    [
+      "W",
+      19,
+      "T"
+    ],
+    [
+      "W",
+      20,
+      "L"
+    ],
+    [
+      "W",
+      20,
+      "T"
+    ],
+    [
+      "E",
+      0,
+      "perimeter"
+    ]
+  ],
+  "base_multipliers": [
+    0.2525773476281772,
+    0.21344058497510765,
+    0.2299292640397884,
+    0.1016407147071992,
+    0.18801834044639554,
+    0.24955337060586946,
+    0.14472387530773384,
+    0.13523028217900346,
+    0.24847748511271062,
+    0.119379924609588,
+    0.14699144914683368,
+    0.08966874277056217,
+    0.17321136365250933,
+    0.11352053360513636,
+    0.1350512492746393,
+    0.19716720610928617,
+    0.23210331567496603,
+    0.24092170993813422,
+    0.08071222502763403,
+    0.2403960673118841,
+    0.1339811421500911,
+    0.13890926807446724,
+    0.2776713576242715,
+    0.14783532314602854,
+    0.09743706000042007,
+    0.1808657042754836,
+    0.18521282021916885,
+    0.1869355839000339,
+    0.12636312855983256,
+    0.17180338892890507,
+    0.2048948748045056,
+    0.22558284878609283,
+    0.17365996765634337,
+    0.06957094572296427,
+    0.14468948172796928,
+    0.20353938885526832,
+    0.12329722191467271,
+    0.16083594922347036,
+    0.1006774389937872,
+    0.18907593693923194,
+    0.24148342233100495,
+    0.1930261513081122,
+    0.2529483095894823,
+    0.15131075489628096,
+    0.26448085473837124,
+    0.2778801273046438,
+    0.2961019628710481,
+    0.23788010452566702,
+    0.22783433317843965,
+    0.2405632078676048,
+    0.23559777052499814,
+    0.25885957645795893,
+    0.22978283200625896,
+    0.23917971132863122,
+    0.3682515744477356,
+    0.36643721804632556,
+    0.22840447093580893,
+    0.28468656746026744,
+    0.21458413202950455,
+    0.1961256297397274,
+    0.31614262626146533,
+    0.21690130949465908,
+    0.26993935585696416,
+    0.25936060937881006,
+    1.171658248102969
+  ],
+  "best": {
+    "added": [
+      [
+        "P",
+        2,
+        8
+      ],
+      [
+        "P",
+        7,
+        11
+      ],
+      [
+        "P",
+        9,
+        13
+      ]
+    ],
+    "event": "graph_accepted",
+    "exact": {
+      "literal_verifier_accepted": true,
+      "literal_verifier_score": 2.3488549965452887,
+      "maximum_pair_overrun": 9.999999717180685e-10,
+      "maximum_perimeter_overrun": 1.000000082740371e-09,
+      "nextafter_buffer_steps": 3,
+      "physical_strict": false,
+      "schema_valid": true,
+      "screen": {
+        "accepted_screen": true,
+        "aspect_ratio": 1.1845429506845826,
+        "height": 0.9155233136401593,
+        "minimum_pair_slack": 2.828193152570687e-17,
+        "minimum_radius": 0.07871330385705355,
+        "perimeter_slack": 0.0,
+        "score": 2.3488549965452887,
+        "width": 1.0844766873598408
+      },
+      "verifier_tolerance_only": true
+    },
+    "linear_objective_opening": -0.06844203077892183,
+    "margin_to_target": -0.01697738876270849,
+    "opening": [
+      0.23156894759636132,
+      0.19893503537358032,
+      0.2539163017838081
+    ],
+    "payload": "campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_DISTINCT1010/best.json",
+    "payload_sha256": "f287a1f4e4c4540f3140c36d050c16a8cee8bdd04f0a0bf0375b3000840e0cb1",
+    "release_order": 55,
+    "released": [
+      [
+        "P",
+        3,
+        7
+      ],
+      [
+        "P",
+        6,
+        12
+      ],
+      [
+        "P",
+        8,
+        14
+      ]
+    ],
+    "released_indices": [
+      9,
+      18,
+      24
+    ],
+    "root_residual": 1.3930423398822253e-16,
+    "score": 2.3488549965452887,
+    "signature": "04c2db3ec6f5b3200aceb4de9d1d5c23f7d0abc691be05ce58220ddfd712f9ea",
+    "strict": {
+      "equation_score": 2.348854987219717,
+      "exact": {
+        "literal_verifier_accepted": true,
+        "literal_verifier_score": 2.348854987219717,
+        "maximum_pair_overrun": 8.326672684688674e-17,
+        "maximum_perimeter_overrun": 0.0,
+        "nextafter_buffer_steps": 0,
+        "physical_strict": true,
+        "schema_valid": true,
+        "screen": {
+          "accepted_screen": true,
+          "aspect_ratio": 1.1845429508861536,
+          "height": 0.915523313097921,
+          "minimum_pair_slack": 9.999999167332732e-10,
+          "minimum_radius": 0.07871330339641025,
+          "perimeter_slack": 9.99999860695766e-10,
+          "score": 2.348854987219717,
+          "width": 1.0844766869020792
+        },
+        "verifier_tolerance_only": false
+      },
+      "live_verifier_score": 2.348854987219717,
+      "residual": 1.249000902703301e-16
+    },
+    "vertex_index": 0,
+    "wl_signature": "3468520149ae9f560231350c22194f84"
+  },
+  "best_changed": {
+    "added": [
+      [
+        "P",
+        2,
+        8
+      ],
+      [
+        "P",
+        7,
+        11
+      ],
+      [
+        "P",
+        9,
+        13
+      ]
+    ],
+    "event": "graph_accepted",
+    "exact": {
+      "literal_verifier_accepted": true,
+      "literal_verifier_score": 2.3488549965452887,
+      "maximum_pair_overrun": 9.999999717180685e-10,
+      "maximum_perimeter_overrun": 1.000000082740371e-09,
+      "nextafter_buffer_steps": 3,
+      "physical_strict": false,
+      "schema_valid": true,
+      "screen": {
+        "accepted_screen": true,
+        "aspect_ratio": 1.1845429506845826,
+        "height": 0.9155233136401593,
+        "minimum_pair_slack": 2.828193152570687e-17,
+        "minimum_radius": 0.07871330385705355,
+        "perimeter_slack": 0.0,
+        "score": 2.3488549965452887,
+        "width": 1.0844766873598408
+      },
+      "verifier_tolerance_only": true
+    },
+    "linear_objective_opening": -0.06844203077892183,
+    "margin_to_target": -0.01697738876270849,
+    "opening": [
+      0.23156894759636132,
+      0.19893503537358032,
+      0.2539163017838081
+    ],
+    "payload": "campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_DISTINCT1010/best_changed.json",
+    "payload_sha256": "f287a1f4e4c4540f3140c36d050c16a8cee8bdd04f0a0bf0375b3000840e0cb1",
+    "release_order": 55,
+    "released": [
+      [
+        "P",
+        3,
+        7
+      ],
+      [
+        "P",
+        6,
+        12
+      ],
+      [
+        "P",
+        8,
+        14
+      ]
+    ],
+    "released_indices": [
+      9,
+      18,
+      24
+    ],
+    "root_residual": 1.3930423398822253e-16,
+    "score": 2.3488549965452887,
+    "signature": "04c2db3ec6f5b3200aceb4de9d1d5c23f7d0abc691be05ce58220ddfd712f9ea",
+    "strict": {
+      "equation_score": 2.348854987219717,
+      "exact": {
+        "literal_verifier_accepted": true,
+        "literal_verifier_score": 2.348854987219717,
+        "maximum_pair_overrun": 8.326672684688674e-17,
+        "maximum_perimeter_overrun": 0.0,
+        "nextafter_buffer_steps": 0,
+        "physical_strict": true,
+        "schema_valid": true,
+        "screen": {
+          "accepted_screen": true,
+          "aspect_ratio": 1.1845429508861536,
+          "height": 0.915523313097921,
+          "minimum_pair_slack": 9.999999167332732e-10,
+          "minimum_radius": 0.07871330339641025,
+          "perimeter_slack": 9.99999860695766e-10,
+          "score": 2.348854987219717,
+          "width": 1.0844766869020792
+        },
+        "verifier_tolerance_only": false
+      },
+      "live_verifier_score": 2.348854987219717,
+      "residual": 1.249000902703301e-16
+    },
+    "vertex_index": 0,
+    "wl_signature": "3468520149ae9f560231350c22194f84"
+  },
+  "best_margin_to_target": -0.01697738876270849,
+  "best_score": 2.3488549965452887,
+  "classification": "verifier-only",
+  "dimension": 3,
+  "duplicate_labeled_graphs": 0,
+  "gate_clearing": false,
+  "graphs_tested": 5246,
+  "infeasible_roots": 28,
+  "leader": 2.365832385207997,
+  "limitation": "Exhaustive over configured active-contact triples and every non-box vertex returned by 3-D half-space intersection from this seed.",
+  "linear_vertices": 5246,
+  "live_solution_schema": {
+    "circles": "array of 21 [x, y, r] triples"
+  },
+  "maximum_opening": 0.3,
+  "maximum_vertices_per_release": 12,
+  "min_improvement": 1e-10,
+  "pair_tolerance": 1e-09,
+  "perimeter_tolerance": 1e-09,
+  "qhull_empty_or_failed": 36427,
+  "release_triple_count": 41664,
+  "release_triples_processed": 41664,
+  "root_failures": 3,
+  "seed": "campaign/geometry/rectangle_topology/runs/20260815T022200Z/stochastic_relax/topologies/0ac751712a4691f5/candidate.json",
+  "seed_sha256": "689c54b944a47bace3e0275074ae9c58f29ee636368286e8da17a3902dd194ac",
+  "stamp": "20260815T_RECT_CODIM3_DISTINCT1010",
+  "strict_roots": 5215,
+  "target_strictly_above": 2.365832385307997,
+  "total_nonlinear_evaluations": 88173,
+  "unlabeled_wl_graph_classes": 5215,
+  "verifier": "campaign/state/problems/circles-rectangle/c36cb4b5239e992b953f3839506562e15d21097830adc8881184c5a597866df9.py",
+  "verifier_sha256": "c36cb4b5239e992b953f3839506562e15d21097830adc8881184c5a597866df9"
+}

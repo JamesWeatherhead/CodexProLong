@@ -95,6 +95,12 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "flat-psl4-exact-neighbourhood": "flat_psl4_enumerator/receipt.json",
     "flat-psl4-global-hybrid": "flat_psl4_global_exact/receipt.json",
     "flat-psl4-global-hybrid-benchmarks": "flat_psl4_global_exact/benchmarks.json",
+    "flat-psl4-global-scaling-profile": "flat_psl4_global_exact/scaling_profile.json",
+    "difference-exact-synthesis": "discrete/difference_exact_synthesis/receipt.json",
+    "circle-packing-multicontact-precision": "geometry/circle_packing_multicontact_precision/receipt.json",
+    "circle-packing-multicontact-replay": "geometry/circle_packing_multicontact_precision/replay_receipt.json",
+    "circles-rectangle-multicontact-precision": "geometry/rectangle_multicontact_precision/receipt.json",
+    "circles-rectangle-multicontact-replay": "geometry/rectangle_multicontact_precision/replay_receipt.json",
     "geometry-literature-asset-replays": "literature_asset_hunt/receipt.json",
     "geometry-literature-asset-sources": "literature_asset_hunt/sources.json",
     "geometry-secondary-circle-assets": "literature_asset_hunt/secondary_circle_assets.json",
@@ -142,13 +148,13 @@ FRONTIER_RECEIPTS = {
     "third-autocorrelation-inequality": "c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/receipt.json",
 }
 METHODS = {
-    "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short. Beyond the original releases and relocation seeds, a primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 80 rigid polished classes without escaping the known tolerance ceiling. Three additional evolution archives were independently replayed: rEVOLVE and mangoEvolve were invalid or duplicate, while Escher's MIT-licensed program scored 2.6352223117773934 and was safely below the gate.",
-    "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. A primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 93 rigid polished classes. A separate five-million-state legal-float/binade audit and 12,000-state symmetric lattice/LP screen found zero precision escape, so a genuinely different contact topology is required.",
-    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109. A separate Paperclip-derived quadratic relative-difference-set campaign tested 2,400 global starts, 16 coordinate descents, and 121,111 exact sparse-patch births; finite-group coverage collapsed under integer carry ordering.",
+    "circle-packing": "Exact replay reaches 2.635983095281623, still 7.92e-11 short. Beyond one-contact continuation, relocation, and 550 contact-graph recombinations, the latest clean-room codimension-two campaign solved 9,270 graph systems, accepted 8,699 labeled endpoints, and deduplicated 5,147 unlabeled WL classes. No changed topology escaped the canonical tolerance ceiling.",
+    "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. The latest simultaneous-contact campaign exhausts all 2,016 two-contact and 41,664 three-contact releases from both rigid public graph classes: 11,933 nonlinear systems, 11,884 accepted endpoints, and 8,828 unlabeled WL classes. The canonical tolerance ceiling remains best, so a higher-codimension or genuinely different topology is required.",
+    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, block repairs, and a separate quadratic relative-difference-set family are closed. The newest carry-exact CSP lets every residue column independently choose any nonempty subset of shells 0..7; 19 independently rebuilt formulas prove infeasibility for every size 320..720 within that fixed 90-point cyclic-core family. This is a family closure, not a global difference-basis proof.",
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Active-bundle sequential linear programming over n=3,584 coordinates crossed the strict 1e-7 gate after 58 exact-accepted stages. Independent literal replay and evaluated solution #2507 agree at 0.3808585748578584.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
-    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. A separate 20-source archival recovery reconstructed three of 72 published PSL-4 classes. The newest clean-room exact hybrid combines outside-in XOR/popcount with a grouped path-parity bound; on one fixed global task it is 6.60% faster than raw popcount, 25.89% faster than the prior strong solver, and visits 143.67x fewer nodes than raw. The full 730,810-task enumeration remains open.",
+    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. A separate 20-source archival recovery reconstructed three of 72 published PSL-4 classes. The newest clean-room exact hybrid combines outside-in XOR/popcount with a grouped path-parity bound; on one fixed global task it is 6.60% faster than raw popcount, 25.89% faster than the prior strong solver, and visits 143.67x fewer nodes than raw. Deterministic hash sharding, atomic per-shard receipts, resume validation, and a 926-task capped workload profile now make the open 730,810-task enumeration distributable.",
     "heilbronn-triangles": "A 100-digit active root, 462 topology trials, and exact q=25 lattice closure are supplemented by exact q=143 and q=144..220 rational-mesh campaigns. The latest packet closes 72 distinct finite labeled domains: 18 by determinant upper bounds and 57 fresh uncapped SAT formulas, with no candidate. These are finite-domain no-gos, not global proofs. An independent Escher asset replay scored 0.03372654309850653, below the gate.",
     "kissing-number-d11": "An exhaustive exact-rational audit verifies public solution #1492 as a genuine 594-vector score-0 construction over all 176,121 pairs. Zero is the objective floor, and the live API assigns later exact ties ordinal ranks rather than joint first place.",
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
@@ -163,9 +169,9 @@ METHODS = {
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
 }
 SOURCE_ENTRYPOINTS = {
-    "circle-packing": "geometry_asset_recombine/HANDOFF.md",
-    "circles-rectangle": "geometry/rectangle_precision_escape/HANDOFF.md",
-    "difference-bases": "discrete/difference_global/HANDOFF.md",
+    "circle-packing": "geometry/circle_packing_multicontact_precision/HANDOFF.md",
+    "circles-rectangle": "geometry/rectangle_multicontact_precision/HANDOFF.md",
+    "difference-bases": "discrete/difference_exact_synthesis/HANDOFF.md",
     "edges-vs-triangles": "discrete/edges_vs_triangles/HANDOFF.md",
     "erdos-min-overlap": "analytic/erdos_global/HANDOFF.md",
     "flat-polynomials": "flat_psl4_global_exact/HANDOFF.md",
@@ -219,12 +225,23 @@ ROOT_SOURCE_FILES = (
     "flat_psl4_global_exact/README.md",
     "flat_psl4_global_exact/HANDOFF.md",
     "flat_psl4_global_exact/psl4_popcount.cpp",
+    "flat_psl4_global_exact/psl4_dispatch.py",
     "flat_psl4_global_exact/literature.json",
     "flat_psl4_global_exact/benchmarks.json",
+    "flat_psl4_global_exact/scaling_profile.json",
     "flat_psl4_global_exact/receipt.json",
     "flat_psl4_global_exact/runs/benchmark-raw.tsv",
     "flat_psl4_global_exact/runs/benchmark-hybrid-d24.tsv",
     "flat_psl4_global_exact/runs/benchmark-prior-strong.tsv",
+    "flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard0.tsv",
+    "flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard1.tsv",
+    "flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard2.tsv",
+    "flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard3.tsv",
+    "flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard4.tsv",
+    "flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard5.tsv",
+    "flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard6.tsv",
+    "flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard7.tsv",
+    "flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap500k-shard0.tsv",
     "analysis/second_autocorrelation_global_multiscale/.gitignore",
     "analysis/second_autocorrelation_global_multiscale/README.md",
     "analysis/second_autocorrelation_global_multiscale/HANDOFF.md",
@@ -313,9 +330,37 @@ UNPUBLISHED_WORK_IN_PROGRESS = {
 }
 UNPUBLISHED_SOURCE_PREFIXES = {
     Path("discrete/difference_exact_synthesis"),
+    Path("discrete/prime_number_theorem_global_proof"),
     Path("geometry/circle_packing_multicontact_precision"),
     Path("geometry/rectangle_multicontact_precision"),
+    Path("discrete/difference_interval_constructions"),
+    Path("geometry/circle_packing_multicontact_global"),
+    Path("geometry/claudeevolve_circle_recovery"),
 }
+
+PUBLICATION_MANIFESTS = (
+    Path("geometry/circle_packing_multicontact_precision/PUBLICATION_MANIFEST.json"),
+    Path("geometry/rectangle_multicontact_precision/PUBLICATION_MANIFEST.json"),
+)
+
+PUBLICATION_ALLOWLIST = (
+    Path("discrete/difference_exact_synthesis/HANDOFF.md"),
+    Path("discrete/difference_exact_synthesis/PROVENANCE.md"),
+    Path("discrete/difference_exact_synthesis/README.md"),
+    Path("discrete/difference_exact_synthesis/carry_exact_csp.py"),
+    Path("discrete/difference_exact_synthesis/complete_capacity_closure.py"),
+    Path("discrete/difference_exact_synthesis/freeze_receipt.py"),
+    Path("discrete/difference_exact_synthesis/frozen_inputs.json"),
+    Path("discrete/difference_exact_synthesis/public_replay.py"),
+    Path("discrete/difference_exact_synthesis/test_carry_exact_csp.py"),
+    Path("discrete/difference_exact_synthesis/receipt.json"),
+    Path("discrete/difference_exact_synthesis/runs/20260815T063528Z_height7_full_support/config.json"),
+    Path("discrete/difference_exact_synthesis/runs/20260815T063528Z_height7_full_support/events.jsonl"),
+    Path("discrete/difference_exact_synthesis/runs/20260815T063528Z_height7_full_support/summary.json"),
+    Path("discrete/difference_exact_synthesis/runs/20260815T073000Z_complete_capacity_closure/config.json"),
+    Path("discrete/difference_exact_synthesis/runs/20260815T073000Z_complete_capacity_closure/events.jsonl"),
+    Path("discrete/difference_exact_synthesis/runs/20260815T073000Z_complete_capacity_closure/summary.json"),
+)
 
 
 def sha256(path: Path) -> str:
@@ -503,13 +548,141 @@ def frontier_artifact_destination(slug: str, source: Path) -> Path:
 def mirror_source(source: Path) -> list[dict[str, Any]]:
     copied: list[dict[str, Any]] = []
     destination_root = REPO / "src" / "campaign"
+
+    def copy_relative(relative: Path) -> None:
+        src = source / relative
+        if not src.is_file():
+            raise FileNotFoundError(src)
+        dst = destination_root / relative
+        copy_file(src, dst)
+        copied.append(
+            {
+                "path": str(dst.relative_to(REPO)),
+                "sha256": sha256(dst),
+                "bytes": dst.stat().st_size,
+            }
+        )
+
+    def copy_portable_publication_entry(relative: Path) -> dict[str, Any]:
+        """Copy manifest-approved evidence while stripping local host paths.
+
+        The canonical publication manifest continues to authenticate the source
+        bytes.  When a JSON/JSONL file needs a portability rewrite, the generated
+        PUBLICATION_EXPORT.json records both the canonical and public hashes.
+        """
+        src = source / relative
+        if not src.is_file():
+            raise FileNotFoundError(src)
+        dst = destination_root / relative
+        transformed = False
+
+        if src.suffix == ".json":
+            original = json.loads(src.read_text(encoding="utf-8"))
+            public = portable_json(original, source)
+            transformed = public != original
+            if transformed:
+                write_json(dst, public)
+            else:
+                copy_file(src, dst)
+        elif src.suffix == ".jsonl":
+            source_lines = src.read_text(encoding="utf-8").splitlines()
+            public_lines: list[str] = []
+            for line_number, line in enumerate(source_lines, start=1):
+                if not line:
+                    public_lines.append(line)
+                    continue
+                try:
+                    original = json.loads(line)
+                except json.JSONDecodeError as exc:
+                    raise ValueError(f"invalid JSONL at {relative}:{line_number}") from exc
+                public = portable_json(original, source)
+                if public != original:
+                    transformed = True
+                    public_lines.append(
+                        json.dumps(public, sort_keys=True, separators=(",", ":"))
+                    )
+                else:
+                    public_lines.append(line)
+            if transformed:
+                dst.parent.mkdir(parents=True, exist_ok=True)
+                dst.write_text("\n".join(public_lines) + "\n", encoding="utf-8")
+            else:
+                copy_file(src, dst)
+        else:
+            copy_file(src, dst)
+
+        public_record = {
+            "path": str(dst.relative_to(REPO)),
+            "sha256": sha256(dst),
+            "bytes": dst.stat().st_size,
+        }
+        copied.append(public_record)
+        return {
+            "path": str(relative),
+            "canonical_sha256": sha256(src),
+            "canonical_bytes": src.stat().st_size,
+            "public_sha256": public_record["sha256"],
+            "public_bytes": public_record["bytes"],
+            "portable_path_rewrite": transformed,
+        }
+
     for relative_text in ROOT_SOURCE_FILES:
         relative = Path(relative_text)
         src = source / relative
         if src.exists():
-            dst = destination_root / relative
-            copy_file(src, dst)
-            copied.append({"path": str(dst.relative_to(REPO)), "sha256": sha256(dst), "bytes": dst.stat().st_size})
+            copy_relative(relative)
+
+    for manifest_relative in PUBLICATION_MANIFESTS:
+        manifest_path = source / manifest_relative
+        publication = json.loads(manifest_path.read_text(encoding="utf-8"))
+        packet_root = manifest_relative.parent
+        export_entries: list[dict[str, Any]] = []
+        for entry in publication["include"]:
+            relative = packet_root / entry["path"]
+            src = source / relative
+            if sha256(src) != entry["sha256"] or src.stat().st_size != entry["bytes"]:
+                raise ValueError(f"publication manifest mismatch: {relative}")
+            export_record = copy_portable_publication_entry(relative)
+            export_record["path"] = entry["path"]
+            export_entries.append(export_record)
+        copy_relative(manifest_relative)
+        export_relative = packet_root / "PUBLICATION_EXPORT.json"
+        export_path = destination_root / export_relative
+        write_json(
+            export_path,
+            {
+                "schema_version": 1,
+                "canonical_manifest": str(manifest_relative),
+                "canonical_manifest_sha256": sha256(manifest_path),
+                "policy": (
+                    "Canonical bytes are hash-checked before export. Absolute host "
+                    "paths in manifest-approved JSON/JSONL are rewritten to portable "
+                    "campaign-relative paths; all other bytes are copied verbatim."
+                ),
+                "files": export_entries,
+            },
+        )
+        copied.append(
+            {
+                "path": str(export_path.relative_to(REPO)),
+                "sha256": sha256(export_path),
+                "bytes": export_path.stat().st_size,
+            }
+        )
+
+    difference_receipt = json.loads(
+        (source / "discrete/difference_exact_synthesis/receipt.json").read_text(
+            encoding="utf-8"
+        )
+    )
+    difference_hashes = difference_receipt["publish_safe_artifacts"]
+    for relative in PUBLICATION_ALLOWLIST:
+        if relative.name != "receipt.json":
+            key = f"campaign/{relative}"
+            if sha256(source / relative) != difference_hashes[key]:
+                raise ValueError(f"difference publication hash mismatch: {relative}")
+        copy_relative(relative)
+
     for family in SOURCE_FAMILIES:
         family_root = source / family
         if not family_root.exists():
@@ -524,9 +697,7 @@ def mirror_source(source: Path) -> list[dict[str, Any]]:
                 continue
             if any(relative.is_relative_to(prefix) for prefix in UNPUBLISHED_SOURCE_PREFIXES):
                 continue
-            dst = destination_root / relative
-            copy_file(src, dst)
-            copied.append({"path": str(dst.relative_to(REPO)), "sha256": sha256(dst), "bytes": dst.stat().st_size})
+            copy_relative(relative)
     return copied
 
 

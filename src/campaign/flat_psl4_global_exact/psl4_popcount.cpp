@@ -108,6 +108,8 @@ struct Options {
   int threads = 0;
   uint64_t max_tasks = 0;
   uint64_t node_limit = 0;
+  uint64_t task_shards = 1;
+  uint64_t task_shard = 0;
   int exact_start_depth = 0;
   int exact_stride = 1;
   int moment_depth = 0;
@@ -117,6 +119,13 @@ struct Options {
   std::string journal;
   bool self_test = false;
 };
+
+uint64_t SplitMix64(uint64_t value) {
+  value += 0x9e3779b97f4a7c15ULL;
+  value = (value ^ (value >> 30U)) * 0xbf58476d1ce4e5b9ULL;
+  value = (value ^ (value >> 27U)) * 0x94d049bb133111ebULL;
+  return value ^ (value >> 31U);
+}
 
 std::mutex output_mutex;
 std::mutex answer_mutex;
@@ -961,6 +970,10 @@ Options ParseOptions(int argc, char** argv) {
       options.max_tasks = std::stoull(require_value());
     } else if (argument == "--node-limit") {
       options.node_limit = std::stoull(require_value());
+    } else if (argument == "--task-shards") {
+      options.task_shards = std::stoull(require_value());
+    } else if (argument == "--task-shard") {
+      options.task_shard = std::stoull(require_value());
     } else if (argument == "--exact-start-depth") {
       options.exact_start_depth = std::stoi(require_value());
     } else if (argument == "--exact-stride") {
@@ -1001,6 +1014,10 @@ Options ParseOptions(int argc, char** argv) {
   if (options.strong_exact_stride < 1 ||
       options.strong_exact_stride >= kHalf) {
     throw std::runtime_error("strong exact stride must be in [1,34]");
+  }
+  if (options.task_shards == 0 || options.task_shard >= options.task_shards) {
+    throw std::runtime_error(
+        "task shards must be positive and task shard must be in range");
   }
   if (options.exact_start_depth > 0 && options.strong_switch_depth > 0) {
     throw std::runtime_error(
@@ -1113,7 +1130,8 @@ int main(int argc, char** argv) {
     std::vector<uint64_t> pending;
     pending.reserve(tasks.size());
     for (uint64_t index = 0; index < tasks.size(); ++index) {
-      if (!completed.contains(index)) {
+      if (!completed.contains(index) &&
+          SplitMix64(index) % options.task_shards == options.task_shard) {
         pending.push_back(index);
       }
     }
@@ -1137,6 +1155,8 @@ int main(int argc, char** argv) {
               << " moment_depth=" << options.moment_depth
               << " strong_switch_depth=" << options.strong_switch_depth
               << " strong_exact_stride=" << options.strong_exact_stride
+              << " task_shard=" << options.task_shard << '/'
+              << options.task_shards
               << " node_limit=" << options.node_limit << '\n';
     const auto started = std::chrono::steady_clock::now();
 

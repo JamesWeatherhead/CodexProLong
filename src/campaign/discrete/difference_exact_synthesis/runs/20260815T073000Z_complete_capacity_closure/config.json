@@ -1,0 +1,61 @@
+{
+  "carry_source_sha256": "6704fa33ff1046cb3b8af03bf48d9b8476beb49c858b87d9af5ba89e81ef4508",
+  "cases": [
+    {
+      "capacity": 329,
+      "high_size": 329,
+      "low_size": 320,
+      "target_coverage": 38803
+    },
+    {
+      "capacity": 339,
+      "high_size": 339,
+      "low_size": 330,
+      "target_coverage": 41266
+    },
+    {
+      "capacity": 349,
+      "high_size": 349,
+      "low_size": 340,
+      "target_coverage": 43805
+    },
+    {
+      "capacity": 356,
+      "high_size": 356,
+      "low_size": 350,
+      "target_coverage": 46419
+    },
+    {
+      "capacity": 359,
+      "high_size": 359,
+      "low_size": 357,
+      "target_coverage": 48294
+    },
+    {
+      "capacity": 384,
+      "high_size": 384,
+      "low_size": 372,
+      "target_coverage": 52438
+    },
+    {
+      "capacity": 411,
+      "high_size": 411,
+      "low_size": 385,
+      "target_coverage": 56167
+    }
+  ],
+  "config_sha256": "c2c8cfed650c1ac5fd4dba08dcc9b14a51f986437da38b88ab87d29b49208fc0",
+  "gate_score": 2.6390274685066077,
+  "height_max": 7,
+  "leader_payload_sha256": "02b16426d5a66feb480d79c7e1c7c26bb18ffb50730c5a2c76861584ec59183b",
+  "maximum_family_capacity": 720,
+  "method": "complete_nonempty_support_monotone_capacity_closure",
+  "minimum_column_size": 1,
+  "pattern_count": 255,
+  "public_snapshot_sha256": "6159d144ae3c57dc740cd4fd5b54e1a467589c44b355dcef98ceb4b0bc6d0d69",
+  "schema": 2,
+  "seconds_per_case": 600.0,
+  "source_sha256": "c1a88ad31c49fa001c3a7c5a603eed15df335cc0f22f905ddd1cfe45c51d1a4e",
+  "verifier_sha256": "a7521e8a701ac31131932d2a732769d65426d329f4a933c4819516adacf2e585",
+  "workers": 8
+}

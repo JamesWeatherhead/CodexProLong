@@ -42,6 +42,18 @@ gate, verifier hash, local frontier, negative result, and literature-grounded
 next move. The compact **[machine-readable frontier](data/frontier.json)** is
 the source of truth for automation.
 
+### Latest checkpoint: exact search that can actually resume
+
+The length-70 PSL-4 search is now a distributed exact program rather than a
+single heroic process. The C++ enumerator assigns all 730,810 tasks through
+deterministic SplitMix64 virtual shards; a new Python dispatcher schedules
+those shards across worker processes, validates source and binary hashes,
+writes atomic per-shard receipts, and refuses global completion unless every
+task appears exactly once with a final `COMPLETE` row. An 825-task capped
+profile exposed the expected heavy tail—only 12.7% finished below 100,000
+nodes—so dynamic virtual-shard scheduling is materially useful, not ornamental.
+[Source, profile, raw journals, and replay contract →](src/campaign/flat_psl4_global_exact/README.md)
+
 ## What this repository is
 
 CodexProLong is a persistent computational-mathematics system built around one
@@ -131,6 +143,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧪 [Open lab notebook: decisions, successes, and failures](docs/OPEN_LAB_NOTEBOOK.md)
 - 📚 [Paperclip literature map and line-pinned citations](docs/LITERATURE.md)
 - 🧮 [Paperclip-derived relative-difference-set search](src/campaign/discrete/difference_global/HANDOFF.md)
+- 🧮 [Carry-exact Difference Bases family closure](src/campaign/discrete/difference_exact_synthesis/HANDOFF.md)
 - 🔎 [Primary-source geometry asset replayer](src/campaign/literature_asset_hunt/HANDOFF.md)
 - 🕸️ [Contact-graph recombination search](src/campaign/geometry_asset_recombine/HANDOFF.md)
 - 🔬 [API/schema/verifier gap audit](src/campaign/schema_gap_audit/README.md)
@@ -142,7 +155,9 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧭 [C3 exact sign-wall precision escape](src/campaign/analytic/c3_precision_escape/HANDOFF.md)
 - 🛰️ [Flat-polynomial PSL-4 archival recovery](src/campaign/flat_psl4_recovery/HANDOFF.md)
 - 🧮 [Exact 4.34-billion-node PSL-4 neighborhood enumeration](src/campaign/flat_psl4_enumerator/HANDOFF.md)
-- ⚙️ [Bit-parallel exact PSL-4 global enumerator](src/campaign/flat_psl4_global_exact/HANDOFF.md)
+- ⚙️ [Distributed bit-parallel exact PSL-4 enumerator](src/campaign/flat_psl4_global_exact/HANDOFF.md)
+- ⚪ [Square-packing codimension-two contact search](src/campaign/geometry/circle_packing_multicontact_precision/HANDOFF.md)
+- ▭ [Rectangle codimension-two/three contact search](src/campaign/geometry/rectangle_multicontact_precision/HANDOFF.md)
 - 🔐 [Heilbronn q=143 exact support closure](src/campaign/geometry/heilbronn_q143_cegis/HANDOFF.md)
 - 🧩 [Heilbronn q=144–220 rational-mesh closure](src/campaign/geometry/heilbronn_rational_mesh_global/HANDOFF.md)
 - 🪐 [Thomson N=72→282 topology escape](src/campaign/geometry/thomson_282_topology_escape/HANDOFF.md)

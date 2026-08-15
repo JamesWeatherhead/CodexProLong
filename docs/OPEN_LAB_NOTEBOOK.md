@@ -88,6 +88,25 @@ chain-of-thought.
   11.90 billion to 82.82 million nodes and improved wall time by 6.60%; it was
   also 25.89% faster than the prior strong exact implementation. This is an
   architecture benchmark, not a claim that all 730,810 tasks are complete.
+- Turned that PSL-4 enumerator into a resumable distributed experiment. A
+  SplitMix64 partition fixes task ownership across machines; the dispatcher
+  runs many virtual shards over fewer workers, verifies source/binary hashes,
+  accepts only final `COMPLETE` journal rows, and emits global completion only
+  after exact coverage validation. A deterministic 825-task profile found 105
+  completions below 100,000 nodes and 720 capped tasks, quantifying the heavy
+  tail that motivated dynamic scheduling.
+- Closed a substantially broader carry-aware Difference Bases family. Every
+  one of 90 cyclic residue columns may independently select any nonempty subset
+  of shells 0 through 7; 19 independently rebuilt exact CSP formulas rule out
+  all construction sizes 320 through 720 within that fixed-core family. The
+  result is explicitly scoped as a family closure, not a global lower bound.
+- Exhausted simultaneous active-contact pivots in both precision-sensitive
+  packing lanes. Square packing solved 9,270 codimension-two graph systems and
+  deduplicated 5,147 unlabeled classes. Rectangle packing exhaustively released
+  every two- and three-contact subset from both rigid public classes, producing
+  8,828 unlabeled classes. Neither escaped its canonical tolerance ceiling;
+  clean-room replay formulas and publication manifests preserve the result
+  without redistributing unlicensed coordinate payloads.
 - Extended the C3 numerical frontier through two exact-accepted sign-wall
   crossings. After screening 14,333 deletions, 100,152 block transplants,
   20,000 single walls, and 7,140 wall pairs, literal `numpy.convolve` replay
@@ -98,16 +117,18 @@ chain-of-thought.
 
 - **Flat polynomials:** archival recovery reconstructed three of 72 published
   length-70 PSL-4 classes. The new bit-parallel hybrid gives the fastest exact
-  architecture measured so far on the fixed global benchmark; the next durable
-  step is to distribute its complete 730,810-task journal rather than repeat
-  local or seed-neighbour searches.
+  architecture measured so far on the fixed global benchmark, and the new
+  virtual-shard dispatcher makes the 730,810-task journal safely resumable. The
+  remaining work is compute, monitoring, and independent final coverage—not
+  another local or seed-neighbour search.
 - **Heilbronn:** the former q=143 timeout cells and bounded two-label topology
   releases are closed. The next rational-mesh campaign must change denominator
   or topology rather than repeat those finite domains.
-- **Difference bases:** Singer-product local neighborhoods and the independent
-  quadratic relative-difference-set topology are both frozen. The next credible
-  route must coordinate integer carry order directly rather than add more
-  finite-group randomization or first-gap patch depth.
+- **Difference bases:** Singer-product neighborhoods, quadratic relative
+  difference sets, and the shell-0..7 arbitrary-support carry-exact family are
+  frozen. The next credible route must change the cyclic core or reconstruct a
+  different interval-basis family rather than add more support subsets to the
+  closed model.
 - **Third autocorrelation:** boundary-cell topology changes plus exact
   all-coordinate continuation reached `1.4515653796072292`; this is a genuine
   adjacent-orthant frontier but remains about `3.516e-6` short of the gate.

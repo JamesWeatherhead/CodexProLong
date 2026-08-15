@@ -1,0 +1,38 @@
+{
+  "all_requested_completed": true,
+  "completed_totals": [
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371
+  ],
+  "config_sha256": "80ec23bce4367bee44a613bcb996f6a12defb6902e0b0a64d1ca282d28c6964a",
+  "events_sha256": "7692fa0315ae2d11539d9598eba8226521f9aa32765bf5dace046517b60a63af",
+  "gate_cleared": false,
+  "requested_totals": [
+    360,
+    361,
+    362,
+    363,
+    364,
+    365,
+    366,
+    367,
+    368,
+    369,
+    370,
+    371
+  ],
+  "schema": 1,
+  "status_counts": {
+    "INFEASIBLE": 12
+  }
+}

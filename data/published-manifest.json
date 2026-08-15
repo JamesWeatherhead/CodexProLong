@@ -56,6 +56,31 @@
       "sha256": "b2f2b101f9741bb5f7e79f5b347dfd601155b3cad86292bb2bce6e899cdfa994"
     },
     {
+      "bytes": 14995,
+      "path": "artifacts/evidence/circle-packing-multicontact-precision.json",
+      "sha256": "044fca92a7f702d3337d0a62dff5e7b9fa0f3aec6071e28db289e588182a81a7"
+    },
+    {
+      "bytes": 1884,
+      "path": "artifacts/evidence/circle-packing-multicontact-replay.json",
+      "sha256": "03693cd85607412d970b138d83db7a228605e1636a8c397dffe590a397486f55"
+    },
+    {
+      "bytes": 20458,
+      "path": "artifacts/evidence/circles-rectangle-multicontact-precision.json",
+      "sha256": "ef77ffec6af00ce878099e2210aeec97058a404df0702cda082e95345a028a94"
+    },
+    {
+      "bytes": 2753,
+      "path": "artifacts/evidence/circles-rectangle-multicontact-replay.json",
+      "sha256": "108f6bd2925f9aafe632dcd6db2b7bc3200cdac88fbdf1ae7ee55c7c22938668"
+    },
+    {
+      "bytes": 10193,
+      "path": "artifacts/evidence/difference-exact-synthesis.json",
+      "sha256": "ce922ae5d194cde49551b45dac71eb286c814a36460392ce8a975c9bbd496b3b"
+    },
+    {
       "bytes": 6149,
       "path": "artifacts/evidence/difference-global-audit.json",
       "sha256": "6d216d29734e88a0f3eb5b7aeba74347818b0648e66039ef7b777f3d20d44fd3"
@@ -106,9 +131,14 @@
       "sha256": "ec29ba18a44005d298b422ddaa1d14913c9f897c9fa9d93fd6fd3ef6fe83648b"
     },
     {
-      "bytes": 2825,
+      "bytes": 5159,
       "path": "artifacts/evidence/flat-psl4-global-hybrid.json",
-      "sha256": "a28e5679bfc8feddafb27d1511c087134c4c26a5936fc011ea5c849623d11d93"
+      "sha256": "735a51f07b230bd7191c2e94e18eb1d90509d6254135fe609983e7a137fd2b31"
+    },
+    {
+      "bytes": 3948,
+      "path": "artifacts/evidence/flat-psl4-global-scaling-profile.json",
+      "sha256": "05978efd282ba32e92b13fd6f326784c0e06c6c57b0b90ef0fba2f10ec607ead"
     },
     {
       "bytes": 93116,
@@ -896,6 +926,86 @@
       "sha256": "1a0f1881b7284bfad7a7796c870422328d71040abb9492746d30a3af02a42794"
     },
     {
+      "bytes": 4482,
+      "path": "src/campaign/discrete/difference_exact_synthesis/HANDOFF.md",
+      "sha256": "de430884931e4535ecbc0841e582e85b51ac64eb40bb6ef863299a3b9b1c9b9e"
+    },
+    {
+      "bytes": 3148,
+      "path": "src/campaign/discrete/difference_exact_synthesis/PROVENANCE.md",
+      "sha256": "a31244a34dc5e011547b3fa08dbbac247ca63cfe26829ff793bbc352f048691a"
+    },
+    {
+      "bytes": 4962,
+      "path": "src/campaign/discrete/difference_exact_synthesis/README.md",
+      "sha256": "306328b796fb8bcdc7923bb5337694cc46b2c19ef584ec824ca27cfc2471030f"
+    },
+    {
+      "bytes": 18359,
+      "path": "src/campaign/discrete/difference_exact_synthesis/carry_exact_csp.py",
+      "sha256": "f9c9bb10ce3589707d96aa421e2dc0991b4f681ccfdb550cde17f4f3194c80d4"
+    },
+    {
+      "bytes": 9706,
+      "path": "src/campaign/discrete/difference_exact_synthesis/complete_capacity_closure.py",
+      "sha256": "c1a88ad31c49fa001c3a7c5a603eed15df335cc0f22f905ddd1cfe45c51d1a4e"
+    },
+    {
+      "bytes": 11050,
+      "path": "src/campaign/discrete/difference_exact_synthesis/freeze_receipt.py",
+      "sha256": "e9e5cc1cd58e816134eaee072de4fa35128dadb23044a19bad0051143e950a54"
+    },
+    {
+      "bytes": 1901,
+      "path": "src/campaign/discrete/difference_exact_synthesis/frozen_inputs.json",
+      "sha256": "93607a7a49f611d433526b139c74762f37ebb2aff83dc43219e9471ddaf39bc7"
+    },
+    {
+      "bytes": 8005,
+      "path": "src/campaign/discrete/difference_exact_synthesis/public_replay.py",
+      "sha256": "694de24e356a1b2cd557070106152bcc3af7979c4944aca8fed03bcd1978c41d"
+    },
+    {
+      "bytes": 10193,
+      "path": "src/campaign/discrete/difference_exact_synthesis/receipt.json",
+      "sha256": "ce922ae5d194cde49551b45dac71eb286c814a36460392ce8a975c9bbd496b3b"
+    },
+    {
+      "bytes": 1036,
+      "path": "src/campaign/discrete/difference_exact_synthesis/runs/20260815T063528Z_height7_full_support/config.json",
+      "sha256": "a74caa86a4d7375f24ef166c9e4bd15b332cc1b6a66c34569f9ccf6fe8880360"
+    },
+    {
+      "bytes": 10513,
+      "path": "src/campaign/discrete/difference_exact_synthesis/runs/20260815T063528Z_height7_full_support/events.jsonl",
+      "sha256": "7692fa0315ae2d11539d9598eba8226521f9aa32765bf5dace046517b60a63af"
+    },
+    {
+      "bytes": 571,
+      "path": "src/campaign/discrete/difference_exact_synthesis/runs/20260815T063528Z_height7_full_support/summary.json",
+      "sha256": "7a90e785d8ba5a8ed04e32454e4f0e17a2ff6b4e23d069801197aaa936cb413f"
+    },
+    {
+      "bytes": 1633,
+      "path": "src/campaign/discrete/difference_exact_synthesis/runs/20260815T073000Z_complete_capacity_closure/config.json",
+      "sha256": "b1a7bd8a49bab69a085174da105261336ccac01b6465e3b30c5f0e293d2b094c"
+    },
+    {
+      "bytes": 7285,
+      "path": "src/campaign/discrete/difference_exact_synthesis/runs/20260815T073000Z_complete_capacity_closure/events.jsonl",
+      "sha256": "abfa10b822706892cb56ba910c93b71fe3fcf0f4b12770030cbc6173abbc2116"
+    },
+    {
+      "bytes": 769,
+      "path": "src/campaign/discrete/difference_exact_synthesis/runs/20260815T073000Z_complete_capacity_closure/summary.json",
+      "sha256": "a7ca5d878ddcf40d85eab5892c62d631a60d18277c63142870922f21c3b4a904"
+    },
+    {
+      "bytes": 4131,
+      "path": "src/campaign/discrete/difference_exact_synthesis/test_carry_exact_csp.py",
+      "sha256": "7654c85c2dd321cd1e232cbe58f36f7543d13b4e62c10a0b53c282322e011278"
+    },
+    {
       "bytes": 2523,
       "path": "src/campaign/discrete/difference_global/HANDOFF.md",
       "sha256": "ad168d6ca548ad5ad6529c85fc0ffd6640286ff2bf352c77c938a1cc8cfaa6ca"
@@ -1196,14 +1306,14 @@
       "sha256": "b4166b1e1617bf1093136b13bcc9dd048e96a57108c79e743e5e19249e4ada39"
     },
     {
-      "bytes": 1828,
+      "bytes": 3159,
       "path": "src/campaign/flat_psl4_global_exact/HANDOFF.md",
-      "sha256": "42af4f464c9b15b9a63c651f9886cb26c635a17d0adee43f8463d6538d969ffe"
+      "sha256": "708e64f5ab560e132f4e14ee337aad84b74abbe28c72d035640a6fa37bf34a05"
     },
     {
-      "bytes": 3566,
+      "bytes": 5452,
       "path": "src/campaign/flat_psl4_global_exact/README.md",
-      "sha256": "e4069e74f58ee98f09f775ae5117a0f7ba7b4d603277ad6eb8ff3ad9c4500860"
+      "sha256": "77f58a4e40478f4466035012e5a25c8aaf34ef2dbd9846dde745915ed408f570"
     },
     {
       "bytes": 1840,
@@ -1216,14 +1326,19 @@
       "sha256": "7bdf056e72ed8de200bd90e55b82bfd3b11eb2b08e53f88b4b9633833dada228"
     },
     {
-      "bytes": 40465,
-      "path": "src/campaign/flat_psl4_global_exact/psl4_popcount.cpp",
-      "sha256": "2ecfcba9ce4384515b5c255c4166f2b559ba18ac3e1c9b1ab6d099b4878c6879"
+      "bytes": 15810,
+      "path": "src/campaign/flat_psl4_global_exact/psl4_dispatch.py",
+      "sha256": "59c659a4f582f87cf3f5f08fbe636973299ec738c1bcf2d0a4ee124dc43f2df2"
     },
     {
-      "bytes": 3195,
+      "bytes": 41313,
+      "path": "src/campaign/flat_psl4_global_exact/psl4_popcount.cpp",
+      "sha256": "a9c7dfd13aeb06302d192215a49888552925f76b3a96e33b2450d16661363b42"
+    },
+    {
+      "bytes": 5529,
       "path": "src/campaign/flat_psl4_global_exact/receipt.json",
-      "sha256": "8b98432369a45043683d1ce102ccdfca2563fc847f7a0be4635ec35907fea463"
+      "sha256": "9e74949afe6f18fb6df32ef4d84903ab06d312e57b58ad9cd5a952729d2ef81a"
     },
     {
       "bytes": 146,
@@ -1239,6 +1354,56 @@
       "bytes": 140,
       "path": "src/campaign/flat_psl4_global_exact/runs/benchmark-raw.tsv",
       "sha256": "8647a85cbf78fad2c2b7d88e109817c05737eb41f7ce6f913e1929cfb78f4c2d"
+    },
+    {
+      "bytes": 6223,
+      "path": "src/campaign/flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard0.tsv",
+      "sha256": "9627c77c15a0c5bab0eeb5491ce3e17606b82fb2f9cdde54875ccb0299efbb4b"
+    },
+    {
+      "bytes": 6307,
+      "path": "src/campaign/flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard1.tsv",
+      "sha256": "e4b9ee50fe8c80edc899136ed464f83fe6937a296222e14c16faa6bf0a8cb0a9"
+    },
+    {
+      "bytes": 5908,
+      "path": "src/campaign/flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard2.tsv",
+      "sha256": "7d708c8167e8d7538745f437612360dbe7debce18e93f080192e495a25304f92"
+    },
+    {
+      "bytes": 7277,
+      "path": "src/campaign/flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard3.tsv",
+      "sha256": "ffbe66d61fa8de28c1b2583064a1d7b367962b5a1676ea37d2b187bed8cfdc42"
+    },
+    {
+      "bytes": 6550,
+      "path": "src/campaign/flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard4.tsv",
+      "sha256": "180c1ec4490e3f0cf50d4c584ecc893fe83cde7ac5ae5b521ca16e5fd1e8405c"
+    },
+    {
+      "bytes": 6756,
+      "path": "src/campaign/flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard5.tsv",
+      "sha256": "d617c8de95d70be4d2077bb8ae4a82d82b18db838e714465fae7c988281fc3c3"
+    },
+    {
+      "bytes": 6628,
+      "path": "src/campaign/flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard6.tsv",
+      "sha256": "0760e0e4679542fd3d2e74713dfe67f38185e9a24088bcdf814933a1b6caceef"
+    },
+    {
+      "bytes": 5496,
+      "path": "src/campaign/flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap100k-shard7.tsv",
+      "sha256": "32b8783db7fecf73ce282d3749a530e12ddaadf6746ad78191fecccce7928732"
+    },
+    {
+      "bytes": 6322,
+      "path": "src/campaign/flat_psl4_global_exact/runs/profile-20260815T0714Z/psl4-cap500k-shard0.tsv",
+      "sha256": "2e4d3c95cfd068d3332fa1eeea96c91f15061ba678d53219712ad81aa98140d5"
+    },
+    {
+      "bytes": 3894,
+      "path": "src/campaign/flat_psl4_global_exact/scaling_profile.json",
+      "sha256": "1120ecd6aee225d24ce702389e344c499a42ddf7ded0f16ca55e7a5a47eb6302"
     },
     {
       "bytes": 5309,
@@ -1274,6 +1439,136 @@
       "bytes": 2695,
       "path": "src/campaign/geometry/README.md",
       "sha256": "a2444991f90be804a0c78b385f4f08795fa367590cf0f3c75ec313f9d92e3fb3"
+    },
+    {
+      "bytes": 3383,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/HANDOFF.md",
+      "sha256": "5f730cd1b3c702c635adfbfd281205f0ffe34100a9f0e59d8830e2f46fdb743a"
+    },
+    {
+      "bytes": 8719,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/PUBLICATION_EXPORT.json",
+      "sha256": "b9ba91b84a6cd6f4b4319833e58b2f9fcde86c8fbbf8e70ae6d259dc929607ff"
+    },
+    {
+      "bytes": 21065,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/PUBLICATION_MANIFEST.json",
+      "sha256": "c5433602af2e436e335bd1353c1be060caf934a5e787ce851a3eaa414127a525"
+    },
+    {
+      "bytes": 1623,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/README.md",
+      "sha256": "7f76e5c2c8370fda3559f43f71bef8314662fdb743828c729045a58c0e08de19"
+    },
+    {
+      "bytes": 2267,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/asset_audit.json",
+      "sha256": "0dceeb7432f0341415d0cfefa85a54f68badab4cd71a2443c4c7313c9549c25d"
+    },
+    {
+      "bytes": 20088,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/codim2_pivots.py",
+      "sha256": "0c59852813ecb6d689209a62b09ad91e8e1a121552ba827cf88fcfe092438f6d"
+    },
+    {
+      "bytes": 1436,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/external_asset_replay.json",
+      "sha256": "9c6115a4f976279ab12fd85cd2b91d97f9a19a9f7424d21cb9085e7d062cf1a1"
+    },
+    {
+      "bytes": 4400,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/freeze_publication.py",
+      "sha256": "e58067add8d47962d834db3f25d87cda731bc10dd8fdd7ab61db2964b9b188f2"
+    },
+    {
+      "bytes": 14243,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/freeze_receipt.py",
+      "sha256": "c49bab49e1acc196a188433d650f309952bcd41b1e21407930736c48e99cee32"
+    },
+    {
+      "bytes": 14995,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/receipt.json",
+      "sha256": "044fca92a7f702d3337d0a62dff5e7b9fa0f3aec6071e28db289e588182a81a7"
+    },
+    {
+      "bytes": 3460,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/replay_exact.py",
+      "sha256": "81a85161d5839d47eaeaf1ac1d286e9a449939422415987c1302792ddb5e6914"
+    },
+    {
+      "bytes": 3744,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/replay_external_asset.py",
+      "sha256": "30e5f8cb40b057e2662e65dffeeb0950364413b03cedf9f8adb75db42be55088"
+    },
+    {
+      "bytes": 1884,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/replay_receipt.json",
+      "sha256": "03693cd85607412d970b138d83db7a228605e1636a8c397dffe590a397486f55"
+    },
+    {
+      "bytes": 1310,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_DISTINCT1462_FULL/checkpoint.json",
+      "sha256": "1f26cd9e05b63f64d10da79a11d6cff16200a426570cb1cb65d8a5e71c852aa4"
+    },
+    {
+      "bytes": 6684,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_DISTINCT1462_FULL/config.json",
+      "sha256": "7b709d06c0ddc0add3424b489b9d5ab2ca9aa272d4a415f9834cc65f7c394e97"
+    },
+    {
+      "bytes": 3278493,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_DISTINCT1462_FULL/events.jsonl",
+      "sha256": "5ae97e14abef1edf9332aba1d9a4fa3cfaa020da94f095e9f9a2d8b5dd120e38"
+    },
+    {
+      "bytes": 8274,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_DISTINCT1462_FULL/summary.json",
+      "sha256": "0d96123f4b3987380d81e6a76bb40369c1ffa48c2b3d3c24ddbd860fb0e2bdaf"
+    },
+    {
+      "bytes": 1316,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_FULL_R2/checkpoint.json",
+      "sha256": "b225f6d9dec0d3c482dfaeee385f9e8f09cc3d26f417165c407c656a62676c84"
+    },
+    {
+      "bytes": 6677,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_FULL_R2/config.json",
+      "sha256": "d5caae0a4921c16fb2b7a78db82a848642722a745b52ff8ca6585d7e0c38f78a"
+    },
+    {
+      "bytes": 3118762,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_FULL_R2/events.jsonl",
+      "sha256": "05f072e1479749bd16be82ffc2851d10cb1b03d0c279cebdf0f153c105a680d1"
+    },
+    {
+      "bytes": 8273,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_FULL_R2/summary.json",
+      "sha256": "7b573e71e6039ba72f18a144173e6bf7161c4585b5fe1b656abd802cb3a06b39"
+    },
+    {
+      "bytes": 1322,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_NEUTRAL_FULL/checkpoint.json",
+      "sha256": "ace0f718329f967b599aa66fef9f83a05cfb3502f67e6bb1415bdf0b0dc54e47"
+    },
+    {
+      "bytes": 6715,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_NEUTRAL_FULL/config.json",
+      "sha256": "47398018b353833be312df2e7c6ba5ea1e06a32dcf03eef74c7283b29f9fc5ff"
+    },
+    {
+      "bytes": 3115423,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_NEUTRAL_FULL/events.jsonl",
+      "sha256": "9c7e95de99dc660dc5c50e17629fdddd3eaba823efbc712990cd7dd5ecc5a8b4"
+    },
+    {
+      "bytes": 8317,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/runs/20260815T_CODIM2_NEUTRAL_FULL/summary.json",
+      "sha256": "285adcc41f14a9ceac4fb6590b75f45c7c521238c142e9bb82b9275a24372642"
+    },
+    {
+      "bytes": 2106,
+      "path": "src/campaign/geometry/circle_packing_multicontact_precision/verifier_formula.py",
+      "sha256": "ad11321f9c010f03f850f6ebf41fb82533f772dad8b8ee080386de275bce830a"
     },
     {
       "bytes": 14798,
@@ -1614,6 +1909,181 @@
       "bytes": 8744,
       "path": "src/campaign/geometry/rectangle_active_refine.py",
       "sha256": "724bfce6885e5da5659229f5e4fb798ce992add9bd321f033b6b89641bc052a7"
+    },
+    {
+      "bytes": 3942,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/HANDOFF.md",
+      "sha256": "5d5b88b798496f01a8e3d33a661428eef871d66a14b55ca1e1f51e62f89e9d23"
+    },
+    {
+      "bytes": 12095,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/PUBLICATION_EXPORT.json",
+      "sha256": "7d34e71ca71db1c7630896e4e0f26510435ea5e4da07a17a126361ab6bf3861b"
+    },
+    {
+      "bytes": 26670,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/PUBLICATION_MANIFEST.json",
+      "sha256": "504076cad829547981f1174b8dc8a99d0863b0f35b19239fb07e9faa108f7e63"
+    },
+    {
+      "bytes": 1430,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/README.md",
+      "sha256": "88c7805e466e5d5930c2c5315103eeebab84db528d5a2f2f5e266eb91a9b3cf7"
+    },
+    {
+      "bytes": 19879,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/codim2_pivots.py",
+      "sha256": "54f58b937c4b3572a550570074133bc4052d9657d13a0102dcad140f22451d6b"
+    },
+    {
+      "bytes": 15873,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/codim3_pivots.py",
+      "sha256": "ae0963d58a17d8e37c112cb749fecc38825d445df85fe9c1e325f47881d9764a"
+    },
+    {
+      "bytes": 4037,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/freeze_publication.py",
+      "sha256": "9692d79583bc76af3f13415b753d3047b613440cf9b599a70abe671d11f181d0"
+    },
+    {
+      "bytes": 7056,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/freeze_receipt.py",
+      "sha256": "0d80948c43ba21d656dd67c96e21da014c0aca88f8c116eff75faca5de04217c"
+    },
+    {
+      "bytes": 1001,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/literature.json",
+      "sha256": "97310abfcaddb408437a6c2d0eb91715e54c619d469602e029f3768cecf55cc4"
+    },
+    {
+      "bytes": 20458,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/receipt.json",
+      "sha256": "ef77ffec6af00ce878099e2210aeec97058a404df0702cda082e95345a028a94"
+    },
+    {
+      "bytes": 4111,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/replay_exact.py",
+      "sha256": "eab1bee393d655fba32d1800858d5e51b5b4efb5142b27f080077972a13a0744"
+    },
+    {
+      "bytes": 2753,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/replay_receipt.json",
+      "sha256": "108f6bd2925f9aafe632dcd6db2b7bc3200cdac88fbdf1ae7ee55c7c22938668"
+    },
+    {
+      "bytes": 2384,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_CANONICAL/best_changed_record.json",
+      "sha256": "931c08144075387929cde480a0202f547098c036ebccfcbe6a28c85f93c086a3"
+    },
+    {
+      "bytes": 3862,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_CANONICAL/checkpoint.json",
+      "sha256": "cf4f38828633bc4f78cfaa36742f0545718b176bd33b454597495cdd81248edb"
+    },
+    {
+      "bytes": 5876,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_CANONICAL/config.json",
+      "sha256": "7ffd5f10bd5941021fa6825774975255f7c18b316e0567aafbe1b392de2d609d"
+    },
+    {
+      "bytes": 966283,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_CANONICAL/events.jsonl",
+      "sha256": "f7167e9676026079559d559145647af8d988bb06657075dc929b552a4728232a"
+    },
+    {
+      "bytes": 10057,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_CANONICAL/summary.json",
+      "sha256": "61d483d6852101f01fe69496ff10b2d5eac5048dde2a5bd2a1c2316c8f24893c"
+    },
+    {
+      "bytes": 2448,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_DISTINCT1010/best_changed_record.json",
+      "sha256": "f8c5196b30bfb2e29c391ffbfdba5d3760ebaf31a4bd597488435c0210225d6c"
+    },
+    {
+      "bytes": 2440,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_DISTINCT1010/best_record.json",
+      "sha256": "d0eedd3564db8b38800ea4cd6321c4ce75a0e63bed86473ca1363b6cb5218101"
+    },
+    {
+      "bytes": 5575,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_DISTINCT1010/checkpoint.json",
+      "sha256": "e6de8116af07379ed095efa9283f97fa992498b86496c4e16452ae132e3f2581"
+    },
+    {
+      "bytes": 5931,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_DISTINCT1010/config.json",
+      "sha256": "08dfb5296bd78114c72d5db6ccf03d6f6c374974de6a671aa607a655e86fbf26"
+    },
+    {
+      "bytes": 906804,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_DISTINCT1010/events.jsonl",
+      "sha256": "bebb3e71c22746a140d2c73f81733071937c392c3d23624b0ded51dc7ee08fa1"
+    },
+    {
+      "bytes": 11825,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_DISTINCT1010/summary.json",
+      "sha256": "037012e6bf4836953a2ded70f0f916414dc1ccd2417a5a93ed264b4b1a30b778"
+    },
+    {
+      "bytes": 2471,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_CANONICAL/best_changed_record.json",
+      "sha256": "43461bd489a09db790781be428cb77497a8975b313eaab4cd4e83312db944384"
+    },
+    {
+      "bytes": 4017,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_CANONICAL/checkpoint.json",
+      "sha256": "f57f00742cd7714bd6226db6e3a9950c1c1363e01784580d438c2ef3ad09f9e0"
+    },
+    {
+      "bytes": 5875,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_CANONICAL/config.json",
+      "sha256": "36c62e662a8369311d9c3ed3c8debddb7f1c02225e7bd93a1d169a93a4fa9e1f"
+    },
+    {
+      "bytes": 9728213,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_CANONICAL/events.jsonl",
+      "sha256": "56c68e8955c870ebca578933f8737f5d927f5be23033dbdf47e866feb13adad1"
+    },
+    {
+      "bytes": 10188,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_CANONICAL/summary.json",
+      "sha256": "187da70fd5590b46b4dcaaa3dd8d46bb7cd79c526e447b01d8b5900533b1bf91"
+    },
+    {
+      "bytes": 2539,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_DISTINCT1010/best_changed_record.json",
+      "sha256": "dc58a179fecd81deeecb49a840569577a10b2a0459a76a252ca1c646ae4478cb"
+    },
+    {
+      "bytes": 2531,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_DISTINCT1010/best_record.json",
+      "sha256": "b25e5f822ad38c4e49aced03547559b8f253b6f69ee8bcee4560921cd06197df"
+    },
+    {
+      "bytes": 5849,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_DISTINCT1010/checkpoint.json",
+      "sha256": "e1280623f753df9f1e522168dd3941319091da472659a08443e84d76af3708d7"
+    },
+    {
+      "bytes": 5930,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_DISTINCT1010/config.json",
+      "sha256": "68f6aa4f5089cbcf9d9907c142b52fa72e29c3d2fd814678a7ad1b5e1d269919"
+    },
+    {
+      "bytes": 9084688,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_DISTINCT1010/events.jsonl",
+      "sha256": "3a147ee30418be812fef272ad2c453489e548683293b3212d286e7db1cc8af53"
+    },
+    {
+      "bytes": 12074,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_DISTINCT1010/summary.json",
+      "sha256": "75d6147d07760a321f1242a77e1efb2474d1945d232be6fc7e45fc07fabb3442"
+    },
+    {
+      "bytes": 2448,
+      "path": "src/campaign/geometry/rectangle_multicontact_precision/verifier_formula.py",
+      "sha256": "3d9f1c877c0dc43159c7b33c31bdf8fe366baa74324bfbe9c604b67e1179a460"
     },
     {
       "bytes": 16190,

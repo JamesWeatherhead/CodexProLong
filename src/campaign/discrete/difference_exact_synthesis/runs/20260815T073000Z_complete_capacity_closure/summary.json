@@ -1,0 +1,43 @@
+{
+  "all_cases_completed": true,
+  "all_cases_infeasible": true,
+  "closed_ranges": [
+    [
+      320,
+      329
+    ],
+    [
+      330,
+      339
+    ],
+    [
+      340,
+      349
+    ],
+    [
+      350,
+      356
+    ],
+    [
+      357,
+      359
+    ],
+    [
+      372,
+      384
+    ],
+    [
+      385,
+      411
+    ]
+  ],
+  "config_sha256": "c2c8cfed650c1ac5fd4dba08dcc9b14a51f986437da38b88ab87d29b49208fc0",
+  "events_sha256": "abfa10b822706892cb56ba910c93b71fe3fcf0f4b12770030cbc6173abbc2116",
+  "gate_cleared": false,
+  "schema": 2,
+  "structural_ceiling": {
+    "first_unrepresentable_gate_size": 412,
+    "reason": "the prefix includes 8*8011+1; the unique residue-1 pair needs height difference 8, outside shells 0..7",
+    "required_coverage": 64321
+  }
+}

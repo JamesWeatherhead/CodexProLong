@@ -1,0 +1,90 @@
+{
+  "added": [
+    [
+      "P",
+      4,
+      6
+    ],
+    [
+      "P",
+      10,
+      19
+    ]
+  ],
+  "event": "graph_accepted",
+  "exact": {
+    "literal_verifier_accepted": true,
+    "literal_verifier_score": 2.361348157733907,
+    "maximum_pair_overrun": 9.999999994736442e-10,
+    "maximum_perimeter_overrun": 9.999996386511611e-10,
+    "nextafter_buffer_steps": 5,
+    "physical_strict": false,
+    "schema_valid": true,
+    "screen": {
+      "accepted_screen": true,
+      "aspect_ratio": 1.0,
+      "height": 1.0000000004999998,
+      "minimum_pair_slack": 1.4404143717892415e-17,
+      "minimum_radius": 0.07962661481672591,
+      "perimeter_slack": 4.440892098500626e-16,
+      "score": 2.361348157733907,
+      "width": 1.0000000004999998
+    },
+    "verifier_tolerance_only": true
+  },
+  "linear_objective_opening": -0.08027743552942072,
+  "margin_to_target": -0.004484227574090394,
+  "opening": [
+    0.198460266367939,
+    0.28795003204357517
+  ],
+  "payload": "campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM2_CANONICAL/best_changed.json",
+  "payload_sha256": "0651db75f9c69ad3d0f2c1a3b4da584f0748ee262708d18916c906e686cb3618",
+  "release_order": 487,
+  "released": [
+    [
+      "P",
+      11,
+      13
+    ],
+    [
+      "W",
+      6,
+      "T"
+    ]
+  ],
+  "released_indices": [
+    37,
+    51
+  ],
+  "root_residual": 9.661815874462324e-17,
+  "score": 2.361348157733907,
+  "signature": "adb99d87943372aeaa56b88313827b69739df48c3d842f4aed5a2ffef17067c5",
+  "strict": {
+    "equation_score": 2.3613481484145824,
+    "exact": {
+      "literal_verifier_accepted": true,
+      "literal_verifier_score": 2.3613481484145824,
+      "maximum_pair_overrun": 8.326672684688674e-17,
+      "maximum_perimeter_overrun": 0.0,
+      "nextafter_buffer_steps": 0,
+      "physical_strict": true,
+      "schema_valid": true,
+      "screen": {
+        "accepted_screen": true,
+        "aspect_ratio": 1.0,
+        "height": 1.0,
+        "minimum_pair_slack": 9.99999930611061e-10,
+        "minimum_radius": 0.07962661435653928,
+        "perimeter_slack": 1.000000082740371e-09,
+        "score": 2.3613481484145824,
+        "width": 1.0
+      },
+      "verifier_tolerance_only": false
+    },
+    "live_verifier_score": 2.3613481484145824,
+    "residual": 9.71445146547012e-17
+  },
+  "vertex_index": 0,
+  "wl_signature": "c8a4436c316e8b9a5533757860250fac"
+}

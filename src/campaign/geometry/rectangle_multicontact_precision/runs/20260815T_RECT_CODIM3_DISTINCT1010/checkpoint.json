@@ -1,0 +1,217 @@
+{
+  "accepted_labeled_graphs": 5215,
+  "best": {
+    "added": [
+      [
+        "P",
+        2,
+        8
+      ],
+      [
+        "P",
+        7,
+        11
+      ],
+      [
+        "P",
+        9,
+        13
+      ]
+    ],
+    "event": "graph_accepted",
+    "exact": {
+      "literal_verifier_accepted": true,
+      "literal_verifier_score": 2.3488549965452887,
+      "maximum_pair_overrun": 9.999999717180685e-10,
+      "maximum_perimeter_overrun": 1.000000082740371e-09,
+      "nextafter_buffer_steps": 3,
+      "physical_strict": false,
+      "schema_valid": true,
+      "screen": {
+        "accepted_screen": true,
+        "aspect_ratio": 1.1845429506845826,
+        "height": 0.9155233136401593,
+        "minimum_pair_slack": 2.828193152570687e-17,
+        "minimum_radius": 0.07871330385705355,
+        "perimeter_slack": 0.0,
+        "score": 2.3488549965452887,
+        "width": 1.0844766873598408
+      },
+      "verifier_tolerance_only": true
+    },
+    "linear_objective_opening": -0.06844203077892183,
+    "margin_to_target": -0.01697738876270849,
+    "opening": [
+      0.23156894759636132,
+      0.19893503537358032,
+      0.2539163017838081
+    ],
+    "payload": "campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_DISTINCT1010/best.json",
+    "payload_sha256": "f287a1f4e4c4540f3140c36d050c16a8cee8bdd04f0a0bf0375b3000840e0cb1",
+    "release_order": 55,
+    "released": [
+      [
+        "P",
+        3,
+        7
+      ],
+      [
+        "P",
+        6,
+        12
+      ],
+      [
+        "P",
+        8,
+        14
+      ]
+    ],
+    "released_indices": [
+      9,
+      18,
+      24
+    ],
+    "root_residual": 1.3930423398822253e-16,
+    "score": 2.3488549965452887,
+    "signature": "04c2db3ec6f5b3200aceb4de9d1d5c23f7d0abc691be05ce58220ddfd712f9ea",
+    "strict": {
+      "equation_score": 2.348854987219717,
+      "exact": {
+        "literal_verifier_accepted": true,
+        "literal_verifier_score": 2.348854987219717,
+        "maximum_pair_overrun": 8.326672684688674e-17,
+        "maximum_perimeter_overrun": 0.0,
+        "nextafter_buffer_steps": 0,
+        "physical_strict": true,
+        "schema_valid": true,
+        "screen": {
+          "accepted_screen": true,
+          "aspect_ratio": 1.1845429508861536,
+          "height": 0.915523313097921,
+          "minimum_pair_slack": 9.999999167332732e-10,
+          "minimum_radius": 0.07871330339641025,
+          "perimeter_slack": 9.99999860695766e-10,
+          "score": 2.348854987219717,
+          "width": 1.0844766869020792
+        },
+        "verifier_tolerance_only": false
+      },
+      "live_verifier_score": 2.348854987219717,
+      "residual": 1.249000902703301e-16
+    },
+    "vertex_index": 0,
+    "wl_signature": "3468520149ae9f560231350c22194f84"
+  },
+  "best_changed": {
+    "added": [
+      [
+        "P",
+        2,
+        8
+      ],
+      [
+        "P",
+        7,
+        11
+      ],
+      [
+        "P",
+        9,
+        13
+      ]
+    ],
+    "event": "graph_accepted",
+    "exact": {
+      "literal_verifier_accepted": true,
+      "literal_verifier_score": 2.3488549965452887,
+      "maximum_pair_overrun": 9.999999717180685e-10,
+      "maximum_perimeter_overrun": 1.000000082740371e-09,
+      "nextafter_buffer_steps": 3,
+      "physical_strict": false,
+      "schema_valid": true,
+      "screen": {
+        "accepted_screen": true,
+        "aspect_ratio": 1.1845429506845826,
+        "height": 0.9155233136401593,
+        "minimum_pair_slack": 2.828193152570687e-17,
+        "minimum_radius": 0.07871330385705355,
+        "perimeter_slack": 0.0,
+        "score": 2.3488549965452887,
+        "width": 1.0844766873598408
+      },
+      "verifier_tolerance_only": true
+    },
+    "linear_objective_opening": -0.06844203077892183,
+    "margin_to_target": -0.01697738876270849,
+    "opening": [
+      0.23156894759636132,
+      0.19893503537358032,
+      0.2539163017838081
+    ],
+    "payload": "campaign/geometry/rectangle_multicontact_precision/runs/20260815T_RECT_CODIM3_DISTINCT1010/best_changed.json",
+    "payload_sha256": "f287a1f4e4c4540f3140c36d050c16a8cee8bdd04f0a0bf0375b3000840e0cb1",
+    "release_order": 55,
+    "released": [
+      [
+        "P",
+        3,
+        7
+      ],
+      [
+        "P",
+        6,
+        12
+      ],
+      [
+        "P",
+        8,
+        14
+      ]
+    ],
+    "released_indices": [
+      9,
+      18,
+      24
+    ],
+    "root_residual": 1.3930423398822253e-16,
+    "score": 2.3488549965452887,
+    "signature": "04c2db3ec6f5b3200aceb4de9d1d5c23f7d0abc691be05ce58220ddfd712f9ea",
+    "strict": {
+      "equation_score": 2.348854987219717,
+      "exact": {
+        "literal_verifier_accepted": true,
+        "literal_verifier_score": 2.348854987219717,
+        "maximum_pair_overrun": 8.326672684688674e-17,
+        "maximum_perimeter_overrun": 0.0,
+        "nextafter_buffer_steps": 0,
+        "physical_strict": true,
+        "schema_valid": true,
+        "screen": {
+          "accepted_screen": true,
+          "aspect_ratio": 1.1845429508861536,
+          "height": 0.915523313097921,
+          "minimum_pair_slack": 9.999999167332732e-10,
+          "minimum_radius": 0.07871330339641025,
+          "perimeter_slack": 9.99999860695766e-10,
+          "score": 2.348854987219717,
+          "width": 1.0844766869020792
+        },
+        "verifier_tolerance_only": false
+      },
+      "live_verifier_score": 2.348854987219717,
+      "residual": 1.249000902703301e-16
+    },
+    "vertex_index": 0,
+    "wl_signature": "3468520149ae9f560231350c22194f84"
+  },
+  "duplicate_labeled_graphs": 0,
+  "graphs_tested": 5246,
+  "infeasible_roots": 28,
+  "linear_vertices": 5246,
+  "qhull_empty_or_failed": 36363,
+  "release_triples_processed": 41600,
+  "root_failures": 3,
+  "strict_roots": 5215,
+  "total_nonlinear_evaluations": 88173,
+  "unlabeled_wl_graph_classes": 5215
+}

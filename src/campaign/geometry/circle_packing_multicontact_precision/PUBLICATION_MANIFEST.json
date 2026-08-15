@@ -1,0 +1,395 @@
+{
+  "dependencies_not_copied": [
+    {
+      "item": "EinsteinArena circle-packing verifier",
+      "license": "MIT in vinid/einstein-arena; retain its license if copied",
+      "sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+    },
+    {
+      "item": "ClaudeEvolve recovered paper table",
+      "license": "indexed upstream repository declared Apache-2.0; raw table excluded from the mirror"
+    }
+  ],
+  "exclude": [
+    {
+      "bytes": 27813,
+      "decision": "exclude",
+      "licensing": "Generated cache; no source-distribution value.",
+      "path": "__pycache__/codim2_pivots.cpython-312.pyc",
+      "reason": "generated Python bytecode",
+      "sha256": "a73eb0ed2be868b66b8f3ae865d3f1c8edf22ff13a9d4b117c85e16ad9409014"
+    },
+    {
+      "bytes": 17946,
+      "decision": "exclude",
+      "licensing": "Generated cache; no source-distribution value.",
+      "path": "__pycache__/freeze_receipt.cpython-312.pyc",
+      "reason": "generated Python bytecode",
+      "sha256": "0fd496156f7ca06f8767601041391e2cad3dd565094bed97a575e9300353167a"
+    },
+    {
+      "bytes": 6474,
+      "decision": "exclude",
+      "licensing": "Generated cache; no source-distribution value.",
+      "path": "__pycache__/replay_exact.cpython-312.pyc",
+      "reason": "generated Python bytecode",
+      "sha256": "bd1d53c201ddc2cd9121f7c505d4602f9e2208c853fb51a14a8000ffacbf9d0f"
+    },
+    {
+      "bytes": 6771,
+      "decision": "exclude",
+      "licensing": "Generated cache; no source-distribution value.",
+      "path": "__pycache__/replay_external_asset.cpython-312.pyc",
+      "reason": "generated Python bytecode",
+      "sha256": "79007731c895d8117d9ab413faa25d4e5843e054ba4a6364e7ca42d15c69dc38"
+    },
+    {
+      "bytes": 1426,
+      "decision": "exclude",
+      "licensing": "Indexed upstream repository declared Apache-2.0; include only with the upstream Apache-2.0 license and attribution. Conservative public mirror excludes the bytes.",
+      "path": "recovered_claudeevolve_strict.json",
+      "reason": "verbatim third-party coordinate table",
+      "sha256": "b87a7364229f23aeae949f745b678ef36cdf72d5fc60153cbe0cf93e701e6643"
+    },
+    {
+      "bytes": 2399,
+      "decision": "exclude",
+      "licensing": "Arena submissions are publicly GET-readable, but no explicit license for user-submitted coordinates was located. Conservative mirror publishes hashes and aggregate results, not coordinate bytes.",
+      "path": "runs/20260815T_CODIM2_DISTINCT1462_FULL/best.json",
+      "reason": "coordinate payload derived from a public Arena seed",
+      "sha256": "e05afa286dccc2aacc87a6db6e53f031454e2249fd0efece54c50356d2105c2f"
+    },
+    {
+      "bytes": 2395,
+      "decision": "exclude",
+      "licensing": "Arena submissions are publicly GET-readable, but no explicit license for user-submitted coordinates was located. Conservative mirror publishes hashes and aggregate results, not coordinate bytes.",
+      "path": "runs/20260815T_CODIM2_DISTINCT1462_FULL/best_changed.json",
+      "reason": "coordinate payload derived from a public Arena seed",
+      "sha256": "5e5c8d9ad9d94daa46d42ee7ab0cbfeb28469e239bb1e6b5a3a2b434845c6f79"
+    },
+    {
+      "bytes": 2391,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/20260815T_CODIM2_FULL/best.json",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "1687cce42aa2be9f5cf360382bc24a5604aafd88295cfe594b5dd976c0a92e65"
+    },
+    {
+      "bytes": 1331,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/20260815T_CODIM2_FULL/checkpoint.json",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "132d6dc118189aebcecacef995363f75593b57c86eec16c0f127c1842ccd1f03"
+    },
+    {
+      "bytes": 6734,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/20260815T_CODIM2_FULL/config.json",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "ec6885074783030bc100bb0ed2a8774dfc96cf74f8361c0b23947f84539cfd0a"
+    },
+    {
+      "bytes": 101099,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/20260815T_CODIM2_FULL/events.jsonl",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "ce728916306de3aeb50381bde4b10f036e669597efab254d0adf1619c913025d"
+    },
+    {
+      "bytes": 2391,
+      "decision": "exclude",
+      "licensing": "Arena submissions are publicly GET-readable, but no explicit license for user-submitted coordinates was located. Conservative mirror publishes hashes and aggregate results, not coordinate bytes.",
+      "path": "runs/20260815T_CODIM2_FULL_R2/best.json",
+      "reason": "coordinate payload derived from a public Arena seed",
+      "sha256": "1687cce42aa2be9f5cf360382bc24a5604aafd88295cfe594b5dd976c0a92e65"
+    },
+    {
+      "bytes": 2403,
+      "decision": "exclude",
+      "licensing": "Arena submissions are publicly GET-readable, but no explicit license for user-submitted coordinates was located. Conservative mirror publishes hashes and aggregate results, not coordinate bytes.",
+      "path": "runs/20260815T_CODIM2_FULL_R2/best_changed.json",
+      "reason": "coordinate payload derived from a public Arena seed",
+      "sha256": "5e03473890718ca2210c1ee6d1b2d30ce5898688aec7ab1f4a15a0ef59a30e9e"
+    },
+    {
+      "bytes": 2385,
+      "decision": "exclude",
+      "licensing": "Arena submissions are publicly GET-readable, but no explicit license for user-submitted coordinates was located. Conservative mirror publishes hashes and aggregate results, not coordinate bytes.",
+      "path": "runs/20260815T_CODIM2_NEUTRAL_FULL/best.json",
+      "reason": "coordinate payload derived from a public Arena seed",
+      "sha256": "cfade7a858799620b09c630018e91986cf5283b25f6f0b4fa29931d07b846b19"
+    },
+    {
+      "bytes": 2400,
+      "decision": "exclude",
+      "licensing": "Arena submissions are publicly GET-readable, but no explicit license for user-submitted coordinates was located. Conservative mirror publishes hashes and aggregate results, not coordinate bytes.",
+      "path": "runs/20260815T_CODIM2_NEUTRAL_FULL/best_changed.json",
+      "reason": "coordinate payload derived from a public Arena seed",
+      "sha256": "d49b64faddc184f107c06161dedff1db06ff9ceba803bdb12ba7ecb8b176eadf"
+    },
+    {
+      "bytes": 2391,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/SMOKE_20B/best.json",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "1687cce42aa2be9f5cf360382bc24a5604aafd88295cfe594b5dd976c0a92e65"
+    },
+    {
+      "bytes": 6719,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/SMOKE_20B/config.json",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "22dffc231d97c19d6b5301013e97aad366b9695fedfe1c7a59a5fde74c60ae78"
+    },
+    {
+      "bytes": 3735,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/SMOKE_20B/events.jsonl",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "34a796ca6a66240dcd52da34e6a074b8b4bd344db2bea5a1f35c9aaa042afeef"
+    },
+    {
+      "bytes": 2391,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/SMOKE_20C/best.json",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "1687cce42aa2be9f5cf360382bc24a5604aafd88295cfe594b5dd976c0a92e65"
+    },
+    {
+      "bytes": 1311,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/SMOKE_20C/checkpoint.json",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "bf7eb8f872635e0792c62fffa0232c20dc2b9159b0d6777040efca2ce8ac32b4"
+    },
+    {
+      "bytes": 6719,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/SMOKE_20C/config.json",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "c6c9e0fcd6b7806e380e558d78c164cabb6c140f531f24e5d98f964cd34635ec"
+    },
+    {
+      "bytes": 8821,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/SMOKE_20C/events.jsonl",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "77d0909a367b6b5cb34b509e442513f18052088de63a6e411a09b1669c86d051"
+    },
+    {
+      "bytes": 8310,
+      "decision": "exclude",
+      "licensing": "Original generated work, but intentionally omitted as transient output.",
+      "path": "runs/SMOKE_20C/summary.json",
+      "reason": "smoke or interrupted run superseded by a complete run",
+      "sha256": "3ceaa2e8ffa3d29956c89b4e9ec0ffaf8a2c9a65af8d4c0ce53a876a25d5b665"
+    }
+  ],
+  "include": [
+    {
+      "bytes": 3383,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "HANDOFF.md",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "5f730cd1b3c702c635adfbfd281205f0ffe34100a9f0e59d8830e2f46fdb743a"
+    },
+    {
+      "bytes": 1623,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "README.md",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "7f76e5c2c8370fda3559f43f71bef8314662fdb743828c729045a58c0e08de19"
+    },
+    {
+      "bytes": 2267,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "asset_audit.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "0dceeb7432f0341415d0cfefa85a54f68badab4cd71a2443c4c7313c9549c25d"
+    },
+    {
+      "bytes": 20088,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "codim2_pivots.py",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "0c59852813ecb6d689209a62b09ad91e8e1a121552ba827cf88fcfe092438f6d"
+    },
+    {
+      "bytes": 1436,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "external_asset_replay.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "9c6115a4f976279ab12fd85cd2b91d97f9a19a9f7424d21cb9085e7d062cf1a1"
+    },
+    {
+      "bytes": 4400,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "freeze_publication.py",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "e58067add8d47962d834db3f25d87cda731bc10dd8fdd7ab61db2964b9b188f2"
+    },
+    {
+      "bytes": 14243,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "freeze_receipt.py",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "c49bab49e1acc196a188433d650f309952bcd41b1e21407930736c48e99cee32"
+    },
+    {
+      "bytes": 14995,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "receipt.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "044fca92a7f702d3337d0a62dff5e7b9fa0f3aec6071e28db289e588182a81a7"
+    },
+    {
+      "bytes": 3460,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "replay_exact.py",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "81a85161d5839d47eaeaf1ac1d286e9a449939422415987c1302792ddb5e6914"
+    },
+    {
+      "bytes": 3744,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "replay_external_asset.py",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "30e5f8cb40b057e2662e65dffeeb0950364413b03cedf9f8adb75db42be55088"
+    },
+    {
+      "bytes": 1884,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "replay_receipt.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "03693cd85607412d970b138d83db7a228605e1636a8c397dffe590a397486f55"
+    },
+    {
+      "bytes": 1340,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_DISTINCT1462_FULL/checkpoint.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "fb79648358d5d04ae4d82eb3b6dad5389c07d806b250a11ee4a493d1af576f93"
+    },
+    {
+      "bytes": 6744,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_DISTINCT1462_FULL/config.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "a621356e0db4c320c0bfb57a6d826802491d42dccbf1457bee0af5b88789f6df"
+    },
+    {
+      "bytes": 3278643,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_DISTINCT1462_FULL/events.jsonl",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "b7851c8d231e76e0b8360d2669e65b53462dc93212b04c4289aef105d82be20e"
+    },
+    {
+      "bytes": 8364,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_DISTINCT1462_FULL/summary.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "9005e930cb982123a4008ae2587d0da0cd71639532abd0cc2e20437da54f855f"
+    },
+    {
+      "bytes": 1346,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_FULL_R2/checkpoint.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "8b052e188a944102923e23d448b85ef307c774bd38d64b566c1119b9d6beb86c"
+    },
+    {
+      "bytes": 6737,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_FULL_R2/config.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "3f76270d4e26c9e7f7abeb025ba94fb6319adc101de5d3714e168c9086fb74c7"
+    },
+    {
+      "bytes": 3118912,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_FULL_R2/events.jsonl",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "cba916c04bbeea0943c0a871de813bf4603495246c669afcad736c235011d17e"
+    },
+    {
+      "bytes": 8363,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_FULL_R2/summary.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "1eaed9246b2d8874e7119de00234bd51e6a91aeaad00913aaa5fd1b5313018d4"
+    },
+    {
+      "bytes": 1352,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_NEUTRAL_FULL/checkpoint.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "25c361af54418c8eca42e8badb62abdc1ff31d876820d7024c7fd1283daa9d37"
+    },
+    {
+      "bytes": 6775,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_NEUTRAL_FULL/config.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "3c5009c49e5e3ee6917cc8520fe720ef0070a9c914bc7464f51462bc283153ea"
+    },
+    {
+      "bytes": 3115573,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_NEUTRAL_FULL/events.jsonl",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "e845b2b11f7333d90dcd419ae1eca8c015354b2d489e92a36111c95efcd4cb5b"
+    },
+    {
+      "bytes": 8407,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "runs/20260815T_CODIM2_NEUTRAL_FULL/summary.json",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "937155d98ebe03429ea368e142bbeadd9c5250bf416a75f7c6105e15f2435adb"
+    },
+    {
+      "bytes": 2106,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. Paper/source quotations are not embedded, only links and short factual descriptions.",
+      "path": "verifier_formula.py",
+      "reason": "frozen source, documentation, aggregate receipt, or coordinate-free run log",
+      "sha256": "ad11321f9c010f03f850f6ebf41fb82533f772dad8b8ee080386de275bce830a"
+    }
+  ],
+  "policy": "conservative public mirror; coordinate bytes with uncertain or third-party provenance excluded",
+  "scope": "campaign/geometry/circle_packing_multicontact_precision"
+}

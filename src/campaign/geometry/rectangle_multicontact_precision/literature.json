@@ -1,0 +1,20 @@
+{
+  "sources": [
+    {
+      "citation": "https://paperclip.gxl.ai/citations/papers/arx_2206.07165#L62-L72,L94-L98,L127-L149",
+      "title": "Rigidity of Circle Packings with Flexible Radii",
+      "use": "first-order flex/stress and rigidity dimension counts motivate releasing two or three active contacts and replacing them at flex-polytope vertices"
+    },
+    {
+      "citation": "https://paperclip.gxl.ai/citations/papers/arx_2403.06211#L119-L124,L127-L138",
+      "title": "Solution-Hashing Search Based on Layout-Graph Transformation for Unequal Circle Packing",
+      "use": "contact-layout graph transformations and graph hashes motivate labeled and Weisfeiler-Lehman deduplication"
+    },
+    {
+      "citation": "https://paperclip.gxl.ai/citations/papers/arx_2511.02864#L513-L516",
+      "title": "Mathematical exploration and discovery at scale",
+      "use": "primary benchmark context for the n=21 fixed-perimeter rectangle objective"
+    }
+  ],
+  "embedded_third_party_text": false
+}
