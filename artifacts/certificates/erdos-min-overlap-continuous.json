@@ -1,0 +1,42 @@
+{
+  "arena_strict_gate": "0.38085857721583954",
+  "arithmetic": "IEEE-754 values are converted with as_integer_ratio(), lifted to a common power-of-two denominator, normalized exactly, and scored with Python integers over all 2n-1 lags.",
+  "canonical_candidate_sha256": "43d6096c5ebd143a03f56e5c07de335e2c1b64bf3485336633df16d7f8257db6",
+  "certificate_source_sha256": "a324d8e3ef147be73aca77ef7e81d1c89d81c7f191374e97c7df4b1f0149e8a4",
+  "comparisons": {
+    "below_prior_arena_leader": true,
+    "below_published_reference_upper_bound": true,
+    "clears_frozen_arena_gate": true
+  },
+  "continuous_reduction": "For a step function and shifted step-function complement, interval intersection lengths are affine between consecutive grid shifts. Their weighted sum is therefore affine there, so every continuous maximum occurs at a grid boundary.",
+  "domain_checks": {
+    "all_grid_lags_evaluated": 7167,
+    "exact_integral_after_normalization": "1",
+    "exact_normalized_values_in_unit_interval": true,
+    "finite_binary64_payload": true,
+    "maximum_normalized_value_upper_decimal": "0.9999999999999837948866287208414501254004",
+    "minimum_normalized_value_upper_decimal": "0.0000000000000018002169585663914939007624",
+    "payload_length": 3584
+  },
+  "domain_interval": "[0, 2]",
+  "exact_common_binary_denominator": "2535301200456458802993406410752",
+  "exact_max_denominator": "20641209167037213005036750567119056465821996396173017596892653073025",
+  "exact_max_numerator": "7861381506700753544763858135527493249966514233368364969629442615292",
+  "exact_payload_integer_sum": "4543259751217974660545579448037055",
+  "generated_at": "2026-08-15T16:43:14Z",
+  "improvement_over_prior_arena_leader": "0.0000001023579812408555576669835590519531",
+  "improvement_over_published_reference": "0.0000127357221416908555576669835590519531",
+  "interval_width": "1/1792",
+  "mathematical_claim": "The explicitly normalized 3,584-step density has continuous minimum-overlap objective at most the rigorous decimal bound below.",
+  "maximizing_lags": [
+    -192
+  ],
+  "n": 3584,
+  "payload_sha256": "79d2122c7e62e6a07feaeb708fa2b1b4c072caa812693ce6b2d31c01cc60c3ee",
+  "prior_arena_leader": "0.38085867721583955",
+  "published_reference_upper_bound": "0.38087131058",
+  "rigorous_decimal_upper_bound": "0.3808585748578583091444423330164409480469",
+  "schema_version": 1,
+  "source_snapshot_generated_at": "2026-08-15T12:07:25.964492Z",
+  "verifier_sha256": "7c0e78d9dc40f27584ee2de01348fddcc6ff4a540908ddc902a4c6ef920920b0"
+}

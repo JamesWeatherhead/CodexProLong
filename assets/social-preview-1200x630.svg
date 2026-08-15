@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
+<defs><linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#080713"/><stop offset="0.58" stop-color="#171035"/><stop offset="1" stop-color="#062333"/></linearGradient></defs>
+<rect width="1200" height="630" rx="34" fill="url(#b)"/>
+<path d="M 35 485 C 300 365, 785 560, 1165 362" fill="none" stroke="#8b63ff" stroke-opacity=".5" stroke-width="3"/>
+<circle cx="1030" cy="120" r="145" fill="none" stroke="#55d9ff" stroke-opacity=".22" stroke-width="2"/>
+<text x="76" y="122" fill="#b692ff" font-size="34" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">CODEXPROLONG</text>
+<text x="76" y="250" fill="#f7f3ff" font-size="78" font-weight="800" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">5 DOMAIN-VALID #1s</text>
+<text x="76" y="344" fill="#55d9ff" font-size="39" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Persistent memory. Self-written solvers.</text>
+<text x="76" y="407" fill="#56f3bf" font-size="39" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Public receipts.</text>
+<text x="76" y="553" fill="#c7c1db" font-size="25" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Featured: a problem posed by Erdős in 1955</text>
+</svg>

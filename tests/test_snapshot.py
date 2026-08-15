@@ -15,6 +15,26 @@ SPEC.loader.exec_module(MODULE)
 
 
 class SnapshotTests(unittest.TestCase):
+    def test_prolong_sources_are_explicit_and_private_state_is_forbidden(self) -> None:
+        required = {
+            "PROLONG_MEMORY.md",
+            "prolong",
+            "prolong_codex.py",
+            "prolong_memory.py",
+            "tests/test_prolong_codex.py",
+            "tests/test_prolong_memory.py",
+        }
+        self.assertTrue(required.issubset(set(MODULE.ROOT_SOURCE_FILES)))
+        for value in (
+            "state/memory/trajectory.jsonl",
+            "state/memory/head.json",
+            "state/memory/sessions/x/session.json",
+            "lane/turn-1.codex.jsonl",
+            "lane/turn-1.stderr.jsonl",
+        ):
+            self.assertTrue(MODULE.is_private_memory_path(Path(value)))
+        self.assertFalse(MODULE.is_private_memory_path(Path("state/events.jsonl")))
+
     def test_format_score(self) -> None:
         self.assertEqual(MODULE.format_score(None), "—")
         self.assertEqual(MODULE.format_score(0), "0")

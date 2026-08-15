@@ -197,11 +197,17 @@ ROOT_SOURCE_FILES = (
     "AGENTS.md",
     "Dockerfile.verifier",
     "HANDOFF.md",
+    "PROLONG_MEMORY.md",
     "README.md",
     "arena",
     "arena_campaign.py",
+    "prolong",
+    "prolong_codex.py",
+    "prolong_memory.py",
     "verifier_runner.py",
     "tests/test_campaign.py",
+    "tests/test_prolong_codex.py",
+    "tests/test_prolong_memory.py",
     "c3_root/requirements-rank-lift.txt",
     "geometry/heilbronn_rational_mesh_global/.gitignore",
     "geometry/heilbronn_rational_mesh_global/literature_sources.json",
@@ -300,6 +306,29 @@ ROOT_SOURCE_FILES = (
     ),
     "analytic/c3_precision_escape/receipt.json",
 )
+
+PRIVATE_MEMORY_NAMES = {
+    "head.json",
+    "session.json",
+    "trajectory.jsonl",
+}
+
+
+def is_private_memory_path(path: Path) -> bool:
+    parts = path.parts
+    if any(
+        parts[index : index + 2] == ("state", "memory")
+        for index in range(len(parts) - 1)
+    ):
+        return True
+    name = path.name
+    return (
+        name in PRIVATE_MEMORY_NAMES
+        or name.endswith(".codex.jsonl")
+        or name.endswith(".stderr.jsonl")
+    )
+
+
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = (
     "analytic",
@@ -731,6 +760,12 @@ def mirror_source(source: Path) -> list[dict[str, Any]]:
     copied: list[dict[str, Any]] = []
     destination_root = REPO / "src" / "campaign"
 
+    private_destination = destination_root / "state" / "memory"
+    if private_destination.exists():
+        raise ValueError(
+            f"private PRO-LONG runtime state exists in public tree: {private_destination}"
+        )
+
     # A prior snapshot may have copied a subtree before it was declared WIP.
     # Remove every unpublished destination first; manifest-backed packets below
     # are then rebuilt from their exact allowlists.  This never touches the
@@ -741,6 +776,8 @@ def mirror_source(source: Path) -> list[dict[str, Any]]:
             shutil.rmtree(destination)
 
     def copy_relative(relative: Path) -> None:
+        if is_private_memory_path(relative):
+            raise ValueError(f"refusing to publish private memory path: {relative}")
         src = source / relative
         if not src.is_file():
             raise FileNotFoundError(src)
@@ -1052,6 +1089,13 @@ def main() -> int:
     manifest.append({"path": str(events_dst.relative_to(REPO)), "sha256": sha256(events_dst), "bytes": events_dst.stat().st_size})
 
     manifest.sort(key=lambda item: item["path"])
+    private_entries = [
+        item["path"]
+        for item in manifest
+        if is_private_memory_path(Path(item["path"]))
+    ]
+    if private_entries:
+        raise ValueError(f"private memory entered published manifest: {private_entries}")
     write_json(
         REPO / "data" / "published-manifest.json",
         {"generated_at": latest["generated_at"], "files": manifest},

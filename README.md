@@ -1,152 +1,198 @@
 <div align="center">
-  <img alt="Codex with ProLong memory, using Exa and Paperclip as research tools" src="assets/prolong-memory-codex.jpg" width="100%">
-
   <h1>CodexProLong</h1>
-
-  <p><strong><em>I gave Codex a memory. It built a research lab.</em></strong></p>
-
+  <p><strong>I gave Codex persistent research memory. It built its own mathematical solvers.</strong></p>
   <p>
-    An open computational-mathematics experiment by
-    <a href="https://github.com/JamesWeatherhead">James Weatherhead</a>,
-    built with OpenAI Codex.
+    One long-running Codex campaign produced <strong>five domain-valid first-place constructions</strong>
+    across 19 EinsteinArena benchmarks.<br>
+    Every public claim is tied to a frozen verifier, candidate bytes, hashes, and a replayable receipt.
   </p>
 </div>
 
+<!-- BEGIN GENERATED:SNAPSHOT -->
 <table align="center">
   <tr>
-    <td align="center" width="33%"><strong>7</strong><br><sub>platform #1s</sub></td>
     <td align="center" width="33%"><strong>5</strong><br><sub>domain-valid #1s</sub></td>
+    <td align="center" width="33%"><strong>7</strong><br><sub>platform leaders</sub></td>
     <td align="center" width="33%"><strong>19</strong><br><sub>open benchmarks</sub></td>
   </tr>
 </table>
 
+<p align="center"><sub>Frozen snapshot: August 15, 2026 · 12:07 UTC. Rankings can change. Archived hashes do not.</sub></p>
+<!-- END GENERATED:SNAPSHOT -->
+
 <p align="center">
   <a href="docs/STATUS.md"><strong>Explore the results</strong></a> ·
-  <a href="docs/ARCHITECTURE.md"><strong>See how it works</strong></a> ·
-  <a href="artifacts/receipts/"><strong>Verify the receipts</strong></a>
-  <br>
-  <sub>Live snapshot: August 15, 2026. Rankings can change; archived hashes do not.</sub>
+  <a href="docs/ERDOS_MINIMUM_OVERLAP.md"><strong>Follow the Erdős case</strong></a> ·
+  <a href="artifacts/receipts/"><strong>Audit the evidence</strong></a>
 </p>
-
-## What this is
-
-CodexProLong is a long-running computational-mathematics experiment. I give
-Codex a problem, a frozen verifier, and a goal—but not one universal solver.
-Codex investigates the problem and writes whatever executable model it needs:
-a search program, simulator, optimizer, SAT model, exact checker, or something
-new.
-
-François Chollet, creator of ARC-AGI and co-founder of ARC Prize, describes
-this general pattern as
-[**“LLM-guided on-the-fly synthesis of a symbolic world model.”**](https://x.com/fchollet/status/2088243704603824311)
-
-A symbolic world model is an executable account of how a problem works. In
-plain English: the LLM does not stop at explaining its theory. It turns the
-theory into code, runs the code, checks it against evidence, and rewrites the
-model when the theory is wrong. On ARC-AGI-3, that can mean learning the rules
-of an unfamiliar game. Here, it means learning useful structure inside a
-mathematical problem. Different problem, different program.
 
 <p align="center">
-  <img
-    alt="CodexProLong research loop: EinsteinArena problems flow through Exa Search and Paperclip into Codex, which builds an executable model inside append-only memory, verifies it with a frozen evaluator, and returns a verified result"
-    src="assets/codexprolong-system-loop.jpg"
-    width="100%">
+  <a href="assets/source/prolong-memory-codex.jpg">
+    <img
+      alt="Codex working at a laptop, surrounded by persistent ProLong memory, with Exa Search and Paperclip available as research tools"
+      src="assets/prolong-memory-codex.webp"
+      width="92%">
+  </a>
+  <br>
+  <sub>Codex is the agent. ProLong preserves the research state around its work. Exa and Paperclip are research tools Codex can call.</sub>
 </p>
 
-## The memory is the harness
+## A 71-year-old problem, one smaller upper bound
 
-Most agent sessions forget their work when the context window ends. This one
-does not. The name credits
-[PRO-LONG](https://github.com/alexisfox7/PRO-LONG), the open-source harness that
-inspired the programmatic-memory design.
+Imagine coloring `2n` positions red or blue, exactly half each. Shift one
+color pattern against the other. Some shift will create many red-blue matches;
+Erdős asked how small the worst unavoidable overlap can be as `n` grows.
 
-The core research journal is **append-only**: a new experiment adds a new
-record; it does not silently rewrite the old one. Each record preserves the
-route taken, the result, the relevant code or checkpoint, and the hashes that
-identify the exact artifacts. If an earlier conclusion was wrong, the
-correction is appended beside it, leaving the history inspectable.
+Paul Erdős posed the problem in 1955. **The exact constant is still unknown.**
+A construction lowers the upper bound; a proof that every construction has
+substantial overlap raises the lower bound. Those two sides still do not meet.
 
-Before starting another search, Codex searches the journal, handoffs, and
-receipts:
+CodexProLong found a new explicit upper-bound construction: a density with
+3,584 values whose continuous overlap is now certified with exact integer
+arithmetic. This improves an upper-bound value reported in the recent
+literature; it does not solve the open problem.
 
-- Has this route already been tried?
-- What failed, and why?
-- Is there a useful program or checkpoint to resume?
-- Which verifier, target, and artifact hashes were current?
+<p align="center">
+  <a href="assets/erdos-overlap-explainer.svg">
+    <img
+      alt="Three-panel explanation of the Erdős minimum-overlap problem, showing a density, a shifted complement, and the maximum overlap across all shifts"
+      src="assets/erdos-overlap-explainer.svg"
+      width="100%">
+  </a>
+  <br>
+  <sub>The search changes the density while trying to lower the largest overlap created by any shift.</sub>
+</p>
 
-That makes the memory less like a saved chat and more like a searchable lab
-notebook connected to a codebase. Context is disposable; the research state is
-not.
+<!-- BEGIN GENERATED:ERDOS-SCORE -->
+| Frozen comparison | Score |
+|---|---:|
+| Previous Arena leader | `0.3808586772` |
+| CodexProLong exact upper bound | **`0.3808585749`** |
+| Improvement over that frontier | `> 1.02 × 10⁻⁷` |
+| Direction | **lower is better** |
+<!-- END GENERATED:ERDOS-SCORE -->
 
-## The loop
+Codex repeatedly identified the shifts producing the worst overlap, optimized
+against that active set, replayed the unchanged verifier, and preserved each
+accepted checkpoint for the next context. The technical method was
+active-bundle sequential linear programming over 3,584 values.
 
-`set the gate → search memory → research → write code → run → verify → append → repeat`
+[TTT-Discover](https://arxiv.org/abs/2601.16175), coauthored by James Zou,
+recently used this same problem to show that test-time training could discover
+improved mathematical constructions. CodexProLong asks a complementary
+question: can persistent research memory help a coding agent continue the
+search across context boundaries?
 
-1. **I set the problem and verification gate.** I control external actions and
-   decide what qualifies as a scientifically honest claim.
-2. **Codex searches the existing memory.** It resumes useful work and avoids
-   repeating measured dead ends.
-3. **Codex researches and builds.** It can use
-   [Exa Search](https://exa.ai) and
-   [Paperclip](https://paperclip.gxl.ai) as research tools, then create whatever
-   problem-specific machinery it needs.
-4. **The verifier decides.** Candidates are replayed against the frozen
-   evaluator and checked against the written mathematical domain.
-5. **The result becomes memory.** Code, evidence, failures, checkpoints, and
-   receipts are appended for the next context to search.
+<details>
+<summary><strong>Exact claim and evidence</strong></summary>
 
-Codex is the agent. ProLong is the memory around its work. Exa and Paperclip
-are tools used by Codex, not subagents or collaborators. CodexProLong is an
-independent, clean-room experiment—not a fork, a new foundation model, or an
-official OpenAI or ARC Prize product.
+The exact rational maximum rounds upward to
+`0.3808585748578583091444423330164409480469`. All 7,167 grid lags were
+evaluated; the unique maximizing lag is `−192`. Because the overlap is affine
+between adjacent grid shifts, one of those boundaries is also the continuous
+maximum.
 
-## Selected results
+- [Continuous certificate](artifacts/certificates/erdos-min-overlap-continuous.json)
+- [Derivation and literature](docs/ERDOS_MINIMUM_OVERLAP.md)
+- [Public candidate](artifacts/wins/erdos-min-overlap.json)
+- [Arena receipt](artifacts/receipts/erdos-min-overlap.json)
+- [Frozen verifier](artifacts/verifiers/erdos-min-overlap.json)
 
-The campaign currently holds five first-place constructions that also satisfy
-the written mathematical domain.
+Payload SHA-256: `79d2122c7e62e6a07feaeb708fa2b1b4c072caa812693ce6b2d31c01cc60c3ee`<br>
+Verifier SHA-256: `7c0e78d9dc40f27584ee2de01348fddcc6ff4a540908ddc902a4c6ef920920b0`
 
-| Benchmark | Result | Evidence |
+</details>
+
+## What Codex actually did
+
+| James | Codex | Frozen verifier |
 |---|---|---|
-| [Erdős minimum overlap](https://einsteinarena.com/problems/erdos-min-overlap) | **Domain-valid #1** | [solution #2507](https://einsteinarena.com/api/solutions/2507) · [receipt](artifacts/receipts/erdos-min-overlap.json) |
-| [Uncertainty principle](https://einsteinarena.com/problems/uncertainty-principle) | **Domain-valid #1** | [solution #2505](https://einsteinarena.com/api/solutions/2505) · [payload](artifacts/wins/uncertainty-principle.json) |
-| [First autocorrelation](https://einsteinarena.com/problems/first-autocorrelation-inequality) | **Domain-valid #1** | [solution #2504](https://einsteinarena.com/api/solutions/2504) · [payload](artifacts/wins/first-autocorrelation-inequality.json) |
-| [Kissing number, d12 / 842](https://einsteinarena.com/problems/kissing-number-d12-842) | **Domain-valid #1** | [solution #2499](https://einsteinarena.com/api/solutions/2499) · [payload](artifacts/wins/kissing-number-d12-842.json) |
-| [Kissing number, d11 / 605](https://einsteinarena.com/problems/kissing-number-d11-605) | **Domain-valid #1** | [solution #2500](https://einsteinarena.com/api/solutions/2500) · [payload](artifacts/wins/kissing-number-d11-605.json) |
+| Chose the campaign and claim boundary | Searched prior experiments | Evaluated each candidate |
+| Controlled external actions | Researched mathematical approaches | Enforced the unchanged scoring rule |
+| Approved what could be published | Wrote and ran problem-specific programs | Anchored the evidence attached to each claim |
 
-**Integrity:** Seven entries lead the current platform snapshot; five also
-satisfy the written mathematical domain. Two depend on disclosed
-verifier/domain differences. A separate domain-valid construction verifies
-perfectly but cannot be submitted because that lane is closed. The full record
-is preserved in the [19-lane status matrix](docs/STATUS.md) and
-[integrity policy](docs/ETHICS.md).
+Codex was not handed one universal solver. It wrote a different executable
+model for each problem: optimizers, continuation methods, exact checkers, SAT
+models, topology searches, and replay tools.
 
-## Why it matters
+`set gate → search memory → build → run → verify → append → repeat`
 
-- **Reasoning becomes reusable software.** A successful idea can run thousands
-  or billions of times.
-- **Long-horizon work survives context boundaries.** New agents inherit tested
-  machinery instead of rediscovering yesterday's dead ends.
-- **Verification comes before amplification.** Every positive claim is tied to
-  the evaluator bytes and the conditions under which it is true.
-- **Failures become research memory.** Bounded negative results narrow the next
-  search instead of disappearing into a transcript.
+<p align="center">
+  <a href="assets/source/codexprolong-system-loop.jpg">
+    <img
+      alt="CodexProLong architecture showing an EinsteinArena problem flowing through Exa Search and Paperclip to Codex, which builds an executable model, evaluates it with a frozen verifier, and appends the verified result to persistent memory"
+      src="assets/codexprolong-system-loop.webp"
+      width="100%">
+  </a>
+  <br>
+  <sub>EinsteinArena supplies the problem. Codex researches and builds an executable model, the frozen verifier evaluates it, and the result becomes searchable memory for the next context.</sub>
+</p>
 
-The larger bet is simple: as coding agents improve, the most capable research
-harness may be the one that gives them freedom to build what each problem
-requires—while making the evidence harder to fake than the story is to tell.
+## How persistent memory changes the search
 
-## Open by construction
+The design is inspired by
+[PRO-LONG](https://github.com/alexisfox7/PRO-LONG): append every observation,
+action, and outcome, then let a coding agent search that history with code.
+Nothing important is silently replaced by a summary.
 
-A leaderboard score is the beginning of the audit, not the end. A publishable
-result records the exact candidate bytes and SHA-256, the verifier source hash,
-the live leader and improvement gate, an isolated replay receipt, and an
-integrity label distinguishing mathematical results from platform-only
-behavior.
+Before a new experiment, Codex searches the journal, handoffs, code, and
+receipts to learn which paths were already tested, why they failed, and which
+checkpoint can be resumed. Context windows end; the research state does not.
 
-The repository keeps the owned code and irreducible evidence needed to
-reproduce or challenge a claim while excluding credentials, private sessions,
-unlicensed corpora, and replaceable caches.
+François Chollet calls the broader pattern
+[“LLM-guided on-the-fly synthesis of a symbolic world model”](https://x.com/fchollet/status/2088243704603824311):
+the model turns its theory into code, runs it against evidence, and rewrites
+the theory when the program is wrong. Exa Search and Paperclip supply research
+material; they are tools, not subagents.
+
+The practical payoff is cumulative: successful reasoning becomes reusable
+software, failed searches become constraints on the next attempt, and work
+survives the context window that produced it. Persistent memory does not make
+Codex infallible; it makes the experiment recoverable, inspectable, and harder
+to accidentally repeat.
+
+## Five domain-valid first places
+
+“Domain-valid” means the construction satisfies the written mathematical
+domain and passes the unchanged Arena verifier. It does not mean the underlying
+open problem is completely solved.
+
+| Benchmark | What Codex built | Result | Evidence |
+|---|---|---|---|
+| [Erdős minimum overlap](https://einsteinarena.com/problems/erdos-min-overlap) | Active-set linear optimizer | New certified upper-bound construction | [certificate](docs/ERDOS_MINIMUM_OVERLAP.md) · [#2507](https://einsteinarena.com/api/solutions/2507) |
+| [Uncertainty principle](https://einsteinarena.com/problems/uncertainty-principle) | High-precision root continuation | Domain-valid #1 | [payload](artifacts/wins/uncertainty-principle.json) · [#2505](https://einsteinarena.com/api/solutions/2505) |
+| [First autocorrelation](https://einsteinarena.com/problems/first-autocorrelation-inequality) | High-beta continuation | Domain-valid #1 | [payload](artifacts/wins/first-autocorrelation-inequality.json) · [#2504](https://einsteinarena.com/api/solutions/2504) |
+| [Kissing d12 / 842](https://einsteinarena.com/problems/kissing-number-d12-842) | Tangent-space active-set optimizer | Domain-valid #1 | [payload](artifacts/wins/kissing-number-d12-842.json) · [#2499](https://einsteinarena.com/api/solutions/2499) |
+| [Kissing d11 / 605](https://einsteinarena.com/problems/kissing-number-d11-605) | Sparse tangent-space optimizer | Domain-valid #1 | [payload](artifacts/wins/kissing-number-d11-605.json) · [#2500](https://einsteinarena.com/api/solutions/2500) |
+
+> **Technical highlight:** when ordinary optimization stalled on the
+> uncertainty-principle lane, Codex promoted a near-contact into a prescribed
+> double root and wrote an 80-digit predictor-corrector continuation method.
+
+## Integrity and limitations
+
+The frozen snapshot has seven platform leaders, but only five are counted
+above. The Prime Number Theorem entry passes the advertised finite verifier
+horizon yet fails the written all-`x` statement; the Tammes entry exploits a
+point that is not on the sphere. Both remain public and explicitly labeled.
+
+A separate domain-valid kissing construction verifies at the objective floor
+but cannot be submitted because that Arena lane is closed. See the complete
+[19-lane matrix](docs/STATUS.md) and [integrity policy](docs/ETHICS.md).
+CodexProLong is an independent experiment by James Weatherhead, built with
+OpenAI Codex—not an official OpenAI, EinsteinArena, or ARC Prize product.
+
+## Audit it
+
+```bash
+python tools/certify_erdos_continuous.py --check
+python tools/check_readme_claims.py
+python tools/check_local_links.py
+python -m unittest discover -s tests -v
+```
+
+The repository publishes owned code and irreducible evidence while excluding
+credentials, private sessions, unlicensed corpora, and replaceable caches.
 
 ## Explore the lab
 
