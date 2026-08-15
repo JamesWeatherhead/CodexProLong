@@ -66,3 +66,37 @@ n=204,800 noisy continuation was stopped after 13,206 evaluations through beta
 `1e8`: its best retained seed was `1.4515658271807341`, while surrogate
 candidates remained roughly `3e-4` worse. These runs rule out those specific
 noise/temperature paths; they do not rule out the active-lag epigraph method.
+
+## Active-bundle epigraph checkpoint
+
+`active_bundle_epigraph.py` implements the Paperclip-grounded active-lag
+experiment: a deterministic, rank-revealed 68-dimensional Fourier/Haar/grid
+basis; a cutting-plane epigraph SLP; an omitted-lag scan after every LP; and an
+exact quadratic line search that crosses max-lag boundaries. FFTs build only
+proposal derivatives. Every accepted checkpoint is rescored with direct
+float64 `numpy.convolve` under verifier SHA-256
+`b8288d5943d72032f1d2bcf5d8a3b3a00cfd428ae0347a26bfc53974ec7ebce9`.
+
+The cleaned bounded run is
+`runs-active-bundle/20260815T015806Z/`. Its exchange loop closed all omitted
+linearized constraints after 4,666 cuts at a `1e-9` violation tolerance. The
+globally checked linear model predicted a maximum-convolution change of only
+`-4.5667645768e-5`; the exact accepted score was
+`1.4515655289584310`, a gain of `8.9194585e-10`. The strict gate remains
+`3.6650682e-6` away. This quantifies the negative frontier for this particular
+68-dimensional local model; it does not rule out a larger changed-support or
+global basin move.
+
+Deterministic rerun and independent replay:
+
+```sh
+.venv/bin/python -u campaign/c3_root/active_bundle_epigraph.py \
+  --input campaign/c3_root/runs-102400/20260815T011534Z/best.npy \
+  --trusts 0.1 --cycles 1 --alpha-max 8 --alpha-grid 129
+
+.venv/bin/python campaign/analytic/c3_secondary/replay_exact.py \
+  campaign/c3_root/runs-active-bundle/20260815T015806Z/best.npy
+```
+
+The replayed payload SHA-256 is
+`a9c9385dc51556952785f638418dd86517c0274eae97434250b6f50ca1985a88`.

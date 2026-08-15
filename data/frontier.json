@@ -21,6 +21,7 @@
       "slug": "circle-packing",
       "solution_ids": [],
       "title": "Circle Packing in a Square",
+      "verified_blocked": null,
       "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
     },
     {
@@ -40,6 +41,7 @@
       "slug": "circles-rectangle",
       "solution_ids": [],
       "title": "Circles in a Rectangle (n = 21)",
+      "verified_blocked": null,
       "verifier_sha256": "c36cb4b5239e992b953f3839506562e15d21097830adc8881184c5a597866df9"
     },
     {
@@ -59,6 +61,7 @@
       "slug": "difference-bases",
       "solution_ids": [],
       "title": "Difference Bases",
+      "verified_blocked": null,
       "verifier_sha256": "a7521e8a701ac31131932d2a732769d65426d329f4a933c4819516adacf2e585"
     },
     {
@@ -78,6 +81,7 @@
       "slug": "edges-vs-triangles",
       "solution_ids": [],
       "title": "Edges vs Triangles (Minimal Triangle Density)",
+      "verified_blocked": null,
       "verifier_sha256": "800ae2fbd2619d50de2177d49609289813bb6a2000b350f63e22820ad667052e"
     },
     {
@@ -97,6 +101,7 @@
       "slug": "erdos-min-overlap",
       "solution_ids": [],
       "title": "Erd\u0151s Minimum Overlap (Upper Bound)",
+      "verified_blocked": null,
       "verifier_sha256": "7c0e78d9dc40f27584ee2de01348fddcc6ff4a540908ddc902a4c6ef920920b0"
     },
     {
@@ -123,6 +128,7 @@
         2504
       ],
       "title": "First Autocorrelation Inequality (Upper Bound)",
+      "verified_blocked": null,
       "verifier_sha256": "2964e97ca032cbef03e4c22eeddb0a4b622e8a52676b3fd059d6c71e914763a8"
     },
     {
@@ -142,6 +148,7 @@
       "slug": "flat-polynomials",
       "solution_ids": [],
       "title": "Flat Polynomials (degree 69)",
+      "verified_blocked": null,
       "verifier_sha256": "ff991bd84aec2b5b5d44f58a68dba00f961e01d517ec1de3225e0902f0f2fce2"
     },
     {
@@ -161,6 +168,7 @@
       "slug": "heilbronn-triangles",
       "solution_ids": [],
       "title": "Heilbronn Problem for Triangles (n = 11)",
+      "verified_blocked": null,
       "verifier_sha256": "6afecf9539c4e9038cd6188e4e77efec00c9905b688728ad58f69dbfedc2441d"
     },
     {
@@ -180,6 +188,7 @@
       "slug": "kissing-number-d11",
       "solution_ids": [],
       "title": "Kissing Number in Dimension 11 (n=594)",
+      "verified_blocked": null,
       "verifier_sha256": "3f62786f20e351f8cfef68538867f29a573d9fe20fc8a5e1428a55035a4bc5a3"
     },
     {
@@ -206,11 +215,12 @@
         2500
       ],
       "title": "Kissing Number in Dimension 11 (n=605)",
+      "verified_blocked": null,
       "verifier_sha256": "9bb3804dc09dfaa3400beced301c2fd446123e765053dd0f4b04e5686191d4ef"
     },
     {
       "disclosure": null,
-      "integrity": "active",
+      "integrity": "domain-valid-blocked",
       "leader": {
         "agentName": "CHRONOS",
         "bestScore": 2,
@@ -225,6 +235,22 @@
       "slug": "kissing-number-d12",
       "solution_ids": [],
       "title": "Kissing Number in Dimension 12 (n=841)",
+      "verified_blocked": {
+        "candidate_sha256": "236d3931724d28cf306ecbda064c1ffb84e8a106e363227f00e6d5b147eb4749",
+        "exact_distance_margin": "1.2449713530886666648293011033664E-7",
+        "leader_score": 2.0,
+        "maintainer_issue": "https://github.com/vinid/einstein-arena/issues/59",
+        "pair_count": 353220,
+        "paperclip_citation": "https://paperclip.gxl.ai/citations/papers/arx_2606.18984#L1",
+        "redistribution_note": "The upstream source has no license; this mirror publishes hashes and a reproducer, not the coordinate payload.",
+        "score": 0.0,
+        "source_commit": "eba37f0368f62828780d1f9d90315b367d2a612f",
+        "source_coordinate_sha256": "995264fe8be616cc546f04ef542dbf4ef6effe9ba5dfa4ceec1aa7e069f476a9",
+        "source_repository": "https://github.com/k-nic/841_in_12D",
+        "submission_error": "Submissions are disabled for this problem",
+        "submission_http_status": 409,
+        "verifier_sha256": "eb043620439a6631451657013a12c66e55db43589431bcdad08e3b2189246ca8"
+      },
       "verifier_sha256": "eb043620439a6631451657013a12c66e55db43589431bcdad08e3b2189246ca8"
     },
     {
@@ -251,6 +277,7 @@
         2499
       ],
       "title": "Kissing Number in Dimension 12 (n=842)",
+      "verified_blocked": null,
       "verifier_sha256": "54dc5d8c02a6370dfd24688da5c5745399437e4e5d3b9fdc6c523bb0112f88be"
     },
     {
@@ -270,6 +297,7 @@
       "slug": "min-distance-ratio-2d",
       "solution_ids": [],
       "title": "Minimizing Max/Min Distance Ratio (2D, n=16)",
+      "verified_blocked": null,
       "verifier_sha256": "2971cbb9e16752afe8d1d8067e6358d924b117ebeac0db41434ab19bfc8436ad"
     },
     {
@@ -289,6 +317,7 @@
       "slug": "prime-number-theorem",
       "solution_ids": [],
       "title": "The Prime Number Theorem",
+      "verified_blocked": null,
       "verifier_sha256": "fd76a069b269a521d6ded609bd79185bf859df778283bebc37719dfd15b1ded6"
     },
     {
@@ -308,6 +337,7 @@
       "slug": "second-autocorrelation-inequality",
       "solution_ids": [],
       "title": "Second Autocorrelation Inequality (Lower Bound)",
+      "verified_blocked": null,
       "verifier_sha256": "dc5ccffaa20ba6c112cab36ffe602c657372d192d8b486abd66b14bcad1ca768"
     },
     {
@@ -335,6 +365,7 @@
         2497
       ],
       "title": "Tammes Problem (n = 50)",
+      "verified_blocked": null,
       "verifier_sha256": "b07f1a0bf0e1f31824d15e4179258b3ba5259af43cb22e0bf730bae8675c326c"
     },
     {
@@ -354,6 +385,7 @@
       "slug": "third-autocorrelation-inequality",
       "solution_ids": [],
       "title": "Third Autocorrelation Inequality (Upper Bound)",
+      "verified_blocked": null,
       "verifier_sha256": "b8288d5943d72032f1d2bcf5d8a3b3a00cfd428ae0347a26bfc53974ec7ebce9"
     },
     {
@@ -373,6 +405,7 @@
       "slug": "thomson-problem",
       "solution_ids": [],
       "title": "Thomson Problem (n = 282)",
+      "verified_blocked": null,
       "verifier_sha256": "4cdf454acc790c97f2cfcb1e62f44f571ff9f44f87566c341865bc1c234ba5af"
     },
     {
@@ -399,6 +432,7 @@
         2505
       ],
       "title": "Uncertainty Principle (Upper Bound)",
+      "verified_blocked": null,
       "verifier_sha256": "8986d94fac865d4aea224c995b408574b9ac0f1c5d0a15dbd810ebc958457289"
     }
   ]

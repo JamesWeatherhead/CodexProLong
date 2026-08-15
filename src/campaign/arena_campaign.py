@@ -29,6 +29,15 @@ class CampaignError(RuntimeError):
     pass
 
 
+class HttpCampaignError(CampaignError):
+    def __init__(self, status: int, method: str, path: str, response_body: str):
+        self.status = status
+        self.method = method
+        self.path = path
+        self.response_body = response_body
+        super().__init__(f"HTTP {status} for {method} {path}: {response_body}")
+
+
 def utc_now() -> str:
     return dt.datetime.now(dt.timezone.utc).isoformat().replace("+00:00", "Z")
 
@@ -129,7 +138,7 @@ def http_json(
             raw = response.read()
     except urllib.error.HTTPError as exc:
         raw = exc.read(4096).decode("utf-8", "replace")
-        raise CampaignError(f"HTTP {exc.code} for {method} {path}: {raw}") from exc
+        raise HttpCampaignError(exc.code, method, path, raw) from exc
     except urllib.error.URLError as exc:
         raise CampaignError(f"network error for {method} {path}: {exc.reason}") from exc
     if not raw:
@@ -477,14 +486,56 @@ def submit(
             f"{receipt['leader_score']} by gate {receipt['min_improvement']}"
         )
     candidate, payload, _artifact_hash = load_candidate(candidate_path)
-    if len(payload) <= INLINE_LIMIT:
-        request_body = {"problem_id": live["id"], "solution": candidate}
-        mode = "inline"
-    else:
-        blob_key = upload_large(base, token, payload)
-        request_body = {"problem_id": live["id"], "solution_blob_key": blob_key}
-        mode = "blob"
-    response = http_json(base, "POST", "/api/solutions", body=request_body, token=token, timeout=300)
+    mode = "inline" if len(payload) <= INLINE_LIMIT else "blob"
+    attempt = append_event(state_dir, "submission_attempt", {
+        "slug": slug,
+        "problem_id": live["id"],
+        "candidate_sha256": receipt["candidate_sha256"],
+        "verifier_sha256": verifier_hash,
+        "score_local": receipt["score"],
+        "leader_score": receipt["leader_score"],
+        "mode": mode,
+    })
+    try:
+        if mode == "inline":
+            request_body = {"problem_id": live["id"], "solution": candidate}
+        else:
+            blob_key = upload_large(base, token, payload)
+            request_body = {"problem_id": live["id"], "solution_blob_key": blob_key}
+        response = http_json(
+            base,
+            "POST",
+            "/api/solutions",
+            body=request_body,
+            token=token,
+            timeout=300,
+        )
+    except HttpCampaignError as exc:
+        append_event(state_dir, "submission_rejected", {
+            "slug": slug,
+            "problem_id": live["id"],
+            "candidate_sha256": receipt["candidate_sha256"],
+            "verifier_sha256": verifier_hash,
+            "score_local": receipt["score"],
+            "mode": mode,
+            "attempt_sequence": attempt["sequence"],
+            "http_status": exc.status,
+            "endpoint": exc.path,
+            "reason": exc.response_body[:2000],
+        })
+        raise
+    except CampaignError as exc:
+        append_event(state_dir, "submission_failed", {
+            "slug": slug,
+            "problem_id": live["id"],
+            "candidate_sha256": receipt["candidate_sha256"],
+            "verifier_sha256": verifier_hash,
+            "score_local": receipt["score"],
+            "mode": mode,
+            "attempt_sequence": attempt["sequence"],
+            "reason": str(exc)[:2000],
+        })
+        raise
     append_event(state_dir, "submit", {
         "slug": slug,
         "problem_id": live["id"],
@@ -492,9 +543,47 @@ def submit(
         "verifier_sha256": verifier_hash,
         "score_local": receipt["score"],
         "mode": mode,
+        "attempt_sequence": attempt["sequence"],
         "submission_id": response.get("id") if isinstance(response, dict) else None,
     })
     return {"mode": mode, "receipt": receipt, "response": response}
+
+
+def record_rejection(
+    state_dir: Path,
+    slug: str,
+    candidate_path: Path,
+    *,
+    http_status: int,
+    reason: str,
+) -> dict[str, Any]:
+    if not 400 <= http_status <= 599:
+        raise CampaignError("recorded HTTP status must be between 400 and 599")
+    reason = reason.strip()
+    if not reason:
+        raise CampaignError("recorded rejection reason must not be empty")
+    _candidate, candidate_bytes, _artifact_hash = load_candidate(candidate_path)
+    candidate_hash = sha256_bytes(candidate_bytes)
+    verified = next((
+        event for event in reversed(read_events(state_dir))
+        if event.get("type") == "verify"
+        and event.get("payload", {}).get("slug") == slug
+        and event.get("payload", {}).get("candidate_sha256") == candidate_hash
+    ), None)
+    if verified is None:
+        raise CampaignError("cannot record rejection without a matching verified candidate event")
+    payload = verified["payload"]
+    if not payload.get("clears_first_place_gate"):
+        raise CampaignError("cannot record rejection for a candidate that did not clear the gate")
+    return append_event(state_dir, "submission_rejected", {
+        "slug": slug,
+        "candidate_sha256": candidate_hash,
+        "verifier_sha256": payload["verifier_sha256"],
+        "score_local": payload["score"],
+        "http_status": http_status,
+        "reason": reason[:2000],
+        "source": "operator_recorded_after_failed_attempt",
+    })
 
 
 def print_status(latest: dict[str, Any]) -> None:
@@ -533,6 +622,12 @@ def build_parser() -> argparse.ArgumentParser:
     submit_parser.add_argument("candidate", type=Path)
     submit_parser.add_argument("--confirm-domain-valid", action="store_true")
     submit_parser.add_argument("--confirm-submit", action="store_true")
+    rejection_parser = sub.add_parser("record-rejection")
+    rejection_parser.add_argument("slug")
+    rejection_parser.add_argument("candidate", type=Path)
+    rejection_parser.add_argument("--http-status", type=int, required=True)
+    rejection_parser.add_argument("--reason", required=True)
+    rejection_parser.add_argument("--confirm-record", action="store_true")
     check_parser = sub.add_parser("check")
     check_parser.add_argument("submission_id", type=int)
     return parser
@@ -571,6 +666,17 @@ def main(argv: list[str] | None = None) -> int:
                 timeout=args.timeout,
             )
             print(json.dumps(result, indent=2, sort_keys=True))
+        elif args.command == "record-rejection":
+            if not args.confirm_record:
+                raise CampaignError("record-rejection requires --confirm-record")
+            event = record_rejection(
+                args.state_dir,
+                args.slug,
+                args.candidate,
+                http_status=args.http_status,
+                reason=args.reason,
+            )
+            print(json.dumps(event, indent=2, sort_keys=True))
         elif args.command == "check":
             response = http_json(args.base_url, "GET", f"/api/solutions/{args.submission_id}")
             append_event(args.state_dir, "submission_check", {

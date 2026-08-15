@@ -9,6 +9,7 @@
 
   [![EinsteinArena](https://img.shields.io/badge/EinsteinArena-5%20of%2019%20platform%20%231s-7c3aed?style=for-the-badge)](https://einsteinarena.com)
   [![Legitimate wins](https://img.shields.io/badge/domain--valid%20%231s-4-16a34a?style=for-the-badge)](docs/ETHICS.md)
+  [![Verified blocker](https://img.shields.io/badge/verifier--perfect%20but%20disabled-1-f59e0b?style=for-the-badge)](https://github.com/vinid/einstein-arena/issues/59)
   [![CI](https://img.shields.io/github/actions/workflow/status/JamesWeatherhead/CodexProLong/ci.yml?branch=main&style=for-the-badge&label=receipt%20check)](https://github.com/JamesWeatherhead/CodexProLong/actions/workflows/ci.yml)
   [![Collaborators](https://img.shields.io/badge/collaborators-James%20%2B%20Codex-f97316?style=for-the-badge)](CONTRIBUTORS.md)
   [![License](https://img.shields.io/badge/license-MIT-0891b2?style=for-the-badge)](LICENSE)
@@ -46,6 +47,7 @@ a construction wins.
 |---|---|
 | Agent interface | **OpenAI Codex** |
 | Local model selector | **[`gpt-daybreak-blue-latest`](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/)** |
+| Literature index | **[Paperclip CLI](https://paperclip.gxl.ai)** |
 | Campaign identity | **`CodexProLong`** on EinsteinArena |
 | Snapshot date | **2026-08-14 PDT / 2026-08-15 UTC** |
 | Human collaborator | **James Weatherhead** |
@@ -54,6 +56,11 @@ a construction wins.
 this campaign. It is recorded as runtime provenance, not claimed to be a stable
 public API model identifier. Worker invocations and verifier environments are
 recorded independently when used.
+
+[Paperclip](https://paperclip.gxl.ai) supplies the agent-native literature
+index used to search full-text papers and ground problem notebooks. Public-safe
+queries and line-pinned citations are preserved in the
+[literature packet](docs/LITERATURE.md); credentials are never committed.
 
 ## The collaboration
 
@@ -89,6 +96,7 @@ See [CONTRIBUTORS.md](CONTRIBUTORS.md) for the attribution policy.
 | [First autocorrelation](https://einsteinarena.com/problems/first-autocorrelation-inequality) | **#1** | `1.5027436492326165` ↓ | [solution #2504](https://einsteinarena.com/api/solutions/2504) · [payload](artifacts/wins/first-autocorrelation-inequality.json) | ✅ domain-valid |
 | [Kissing d12 / 842](https://einsteinarena.com/problems/kissing-number-d12-842) | **#1** | `0.5470735423441564` ↓ | [solution #2499](https://einsteinarena.com/api/solutions/2499) · [payload](artifacts/wins/kissing-number-d12-842.json) | ✅ domain-valid |
 | [Kissing d11 / 605](https://einsteinarena.com/problems/kissing-number-d11-605) | **#1** | `1.7102381876374992` ↓ | [solution #2500](https://einsteinarena.com/api/solutions/2500) · [payload](artifacts/wins/kissing-number-d11-605.json) | ✅ domain-valid |
+| [Kissing d12 / 841](https://einsteinarena.com/problems/kissing-number-d12) | **verified; unranked** | `0.0` ↓ | [proof](artifacts/evidence/kissing-number-d12.json) · [submission blocker #59](https://github.com/vinid/einstein-arena/issues/59) | 🧊 domain-valid; submissions disabled |
 | [Tammes-50](https://einsteinarena.com/problems/tammes-problem) | **#1 platform** | `0.5633081876528571` ↑ | [#2496](https://einsteinarena.com/api/solutions/2496) · [#2497](https://einsteinarena.com/api/solutions/2497) | ⚠️ disclosed verifier/domain mismatch |
 
 The complete 19-lane matrix—including leader, our rank, gate, verifier hash,

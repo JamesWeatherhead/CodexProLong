@@ -21,6 +21,24 @@ SOLUTION_IDS = {
     "uncertainty-principle": [2505],
 }
 DISCLOSURES = {"tammes-problem": "verifier/domain mismatch: one point is not on S^2"}
+VERIFIED_BLOCKED = {
+    "kissing-number-d12": {
+        "score": 0.0,
+        "leader_score": 2.0,
+        "candidate_sha256": "236d3931724d28cf306ecbda064c1ffb84e8a106e363227f00e6d5b147eb4749",
+        "verifier_sha256": "eb043620439a6631451657013a12c66e55db43589431bcdad08e3b2189246ca8",
+        "pair_count": 353_220,
+        "exact_distance_margin": "1.2449713530886666648293011033664E-7",
+        "source_repository": "https://github.com/k-nic/841_in_12D",
+        "source_commit": "eba37f0368f62828780d1f9d90315b367d2a612f",
+        "source_coordinate_sha256": "995264fe8be616cc546f04ef542dbf4ef6effe9ba5dfa4ceec1aa7e069f476a9",
+        "paperclip_citation": "https://paperclip.gxl.ai/citations/papers/arx_2606.18984#L1",
+        "submission_http_status": 409,
+        "submission_error": "Submissions are disabled for this problem",
+        "maintainer_issue": "https://github.com/vinid/einstein-arena/issues/59",
+        "redistribution_note": "The upstream source has no license; this mirror publishes hashes and a reproducer, not the coordinate payload.",
+    }
+}
 WIN_ARTIFACTS = {
     "kissing-number-d12-842": "geometry/runs/20260814T225047Z/kissing-number-d12-842/best.json",
     "kissing-number-d11-605": "geometry/runs/20260814T225229Z/kissing-number-d11-605/best.json",
@@ -49,19 +67,19 @@ METHODS = {
     "circles-rectangle": "100-digit 47-pair/17-wall active root reaches 2.365832385227917, still 8.01e-11 short; a new topology is required.",
     "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109.",
     "edges-vs-triangles": "Exact curve-mesh optimization gains 7.61e-9, only 0.76% of the gate; the API independently enforces the 500-row domain.",
-    "erdos-min-overlap": "n=3,584 changed-grid active-set SLP now beats the public score locally; continuation is still about 9.88e-8 short of the gate.",
+    "erdos-min-overlap": "n=3,584 changed-grid active-set SLP reaches 0.3808586421686005; continuation is still 6.50e-8 short of the gate.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
     "flat-polynomials": "Structured search plus exhaustive all C(70,6)=131,115,985 masks found no gate-clearer on literal verifier-grid subsets.",
     "heilbronn-triangles": "100-digit active root, 462 topology trials, complete q=25 lattice proof, partial q=30 proof, and adaptive q=143 SAT cores.",
     "kissing-number-d11": "The live score 0 is the exact objective floor; no strict numerical improvement below zero exists under this verifier.",
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
-    "kissing-number-d12": "Reconstructing the published 60+60+720 block/bridge family and its flexible 48-systems for an exact 841-code.",
+    "kissing-number-d12": "Published 841-code replays at exact verifier score 0 with 1.24497e-7 distance-squared margin; submission is blocked by HTTP 409, tracked in issue #59.",
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
     "min-distance-ratio-2d": "100-digit active root and 280 topology release/promote trials; best local gain is 2.35e-11 versus a 1e-7 gate.",
     "prime-number-theorem": "Exact cutting planes and 600 stratified support exchanges; best live-replayed local gain is 4.15e-7, below the 1e-6 gate.",
     "second-autocorrelation-inequality": "Changed-support packet births improve the public score by 6.69e-9, far below the 1e-5 gate.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
-    "third-autocorrelation-inequality": "n=102,400 exact continuation gains 6.334e-6; active-lag epigraph search targets the remaining 3.666e-6.",
+    "third-autocorrelation-inequality": "n=102,400 exact continuation gains 6.334e-6; a pivoted 68-mode all-lag epigraph closed after 4,666 cuts but gained only 8.9e-10, so the remaining 3.665e-6 needs a support/topology escape.",
     "thomson-problem": "48 topology-changing seeds and exact tangent polishing return to the defect-minimal basin; no gate-clearer yet.",
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
 }
@@ -110,6 +128,7 @@ def public_frontier(latest: dict[str, Any]) -> dict[str, Any]:
     rows = []
     for slug, problem in sorted(latest["problems"].items()):
         ours = problem.get("our_entry")
+        blocked = VERIFIED_BLOCKED.get(slug)
         rows.append(
             {
                 "slug": slug,
@@ -122,8 +141,14 @@ def public_frontier(latest: dict[str, Any]) -> dict[str, Any]:
                 "verifier_sha256": problem["verifier_sha256"],
                 "problem_url": f"https://einsteinarena.com/problems/{slug}",
                 "solution_ids": SOLUTION_IDS.get(slug, []),
-                "integrity": "disclosure" if slug in DISCLOSURES else ("domain-valid" if problem.get("our_rank") == 1 else "active"),
+                "integrity": (
+                    "disclosure" if slug in DISCLOSURES
+                    else "domain-valid-blocked" if blocked
+                    else "domain-valid" if problem.get("our_rank") == 1
+                    else "active"
+                ),
                 "disclosure": DISCLOSURES.get(slug),
+                "verified_blocked": blocked,
             }
         )
     return {
@@ -151,14 +176,19 @@ def status_markdown(frontier: dict[str, Any]) -> str:
         arrow = "↑" if row["scoring"] == "maximize" else "↓"
         leader = row["leader"]
         leader_text = f"{leader['agentName']} `{format_score(leader['bestScore'])}` {arrow}"
-        if row["our_entry"]:
+        if row["verified_blocked"]:
+            ours = "🧊 **score `0` verified; submissions disabled**"
+        elif row["our_entry"]:
             icon = "⚠️" if row["integrity"] == "disclosure" else "🥇"
             ours = f"{icon} **#{row['our_rank']}** / `{format_score(row['our_entry']['bestScore'])}`"
         else:
             ours = "— / active"
         verifier = f"`{row['verifier_sha256'][:12]}`"
         ids = row["solution_ids"]
-        evidence = " · ".join(f"[#{sid}](https://einsteinarena.com/api/solutions/{sid})" for sid in ids) or "[lane source](../src/campaign/)"
+        if row["verified_blocked"]:
+            evidence = "[proof](../artifacts/evidence/kissing-number-d12.json) · [blocker](https://github.com/vinid/einstein-arena/issues/59)"
+        else:
+            evidence = " · ".join(f"[#{sid}](https://einsteinarena.com/api/solutions/{sid})" for sid in ids) or "[lane source](../src/campaign/)"
         literature = "[map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs)"
         lines.append(
             f"| [{row['title']}]({row['problem_url']}) | {arrow} | {leader_text} | {ours} | "
@@ -169,6 +199,7 @@ def status_markdown(frontier: dict[str, Any]) -> str:
             "",
             "> [!WARNING]",
             "> Tammes is a platform first place but not a spherical-code result; see [ETHICS.md](ETHICS.md).",
+            "> Kissing d12/841 is domain-valid and verifier-perfect locally, but the Arena endpoint returns HTTP 409 because submissions are disabled; see [issue #59](https://github.com/vinid/einstein-arena/issues/59).",
             "",
             "The source of truth is [`data/frontier.json`](../data/frontier.json).",
             "",
@@ -240,8 +271,18 @@ def main() -> int:
     frontier = public_frontier(latest)
     write_json(REPO / "data" / "frontier.json", frontier)
     (REPO / "docs" / "STATUS.md").write_text(status_markdown(frontier), encoding="utf-8")
+    write_json(
+        REPO / "artifacts" / "evidence" / "kissing-number-d12.json",
+        VERIFIED_BLOCKED["kissing-number-d12"],
+    )
 
     manifest = mirror_source(source)
+    blocked_evidence = REPO / "artifacts" / "evidence" / "kissing-number-d12.json"
+    manifest.append({
+        "path": str(blocked_evidence.relative_to(REPO)),
+        "sha256": sha256(blocked_evidence),
+        "bytes": blocked_evidence.stat().st_size,
+    })
     for slug, relative_text in WIN_ARTIFACTS.items():
         src = source / relative_text
         suffix = src.suffix

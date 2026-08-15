@@ -1,3 +1,4 @@
+import hashlib
 import json
 import tempfile
 import unittest
@@ -13,6 +14,7 @@ from arena_campaign import (  # noqa: E402
     clears_gate,
     load_candidate,
     read_events,
+    record_rejection,
     validate_candidate,
 )
 
@@ -65,6 +67,48 @@ class CampaignTests(unittest.TestCase):
             path.write_text("\n".join(lines) + "\n")
             with self.assertRaises(CampaignError):
                 read_events(state)
+
+    def test_record_rejection_requires_matching_gate_clearer(self):
+        with tempfile.TemporaryDirectory() as raw:
+            state = Path(raw)
+            candidate_path = state / "candidate.json"
+            candidate_path.write_text(json.dumps({"vectors": [[1, 0]]}))
+            candidate, candidate_bytes, _artifact_hash = load_candidate(candidate_path)
+            self.assertEqual(candidate, {"vectors": [[1, 0]]})
+            candidate_hash = hashlib.sha256(candidate_bytes).hexdigest()
+            append_event(state, "verify", {
+                "slug": "test-problem",
+                "candidate_sha256": candidate_hash,
+                "verifier_sha256": "a" * 64,
+                "score": 0.0,
+                "leader_score": 2.0,
+                "margin": 2.0,
+                "clears_first_place_gate": True,
+            })
+            event = record_rejection(
+                state,
+                "test-problem",
+                candidate_path,
+                http_status=409,
+                reason="submissions disabled",
+            )
+            self.assertEqual(event["type"], "submission_rejected")
+            self.assertEqual(event["payload"]["http_status"], 409)
+            self.assertEqual(event["payload"]["candidate_sha256"], candidate_hash)
+
+    def test_record_rejection_refuses_unverified_candidate(self):
+        with tempfile.TemporaryDirectory() as raw:
+            state = Path(raw)
+            candidate_path = state / "candidate.json"
+            candidate_path.write_text(json.dumps({"vectors": [[1, 0]]}))
+            with self.assertRaises(CampaignError):
+                record_rejection(
+                    state,
+                    "test-problem",
+                    candidate_path,
+                    http_status=409,
+                    reason="submissions disabled",
+                )
 
 
 if __name__ == "__main__":

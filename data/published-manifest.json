@@ -1,6 +1,11 @@
 {
   "files": [
     {
+      "bytes": 936,
+      "path": "artifacts/evidence/kissing-number-d12.json",
+      "sha256": "114e9f053800d24c1222e3a02f5347f547ca855e89dd6d4aa0101a8f3b33b023"
+    },
+    {
       "bytes": 2390,
       "path": "artifacts/frontier/circle-packing.json",
       "sha256": "6d3b5fc5c1bec58361b1ae2bdacbd2bbc312e71f3051f02e09df117938a05302"
@@ -46,9 +51,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 23445,
+      "bytes": 25606,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "990cbdcab70c559adaf4b90908f7aa237355e5c2f4a6163367bb9de10a0395e0"
+      "sha256": "58d106cc7d4154fbd2affce9bc5e04fd0aa7dbd33172c5fd0f5d7e33b63eb058"
     },
     {
       "bytes": 740,
@@ -106,9 +111,9 @@
       "sha256": "57e6ab49a05acce8718b57ec04b8ab4f40f9677bf9636682dd855f29a55cf3bc"
     },
     {
-      "bytes": 1560,
+      "bytes": 2019,
       "path": "src/campaign/README.md",
-      "sha256": "be770a7d34d2053e645b4a3869fea934383798dc60e7a9711b4eb2cbde472913"
+      "sha256": "44f86285de91713d3069575ea8d7c085eeb247edadee1d24ec46a546367a55fa"
     },
     {
       "bytes": 3004,
@@ -211,9 +216,9 @@
       "sha256": "4451c2b620b96a2f452e657a79464b4221c7539536fc32e806d8b207d8b53189"
     },
     {
-      "bytes": 24807,
+      "bytes": 28903,
       "path": "src/campaign/arena_campaign.py",
-      "sha256": "68206acab6a40956c78631eb2af0ae85d19e4f351d5c93d28bc8a88558801688"
+      "sha256": "3fb727050b4dcca89fe07ec3064d0cddcb33a1b735d689ef22f867e29ae3191c"
     },
     {
       "bytes": 667,
@@ -266,9 +271,14 @@
       "sha256": "1efe5d31cf2fa9cc21d4ba324fed54e3049ce5982b53493b39f47eca64b5a00f"
     },
     {
-      "bytes": 3686,
+      "bytes": 5252,
       "path": "src/campaign/c3_root/README.md",
-      "sha256": "af1d7f5e13e325d664ca408bc4f51e84fcb587027d88e8a6a6a9c10046728d5b"
+      "sha256": "ecc0cac81efeab4066611923857244b561b7572842d62097fb1733bc77d89300"
+    },
+    {
+      "bytes": 16166,
+      "path": "src/campaign/c3_root/active_bundle_epigraph.py",
+      "sha256": "f898ed5dc9aae9096207a3e77898f4817a6b1d7214908f3bcbcfb8f085c10a82"
     },
     {
       "bytes": 5921,
@@ -631,6 +641,46 @@
       "sha256": "668f5980875bb52d95f4689db07f0254ebe95695e30b159594037181e8210f22"
     },
     {
+      "bytes": 1590,
+      "path": "src/campaign/geometry/kissing_d12/ATTRIBUTION.md",
+      "sha256": "a22e09f6c1ac4a4890d647dcc56c8791a6b435ffd9400e8fe0af5762dfda024e"
+    },
+    {
+      "bytes": 2282,
+      "path": "src/campaign/geometry/kissing_d12/HANDOFF.md",
+      "sha256": "81f92974ea077650ef90430fcb229493539256e8428bddecc0d365e3af6811d1"
+    },
+    {
+      "bytes": 3627,
+      "path": "src/campaign/geometry/kissing_d12/README.md",
+      "sha256": "9c1a5109e2e946bd366035a3ae72f4bea07d711df1f4c298564868737d4e7985"
+    },
+    {
+      "bytes": 8832,
+      "path": "src/campaign/geometry/kissing_d12/audit_corpus.py",
+      "sha256": "759bee7c1adf0fc7167c4a4055cf28b7c1916fd7a579f6442a49f16c5bba109e"
+    },
+    {
+      "bytes": 1784,
+      "path": "src/campaign/geometry/kissing_d12/discussion_thread_198.md",
+      "sha256": "d1d1668fcfef170982534b28c2fa0c8e4b7fd4b62d74eedf33c4e2242f247f52"
+    },
+    {
+      "bytes": 3320,
+      "path": "src/campaign/geometry/kissing_d12/freeze_receipt.py",
+      "sha256": "174d98d7492638da16a7e648076b9c3586e5a0936f9cb593b48141c977ca9084"
+    },
+    {
+      "bytes": 3534,
+      "path": "src/campaign/geometry/kissing_d12/post_thread_198.py",
+      "sha256": "8114a20684a86a18717ab0a0f233f890383ed48069c25ab428bc9c15012fc207"
+    },
+    {
+      "bytes": 8737,
+      "path": "src/campaign/geometry/kissing_d12/reproduce.py",
+      "sha256": "6e1f86e559e1954f7bfab5a7fe58ffdf924fbbc862e6f3f6a214e90407b86ecf"
+    },
+    {
       "bytes": 2630,
       "path": "src/campaign/geometry/live_inventory.py",
       "sha256": "0d25024b42a2f3be06c7e189190a89bdf8adfbcd5294dff71fdd659e945977b9"
@@ -721,9 +771,9 @@
       "sha256": "6483e10024f7aad2476463861a53e65910cfb5f0d361545781542cb034c378bd"
     },
     {
-      "bytes": 2906,
+      "bytes": 4788,
       "path": "src/campaign/tests/test_campaign.py",
-      "sha256": "c26a1bf5c0f6ad0c616ebea2f6a0e5bdd424031d3f75cb505d75ec6aa41d04a2"
+      "sha256": "2728e971721a3c4f33a0b4622e2856a925ef4a48a60b465bee963360587a386a"
     },
     {
       "bytes": 1286,
