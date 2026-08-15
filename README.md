@@ -50,7 +50,7 @@ mathematical problem. Different problem, different program.
 <p align="center">
   <img
     alt="CodexProLong research loop: EinsteinArena problems flow through Exa Search and Paperclip into Codex, which builds an executable model inside append-only memory, verifies it with a frozen evaluator, and returns a verified result"
-    src="assets/codexprolong-system-loop.png"
+    src="assets/codexprolong-system-loop.jpg"
     width="100%">
 </p>
 
