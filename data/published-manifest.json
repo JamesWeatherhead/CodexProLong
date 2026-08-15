@@ -51,9 +51,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 25606,
+      "bytes": 26039,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "58d106cc7d4154fbd2affce9bc5e04fd0aa7dbd33172c5fd0f5d7e33b63eb058"
+      "sha256": "53e8900007753fbaf1ea0a63089b3b3cbc75fa98905274f66ea8b1256e8e36b4"
     },
     {
       "bytes": 740,
@@ -106,9 +106,9 @@
       "sha256": "2a3cc250e82b29a27563c8d0dc1bc116678d54219f6af66473c8f3e156f4e0f8"
     },
     {
-      "bytes": 6756,
+      "bytes": 7909,
       "path": "src/campaign/HANDOFF.md",
-      "sha256": "57e6ab49a05acce8718b57ec04b8ab4f40f9677bf9636682dd855f29a55cf3bc"
+      "sha256": "3c1fe5971d833b7f1d8f50fdfdf9a71f4a9938110e2567149674edfb83f91013"
     },
     {
       "bytes": 2019,
@@ -646,14 +646,14 @@
       "sha256": "a22e09f6c1ac4a4890d647dcc56c8791a6b435ffd9400e8fe0af5762dfda024e"
     },
     {
-      "bytes": 2282,
+      "bytes": 2738,
       "path": "src/campaign/geometry/kissing_d12/HANDOFF.md",
-      "sha256": "81f92974ea077650ef90430fcb229493539256e8428bddecc0d365e3af6811d1"
+      "sha256": "6e7a6efc7adebd1787df8e12a61ea50b621dd930152c16d88f58c441c7806811"
     },
     {
-      "bytes": 3627,
+      "bytes": 3781,
       "path": "src/campaign/geometry/kissing_d12/README.md",
-      "sha256": "9c1a5109e2e946bd366035a3ae72f4bea07d711df1f4c298564868737d4e7985"
+      "sha256": "b99d846aeeb6574a66a956077d0d132f5a5d6470c822893189a0e7509e926c89"
     },
     {
       "bytes": 8832,

@@ -46,3 +46,11 @@ created and the request must not be retried until the site state changes.  The
 administrative blocker is tracked publicly in
 [vinid/einstein-arena#59](https://github.com/vinid/einstein-arena/issues/59).
 No discussion reply or vote was posted by this worker.
+
+The parent later posted the literature/proof update to thread 198 as reply
+`1081` at `2026-08-15T02:01:05.059Z`; moderation status was `pending` in the
+write response.  Its exact body SHA-256 is
+`f6ad67c3d5d8302e40f1819c1e5b2d02cfc9dc83b00a56d9050cd8fe0e6725a7`.
+The private write receipt is `receipts/thread_198.json`; campaign event 51
+records only the public identifiers and body hash.  Do not poll it before the
+normal moderation window or repost it.

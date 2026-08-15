@@ -5,6 +5,8 @@ published 841-point configuration.  It did not search for or claim an
 independent discovery.  A single controller submission attempt was rejected
 with HTTP 409 because submissions are disabled; no leaderboard entry exists.
 See [vinid/einstein-arena#59](https://github.com/vinid/einstein-arena/issues/59).
+The structural update was also posted once to Arena thread 198 as reply 1081;
+it was pending moderation in the write response and must not be duplicated.
 
 ## Frozen result
 

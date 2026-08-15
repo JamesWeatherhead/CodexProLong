@@ -1,6 +1,6 @@
 # EinsteinArena campaign handoff
 
-Updated: 2026-08-15T00:57Z
+Updated: 2026-08-15T02:01Z
 
 ## Objective
 
@@ -10,12 +10,13 @@ persistent filesystem memory, and problem-specific solver programs.
 
 ## Controller state
 
-- Live snapshot: `state/latest.json`, generated 2026-08-15T00:05:47Z.
+- Live snapshot: `state/latest.json`, generated 2026-08-15T01:34:31Z.
 - Frontier: 19 listed problems; `CodexProLong` is rank 1 on 5/19 at snapshot.
 - Verifier sandbox image: `einsteinarena-verifier:2026-08-14`, arm64 image ID
   `sha256:3fd6a7bc24c5da2c6d42ab6827dd4814f09e8b542b22e3d422b2154a6a6c38bd`.
-- Campaign tests: 5 passing.
-- Canonical event log: `state/events.jsonl` (sequence-checked SHA-256 chain).
+- Campaign tests: 7 passing.
+- Canonical event log: `state/events.jsonl` (sequence-checked SHA-256 chain),
+  through event 51 (`discussion_reply`).
 - Exhaustive public research corpus: `research_corpus/latest.json`; 19 problems,
   593/593 exposed constructions, 248 approved threads, 1,021 replies, 126
   derived agent records, 3,310 API responses, 258 rendered pages, and 20 linked
@@ -47,34 +48,49 @@ persistent filesystem memory, and problem-specific solver programs.
   payload: `analytic/payloads/uncertainty-k25-frozen-20260814T234458Z.json`;
   artifact SHA-256 `7ea01221e565d2017d8dbf1e63951e14434c4a83705b3790b045343d7c87e905`.
   The reproducible result was posted to thread #105 as reply #1078.
+- Kissing d12/841 now has a domain-valid exact score-0 construction from the
+  Takhanov--Assylbekov--Yun published coordinates. Candidate SHA-256 is
+  `236d3931724d28cf306ecbda064c1ffb84e8a106e363227f00e6d5b147eb4749`;
+  verifier SHA-256 is `eb043620439a6631451657013a12c66e55db43589431bcdad08e3b2189246ca8`;
+  all 353,220 pairs pass with Decimal squared-distance margin
+  `1.2449713530886666648293011033664e-7`. The one validated submit attempt
+  returned HTTP 409, "Submissions are disabled for this problem," so no rank
+  exists. The blocker is [vinid/einstein-arena#59](https://github.com/vinid/einstein-arena/issues/59).
+  A source-pinned structural update was posted to thread #198 as reply #1081;
+  it was pending moderation in the write response and must not be reposted.
 
 ## Active workstreams
 
-- `geometry/`: circle/rectangle/Thomson/min-distance/Heilbronn local and
-  bounded topology audits are closed; a discrete Heilbronn active-topology
-  branch-and-bound lane is running.
-- `analytic/`: uncertainty k=25 is evaluated as #2505; independent replay and
-  the result discussion are complete. The independent C3 lane is frozen with
-  a quantified negative frontier, and a changed-support C2 lane is running.
+- `geometry/`: q=25 Heilbronn is completely certified and q=30/q=143 have
+  bounded partial certificates. A fresh square-circle lane is now testing only
+  changed contact graphs because same-topology verifier precision is closed.
+- `analytic/`: uncertainty k=25 is evaluated as #2505. The n=3,584 Erdős
+  active-set SLP has exact score `0.3808586421686005`, improving the public
+  leader by `3.5047e-8` but remaining `6.4953e-8` short of the strict gate;
+  continuation is checkpointed under `analytic/erdos_global/slp_runs/`.
 - `c3_root/`: repeated exact-accepted high-beta FFT smooth-max continuation is
   at `1.4515655298503767` with 102,400 values, a `6.3340398302e-6` gain;
   another `3.6659601699e-6` is required to clear the strict gate. The current
   checkpoint is `runs-102400/20260815T011534Z/best.npy`. A
-  signed-square update was posted to thread #181 as reply #1077. Independent
-  51,200-point continuations, an exact 102,400-point repeat release, near-zero
-  sign-topology births, and factor-three zero-mean block splitting are running;
-  `turbo_supervisor.py` persists exact-accepted cycles across contexts.
+  signed-square update was posted to thread #181 as reply #1077. A pivoted
+  68-mode all-lag epigraph model closed after 4,666 cuts but gained only
+  `8.9195e-10`, leaving `3.6651e-6`; a new lane is testing genuinely
+  support/topology-changing multiresolution escapes without repeating the
+  logged noisy, pair-split, or local-bundle routes.
 - The secret-scrubbed public campaign mirror is
   `https://github.com/JamesWeatherhead/CodexProLong`; its local checkout is
   `/Users/jacweath/CodexProLong`. It records four domain-valid first places,
   the separately labeled Tammes verifier disclosure, all 19 live lanes, owned
-  solver source, payloads, receipts, and a public decision log.
-- `discrete/`: PNT restricted cutting-plane masters are exact-grid feasible up
-  to score `0.9976493192235172` (`4.3571e-7` gain), below the `1e-6` gate;
-  support pricing continues. The unrestricted 2,000-variable master did not
-  reach feasibility.
-- `c2_root/`: live C2 leader frozen and audited with Apple-Metal projected
-  minimax, run-shift, support-growth, and exact float64 replay tools.
+  solver source, payloads, receipts, and a public decision log. Commit
+  `aeb53ae` is authored as Codex and committed by James Weatherhead; the README
+  explicitly credits both roles and links the Daybreak and Paperclip pages.
+- `discrete/`: PNT exact cutting planes and 600 stratified support-exchange
+  topologies are complete. Best full-stream feasible score is
+  `0.9976493205324761`; the preserved group payload replays at
+  `0.9976492989838522`, both below the `1e-6` gate.
+- `c2_root/`: all logged support births, shifts, multiresolution tangents, and
+  depth-20 propagation are frozen; best public gain is only `6.6881e-9`, far
+  below the `1e-5` gate.
 
 ## Compacted negative results
 
@@ -83,9 +99,8 @@ persistent filesystem memory, and problem-specific solver programs.
   subset. See `discrete/checkpoints/reproduction.json`.
 - Difference bases: all 156,165 relevant one-swaps, 360 deletes, and 435
   one-add frontier candidates failed. Same reproduction receipt.
-- Erdős minimum overlap leader #2440 is first-order stationary under a dense
-  active-lag LP; repeat upsampling ties exactly and pair-splitting directions
-  worsen at second order. A topology change is required.
+- Erdős n=1,024 local/rebin/phase/swap routes are closed, but the changed-grid
+  n=3,584 active-set branch is still improving and is the active exception.
 - Edges-vs-triangles leader rows already lie on the exact multipartite curve;
   the best curve-mesh topology transfer gains only `7.6055e-9`, far below the
   `1e-6` gate, and has a positive-definite local certificate.
@@ -93,9 +108,10 @@ persistent filesystem memory, and problem-specific solver programs.
   run shifts, 336 partial run-shift line searches, and iterative targeted
   support opening failed to approach the `1e-5` gate. Best exact support gain:
   `2.3598e-9`; see `c2_root/runs/*-support`.
-- Strict-domain square/rectangle packing candidates sit about `1e-8` below
-  their tolerance-inflated leaders; high-precision active systems close the
-  current topologies. Thomson tangent polish also produced no decrease.
+- Literal-tolerance square/rectangle active roots remain only `7.92e-11` and
+  `8.01e-11` below their gates; full-rank KKT systems close those incumbent
+  topologies. Only new contact graphs can win. Thomson tangent polish also
+  produced no meaningful decrease.
 - The 8-point min-distance ratio leader has a full-rank 100-digit active root;
   280 release/promote topology trials did not clear its `1e-7` gate.
 - The 11-point Heilbronn leader has a full-rank 100-digit active root with
