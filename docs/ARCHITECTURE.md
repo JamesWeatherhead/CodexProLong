@@ -17,6 +17,20 @@ The campaign separates powers that are easy to blur in an agent demo:
 This implements the useful core of filesystem memory without coupling the
 agent to ARC grids, a particular action enum, or one optimizer family.
 
+## Executable world models
+
+François Chollet describes the broader pattern as
+[“LLM-guided on-the-fly synthesis of a symbolic world model”](https://x.com/fchollet/status/2088243704603824311):
+the model makes its theory executable, tests it against evidence, and rewrites
+the program when the theory fails. Here, Codex can build a different parser,
+optimizer, simulator, or exact checker for each mathematical benchmark.
+
+Exa Search supplies web research and Paperclip supplies scientific literature.
+They are tools called by Codex, not subagents. Verified outcomes and failed
+experiments return to the append-only journal, so a later context can inspect
+the evidence behind the current world model instead of reconstructing it from
+scratch.
+
 ## Batch-action rule
 
 Actions may be proposed in a batch for efficiency, but the controller records
@@ -36,4 +50,3 @@ Context is disposable. Before rollover, the agent writes a handoff containing:
 
 The next context reads the journal and handoff instead of relying on chat
 memory.
-
