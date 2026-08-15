@@ -1,6 +1,16 @@
 {
   "files": [
     {
+      "bytes": 31785,
+      "path": "artifacts/evidence/geometry-literature-asset-replays.json",
+      "sha256": "aa67d79befa346c2d3178a0d113b92d432f9181e20340ac9a3483c9db71b433a"
+    },
+    {
+      "bytes": 8334,
+      "path": "artifacts/evidence/geometry-literature-asset-sources.json",
+      "sha256": "3017ecf92621662b682356a4b0fff6bc314e7a05cbeb5be3278889eb9bb1fc10"
+    },
+    {
       "bytes": 936,
       "path": "artifacts/evidence/kissing-number-d12.json",
       "sha256": "114e9f053800d24c1222e3a02f5347f547ca855e89dd6d4aa0101a8f3b33b023"
@@ -964,6 +974,16 @@
       "bytes": 1221,
       "path": "src/campaign/geometry/verify_payload.py",
       "sha256": "62fe0a7560bb3d7be5b928486ee6dbde45d1ac196e91fe91c45a43c80567a3cf"
+    },
+    {
+      "bytes": 7611,
+      "path": "src/campaign/literature_asset_hunt/HANDOFF.md",
+      "sha256": "0b88030657f64227c55d8a84d9757ae07556bbfcefd0551179f00585d1aa1816"
+    },
+    {
+      "bytes": 18269,
+      "path": "src/campaign/literature_asset_hunt/asset_replay.py",
+      "sha256": "5a5b8b941a40a8a788d9a95eb077063bf4bb835c478ba4d33783124b49848ddb"
     },
     {
       "bytes": 2244,

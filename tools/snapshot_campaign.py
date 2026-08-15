@@ -80,6 +80,10 @@ EVIDENCE_ARTIFACTS = {
         "reach_extend_127849_exact_audit.json"
     ),
 }
+SANITIZED_EVIDENCE_ARTIFACTS = {
+    "geometry-literature-asset-replays": "literature_asset_hunt/receipt.json",
+    "geometry-literature-asset-sources": "literature_asset_hunt/sources.json",
+}
 FRONTIER_RECEIPTS = {
     "edges-vs-triangles": "state/receipts/edges-vs-triangles/20260815T024004430186Z-c71bc6912f5a.json",
     "third-autocorrelation-inequality": "c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/receipt.json",
@@ -138,6 +142,7 @@ SOURCE_FAMILIES = (
     "discrete",
     "erdos_root",
     "geometry",
+    "literature_asset_hunt",
     "research_corpus",
 )
 EXCLUDED_PARTS = {
@@ -147,6 +152,8 @@ EXCLUDED_PARTS = {
     "receipts",
     "checkpoints",
     "vendor",
+    "cache",
+    "payloads",
     # Active lanes are published only after their own frozen handoffs.
     "difference_global",
     "__pycache__",
@@ -322,6 +329,17 @@ def portable_campaign_path(value: str, source: Path) -> str:
         return path.name
 
 
+def portable_json(value: Any, source: Path) -> Any:
+    """Recursively remove host-specific prefixes from public JSON evidence."""
+    if isinstance(value, dict):
+        return {key: portable_json(item, source) for key, item in value.items()}
+    if isinstance(value, list):
+        return [portable_json(item, source) for item in value]
+    if isinstance(value, str) and Path(value).is_absolute():
+        return portable_campaign_path(value, source)
+    return value
+
+
 def frontier_artifact_destination(slug: str, source: Path) -> Path:
     """Return the public artifact path without losing its source suffix."""
     artifact_source = source / FRONTIER_ARTIFACTS[slug]
@@ -384,6 +402,16 @@ def main() -> int:
         src = source / relative_text
         dst = REPO / "artifacts" / "evidence" / f"{name}{src.suffix}"
         copy_file(src, dst)
+        manifest.append({
+            "path": str(dst.relative_to(REPO)),
+            "sha256": sha256(dst),
+            "bytes": dst.stat().st_size,
+        })
+    for name, relative_text in SANITIZED_EVIDENCE_ARTIFACTS.items():
+        src = source / relative_text
+        dst = REPO / "artifacts" / "evidence" / f"{name}.json"
+        evidence = json.loads(src.read_text(encoding="utf-8"))
+        write_json(dst, portable_json(evidence, source))
         manifest.append({
             "path": str(dst.relative_to(REPO)),
             "sha256": sha256(dst),

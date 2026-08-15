@@ -1,0 +1,696 @@
+{
+  "corpus_sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb",
+  "corpus_snapshot": "campaign/research_corpus/snapshots/20260815T003306Z/corpus.sqlite3",
+  "created_at_utc": "2026-08-15T03:58:49.807701+00:00",
+  "gate_clearers": [],
+  "manifest_path": "campaign/literature_asset_hunt/sources.json",
+  "manifest_sha256": "8f9e0d4362f25d3ce2ee62ae114eaf27e897b2492ce5396829fd6e051da7c92d",
+  "network_policy": "HTTPS GET only; redirect destination host revalidated; no remote code execution",
+  "numpy": "2.5.2",
+  "platform": "macOS-26.5.1-arm64-arm-64bit",
+  "python": "3.12.13 (main, Jun 23 2026, 15:44:24) [Clang 22.1.3 ]",
+  "schema_version": 1,
+  "sources": [
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "minimum_pair_slack": -4.779881490613036e-10,
+            "minimum_wall_slack": -2.2339319283304349e-10,
+            "radius_sum": 2.6359830891072584,
+            "shape": [
+              26,
+              3
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": null,
+          "leader": 2.635983095260844,
+          "leader_delta": null,
+          "name": "centers_radii",
+          "payload_path": "campaign/literature_asset_hunt/payloads/auto-discovery-circle-n26__centers_radii__41a36c260597.json",
+          "payload_sha256": "41a36c260597f433069321e2205f4c4f5b018dd299c51c77d7b4ab455ad55283",
+          "score": "-Infinity",
+          "strict_gate_clear": false,
+          "target": 2.635983095360844,
+          "verifier_path": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+          "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/6e3223ac84faec0880b1.py",
+        "final_url": "https://raw.githubusercontent.com/XinmingTu/auto-discovery/ac5aa7710efac26a56f1a36b917076719614bbf7/tasks/math/circle_packing/solve.py",
+        "from_cache": false,
+        "sha256": "54e13454f0c559a07fe36a0c2a321c42536ec6aeb22790ef559814db157a70e6",
+        "size": 2569
+      },
+      "id": "auto-discovery-circle-n26",
+      "parser": "python_centers_radii",
+      "purpose": "Current auto-discovery deterministic n=26 result; arrays extracted by AST only",
+      "slug": "circle-packing",
+      "url": "https://raw.githubusercontent.com/XinmingTu/auto-discovery/ac5aa7710efac26a56f1a36b917076719614bbf7/tasks/math/circle_packing/solve.py"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "minimum_pair_slack": -9.999999999871223e-07,
+            "radius_sum": 2.3658416929946444,
+            "shape": [
+              21,
+              3
+            ],
+            "width_plus_height": 2.000001
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": null,
+          "leader": 2.365832385207997,
+          "leader_delta": null,
+          "name": "PACKING",
+          "payload_path": "campaign/literature_asset_hunt/payloads/auto-discovery-rectangle-n21__PACKING__188523a00c66.json",
+          "payload_sha256": "188523a00c66c68bf8e5a63b45cd1a0eef5ab692ed179ad6be564d8586cff4d6",
+          "score": "-Infinity",
+          "strict_gate_clear": false,
+          "target": 2.365832385307997,
+          "verifier_path": "campaign/state/problems/circles-rectangle/c36cb4b5239e992b953f3839506562e15d21097830adc8881184c5a597866df9.py",
+          "verifier_sha256": "c36cb4b5239e992b953f3839506562e15d21097830adc8881184c5a597866df9"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/5a5699f9eeddd077e826.py",
+        "final_url": "https://raw.githubusercontent.com/XinmingTu/auto-discovery/ac5aa7710efac26a56f1a36b917076719614bbf7/tasks/math/circle_packing_rect/solve.py",
+        "from_cache": false,
+        "sha256": "9aa7fb142a5d27a4337e7fac5ecf4f933c17b817bca7aff307c79a6ac01563bd",
+        "size": 1944
+      },
+      "id": "auto-discovery-rectangle-n21",
+      "parser": "python_literal_array",
+      "purpose": "Current auto-discovery deterministic n=21 result; array extracted by AST only",
+      "slug": "circles-rectangle",
+      "url": "https://raw.githubusercontent.com/XinmingTu/auto-discovery/ac5aa7710efac26a56f1a36b917076719614bbf7/tasks/math/circle_packing_rect/solve.py"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "finite": true,
+            "shape": [
+              11,
+              2
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": -9.999999994736442e-10,
+          "leader": 0.036529889880030156,
+          "leader_delta": 0.0,
+          "name": "_POINTS",
+          "payload_path": "campaign/literature_asset_hunt/payloads/auto-discovery-heilbronn-n11__POINTS__4c26aab03627.json",
+          "payload_sha256": "4c26aab03627111e1d5751246434d97b2b8c02ce25c9a97aebf4b8d0fa2e42de",
+          "score": 0.036529889880030156,
+          "strict_gate_clear": false,
+          "target": 0.036529890880030155,
+          "verifier_path": "campaign/state/problems/heilbronn-triangles/6afecf9539c4e9038cd6188e4e77efec00c9905b688728ad58f69dbfedc2441d.py",
+          "verifier_sha256": "6afecf9539c4e9038cd6188e4e77efec00c9905b688728ad58f69dbfedc2441d"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/77a87ceed66f172c5ea3.py",
+        "final_url": "https://raw.githubusercontent.com/XinmingTu/auto-discovery/ac5aa7710efac26a56f1a36b917076719614bbf7/tasks/math/heilbronn_triangle/solve.py",
+        "from_cache": false,
+        "sha256": "3af4d0147e0e9bf55624a013a69fef346af925424a62883f6a6f5f00b5206504",
+        "size": 835
+      },
+      "id": "auto-discovery-heilbronn-n11",
+      "parser": "python_literal_array",
+      "purpose": "Current auto-discovery deterministic n=11 result; array extracted by AST only",
+      "slug": "heilbronn-triangles",
+      "url": "https://raw.githubusercontent.com/XinmingTu/auto-discovery/ac5aa7710efac26a56f1a36b917076719614bbf7/tasks/math/heilbronn_triangle/solve.py"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "finite": true,
+            "shape": [
+              16,
+              2
+            ]
+          },
+          "direction": "min",
+          "error": null,
+          "gate_margin": -9.997654082383178e-08,
+          "leader": 12.8892299077175,
+          "leader_delta": 2.3458568421119708e-11,
+          "name": "POINTS",
+          "payload_path": "campaign/literature_asset_hunt/payloads/auto-discovery-maxmin-n16__POINTS__23db3779defe.json",
+          "payload_sha256": "23db3779defe885bbf6cbcb18a067381f90be2c252d36211c439080787f78cc9",
+          "score": 12.889229907694041,
+          "strict_gate_clear": false,
+          "target": 12.8892298077175,
+          "verifier_path": "campaign/state/problems/min-distance-ratio-2d/2971cbb9e16752afe8d1d8067e6358d924b117ebeac0db41434ab19bfc8436ad.py",
+          "verifier_sha256": "2971cbb9e16752afe8d1d8067e6358d924b117ebeac0db41434ab19bfc8436ad"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/819321849ee6f38bbd84.py",
+        "final_url": "https://raw.githubusercontent.com/XinmingTu/auto-discovery/ac5aa7710efac26a56f1a36b917076719614bbf7/tasks/math/minimizing_max_min_dist/2/solve.py",
+        "from_cache": false,
+        "sha256": "370d8dd941a12901b6231fed069410adbecc04e552472841867bcf3f288a9ea0",
+        "size": 1308
+      },
+      "id": "auto-discovery-maxmin-n16",
+      "parser": "python_literal_array",
+      "purpose": "Current auto-discovery deterministic n=16 result; array extracted by AST only",
+      "slug": "min-distance-ratio-2d",
+      "url": "https://raw.githubusercontent.com/XinmingTu/auto-discovery/ac5aa7710efac26a56f1a36b917076719614bbf7/tasks/math/minimizing_max_min_dist/2/solve.py"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "minimum_pair_slack": -9.800000810855636e-10,
+            "minimum_wall_slack": -7.380191596739749e-10,
+            "radius_sum": 2.6359830951068446,
+            "shape": [
+              26,
+              3
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": null,
+          "leader": 2.635983095260844,
+          "leader_delta": null,
+          "name": "cirRsqu_n26",
+          "payload_path": "campaign/literature_asset_hunt/payloads/hyra-cirRsqu-n26__cirRsqu_n26__e63acfdb2b44.json",
+          "payload_sha256": "e63acfdb2b440d240d93571bebcd2192389ef1af8964c6993ec1c430f6271877",
+          "score": "-Infinity",
+          "strict_gate_clear": false,
+          "target": 2.635983095360844,
+          "verifier_path": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+          "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/63e2b14ececce8d71c45.json",
+        "final_url": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hyra-results/26ebfbe7d491e6521d8bb5fc21fe88bb31460825/AI4Science/packing_records/records/cirRsqu_n26.json",
+        "from_cache": false,
+        "sha256": "c16d2472e9516005195cef7f1f0ed4e7c2e709544bcba5dfcbe52bc3d26ff50e",
+        "size": 2930
+      },
+      "id": "hyra-cirRsqu-n26",
+      "parser": "hyra_centered_circles",
+      "purpose": "Full-precision July 2026 Hyra packing credited by Friedman's Packing Center",
+      "slug": "circle-packing",
+      "url": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hyra-results/26ebfbe7d491e6521d8bb5fc21fe88bb31460825/AI4Science/packing_records/records/cirRsqu_n26.json"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "minimum_pair_slack": -9.993950111919503e-13,
+            "minimum_wall_slack": 0.0,
+            "radius_sum": 2.6359830849210715,
+            "shape": [
+              26,
+              3
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": -1.043977260195561e-08,
+          "leader": 2.635983095260844,
+          "leader_delta": -1.0339772593681573e-08,
+          "name": "best",
+          "payload_path": "campaign/literature_asset_hunt/payloads/simpletes-circle-n26__best__85f4931406cb.json",
+          "payload_sha256": "85f4931406cb1932f528211059b30ecafb33f3be0efca82c23444f7242530001",
+          "score": 2.6359830849210715,
+          "strict_gate_clear": false,
+          "target": 2.635983095360844,
+          "verifier_path": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+          "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/47a9b8a508e0cbca5c0f.json",
+        "final_url": "https://raw.githubusercontent.com/wq-will/SimpleTES/a19a54b109db6185ab1f13dd59dd150074b24136/best_results/mathematics_discovery/circle_packing_in_a_unit_square_n26/circle_packing_in_a_unit_square_n26_best_construction.json",
+        "from_cache": false,
+        "sha256": "129cad3a4a815b9c3dbd1b4b0742916108953a3fa673f8d49994d8f3677ed927",
+        "size": 1644
+      },
+      "id": "simpletes-circle-n26",
+      "parser": "simpletes_ndarray",
+      "purpose": "Exact SimpleTES result artifact",
+      "slug": "circle-packing",
+      "url": "https://raw.githubusercontent.com/wq-will/SimpleTES/a19a54b109db6185ab1f13dd59dd150074b24136/best_results/mathematics_discovery/circle_packing_in_a_unit_square_n26/circle_packing_in_a_unit_square_n26_best_construction.json"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "minimum_pair_slack": 7.166487278609246e-09,
+            "minimum_wall_slack": 7.852350991655044e-09,
+            "radius_sum": 2.6358627564136983,
+            "shape": [
+              26,
+              3
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": -0.00012033894714580384,
+          "leader": 2.635983095260844,
+          "leader_delta": -0.00012033884714579557,
+          "name": "AlphaEvolve",
+          "payload_path": "campaign/literature_asset_hunt/payloads/thetaevolve-circle-bundle__AlphaEvolve__e9d5ea3940b5.json",
+          "payload_sha256": "e9d5ea3940b5ba10f29022ae479bb0d5fd98042b886166572b26f30a10063e58",
+          "score": 2.6358627564136983,
+          "strict_gate_clear": false,
+          "target": 2.635983095360844,
+          "verifier_path": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+          "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+        },
+        {
+          "diagnostics": {
+            "minimum_pair_slack": -2.7755575615628914e-17,
+            "minimum_wall_slack": 0.0,
+            "radius_sum": 0.9597642169962064,
+            "shape": [
+              26,
+              3
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": -1.6762188783646377,
+          "leader": 2.635983095260844,
+          "leader_delta": -1.6762188782646377,
+          "name": "Init",
+          "payload_path": "campaign/literature_asset_hunt/payloads/thetaevolve-circle-bundle__Init__f9b98f41e44b.json",
+          "payload_sha256": "f9b98f41e44b60a27dd0abda18b1012180a1763a3657762b8c303bb0653799b8",
+          "score": 0.9597642169962064,
+          "strict_gate_clear": false,
+          "target": 2.635983095360844,
+          "verifier_path": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+          "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+        },
+        {
+          "diagnostics": {
+            "minimum_pair_slack": -3.0945514371827354e-07,
+            "minimum_wall_slack": -1.2935486015663855e-12,
+            "radius_sum": 2.6359856612408987,
+            "shape": [
+              26,
+              3
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": null,
+          "leader": 2.635983095260844,
+          "leader_delta": null,
+          "name": "8B-w_RL@65",
+          "payload_path": "campaign/literature_asset_hunt/payloads/thetaevolve-circle-bundle__8B-w_RL_65__a8fb84425658.json",
+          "payload_sha256": "a8fb844256586b93ce35d4431759c9415bd62d6ac77f58ce51430ee0a9507f77",
+          "score": "-Infinity",
+          "strict_gate_clear": false,
+          "target": 2.635983095360844,
+          "verifier_path": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+          "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+        },
+        {
+          "diagnostics": {
+            "minimum_pair_slack": 9.999778782798785e-13,
+            "minimum_wall_slack": 3.1012260814922143e-10,
+            "radius_sum": 2.635983077388119,
+            "shape": [
+              26,
+              3
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": -1.7972725085968477e-08,
+          "leader": 2.635983095260844,
+          "leader_delta": -1.787272507769444e-08,
+          "name": "8B-w_RL@65-Formal",
+          "payload_path": "campaign/literature_asset_hunt/payloads/thetaevolve-circle-bundle__8B-w_RL_65-Formal__53a95b216a78.json",
+          "payload_sha256": "53a95b216a783e9ff89db479e7de2284630662dc29e4e76bcae1346c9ce6d3a8",
+          "score": 2.635983077388119,
+          "strict_gate_clear": false,
+          "target": 2.635983095360844,
+          "verifier_path": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+          "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+        },
+        {
+          "diagnostics": {
+            "minimum_pair_slack": 1.8910334007027352e-08,
+            "minimum_wall_slack": 9.997881106338369e-09,
+            "radius_sum": 2.6359828266458067,
+            "shape": [
+              26,
+              3
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": -2.6871503733261193e-07,
+          "leader": 2.635983095260844,
+          "leader_delta": -2.686150373243379e-07,
+          "name": "ShinkaEvolve",
+          "payload_path": "campaign/literature_asset_hunt/payloads/thetaevolve-circle-bundle__ShinkaEvolve__a6edaa14fcbc.json",
+          "payload_sha256": "a6edaa14fcbc95de4f080fa7ccde407165cfec370ac5ed431b97dcac253aa920",
+          "score": 2.6359828266458067,
+          "strict_gate_clear": false,
+          "target": 2.635983095360844,
+          "verifier_path": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+          "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/d7b6797f76c2b8fde7eb.json",
+        "final_url": "https://raw.githubusercontent.com/ypwang61/ThetaEvolve/7c12898f5d7627af403e3aca643af76199fb5c20/Results/CirclePacking/data.json",
+        "from_cache": false,
+        "sha256": "c20023f5a4d3e1408a7ec29ee043dea3c2b8d9711dd21c806008b5a48646e7b8",
+        "size": 14296
+      },
+      "id": "thetaevolve-circle-bundle",
+      "parser": "theta_circle_bundle",
+      "purpose": "Five named public n=26 constructions",
+      "slug": "circle-packing",
+      "url": "https://raw.githubusercontent.com/ypwang61/ThetaEvolve/7c12898f5d7627af403e3aca643af76199fb5c20/Results/CirclePacking/data.json"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "minimum_pair_slack": -1.000000000001e-06,
+            "minimum_wall_slack": -9.999976640778785e-07,
+            "radius_sum": 2.635998720859883,
+            "shape": [
+              26,
+              3
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": null,
+          "leader": 2.635983095260844,
+          "leader_delta": null,
+          "name": "line_0",
+          "payload_path": "campaign/literature_asset_hunt/payloads/eurekagent-circle-jsonl__line_0__25003dc442ae.json",
+          "payload_sha256": "25003dc442aeb4e8b85ffb8bdbc4ea024ca162c6afae815f52fc284abb9f0e6e",
+          "score": "-Infinity",
+          "strict_gate_clear": false,
+          "target": 2.635983095360844,
+          "verifier_path": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+          "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/e435d3a160d1eb658066.jsonl",
+        "final_url": "https://raw.githubusercontent.com/THU-Team-Eureka/EurekAgent/fb96df897dfb99797a77623aa0dd9ee178fe89d2/results/circle_packing/result.jsonl",
+        "from_cache": false,
+        "sha256": "21304b7864de0cc4c5847a0d68c4823505472218f652c8abf8740f1508afca00",
+        "size": 1858
+      },
+      "id": "eurekagent-circle-jsonl",
+      "parser": "eurek_jsonl_circle",
+      "purpose": "Headline EurekAgent asset evaluated under its looser 1e-6 constraints",
+      "slug": "circle-packing",
+      "url": "https://raw.githubusercontent.com/THU-Team-Eureka/EurekAgent/fb96df897dfb99797a77623aa0dd9ee178fe89d2/results/circle_packing/result.jsonl"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "minimum_pair_slack": 7.166487278609246e-09,
+            "minimum_wall_slack": 7.852350991655044e-09,
+            "radius_sum": 2.6358627564136983,
+            "shape": [
+              26,
+              3
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": -0.00012033894714580384,
+          "leader": 2.635983095260844,
+          "leader_delta": -0.00012033884714579557,
+          "name": "construction_1",
+          "payload_path": "campaign/literature_asset_hunt/payloads/alphaevolve-circle-notebook__construction_1__e9d5ea3940b5.json",
+          "payload_sha256": "e9d5ea3940b5ba10f29022ae479bb0d5fd98042b886166572b26f30a10063e58",
+          "score": 2.6358627564136983,
+          "strict_gate_clear": false,
+          "target": 2.635983095360844,
+          "verifier_path": "campaign/state/problems/circle-packing/2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab.py",
+          "verifier_sha256": "2dee3fad3cfcf2729000abda43b1812eab13fd8808e16cdb278fbae1266b37ab"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/78373f4d7ae3d69fff3c.ipynb",
+        "final_url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/4226acbf237ff9ad10ba7673a2af127a2d8a5971/mathematical_results.ipynb",
+        "from_cache": false,
+        "sha256": "2cce2543e48c89aa3e91614272a698a0147dd2548ea11cf92f1292b7435d38ff",
+        "size": 1311048
+      },
+      "id": "alphaevolve-circle-notebook",
+      "parser": "notebook_literal_array",
+      "purpose": "Rounded plotted AlphaEvolve n=26 construction",
+      "slug": "circle-packing",
+      "url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/4226acbf237ff9ad10ba7673a2af127a2d8a5971/mathematical_results.ipynb"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "minimum_pair_slack": 1.0843920372760607e-08,
+            "radius_sum": 2.3658321334167627,
+            "shape": [
+              21,
+              3
+            ],
+            "width_plus_height": 1.9999999680352252
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": -2.5189123453728257e-07,
+          "leader": 2.365832385207997,
+          "leader_delta": -2.5179123452900853e-07,
+          "name": "circles",
+          "payload_path": "campaign/literature_asset_hunt/payloads/alphaevolve-rectangle-notebook__circles__fc82a1a32b81.json",
+          "payload_sha256": "fc82a1a32b817a7c20eba08e5ad9ab22e9e0ecd672eab6f51d0c74f2c269491c",
+          "score": 2.3658321334167627,
+          "strict_gate_clear": false,
+          "target": 2.365832385307997,
+          "verifier_path": "campaign/state/problems/circles-rectangle/c36cb4b5239e992b953f3839506562e15d21097830adc8881184c5a597866df9.py",
+          "verifier_sha256": "c36cb4b5239e992b953f3839506562e15d21097830adc8881184c5a597866df9"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/78373f4d7ae3d69fff3c.ipynb",
+        "final_url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/4226acbf237ff9ad10ba7673a2af127a2d8a5971/mathematical_results.ipynb",
+        "from_cache": false,
+        "sha256": "2cce2543e48c89aa3e91614272a698a0147dd2548ea11cf92f1292b7435d38ff",
+        "size": 1311048
+      },
+      "id": "alphaevolve-rectangle-notebook",
+      "parser": "notebook_literal_array",
+      "purpose": "Rounded plotted AlphaEvolve n=21 rectangle construction",
+      "slug": "circles-rectangle",
+      "url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/4226acbf237ff9ad10ba7673a2af127a2d8a5971/mathematical_results.ipynb"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "finite": true,
+            "shape": [
+              11,
+              2
+            ]
+          },
+          "direction": "max",
+          "error": null,
+          "gate_margin": -9.999999994736442e-10,
+          "leader": 0.036529889880030156,
+          "leader_delta": 0.0,
+          "name": "found_points",
+          "payload_path": "campaign/literature_asset_hunt/payloads/alphaevolve-heilbronn-notebook__found_points__730a7bb993db.json",
+          "payload_sha256": "730a7bb993db4ca35d8c6583b12d44b4dbbc653efa00a6d364a670af6fbf30b0",
+          "score": 0.036529889880030156,
+          "strict_gate_clear": false,
+          "target": 0.036529890880030155,
+          "verifier_path": "campaign/state/problems/heilbronn-triangles/6afecf9539c4e9038cd6188e4e77efec00c9905b688728ad58f69dbfedc2441d.py",
+          "verifier_sha256": "6afecf9539c4e9038cd6188e4e77efec00c9905b688728ad58f69dbfedc2441d"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/78373f4d7ae3d69fff3c.ipynb",
+        "final_url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/4226acbf237ff9ad10ba7673a2af127a2d8a5971/mathematical_results.ipynb",
+        "from_cache": false,
+        "sha256": "2cce2543e48c89aa3e91614272a698a0147dd2548ea11cf92f1292b7435d38ff",
+        "size": 1311048
+      },
+      "id": "alphaevolve-heilbronn-notebook",
+      "parser": "notebook_literal_array",
+      "purpose": "Full public AlphaEvolve Heilbronn-11 construction",
+      "slug": "heilbronn-triangles",
+      "url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/4226acbf237ff9ad10ba7673a2af127a2d8a5971/mathematical_results.ipynb"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "finite": true,
+            "shape": [
+              16,
+              2
+            ]
+          },
+          "direction": "min",
+          "error": null,
+          "gate_margin": -3.630431712942084e-05,
+          "leader": 12.8892299077175,
+          "leader_delta": -3.6204317130028585e-05,
+          "name": "construction_1",
+          "payload_path": "campaign/literature_asset_hunt/payloads/alphaevolve-maxmin-notebook__construction_1__661c9c7b0c63.json",
+          "payload_sha256": "661c9c7b0c63a950c0fa7f482020b6f772c0f271fa7438c72f73e097bc3a8918",
+          "score": 12.88926611203463,
+          "strict_gate_clear": false,
+          "target": 12.8892298077175,
+          "verifier_path": "campaign/state/problems/min-distance-ratio-2d/2971cbb9e16752afe8d1d8067e6358d924b117ebeac0db41434ab19bfc8436ad.py",
+          "verifier_sha256": "2971cbb9e16752afe8d1d8067e6358d924b117ebeac0db41434ab19bfc8436ad"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/78373f4d7ae3d69fff3c.ipynb",
+        "final_url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/4226acbf237ff9ad10ba7673a2af127a2d8a5971/mathematical_results.ipynb",
+        "from_cache": false,
+        "sha256": "2cce2543e48c89aa3e91614272a698a0147dd2548ea11cf92f1292b7435d38ff",
+        "size": 1311048
+      },
+      "id": "alphaevolve-maxmin-notebook",
+      "parser": "notebook_literal_array",
+      "purpose": "Full public AlphaEvolve max/min-distance n=16 construction",
+      "slug": "min-distance-ratio-2d",
+      "url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/4226acbf237ff9ad10ba7673a2af127a2d8a5971/mathematical_results.ipynb"
+    },
+    {
+      "candidates": [
+        {
+          "diagnostics": {
+            "finite": true,
+            "shape": [
+              282,
+              3
+            ]
+          },
+          "direction": "min",
+          "error": null,
+          "gate_margin": -9.999930625781417e-07,
+          "leader": 37147.29441846226,
+          "leader_delta": 7.275957614183426e-12,
+          "name": "n282",
+          "payload_path": "campaign/literature_asset_hunt/payloads/cambridge-thomson-n282-xyz__n282__221f96f37c34.json",
+          "payload_sha256": "221f96f37c342a3785f76ee4074c9e183f505c5f283b745c7b6d7ef62e141a13",
+          "score": 37147.294418462254,
+          "strict_gate_clear": false,
+          "target": 37147.29441746226,
+          "verifier_path": "campaign/state/problems/thomson-problem/4cdf454acc790c97f2cfcb1e62f44f571ff9f44f87566c341865bc1c234ba5af.py",
+          "verifier_sha256": "4cdf454acc790c97f2cfcb1e62f44f571ff9f44f87566c341865bc1c234ba5af"
+        }
+      ],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/a644ba6e69acd169b192.xyz",
+        "final_url": "https://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/xyz/282.xyz",
+        "from_cache": false,
+        "sha256": "e1b5d99abe1e054df28b176ff0d18c51bf870198eb2cba3a99c20adf64ea21ba",
+        "size": 13964
+      },
+      "id": "cambridge-thomson-n282-xyz",
+      "parser": "plain_xyz",
+      "purpose": "Cambridge Cluster Database public N=282 global-minimum coordinates",
+      "slug": "thomson-problem",
+      "url": "https://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/xyz/282.xyz"
+    },
+    {
+      "candidates": [],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/b03d7c4158a5d93e0285.pdf",
+        "final_url": "https://www.hars.us/Papers/Numerical_Thomson.pdf",
+        "from_cache": false,
+        "sha256": "d63406719416fe4e5c0f38397bb12bfade172db76e6dec9159f8483bedd2f711",
+        "size": 970049
+      },
+      "id": "hars-thomson-paper",
+      "parser": "none",
+      "purpose": "Primary N=282 energy table and regenerating source listing; no coordinate table",
+      "slug": null,
+      "url": "https://www.hars.us/Papers/Numerical_Thomson.pdf"
+    },
+    {
+      "candidates": [],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/eec9f6853380fc7be355.bin",
+        "final_url": "https://erich-friedman.github.io/packing/cirRsqu/",
+        "from_cache": false,
+        "sha256": "33b0a586c6be4d382b1ef5c98d70a44d6ef2fec5403874896a1ec14f6b536947",
+        "size": 10034
+      },
+      "id": "friedman-circle-page",
+      "parser": "none",
+      "purpose": "Current public record page; approximate result/image only",
+      "slug": null,
+      "url": "https://erich-friedman.github.io/packing/cirRsqu/"
+    },
+    {
+      "candidates": [],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/a8397f7b038c15330099.bin",
+        "final_url": "https://erich-friedman.github.io/packing/cirRrec/",
+        "from_cache": false,
+        "sha256": "a6c2c05a4a493c94a707f80a60b56decdc1720f81a6f7ffb5332aef90e53db3f",
+        "size": 7519
+      },
+      "id": "friedman-rectangle-page",
+      "parser": "none",
+      "purpose": "Current public record page; approximate result/image only",
+      "slug": null,
+      "url": "https://erich-friedman.github.io/packing/cirRrec/"
+    },
+    {
+      "candidates": [],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/2c5d59e767921f423cc3.bin",
+        "final_url": "https://erich-friedman.github.io/packing/maxmin/",
+        "from_cache": false,
+        "sha256": "54efc531bd2682ceca2fbce5121e9bc662e560e58ce5ca78c6fbfcad77fd4df0",
+        "size": 5617
+      },
+      "id": "friedman-maxmin-page",
+      "parser": "none",
+      "purpose": "Current public record page; approximate result/image only",
+      "slug": null,
+      "url": "https://erich-friedman.github.io/packing/maxmin/"
+    },
+    {
+      "candidates": [],
+      "download": {
+        "cache_path": "campaign/literature_asset_hunt/cache/ec0ad78e81f46828460e.bin",
+        "final_url": "https://erich-friedman.github.io/packing/heiltri/",
+        "from_cache": false,
+        "sha256": "6a97ac330b2b2c9ad0a1f67c03e79855be451070d6625d6b2369c2fc1c553378",
+        "size": 30152
+      },
+      "id": "friedman-heilbronn-page",
+      "parser": "none",
+      "purpose": "Current public record page; approximate result/image only",
+      "slug": null,
+      "url": "https://erich-friedman.github.io/packing/heiltri/"
+    }
+  ]
+}

@@ -83,6 +83,26 @@ class SnapshotTests(unittest.TestCase):
         value = "/Users/example/EinsteinArena/campaign/c3_root/run/best.npy"
         self.assertEqual(MODULE.portable_campaign_path(value, source), "campaign/c3_root/run/best.npy")
 
+    def test_portable_json_recurses_without_rewriting_urls(self) -> None:
+        source = Path("/Users/example/EinsteinArena/campaign")
+        value = {
+            "path": "/Users/example/EinsteinArena/campaign/lane/receipt.json",
+            "nested": [
+                "/Users/example/EinsteinArena/campaign/cache/source.bin",
+                "https://example.com/source.bin",
+            ],
+        }
+        self.assertEqual(
+            MODULE.portable_json(value, source),
+            {
+                "path": "campaign/lane/receipt.json",
+                "nested": [
+                    "campaign/cache/source.bin",
+                    "https://example.com/source.bin",
+                ],
+            },
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
