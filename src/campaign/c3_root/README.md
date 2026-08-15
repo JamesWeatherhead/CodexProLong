@@ -58,3 +58,11 @@ As of 2026-08-15T01:15Z, the best unchanged-verifier replay is
 `3.6659601699e-6`. The accepted continuation used beta stages from `1e7`
 through `1e9`, and every saved gain was rescored with direct float64
 `numpy.convolve`.
+
+Two Gaussian basin escapes were also bounded without an accepted gain. The
+n=102,400 noisy full-coordinate continuation exhausted 20,919 evaluations
+through beta `1e9` and retained only its seed (`1.451565876634116`). The
+n=204,800 noisy continuation was stopped after 13,206 evaluations through beta
+`1e8`: its best retained seed was `1.4515658271807341`, while surrogate
+candidates remained roughly `3e-4` worse. These runs rule out those specific
+noise/temperature paths; they do not rule out the active-lag epigraph method.

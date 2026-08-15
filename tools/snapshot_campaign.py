@@ -33,6 +33,38 @@ WIN_RECEIPTS = {
     "first-autocorrelation-inequality": "state/receipts/first-autocorrelation-inequality/20260814T232734823043Z-e3f90379fb5a.json",
     "uncertainty-principle": "state/receipts/uncertainty-principle/20260814T234525289383Z-12590e6c26a7.json",
 }
+FRONTIER_ARTIFACTS = {
+    "circle-packing": "geometry/runs/20260815T035000Z/circle-packing/candidate.json",
+    "circles-rectangle": "geometry/runs/20260815T035100Z/circles-rectangle/candidate.json",
+    "edges-vs-triangles": "discrete/edges_vs_triangles/candidate.json",
+    "heilbronn-triangles": "geometry/runs/20260814T231710Z/heilbronn-triangles/best.json",
+    "min-distance-ratio-2d": "geometry/runs/20260814T231106Z/min-distance-ratio-2d/best.json",
+    "prime-number-theorem": "discrete/prime_number_theorem/group_refine_feasible.json",
+    "second-autocorrelation-inequality": "analytic/c2_secondary/runs/20260815T004948Z-birth/best.npy",
+    "third-autocorrelation-inequality": "c3_root/runs-102400/20260815T011534Z/best.npy",
+    "thomson-problem": "geometry/runs/20260814T234800Z/thomson-problem/best.json",
+}
+METHODS = {
+    "circle-packing": "100-digit 58-pair/20-wall active root reaches 2.635983095281625, still 7.92e-11 short; a new contact topology is required.",
+    "circles-rectangle": "100-digit 47-pair/17-wall active root reaches 2.365832385227917, still 8.01e-11 short; a new topology is required.",
+    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109.",
+    "edges-vs-triangles": "Exact curve-mesh optimization gains 7.61e-9, only 0.76% of the gate; the API independently enforces the 500-row domain.",
+    "erdos-min-overlap": "n=3,584 changed-grid active-set SLP now beats the public score locally; continuation is still about 9.88e-8 short of the gate.",
+    "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
+    "flat-polynomials": "Structured search plus exhaustive all C(70,6)=131,115,985 masks found no gate-clearer on literal verifier-grid subsets.",
+    "heilbronn-triangles": "100-digit active root, 462 topology trials, complete q=25 lattice proof, partial q=30 proof, and adaptive q=143 SAT cores.",
+    "kissing-number-d11": "The live score 0 is the exact objective floor; no strict numerical improvement below zero exists under this verifier.",
+    "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
+    "kissing-number-d12": "Reconstructing the published 60+60+720 block/bridge family and its flexible 48-systems for an exact 841-code.",
+    "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
+    "min-distance-ratio-2d": "100-digit active root and 280 topology release/promote trials; best local gain is 2.35e-11 versus a 1e-7 gate.",
+    "prime-number-theorem": "Exact cutting planes and 600 stratified support exchanges; best live-replayed local gain is 4.15e-7, below the 1e-6 gate.",
+    "second-autocorrelation-inequality": "Changed-support packet births improve the public score by 6.69e-9, far below the 1e-5 gate.",
+    "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
+    "third-autocorrelation-inequality": "n=102,400 exact continuation gains 6.334e-6; active-lag epigraph search targets the remaining 3.666e-6.",
+    "thomson-problem": "48 topology-changing seeds and exact tangent polishing return to the defect-minimal basin; no gate-clearer yet.",
+    "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
+}
 ROOT_SOURCE_FILES = (
     "AGENTS.md",
     "Dockerfile.verifier",
@@ -139,8 +171,28 @@ def status_markdown(frontier: dict[str, Any]) -> str:
             "> Tammes is a platform first place but not a spherical-code result; see [ETHICS.md](ETHICS.md).",
             "",
             "The source of truth is [`data/frontier.json`](../data/frontier.json).",
+            "",
+            "## Research ledger",
+            "",
+            "| Benchmark | Current solution, artifact, or bound | Paperclip-grounded next move |",
+            "|---|---|---|",
         ]
     )
+    literature_path = REPO / "literature" / "literature_map.json"
+    literature: dict[str, str] = {}
+    if literature_path.is_file():
+        packet = json.loads(literature_path.read_text(encoding="utf-8"))
+        literature = {item["slug"]: item["research_direction"] for item in packet["problems"]}
+    for row in frontier["problems"]:
+        slug = row["slug"]
+        artifact = FRONTIER_ARTIFACTS.get(slug)
+        artifact_link = ""
+        if artifact:
+            suffix = Path(artifact).suffix
+            artifact_link = f" [artifact](../artifacts/frontier/{slug}{suffix})"
+        method = METHODS.get(slug, "Active corpus-first search.") + artifact_link
+        next_move = literature.get(slug, "Literature packet pending.")
+        lines.append(f"| [`{slug}`]({row['problem_url']}) | {method} | {next_move} |")
     return "\n".join(lines) + "\n"
 
 
@@ -203,6 +255,12 @@ def main() -> int:
         receipt_dst = REPO / "artifacts" / "receipts" / f"{slug}.json"
         write_json(receipt_dst, sanitize_receipt(receipt, name))
         manifest.append({"path": str(receipt_dst.relative_to(REPO)), "sha256": sha256(receipt_dst), "bytes": receipt_dst.stat().st_size})
+
+    for slug, relative_text in FRONTIER_ARTIFACTS.items():
+        src = source / relative_text
+        dst = REPO / "artifacts" / "frontier" / f"{slug}{src.suffix}"
+        copy_file(src, dst)
+        manifest.append({"path": str(dst.relative_to(REPO)), "sha256": sha256(dst), "bytes": dst.stat().st_size})
 
     events_src = source / "state" / "events.jsonl"
     events_dst = REPO / "artifacts" / "journal" / "events.jsonl"

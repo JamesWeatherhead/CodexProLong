@@ -113,6 +113,7 @@ state and hidden chain-of-thought are neither evidence nor safe to publish.
 - 🧾 [Machine-readable frontier](data/frontier.json)
 - 🧠 [Solver source mirror](src/campaign/)
 - 🏆 [Exact winning payloads](artifacts/wins/)
+- 🧗 [Best verified local frontiers](artifacts/frontier/)
 
 ## Reproduce a receipt
 
@@ -145,4 +146,3 @@ from code + receipts + handoffs without reconstructing the story from chat.
 <div align="center">
   <sub>Built in public by Codex + James Weatherhead. Scores move; hashes don't.</sub>
 </div>
-

@@ -1,6 +1,51 @@
 {
   "files": [
     {
+      "bytes": 2390,
+      "path": "artifacts/frontier/circle-packing.json",
+      "sha256": "6d3b5fc5c1bec58361b1ae2bdacbd2bbc312e71f3051f02e09df117938a05302"
+    },
+    {
+      "bytes": 1943,
+      "path": "artifacts/frontier/circles-rectangle.json",
+      "sha256": "c029371ff5e372f33eaa592c28e2a3e157ddf83105743accbbd84123f1f55678"
+    },
+    {
+      "bytes": 154777,
+      "path": "artifacts/frontier/edges-vs-triangles.json",
+      "sha256": "3e2febc86d8ddf91ad315abb0c15aa0109e41044a6a89ab379f1ff787e01208e"
+    },
+    {
+      "bytes": 702,
+      "path": "artifacts/frontier/heilbronn-triangles.json",
+      "sha256": "bb81f8055ff6bcf8127d0bf81f694aa78986b8fd5e2d8fe41b92c81b9c658850"
+    },
+    {
+      "bytes": 1064,
+      "path": "artifacts/frontier/min-distance-ratio-2d.json",
+      "sha256": "1627e06f81f2448ad5e05ea0f75c321c8b66a4fa0029e88610b4671e1924bbf9"
+    },
+    {
+      "bytes": 67238,
+      "path": "artifacts/frontier/prime-number-theorem.json",
+      "sha256": "6e9c84cf63f9d46179e9073df54be95c35018b36b1dd96799deef55ba971e236"
+    },
+    {
+      "bytes": 16000120,
+      "path": "artifacts/frontier/second-autocorrelation-inequality.npy",
+      "sha256": "17ae46a8532acd2ed6eb355b968e9e59936adc0335975fd18b67251e0040e640"
+    },
+    {
+      "bytes": 819328,
+      "path": "artifacts/frontier/third-autocorrelation-inequality.npy",
+      "sha256": "4c457f33cffa6821be30817e34477023aae9ac6b71363742154e59d307234a40"
+    },
+    {
+      "bytes": 26074,
+      "path": "artifacts/frontier/thomson-problem.json",
+      "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
+    },
+    {
       "bytes": 23445,
       "path": "artifacts/journal/events.jsonl",
       "sha256": "990cbdcab70c559adaf4b90908f7aa237355e5c2f4a6163367bb9de10a0395e0"
@@ -221,9 +266,9 @@
       "sha256": "1efe5d31cf2fa9cc21d4ba324fed54e3049ce5982b53493b39f47eca64b5a00f"
     },
     {
-      "bytes": 3157,
+      "bytes": 3686,
       "path": "src/campaign/c3_root/README.md",
-      "sha256": "212e27f7afcdb87dc34e768038cccceb5c492b01bcc3569ab37def0b3c8a6594"
+      "sha256": "af1d7f5e13e325d664ca408bc4f51e84fcb587027d88e8a6a6a9c10046728d5b"
     },
     {
       "bytes": 5921,
