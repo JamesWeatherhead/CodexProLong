@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T01:45:00Z",
+  "generated_at": "2026-08-15T02:31:00Z",
   "public_safe": true,
   "credential_material_present": false,
   "method": "Paperclip direct full-text reads with line-pinned citations; no Paperclip repo",
@@ -169,6 +169,13 @@
       "year": 2026,
       "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2603.23261#L1",
       "vfs_path": "/papers/arx_2603.23261/content.lines"
+    },
+    "chebyshev_sylvester": {
+      "title": "An expository review of the Chebyshev-Sylvester method in prime number theory",
+      "authors": ["Tsogtgerel Gantumur"],
+      "year": 2025,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2512.02466#L3,L24-L29,L62-L70,L115-L138,L283-L305",
+      "vfs_path": "/papers/arx_2512.02466/content.lines"
     }
   },
   "problems": [
@@ -217,9 +224,9 @@
     {
       "slug": "prime-number-theorem",
       "status": "active",
-      "source_keys": ["alphaevolve_math"],
-      "line_pins": ["L361-L379"],
-      "research_direction": "Truncated Möbius and divisor-block constructions with analytic all-x floor-sum checking"
+      "source_keys": ["alphaevolve_math", "chebyshev_sylvester"],
+      "line_pins": ["L361-L379", "L3", "L24-L29", "L62-L70", "L115-L138", "L283-L305"],
+      "research_direction": "Truncated Möbius plus periodic Chebyshev-Sylvester divisor schemes, coherent hybrid/block support changes, and exact fixed-stream/all-x floor-sum checking"
     },
     {
       "slug": "uncertainty-principle",

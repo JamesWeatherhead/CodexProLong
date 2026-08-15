@@ -77,6 +77,15 @@ clipboard paths. It is a direct-citation packet, not a Paperclip repository.
    support/topology basins, then upscale and accept exclusively by the literal
    convolution/correlation verifier.
 
+9. **PNT support design has a classical finite-scheme interpretation.** The
+   Chebyshev--Sylvester framework replaces the Möbius function with a finite
+   arithmetic surrogate and studies its periodic floor-sum error function
+   [18]. Its historical schemes combine structured divisor blocks, and the
+   modern review shows that hybridizing two schemes can improve the resulting
+   bound [18]. For the Arena, this supports coherent block/tail changes rather
+   than isolated key pricing; every proposed support still requires the exact
+   fixed-stream LP and verifier replay.
+
 ## Public-safe map for all 19 Arena slugs
 
 | Arena slug | Literature-grounded direction |
@@ -87,7 +96,7 @@ clipboard paths. It is a direct-citation packet, not a Paperclip repository.
 | `third-autocorrelation-inequality` | Treat the maximum convolution lag as an active bundle, use peak-switching basin hops, and test coarse SDP/rank-one topology seeds before exact high-resolution polishing [1, 3, 15, 16, 17]. |
 | `min-distance-ratio-2d` | Share heuristics across nearby \((d,n)\) instances, normalize similarity degrees of freedom, then polish the active diameter/contact graph [1]. |
 | `kissing-number-d11` | Optimize finite vector configurations, then exactify a sufficiently accurate zero-loss candidate; preserve reusable subcodes and share partial constructions [1, 10]. |
-| `prime-number-theorem` | Start from truncated Möbius functions and structured divisor blocks, but replace Monte Carlo acceptance with an analytic all-\(x\) floor-sum certificate [1]. |
+| `prime-number-theorem` | Combine truncated Möbius structure with periodic Chebyshev--Sylvester divisor schemes and coherent hybrid/block support changes, then require exact fixed-stream and analytic floor-sum checks [1, 18]. |
 | `uncertainty-principle` | Search Laguerre/Hermite Fourier-eigenfunction families through prescribed double roots, while testing the paper's warning that the best profile may be nonanalytic [1, 9]. |
 | `thomson-problem` | Seed nearly uniform spherical configurations, alternate gradient and stochastic perturbations, and use asymptotic energy residuals to compare basins [1]. |
 | `tammes-problem` | Combine contact-graph topology, LP/SDP pruning, and multi-start spherical-code basin hopping [1, 6, 7]. |
@@ -175,3 +184,6 @@ REFERENCES
 
 [17] Bennet Gebken and Michael Ulbrich. “Enclosing minima in nonsmooth optimization via trust regions of higher-order cutting-plane models.” *arXiv* (2026).
     https://paperclip.gxl.ai/citations/papers/arx_2603.23261#L1
+
+[18] Tsogtgerel Gantumur. “An expository review of the Chebyshev-Sylvester method in prime number theory.” *arXiv* (2025).
+    https://paperclip.gxl.ai/citations/papers/arx_2512.02466#L3,L24-L29,L62-L70,L115-L138,L283-L305

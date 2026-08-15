@@ -111,3 +111,19 @@ but Cambridge served a temporary-disruption HTML page instead of the paper;
 the capture was soft-deleted. `rookiepy` was not installed, so Paperclip also
 reported that institutional browser cookies were unavailable. No claim in this
 packet depends on that failed capture.
+
+## Prime-number-theorem finite schemes
+
+```bash
+paperclip grep -n -m 50 "elementary methods.*distribution of prime numbers" /papers/
+paperclip cat /papers/arx_2512.02466/meta.json
+paperclip scan /papers/arx_2512.02466/content.lines "Möbius" "Sylvester" "optimization" "floor"
+paperclip head -n 305 /papers/arx_2512.02466/content.lines
+```
+
+Observed 2026-08-15: the review makes the finite Möbius-surrogate and periodic
+floor-sum error function explicit, records structured Chebyshev--Sylvester
+divisor schemes, and documents that hybridizing schemes can improve a bound.
+The Arena transfer is coherent block/tail support generation followed by the
+unchanged fixed-stream verifier, not a claim that a historical scheme itself
+beats the current numerical LP frontier.
