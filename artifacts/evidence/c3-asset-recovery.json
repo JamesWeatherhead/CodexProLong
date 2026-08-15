@@ -1,0 +1,628 @@
+{
+  "best_new_distinct": {
+    "exact_corpus_matches": [],
+    "label": "simpletes",
+    "n": 400,
+    "score": 1.4536754655951831,
+    "values_sha256": "63d4d512d032f2ca03315661d4cd1eaf66c3bb48fa1b4b5e2c4b5a066b8e4075"
+  },
+  "best_new_gap_to_local_frontier": 0.002110080573080708,
+  "best_recovered_overall": {
+    "exact_corpus_matches": [
+      {
+        "agent_name": "JSAgent",
+        "id": 1188,
+        "score": 1.4525211550468837
+      },
+      {
+        "agent_name": "alpha_omega_agents",
+        "id": 1422,
+        "score": 1.4525211550468837
+      }
+    ],
+    "label": "jmsung-best",
+    "n": 100000,
+    "score": 1.452521155046884,
+    "values_sha256": "ad4403f4f560ce298d0d4e0552154694c612c26c095e9781f1fa1dd9fed8cbd5"
+  },
+  "competitive_new_seed": false,
+  "conclusion": "SimpleTES is the best newly distinct public C3 array recovered, but it is far above the local frontier. The strongest high-resolution asset is an exact duplicate of two frozen Arena submissions. No topology-transfer run is justified.",
+  "construction_sources": {
+    "alphaevolve_official": {
+      "bytes": 1311048,
+      "cache_name": "alphaevolve-mathematical-results.ipynb",
+      "cache_path": "campaign/c3_asset_recovery/cache/alphaevolve-mathematical-results.ipynb",
+      "commit": "4226acbf237ff9ad10ba7673a2af127a2d8a5971",
+      "construction_labels": [
+        "alphaevolve-official"
+      ],
+      "license": "Apache-2.0",
+      "parser": "notebook_height_sequence_3",
+      "repository": "google-deepmind/alphaevolve_results",
+      "sha256": "2cce2543e48c89aa3e91614272a698a0147dd2548ea11cf92f1292b7435d38ff",
+      "url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/4226acbf237ff9ad10ba7673a2af127a2d8a5971/mathematical_results.ipynb"
+    },
+    "jmsung_best": {
+      "bytes": 905736,
+      "cache_name": "jmsung-best.json.gz",
+      "cache_path": "campaign/c3_asset_recovery/cache/jmsung-best.json.gz",
+      "commit": "1762674da8374d631b718dc7feeecdbd8753a2ea",
+      "construction_labels": [
+        "jmsung-best"
+      ],
+      "license": "MIT",
+      "parser": "gzip_values_json",
+      "repository": "jmsung/einstein",
+      "sha256": "6e3c1a332ea4da79ae684850aa8e01f8b6624c13eff171c6ac4b8354b12e86d6",
+      "url": "https://raw.githubusercontent.com/jmsung/einstein/1762674da8374d631b718dc7feeecdbd8753a2ea/scripts/third_autocorrelation/seeds/best.json.gz"
+    },
+    "simpletes": {
+      "bytes": 7614,
+      "cache_name": "simpletes-construction.json",
+      "cache_path": "campaign/c3_asset_recovery/cache/simpletes-construction.json",
+      "commit": "a19a54b109db6185ab1f13dd59dd150074b24136",
+      "construction_labels": [
+        "simpletes"
+      ],
+      "license": "GNU AGPL-3.0-or-later",
+      "parser": "simpletes_json",
+      "repository": "wq-will/SimpleTES",
+      "sha256": "26aa4363b9a1afd5c8f0ba6b94c4987a052f6f876b419de167cb37092d43092d",
+      "url": "https://raw.githubusercontent.com/wq-will/SimpleTES/a19a54b109db6185ab1f13dd59dd150074b24136/best_results/mathematics_discovery/third_autocorrelation_inequality/third_autocorrelation_inequality_best_construction.json"
+    },
+    "thetaevolve": {
+      "bytes": 41085,
+      "cache_name": "thetaevolve-data.json",
+      "cache_path": "campaign/c3_asset_recovery/cache/thetaevolve-data.json",
+      "commit": "7c12898f5d7627af403e3aca643af76199fb5c20",
+      "construction_labels": [
+        "theta-Init",
+        "theta-8B-w_RL@65",
+        "theta-8B-wo_RL@100",
+        "theta-1.5B-w_RL@200",
+        "theta-1.5B-wo_RL@600"
+      ],
+      "license": "Apache-2.0",
+      "parser": "theta_json",
+      "repository": "ypwang61/ThetaEvolve",
+      "sha256": "60a0ed6553dbf97f10bd2024edd1a3229facf719f74fca80fc488c82a1352a15",
+      "url": "https://raw.githubusercontent.com/ypwang61/ThetaEvolve/7c12898f5d7627af403e3aca643af76199fb5c20/Results/ThirdAutoCorrIneq/data.json"
+    },
+    "together_2026": {
+      "bytes": 8551,
+      "cache_name": "together-ours-2026.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/together-ours-2026.py",
+      "commit": "c388c6f7408c886311940896713339a1a70c2394",
+      "construction_labels": [
+        "together-ours-2026"
+      ],
+      "license": "NOASSERTION (GitHub reports no repository license)",
+      "parser": "python_f_values",
+      "repository": "togethercomputer/erdos-minimum-overlap",
+      "sha256": "ef0e4f1a8544537adca7931ae1ce9b73a5e140e065b0718b1d5064e48cc2c77f",
+      "url": "https://raw.githubusercontent.com/togethercomputer/erdos-minimum-overlap/c388c6f7408c886311940896713339a1a70c2394/third-autocorrelation/solutions/ours_2026.py"
+    },
+    "together_alphaevolve_2025": {
+      "bytes": 6332,
+      "cache_name": "together-alphaevolve-2025.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/together-alphaevolve-2025.py",
+      "commit": "c388c6f7408c886311940896713339a1a70c2394",
+      "construction_labels": [
+        "together-alphaevolve-2025"
+      ],
+      "license": "NOASSERTION (GitHub reports no repository license)",
+      "parser": "python_f_values",
+      "repository": "togethercomputer/erdos-minimum-overlap",
+      "sha256": "7ad28403a9fd140754203ad5b67bed6b4925084f8923ef110bedbeb713b3cb09",
+      "url": "https://raw.githubusercontent.com/togethercomputer/erdos-minimum-overlap/c388c6f7408c886311940896713339a1a70c2394/third-autocorrelation/solutions/alphaevolve_2025.py"
+    }
+  },
+  "constructions": [
+    {
+      "exact_corpus_matches": [],
+      "gap_to_public_leader": 0.0021036017049762545,
+      "gap_to_strict_gate": 0.00211360170497632,
+      "gate_cleared": false,
+      "label": "simpletes",
+      "maximum": 32.77533060278658,
+      "minimum": -14.27827663458249,
+      "n": 400,
+      "negative": 101,
+      "payload_file_sha256": "092613f439167779bbd706725a5f99dc751879f84ae59582464a21f60e3f658e",
+      "payload_path": "campaign/c3_asset_recovery/payloads/simpletes.npy",
+      "positive": 299,
+      "scale_or_reverse_equivalent_matches": [],
+      "score": 1.4536754655951831,
+      "source_name": "simpletes",
+      "sum": 800.0,
+      "values_sha256": "63d4d512d032f2ca03315661d4cd1eaf66c3bb48fa1b4b5e2c4b5a066b8e4075",
+      "zero": 0
+    },
+    {
+      "exact_corpus_matches": [
+        {
+          "agent_name": "Together-AI",
+          "id": 12,
+          "score": 1.4545548626983327
+        }
+      ],
+      "gap_to_public_leader": 0.002982998808126247,
+      "gap_to_strict_gate": 0.0029929988081263126,
+      "gate_cleared": false,
+      "label": "together-ours-2026",
+      "maximum": 29.822474586952435,
+      "minimum": -21.762632344840398,
+      "n": 400,
+      "negative": 73,
+      "payload_file_sha256": "17f81e857f1eca68d96d8ac6f86eb813eb80ac7c8ae39709b5a8d8877d5e16fc",
+      "payload_path": "campaign/c3_asset_recovery/payloads/together-ours-2026.npy",
+      "positive": 327,
+      "scale_or_reverse_equivalent_matches": [
+        {
+          "agent_name": "Together-AI",
+          "id": 12,
+          "max_normalized_error": 0.0,
+          "score": 1.4545548626983327,
+          "variant": "same"
+        }
+      ],
+      "score": 1.4545548626983331,
+      "source_name": "together_2026",
+      "sum": 800.0,
+      "values_sha256": "7952c00f33ac079e60dda9deb28a8af60d8f7dbd6e287b350410f7f338d8c85c",
+      "zero": 0
+    },
+    {
+      "exact_corpus_matches": [
+        {
+          "agent_name": "AlphaEvolve",
+          "id": 4,
+          "score": 1.4556427953745406
+        }
+      ],
+      "gap_to_public_leader": 0.004070931484333462,
+      "gap_to_strict_gate": 0.004080931484333528,
+      "gate_cleared": false,
+      "label": "together-alphaevolve-2025",
+      "maximum": 1.2065002259,
+      "minimum": -0.7396661838,
+      "n": 400,
+      "negative": 86,
+      "payload_file_sha256": "a62785724909472ab74c11d95494d2ba5de57457be24522ff8ac9f2db7513d47",
+      "payload_path": "campaign/c3_asset_recovery/payloads/together-alphaevolve-2025.npy",
+      "positive": 314,
+      "scale_or_reverse_equivalent_matches": [
+        {
+          "agent_name": "AlphaEvolve",
+          "id": 4,
+          "max_normalized_error": 0.0,
+          "score": 1.4556427953745406,
+          "variant": "same"
+        }
+      ],
+      "score": 1.4556427953745403,
+      "source_name": "together_alphaevolve_2025",
+      "sum": 28.284271246899998,
+      "values_sha256": "fe8899fab63ceb4518f9923f1e53cee8bf4c8d161e35b20327bca7f23b7ce7be",
+      "zero": 0
+    },
+    {
+      "exact_corpus_matches": [
+        {
+          "agent_name": "AlphaEvolve",
+          "id": 4,
+          "score": 1.4556427953745406
+        }
+      ],
+      "gap_to_public_leader": 0.004070931484333462,
+      "gap_to_strict_gate": 0.004080931484333528,
+      "gate_cleared": false,
+      "label": "alphaevolve-official",
+      "maximum": 1.2065002259,
+      "minimum": -0.7396661838,
+      "n": 400,
+      "negative": 86,
+      "payload_file_sha256": "a62785724909472ab74c11d95494d2ba5de57457be24522ff8ac9f2db7513d47",
+      "payload_path": "campaign/c3_asset_recovery/payloads/alphaevolve-official.npy",
+      "positive": 314,
+      "scale_or_reverse_equivalent_matches": [
+        {
+          "agent_name": "AlphaEvolve",
+          "id": 4,
+          "max_normalized_error": 0.0,
+          "score": 1.4556427953745406,
+          "variant": "same"
+        }
+      ],
+      "score": 1.4556427953745403,
+      "source_name": "alphaevolve_official",
+      "sum": 28.284271246899998,
+      "values_sha256": "fe8899fab63ceb4518f9923f1e53cee8bf4c8d161e35b20327bca7f23b7ce7be",
+      "zero": 0
+    },
+    {
+      "exact_corpus_matches": [],
+      "gap_to_public_leader": 1.7069785974665161,
+      "gap_to_strict_gate": 1.7069885974665162,
+      "gate_cleared": false,
+      "label": "theta-Init",
+      "maximum": 0.17488321835367876,
+      "minimum": -0.03160865165071109,
+      "n": 400,
+      "negative": 53,
+      "payload_file_sha256": "d8437ff50086e8fe2d30aae4abe55f174f7ebe836faaa6827bba4edf9ebada91",
+      "payload_path": "campaign/c3_asset_recovery/payloads/theta-Init.npy",
+      "positive": 347,
+      "scale_or_reverse_equivalent_matches": [],
+      "score": 3.158550461356723,
+      "source_name": "thetaevolve",
+      "sum": 25.000000000000004,
+      "values_sha256": "ab69538648e1479a37b52f19e49ea6de7a8aa92bc259b423f38c2c1c40b9dc16",
+      "zero": 0
+    },
+    {
+      "exact_corpus_matches": [],
+      "gap_to_public_leader": 0.041429338304282304,
+      "gap_to_strict_gate": 0.04143933830428237,
+      "gate_cleared": false,
+      "label": "theta-8B-w_RL@65",
+      "maximum": 0.31544290881413556,
+      "minimum": -0.2825305981688017,
+      "n": 400,
+      "negative": 38,
+      "payload_file_sha256": "d92b95f0c224ee49697a10703ef17b0b58dfb98a6030153ee6d08e2ad919d0b1",
+      "payload_path": "campaign/c3_asset_recovery/payloads/theta-8B-w_RL@65.npy",
+      "positive": 362,
+      "scale_or_reverse_equivalent_matches": [],
+      "score": 1.4930012021944892,
+      "source_name": "thetaevolve",
+      "sum": 25.625995447481994,
+      "values_sha256": "522b008d0a155862f2dd9caf8a2261edcd92239bb6066d44a9574819a57ae49c",
+      "zero": 0
+    },
+    {
+      "exact_corpus_matches": [],
+      "gap_to_public_leader": 0.05682300523814843,
+      "gap_to_strict_gate": 0.05683300523814849,
+      "gate_cleared": false,
+      "label": "theta-8B-wo_RL@100",
+      "maximum": 0.010829125585325167,
+      "minimum": -0.006629444170890822,
+      "n": 400,
+      "negative": 57,
+      "payload_file_sha256": "4e01b9269130854f0304d6303b5275124e0b95d7df9fa46bb42f1eb29f8692eb",
+      "payload_path": "campaign/c3_asset_recovery/payloads/theta-8B-wo_RL@100.npy",
+      "positive": 343,
+      "scale_or_reverse_equivalent_matches": [],
+      "score": 1.5083948691283553,
+      "source_name": "thetaevolve",
+      "sum": 1.000004386342815,
+      "values_sha256": "3a9b1eb5f51298c0fa0e5742af6d66be102a60055465edd4cb2746ca66268709",
+      "zero": 0
+    },
+    {
+      "exact_corpus_matches": [],
+      "gap_to_public_leader": 0.15368701296321974,
+      "gap_to_strict_gate": 0.1536970129632198,
+      "gate_cleared": false,
+      "label": "theta-1.5B-w_RL@200",
+      "maximum": 0.41662826506818584,
+      "minimum": 0.045261260217480885,
+      "n": 300,
+      "negative": 0,
+      "payload_file_sha256": "f5c1a5e41c28d71759723f2014f5533ac7243eb2a0267b0060c7fe565af61450",
+      "payload_path": "campaign/c3_asset_recovery/payloads/theta-1.5B-w_RL@200.npy",
+      "positive": 300,
+      "scale_or_reverse_equivalent_matches": [],
+      "score": 1.6052588768534266,
+      "source_name": "thetaevolve",
+      "sum": 26.0,
+      "values_sha256": "2fb5020978ee887042dfac6f4f6f1e6c33019c2e007c151610a836f301b383d7",
+      "zero": 0
+    },
+    {
+      "exact_corpus_matches": [],
+      "gap_to_public_leader": 0.1607097034467857,
+      "gap_to_strict_gate": 0.16071970344678577,
+      "gate_cleared": false,
+      "label": "theta-1.5B-wo_RL@600",
+      "maximum": 0.3786547405618505,
+      "minimum": 0.030933521318553526,
+      "n": 400,
+      "negative": 0,
+      "payload_file_sha256": "76e55f50a353c1e12ff47b64ff032eb014660c6718ee07b6854fd8adf6a1c254",
+      "payload_path": "campaign/c3_asset_recovery/payloads/theta-1.5B-wo_RL@600.npy",
+      "positive": 400,
+      "scale_or_reverse_equivalent_matches": [],
+      "score": 1.6122815673369926,
+      "source_name": "thetaevolve",
+      "sum": 25.00787395213562,
+      "values_sha256": "9b7a6c16e7ea3c5cfa68ddee7e188df900b3bc5d9bc18c56634095c2f93d1786",
+      "zero": 0
+    },
+    {
+      "exact_corpus_matches": [
+        {
+          "agent_name": "JSAgent",
+          "id": 1188,
+          "score": 1.4525211550468837
+        },
+        {
+          "agent_name": "alpha_omega_agents",
+          "id": 1422,
+          "score": 1.4525211550468837
+        }
+      ],
+      "gap_to_public_leader": 0.000949291156677079,
+      "gap_to_strict_gate": 0.0009592911566771445,
+      "gate_cleared": false,
+      "label": "jmsung-best",
+      "maximum": 171.04463213161824,
+      "minimum": -83.84289146980035,
+      "n": 100000,
+      "negative": 23591,
+      "payload_file_sha256": "549afac5eac0da01c39c0e87a27a3d37da4f7ed02c47395bfa79f48236cdaf00",
+      "payload_path": "campaign/c3_asset_recovery/payloads/jmsung-best.npy",
+      "positive": 76409,
+      "scale_or_reverse_equivalent_matches": [
+        {
+          "agent_name": "JSAgent",
+          "id": 1188,
+          "max_normalized_error": 0.0,
+          "score": 1.4525211550468837,
+          "variant": "same"
+        },
+        {
+          "agent_name": "alpha_omega_agents",
+          "id": 1422,
+          "max_normalized_error": 0.0,
+          "score": 1.4525211550468837,
+          "variant": "same"
+        }
+      ],
+      "score": 1.452521155046884,
+      "source_name": "jmsung_best",
+      "sum": 342798.52888711984,
+      "values_sha256": "ad4403f4f560ce298d0d4e0552154694c612c26c095e9781f1fa1dd9fed8cbd5",
+      "zero": 0
+    }
+  ],
+  "coverage_notes": {
+    "forks": "all 16 public SimpleTES forks and the ahead official AlphaEvolve fork checked during discovery retained byte-identical C3 assets",
+    "gigaevo": "primary paper does not evaluate C3; repository has a C3 starter but no frozen output",
+    "improvevolve": "primary paper reports C2 only and exposes no C3 construction",
+    "mlevolve": "repository README reports C3 scores but its complete tree exposes no downloadable C3 construction or program",
+    "openevolve": "repository has an n=400 C3 starter but no frozen evolved output",
+    "shinkaevolve": "example repository has a starter/evaluator but no frozen evolved output",
+    "together_and_alphaevolve": "published 400-cell arrays are exact frozen-Arena duplicates"
+  },
+  "external_writes": [],
+  "frontier": {
+    "local_file_sha256": "c3af7761fd3cf1a9a812b1ed04219eb17ceb5821946990efbd6f09d4d31679bd",
+    "local_path": "campaign/c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/best.npy",
+    "local_score": 1.4515653850221024,
+    "local_values_sha256": "d047ef4d92f27ff2cd8c2d01a2e63eb896dc28a9c03979a1ae101fd7411736c8",
+    "minimum_improvement": 1e-05,
+    "public_leader_score": 1.4515718638902069,
+    "strict_gate": 1.4515618638902068
+  },
+  "frozen_arena_corpus": {
+    "c3_rows_checked": 40,
+    "path": "campaign/research_corpus/snapshots/20260815T003306Z/corpus.sqlite3",
+    "sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb"
+  },
+  "generated_at": "2026-08-15T04:49:32.157958+00:00",
+  "hyra_inventory": {
+    "autocorrelation_paths": [
+      "AI4Science/autocorrelation_first",
+      "AI4Science/autocorrelation_first/solution.json",
+      "AI4Science/autocorrelation_second",
+      "AI4Science/autocorrelation_second/solution.json"
+    ],
+    "c3_paths": [],
+    "commit": "26ebfbe7d491e6521d8bb5fc21fe88bb31460825",
+    "conclusion": "no downloadable C3 construction at the pinned commit",
+    "license": "Apache-2.0",
+    "repository": "Tencent-Hunyuan/Hyra-results",
+    "tree_canonical_sha256": "71fc56f0c3200daf3aeebb72ad1100d82adcad5d123451b5c5fcf3c27866680d",
+    "tree_entries": 296,
+    "tree_truncated": false,
+    "tree_url": "https://api.github.com/repos/Tencent-Hunyuan/Hyra-results/git/trees/26ebfbe7d491e6521d8bb5fc21fe88bb31460825?recursive=1"
+  },
+  "license_artifacts": {
+    "alphaevolve": {
+      "bytes": 11358,
+      "cache_name": "LICENSE-alphaevolve-results",
+      "cache_path": "campaign/c3_asset_recovery/cache/LICENSE-alphaevolve-results",
+      "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30",
+      "url": "https://raw.githubusercontent.com/google-deepmind/alphaevolve_results/4226acbf237ff9ad10ba7673a2af127a2d8a5971/LICENSE"
+    },
+    "gigaevo": {
+      "bytes": 1068,
+      "cache_name": "LICENSE-gigaevo-core",
+      "cache_path": "campaign/c3_asset_recovery/cache/LICENSE-gigaevo-core",
+      "sha256": "bf3ea8739346080477f584894a92ec0cdffe7c2d31f6c520f7e75c7bceee7948",
+      "url": "https://raw.githubusercontent.com/FusionBrainLab/gigaevo-core/0f2b866543089a6054f57f1a71eb615a55d89348/LICENSE"
+    },
+    "jmsung": {
+      "bytes": 1069,
+      "cache_name": "LICENSE-jmsung-einstein",
+      "cache_path": "campaign/c3_asset_recovery/cache/LICENSE-jmsung-einstein",
+      "sha256": "e1be5288a75dc4c7e6c84548d1b72b661080421517a6247da6b6dd6753d6478b",
+      "url": "https://raw.githubusercontent.com/jmsung/einstein/1762674da8374d631b718dc7feeecdbd8753a2ea/LICENSE"
+    },
+    "openevolve": {
+      "bytes": 11357,
+      "cache_name": "LICENSE-openevolve",
+      "cache_path": "campaign/c3_asset_recovery/cache/LICENSE-openevolve",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "url": "https://raw.githubusercontent.com/algorithmicsuperintelligence/openevolve/411fb59c886c18704caaffb611e17cf9e7d824d2/LICENSE"
+    },
+    "simpletes": {
+      "bytes": 35328,
+      "cache_name": "LICENSE-SimpleTES",
+      "cache_path": "campaign/c3_asset_recovery/cache/LICENSE-SimpleTES",
+      "sha256": "3bdf828d3e3e55318bb9d12e10dbda27b4f7725d9da7ced98b526359ff80fb7d",
+      "url": "https://raw.githubusercontent.com/wq-will/SimpleTES/a19a54b109db6185ab1f13dd59dd150074b24136/LICENSE"
+    },
+    "thetaevolve": {
+      "bytes": 11337,
+      "cache_name": "LICENSE-ThetaEvolve",
+      "cache_path": "campaign/c3_asset_recovery/cache/LICENSE-ThetaEvolve",
+      "sha256": "bf917707c1e0ffdfe653d63aebc188a48f738f3faad9acc188c346d3618694af",
+      "url": "https://raw.githubusercontent.com/ypwang61/ThetaEvolve/7c12898f5d7627af403e3aca643af76199fb5c20/LICENSE"
+    }
+  },
+  "mode": "commit_pinned_GET_static_parse_and_unchanged_verifier_replay",
+  "network_policy": "GET-only",
+  "paperclip_sources": [
+    {
+      "claim": "AlphaEvolve reports a 400-cell C3 construction with C3 <= 1.4557.",
+      "url": "https://paperclip.gxl.ai/citations/papers/arx_2506.13131#L190-L193"
+    },
+    {
+      "claim": "The later mathematics report gives the C3 setup and the same 1.4557 result.",
+      "url": "https://paperclip.gxl.ai/citations/papers/arx_2511.02864#L118-L121"
+    },
+    {
+      "claim": "ImprovEvolve's reported autocorrelation result is for C2, not C3.",
+      "url": "https://paperclip.gxl.ai/citations/papers/arx_2602.10233#L1"
+    },
+    {
+      "claim": "GigaEvo reports four validation problems and publishes its framework; it does not report a C3 result.",
+      "url": "https://paperclip.gxl.ai/citations/papers/arx_2511.17592#L30-L32,L65-L66"
+    }
+  ],
+  "program_artifacts": {
+    "gigaevo_helper": {
+      "bytes": 554,
+      "cache_name": "gigaevo-helper.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/gigaevo-helper.py",
+      "classification": "C3 evaluator helper; no frozen output",
+      "commit": "0f2b866543089a6054f57f1a71eb615a55d89348",
+      "license": "MIT",
+      "repository": "FusionBrainLab/gigaevo-core",
+      "sha256": "bf42fb1c27553c8750d186ea129ae42bd6a6592f7c5f24fd20d31a0594ce06de",
+      "url": "https://raw.githubusercontent.com/FusionBrainLab/gigaevo-core/0f2b866543089a6054f57f1a71eb615a55d89348/problems/alphaevolve/third_autocorr_ineq/helper.py"
+    },
+    "gigaevo_initial": {
+      "bytes": 1094,
+      "cache_name": "gigaevo-optimize.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/gigaevo-optimize.py",
+      "classification": "deterministic starter only; repository publishes no frozen C3 output",
+      "commit": "0f2b866543089a6054f57f1a71eb615a55d89348",
+      "license": "MIT",
+      "repository": "FusionBrainLab/gigaevo-core",
+      "sha256": "2ed9e4849932c5701e04da1891708859e360dd0e68de7ae24c1d14a7bb86a659",
+      "url": "https://raw.githubusercontent.com/FusionBrainLab/gigaevo-core/0f2b866543089a6054f57f1a71eb615a55d89348/problems/alphaevolve/third_autocorr_ineq/initial_programs/optimize.py"
+    },
+    "gigaevo_metrics": {
+      "bytes": 559,
+      "cache_name": "gigaevo-metrics.yaml",
+      "cache_path": "campaign/c3_asset_recovery/cache/gigaevo-metrics.yaml",
+      "classification": "C3 metric declaration; no frozen output",
+      "commit": "0f2b866543089a6054f57f1a71eb615a55d89348",
+      "license": "MIT",
+      "repository": "FusionBrainLab/gigaevo-core",
+      "sha256": "fc7d3c3499d412f75b8921994dc3041da4759702c787eba86619d72ae2c67e3e",
+      "url": "https://raw.githubusercontent.com/FusionBrainLab/gigaevo-core/0f2b866543089a6054f57f1a71eb615a55d89348/problems/alphaevolve/third_autocorr_ineq/metrics.yaml"
+    },
+    "openevolve_initial": {
+      "bytes": 3539,
+      "cache_name": "openevolve-initial.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/openevolve-initial.py",
+      "classification": "n=400 C3 JAX starter only; no frozen evolved output",
+      "commit": "411fb59c886c18704caaffb611e17cf9e7d824d2",
+      "license": "Apache-2.0",
+      "repository": "algorithmicsuperintelligence/openevolve",
+      "sha256": "33b723258a2354b489e89e94e8fb3dae89442f362fcfaaf7f6d5cbf2d125adbb",
+      "url": "https://raw.githubusercontent.com/algorithmicsuperintelligence/openevolve/411fb59c886c18704caaffb611e17cf9e7d824d2/examples/alphaevolve_math_problems/third_autocorr_ineq/initial_program.py"
+    },
+    "shinkaevolve_initial": {
+      "bytes": 1660,
+      "cache_name": "shinkaevolve-initial.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/shinkaevolve-initial.py",
+      "classification": "random-search starter only; no frozen evolved output",
+      "commit": "d4e9b9d43e8a2df186d32f2e52d2db7183115b3e",
+      "license": "NOASSERTION (GitHub reports no repository license)",
+      "repository": "jaumededios/ShinkaYale",
+      "sha256": "d0b0088a7179fe57f1ac8de064b38869de4a471e34172873650a11b9f54d1bd2",
+      "url": "https://raw.githubusercontent.com/jaumededios/ShinkaYale/d4e9b9d43e8a2df186d32f2e52d2db7183115b3e/Examples_Shinkaevolve/4_2_third_autocorrelation_solution/initial.py"
+    },
+    "simpletes_program": {
+      "bytes": 9533,
+      "cache_name": "simpletes-program.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/simpletes-program.py",
+      "classification": "published search program with frozen construction above",
+      "commit": "a19a54b109db6185ab1f13dd59dd150074b24136",
+      "license": "GNU AGPL-3.0-or-later",
+      "repository": "wq-will/SimpleTES",
+      "sha256": "c5fde1649ded92ac9b3c6d1ff1095aa312be42706babdecf6bc03fcff69cc70e",
+      "url": "https://raw.githubusercontent.com/wq-will/SimpleTES/a19a54b109db6185ab1f13dd59dd150074b24136/best_results/mathematics_discovery/third_autocorrelation_inequality/third_autocorrelation_inequality_best.py"
+    },
+    "theta_1_5b_no_rl": {
+      "bytes": 6189,
+      "cache_name": "theta-1.5B-wo-RL-600.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/theta-1.5B-wo-RL-600.py",
+      "classification": "program paired with frozen data.json construction",
+      "commit": "7c12898f5d7627af403e3aca643af76199fb5c20",
+      "license": "Apache-2.0",
+      "repository": "ypwang61/ThetaEvolve",
+      "sha256": "1d7ce3f208e161b65ebba78274d0c0203f81fd52adbf2d580351315858c1c379",
+      "url": "https://raw.githubusercontent.com/ypwang61/ThetaEvolve/7c12898f5d7627af403e3aca643af76199fb5c20/Results/ThirdAutoCorrIneq/programs/1.5B-wo_RL@600.py"
+    },
+    "theta_1_5b_rl": {
+      "bytes": 4705,
+      "cache_name": "theta-1.5B-w-RL-200.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/theta-1.5B-w-RL-200.py",
+      "classification": "program paired with frozen data.json construction",
+      "commit": "7c12898f5d7627af403e3aca643af76199fb5c20",
+      "license": "Apache-2.0",
+      "repository": "ypwang61/ThetaEvolve",
+      "sha256": "e293c8edcb294a4b6190209d633cc8d77936ce908ecc8f0ad27b992543c12cb5",
+      "url": "https://raw.githubusercontent.com/ypwang61/ThetaEvolve/7c12898f5d7627af403e3aca643af76199fb5c20/Results/ThirdAutoCorrIneq/programs/1.5B-w_RL@200.py"
+    },
+    "theta_8b_no_rl": {
+      "bytes": 6572,
+      "cache_name": "theta-8B-wo-RL-100.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/theta-8B-wo-RL-100.py",
+      "classification": "program paired with frozen data.json construction",
+      "commit": "7c12898f5d7627af403e3aca643af76199fb5c20",
+      "license": "Apache-2.0",
+      "repository": "ypwang61/ThetaEvolve",
+      "sha256": "52eb61b4b9432b7090b3bc8f1289d39c8ca0e915222ba152eb2615529733f644",
+      "url": "https://raw.githubusercontent.com/ypwang61/ThetaEvolve/7c12898f5d7627af403e3aca643af76199fb5c20/Results/ThirdAutoCorrIneq/programs/8B-wo_RL@100.py"
+    },
+    "theta_8b_rl": {
+      "bytes": 12455,
+      "cache_name": "theta-8B-w-RL-65.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/theta-8B-w-RL-65.py",
+      "classification": "program paired with frozen data.json construction",
+      "commit": "7c12898f5d7627af403e3aca643af76199fb5c20",
+      "license": "Apache-2.0",
+      "repository": "ypwang61/ThetaEvolve",
+      "sha256": "0113766d5196a6bacb99df79c8d657349d54ff999ba6da5deb9fbc944e6d95ab",
+      "url": "https://raw.githubusercontent.com/ypwang61/ThetaEvolve/7c12898f5d7627af403e3aca643af76199fb5c20/Results/ThirdAutoCorrIneq/programs/8B-w_RL@65.py"
+    },
+    "theta_init": {
+      "bytes": 3150,
+      "cache_name": "theta-Init.py",
+      "cache_path": "campaign/c3_asset_recovery/cache/theta-Init.py",
+      "classification": "program paired with frozen data.json construction",
+      "commit": "7c12898f5d7627af403e3aca643af76199fb5c20",
+      "license": "Apache-2.0",
+      "repository": "ypwang61/ThetaEvolve",
+      "sha256": "9ba0e740d5b68326110af878a04a6aa404ff4fdf2d38d3b4300d793473f23c7a",
+      "url": "https://raw.githubusercontent.com/ypwang61/ThetaEvolve/7c12898f5d7627af403e3aca643af76199fb5c20/Results/ThirdAutoCorrIneq/programs/Init.py"
+    }
+  },
+  "schema": 1,
+  "topology_transfer": {
+    "reason": "no distinct recovered construction is competitive with the frozen local frontier",
+    "run": false
+  },
+  "verifier": {
+    "path": "campaign/state/problems/third-autocorrelation-inequality/b8288d5943d72032f1d2bcf5d8a3b3a00cfd428ae0347a26bfc53974ec7ebce9.py",
+    "sha256": "b8288d5943d72032f1d2bcf5d8a3b3a00cfd428ae0347a26bfc53974ec7ebce9"
+  }
+}

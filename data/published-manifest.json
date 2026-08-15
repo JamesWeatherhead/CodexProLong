@@ -16,6 +16,11 @@
       "sha256": "a9590bb9e123797db93017af6e915cd63cbad0bc19b12f6a5e83b78068a0b78f"
     },
     {
+      "bytes": 27963,
+      "path": "artifacts/evidence/c3-asset-recovery.json",
+      "sha256": "eb30759a6d795fb318012c921163f48b906deaae150f48965b71f1620f1b0ba0"
+    },
+    {
       "bytes": 6149,
       "path": "artifacts/evidence/difference-global-audit.json",
       "sha256": "6d216d29734e88a0f3eb5b7aeba74347818b0648e66039ef7b777f3d20d44fd3"
@@ -504,6 +509,26 @@
       "bytes": 21179,
       "path": "src/campaign/c2_simpletes_transfer/transfer_search.py",
       "sha256": "257c6bb023a8cafbf4c0bbf9cc7f1d261d1561641db0d62e8e67f378233bdb88"
+    },
+    {
+      "bytes": 3105,
+      "path": "src/campaign/c3_asset_recovery/HANDOFF.md",
+      "sha256": "a0f8e4a4fb6b12495f09b166ef78f322e98ed90358a68082075992c5ed68a288"
+    },
+    {
+      "bytes": 3260,
+      "path": "src/campaign/c3_asset_recovery/README.md",
+      "sha256": "eeb0f8e7336cb44397c302d3fe73e01f8511d4ff070b6c4a38bcd4f82f44c518"
+    },
+    {
+      "bytes": 29384,
+      "path": "src/campaign/c3_asset_recovery/asset_replay.py",
+      "sha256": "15440fa62bb893b2d704d6e26a98bd29557e7e982f98a05bc3aaabb2dffc6f3a"
+    },
+    {
+      "bytes": 3390,
+      "path": "src/campaign/c3_asset_recovery/replay_local.py",
+      "sha256": "9ff511799f172a6e87cd99079ac39c55021be95c7bc704ef2c372da60008262e"
     },
     {
       "bytes": 5252,

@@ -95,6 +95,7 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "c2-asset-recovery": "c2_asset_recovery/receipt.json",
     "c2-simpletes-transfer": "c2_simpletes_transfer/receipt.json",
     "c2-simpletes-repeat-probe": "c2_simpletes_transfer/repeat_probe.json",
+    "c3-asset-recovery": "c3_asset_recovery/receipt.json",
     "kissing-d11-594-exact-audit": "kissing_d11_594_audit/receipt.json",
 }
 FRONTIER_RECEIPTS = {
@@ -118,7 +119,7 @@ METHODS = {
     "prime-number-theorem": "Changed-reach cutting planes produce evaluated solution #2506 at 0.9976572852677297. An exact rational sweep covers every real state in the advertised verifier horizon; a global all-x proof remains open.",
     "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. The recovered comb aligns above 0.996 with the incumbent envelope after registration, and the entire transfer gained only 2.03e-9, leaving a 9.9913e-6 gate gap.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
-    "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation reach 1.4515653850221024; the frozen payload improves the pre-topology basin by 2.15e-8 but remains 3.52e-6 short of the gate.",
+    "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation reach 1.4515653850221024, still 3.52e-6 short of the gate. A commit-pinned audit replayed 25 public artifacts and ten payloads; the best distinct seed was 0.00211008 worse, while the strongest high-resolution asset exactly duplicated public submissions.",
     "thomson-problem": "48 topology-changing seeds and exact tangent polishing return to the defect-minimal basin; no gate-clearer yet.",
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
 }
@@ -135,7 +136,7 @@ SOURCE_ENTRYPOINTS = {
     "kissing-number-d12": "geometry/kissing_d12/HANDOFF.md",
     "prime-number-theorem": "discrete/prime_number_theorem/HANDOFF.md",
     "second-autocorrelation-inequality": "c2_simpletes_transfer/HANDOFF.md",
-    "third-autocorrelation-inequality": "c3_root/TOPOLOGY_ESCAPE_HANDOFF.md",
+    "third-autocorrelation-inequality": "c3_asset_recovery/HANDOFF.md",
 }
 ROOT_SOURCE_FILES = (
     "AGENTS.md",
@@ -153,6 +154,7 @@ SOURCE_FAMILIES = (
     "analytic",
     "c2_asset_recovery",
     "c2_simpletes_transfer",
+    "c3_asset_recovery",
     "c1_root",
     "c2_root",
     "c3_root",
