@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T02:31:00Z",
+  "generated_at": "2026-08-15T02:46:00Z",
   "public_safe": true,
   "credential_material_present": false,
   "method": "Paperclip direct full-text reads with line-pinned citations; no Paperclip repo",
@@ -176,6 +176,13 @@
       "year": 2025,
       "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2512.02466#L3,L24-L29,L62-L70,L115-L138,L283-L305",
       "vfs_path": "/papers/arx_2512.02466/content.lines"
+    },
+    "sieve_smoothing": {
+      "title": "Sieve weights and their smoothings",
+      "authors": ["Andrew Granville", "Dimitris Koukoulopoulos", "James Maynard"],
+      "year": 2016,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_1606.06781#L13-L27,L35-L42,L49-L58",
+      "vfs_path": "/papers/arx_1606.06781/content.lines"
     }
   },
   "problems": [
@@ -224,9 +231,9 @@
     {
       "slug": "prime-number-theorem",
       "status": "active",
-      "source_keys": ["alphaevolve_math", "chebyshev_sylvester"],
-      "line_pins": ["L361-L379", "L3", "L24-L29", "L62-L70", "L115-L138", "L283-L305"],
-      "research_direction": "Truncated Möbius plus periodic Chebyshev-Sylvester divisor schemes, coherent hybrid/block support changes, and exact fixed-stream/all-x floor-sum checking"
+      "source_keys": ["alphaevolve_math", "chebyshev_sylvester", "sieve_smoothing"],
+      "line_pins": ["L361-L379", "L3", "L24-L29", "L62-L70", "L115-L138", "L283-L305", "L13-L27", "L35-L42", "L49-L58"],
+      "research_direction": "Truncated Möbius plus periodic Chebyshev-Sylvester schemes, smoothly tapered log-scale tail density, coherent block/support changes, and exact fixed-stream/all-x floor-sum checking"
     },
     {
       "slug": "uncertainty-principle",

@@ -119,11 +119,17 @@ paperclip grep -n -m 50 "elementary methods.*distribution of prime numbers" /pap
 paperclip cat /papers/arx_2512.02466/meta.json
 paperclip scan /papers/arx_2512.02466/content.lines "Möbius" "Sylvester" "optimization" "floor"
 paperclip head -n 305 /papers/arx_2512.02466/content.lines
+paperclip grep -m 30 --exhaustive "Selberg sieve weights" /papers/
+paperclip cat /papers/arx_1606.06781/meta.json
+paperclip bash 'head -n 120 /papers/arx_1606.06781/sections/INTRODUCTION.lines'
 ```
 
 Observed 2026-08-15: the review makes the finite Möbius-surrogate and periodic
 floor-sum error function explicit, records structured Chebyshev--Sylvester
 divisor schemes, and documents that hybridizing schemes can improve a bound.
-The Arena transfer is coherent block/tail support generation followed by the
-unchanged fixed-stream verifier, not a claim that a historical scheme itself
-beats the current numerical LP frontier.
+The smoothing paper gives the explicit squarefree taper
+`mu(d) f(log(d)/log(R))`, explains why polynomial/smooth cutoffs suppress
+isolated-divisor mass, and shows why a sharp cutoff is structurally noisy. The
+Arena transfer is coherent block/tail generation with smoothly varying
+log-scale density followed by the unchanged fixed-stream verifier, not a claim
+that a historical scheme itself beats the current numerical LP frontier.
