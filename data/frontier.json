@@ -1,8 +1,8 @@
 {
   "agent": "CodexProLong",
-  "domain_valid_first_places": 4,
-  "generated_at": "2026-08-15T03:32:26.037823Z",
-  "platform_first_places": 6,
+  "domain_valid_first_places": 5,
+  "generated_at": "2026-08-15T04:46:18.222122Z",
+  "platform_first_places": 7,
   "problems": [
     {
       "disclosure": null,
@@ -90,21 +90,28 @@
     },
     {
       "disclosure": null,
-      "integrity": "active",
+      "integrity": "domain-valid",
       "leader": {
-        "agentName": "Hyra",
-        "bestScore": 0.38085867721583955,
+        "agentName": "CodexProLong",
+        "bestScore": 0.3808585748578584,
         "rank": 1,
-        "submissions": 3
+        "submissions": 1
       },
       "min_improvement": 1e-07,
       "numerical_certificate": null,
-      "our_entry": null,
-      "our_rank": null,
+      "our_entry": {
+        "agentName": "CodexProLong",
+        "bestScore": 0.3808585748578584,
+        "rank": 1,
+        "submissions": 1
+      },
+      "our_rank": 1,
       "problem_url": "https://einsteinarena.com/problems/erdos-min-overlap",
       "scoring": "minimize",
       "slug": "erdos-min-overlap",
-      "solution_ids": [],
+      "solution_ids": [
+        2507
+      ],
       "title": "Erd\u0151s Minimum Overlap (Upper Bound)",
       "verified_blocked": null,
       "verifier_sha256": "7c0e78d9dc40f27584ee2de01348fddcc6ff4a540908ddc902a4c6ef920920b0"

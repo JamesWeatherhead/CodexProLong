@@ -20,6 +20,7 @@ SOLUTION_IDS = {
     "kissing-number-d11-605": [2500],
     "first-autocorrelation-inequality": [2504],
     "uncertainty-principle": [2505],
+    "erdos-min-overlap": [2507],
 }
 DISCLOSURES = {"tammes-problem": "verifier/domain mismatch: one point is not on S^2"}
 NUMERICAL_CERTIFICATES = {
@@ -52,6 +53,7 @@ WIN_ARTIFACTS = {
     "kissing-number-d11-605": "geometry/runs/20260814T225229Z/kissing-number-d11-605/best.json",
     "first-autocorrelation-inequality": "c1_root/runs/20260814T232455Z/candidate.json",
     "uncertainty-principle": "analytic/payloads/uncertainty-k25-frozen-20260814T234458Z.json",
+    "erdos-min-overlap": "analytic/erdos_global/slp_runs/20260815T043300Z-n3584-margin03/best.json",
 }
 WIN_RECEIPTS = {
     "prime-number-theorem": "state/receipts/prime-number-theorem/20260815T032933818594Z-4082fb8c9b71.json",
@@ -59,12 +61,12 @@ WIN_RECEIPTS = {
     "kissing-number-d11-605": "state/receipts/kissing-number-d11-605/20260814T225509786111Z-89fad32eba9b.json",
     "first-autocorrelation-inequality": "state/receipts/first-autocorrelation-inequality/20260814T232734823043Z-e3f90379fb5a.json",
     "uncertainty-principle": "state/receipts/uncertainty-principle/20260814T234525289383Z-12590e6c26a7.json",
+    "erdos-min-overlap": "state/receipts/erdos-min-overlap/20260815T043510990584Z-43d6096c5ebd.json",
 }
 FRONTIER_ARTIFACTS = {
     "circle-packing": "geometry/circle_packing_topology/runs/20260815T021013Z/topologies/1a3ddda1ed2e3083/candidate.json",
     "circles-rectangle": "geometry/rectangle_topology/runs/20260815T022200Z/stochastic_relax/topologies/cdea3037dafa48f9/candidate.json",
     "edges-vs-triangles": "discrete/edges_vs_triangles/runs/20260815T023100Z/global_dp/candidate.json",
-    "erdos-min-overlap": "analytic/erdos_global/slp_runs/20260815T063000Z-n3584-trust25e5/best.json",
     "heilbronn-triangles": "geometry/runs/20260814T231710Z/heilbronn-triangles/best.json",
     "min-distance-ratio-2d": "geometry/runs/20260814T231106Z/min-distance-ratio-2d/best.json",
     "second-autocorrelation-inequality": "analytic/c2_global_topology/runs/20260815T041000Z-terminal-split/best.npy",
@@ -93,6 +95,7 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "c2-asset-recovery": "c2_asset_recovery/receipt.json",
     "c2-simpletes-transfer": "c2_simpletes_transfer/receipt.json",
     "c2-simpletes-repeat-probe": "c2_simpletes_transfer/repeat_probe.json",
+    "kissing-d11-594-exact-audit": "kissing_d11_594_audit/receipt.json",
 }
 FRONTIER_RECEIPTS = {
     "edges-vs-triangles": "state/receipts/edges-vs-triangles/20260815T024004430186Z-c71bc6912f5a.json",
@@ -103,11 +106,11 @@ METHODS = {
     "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. A primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 93 rigid polished classes; its strongest noncanonical endpoint remained 0.001584 below the gate.",
     "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109. A separate Paperclip-derived quadratic relative-difference-set campaign tested 2,400 global starts, 16 coordinate descents, and 121,111 exact sparse-patch births; finite-group coverage collapsed under integer carry ordering.",
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
-    "erdos-min-overlap": "Independent literal-verifier replay of the n=3,584 active-bundle SLP reaches 0.38085862169567786, improving the public leader by 5.55e-8 but remaining 4.45e-8 short of the gate; a bounded n=64 Shor–McCormick/SROCR lift extracted only worse feasible basins.",
+    "erdos-min-overlap": "Active-bundle sequential linear programming over n=3,584 coordinates crossed the strict 1e-7 gate after 58 exact-accepted stages. Independent literal replay and evaluated solution #2507 agree at 0.3808585748578584.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
     "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools now cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals; the unrecovered 72/115 PSL-4 tables remain the strongest finite lead.",
     "heilbronn-triangles": "100-digit active root, 462 topology trials, complete q=25 lattice proof, partial q=30 proof, and adaptive q=143 SAT cores.",
-    "kissing-number-d11": "The live score 0 is the exact objective floor; no strict numerical improvement below zero exists under this verifier.",
+    "kissing-number-d11": "An exhaustive exact-rational audit verifies public solution #1492 as a genuine 594-vector score-0 construction over all 176,121 pairs. Zero is the objective floor, and the live API assigns later exact ties ordinal ranks rather than joint first place.",
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
     "kissing-number-d12": "Published 841-code replays at exact verifier score 0 with 1.24497e-7 distance-squared margin; submission is blocked by HTTP 409, tracked in issue #59.",
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
@@ -127,6 +130,7 @@ SOURCE_ENTRYPOINTS = {
     "erdos-min-overlap": "analytic/erdos_global/HANDOFF.md",
     "flat-polynomials": "analytic/flat_global/HANDOFF.md",
     "heilbronn-triangles": "geometry/heilbronn_bnb/HANDOFF.md",
+    "kissing-number-d11": "kissing_d11_594_audit/README.md",
     "min-distance-ratio-2d": "geometry_asset_recombine/HANDOFF.md",
     "kissing-number-d12": "geometry/kissing_d12/HANDOFF.md",
     "prime-number-theorem": "discrete/prime_number_theorem/HANDOFF.md",
@@ -157,6 +161,7 @@ SOURCE_FAMILIES = (
     "geometry",
     "literature_asset_hunt",
     "geometry_asset_recombine",
+    "kissing_d11_594_audit",
     "research_corpus",
     "schema_gap_audit",
 )

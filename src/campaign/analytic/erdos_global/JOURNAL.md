@@ -89,3 +89,25 @@ The tested lift is therefore frozen as a negative global-topology route.  It
 does not rule out a materially tighter lift that explicitly breaks the
 constant-function symmetry, but increasing coarse resolution inside this
 same relaxation is not supported by the n=32 and n=64 trajectories.
+
+## 2026-08-15 gate-clearing continuation
+
+- Resumed `slp_runs/20260815T063000Z-n3584-trust25e5/best.json` at exact
+  score `0.38085862169567786`.
+- `slp_runs/20260815T024500Z-n3584-adaptive60/` accepted 56 consecutive
+  literal-`np.correlate` relinearized steps at trust `2.5e-4`; its first
+  crossing scored `0.3808585771560596`, only `5.98e-11` below the gate.
+- Bounded matched probes at trust `5e-4`, `1.875e-4`, and `1.25e-4` were
+  checkpointed.  The smaller radii had short early advantages but did not
+  beat the retained `2.5e-4` path at mature matched stage counts.
+- Three chained one-stage margin runs lowered the frozen score to
+  `0.3808585748578583`, safely `2.3579812546969947e-9` below the strict gate.
+- Fresh independent literal and frozen-verifier replay agreed exactly.
+  `./arena verify` also returned `0.3808585748578583`, leader improvement
+  `1.0235798125757256e-7`, raw artifact SHA-256
+  `79d2122c7e62e6a07feaeb708fa2b1b4c072caa812693ce6b2d31c01cc60c3ee`,
+  and candidate SHA-256
+  `43d6096c5ebd143a03f56e5c07de335e2c1b64bf3485336633df16d7f8257db6`.
+- Final controller receipt:
+  `state/receipts/erdos-min-overlap/20260815T043446856333Z-43d6096c5ebd.json`.
+- No submission, post, vote, registration, or other Arena mutation was made.

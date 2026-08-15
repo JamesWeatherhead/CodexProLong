@@ -1,26 +1,33 @@
 # Erdős global-lane handoff — 2026-08-15
 
-No gate-clearing construction was found.  This lane made public GET requests
-only; it did not submit, post, vote, register, or mutate any Arena state.
+A gate-clearing construction was found and independently replayed.  This lane
+made public GET requests and local controller verification calls only; it did
+not submit, post, vote, register, or otherwise mutate Arena state.
 
 ## Live gate and best local construction
 
-The live API was refreshed at `2026-08-15T02:27:51Z`.  Leader #2440 remains
+The controller snapshot was refreshed at `2026-08-15T03:32:26.037823Z`.
+Leader #2440 remains
 `0.38085867721583955`, `minImprovement` remains `1e-7`, and the strict gate is
 therefore score `< 0.38085857721583954`.  The live verifier SHA-256 still is:
 
 `7c0e78d9dc40f27584ee2de01348fddcc6ff4a540908ddc902a4c6ef920920b0`
 
-The frozen n=3584 local frontier is:
+The frozen n=3584 gate-clearer is:
 
-- payload: `slp_runs/20260815T063000Z-n3584-trust25e5/best.json`
+- payload: `slp_runs/20260815T043300Z-n3584-margin03/best.json`
 - payload SHA-256:
-  `1d319d75970d206a92996934b0a8aa283d772cf9c4db23f854cad471e87a99d3`
-- exact verbatim-verifier score: `0.38085862169567786`
-- improvement over #2440: `5.552016169030338e-8`
-- remaining strict-gate gap: `4.4479838312572184e-8`
-- domain: 3,584 finite values, sum exactly 1,792, range
-  `[2.1693819491119065e-15, 0.9999999999999826]`.
+  `79d2122c7e62e6a07feaeb708fa2b1b4c072caa812693ce6b2d31c01cc60c3ee`
+- exact independent and controller-verifier score: `0.3808585748578583`
+- improvement over #2440: `1.0235798125757256e-7`
+- safety below the strict gate: `2.3579812546969947e-9`
+- domain: 3,584 finite values, normalized sum exactly 1,792, raw sum
+  `1792.0000000000005`, and range
+  `[1.8002169585663917e-15, 0.9999999999999839]`.
+- controller candidate SHA-256:
+  `43d6096c5ebd143a03f56e5c07de335e2c1b64bf3485336633df16d7f8257db6`
+- controller receipt:
+  `../../state/receipts/erdos-min-overlap/20260815T043446856333Z-43d6096c5ebd.json`
 
 `independent_replay.py` imports none of the optimization code.  It both
 executes the frozen server verifier verbatim and independently evaluates the
@@ -28,14 +35,11 @@ literal float64 `np.correlate` path, requiring the two scores to be equal:
 
 ```bash
 cd /Users/jacweath/EinsteinArena
-.venv/bin/python campaign/analytic/erdos_global/independent_replay.py
-```
-
-The public mirror packages the same payload with a compact frozen-verifier
-snapshot, so the same replay is also self-contained from its repository root:
-
-```bash
-python3 src/campaign/analytic/erdos_global/independent_replay.py
+.venv/bin/python campaign/analytic/erdos_global/independent_replay.py \
+  --payload campaign/analytic/erdos_global/slp_runs/20260815T043300Z-n3584-margin03/best.json
+cd campaign
+./arena verify erdos-min-overlap \
+  analytic/erdos_global/slp_runs/20260815T043300Z-n3584-margin03/best.json
 ```
 
 The machine-readable result is `replay_receipt.json`.  The snapshot SHA-256
@@ -43,12 +47,15 @@ is `84a2322ab4cf15b7f89d795e6032b62b39ccd4a8e4b258360998c611f16dcb25`.
 
 ## Local continuation frontier
 
-The literal-correlation active-bundle SLP lowered the n=3584 smooth seed from
-`0.3808588431595513` to the construction above.  Its final stage had
-2,466--2,469 active signed lags and five consecutive accepted gains of about
-`0.85e-9`--`1.19e-9` at trust radius `2.5e-4`.  This is an empirical bounded
-frontier, not a proof of local or global optimality.  It is below the public
-leader but does not meet the platform's required `1e-7` improvement.
+The literal-correlation active-bundle SLP resumed the prior n=3584 frontier at
+`0.38085862169567786`.  Run
+`slp_runs/20260815T024500Z-n3584-adaptive60/` accepted all 56 relinearized
+steps and first crossed at `0.3808585771560596`.  Because that was only
+`5.98e-11` below the gate, three independently checkpointed one-stage margin
+runs (`margin01` through `margin03`) lowered the score to the frozen result
+above.  Trust probes at `5e-4`, `1.875e-4`, and `1.25e-4` were checkpointed;
+none beat the retained `2.5e-4` path at matched mature stage counts.  This is
+an empirical bounded frontier, not a proof of local or global optimality.
 
 ## Lifted seed comparison
 

@@ -20,9 +20,9 @@ SOURCE_ROOT = Path(__file__).resolve().parents[3]
 PUBLIC_ROOT = SOURCE_ROOT.parent if SOURCE_ROOT.name == "src" else SOURCE_ROOT
 SOURCE_PAYLOAD = SOURCE_ROOT / (
     "campaign/analytic/erdos_global/slp_runs/"
-    "20260815T063000Z-n3584-trust25e5/best.json"
+    "20260815T043300Z-n3584-margin03/best.json"
 )
-PUBLIC_PAYLOAD = PUBLIC_ROOT / "artifacts/frontier/erdos-min-overlap.json"
+PUBLIC_PAYLOAD = PUBLIC_ROOT / "artifacts/wins/erdos-min-overlap.json"
 DEFAULT_PAYLOAD = SOURCE_PAYLOAD if SOURCE_PAYLOAD.is_file() else PUBLIC_PAYLOAD
 SOURCE_SNAPSHOT = SOURCE_ROOT / (
     "campaign/erdos_root/snapshots/"

@@ -56,6 +56,11 @@
       "sha256": "3017ecf92621662b682356a4b0fff6bc314e7a05cbeb5be3278889eb9bb1fc10"
     },
     {
+      "bytes": 3668,
+      "path": "artifacts/evidence/kissing-d11-594-exact-audit.json",
+      "sha256": "7e8ffcd9d1984c9ceb64c5f7c6674240c79b128a14dc8960cf687c1367cce5e9"
+    },
+    {
       "bytes": 936,
       "path": "artifacts/evidence/kissing-number-d12.json",
       "sha256": "114e9f053800d24c1222e3a02f5347f547ca855e89dd6d4aa0101a8f3b33b023"
@@ -86,11 +91,6 @@
       "sha256": "5754da3a85e78445fe5eebde5295de3ff28d00ed180e339de0e615b63868bfc4"
     },
     {
-      "bytes": 89702,
-      "path": "artifacts/frontier/erdos-min-overlap.json",
-      "sha256": "1d319d75970d206a92996934b0a8aa283d772cf9c4db23f854cad471e87a99d3"
-    },
-    {
       "bytes": 702,
       "path": "artifacts/frontier/heilbronn-triangles.json",
       "sha256": "bb81f8055ff6bcf8127d0bf81f694aa78986b8fd5e2d8fe41b92c81b9c658850"
@@ -116,14 +116,19 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 37591,
+      "bytes": 40081,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "40668466899b1de44a169fb30b24fce96a9e34f23d8b9eb8d8ea3ce10fa9cd3d"
+      "sha256": "50cb0a03629e9e558214c33e250e9fc7d3f5d8dd689337dbb170cd785d1caf0f"
     },
     {
       "bytes": 715,
       "path": "artifacts/receipts/edges-vs-triangles.json",
       "sha256": "8694602e9d1d5de692fba69329d4800505a3f9cc687e52dae8d14c2461b8e2a9"
+    },
+    {
+      "bytes": 704,
+      "path": "artifacts/receipts/erdos-min-overlap.json",
+      "sha256": "337847494c90f6e96d5f66bf42455bdc92827bb544200cc354f081e43a1e6376"
     },
     {
       "bytes": 740,
@@ -159,6 +164,11 @@
       "bytes": 1476,
       "path": "artifacts/verifiers/erdos-min-overlap.json",
       "sha256": "b63558902b32cff5b52f7dd8d3d7d66b77ef9fc382e6b643f92a22f5033fdefe"
+    },
+    {
+      "bytes": 89735,
+      "path": "artifacts/wins/erdos-min-overlap.json",
+      "sha256": "79d2122c7e62e6a07feaeb708fa2b1b4c072caa812693ce6b2d31c01cc60c3ee"
     },
     {
       "bytes": 997352,
@@ -311,9 +321,9 @@
       "sha256": "895f5a347144e64c494820f78da1715f23990a578c4378bfdfb3aef7769ba35c"
     },
     {
-      "bytes": 4185,
+      "bytes": 4181,
       "path": "src/campaign/analytic/erdos_global/independent_replay.py",
-      "sha256": "761066354c5bee86786fe63e71e5ccb197b70fb9228be4b5e1d364e81c082201"
+      "sha256": "e91a2c7736f767141aaf7be7d394e1002cdcf2af80a5bc302c9dac3b4cbee873"
     },
     {
       "bytes": 10657,
@@ -1131,6 +1141,21 @@
       "sha256": "b3349229e567c74d471eb6ccfe539785837cb62659c7ee551fd6a7219e4bf2c9"
     },
     {
+      "bytes": 2365,
+      "path": "src/campaign/kissing_d11_594_audit/LICENSES.md",
+      "sha256": "7fda70c31c5a78319252160f318a6764197bc48f114705446ee8c5ffa15ac48d"
+    },
+    {
+      "bytes": 6670,
+      "path": "src/campaign/kissing_d11_594_audit/README.md",
+      "sha256": "ea40c1e05811605fe67b76686063ff7ce469f6e2c3c1e34bbf2d5b97e99b6648"
+    },
+    {
+      "bytes": 23016,
+      "path": "src/campaign/kissing_d11_594_audit/audit.py",
+      "sha256": "b6662d0bcaaf6993f09ab75593189fc1c7a9690cba3f677cd3c8df7d1aaaabaf"
+    },
+    {
       "bytes": 7611,
       "path": "src/campaign/literature_asset_hunt/HANDOFF.md",
       "sha256": "0b88030657f64227c55d8a84d9757ae07556bbfcefd0551179f00585d1aa1816"
@@ -1186,5 +1211,5 @@
       "sha256": "8ffd7435d2c9f12d852c61e6f44ce77d0d64f7a51fdac12bf72b662b90b49c6c"
     }
   ],
-  "generated_at": "2026-08-15T03:32:26.037823Z"
+  "generated_at": "2026-08-15T04:46:18.222122Z"
 }

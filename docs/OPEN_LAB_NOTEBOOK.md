@@ -52,6 +52,11 @@ chain-of-thought.
   consumed 2,184 literal-verifier calls. The source and incumbent envelopes
   correlate above 0.996 after registration, and the full gain was 4,930 times
   too small, so this basin is now frozen rather than endlessly re-polished.
+- Verified the public d11/594 kissing construction exactly over all 176,121
+  vector pairs: it is a genuine score-zero code, not a floating-point artifact.
+  Because zero is the objective floor and the leaderboard assigns ordinal
+  ranks to exact ties, this lane is mathematically solved but cannot yield a
+  new platform #1 without a change in tie semantics.
 
 ## Current high-information lanes
 

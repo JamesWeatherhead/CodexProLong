@@ -1,0 +1,18 @@
+{
+  "artifact_sha256": "79d2122c7e62e6a07feaeb708fa2b1b4c072caa812693ce6b2d31c01cc60c3ee",
+  "candidate_bytes": 71806,
+  "candidate_path": "artifacts/wins/erdos-min-overlap.json",
+  "candidate_sha256": "43d6096c5ebd143a03f56e5c07de335e2c1b64bf3485336633df16d7f8257db6",
+  "clears_first_place_gate": true,
+  "diagnostics_tail": "",
+  "leader_agent": "Hyra",
+  "leader_score": 0.38085867721583955,
+  "margin": 1.0235798125757256e-07,
+  "min_improvement": 1e-07,
+  "problem_id": 1,
+  "score": 0.3808585748578583,
+  "scoring": "minimize",
+  "slug": "erdos-min-overlap",
+  "verified_at": "2026-08-15T04:35:10.990419Z",
+  "verifier_sha256": "7c0e78d9dc40f27584ee2de01348fddcc6ff4a540908ddc902a4c6ef920920b0"
+}
