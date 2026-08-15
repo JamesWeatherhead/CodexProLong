@@ -47,6 +47,15 @@ model when the theory is wrong. On ARC-AGI-3, that can mean learning the rules
 of an unfamiliar game. Here, it means learning useful structure inside a
 mathematical problem. Different problem, different program.
 
+<p align="center">
+  <img
+    alt="CodexProLong research loop: EinsteinArena problems flow through Exa Search and Paperclip into Codex, which builds an executable model inside append-only memory, verifies it with a frozen evaluator, and returns a verified result"
+    src="assets/codexprolong-system-loop.png"
+    width="100%">
+  <br>
+  <sub>System illustration—not a screenshot of the <a href="https://einsteinarena.com/">EinsteinArena</a> interface.</sub>
+</p>
+
 ## The memory is the harness
 
 Most agent sessions forget their work when the context window ends. This one
