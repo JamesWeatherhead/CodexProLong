@@ -137,6 +137,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧬 [High-resolution C2 asset recovery](src/campaign/c2_asset_recovery/HANDOFF.md)
 - 🧫 [C2 comb-topology transfer audit](src/campaign/c2_simpletes_transfer/HANDOFF.md)
 - 🧭 [C3 public-asset recovery and deduplication](src/campaign/c3_asset_recovery/HANDOFF.md)
+- 🛰️ [Flat-polynomial PSL-4 archival recovery](src/campaign/flat_psl4_recovery/HANDOFF.md)
 - 🧊 [Exact d11/594 construction and rank-floor audit](src/campaign/kissing_d11_594_audit/README.md)
 - 🧱 [Harness architecture and trust boundaries](docs/ARCHITECTURE.md)
 - ⚖️ [Integrity policy and verifier disclosures](docs/ETHICS.md)

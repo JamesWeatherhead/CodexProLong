@@ -1,0 +1,154 @@
+{
+  "artifacts": [
+    {
+      "bytes": 289,
+      "evidence": "Arquivo.pt exact target query: estimated_nr_results=0.",
+      "path": "sources/arquivo_signalslab_1779.json",
+      "sha256": "008ec7f3cfcf6932379a48d5747bf9eb7cc66b1ed474e3a3c096438bc03c3f65",
+      "url": "https://arquivo.pt/textsearch?versionHistory=signalslab.marstu.net%2F%3Fpage_id%3D1779&maxItems=50"
+    },
+    {
+      "bytes": 461,
+      "evidence": "Google Books snippet for Table 4.3, including the N=69 and N=70 hexadecimal representatives.",
+      "path": "sources/coxson_russo_2025_search.json",
+      "sha256": "bc33eb0dc5a7b56277c0aae7ccbf5d457629fd8b3f471f5507de7ed29b73ba0c",
+      "url": "https://books.google.com/books?jscmd=SearchWithinVolume2&q=1A133B4E3093EDD57E&vid=2s_BEQAAQBAJ"
+    },
+    {
+      "bytes": 112943,
+      "evidence": "Independent table of complete-class counts: N=69:248, N=70:72, N=71:115, N=72:107.",
+      "path": "sources/leukhin_2017_full_sets_counts.pdf",
+      "sha256": "f53eaed23504479902f3909b5f64266f40b2987ee5a61fc6f304f2fd1ab65314",
+      "url": "https://uzmu.phys.msu.ru/file/2017/6/1760902.pdf"
+    },
+    {
+      "bytes": 399802,
+      "evidence": "Describes the exhaustive branch-and-bound computation and points to the thematic results site; it does not print the complete classes.",
+      "path": "sources/leukhin_2018_branch_bound.pdf",
+      "sha256": "51607fa1fb3cb9c6cf5090561e8fae3ec393781afe144e86e1039ba2b2947414",
+      "url": "https://nbpublish.com/library_get_pdf.php?id=25273"
+    },
+    {
+      "bytes": 139391,
+      "evidence": "Table 1 prints the independent length-71 PSL-4 representative 63383AB6B452ED93FE.",
+      "path": "sources/nunn_coxson_2008.pdf",
+      "sha256": "b1631dcc8d04493c09b12bbc700bdc8562504785cee571f8b982b919f5ab6e43",
+      "url": "https://www.norbertwiener.umd.edu/crowds/documents/best_known_binary.pdf"
+    },
+    {
+      "bytes": 1340760,
+      "evidence": "Public dissertation abstract: reports complete optimal sets through N=80; states that the dissertation appendices contain examples, not the complete class dump.",
+      "path": "sources/potekhin_autoreferat_01007860659.pdf",
+      "sha256": "30cc50b1ac115fecd1c26cb948f71db1295f341f58ee6b3663fef0bec0e74923",
+      "url": "https://new-disser.ru/_avtoreferats/01007860659.pdf"
+    },
+    {
+      "bytes": 104936,
+      "evidence": "184-page thesis metadata, contents, four appendices, OCR introduction, and public-abstract link.",
+      "path": "sources/potekhin_dissercat.html",
+      "sha256": "7a5b22e867bb4a14ac23c8835664b39cffa357c7c747480979b14ed0f3df262d",
+      "url": "https://www.dissercat.com/content/sintez-i-analiz-optimalnykh-binarnykh-posledovatelnostei"
+    },
+    {
+      "bytes": 68092,
+      "evidence": "RSL record and full-scan pathname; access notice limits the 184-page scan to RSL/virtual reading rooms.",
+      "path": "sources/potekhin_rsl_record_01007860659.html",
+      "sha256": "2383668e9833f50ce36525e80b5000682ed18cda7e980a9f8e968a2a01e20658",
+      "url": "https://search.rsl.ru/ru/record/01007860659"
+    },
+    {
+      "bytes": 63318,
+      "evidence": "Pinned public sequence catalog; contains one length-70 PSL-4 row, id 25ecc4b1cf6c122a81.",
+      "path": "sources/pslrk_LowPslCodes_91ddd173.xml",
+      "sha256": "256d7315a0244b4d49e7a0735f5d648634e884155b9484e3fa72936482a6a08f",
+      "url": "https://raw.githubusercontent.com/Gluttton/PslRK/91ddd173e221073f90086d7a0163bdedcc6b5e6b/Reports/LowPslCodes.xml"
+    },
+    {
+      "bytes": 6267,
+      "evidence": "Fork head e6b19abc33308ed6750867bc618044f1bcc575d1.",
+      "path": "sources/pslrk_fork_buchankr_master.json",
+      "sha256": "6470315e4ae5af6a9ae18b683495bb184b873afa4306c1231f2bb28560a2788a",
+      "url": "https://api.github.com/repos/buchankr/PslRK/commits/master"
+    },
+    {
+      "bytes": 5457,
+      "evidence": "Fork head matches upstream 91ddd173e221073f90086d7a0163bdedcc6b5e6b.",
+      "path": "sources/pslrk_fork_chiefstone_master.json",
+      "sha256": "020344e4ce22899b47fc7ae1e0841eeb5e5264aeddd674ffdd1845849d3e871d",
+      "url": "https://api.github.com/repos/chiefstone/PslRK/commits/master"
+    },
+    {
+      "bytes": 5497,
+      "evidence": "Fork head matches upstream 91ddd173e221073f90086d7a0163bdedcc6b5e6b.",
+      "path": "sources/pslrk_fork_kumaparmphdeit_master.json",
+      "sha256": "700d021e4676e784f5ef4c5b0f84f00edcba61c1caaceef128dd3cff3df5cd6e",
+      "url": "https://api.github.com/repos/kumaparmphdeit/PslRK/commits/master"
+    },
+    {
+      "bytes": 5427,
+      "evidence": "Fork head matches upstream 91ddd173e221073f90086d7a0163bdedcc6b5e6b.",
+      "path": "sources/pslrk_fork_vkd0726_master.json",
+      "sha256": "c7ead38187ab630c9f695eb5117bb4d984d5e0a661ccfa8d669a76509c2ed462",
+      "url": "https://api.github.com/repos/vkd0726/PslRK/commits/master"
+    },
+    {
+      "bytes": 23190,
+      "evidence": "Four public forks enumerated.",
+      "path": "sources/pslrk_github_forks.json",
+      "sha256": "54bf631b1c840792ce6af8b600578743ef950b4e63d00a4d5d38149032266d03",
+      "url": "https://api.github.com/repos/Gluttton/PslRK/forks?per_page=100"
+    },
+    {
+      "bytes": 120260,
+      "evidence": "All public issues; no attachment or complete N=70 table.",
+      "path": "sources/pslrk_github_issues.json",
+      "sha256": "c6b6a3d8e39e9e28f32a142c93430d14ea2a1cb8802f21f19f8d9a80d7a2b1ee",
+      "url": "https://api.github.com/repos/Gluttton/PslRK/issues?state=all&per_page=100"
+    },
+    {
+      "bytes": 5697,
+      "evidence": "Repository metadata for the pinned bare mirror.",
+      "path": "sources/pslrk_github_repo.json",
+      "sha256": "c7d18759c5678748239d231d9e9b1f3d339731237a8698b7376d6ab502dfdfab",
+      "url": "https://api.github.com/repos/Gluttton/PslRK"
+    },
+    {
+      "bytes": 943,
+      "evidence": "GitLab mirror metadata; no forks or additional branches.",
+      "path": "sources/pslrk_gitlab_project.json",
+      "sha256": "1924c6da8f26bc822edb299273ebdd44d508cde8f3bc489e2470827ee999cdeb",
+      "url": "https://gitlab.com/api/v4/projects/1142711"
+    },
+    {
+      "bytes": 85,
+      "evidence": "Zero-result exact-code query in the SETA 2014 volume; the chapter exposes examples/counts but no downloadable class table.",
+      "path": "sources/seta_2014_search.json",
+      "sha256": "427075497d92b121e23e13fedfb734e99c66e7c1f3e5bcdd60ee1a1b4f343ea6",
+      "url": "https://books.google.com/books?jscmd=SearchWithinVolume2&q=01C2FFD4AF33356596&vid=BYdxBQAAQBAJ"
+    },
+    {
+      "bytes": 8690,
+      "evidence": "Common Crawl gzip member for the binary landing page; no result attachment URL.",
+      "path": "sources/signalslab_binary_20140305.warc.gz",
+      "request_header": "Range: bytes=173331446-173340135",
+      "sha256": "eeb5364d37fdca23219bcc1e1138e0833fb4d13e2fee417f3d5895d2dc1a4575",
+      "url": "https://data.commoncrawl.org/crawl-data/CC-MAIN-2014-10/segments/1393999675992/warc/CC-MAIN-20140305060755-00099-ip-10-183-142-35.ec2.internal.warc.gz"
+    },
+    {
+      "bytes": 64225,
+      "evidence": "Wayback sitemap proving PSL-4 target page_id=1779 under the binary/minmax hierarchy.",
+      "path": "sources/signalslab_sitemap_20140409045140.html",
+      "sha256": "5f232df11a17fd183dff4626c828f60505b5a9ccb87596923d3f47da45299cdb",
+      "url": "https://web.archive.org/web/20140409045140id_/http://signalslab.marstu.net/?page_id=1165"
+    }
+  ],
+  "frozen_at": "2026-08-15T04:59:19Z",
+  "policy": "All remote requests were GET-only; no accounts, posts, votes, submissions, purchases, or author contact.",
+  "pslrk_bare_mirror": {
+    "fsck_unreachable_objects": 0,
+    "head": "91ddd173e221073f90086d7a0163bdedcc6b5e6b",
+    "low_psl_codes_blob": "b370f908f5553a242b1bf4af794b1bc6a8d71e28",
+    "path": "cache/PslRK.git",
+    "remote": "https://github.com/Gluttton/PslRK.git"
+  }
+}

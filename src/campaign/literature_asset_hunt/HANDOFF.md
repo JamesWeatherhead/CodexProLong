@@ -128,3 +128,26 @@ global/algebraic basin rather than more digits.
 
 No Arena/GitHub state was mutated and no submission or discussion action was
 taken.
+
+## Secondary repository sweep
+
+An additional Exa-assisted source sweep found two public evolution archives
+that were absent from the original 18-source manifest: `JuliGTV/rEVOLVE` and
+`PaliC/mangoEvolve`.  Both were cloned at pinned commits, inspected for a
+license file, and replayed locally without network-capable code.  Neither tree
+contains a `LICENSE` or `COPYING` file, so their source and candidate bytes are
+not redistributed.
+
+The strongest deterministic candidate recovered from each archive is rejected
+by the unchanged Arena verifier's exact wall constraints.  More importantly,
+both have contact-graph signature
+`f6680fcfeb9301f6b6cf0a51ecf405da918637020e8a688bd3eeaf76b6a5347d`,
+the same canonical graph already represented by Hyra and the locally polished
+active root.  They therefore add no new topology even before their small
+constraint violations are repaired.
+
+The compact provenance-only receipt is the public-safe
+[`geometry-secondary-circle-assets.json`](https://github.com/JamesWeatherhead/CodexProLong/blob/main/artifacts/evidence/geometry-secondary-circle-assets.json).
+It pins both repository commits, source/program hashes, recorded and replayed
+scores, constraint slacks, verifier hash, and the shared graph signature while
+keeping unlicensed third-party bytes private.

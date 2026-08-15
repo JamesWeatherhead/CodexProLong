@@ -46,6 +46,26 @@
       "sha256": "4cfe9b6f8c3504842f7c6ece3607c1086bd5ef2785919628197129e08f73f4d1"
     },
     {
+      "bytes": 3980,
+      "path": "artifacts/evidence/flat-psl4-archive-audit.json",
+      "sha256": "aba73cd8cc325822edb893ae5a520f2893a72893a3ce9917712a609770854726"
+    },
+    {
+      "bytes": 1285,
+      "path": "artifacts/evidence/flat-psl4-best-replay.json",
+      "sha256": "50c45b9f1fd6efa82645059588ddfdffca9a9cc8b05ace38326bf9f699df4e0f"
+    },
+    {
+      "bytes": 93116,
+      "path": "artifacts/evidence/flat-psl4-printed-neighbours.json",
+      "sha256": "d9ce26827a2b94b5ff32d0a7fffb32325f0cac41e5b2c14a7b3ea8ef21ceed60"
+    },
+    {
+      "bytes": 7821,
+      "path": "artifacts/evidence/flat-psl4-source-manifest.json",
+      "sha256": "1000d7c68c168481e906b9cc62248b5fbfb450d036cd74d7e03f45a5bbf8f03a"
+    },
+    {
       "bytes": 6464,
       "path": "artifacts/evidence/geometry-contact-recombination.json",
       "sha256": "a2016ab711644a4b6328f77e11ed5a73f845db69c74264d26c6c8bff94620ad5"
@@ -59,6 +79,11 @@
       "bytes": 8334,
       "path": "artifacts/evidence/geometry-literature-asset-sources.json",
       "sha256": "3017ecf92621662b682356a4b0fff6bc314e7a05cbeb5be3278889eb9bb1fc10"
+    },
+    {
+      "bytes": 2516,
+      "path": "artifacts/evidence/geometry-secondary-circle-assets.json",
+      "sha256": "5d3d91e2a0eda5d50c6d85202b30f3c5599ddd691dbde0b9cf98926c7360fe7d"
     },
     {
       "bytes": 3668,
@@ -886,6 +911,31 @@
       "sha256": "9026c202038f0907e241961533a8ab241b5ce6357c59731eb7133f7e83d00b38"
     },
     {
+      "bytes": 5309,
+      "path": "src/campaign/flat_psl4_recovery/HANDOFF.md",
+      "sha256": "0b1d888fafa1ff4efa818d8b08794f471c35d2b059d96fd1e5651389d458a8e6"
+    },
+    {
+      "bytes": 1024,
+      "path": "src/campaign/flat_psl4_recovery/README.md",
+      "sha256": "59f017e9d486d819ef0b699e5aa72f47a089c5df3fa1bf20a2b2853b48e90c07"
+    },
+    {
+      "bytes": 7020,
+      "path": "src/campaign/flat_psl4_recovery/build_source_manifest.py",
+      "sha256": "4b2b9b7fa3efaf0bb564327bd945f9879e3ffb936fa569c1e474290229672fec"
+    },
+    {
+      "bytes": 2354,
+      "path": "src/campaign/flat_psl4_recovery/exact_replay.py",
+      "sha256": "32be3608a5a6436e8ca2e65c0964bea6a73151977b042a549fe5ef746d8ff5b4"
+    },
+    {
+      "bytes": 6684,
+      "path": "src/campaign/flat_psl4_recovery/screen_printed_neighbours.py",
+      "sha256": "fea68f01cce56774dff31b95972d123d5dc69a0e84a8cf51bce58061aa9fdc37"
+    },
+    {
       "bytes": 22744,
       "path": "src/campaign/geometry/HANDOFF.md",
       "sha256": "67ea32b1137920d5c4c8ba7efd254e695b86670d0dfd63bfc601838196d43068"
@@ -1181,9 +1231,9 @@
       "sha256": "b6662d0bcaaf6993f09ab75593189fc1c7a9690cba3f677cd3c8df7d1aaaabaf"
     },
     {
-      "bytes": 7611,
+      "bytes": 8912,
       "path": "src/campaign/literature_asset_hunt/HANDOFF.md",
-      "sha256": "0b88030657f64227c55d8a84d9757ae07556bbfcefd0551179f00585d1aa1816"
+      "sha256": "58524147ef5cb4a010c57c1745f0020af17719c565953cbf3d4ce6641ce53ac9"
     },
     {
       "bytes": 18269,

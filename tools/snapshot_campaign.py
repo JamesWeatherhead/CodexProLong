@@ -88,8 +88,13 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "difference-global-sparse-patch-checkpoint": "discrete/difference_global/checkpoints/sparse_patch.json",
     "difference-global-relative-candidate": "discrete/difference_global/candidates/relative_graph_best.json",
     "difference-global-sparse-patch-candidate": "discrete/difference_global/candidates/sparse_patch_best.json",
+    "flat-psl4-archive-audit": "flat_psl4_recovery/archive_audit.json",
+    "flat-psl4-source-manifest": "flat_psl4_recovery/source_manifest.json",
+    "flat-psl4-printed-neighbours": "flat_psl4_recovery/printed_neighbour_screen.json",
+    "flat-psl4-best-replay": "flat_psl4_recovery/receipts/best_printed_neighbor_n71_delete70.json",
     "geometry-literature-asset-replays": "literature_asset_hunt/receipt.json",
     "geometry-literature-asset-sources": "literature_asset_hunt/sources.json",
+    "geometry-secondary-circle-assets": "literature_asset_hunt/secondary_circle_assets.json",
     "geometry-contact-recombination": "geometry_asset_recombine/replay_receipt.json",
     "schema-gap-audit": "schema_gap_audit/receipt.json",
     "c2-asset-recovery": "c2_asset_recovery/receipt.json",
@@ -103,13 +108,13 @@ FRONTIER_RECEIPTS = {
     "third-autocorrelation-inequality": "c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/receipt.json",
 }
 METHODS = {
-    "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short. Beyond the original releases and relocation seeds, a primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 80 rigid polished classes without escaping the known tolerance ceiling.",
+    "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short. Beyond the original releases and relocation seeds, a primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 80 rigid polished classes without escaping the known tolerance ceiling. Two additional evolution archives, rEVOLVE and mangoEvolve, replay invalid and duplicate the same canonical contact graph.",
     "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. A primary-asset contact-graph recombination campaign covered 550 canonical graph signatures and 93 rigid polished classes; its strongest noncanonical endpoint remained 0.001584 below the gate.",
     "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109. A separate Paperclip-derived quadratic relative-difference-set campaign tested 2,400 global starts, 16 coordinate descents, and 121,111 exact sparse-patch births; finite-group coverage collapsed under integer carry ordering.",
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Active-bundle sequential linear programming over n=3,584 coordinates crossed the strict 1e-7 gate after 58 exact-accepted stages. Independent literal replay and evaluated solution #2507 agree at 0.3808585748578584.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
-    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools now cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals; the unrecovered 72/115 PSL-4 tables remain the strongest finite lead.",
+    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. A separate 20-source archival recovery reconstructed three of 72 published PSL-4 classes and replayed 1,657 length-adjusted candidates; the complete historical table remains the strongest finite lead.",
     "heilbronn-triangles": "100-digit active root, 462 topology trials, complete q=25 lattice proof, partial q=30 proof, and adaptive q=143 SAT cores.",
     "kissing-number-d11": "An exhaustive exact-rational audit verifies public solution #1492 as a genuine 594-vector score-0 construction over all 176,121 pairs. Zero is the objective floor, and the live API assigns later exact ties ordinal ranks rather than joint first place.",
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
@@ -129,7 +134,7 @@ SOURCE_ENTRYPOINTS = {
     "difference-bases": "discrete/difference_global/HANDOFF.md",
     "edges-vs-triangles": "discrete/edges_vs_triangles/HANDOFF.md",
     "erdos-min-overlap": "analytic/erdos_global/HANDOFF.md",
-    "flat-polynomials": "analytic/flat_global/HANDOFF.md",
+    "flat-polynomials": "flat_psl4_recovery/HANDOFF.md",
     "heilbronn-triangles": "geometry/heilbronn_bnb/HANDOFF.md",
     "kissing-number-d11": "kissing_d11_594_audit/README.md",
     "min-distance-ratio-2d": "geometry_asset_recombine/HANDOFF.md",
@@ -160,6 +165,7 @@ SOURCE_FAMILIES = (
     "c3_root",
     "discrete",
     "erdos_root",
+    "flat_psl4_recovery",
     "geometry",
     "literature_asset_hunt",
     "geometry_asset_recombine",
@@ -181,6 +187,9 @@ EXCLUDED_PARTS = {
 }
 UNPUBLISHED_WORK_IN_PROGRESS = {
     Path("discrete/prime_number_theorem/tail_select_mip.py"),
+}
+UNPUBLISHED_SOURCE_PREFIXES = {
+    Path("geometry/heilbronn_q143_cegis"),
 }
 
 
@@ -387,6 +396,8 @@ def mirror_source(source: Path) -> list[dict[str, Any]]:
             if any(part in EXCLUDED_PARTS for part in relative.parts):
                 continue
             if relative in UNPUBLISHED_WORK_IN_PROGRESS:
+                continue
+            if any(relative.is_relative_to(prefix) for prefix in UNPUBLISHED_SOURCE_PREFIXES):
                 continue
             dst = destination_root / relative
             copy_file(src, dst)
