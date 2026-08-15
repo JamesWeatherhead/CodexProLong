@@ -1,0 +1,160 @@
+{
+  "best_crossover": {
+    "alpha": 1e-09,
+    "gain_from_seed": -2.899224194052863e-10,
+    "score": 0.9635881169801895
+  },
+  "external_writes": [],
+  "mode": "exact 7x repeat plus zero-pad resampling and signed crossover",
+  "padding": 164991,
+  "repeat": 7,
+  "repeated_n": 1835008,
+  "rows": [
+    {
+      "component_score": 0.962693774995514,
+      "left_padding": 0,
+      "left_padding_fraction": 0.0,
+      "probes": [
+        {
+          "alpha": -1e-08,
+          "gain_from_seed": -6.844109945447485e-09,
+          "score": 0.963588110426002
+        },
+        {
+          "alpha": -1e-09,
+          "gain_from_seed": -6.822966636121919e-10,
+          "score": 0.9635881165878153
+        },
+        {
+          "alpha": 1e-09,
+          "gain_from_seed": -5.932935254193694e-10,
+          "score": 0.9635881166768184
+        },
+        {
+          "alpha": 1e-08,
+          "gain_from_seed": -5.974142625042589e-09,
+          "score": 0.9635881112959693
+        }
+      ],
+      "right_padding": 164991
+    },
+    {
+      "component_score": 0.962693774995514,
+      "left_padding": 41248,
+      "left_padding_fraction": 0.25,
+      "probes": [
+        {
+          "alpha": -1e-08,
+          "gain_from_seed": -7.921086786488729e-09,
+          "score": 0.9635881093490252
+        },
+        {
+          "alpha": -1e-09,
+          "gain_from_seed": -7.899331189165082e-10,
+          "score": 0.9635881164801788
+        },
+        {
+          "alpha": 1e-09,
+          "gain_from_seed": -5.155097460018965e-10,
+          "score": 0.9635881167546022
+        },
+        {
+          "alpha": 1e-08,
+          "gain_from_seed": -5.196305497001674e-09,
+          "score": 0.9635881120738065
+        }
+      ],
+      "right_padding": 123743
+    },
+    {
+      "component_score": 0.9626937749955138,
+      "left_padding": 82496,
+      "left_padding_fraction": 0.5,
+      "probes": [
+        {
+          "alpha": -1e-08,
+          "gain_from_seed": -8.131767925689815e-09,
+          "score": 0.963588109138344
+        },
+        {
+          "alpha": -1e-09,
+          "gain_from_seed": -5.099036748390517e-10,
+          "score": 0.9635881167602083
+        },
+        {
+          "alpha": 1e-09,
+          "gain_from_seed": -3.981607266112519e-10,
+          "score": 0.9635881168719512
+        },
+        {
+          "alpha": 1e-08,
+          "gain_from_seed": -3.981606377934099e-09,
+          "score": 0.9635881132885056
+        }
+      ],
+      "right_padding": 82495
+    },
+    {
+      "component_score": 0.9626937749955141,
+      "left_padding": 123743,
+      "left_padding_fraction": 0.75,
+      "probes": [
+        {
+          "alpha": -1e-08,
+          "gain_from_seed": -1.0620805346306383e-08,
+          "score": 0.9635881066493066
+        },
+        {
+          "alpha": -1e-09,
+          "gain_from_seed": -7.335526630569689e-10,
+          "score": 0.9635881165365593
+        },
+        {
+          "alpha": 1e-09,
+          "gain_from_seed": -3.6057057339888843e-10,
+          "score": 0.9635881169095414
+        },
+        {
+          "alpha": 1e-08,
+          "gain_from_seed": -3.6720962937053514e-09,
+          "score": 0.9635881135980157
+        }
+      ],
+      "right_padding": 41248
+    },
+    {
+      "component_score": 0.9626937749955135,
+      "left_padding": 164991,
+      "left_padding_fraction": 1.0,
+      "probes": [
+        {
+          "alpha": -1e-08,
+          "gain_from_seed": -1.2075884625595279e-08,
+          "score": 0.9635881051942273
+        },
+        {
+          "alpha": -1e-09,
+          "gain_from_seed": -9.066007944369403e-10,
+          "score": 0.9635881163635112
+        },
+        {
+          "alpha": 1e-09,
+          "gain_from_seed": -2.899224194052863e-10,
+          "score": 0.9635881169801895
+        },
+        {
+          "alpha": 1e-08,
+          "gain_from_seed": -2.9542981394570234e-09,
+          "score": 0.9635881143158138
+        }
+      ],
+      "right_padding": 0
+    }
+  ],
+  "seed_file_sha256": "17ae46a8532acd2ed6eb355b968e9e59936adc0335975fd18b67251e0040e640",
+  "seed_score": 0.963588117270112,
+  "source_file_sha256": "c7365d9ebdcbc7f1014a891ea88cb4ff880152228fedbd5b7df5be7b3cdb9a72",
+  "source_n": 262144,
+  "target_n": 1999999,
+  "verifier_sha256": "dc5ccffaa20ba6c112cab36ffe602c657372d192d8b486abd66b14bcad1ca768"
+}

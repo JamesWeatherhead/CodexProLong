@@ -46,6 +46,12 @@ chain-of-thought.
   3,141 support runs establish a genuinely distinct high-resolution seed, but
   its exact score remains `9.04e-4` below the live gate; raw third-party arrays
   stay local while provenance, hashes, code, and the receipt are public.
+- Tested that recovered C2 comb as a support topology rather than merely as
+  amplitudes: aligned resampling, material-support births, mass-preserving block
+  transplants, signed crossovers, exact repeats, and two fine-polish cycles
+  consumed 2,184 literal-verifier calls. The source and incumbent envelopes
+  correlate above 0.996 after registration, and the full gain was 4,930 times
+  too small, so this basin is now frozen rather than endlessly re-polished.
 
 ## Current high-information lanes
 

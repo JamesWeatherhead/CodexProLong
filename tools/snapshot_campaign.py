@@ -91,6 +91,8 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "geometry-contact-recombination": "geometry_asset_recombine/replay_receipt.json",
     "schema-gap-audit": "schema_gap_audit/receipt.json",
     "c2-asset-recovery": "c2_asset_recovery/receipt.json",
+    "c2-simpletes-transfer": "c2_simpletes_transfer/receipt.json",
+    "c2-simpletes-repeat-probe": "c2_simpletes_transfer/repeat_probe.json",
 }
 FRONTIER_RECEIPTS = {
     "edges-vs-triangles": "state/receipts/edges-vs-triangles/20260815T024004430186Z-c71bc6912f5a.json",
@@ -111,7 +113,7 @@ METHODS = {
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
     "min-distance-ratio-2d": "A 100-digit active root, 280 release/promote trials, and 550 canonical contact-graph recombinations all return the same micro-polished basin; the best exact gain is 2.35e-11 versus a 1e-7 gate.",
     "prime-number-theorem": "Changed-reach cutting planes produce evaluated solution #2506 at 0.9976572852677297. An exact rational sweep covers every real state in the advertised verifier horizon; a global all-x proof remains open.",
-    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881172701123 after changed-support packet births; 362 whole-region phase schedules and 378 finite-mass terminal split constructions found no global escape, leaving a 9.9933e-6 gate gap.",
+    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. The recovered comb aligns above 0.996 with the incumbent envelope after registration, and the entire transfer gained only 2.03e-9, leaving a 9.9913e-6 gate gap.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
     "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation reach 1.4515653850221024; the frozen payload improves the pre-topology basin by 2.15e-8 but remains 3.52e-6 short of the gate.",
     "thomson-problem": "48 topology-changing seeds and exact tangent polishing return to the defect-minimal basin; no gate-clearer yet.",
@@ -128,7 +130,7 @@ SOURCE_ENTRYPOINTS = {
     "min-distance-ratio-2d": "geometry_asset_recombine/HANDOFF.md",
     "kissing-number-d12": "geometry/kissing_d12/HANDOFF.md",
     "prime-number-theorem": "discrete/prime_number_theorem/HANDOFF.md",
-    "second-autocorrelation-inequality": "analytic/c2_global_topology/HANDOFF.md",
+    "second-autocorrelation-inequality": "c2_simpletes_transfer/HANDOFF.md",
     "third-autocorrelation-inequality": "c3_root/TOPOLOGY_ESCAPE_HANDOFF.md",
 }
 ROOT_SOURCE_FILES = (
@@ -146,6 +148,7 @@ SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = (
     "analytic",
     "c2_asset_recovery",
+    "c2_simpletes_transfer",
     "c1_root",
     "c2_root",
     "c3_root",

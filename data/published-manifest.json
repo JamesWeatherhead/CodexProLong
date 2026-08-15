@@ -6,6 +6,16 @@
       "sha256": "1abdefe1c79fd324eee009bf53c109ec6fea7d87120936340babaa34bb98f86b"
     },
     {
+      "bytes": 4295,
+      "path": "artifacts/evidence/c2-simpletes-repeat-probe.json",
+      "sha256": "f93ed95b740295bf0bd135c7bdbb06bbd739c892a80244f48d3990ab7b79be8a"
+    },
+    {
+      "bytes": 5731,
+      "path": "artifacts/evidence/c2-simpletes-transfer.json",
+      "sha256": "a9590bb9e123797db93017af6e915cd63cbad0bc19b12f6a5e83b78068a0b78f"
+    },
+    {
       "bytes": 6149,
       "path": "artifacts/evidence/difference-global-audit.json",
       "sha256": "6d216d29734e88a0f3eb5b7aeba74347818b0648e66039ef7b777f3d20d44fd3"
@@ -106,9 +116,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 33569,
+      "bytes": 37591,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "b7da824e9a2f805e77ee385ba51e377bfb20176adc5bf1c9c3a9b484766e6404"
+      "sha256": "40668466899b1de44a169fb30b24fce96a9e34f23d8b9eb8d8ea3ce10fa9cd3d"
     },
     {
       "bytes": 715,
@@ -286,14 +296,14 @@
       "sha256": "10cd15d5ef0af617343e3e0754e3d31c7569949e21507f3252f824507be041ef"
     },
     {
-      "bytes": 3895,
+      "bytes": 4431,
       "path": "src/campaign/analytic/erdos_global/HANDOFF.md",
-      "sha256": "2180ab3ff19a06e9a5ae5658326369312d8e55dd8f809f5016c8542078c4e3e0"
+      "sha256": "744518c2beba81c9950d49e8b4354be37df8b02b4195065b56b8cf32525988fe"
     },
     {
-      "bytes": 4817,
+      "bytes": 6079,
       "path": "src/campaign/analytic/erdos_global/JOURNAL.md",
-      "sha256": "6f4faf008494419e06b244fc8d5562392533391bbf0d7f118620a2fba01a3b0d"
+      "sha256": "e26f768708804ad341a7d5ce7685aed73c7773ff93a67f9ca6883f31530bf661"
     },
     {
       "bytes": 10490,
@@ -301,9 +311,9 @@
       "sha256": "895f5a347144e64c494820f78da1715f23990a578c4378bfdfb3aef7769ba35c"
     },
     {
-      "bytes": 4186,
+      "bytes": 4185,
       "path": "src/campaign/analytic/erdos_global/independent_replay.py",
-      "sha256": "c13b9ead3111371f4677cc2912abfbcca9bc0f6c80c8a327408d9909a28ed905"
+      "sha256": "761066354c5bee86786fe63e71e5ccb197b70fb9228be4b5e1d364e81c082201"
     },
     {
       "bytes": 10657,
@@ -454,6 +464,36 @@
       "bytes": 4948,
       "path": "src/campaign/c2_root/support_harvest.py",
       "sha256": "1efe5d31cf2fa9cc21d4ba324fed54e3049ce5982b53493b39f47eca64b5a00f"
+    },
+    {
+      "bytes": 1774,
+      "path": "src/campaign/c2_simpletes_transfer/HANDOFF.md",
+      "sha256": "f4477d4a4e75f37d9ccd18414c59c5b3035f4cfd2053d5c2276a8f70353e2321"
+    },
+    {
+      "bytes": 2888,
+      "path": "src/campaign/c2_simpletes_transfer/README.md",
+      "sha256": "fff058783bce9ef477f8de828f534cdd6d59d0be7a06b386cb2872acb2488890"
+    },
+    {
+      "bytes": 8835,
+      "path": "src/campaign/c2_simpletes_transfer/fine_polish.py",
+      "sha256": "94a78a188274945a67769da08d38c1f302ab02a786135846d0fb0cf472b621a9"
+    },
+    {
+      "bytes": 4180,
+      "path": "src/campaign/c2_simpletes_transfer/repeat_probe.py",
+      "sha256": "95cbae1d886c74d93f82d83dc113e5ee5c88cd9295d79dd514b68a38903f1055"
+    },
+    {
+      "bytes": 2756,
+      "path": "src/campaign/c2_simpletes_transfer/replay_exact.py",
+      "sha256": "6758814a46f5d981e7e52202f6a979bfafa678581cc98cc189b71ad76044959f"
+    },
+    {
+      "bytes": 21179,
+      "path": "src/campaign/c2_simpletes_transfer/transfer_search.py",
+      "sha256": "257c6bb023a8cafbf4c0bbf9cc7f1d261d1561641db0d62e8e67f378233bdb88"
     },
     {
       "bytes": 5252,
