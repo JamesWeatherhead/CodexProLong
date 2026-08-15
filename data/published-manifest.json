@@ -11,9 +11,9 @@
       "sha256": "e03c16d923ab3170442dcbc6c6984f8d34ec67cd7a9ccc87d1d17a6c9008a131"
     },
     {
-      "bytes": 1943,
+      "bytes": 1936,
       "path": "artifacts/frontier/circles-rectangle.json",
-      "sha256": "c029371ff5e372f33eaa592c28e2a3e157ddf83105743accbbd84123f1f55678"
+      "sha256": "0423ef27077517c0b7b60ea482f822e7b1b363e4733f6e9f9887055aa534d93c"
     },
     {
       "bytes": 154777,
@@ -51,9 +51,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 27160,
+      "bytes": 27723,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "deb59a27c612131434ce08d3c92e4f9b5ab57aa6bacaf290d5505a5a5ff8d8e4"
+      "sha256": "52263252228639c8fa2df785a1fe5509df488a98dcd6373ec1ebe9c10a35960f"
     },
     {
       "bytes": 740,
@@ -471,9 +471,9 @@
       "sha256": "2856ac643089f6d142e7f372801a8a098276755d662792966dfe1efcffdfbba6"
     },
     {
-      "bytes": 12461,
+      "bytes": 12731,
       "path": "src/campaign/discrete/prime_number_theorem/optimize.py",
-      "sha256": "6b565f568e1fa1225d0b59eba21b37e78054d2918bc5aa5045b3ae3b177b9d47"
+      "sha256": "59838b63b8c13849e9d06f38d2186667953b90ffd35b2977713376caf38f04d8"
     },
     {
       "bytes": 9647,
@@ -526,9 +526,9 @@
       "sha256": "9026c202038f0907e241961533a8ab241b5ce6357c59731eb7133f7e83d00b38"
     },
     {
-      "bytes": 21753,
+      "bytes": 22744,
       "path": "src/campaign/geometry/HANDOFF.md",
-      "sha256": "6d9040277541ef28f08e63a36cfe0959008920110af103397f656f42689c2757"
+      "sha256": "67ea32b1137920d5c4c8ba7efd254e695b86670d0dfd63bfc601838196d43068"
     },
     {
       "bytes": 2695,
@@ -734,6 +734,31 @@
       "bytes": 16190,
       "path": "src/campaign/geometry/rectangle_packing_search.py",
       "sha256": "7a8753e6bcca1be1aa24ffb7c6ac98911abe9ebd012be64978c5ddb763d86638"
+    },
+    {
+      "bytes": 9542,
+      "path": "src/campaign/geometry/rectangle_topology/HANDOFF.md",
+      "sha256": "b829b29c8e69cadae3fb2e88bd18d090a6fdc036d45080347d1d76c4a073fa13"
+    },
+    {
+      "bytes": 8812,
+      "path": "src/campaign/geometry/rectangle_topology/audit_corpus.py",
+      "sha256": "1c22d82b01484e05ecd4d8d563903df7d64e1a03f3695901d9b8fd1d96c23337"
+    },
+    {
+      "bytes": 21756,
+      "path": "src/campaign/geometry/rectangle_topology/core.py",
+      "sha256": "042757bf680bceb3d1f5bebcec53d9bc8e04042fe0afeda06d83ff3b3f87fbd6"
+    },
+    {
+      "bytes": 17328,
+      "path": "src/campaign/geometry/rectangle_topology/stochastic_relax.py",
+      "sha256": "208e621709a9b85cbfd602be360d2046b34c3f0bf1b2dfe78f575d25f6399f7d"
+    },
+    {
+      "bytes": 16832,
+      "path": "src/campaign/geometry/rectangle_topology/void_relocate.py",
+      "sha256": "e28a954c9180e67597682d4fc8dabe674fbcc2955a4ca29a82d8a7aec449cc34"
     },
     {
       "bytes": 2805,

@@ -88,6 +88,8 @@ def add_rows(
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--checkpoint", type=Path, default=CHECKPOINT)
+    parser.add_argument("--best", type=Path, default=BEST)
     parser.add_argument("--restart", action="store_true")
     parser.add_argument("--key-limit", type=int, default=1800)
     parser.add_argument("--absolute-value-limit", type=float, default=0.5)
@@ -101,6 +103,8 @@ def parse_args() -> argparse.Namespace:
 
 def main() -> None:
     args = parse_args()
+    checkpoint_path = args.checkpoint.expanduser().resolve()
+    best_path = args.best.expanduser().resolve()
     etas = [float(item) for item in args.etas.split(",") if item]
     if not etas or any(eta <= 0 for eta in etas):
         raise ValueError("--etas must contain positive values")
@@ -134,8 +138,8 @@ def main() -> None:
         "selected_count": len(keys),
     }
     prior: dict[str, Any] | None = None
-    if CHECKPOINT.exists() and not args.restart:
-        candidate = json.loads(CHECKPOINT.read_text(encoding="utf-8"))
+    if checkpoint_path.exists() and not args.restart:
+        candidate = json.loads(checkpoint_path.read_text(encoding="utf-8"))
         prior_config = candidate.get("config", {})
         comparable_prior = {
             key: value for key, value in prior_config.items() if key != "etas"
@@ -253,7 +257,7 @@ def main() -> None:
                 "current_stage_history": stage_history,
                 "current_delta": delta.tolist(),
             }
-            atomic_json(CHECKPOINT, checkpoint)
+            atomic_json(checkpoint_path, checkpoint)
             if not switched_to_simplex:
                 highs.setOptionValue("solver", "simplex")
                 highs.setOptionValue("simplex_strategy", 1)
@@ -299,7 +303,7 @@ def main() -> None:
             best_gain = stage["score_gain"]
             best_payload = payload
             best_record = stage
-            atomic_json(BEST, payload, sort_keys=False)
+            atomic_json(best_path, payload, sort_keys=False)
 
     if best_payload is None or best_record is None:
         raise RuntimeError("no feasible trust-region stage was found")
@@ -316,11 +320,11 @@ def main() -> None:
         "best": {
             key: value for key, value in best_record.items() if key != "delta"
         },
-        "best_payload_path": str(BEST),
+        "best_payload_path": str(best_path),
         "best_payload_sha256": hashlib.sha256(canonical(best_payload)).hexdigest(),
         "gate_cleared_by_grid_audit": best_gain > 1e-6,
     }
-    atomic_json(CHECKPOINT, result)
+    atomic_json(checkpoint_path, result)
     print(json.dumps(result["best"], indent=2, sort_keys=True))
 
 

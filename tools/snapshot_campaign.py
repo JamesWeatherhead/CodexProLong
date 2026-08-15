@@ -53,7 +53,7 @@ WIN_RECEIPTS = {
 }
 FRONTIER_ARTIFACTS = {
     "circle-packing": "geometry/circle_packing_topology/runs/20260815T021013Z/topologies/1a3ddda1ed2e3083/candidate.json",
-    "circles-rectangle": "geometry/runs/20260815T035100Z/circles-rectangle/candidate.json",
+    "circles-rectangle": "geometry/rectangle_topology/runs/20260815T022200Z/stochastic_relax/topologies/cdea3037dafa48f9/candidate.json",
     "edges-vs-triangles": "discrete/edges_vs_triangles/candidate.json",
     "heilbronn-triangles": "geometry/runs/20260814T231710Z/heilbronn-triangles/best.json",
     "min-distance-ratio-2d": "geometry/runs/20260814T231106Z/min-distance-ratio-2d/best.json",
@@ -64,7 +64,7 @@ FRONTIER_ARTIFACTS = {
 }
 METHODS = {
     "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short after 156 one-contact releases, 58 PAS-PCI relocations, and 80 clean-room FlowBoost-inspired seeds; a genuinely new multi-contact topology is required.",
-    "circles-rectangle": "100-digit 47-pair/17-wall active root reaches 2.365832385227917, still 8.01e-11 short; a new topology is required.",
+    "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short after 100 global/aspect and void endpoints spanning 24 graph classes, 22 absent from the full public corpus; a genuinely new multi-contact topology is required.",
     "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109.",
     "edges-vs-triangles": "Exact curve-mesh optimization gains 7.61e-9, only 0.76% of the gate; the API independently enforces the 500-row domain.",
     "erdos-min-overlap": "n=3,584 changed-grid active-set SLP reaches 0.3808586421686005; continuation is still 6.50e-8 short of the gate.",
@@ -96,7 +96,11 @@ ROOT_SOURCE_FILES = (
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = ("analytic", "c1_root", "c2_root", "c3_root", "discrete", "erdos_root", "geometry", "research_corpus")
 EXCLUDED_PARTS = {"external", "runs", "snapshots", "receipts", "checkpoints", "__pycache__", ".ruff_cache"}
-UNPUBLISHED_WORK_IN_PROGRESS = {Path("c3_root/topology_escape.py")}
+UNPUBLISHED_WORK_IN_PROGRESS = {
+    Path("analytic/erdos_global/srocr_seed.py"),
+    Path("c3_root/rank_lift_escape.py"),
+    Path("c3_root/topology_escape.py"),
+}
 
 
 def sha256(path: Path) -> str:

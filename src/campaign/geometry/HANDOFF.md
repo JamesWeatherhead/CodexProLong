@@ -219,6 +219,24 @@ Full corpus scope, literature citations, checkpoint hashes, exact receipt, and
 reproduction commands are in
 `circle_packing_topology/HANDOFF.md`.
 
+### Circles-rectangle changed-topology follow-up
+
+The full retained corpus audit covered 24 constructions, all four threads, and
+all 27 replies.  Its 11 invariant contact-graph classes contain only two
+distinct full-rank rigid classes.  From those two sources, pain-ranked
+void/split relocation and clean-room global-center/aspect perturbation refined
+100 endpoints into 24 invariant classes; 22 were absent from the entire public
+corpus.  The best novel class scored only `2.359691363376021`, about `0.00614`
+below the gate target.  The strongest offline-controller replay remained the
+known tolerance-dependent canonical root at `2.365832385227916`, a margin of
+`1.991873332940486e-11` over the leader but still
+`8.008126667059514e-11` short of the required gate.  No external action was
+taken.
+
+Full corpus coverage, topology counts, Paperclip line-pinned literature,
+program/checkpoint hashes, exact controller receipt, and reproduction commands
+are in `rectangle_topology/HANDOFF.md`.
+
 ## Tammes-50 strict unit-sphere pass
 
 The full frozen corpus contains 27 constructions and all 31 replies in three
