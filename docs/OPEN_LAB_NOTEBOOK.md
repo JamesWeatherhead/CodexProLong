@@ -99,6 +99,14 @@ chain-of-thought.
   formulas. Fresh solver processes replay all four original heterogeneous
   radius-3/5 cells and 40 radius-8 one/two-label releases as UNSAT. The packet
   is explicitly a finite-domain no-go rather than a formal global proof.
+- Tested a disjoint continuous Heilbronn route grounded in Paperclip's
+  FlowBoost and evolutionary-topology literature. Twenty-three boundary-contact
+  islands plus depth-4/5/6/8/11 death–rebirth mutations produced 6,624 annealed
+  members and 398 double-replayed candidates. A caught boundary-coordinate
+  permutation was corrected before publication; the corrected best is
+  `0.034498013012460894`, still `0.002031877867569261` below the gate. The
+  public receipt carries exact scope, true squared-cost D3/RMS matching, and
+  the bug audit without publishing raw candidate arrays.
 - Audited current public evolutionary-search systems and exact-replayed their
   available construction assets. Escher's circle and Heilbronn programs were
   valid but below their gates; a Finch rectangle result with a headline score

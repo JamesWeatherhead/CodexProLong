@@ -199,6 +199,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - ▭ [Rectangle codimension-two/three contact search](src/campaign/geometry/rectangle_multicontact_precision/HANDOFF.md)
 - 🔐 [Heilbronn q=143 exact support closure](src/campaign/geometry/heilbronn_q143_cegis/HANDOFF.md)
 - 🧩 [Heilbronn q=144–220 rational-mesh closure](src/campaign/geometry/heilbronn_rational_mesh_global/HANDOFF.md)
+- 🌊 [Heilbronn continuous topology/death–rebirth search](src/campaign/geometry/heilbronn_flow_topology_global/HANDOFF.md)
 - 🪐 [Thomson N=72→282 topology escape](src/campaign/geometry/thomson_282_topology_escape/HANDOFF.md)
 - 🌐 [Thomson N=282 scar/dislocation escape](src/campaign/geometry/thomson_282_scar_escape/README.md)
 - 📐 [Min-distance adjacent-topology escape](src/campaign/geometry/min_distance_ratio_global_escape/HANDOFF.md)

@@ -1,0 +1,5 @@
+# Private full search/audit runtime: Python >= 3.11.
+# The public receipt replay uses only the Python >= 3.11 standard library.
+numpy>=1.26,<3
+scipy>=1.11,<2
+torch>=2.1,<3

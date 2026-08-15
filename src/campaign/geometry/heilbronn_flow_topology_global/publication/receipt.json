@@ -1,0 +1,472 @@
+{
+  "all_candidate_165_triangle_formula_replays_match": true,
+  "all_candidate_payload_hashes_replayed": true,
+  "all_candidate_scores_replayed_twice": true,
+  "best_distinct_record": {
+    "annealed_score": 0.02640671582213522,
+    "depth": 6,
+    "improvement_over_leader": -0.0020318768675692614,
+    "independent_replay_score": 0.034498013012460894,
+    "minimum_domain_slack": -3.3306690738754696e-16,
+    "mutation_rank": 1,
+    "nearest_public_d3_rms": 0.041687179668865516,
+    "nearest_public_solution_id": 1004,
+    "parent_rank": 2,
+    "parent_score": 0.036529671309358115,
+    "payload_sha256": "d0a96bf94fbdfff1ebe93cb9ee9135d16d277ba957a1f672de5a45f731c4a759",
+    "phase": "death_rebirth",
+    "polish": "released_topology",
+    "polish_info": {
+      "accepted": true,
+      "final_hard_score": 0.034498013012460874,
+      "initial_score": 0.034486100806905826,
+      "iterations": 3,
+      "message": "Optimization terminated successfully",
+      "minimum_area_slack": -1.0470790900996008e-14,
+      "minimum_domain_slack": -3.3306690738754696e-16,
+      "objective_variable": 0.034498013012471344,
+      "status": 0,
+      "success": true
+    },
+    "replay_exact_agreement": true,
+    "strict_gate_clearer": false,
+    "template_id": "public-1015",
+    "topology": {
+      "active_degree_sequence": [
+        6,
+        6,
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "active_triples_1e-7": 17,
+      "hull_vertices": 8,
+      "side_contact_counts_sorted": [
+        2,
+        2,
+        2
+      ],
+      "vertex_contacts": 0
+    },
+    "verifier_score": 0.034498013012460894
+  },
+  "best_record": {
+    "annealed_score": 0.02640671582213522,
+    "depth": 6,
+    "improvement_over_leader": -0.0020318768675692614,
+    "independent_replay_score": 0.034498013012460894,
+    "minimum_domain_slack": -3.3306690738754696e-16,
+    "mutation_rank": 1,
+    "nearest_public_d3_rms": 0.041687179668865516,
+    "nearest_public_solution_id": 1004,
+    "parent_rank": 2,
+    "parent_score": 0.036529671309358115,
+    "payload_sha256": "d0a96bf94fbdfff1ebe93cb9ee9135d16d277ba957a1f672de5a45f731c4a759",
+    "phase": "death_rebirth",
+    "polish": "released_topology",
+    "polish_info": {
+      "accepted": true,
+      "final_hard_score": 0.034498013012460874,
+      "initial_score": 0.034486100806905826,
+      "iterations": 3,
+      "message": "Optimization terminated successfully",
+      "minimum_area_slack": -1.0470790900996008e-14,
+      "minimum_domain_slack": -3.3306690738754696e-16,
+      "objective_variable": 0.034498013012471344,
+      "status": 0,
+      "success": true
+    },
+    "replay_exact_agreement": true,
+    "strict_gate_clearer": false,
+    "template_id": "public-1015",
+    "topology": {
+      "active_degree_sequence": [
+        6,
+        6,
+        5,
+        5,
+        5,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "active_triples_1e-7": 17,
+      "hull_vertices": 8,
+      "side_contact_counts_sorted": [
+        2,
+        2,
+        2
+      ],
+      "vertex_contacts": 0
+    },
+    "verifier_score": 0.034498013012460894
+  },
+  "boundary_mapping_regression": {
+    "best_score_delta_after_fix": 0.0013399540353763659,
+    "corrected_best_score": 0.034498013012460894,
+    "corrected_strict_target_shortfall": 0.002031877867569261,
+    "evidence_scope": "Private audit over excluded raw v1 run payloads. Public receipt replay checks the scope label and hash pins only; it cannot recompute the v1 counts or before/after comparison.",
+    "outside_bug_scope_members": 1184,
+    "outside_bug_scope_records": 158,
+    "potentially_affected_public_parent_members": 5440,
+    "potentially_affected_public_parent_records": 240,
+    "private_artifact_hashes": [
+      {
+        "path": "runs/global-20260815T100000Z/inputs.json",
+        "sha256": "891626a9dce40c04932cdbeaf4dad235f6f7fffc9556bd9b8deaba9cff5f36f1"
+      },
+      {
+        "path": "runs/global-20260815T100000Z/results.jsonl",
+        "sha256": "edf0b55920ff76117a2f34d930d80db87b7965ec500e80985ec795d57e72c844"
+      },
+      {
+        "path": "runs/global-20260815T100000Z/summary.json",
+        "sha256": "62ee2a09e7683b3a2db093fdc78ad38ad0acfbd0340725601de9c1796badb987"
+      },
+      {
+        "path": "runs/continuation-20260815T103000Z/inputs.json",
+        "sha256": "810f90b9b3bba3b7dc9639b7de82f2468d64c0ed9f725e32d1c9f5e9f23d7275"
+      },
+      {
+        "path": "runs/continuation-20260815T103000Z/results.jsonl",
+        "sha256": "33887f74560be966ff26e6e5a21da4288732ac9ab2bdf8e0b14ee6ed88c10e70"
+      },
+      {
+        "path": "runs/continuation-20260815T103000Z/summary.json",
+        "sha256": "1863b8447d705dbc956ebef0639a7693ccbf1d91ed581b95c8884c6bda22acbe"
+      }
+    ],
+    "publicly_replayable": false,
+    "root_cause": "Public boundary contacts were inferred in domain-slack order C/B/A, then reconstructed as zero-barycentric modes A/B/C. The fix applies the explicit permutation (2,1,0).",
+    "status": "private_nonreplayable_audit",
+    "superseded_best_score": 0.03315805897708453,
+    "superseded_results_excluded_from_frontier": true,
+    "superseded_runs": [
+      "global-20260815T100000Z",
+      "continuation-20260815T103000Z"
+    ],
+    "superseded_strict_target_shortfall": 0.0033718319029456267,
+    "template_phase_payload_score_equality": true,
+    "template_phase_payload_score_records_equal": 138
+  },
+  "claim_scope": "Bounded continuous topology search only; not a proof of global optimality and not a closure of all evolutionary, MIQCP, interval, or continuous Heilbronn searches.",
+  "d3_distinct_public_basins": 13,
+  "leader": 0.036529889880030156,
+  "literature": [
+    {
+      "method": "MIQCP/QCP, bound tightening, symmetry breaking, adaptive discretization; surveyed recursive rectangle-cell branch-and-bound",
+      "paperclip": "https://paperclip.gxl.ai/citations/papers/arx_2512.14505#L7-L22,L27-L79,L89-L97,L168-L176",
+      "title": "Solving the Heilbronn Triangle Problem using Global Optimization Methods"
+    },
+    {
+      "method": "smooth absolute value, annealed soft-min, stochastic relaxation, L-BFGS-B, active SLSQP",
+      "paperclip": "https://paperclip.gxl.ai/citations/papers/arx_2601.18005#L1",
+      "primary": "https://arxiv.org/html/2601.18005",
+      "title": "Flow-based Extremal Mathematical Structure Discovery"
+    },
+    {
+      "method": "evolutionary point proposals projected into the equilateral triangle",
+      "paperclip": "https://paperclip.gxl.ai/citations/papers/arx_2511.02864#L624-L640",
+      "title": "Mathematical exploration and discovery at scale"
+    },
+    {
+      "method": "MAP-Elites, lineage-aware mutation, Halton/annealing/critical-triangle refinement",
+      "paperclip": "https://paperclip.gxl.ai/citations/papers/arx_2511.17592#L1-L20,L33-L46,L76-L98",
+      "title": "GigaEvo"
+    },
+    {
+      "method": "MINLP certification followed by exact symbolic active-equation recovery",
+      "paperclip": "https://paperclip.gxl.ai/citations/papers/arx_2603.11107#L1",
+      "primary": "https://arxiv.org/html/2603.11107",
+      "title": "From Computational Certification to Exact Coordinates"
+    }
+  ],
+  "min_improvement": 1e-09,
+  "minimum_true_d3_rms_over_retained_records": 0.04054608891852764,
+  "nearest_public_metric": "minimum D3-invariant RMS under squared-cost Hungarian assignment",
+  "prior_artifact_audit": {
+    "closed_families_not_repeated": {
+      "incumbent_active_face": "17 active triples + 6 boundary contacts",
+      "public_continuous_search": "2,471,800 asymmetric/depth-1-to-3 replacement starts",
+      "q143_adaptive_cells": "44 release scenarios in the follow-on closure",
+      "q144_to_q220_finite_cells": "72 distinct finite labeled domains",
+      "q25_full_grid": "all side-count orbits; 51,494,145 exact DFS nodes",
+      "q30_partial_and_complete_orbits": "121,384,089 audited DFS nodes"
+    },
+    "corpus_sqlite_sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb",
+    "d3_distinct_public_basins": 13,
+    "discussion_record_sha256": "7cb84976887a63444887812931b4f73a4a35395b5e7e21075d8781bfec7eb9a6",
+    "prior_files": [
+      {
+        "path": "HANDOFF.md",
+        "sha256": "3c1fe5971d833b7f1d8f50fdfdf9a71f4a9938110e2567149674edfb83f91013"
+      },
+      {
+        "path": "geometry/HANDOFF.md",
+        "sha256": "67ea32b1137920d5c4c8ba7efd254e695b86670d0dfd63bfc601838196d43068"
+      },
+      {
+        "path": "geometry/heilbronn_bnb/HANDOFF.md",
+        "sha256": "ad11a07f41b076718e71df0e5151453ec14da5f13f913113058af965ce120be6"
+      },
+      {
+        "path": "geometry/heilbronn_bnb/ADAPTIVE_Q143.md",
+        "sha256": "987d2802ee5fb70419a5b95c493581daeb4f16be45ff9043728b76208caad8e6"
+      },
+      {
+        "path": "geometry/heilbronn_rational_mesh_global/HANDOFF.md",
+        "sha256": "b2703429a9c3522fb757c7b0439aedb29cfc53c97a2a04fc5e2d6803ec107292"
+      },
+      {
+        "path": "geometry/heilbronn_q143_cegis/HANDOFF.md",
+        "sha256": "52a55bc3daa72ebf7f5023889c19c37d1554f7fd55535dd3a108d18d4e9a9cdb"
+      },
+      {
+        "path": "geometry/heilbronn_active_refine.py",
+        "sha256": "aa174b8fe32cbc9b104bddc8d17509005acf8a9c7033a47789501b06105a5861"
+      },
+      {
+        "path": "geometry/heilbronn_topology_search.py",
+        "sha256": "668f5980875bb52d95f4689db07f0254ebe95695e30b159594037181e8210f22"
+      },
+      {
+        "path": "literature_asset_hunt/HANDOFF.md",
+        "sha256": "58524147ef5cb4a010c57c1745f0020af17719c565953cbf3d4ce6641ce53ac9"
+      }
+    ],
+    "public_solution_ids": [
+      630,
+      649,
+      678,
+      704,
+      768,
+      847,
+      850,
+      913,
+      1004,
+      1005,
+      1006,
+      1015,
+      1111,
+      1144,
+      1157,
+      1189,
+      1425
+    ],
+    "public_solutions_read": 17,
+    "replies_read": 23,
+    "reply_records": [
+      {
+        "id": 502,
+        "record_sha256": "0c8a1d7431c16df7edc035dd2ad55bc9c640b4651c95c67a3724f1a4117e39b0"
+      },
+      {
+        "id": 509,
+        "record_sha256": "697590a66098e5071146294e31385b492f71e1354db58968ca4510959e6d5c08"
+      },
+      {
+        "id": 547,
+        "record_sha256": "46e948188eba4dc9695fe305465956f6a0b7db4bc3d482c9d7b893487d612b91"
+      },
+      {
+        "id": 578,
+        "record_sha256": "c8a734b63212c7328c2f8be0d6722a91259ffcd2d4ee64e5a80c6e4f1ceb0e5d"
+      },
+      {
+        "id": 613,
+        "record_sha256": "519f18bc218a508c31d422cdba60a5623a4ef2b17e5cccf3214780adacfab042"
+      },
+      {
+        "id": 629,
+        "record_sha256": "ce087b03d72743697e26ebc8bd65503db930ccd8c48af2a333b076449303b878"
+      },
+      {
+        "id": 720,
+        "record_sha256": "880e51c952296a96d52ec48b4cd25f7e277ea4ff787ee8f70f969411f3197033"
+      },
+      {
+        "id": 762,
+        "record_sha256": "2a9cf68968206264e05e0e35ee10d963102d715f1c7f295a0d7c9768ce9b2039"
+      },
+      {
+        "id": 806,
+        "record_sha256": "86aa23427429b9baf9bcae3bca0ffdfac8eefd16f15e1d2db9f6fba800b890ab"
+      },
+      {
+        "id": 864,
+        "record_sha256": "62981fca77358e934af6aa8a63d983e011379e06771066dcb6ae9850896b7f0c"
+      },
+      {
+        "id": 868,
+        "record_sha256": "e19b88348546a742601a206b5c0ddcbdeba9fc9ea32411f222ef98df58fb62d2"
+      },
+      {
+        "id": 879,
+        "record_sha256": "44ea6d4f64e32695cd28e9b56eb05d01b6be08ef3bc1d84e4acfabf7f9a161b2"
+      },
+      {
+        "id": 888,
+        "record_sha256": "3a4efab80c406f1c11fa20d2d2bc93e907520adb3fc50f590fdf63efaacba862"
+      },
+      {
+        "id": 907,
+        "record_sha256": "44715da2b4e9f2f105abc460a1eac5661a713839ecd9a8a844c3dc1d27e912ab"
+      },
+      {
+        "id": 912,
+        "record_sha256": "05d715c36cd5c69f73b44b0dcdeeecd6420a39ec21cebfaa677deadd53ae31a1"
+      },
+      {
+        "id": 913,
+        "record_sha256": "c2e682943e7f62bea93b4b12d769994e7adb5d9e7e06cf584b49965e41c73c00"
+      },
+      {
+        "id": 920,
+        "record_sha256": "84742f9fb1ffe4b547fa507e95df011061726556ba4f8b3dbbd106c97842a766"
+      },
+      {
+        "id": 941,
+        "record_sha256": "cd8748fbcbf61e88887188dbdf3c9b73d7841ed673f45bd47efecd4f80e61cc3"
+      },
+      {
+        "id": 952,
+        "record_sha256": "5f6612d716bc07074fb9c63b3cba597a07aacb6e166f45ebe6e96264b4150d62"
+      },
+      {
+        "id": 959,
+        "record_sha256": "33d7e1898f5ce1e659b5adb129e191326c509c53233c6f43d0d481c61892c04e"
+      },
+      {
+        "id": 968,
+        "record_sha256": "170e42e9fe2d7916b16fd229398761764c83738bdc1b8c2ac0013f0a246599a7"
+      },
+      {
+        "id": 994,
+        "record_sha256": "21e2cc2f86fb220487a11a7bc5d47df03c7322994f0598c1329fe991157ae011"
+      },
+      {
+        "id": 1069,
+        "record_sha256": "2927bfb4fe46a990ee9b706ea5c5973626df5315fd49f9c2ca58fb40bfda1fd2"
+      }
+    ],
+    "thread_records": [
+      {
+        "id": 144,
+        "record_sha256": "5143f06baa091e27303491a1eeb34537a7464ef49446362d2c3144d0c9d6c566"
+      },
+      {
+        "id": 148,
+        "record_sha256": "491c68783059aa7fc0f70cf89cae053321b5c955b8cffe67405df0d379036093"
+      },
+      {
+        "id": 205,
+        "record_sha256": "f7b5415d9e6a0781357d649eb5f7eff66d672bfb38cde4640606aa2fb279addb"
+      },
+      {
+        "id": 222,
+        "record_sha256": "e14089a2fe0eea0838de3ef6f19cc31ce7ea17603c9b2934e133aa7f8ac62ddf"
+      }
+    ],
+    "threads_read": 4
+  },
+  "public_receipt_replay": {
+    "assurance_scope": "Checks manifest bytes, receipt arithmetic, hash pins, scope labels, and absence of candidate arrays; it does not recompute geometric scores without the excluded coordinates and verifier.",
+    "campaign_snapshot_required": false,
+    "corpus_required": false,
+    "downloaded_or_local_verifier_executed": false,
+    "network_required": false,
+    "numpy_scipy_torch_required": false,
+    "path": "src/campaign/geometry/heilbronn_flow_topology_global/public_replay.py",
+    "raw_runs_required": false
+  },
+  "public_solutions": 17,
+  "publication_secret_scan_clean": true,
+  "runs": [
+    {
+      "all_fresh_verifier_replays_match": true,
+      "all_independent_formula_replays_match": true,
+      "all_payload_hashes_match": true,
+      "best_score": 0.034498013012460894,
+      "d3_distinct_public_basins": 13,
+      "events_sha256": "54f7b3ba10cf8830e66bd3b06cdd2e834b047b6b21e0d0f5b500805bdb72ff1f",
+      "gate_clearers": 0,
+      "inputs_sha256": "7dfb22e1c6ae8d3828a9ddaf2dc8e5e7a7d9b0bfb1f89b30cac58e2f0be63c24",
+      "max_independent_formula_delta": 9.71445146547012e-17,
+      "minimum_true_d3_rms": 0.04164652562654388,
+      "mutation_parents_selected": 10,
+      "mutation_population_members": 400,
+      "mutation_public_parents_selected": 8,
+      "mutation_template_parents_selected": 2,
+      "records": 238,
+      "results_sha256": "b6caf065a7e574082fa2c7f147de9a9338a8d6c2df58b6c42243a34709236bb1",
+      "rms_metadata_repair": {
+        "after_results_sha256": "b6caf065a7e574082fa2c7f147de9a9338a8d6c2df58b6c42243a34709236bb1",
+        "assignment_cost": "squared_euclidean",
+        "before_results_sha256": "120151349d59637cfdf6d48f5392349b9f5a3f49a7a038b0a45451264ff61471",
+        "candidate_coordinates_changed": false,
+        "payload_hashes_changed": false,
+        "records_with_nearest_metadata_changed": 11,
+        "verifier_scores_changed": false
+      },
+      "run": "global-20260815T100000Z-v2",
+      "summary_precompletion_event_hash": "87ed415d23f07593f25686f5f630a6d6f09141bb3b47b31722875e5248b1e1e2",
+      "summary_precompletion_hash_differs_from_final": true,
+      "summary_sha256": "4adabdeecc3eefdb34659c94067943c2a04c4249060c4fb78fcdb728b2eb0a37",
+      "template_population_members": 1104
+    },
+    {
+      "all_fresh_verifier_replays_match": true,
+      "all_independent_formula_replays_match": true,
+      "all_payload_hashes_match": true,
+      "best_score": 0.03316028976182035,
+      "d3_distinct_public_basins": 13,
+      "events_sha256": "9d4d62d0dbc272ab8b679c00a058155d35968285ba0931db54c9aa18d4375029",
+      "gate_clearers": 0,
+      "inputs_sha256": "cf1b8acaa5816ba20b97656dc02791553f069f054d07feb37da718a97f8ed687",
+      "max_independent_formula_delta": 9.020562075079397e-17,
+      "minimum_true_d3_rms": 0.04054608891852764,
+      "mutation_parents_selected": 4,
+      "mutation_population_members": 5120,
+      "mutation_public_parents_selected": 4,
+      "mutation_template_parents_selected": 0,
+      "records": 160,
+      "results_sha256": "7d514e7e0ebe70af75fe111fceb2bb97d0e1d130deb2bc6f9b884e81c95fdaa6",
+      "rms_metadata_repair": {
+        "after_results_sha256": "7d514e7e0ebe70af75fe111fceb2bb97d0e1d130deb2bc6f9b884e81c95fdaa6",
+        "assignment_cost": "squared_euclidean",
+        "before_results_sha256": "5c54d0ed6e7a933e7f27823454adb9a2e45d6451e9d3bf6e6f1aa8a1f3a6a455",
+        "candidate_coordinates_changed": false,
+        "payload_hashes_changed": false,
+        "records_with_nearest_metadata_changed": 2,
+        "verifier_scores_changed": false
+      },
+      "run": "continuation-20260815T103000Z-v2",
+      "summary_precompletion_event_hash": "7048d93dae7804dc67493c3e4da6704981ef9fad0c864b4167811b34b9859e6d",
+      "summary_precompletion_hash_differs_from_final": true,
+      "summary_sha256": "93415bf53fc7dd6ec56719fcf04b7d4d61babd6770f1f29e3c2a0292e90523f4",
+      "template_population_members": 0
+    }
+  ],
+  "runtime_boundary": {
+    "private_full_reproduction_requirements": "requirements.txt",
+    "public_receipt_replay_dependencies": "Python >=3.11 standard library only",
+    "python": ">=3.11"
+  },
+  "schema_version": 2,
+  "snapshot_sha256": "e6332c0715a82c9e62d9029385a7db1cab46549bf482ff65dca30e9ee5468d90",
+  "status": "frozen_bounded_frontier",
+  "strict_gate_clearers": 0,
+  "strict_target": 0.036529890880030155,
+  "total_annealed_population_members": 6624,
+  "total_polished_records": 398,
+  "verifier_sha256": "6afecf9539c4e9038cd6188e4e77efec00c9905b688728ad58f69dbfedc2441d"
+}

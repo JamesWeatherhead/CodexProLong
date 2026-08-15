@@ -1,0 +1,143 @@
+{
+  "copied_allowlist_audit": {
+    "campaign_snapshot_required": false,
+    "command": "python3.11 -I src/campaign/geometry/heilbronn_flow_topology_global/public_replay.py",
+    "corpus_required": false,
+    "downloaded_or_local_verifier_executed": false,
+    "network_required": false,
+    "raw_runs_required": false,
+    "status": "passed-before-canonical-manifest-write",
+    "third_party_packages_required": false
+  },
+  "dependencies_not_copied": [
+    {
+      "item": "frozen EinsteinArena Heilbronn verifier",
+      "public_replay_behavior": "hash pin checked; verifier bytes absent and never executed",
+      "sha256": "6afecf9539c4e9038cd6188e4e77efec00c9905b688728ad58f69dbfedc2441d"
+    },
+    {
+      "item": "frozen public solution snapshot",
+      "public_replay_behavior": "hash pin checked; snapshot bytes absent",
+      "sha256": "e6332c0715a82c9e62d9029385a7db1cab46549bf482ff65dca30e9ee5468d90"
+    },
+    {
+      "item": "private research corpus and raw v1/v2 runs",
+      "public_replay_behavior": "absent; private-only audit scope is explicit in receipt"
+    }
+  ],
+  "exclude": [
+    {
+      "path": "PUBLICATION_MANIFEST.json",
+      "reason": "a manifest cannot contain its own cryptographic digest"
+    },
+    {
+      "path": "runs/",
+      "reason": "raw generated coordinate arrays and verbose private logs"
+    },
+    {
+      "path": "__pycache__/ and *.pyc",
+      "reason": "generated interpreter caches"
+    },
+    {
+      "path": "all files outside the explicit include list",
+      "reason": "conservative publication boundary"
+    }
+  ],
+  "include": [
+    {
+      "bytes": 25,
+      "decision": "include",
+      "path": ".gitignore",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "81e271d4422393e3d29464a347e947c574d2868f63a51389a969d69a611a01a9"
+    },
+    {
+      "bytes": 4621,
+      "decision": "include",
+      "path": "HANDOFF.md",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "cf64975b0f3551eefa77fd5200eece846afc9d1202c739b1b38bc33bcaf9b1e0"
+    },
+    {
+      "bytes": 1074,
+      "decision": "include",
+      "path": "LICENSE",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "bytes": 7851,
+      "decision": "include",
+      "path": "README.md",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "5f24574a74b357315be0445f24411a86083c7139c1cd3b66c8169c99e9f753d6"
+    },
+    {
+      "bytes": 22946,
+      "decision": "include",
+      "path": "audit_packet.py",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "ef2917a0fd4fd77311a10d74747c9819f654cc71bdc004ec5208c5aecc742fbc"
+    },
+    {
+      "bytes": 6801,
+      "decision": "include",
+      "path": "freeze_publication.py",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "7a2bf5940011979f43694a90c2c8bb1a7b142c199dc1045f84af5677b2c49ca1"
+    },
+    {
+      "bytes": 35840,
+      "decision": "include",
+      "path": "global_search.py",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "2ccd3394e8fa1c3b70be7be0ebd31eb72a99061a85ef335afd966876b91e7208"
+    },
+    {
+      "bytes": 9366,
+      "decision": "include",
+      "path": "public_replay.py",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "dde2dbc674a615e49f60c15457daf3662dfb73d1c822bd7360feceaf704c84f9"
+    },
+    {
+      "bytes": 6448,
+      "decision": "include",
+      "path": "repair_rms_metadata.py",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "c85e73a1ae24001ee349cf0acd06ede63a5e2d10b320b103767b3501df5fac29"
+    },
+    {
+      "bytes": 172,
+      "decision": "include",
+      "path": "requirements.txt",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "54c9aa23c1346dff3668e80f6d050986e77a79c00c34923d0204f84e226eda21"
+    },
+    {
+      "bytes": 3642,
+      "decision": "include",
+      "path": "test_packet.py",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "a8dd299f63bf66495453b5433c0adb4b88e4ba69d9f6d610c00ebff2ba8c91a2"
+    },
+    {
+      "bytes": 17986,
+      "decision": "include",
+      "path": "publication/receipt.json",
+      "reason": "original source, documentation, dependency declaration, or coordinate-free receipt",
+      "sha256": "6dd0d1bf3cbfcdedfd232e471be399a514a64de4365b8c687f5445a0832b8db0"
+    }
+  ],
+  "policy": "explicit allowlist; all files outside it are excluded",
+  "public_layout_root": "src/campaign/geometry/heilbronn_flow_topology_global",
+  "runtime": {
+    "private_full_reproduction": "requirements.txt",
+    "public_replay": "standard library only",
+    "python": ">=3.11"
+  },
+  "schema_version": 2,
+  "scope": "publish-safe Heilbronn global-topology source and coordinate-free receipt",
+  "secrets_scanned": true,
+  "third_party_candidate_bytes_included": false
+}

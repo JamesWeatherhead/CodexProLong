@@ -371,6 +371,7 @@ PUBLICATION_MANIFESTS = (
     Path("geometry/circle_packing_multicontact_global/PUBLICATION_MANIFEST.json"),
     Path("discrete/difference_interval_constructions/PUBLICATION_MANIFEST.json"),
     Path("geometry/claudeevolve_circle_recovery/PUBLICATION_MANIFEST.json"),
+    Path("geometry/heilbronn_flow_topology_global/PUBLICATION_MANIFEST.json"),
     Path("geometry/thomson_282_scar_escape/PUBLICATION_MANIFEST.json"),
 )
 

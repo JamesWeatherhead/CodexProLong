@@ -1,0 +1,104 @@
+{
+  "canonical_manifest": "geometry/heilbronn_flow_topology_global/PUBLICATION_MANIFEST.json",
+  "canonical_manifest_sha256": "7f32e00fc5a1acd0121b42aa49e4308d359e3ad872071d29cfa2d4abeaf54aa7",
+  "files": [
+    {
+      "canonical_bytes": 25,
+      "canonical_sha256": "81e271d4422393e3d29464a347e947c574d2868f63a51389a969d69a611a01a9",
+      "path": ".gitignore",
+      "portable_path_rewrite": false,
+      "public_bytes": 25,
+      "public_sha256": "81e271d4422393e3d29464a347e947c574d2868f63a51389a969d69a611a01a9"
+    },
+    {
+      "canonical_bytes": 4621,
+      "canonical_sha256": "cf64975b0f3551eefa77fd5200eece846afc9d1202c739b1b38bc33bcaf9b1e0",
+      "path": "HANDOFF.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 4621,
+      "public_sha256": "cf64975b0f3551eefa77fd5200eece846afc9d1202c739b1b38bc33bcaf9b1e0"
+    },
+    {
+      "canonical_bytes": 1074,
+      "canonical_sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634",
+      "path": "LICENSE",
+      "portable_path_rewrite": false,
+      "public_bytes": 1074,
+      "public_sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "canonical_bytes": 7851,
+      "canonical_sha256": "5f24574a74b357315be0445f24411a86083c7139c1cd3b66c8169c99e9f753d6",
+      "path": "README.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 7851,
+      "public_sha256": "5f24574a74b357315be0445f24411a86083c7139c1cd3b66c8169c99e9f753d6"
+    },
+    {
+      "canonical_bytes": 22946,
+      "canonical_sha256": "ef2917a0fd4fd77311a10d74747c9819f654cc71bdc004ec5208c5aecc742fbc",
+      "path": "audit_packet.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 22946,
+      "public_sha256": "ef2917a0fd4fd77311a10d74747c9819f654cc71bdc004ec5208c5aecc742fbc"
+    },
+    {
+      "canonical_bytes": 6801,
+      "canonical_sha256": "7a2bf5940011979f43694a90c2c8bb1a7b142c199dc1045f84af5677b2c49ca1",
+      "path": "freeze_publication.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 6801,
+      "public_sha256": "7a2bf5940011979f43694a90c2c8bb1a7b142c199dc1045f84af5677b2c49ca1"
+    },
+    {
+      "canonical_bytes": 35840,
+      "canonical_sha256": "2ccd3394e8fa1c3b70be7be0ebd31eb72a99061a85ef335afd966876b91e7208",
+      "path": "global_search.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 35840,
+      "public_sha256": "2ccd3394e8fa1c3b70be7be0ebd31eb72a99061a85ef335afd966876b91e7208"
+    },
+    {
+      "canonical_bytes": 9366,
+      "canonical_sha256": "dde2dbc674a615e49f60c15457daf3662dfb73d1c822bd7360feceaf704c84f9",
+      "path": "public_replay.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 9366,
+      "public_sha256": "dde2dbc674a615e49f60c15457daf3662dfb73d1c822bd7360feceaf704c84f9"
+    },
+    {
+      "canonical_bytes": 6448,
+      "canonical_sha256": "c85e73a1ae24001ee349cf0acd06ede63a5e2d10b320b103767b3501df5fac29",
+      "path": "repair_rms_metadata.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 6448,
+      "public_sha256": "c85e73a1ae24001ee349cf0acd06ede63a5e2d10b320b103767b3501df5fac29"
+    },
+    {
+      "canonical_bytes": 172,
+      "canonical_sha256": "54c9aa23c1346dff3668e80f6d050986e77a79c00c34923d0204f84e226eda21",
+      "path": "requirements.txt",
+      "portable_path_rewrite": false,
+      "public_bytes": 172,
+      "public_sha256": "54c9aa23c1346dff3668e80f6d050986e77a79c00c34923d0204f84e226eda21"
+    },
+    {
+      "canonical_bytes": 3642,
+      "canonical_sha256": "a8dd299f63bf66495453b5433c0adb4b88e4ba69d9f6d610c00ebff2ba8c91a2",
+      "path": "test_packet.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 3642,
+      "public_sha256": "a8dd299f63bf66495453b5433c0adb4b88e4ba69d9f6d610c00ebff2ba8c91a2"
+    },
+    {
+      "canonical_bytes": 17986,
+      "canonical_sha256": "6dd0d1bf3cbfcdedfd232e471be399a514a64de4365b8c687f5445a0832b8db0",
+      "path": "publication/receipt.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 17986,
+      "public_sha256": "6dd0d1bf3cbfcdedfd232e471be399a514a64de4365b8c687f5445a0832b8db0"
+    }
+  ],
+  "policy": "Canonical bytes are hash-checked before export. Absolute host paths in manifest-approved JSON/JSONL are rewritten to portable campaign-relative paths; all other bytes are copied verbatim.",
+  "schema_version": 1
+}
