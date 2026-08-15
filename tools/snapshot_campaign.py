@@ -81,6 +81,11 @@ EVIDENCE_ARTIFACTS = {
     ),
 }
 SANITIZED_EVIDENCE_ARTIFACTS = {
+    "difference-global-audit": "discrete/difference_global/checkpoints/audit_receipt.json",
+    "difference-global-relative-checkpoint": "discrete/difference_global/checkpoints/relative_graph.json",
+    "difference-global-sparse-patch-checkpoint": "discrete/difference_global/checkpoints/sparse_patch.json",
+    "difference-global-relative-candidate": "discrete/difference_global/candidates/relative_graph_best.json",
+    "difference-global-sparse-patch-candidate": "discrete/difference_global/candidates/sparse_patch_best.json",
     "geometry-literature-asset-replays": "literature_asset_hunt/receipt.json",
     "geometry-literature-asset-sources": "literature_asset_hunt/sources.json",
 }
@@ -91,7 +96,7 @@ FRONTIER_RECEIPTS = {
 METHODS = {
     "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short after 156 one-contact releases, 58 PAS-PCI relocations, and 80 clean-room FlowBoost-inspired seeds; a genuinely new multi-contact topology is required.",
     "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short after 100 global/aspect and void endpoints spanning 24 graph classes, 22 absent from the full public corpus; a genuinely new multi-contact topology is required.",
-    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109.",
+    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109. A separate Paperclip-derived quadratic relative-difference-set campaign tested 2,400 global starts, 16 coordinate descents, and 121,111 exact sparse-patch births; finite-group coverage collapsed under integer carry ordering.",
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Independent literal-verifier replay of the n=3,584 active-bundle SLP reaches 0.38085862169567786, improving the public leader by 5.55e-8 but remaining 4.45e-8 short of the gate; a bounded n=64 Shor–McCormick/SROCR lift extracted only worse feasible basins.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
@@ -112,7 +117,7 @@ METHODS = {
 SOURCE_ENTRYPOINTS = {
     "circle-packing": "geometry/circle_packing_topology/HANDOFF.md",
     "circles-rectangle": "geometry/rectangle_topology/HANDOFF.md",
-    "difference-bases": "discrete/difference_bases/HANDOFF.md",
+    "difference-bases": "discrete/difference_global/HANDOFF.md",
     "edges-vs-triangles": "discrete/edges_vs_triangles/HANDOFF.md",
     "erdos-min-overlap": "analytic/erdos_global/HANDOFF.md",
     "flat-polynomials": "analytic/flat_global/HANDOFF.md",
@@ -154,8 +159,6 @@ EXCLUDED_PARTS = {
     "vendor",
     "cache",
     "payloads",
-    # Active lanes are published only after their own frozen handoffs.
-    "difference_global",
     "__pycache__",
     ".ruff_cache",
 }

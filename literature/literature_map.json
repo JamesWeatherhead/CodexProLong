@@ -17,6 +17,26 @@
       "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2511.02864#L95-L151,L190-L207,L361-L398,L481-L521,L597-L640",
       "vfs_path": "/papers/arx_2511.02864/content.lines"
     },
+    "li_yip_difference_bases": {
+      "title": "Generalized additive bases and difference bases for Cartesian product of finite abelian groups",
+      "authors": [
+        "Shuxing Li",
+        "Chi Hoi Yip"
+      ],
+      "year": 2025,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2509.24034#L73-L78,L119-L123,L129-L132,L281-L291",
+      "vfs_path": "/papers/arx_2509.24034/content.lines"
+    },
+    "schmutz_tait_difference_sets": {
+      "title": "Cardinalities of g-difference sets",
+      "authors": [
+        "Eric Schmutz",
+        "Michael Tait"
+      ],
+      "year": 2025,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2501.11736#L8-L22,L213-L217",
+      "vfs_path": "/papers/arx_2501.11736/content.lines"
+    },
     "barnard_steinerberger": {
       "title": "Three Convolution Inequalities on the Real Line with Connections to Additive Combinatorics",
       "authors": [
@@ -315,9 +335,9 @@
     {
       "slug": "difference-bases",
       "status": "active",
-      "source_keys": ["alphaevolve_math", "barnard_steinerberger"],
-      "line_pins": ["L139-L144", "L41-L58"],
-      "research_direction": "Singer difference-set seeds and deficit-aware swaps with incremental multiplicity tables"
+      "source_keys": ["alphaevolve_math", "li_yip_difference_bases", "schmutz_tait_difference_sets"],
+      "line_pins": ["L139-L144", "L73-L78", "L119-L123", "L129-L132", "L281-L291", "L8-L22", "L213-L217"],
+      "research_direction": "Carry-aware terrace or ordering constructions that preserve relative-difference-set coverage after embedding finite groups into an integer interval"
     },
     {
       "slug": "kissing-number-d12",

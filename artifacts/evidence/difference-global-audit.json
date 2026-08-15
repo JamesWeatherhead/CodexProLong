@@ -1,0 +1,182 @@
+{
+  "excluded_unlicensed_full_text": [
+    "campaign/discrete/difference_global/checkpoints/public_latest.json",
+    "campaign/discrete/difference_global/snapshots/public_20260815T040127Z.json"
+  ],
+  "gate_cleared": false,
+  "leader": {
+    "agent": "AlphaEvolve",
+    "coverage": 49109,
+    "gate_score": 2.6390274685066077,
+    "id": 634,
+    "payload_sha256": "02b16426d5a66feb480d79c7e1c7c26bb18ffb50730c5a2c76861584ec59183b",
+    "score": 2.639027469506608,
+    "score_fraction": "129600/49109",
+    "size": 360
+  },
+  "mode": "local_exact_replay_plus_public_get_only",
+  "prior_closed_neighborhoods": {
+    "block_repair": {
+      "gate_cleared": false,
+      "path": "campaign/discrete/difference_bases/checkpoints/block_repair.json",
+      "sha256": "249ab2235f102475c4eee6e085b11989287a85f96b4732e3a193503a65360df6"
+    },
+    "one_edit": {
+      "gate_cleared": false,
+      "path": "campaign/discrete/checkpoints/difference-search.json",
+      "sha256": "3b02144f9c8c59ddf2ae0f57c249320cbcc58f49b343eb8d59b9e7e0182aa946"
+    },
+    "two_swap": {
+      "gate_cleared": false,
+      "path": "campaign/discrete/difference_bases/checkpoints/two_swap.json",
+      "sha256": "aeed393d6ff10b74b7f43095a2b82f864bd6f2e87b2c27682614add345844319"
+    }
+  },
+  "public_corpus": {
+    "counts": {
+      "leaderboard": 12,
+      "replies": 78,
+      "solutions": 23,
+      "threads": 11
+    },
+    "fetched_at": "2026-08-15T04:01:27.888334+00:00",
+    "snapshot_sha256": "6159d144ae3c57dc740cd4fd5b54e1a467589c44b355dcef98ceb4b0bc6d0d69"
+  },
+  "publish_safe_artifacts": {
+    "campaign/discrete/difference_global/HANDOFF.md": "ad168d6ca548ad5ad6529c85fc0ffd6640286ff2bf352c77c938a1cc8cfaa6ca",
+    "campaign/discrete/difference_global/PROVENANCE.md": "02c03655537da5172f93d35464f43389611a7f020eae1632edc825225435b7d2",
+    "campaign/discrete/difference_global/README.md": "b7e871422bb63f745a2af3c4df2edf672e0cc61cacd3791b90299b3e457427a1",
+    "campaign/discrete/difference_global/candidates/relative_graph_best.json": "3ddbd9f951d5f21d8b56788aae24720e1fc6b765994bbb74b30aaac70f381f3c",
+    "campaign/discrete/difference_global/candidates/sparse_patch_best.json": "fd0b198b3e413f3de007be6cc6ce0c9a9b0c268ed5bf106b4bcb33a05b241f88",
+    "campaign/discrete/difference_global/checkpoints/relative_graph.json": "6d7c73477d249b37a5adacd83c0a3c132262beb415661f81af8863b92687db64",
+    "campaign/discrete/difference_global/checkpoints/sparse_patch.json": "4cfe9b6f8c3504842f7c6ece3607c1086bd5ef2785919628197129e08f73f4d1",
+    "campaign/discrete/difference_global/exact.py": "73be0878907a89ce36756a19f9da147fb9fb2aa4c1928c71531af519abc75236",
+    "campaign/discrete/difference_global/freeze_receipt.py": "aac4c4eec538f0652312091004364e1e4a89ca432c4e87589942f0586e342c6b",
+    "campaign/discrete/difference_global/refresh_public.py": "4a6003dd2a7a01258fb64a68aa5a0eef24a74e2619d1d1654fde33618bd35d67",
+    "campaign/discrete/difference_global/relative_graph_search.py": "783ccc218fae8c07075615544843e2a0c42d35fa52a3879aba92adc04e36f206",
+    "campaign/discrete/difference_global/sparse_patch_search.py": "7b1fb75359cc7e9ae603f37553ca9acbe9e028ef7ddbe196c92f381385322c6b",
+    "campaign/discrete/difference_global/test_exact.py": "6ccfdad148fe40936a1307b3f822795faa3bc6d953f36904f79a2443ef9b1574"
+  },
+  "relative_search": {
+    "budgets": {
+      "coordinate_sweeps": 1,
+      "elite_per_prime_height": 2,
+      "random_starts_per_prime_height": 300
+    },
+    "checkpoint_sha256": "6d7c73477d249b37a5adacd83c0a3c132262beb415661f81af8863b92687db64",
+    "raw_best": {
+      "coverage": 2405,
+      "difference_count": 48568,
+      "elapsed_seconds": 331.713584,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "intercepts": [
+          90,
+          65,
+          20,
+          58
+        ],
+        "matrix": [
+          77,
+          69,
+          25,
+          93
+        ],
+        "p": 97,
+        "quadratic": 78,
+        "slopes": [
+          75,
+          80,
+          23,
+          35
+        ]
+      },
+      "payload_sha256": "ebbc8fb5fea1332dc8a4a67a0cf1aaed6d2e21f9f42602034a33e5e898f513c8",
+      "prime": 97,
+      "required_coverage": 57046,
+      "score": 62.596257796257795,
+      "score_fraction": "150544/2405",
+      "size": 388
+    },
+    "retained_records_replayed": 16,
+    "size_normalized_best": {
+      "coverage": 2351,
+      "difference_count": 32147,
+      "elapsed_seconds": 28.722312,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "intercepts": [
+          67,
+          6,
+          10,
+          1
+        ],
+        "matrix": [
+          67,
+          77,
+          10,
+          56
+        ],
+        "p": 79,
+        "quadratic": 36,
+        "slopes": [
+          37,
+          9,
+          48,
+          21
+        ]
+      },
+      "payload_sha256": "8d97a646a20bebd030aed172d6c7226ed531a204fff782601ede964db472099f",
+      "prime": 79,
+      "required_coverage": 37839,
+      "score": 42.47384091875797,
+      "score_fraction": "99856/2351",
+      "size": 316
+    }
+  },
+  "schema": 1,
+  "sparse_patch": {
+    "best": {
+      "coverage": 4077,
+      "difference_count": 34511,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "payload_sha256": "5c26fa610cf0ee469ec731f5969aaf40cf65d2ddf314aa32f413b258d2c736cb",
+      "score": 28.3541819965661,
+      "score_fraction": "115600/4077",
+      "size": 340,
+      "span": 50195
+    },
+    "candidate_sha256": "fd0b198b3e413f3de007be6cc6ce0c9a9b0c268ed5bf106b4bcb33a05b241f88",
+    "checkpoint_sha256": "4cfe9b6f8c3504842f7c6ece3607c1086bd5ef2785919628197129e08f73f4d1",
+    "children_evaluated": 121111,
+    "depth": 24
+  },
+  "verifier_sha256": "a7521e8a701ac31131932d2a732769d65426d329f4a933c4819516adacf2e585"
+}

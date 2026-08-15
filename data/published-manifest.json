@@ -1,6 +1,31 @@
 {
   "files": [
     {
+      "bytes": 6149,
+      "path": "artifacts/evidence/difference-global-audit.json",
+      "sha256": "6d216d29734e88a0f3eb5b7aeba74347818b0648e66039ef7b777f3d20d44fd3"
+    },
+    {
+      "bytes": 5719,
+      "path": "artifacts/evidence/difference-global-relative-candidate.json",
+      "sha256": "3ddbd9f951d5f21d8b56788aae24720e1fc6b765994bbb74b30aaac70f381f3c"
+    },
+    {
+      "bytes": 16108,
+      "path": "artifacts/evidence/difference-global-relative-checkpoint.json",
+      "sha256": "6d7c73477d249b37a5adacd83c0a3c132262beb415661f81af8863b92687db64"
+    },
+    {
+      "bytes": 4817,
+      "path": "artifacts/evidence/difference-global-sparse-patch-candidate.json",
+      "sha256": "fd0b198b3e413f3de007be6cc6ce0c9a9b0c268ed5bf106b4bcb33a05b241f88"
+    },
+    {
+      "bytes": 11494,
+      "path": "artifacts/evidence/difference-global-sparse-patch-checkpoint.json",
+      "sha256": "4cfe9b6f8c3504842f7c6ece3607c1086bd5ef2785919628197129e08f73f4d1"
+    },
+    {
       "bytes": 31785,
       "path": "artifacts/evidence/geometry-literature-asset-replays.json",
       "sha256": "aa67d79befa346c2d3178a0d113b92d432f9181e20340ac9a3483c9db71b433a"
@@ -514,6 +539,51 @@
       "bytes": 13630,
       "path": "src/campaign/discrete/difference_bases/two_swap.py",
       "sha256": "1a0f1881b7284bfad7a7796c870422328d71040abb9492746d30a3af02a42794"
+    },
+    {
+      "bytes": 2523,
+      "path": "src/campaign/discrete/difference_global/HANDOFF.md",
+      "sha256": "ad168d6ca548ad5ad6529c85fc0ffd6640286ff2bf352c77c938a1cc8cfaa6ca"
+    },
+    {
+      "bytes": 3231,
+      "path": "src/campaign/discrete/difference_global/PROVENANCE.md",
+      "sha256": "02c03655537da5172f93d35464f43389611a7f020eae1632edc825225435b7d2"
+    },
+    {
+      "bytes": 3992,
+      "path": "src/campaign/discrete/difference_global/README.md",
+      "sha256": "b7e871422bb63f745a2af3c4df2edf672e0cc61cacd3791b90299b3e457427a1"
+    },
+    {
+      "bytes": 4823,
+      "path": "src/campaign/discrete/difference_global/exact.py",
+      "sha256": "73be0878907a89ce36756a19f9da147fb9fb2aa4c1928c71531af519abc75236"
+    },
+    {
+      "bytes": 6241,
+      "path": "src/campaign/discrete/difference_global/freeze_receipt.py",
+      "sha256": "aac4c4eec538f0652312091004364e1e4a89ca432c4e87589942f0586e342c6b"
+    },
+    {
+      "bytes": 2809,
+      "path": "src/campaign/discrete/difference_global/refresh_public.py",
+      "sha256": "4a6003dd2a7a01258fb64a68aa5a0eef24a74e2619d1d1654fde33618bd35d67"
+    },
+    {
+      "bytes": 12973,
+      "path": "src/campaign/discrete/difference_global/relative_graph_search.py",
+      "sha256": "783ccc218fae8c07075615544843e2a0c42d35fa52a3879aba92adc04e36f206"
+    },
+    {
+      "bytes": 7442,
+      "path": "src/campaign/discrete/difference_global/sparse_patch_search.py",
+      "sha256": "7b1fb75359cc7e9ae603f37553ca9acbe9e028ef7ddbe196c92f381385322c6b"
+    },
+    {
+      "bytes": 2124,
+      "path": "src/campaign/discrete/difference_global/test_exact.py",
+      "sha256": "6ccfdad148fe40936a1307b3f822795faa3bc6d953f36904f79a2443ef9b1574"
     },
     {
       "bytes": 8373,

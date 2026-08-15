@@ -1,0 +1,820 @@
+{
+  "best": {
+    "coverage": 2405,
+    "difference_count": 48568,
+    "elapsed_seconds": 331.713584,
+    "gate_cleared": false,
+    "gate_score": 2.6390274685066077,
+    "height_assignment": [
+      0,
+      2,
+      5,
+      6
+    ],
+    "parameters": {
+      "heights": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "intercepts": [
+        90,
+        65,
+        20,
+        58
+      ],
+      "matrix": [
+        77,
+        69,
+        25,
+        93
+      ],
+      "p": 97,
+      "quadratic": 78,
+      "slopes": [
+        75,
+        80,
+        23,
+        35
+      ]
+    },
+    "payload_sha256": "ebbc8fb5fea1332dc8a4a67a0cf1aaed6d2e21f9f42602034a33e5e898f513c8",
+    "prime": 97,
+    "required_coverage": 57046,
+    "score": 62.596257796257795,
+    "score_fraction": "150544/2405",
+    "size": 388
+  },
+  "budgets": {
+    "coordinate_sweeps": 1,
+    "elite_per_prime_height": 2,
+    "random_starts_per_prime_height": 300
+  },
+  "complete": true,
+  "conclusion": "Bounded relative-difference-set search did not clear the exact live gate. The best raw embedding is retained as a quantified topology frontier.",
+  "family": "quadratic relative-difference-set graphs in four integer cells",
+  "gate_cleared": false,
+  "gate_score": 2.6390274685066077,
+  "leader_coverage": 49109,
+  "leader_id": 634,
+  "leader_payload_sha256": "02b16426d5a66feb480d79c7e1c7c26bb18ffb50730c5a2c76861584ec59183b",
+  "leader_score": 2.639027469506608,
+  "records": [
+    {
+      "coverage": 1110,
+      "difference_count": 31960,
+      "elapsed_seconds": 16.245184,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "intercepts": [
+          9,
+          30,
+          44,
+          34
+        ],
+        "matrix": [
+          33,
+          5,
+          51,
+          14
+        ],
+        "p": 79,
+        "quadratic": 25,
+        "slopes": [
+          28,
+          9,
+          67,
+          10
+        ]
+      },
+      "payload_sha256": "9257ec34b2ce27584064c878eaf695d025f97202ecaa92e7dbca579949078cc8",
+      "prime": 79,
+      "required_coverage": 37839,
+      "score": 89.96036036036035,
+      "score_fraction": "49928/555",
+      "size": 316
+    },
+    {
+      "coverage": 2351,
+      "difference_count": 32147,
+      "elapsed_seconds": 28.722312,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "intercepts": [
+          67,
+          6,
+          10,
+          1
+        ],
+        "matrix": [
+          67,
+          77,
+          10,
+          56
+        ],
+        "p": 79,
+        "quadratic": 36,
+        "slopes": [
+          37,
+          9,
+          48,
+          21
+        ]
+      },
+      "payload_sha256": "8d97a646a20bebd030aed172d6c7226ed531a204fff782601ede964db472099f",
+      "prime": 79,
+      "required_coverage": 37839,
+      "score": 42.47384091875797,
+      "score_fraction": "99856/2351",
+      "size": 316
+    },
+    {
+      "coverage": 2248,
+      "difference_count": 32277,
+      "elapsed_seconds": 45.037575,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "intercepts": [
+          56,
+          57,
+          16,
+          62
+        ],
+        "matrix": [
+          23,
+          28,
+          24,
+          34
+        ],
+        "p": 79,
+        "quadratic": 61,
+        "slopes": [
+          31,
+          5,
+          19,
+          51
+        ]
+      },
+      "payload_sha256": "f5797df9e43e4bb5cbdc3d0f7e9e264d8eb657f9b4ad060867d31e11563601a9",
+      "prime": 79,
+      "required_coverage": 37839,
+      "score": 44.419928825622776,
+      "score_fraction": "12482/281",
+      "size": 316
+    },
+    {
+      "coverage": 1454,
+      "difference_count": 32075,
+      "elapsed_seconds": 57.54128,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "intercepts": [
+          47,
+          29,
+          39,
+          11
+        ],
+        "matrix": [
+          55,
+          13,
+          39,
+          1
+        ],
+        "p": 79,
+        "quadratic": 70,
+        "slopes": [
+          28,
+          33,
+          52,
+          50
+        ]
+      },
+      "payload_sha256": "9e4b4ae23226431abf1431013ae448fb8385845c6227e5bb1b841fa9f65e7302",
+      "prime": 79,
+      "required_coverage": 37839,
+      "score": 68.6767537826685,
+      "score_fraction": "49928/727",
+      "size": 316
+    },
+    {
+      "coverage": 1330,
+      "difference_count": 35114,
+      "elapsed_seconds": 77.429671,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "intercepts": [
+          82,
+          43,
+          43,
+          42
+        ],
+        "matrix": [
+          68,
+          5,
+          25,
+          82
+        ],
+        "p": 83,
+        "quadratic": 9,
+        "slopes": [
+          25,
+          47,
+          33,
+          24
+        ]
+      },
+      "payload_sha256": "137b8837c9595ba3d069dd1c6a4ae2758aaf29acb2cc533d14a2b60e6b1e7948",
+      "prime": 83,
+      "required_coverage": 41767,
+      "score": 82.87518796992481,
+      "score_fraction": "55112/665",
+      "size": 332
+    },
+    {
+      "coverage": 916,
+      "difference_count": 35185,
+      "elapsed_seconds": 92.868636,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "intercepts": [
+          28,
+          55,
+          70,
+          75
+        ],
+        "matrix": [
+          78,
+          57,
+          66,
+          53
+        ],
+        "p": 83,
+        "quadratic": 49,
+        "slopes": [
+          46,
+          33,
+          19,
+          81
+        ]
+      },
+      "payload_sha256": "be6e18f10b75c9e792fb114e4f343b878dd8e8a88bfbb00f9c17020f74ec6e97",
+      "prime": 83,
+      "required_coverage": 41767,
+      "score": 120.33187772925764,
+      "score_fraction": "27556/229",
+      "size": 332
+    },
+    {
+      "coverage": 1404,
+      "difference_count": 35218,
+      "elapsed_seconds": 112.84478,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "intercepts": [
+          70,
+          2,
+          1,
+          70
+        ],
+        "matrix": [
+          36,
+          26,
+          80,
+          37
+        ],
+        "p": 83,
+        "quadratic": 33,
+        "slopes": [
+          50,
+          41,
+          22,
+          57
+        ]
+      },
+      "payload_sha256": "5a8e2cc6afb3f189e68794e9c0e701e8f3a4448345c6b4c4897a0d77bd18d00e",
+      "prime": 83,
+      "required_coverage": 41767,
+      "score": 78.5071225071225,
+      "score_fraction": "27556/351",
+      "size": 332
+    },
+    {
+      "coverage": 1525,
+      "difference_count": 35392,
+      "elapsed_seconds": 128.329091,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "intercepts": [
+          18,
+          45,
+          62,
+          29
+        ],
+        "matrix": [
+          8,
+          16,
+          24,
+          39
+        ],
+        "p": 83,
+        "quadratic": 59,
+        "slopes": [
+          37,
+          46,
+          0,
+          64
+        ]
+      },
+      "payload_sha256": "8c8aba4c00f37011fc6f88f758981201828c190a20c72e24e507b6e51a27e249",
+      "prime": 83,
+      "required_coverage": 41767,
+      "score": 72.27803278688525,
+      "score_fraction": "110224/1525",
+      "size": 332
+    },
+    {
+      "coverage": 1345,
+      "difference_count": 40207,
+      "elapsed_seconds": 155.09377,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "intercepts": [
+          67,
+          57,
+          61,
+          72
+        ],
+        "matrix": [
+          29,
+          88,
+          30,
+          31
+        ],
+        "p": 89,
+        "quadratic": 61,
+        "slopes": [
+          8,
+          57,
+          15,
+          61
+        ]
+      },
+      "payload_sha256": "8c64bf7edad708710dd784688ba8e02b34b17d4686bae9a981f98999fb99e825",
+      "prime": 89,
+      "required_coverage": 48024,
+      "score": 94.2275092936803,
+      "score_fraction": "126736/1345",
+      "size": 356
+    },
+    {
+      "coverage": 1684,
+      "difference_count": 40526,
+      "elapsed_seconds": 176.071494,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "intercepts": [
+          31,
+          35,
+          9,
+          14
+        ],
+        "matrix": [
+          33,
+          62,
+          41,
+          41
+        ],
+        "p": 89,
+        "quadratic": 22,
+        "slopes": [
+          26,
+          55,
+          68,
+          41
+        ]
+      },
+      "payload_sha256": "f4c3f65bb950e86a9d3f652a686ddd962bcab2cc5db3aaaa6ac9fdbf6988a729",
+      "prime": 89,
+      "required_coverage": 48024,
+      "score": 75.25890736342043,
+      "score_fraction": "31684/421",
+      "size": 356
+    },
+    {
+      "coverage": 1693,
+      "difference_count": 40527,
+      "elapsed_seconds": 202.787764,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "intercepts": [
+          4,
+          28,
+          83,
+          20
+        ],
+        "matrix": [
+          49,
+          50,
+          14,
+          20
+        ],
+        "p": 89,
+        "quadratic": 67,
+        "slopes": [
+          74,
+          41,
+          69,
+          30
+        ]
+      },
+      "payload_sha256": "d7be19ca9d8da8b6ef13ebfcd2b624a78e218a1239f92d40f230a397ec9e9746",
+      "prime": 89,
+      "required_coverage": 48024,
+      "score": 74.85883047844064,
+      "score_fraction": "126736/1693",
+      "size": 356
+    },
+    {
+      "coverage": 1497,
+      "difference_count": 40831,
+      "elapsed_seconds": 224.00207,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "intercepts": [
+          12,
+          37,
+          24,
+          66
+        ],
+        "matrix": [
+          14,
+          55,
+          25,
+          86
+        ],
+        "p": 89,
+        "quadratic": 27,
+        "slopes": [
+          78,
+          49,
+          54,
+          9
+        ]
+      },
+      "payload_sha256": "1d4ae3904a0a108419ec0b54677af536ad592be5729c589df02d5abdf95295dd",
+      "prime": 89,
+      "required_coverage": 48024,
+      "score": 84.65998663994657,
+      "score_fraction": "126736/1497",
+      "size": 356
+    },
+    {
+      "coverage": 1747,
+      "difference_count": 48377,
+      "elapsed_seconds": 262.388388,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "intercepts": [
+          44,
+          53,
+          33,
+          60
+        ],
+        "matrix": [
+          72,
+          82,
+          77,
+          59
+        ],
+        "p": 97,
+        "quadratic": 50,
+        "slopes": [
+          16,
+          65,
+          17,
+          15
+        ]
+      },
+      "payload_sha256": "5df1d4a3b134917407687c2488ef4f81dfd3edb73fecd2d78e11549940731729",
+      "prime": 97,
+      "required_coverage": 57046,
+      "score": 86.1728677733257,
+      "score_fraction": "150544/1747",
+      "size": 388
+    },
+    {
+      "coverage": 1136,
+      "difference_count": 48094,
+      "elapsed_seconds": 293.115461,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        1,
+        4,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          1,
+          4,
+          6
+        ],
+        "intercepts": [
+          16,
+          87,
+          48,
+          42
+        ],
+        "matrix": [
+          27,
+          12,
+          51,
+          27
+        ],
+        "p": 97,
+        "quadratic": 90,
+        "slopes": [
+          37,
+          87,
+          34,
+          80
+        ]
+      },
+      "payload_sha256": "4f07ad58756621caafe9030f09dc6a0d7041ec452ac5b481c245110564876812",
+      "prime": 97,
+      "required_coverage": 57046,
+      "score": 132.5211267605634,
+      "score_fraction": "9409/71",
+      "size": 388
+    },
+    {
+      "coverage": 2405,
+      "difference_count": 48568,
+      "elapsed_seconds": 331.713584,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "intercepts": [
+          90,
+          65,
+          20,
+          58
+        ],
+        "matrix": [
+          77,
+          69,
+          25,
+          93
+        ],
+        "p": 97,
+        "quadratic": 78,
+        "slopes": [
+          75,
+          80,
+          23,
+          35
+        ]
+      },
+      "payload_sha256": "ebbc8fb5fea1332dc8a4a67a0cf1aaed6d2e21f9f42602034a33e5e898f513c8",
+      "prime": 97,
+      "required_coverage": 57046,
+      "score": 62.596257796257795,
+      "score_fraction": "150544/2405",
+      "size": 388
+    },
+    {
+      "coverage": 1835,
+      "difference_count": 48558,
+      "elapsed_seconds": 362.609785,
+      "gate_cleared": false,
+      "gate_score": 2.6390274685066077,
+      "height_assignment": [
+        0,
+        2,
+        5,
+        6
+      ],
+      "parameters": {
+        "heights": [
+          0,
+          2,
+          5,
+          6
+        ],
+        "intercepts": [
+          51,
+          16,
+          5,
+          32
+        ],
+        "matrix": [
+          59,
+          28,
+          68,
+          21
+        ],
+        "p": 97,
+        "quadratic": 83,
+        "slopes": [
+          57,
+          67,
+          77,
+          39
+        ]
+      },
+      "payload_sha256": "f2fa11b57e4ddf62d8fdcaea6d39701223de88caed8622a894c53aa17ad8ac0c",
+      "prime": 97,
+      "required_coverage": 57046,
+      "score": 82.04032697547684,
+      "score_fraction": "150544/1835",
+      "size": 388
+    }
+  ],
+  "schema": 1,
+  "seed": 2026081501,
+  "verifier_sha256": "a7521e8a701ac31131932d2a732769d65426d329f4a933c4819516adacf2e585"
+}

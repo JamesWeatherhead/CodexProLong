@@ -29,22 +29,29 @@ chain-of-thought.
   SAT encodings, centered pair-topology enumeration, eight exhaustive block
   families, and two global annealers. Its quantified negative frontier prevents
   future contexts from repeating more than 400 million already-tested moves.
+- Published a second, structurally different Difference Bases campaign derived
+  from Paperclip literature on quadratic relative difference sets. Across
+  2,400 global starts, 16 full coordinate descents, and 121,111 exact sparse
+  patch births, modular coverage repeatedly failed when embedded into the
+  ordered integers. The code, candidates, and negative receipt remain useful
+  for testing future carry-aware terraces without repeating this family.
 
 ## Current high-information lanes
 
 - **Erdős minimum overlap:** the changed-grid n=3,584 exact active-set SLP has
-  reached `0.3808585934510948`, only `1.6235255e-8` above the strict gate, with
+  reached `0.3808585875055632`, only `1.0289724e-8` above the strict gate, with
   every continuation stage accepted so far.
-- **Difference bases:** the closed Singer-product 1-/2-swap neighborhoods have
-  been retired. A Paperclip-grounded finite-field quadratic-graph plus subgroup
-  construction is now being tested by an exact checkpointed bitset solver.
+- **Difference bases:** Singer-product local neighborhoods and the independent
+  quadratic relative-difference-set topology are both frozen. The next credible
+  route must coordinate integer carry order directly rather than add more
+  finite-group randomization or first-gap patch depth.
 - **Third autocorrelation:** boundary-cell topology changes plus exact
   all-coordinate continuation reached `1.4515653850221024`; this is a genuine
   new basin but remains about `3.52e-6` short of the gate.
-- **Geometry asset recovery:** Exa is locating primary repositories and
-  downloadable high-precision constructions; Paperclip supplies full-text,
-  line-pinned mathematical context. Every recovered object is parsed and
-  replayed against the frozen Arena verifier before it enters the ledger.
+- **Geometry contact recombination:** Exa/Paperclip asset recovery replayed 17
+  primary-source constructions without a gate-clearer. The current bounded lane
+  canonicalizes their contact graphs, crosses compatible subgraphs, and subjects
+  every child to fixed-center LP plus exact active-set refinement.
 
 Machine-generated scores and ranks live in [STATUS.md](STATUS.md); solver-level
 details live in `src/campaign/**/README.md` and `HANDOFF.md`.

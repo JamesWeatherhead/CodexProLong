@@ -111,6 +111,16 @@ Machine-readable coverage and the reproducible query log live in
     optimize pair type and pair sign against the current active unit-circle
     peaks, then replay the complete million-point verifier grid.
 
+11. **Difference bases need an integer-carry construction, not another modular
+    seed.** Li and Yip's quadratic relative-difference-set graph gives excellent
+    coverage in a finite product group and explicitly patches the forbidden
+    subgroup [23]; Schmutz and Tait connect generalized difference sets to
+    radius-two covering codes [24]. Exact Arena experiments show that naive
+    base-​(p) embedding destroys the modular advantage at carry boundaries.
+    The next useful family must therefore build a terrace or ordering whose
+    adjacent carries are part of the construction, rather than deepening local
+    patches around the same embedding.
+
 ## Public-safe map for all 19 Arena slugs
 
 | Arena slug | Literature-grounded direction |
@@ -130,7 +140,7 @@ Machine-readable coverage and the reproducible query log live in
 | `circle-packing` | Keep centers as the global-search variables, solve radii exactly for each center set, and generate changed contact graphs with pain-ranked void relocation, split-neighbour moves, and stochastic center perturbations [1, 11, 12, 13]. |
 | `heilbronn-triangles` | Use barycentric symmetry breaking, active signed-area constraints, lattice seeds, and fixed-sign MIQCP/MINLP branch-and-bound certificates; the newer exact-coordinate workflow is certified only through \(n\leq 9\), so it supplies machinery rather than an \(n=11\) construction [1, 4, 5, 12, 13, 14]. |
 | `circles-rectangle` | Jointly optimize rectangle aspect ratio and the active tangency graph, reusing fixed-center radius optimization and topology-changing void moves from square circle packing [1, 11, 12]. |
-| `difference-bases` | Seed Singer difference sets, then perform deficit-aware swaps while maintaining a fast difference-multiplicity table [1, 2]. |
+| `difference-bases` | Construct carry-aware terraces/orderings that preserve relative-difference-set coverage after embedding finite product groups into an integer interval; naive quadratic-graph embeddings and local subgroup patches are now a quantified no-go [1, 23, 24]. |
 | `kissing-number-d12` | Archived target: retain the documented 60+60+720 block/bridge decomposition and 48-system flexibility as the reproducible explanation for the 841 construction [8]. |
 | `kissing-number-d11-605` | Build on collaborative 11-dimensional subcodes, optimize with structural perturbations, and require exact integer verification at the end [1, 10]. |
 | `kissing-number-d12-842` | Start inside the 840/841 structured family, perturb the flexible 48-systems under logarithmic Riesz energy, then search for an exactifiable 842nd-vector rearrangement [7, 8]. |
@@ -224,3 +234,9 @@ REFERENCES
 
 [22] Paul Balister, Béla Bollobás, Robert Morris, Julian Sahasrabudhe, and Marius Tiba. “Flat Littlewood Polynomials Exist.” *Annals of Mathematics* 192, 977–1004 (2020).
     https://paperclip.gxl.ai/citations/papers/arx_1907.09464#L23,L32-L38,L79-L85
+
+[23] Shuxing Li and Chi Hoi Yip. “Generalized additive bases and difference bases for Cartesian product of finite abelian groups.” *arXiv* (2025).
+    https://paperclip.gxl.ai/citations/papers/arx_2509.24034#L73-L78,L119-L123,L129-L132,L281-L291
+
+[24] Eric Schmutz and Michael Tait. “Cardinalities of g-difference sets.” *arXiv* (2025).
+    https://paperclip.gxl.ai/citations/papers/arx_2501.11736#L8-L22,L213-L217

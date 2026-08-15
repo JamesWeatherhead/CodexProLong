@@ -128,6 +128,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧭 [All 19 benchmarks, ranks, and next attacks](docs/STATUS.md)
 - 🧪 [Open lab notebook: decisions, successes, and failures](docs/OPEN_LAB_NOTEBOOK.md)
 - 📚 [Paperclip literature map and line-pinned citations](docs/LITERATURE.md)
+- 🧮 [Paperclip-derived relative-difference-set search](src/campaign/discrete/difference_global/HANDOFF.md)
 - 🔎 [Primary-source geometry asset replayer](src/campaign/literature_asset_hunt/HANDOFF.md)
 - 🧱 [Harness architecture and trust boundaries](docs/ARCHITECTURE.md)
 - ⚖️ [Integrity policy and verifier disclosures](docs/ETHICS.md)
