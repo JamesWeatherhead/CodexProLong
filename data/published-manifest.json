@@ -56,9 +56,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 28858,
+      "bytes": 29426,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "d82ade7f5932e72a579bbb9fae7f4b61ca8a8e89682320b4cb75c16c23b171c1"
+      "sha256": "ab8ab26d3eee0386274af87fac54a84d8d765c8d98cb3d078b374cfe459903f4"
     },
     {
       "bytes": 715,
@@ -129,6 +129,31 @@
       "bytes": 2019,
       "path": "src/campaign/README.md",
       "sha256": "44f86285de91713d3069575ea8d7c085eeb247edadee1d24ec46a546367a55fa"
+    },
+    {
+      "bytes": 3777,
+      "path": "src/campaign/analytic/c2_global_topology/HANDOFF.md",
+      "sha256": "01fde23a95fd4957a6f94a7ff00cc885584f7fb23512191f1787eb2f9c209c1f"
+    },
+    {
+      "bytes": 2130,
+      "path": "src/campaign/analytic/c2_global_topology/JOURNAL.md",
+      "sha256": "669761c841734210a38eb5fe90ab2333cb3aa357598dcd79f947f0bbfc928569"
+    },
+    {
+      "bytes": 1899,
+      "path": "src/campaign/analytic/c2_global_topology/README.md",
+      "sha256": "96f35b6716206f60cfc5229f65750accfabdfc2ec5fccb5888b7986d50441454"
+    },
+    {
+      "bytes": 9895,
+      "path": "src/campaign/analytic/c2_global_topology/macro_phase_search.py",
+      "sha256": "157a6d5cbdfc96e7b837b9355f41a76e67047e2adb696ef54ec9e22ffac5d1b0"
+    },
+    {
+      "bytes": 8136,
+      "path": "src/campaign/analytic/c2_global_topology/terminal_split_search.py",
+      "sha256": "c762ee66bc718c1c8783f98062b8cd2aa8d3d34cd6fef92e3132b782b1c05ea5"
     },
     {
       "bytes": 3004,

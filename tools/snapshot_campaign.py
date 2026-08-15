@@ -59,7 +59,7 @@ FRONTIER_ARTIFACTS = {
     "heilbronn-triangles": "geometry/runs/20260814T231710Z/heilbronn-triangles/best.json",
     "min-distance-ratio-2d": "geometry/runs/20260814T231106Z/min-distance-ratio-2d/best.json",
     "prime-number-theorem": "discrete/prime_number_theorem/group_refine_feasible.json",
-    "second-autocorrelation-inequality": "analytic/c2_secondary/runs/20260815T004948Z-birth/best.npy",
+    "second-autocorrelation-inequality": "analytic/c2_global_topology/runs/20260815T041000Z-terminal-split/best.npy",
     "third-autocorrelation-inequality": "c3_root/runs-102400/20260815T011534Z/best.npy",
     "thomson-problem": "geometry/runs/20260814T234800Z/thomson-problem/best.json",
 }
@@ -84,7 +84,7 @@ METHODS = {
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
     "min-distance-ratio-2d": "100-digit active root and 280 topology release/promote trials; best local gain is 2.35e-11 versus a 1e-7 gate.",
     "prime-number-theorem": "Exact cutting planes and 600 stratified support exchanges; best live-replayed local gain is 4.15e-7, below the 1e-6 gate.",
-    "second-autocorrelation-inequality": "Changed-support packet births improve the public score by 6.69e-9, far below the 1e-5 gate.",
+    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881172701123 after changed-support packet births; 362 whole-region phase schedules and 378 finite-mass terminal split constructions found no global escape, leaving a 9.9933e-6 gate gap.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
     "third-autocorrelation-inequality": "n=102,400 exact continuation gains 6.334e-6; a pivoted 68-mode all-lag epigraph closed after 4,666 cuts but gained only 8.9e-10, so the remaining 3.665e-6 needs a support/topology escape.",
     "thomson-problem": "48 topology-changing seeds and exact tangent polishing return to the defect-minimal basin; no gate-clearer yet.",
@@ -111,7 +111,7 @@ EXCLUDED_PARTS = {
     "__pycache__",
     ".ruff_cache",
     # Active lanes are published only after their own frozen handoffs.
-    "c2_global_topology",
+    "flat_global",
 }
 UNPUBLISHED_WORK_IN_PROGRESS = {
     Path("c3_root/rank_lift_escape.py"),
