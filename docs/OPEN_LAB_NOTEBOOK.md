@@ -52,6 +52,12 @@ chain-of-thought.
   consumed 2,184 literal-verifier calls. The source and incumbent envelopes
   correlate above 0.996 after registration, and the full gain was 4,930 times
   too small, so this basin is now frozen rather than endlessly re-polished.
+- Ran a second, macro-topology C2 campaign grounded in Paperclip full-text reads
+  and Exa primary-source discovery. It exact-replayed 360 coordinated cross-basin
+  support mosaics; the strongest genuine finite topology change moved 67,863
+  material-support cells but scored `0.9625196080123224`, below the retained
+  seed. The compact event journal, source hashes, and independent replayer are
+  public, while large third-party-derived arrays remain local pending licensing.
 - Verified the public d11/594 kissing construction exactly over all 176,121
   vector pairs: it is a genuine score-zero code, not a floating-point artifact.
   Because zero is the objective floor and the leaderboard assigns ordinal

@@ -6,6 +6,21 @@
       "sha256": "1abdefe1c79fd324eee009bf53c109ec6fea7d87120936340babaa34bb98f86b"
     },
     {
+      "bytes": 4481,
+      "path": "artifacts/evidence/c2-global-multiscale-independent-replay.json",
+      "sha256": "d08996e512aa9e17bddcc93589ae184691d11249901f02122da0ea8ebfe2a398"
+    },
+    {
+      "bytes": 2359,
+      "path": "artifacts/evidence/c2-global-multiscale-source-manifest.json",
+      "sha256": "bd266869a3d0de76e8ae04448d033f070a5143f50f3384f9e67038ba24f0536c"
+    },
+    {
+      "bytes": 6028,
+      "path": "artifacts/evidence/c2-global-multiscale.json",
+      "sha256": "564db02c4de6cd7854fe199e7df8f2a1db11b979a0276a362effe4b54b870834"
+    },
+    {
       "bytes": 4295,
       "path": "artifacts/evidence/c2-simpletes-repeat-probe.json",
       "sha256": "f93ed95b740295bf0bd135c7bdbb06bbd739c892a80244f48d3990ab7b79be8a"
@@ -289,6 +304,51 @@
       "bytes": 2019,
       "path": "src/campaign/README.md",
       "sha256": "44f86285de91713d3069575ea8d7c085eeb247edadee1d24ec46a546367a55fa"
+    },
+    {
+      "bytes": 51,
+      "path": "src/campaign/analysis/second_autocorrelation_global_multiscale/.gitignore",
+      "sha256": "5e549398c500329e8e997643e2104cdf41a965cecae5e6de04469a0e83cf0d51"
+    },
+    {
+      "bytes": 2742,
+      "path": "src/campaign/analysis/second_autocorrelation_global_multiscale/HANDOFF.md",
+      "sha256": "370aeb768600ae6242e4116a8b2635acae9841d8daf981042e0f78f799ddb2c3"
+    },
+    {
+      "bytes": 5088,
+      "path": "src/campaign/analysis/second_autocorrelation_global_multiscale/README.md",
+      "sha256": "3e4a9195d17789df79fa644f8f69f6427da4681c5f118a21974fa3ce96ad7ff9"
+    },
+    {
+      "bytes": 4223,
+      "path": "src/campaign/analysis/second_autocorrelation_global_multiscale/literature.json",
+      "sha256": "7265100107b849d9087253b07d834cd16d6463dc69e67b865ed9f178cef7a717"
+    },
+    {
+      "bytes": 10421,
+      "path": "src/campaign/analysis/second_autocorrelation_global_multiscale/replay.py",
+      "sha256": "029068819aadc3b8a4f9a5ba5262d4e310541698e62a419c3d76a727d125cd89"
+    },
+    {
+      "bytes": 224241,
+      "path": "src/campaign/analysis/second_autocorrelation_global_multiscale/runs/20260815T062500Z-bundle/events.jsonl",
+      "sha256": "f5b8c229a354c2f6f821e24b21abc88f3f444ab1b98b8fe7259422b04617c72e"
+    },
+    {
+      "bytes": 24373,
+      "path": "src/campaign/analysis/second_autocorrelation_global_multiscale/runs/20260815T062500Z-bundle/selected_specs.json",
+      "sha256": "0ed33bf81565c6375bbdee306808732c19d1fc5ee6718bfc46bd5d8a552bfc6d"
+    },
+    {
+      "bytes": 1785,
+      "path": "src/campaign/analysis/second_autocorrelation_global_multiscale/runs/20260815T062500Z-bundle/summary.json",
+      "sha256": "529bd75823709fb669739d11f1359f2ca1edebbf29695eba9ee4618c875e7c73"
+    },
+    {
+      "bytes": 20507,
+      "path": "src/campaign/analysis/second_autocorrelation_global_multiscale/search.py",
+      "sha256": "c93cadae176e258d806eaae55c087cd987c7ccb488b8326e36320ffb44e6e5a4"
     },
     {
       "bytes": 3777,

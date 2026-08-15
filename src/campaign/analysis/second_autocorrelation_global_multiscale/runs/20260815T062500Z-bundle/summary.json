@@ -1,0 +1,60 @@
+{
+  "accepted": 0,
+  "alphas": [
+    0.003,
+    0.01,
+    0.03,
+    0.1,
+    0.3,
+    1.0
+  ],
+  "best_changed_event": {
+    "alpha": 1.0,
+    "candidate_values_sha256": "1c008f53454cff8f9cf56be1fe5ce9a3823bcb45a595214e66e480e2226c98f2",
+    "evaluation": 324,
+    "event": "evaluate",
+    "gain_from_seed": -1.1102230246251565e-16,
+    "gap_to_gate": 9.991285129351546e-06,
+    "indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "l1_moved_fraction": 1.7601903953326001,
+    "material_births": 285466,
+    "material_deaths": 285466,
+    "material_support_xor": 570932,
+    "mode": "raw",
+    "nonzero": 751016,
+    "proxy_mean": -5.828378721862373e-05,
+    "proxy_robust": -0.0002112575396352165,
+    "schedule": "certificate_top_4",
+    "score": 0.9635881192968996,
+    "segments": 4,
+    "source": "seed_reflected",
+    "spec_index": 53
+  },
+  "best_changed_gain_from_seed": -1.1102230246251565e-16,
+  "best_changed_gap_to_gate": 9.991285129351546e-06,
+  "best_changed_score": 0.9635881192968996,
+  "best_changed_values_sha256": "1c008f53454cff8f9cf56be1fe5ce9a3823bcb45a595214e66e480e2226c98f2",
+  "best_event": {
+    "kind": "seed",
+    "score": 0.9635881192968997
+  },
+  "best_gain_from_seed": 0.0,
+  "best_gap_to_gate": 9.991285129240524e-06,
+  "best_score": 0.9635881192968997,
+  "enumerated_specs": 450,
+  "evaluations": 360,
+  "gate_cleared": false,
+  "mode": "finite coordinated multiscale support-bundle crossover",
+  "public_leader": 0.963588110582029,
+  "random_seed": 2026081502,
+  "retained_values_sha256": "8ad79d6fa04b566b852138709d959df928a7ec7cd36143d03a80901c1b485e34",
+  "seed_score": 0.9635881192968997,
+  "selected_specs": 60,
+  "strict_gate": 0.9635981105820289,
+  "verifier_sha256": "dc5ccffaa20ba6c112cab36ffe602c657372d192d8b486abd66b14bcad1ca768"
+}

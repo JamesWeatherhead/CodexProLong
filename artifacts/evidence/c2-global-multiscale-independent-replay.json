@@ -1,0 +1,140 @@
+{
+  "best_finite_topology_mosaic": {
+    "alpha": 0.003,
+    "candidate_values_sha256": "9a9ae160e39ea0088ca17500887dcdf54bb616d4671fe393e04d5df1a4e067c3",
+    "evaluation": 337,
+    "event": "evaluate",
+    "gain_from_seed": -0.0010685112845773004,
+    "gap_to_gate": 0.001078502569706541,
+    "indices": [
+      1,
+      3
+    ],
+    "l1_moved_fraction": 0.001208380737207161,
+    "material_births": 67855,
+    "material_deaths": 8,
+    "material_support_xor": 67863,
+    "mode": "raw",
+    "nonzero": 849679,
+    "proxy_mean": 0.00022746142298688492,
+    "proxy_robust": 5.976390210134941e-05,
+    "schedule": "certificate_top_2",
+    "score": 0.9625196080123224,
+    "segments": 8,
+    "source": "seed_reflected",
+    "spec_index": 56
+  },
+  "best_finite_topology_mosaic_score": 0.9625196080123224,
+  "best_material_support_mosaic": {
+    "alpha": 0.003,
+    "candidate_values_sha256": "3a7365fa825c310a8004c591610014f14f5272387d6b5dcdbe55bd18fe08683a",
+    "evaluation": 175,
+    "event": "evaluate",
+    "gain_from_seed": -1.0427497145526488e-05,
+    "gap_to_gate": 2.041878227476701e-05,
+    "indices": [
+      40,
+      58
+    ],
+    "l1_moved_fraction": 1.754736151234815e-05,
+    "material_births": 38,
+    "material_deaths": 0,
+    "material_support_xor": 38,
+    "mode": "raw",
+    "nonzero": 752382,
+    "proxy_mean": 3.921635015665473e-06,
+    "proxy_robust": 2.9271319727566463e-06,
+    "schedule": "certificate_top_2",
+    "score": 0.9635776917997542,
+    "segments": 64,
+    "source": "public_2415",
+    "spec_index": 29
+  },
+  "best_material_support_mosaic_score": 0.9635776917997542,
+  "best_noncontrol": {
+    "alpha": 0.003,
+    "candidate_values_sha256": "82f55290510629190ac972d44b28ec63e87d2bab6c1743a6f5d0e3d927e18a46",
+    "evaluation": 127,
+    "event": "evaluate",
+    "gain_from_seed": -9.832946403331988e-06,
+    "gap_to_gate": 1.982423153257251e-05,
+    "indices": [
+      5,
+      6
+    ],
+    "l1_moved_fraction": 2.3198183976038516e-05,
+    "material_births": 0,
+    "material_deaths": 0,
+    "material_support_xor": 0,
+    "mode": "block_mass",
+    "nonzero": 752342,
+    "proxy_mean": 3.5047612550392206e-06,
+    "proxy_robust": 5.454527850253222e-07,
+    "schedule": "certificate_top_2",
+    "score": 0.9635782863504964,
+    "segments": 8,
+    "source": "public_2415",
+    "spec_index": 21
+  },
+  "best_noncontrol_score": 0.9635782863504964,
+  "candidate_bytes_reconstructed": 5759997120,
+  "evaluations_replayed": 360,
+  "event_maximum": {
+    "alpha": 1.0,
+    "candidate_values_sha256": "1c008f53454cff8f9cf56be1fe5ce9a3823bcb45a595214e66e480e2226c98f2",
+    "evaluation": 324,
+    "event": "evaluate",
+    "gain_from_seed": -1.1102230246251565e-16,
+    "gap_to_gate": 9.991285129351546e-06,
+    "indices": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "l1_moved_fraction": 1.7601903953326001,
+    "material_births": 285466,
+    "material_deaths": 285466,
+    "material_support_xor": 570932,
+    "mode": "raw",
+    "nonzero": 751016,
+    "proxy_mean": -5.828378721862373e-05,
+    "proxy_robust": -0.0002112575396352165,
+    "schedule": "certificate_top_4",
+    "score": 0.9635881192968996,
+    "segments": 4,
+    "source": "seed_reflected",
+    "spec_index": 53
+  },
+  "event_maximum_score": 0.9635881192968996,
+  "finite_topology_definition": {
+    "excludes_exact_reflection_and_whole_known_parent_controls": true,
+    "minimum_l1_moved_fraction": 0.001,
+    "minimum_material_support_xor": 1000
+  },
+  "gap_to_gate": 9.991285129240524e-06,
+  "gate_cleared": false,
+  "input_audit": {
+    "mlai_2413": {
+      "score": 0.9634557199922669,
+      "values_sha256": "ec1910220fb31b64154dadae55db8b66036c09234e4be2a848adfef9bde6f920"
+    },
+    "public_2414": {
+      "score": 0.9635459261095106,
+      "values_sha256": "6eff8c105a722b5c55fb330c7c285d5335bd032dd5c1c8d0392e1b3aec6b2269"
+    },
+    "public_2415": {
+      "score": 0.963564989976486,
+      "values_sha256": "61cdc9a564bb111fcc005c112eaf5ee3c03a7c448d335766a052c4025da7e6bf"
+    },
+    "seed": {
+      "score": 0.9635881192968997,
+      "values_sha256": "8ad79d6fa04b566b852138709d959df928a7ec7cd36143d03a80901c1b485e34"
+    }
+  },
+  "retained_score": 0.9635881192968997,
+  "retained_values_sha256": "8ad79d6fa04b566b852138709d959df928a7ec7cd36143d03a80901c1b485e34",
+  "run": "campaign/analysis/second_autocorrelation_global_multiscale/runs/20260815T062500Z-bundle",
+  "status": "pass",
+  "verifier_sha256": "dc5ccffaa20ba6c112cab36ffe602c657372d192d8b486abd66b14bcad1ca768"
+}

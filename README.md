@@ -136,6 +136,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🔬 [API/schema/verifier gap audit](src/campaign/schema_gap_audit/README.md)
 - 🧬 [High-resolution C2 asset recovery](src/campaign/c2_asset_recovery/HANDOFF.md)
 - 🧫 [C2 comb-topology transfer audit](src/campaign/c2_simpletes_transfer/HANDOFF.md)
+- 🧬 [C2 global multiscale support-mosaic search](src/campaign/analysis/second_autocorrelation_global_multiscale/HANDOFF.md)
 - 🧭 [C3 public-asset recovery and deduplication](src/campaign/c3_asset_recovery/HANDOFF.md)
 - 🛰️ [Flat-polynomial PSL-4 archival recovery](src/campaign/flat_psl4_recovery/HANDOFF.md)
 - 🧮 [Exact 4.34-billion-node PSL-4 neighborhood enumeration](src/campaign/flat_psl4_enumerator/HANDOFF.md)

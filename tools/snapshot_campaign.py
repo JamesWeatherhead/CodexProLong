@@ -101,6 +101,17 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "c2-asset-recovery": "c2_asset_recovery/receipt.json",
     "c2-simpletes-transfer": "c2_simpletes_transfer/receipt.json",
     "c2-simpletes-repeat-probe": "c2_simpletes_transfer/repeat_probe.json",
+    "c2-global-multiscale": (
+        "analysis/second_autocorrelation_global_multiscale/receipt.json"
+    ),
+    "c2-global-multiscale-independent-replay": (
+        "analysis/second_autocorrelation_global_multiscale/runs/"
+        "20260815T062500Z-bundle/independent_replay.json"
+    ),
+    "c2-global-multiscale-source-manifest": (
+        "analysis/second_autocorrelation_global_multiscale/runs/"
+        "20260815T062500Z-bundle/source_manifest.json"
+    ),
     "c3-asset-recovery": "c3_asset_recovery/receipt.json",
     "kissing-d11-594-exact-audit": "kissing_d11_594_audit/receipt.json",
     "heilbronn-q143-exact-support-closure": "geometry/heilbronn_q143_cegis/receipt.json",
@@ -131,7 +142,7 @@ METHODS = {
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
     "min-distance-ratio-2d": "A 100-digit active root, 280 release/promote trials, and 550 canonical contact-graph recombinations all return the same micro-polished basin. A separate adjacent-cardinality topology campaign exact-replayed 214 births/deaths and found 153 corpus-novel contact graphs; the best novel graph remains 0.00577 worse, while the overall best gains only 2.35e-11 against a 1e-7 gate.",
     "prime-number-theorem": "Changed-reach cutting planes produce evaluated solution #2506 at 0.9976572852677297. An exact rational sweep covers every real state in the advertised verifier horizon; a global all-x proof remains open.",
-    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. The recovered comb aligns above 0.996 with the incumbent envelope after registration, and the entire transfer gained only 2.03e-9, leaving a 9.9913e-6 gate gap.",
+    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. A separate Paperclip/Exa-grounded multiscale search reconstructed 360 coordinated cross-basin support mosaics, including a 67,863-cell finite topology change; none beat the retained seed, leaving a 9.9913e-6 gate gap.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
     "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation reach 1.4515653850221024, still 3.52e-6 short of the gate. A commit-pinned audit replayed 25 public artifacts and ten payloads; the best distinct seed was 0.00211008 worse, while the strongest high-resolution asset exactly duplicated public submissions.",
     "thomson-problem": "A literature-grounded N=72 to N=282 split campaign enumerated 48 alternative defect-free source triangulations and realized 30 distinct defect-free N=282 initial graphs. Exact isomorphism replay shows all 30 releases return to the incumbent topology; the best score differs only by 1.46e-11 float dust and remains 9.99986e-7 short.",
@@ -149,7 +160,9 @@ SOURCE_ENTRYPOINTS = {
     "min-distance-ratio-2d": "geometry/min_distance_ratio_global_escape/HANDOFF.md",
     "kissing-number-d12": "geometry/kissing_d12/HANDOFF.md",
     "prime-number-theorem": "discrete/prime_number_theorem/HANDOFF.md",
-    "second-autocorrelation-inequality": "c2_simpletes_transfer/HANDOFF.md",
+    "second-autocorrelation-inequality": (
+        "analysis/second_autocorrelation_global_multiscale/HANDOFF.md"
+    ),
     "third-autocorrelation-inequality": "c3_asset_recovery/HANDOFF.md",
     "thomson-problem": "geometry/thomson_282_topology_escape/HANDOFF.md",
 }
@@ -189,6 +202,24 @@ ROOT_SOURCE_FILES = (
     "flat_psl4_enumerator/runs/near-leukhin-24.jsonl",
     "flat_psl4_enumerator/runs/near-dimitrov-24.jsonl",
     "flat_psl4_enumerator/runs/near-pslrk-24.jsonl",
+    "analysis/second_autocorrelation_global_multiscale/.gitignore",
+    "analysis/second_autocorrelation_global_multiscale/README.md",
+    "analysis/second_autocorrelation_global_multiscale/HANDOFF.md",
+    "analysis/second_autocorrelation_global_multiscale/literature.json",
+    "analysis/second_autocorrelation_global_multiscale/search.py",
+    "analysis/second_autocorrelation_global_multiscale/replay.py",
+    (
+        "analysis/second_autocorrelation_global_multiscale/runs/"
+        "20260815T062500Z-bundle/events.jsonl"
+    ),
+    (
+        "analysis/second_autocorrelation_global_multiscale/runs/"
+        "20260815T062500Z-bundle/selected_specs.json"
+    ),
+    (
+        "analysis/second_autocorrelation_global_multiscale/runs/"
+        "20260815T062500Z-bundle/summary.json"
+    ),
 )
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = (
@@ -226,7 +257,6 @@ UNPUBLISHED_WORK_IN_PROGRESS = {
     Path("discrete/prime_number_theorem/tail_select_mip.py"),
 }
 UNPUBLISHED_SOURCE_PREFIXES = {
-    Path("analysis/second_autocorrelation_global_multiscale"),
     Path("analytic/c3_precision_escape"),
     Path("discrete/difference_exact_synthesis"),
 }

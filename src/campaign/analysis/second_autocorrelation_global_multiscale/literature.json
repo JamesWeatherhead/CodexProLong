@@ -1,0 +1,70 @@
+{
+  "version": 1,
+  "retrieved_for_run_utc": "2026-08-15T06:24:49Z",
+  "paperclip": {
+    "usage": "Direct full-text virtual-filesystem reads with line-pinned citations; no repository clone.",
+    "sources": [
+      {
+        "authors": ["Aaron Jaech", "Alan Joseph"],
+        "title": "Further Improvements to the Lower Bound for an Autoconvolution Inequality",
+        "year": 2025,
+        "arxiv": "2508.02803",
+        "vfs_path": "/papers/arx_2508.02803/content.lines",
+        "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2508.02803#L19-L37",
+        "used_claim": "The reported C2 construction is a high-resolution spike-plus-comb profile and the optimization compares direct full-resolution with coarse-to-fine/global peak-flattening strategies."
+      },
+      {
+        "authors": ["Julien Boyer", "Jiaqian Li"],
+        "title": "The second autocorrelation inequality: towards a constructive proof that C >= 0.901564",
+        "year": 2025,
+        "arxiv": "2506.16750",
+        "vfs_path": "/papers/arx_2506.16750/content.lines",
+        "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2506.16750#L62-L80",
+        "used_claim": "The construction uses simulated annealing and a 23-to-115-to-575 multiscale optimization hierarchy."
+      },
+      {
+        "authors": ["Alexey Kravatskiy", "Valentin Khrulkov", "Ivan Oseledets"],
+        "title": "ImprovEvolve: Basin-Hopping Meets LLM-Guided Evolutionary Search",
+        "year": 2026,
+        "arxiv": "2602.10233",
+        "vfs_path": "/papers/arx_2602.10233/content.lines",
+        "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2602.10233#L1",
+        "used_claim": "The work frames mathematical optimization around evolved initialization, improvement, and perturbation operators with intensity-scheduled basin hopping; this supported testing a bounded global operator rather than local float polish."
+      }
+    ]
+  },
+  "exa": {
+    "usage": "Primary-publication discovery and highlighted full-text inspection; credential was read from the configured Keychain and was not copied into artifacts.",
+    "requests": [
+      {
+        "request_id": "4bbacac9ec9b132ea04e4a0e642e5851",
+        "type": "deep/publication",
+        "purpose": "Find primary measure-optimization methods that change global support topology."
+      },
+      {
+        "request_id": "94c0dcbff7eb7fa9bc476bbe21508ed5",
+        "type": "publication/highlights",
+        "purpose": "Inspect the primary Sliding Frank-Wolfe paper and its support-insertion/joint-relocation mechanism."
+      }
+    ],
+    "sources": [
+      {
+        "authors": ["Quentin Denoyelle", "Vincent Duval", "Gabriel Peyre", "Emmanuel Soubies"],
+        "title": "The Sliding Frank-Wolfe Algorithm and its Application to Super-Resolution Microscopy",
+        "arxiv": "1811.06416",
+        "url": "https://doi.org/10.48550/arXiv.1811.06416",
+        "used_claim": "The algorithm alternates certificate-guided support insertion with joint amplitude and position optimization.",
+        "scope_limit": "Its finite-convergence theory concerns a convex sparse inverse problem under nondegeneracy; it is not a convergence theorem for the nonconvex C2 max-ratio objective. Only the operator pattern was borrowed as a heuristic."
+      },
+      {
+        "authors": ["Armin Eftekhari", "Andrew Thompson"],
+        "title": "Sparse Inverse Problems Over Measures: Equivalence of the Conditional Gradient and Exchange Methods",
+        "arxiv": "1804.10243",
+        "url": "https://doi.org/10.48550/arXiv.1804.10243",
+        "used_claim": "Exchange and conditional-gradient methods provide a primary-source vocabulary for finite support insertion and re-optimization over measures.",
+        "scope_limit": "The equivalence does not transfer a guarantee to this C2 search; it only motivated a global support-changing probe."
+      }
+    ]
+  },
+  "methodological_conclusion": "Primary literature supports multiscale continuation and explicit support-changing operators as plausible global mechanisms. This run tested a finite coordinated bundle-crossover analogue and found a negative frontier; it does not claim that the source algorithms themselves fail on C2."
+}
