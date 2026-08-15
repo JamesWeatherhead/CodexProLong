@@ -436,6 +436,96 @@
       "sha256": "c93cadae176e258d806eaae55c087cd987c7ccb488b8326e36320ffb44e6e5a4"
     },
     {
+      "bytes": 1389,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/DEPENDENCIES.md",
+      "sha256": "0b9e6bef978a265d5d35aaf61763a2e4c685d20360102c1d6531cf793dac8e61"
+    },
+    {
+      "bytes": 3279,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/H100_PLAN.md",
+      "sha256": "9df459418cacf574795bc6b40b87087570e0c31de2c340733a6267c1405dfae7"
+    },
+    {
+      "bytes": 1085,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/LICENSE",
+      "sha256": "5a7e5c2197cc881e07154886eb4e192303829454647a9af7b8e1e35264f7104f"
+    },
+    {
+      "bytes": 1223,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/NOTICE.md",
+      "sha256": "3b92b8f2ab79fc100e1ae0a37bfcab0b7ad149e98ddd4580ec580c8614238b10"
+    },
+    {
+      "bytes": 2893,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/README.md",
+      "sha256": "68c7bf1e5f5c767b90ac578d99b6ab6f0681e7697a3d6da17c3484d2537302ca"
+    },
+    {
+      "bytes": 7575,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/build_manifest.py",
+      "sha256": "34ea5b576b7e222d29328471115b6969d54df0c9afe9d69ff4f8dc8317ba7e28"
+    },
+    {
+      "bytes": 5913,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/c2_cleanroom.py",
+      "sha256": "22125b02960d7cba835b28efdd3899e1998779f41a5a80a3174fd3f6b30ad7fa"
+    },
+    {
+      "bytes": 698,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/configs/h100_phase_a.json",
+      "sha256": "58cdee5305b48638ce199fa6682fc9fda623352c07d89d7be482c7bdb5cd88a6"
+    },
+    {
+      "bytes": 531,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/configs/h100_phase_b.json",
+      "sha256": "9946654fe26fa0cc3c869dc15359140423cad024a32fb23548d494e9a5097e3b"
+    },
+    {
+      "bytes": 3064,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/copy_allowlist_test.py",
+      "sha256": "500a38ab3f1e3e88b5a7dd974618ae7cc6fc31ad1bf1e011f2cb840cf2f0890f"
+    },
+    {
+      "bytes": 3515,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/evidence.json",
+      "sha256": "d3c152888bd0e5793ccc1355e36fd2f88015464e8cb6c7ffc612954ed39e5b55"
+    },
+    {
+      "bytes": 4410,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/h100_preflight.py",
+      "sha256": "d7a6d8731ae1479e4215b7785ef5e842ef43818366eb1fb3e558e9d2c24e6d1f"
+    },
+    {
+      "bytes": 27214,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/manifest.json",
+      "sha256": "1766c2348daa062be65d98a8cc269108e0ac192e47a01babcb41609cedf9877b"
+    },
+    {
+      "bytes": 1853,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/provenance.json",
+      "sha256": "5e1bc58c2d5ae1c5e46345bb8832013754fd4910af64cf8ad575e6950c9cc87f"
+    },
+    {
+      "bytes": 8552,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/replay_public.py",
+      "sha256": "14c060d1206014b3ddaa62377aa31827c32a3b161bfddc7f2ae2dce648aa5caa"
+    },
+    {
+      "bytes": 29,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/requirements-test.txt",
+      "sha256": "247cac82bee90f66c969c1966d2ed2e953e746037593bba521fe878b0c84aa40"
+    },
+    {
+      "bytes": 6257,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/scan_packet.py",
+      "sha256": "839c60e1a3aa14cd3f9a46f4ce166256e91c9c810ed1aea7a635c47e4244ba34"
+    },
+    {
+      "bytes": 3624,
+      "path": "src/campaign/analysis/second_autocorrelation_native_basin/public_packet/test_packet.py",
+      "sha256": "f9549aecf26ece8d441678eebb54712dddbdd4f7b4177869387c1ab9ac92922f"
+    },
+    {
       "bytes": 90,
       "path": "src/campaign/analysis/second_autocorrelation_sliding_support/.gitignore",
       "sha256": "4bb73cf4336425efa00a30f94f8994bed91228a4ec443b57115cc74c3d0180ce"

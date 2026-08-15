@@ -1,0 +1,16 @@
+{
+  "schema": 1,
+  "mode": "exact_clarke_bundle_then_certificate_insertion",
+  "bundle_iterations": 12,
+  "bundle_samples": 11,
+  "initial_sample_radius": 1e-8,
+  "maximum_sample_radius": 0.001,
+  "step_sizes": [1e-8, 3e-8, 1e-7, 3e-7, 1e-6, 3e-6, 1e-5, 3e-5],
+  "insertion_rounds": 12,
+  "windows_per_width": 4,
+  "maximum_windows": 16,
+  "require_true_multi_active_lag_bundle": true,
+  "single_lag_substitution_allowed": false,
+  "recompute_certificate_after_every_accepted_insertion": true,
+  "strict_gate": 0.963598110582029
+}

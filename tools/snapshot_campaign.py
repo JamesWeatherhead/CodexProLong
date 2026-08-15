@@ -169,7 +169,7 @@ METHODS = {
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
     "min-distance-ratio-2d": "A 100-digit active root, 280 release/promote trials, and 550 canonical contact-graph recombinations all return the same micro-polished basin. A separate adjacent-cardinality topology campaign exact-replayed 214 births/deaths and found 153 corpus-novel contact graphs; the best novel graph remains 0.00577 worse, while the overall best gains only 2.35e-11 against a 1e-7 gate.",
     "prime-number-theorem": "Changed-reach cutting planes produce platform #1 solution #2506 at 0.9976572852677297, but an exact all-x audit proves it is not a mathematical certificate: S(1)=1.000099989952235... and S(8,015,392)=106.150121507295.... A nonnegative exact weak dual bounds every assignment on the same 2,000-key support by 0.997625778304447..., below the historical gate. The strongest new globally certified periodic divisor support scores 0.970073558281127. The complete Bober height-one classification peaks at Chebyshev 0.921292022934091; a 23-point symbolic dual proves Chebyshev optimal over all nonnegative combinations of 5,200 sporadic atoms at dilations 1..100. An Exa/Paperclip-grounded sweep of 3,312,606 explicit height-2/3 lists and 52 smooth divisor lattices also fails to improve on Chebyshev. A fundamentally different support identity is required.",
-    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. Paperclip/Exa-grounded multiscale and sliding-support campaigns then reconstructed 360 coordinated mosaics plus 64 exact relocation paths; 56 sliding paths changed topology, but none improved the seed materially. The strict gate gap remains 9.9913e-6.",
+    "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. Paperclip/Exa-grounded multiscale and sliding-support campaigns then reconstructed 360 coordinated mosaics plus 64 exact relocation paths; 56 sliding paths changed topology, but none improved the seed materially. A separate 200-member-step native-grid pilot established implementation behavior but reached only 0.3593416133285091; its public packet contains receipt replay, generated-fixture tests, and a four-history H100 continuation plan, not the omitted optimizer, private acceptance adapter, or native checkpoint. No C2 gate was cleared; the retained local frontier remains 9.9913e-6 short.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
     "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation now reach 1.4515653796072292. The latest lane screened 14,333 deletions, 100,152 block transplants, 20,000 single sign walls, and 7,140 wall pairs; two exact-accepted orthant crossings gained another 5.41e-9, leaving a 3.5157e-6 gate gap.",
     "thomson-problem": "A literature-grounded N=72 to N=282 split campaign enumerated 48 alternative defect-free source triangulations and realized 30 distinct defect-free N=282 initial graphs, all returning to the incumbent. A disjoint direct-N282 scar campaign then tested 49 deterministic mutation paths spanning 44 exact graph classes at two amplitudes: all 98 releases again returned to the incumbent topology. The best score differs only by float dust and remains 9.99986e-7 short.",
@@ -188,7 +188,7 @@ SOURCE_ENTRYPOINTS = {
     "kissing-number-d12": "geometry/kissing_d12/HANDOFF.md",
     "prime-number-theorem": "discrete/prime_number_theorem_global_proof/HANDOFF.md",
     "second-autocorrelation-inequality": (
-        "analysis/second_autocorrelation_sliding_support/HANDOFF.md"
+        "analysis/second_autocorrelation_native_basin/public_packet/README.md"
     ),
     "third-autocorrelation-inequality": "analytic/c3_precision_escape/HANDOFF.md",
     "thomson-problem": "geometry/thomson_282_topology_escape/HANDOFF.md",
@@ -374,6 +374,15 @@ PUBLICATION_MANIFESTS = (
     Path("geometry/heilbronn_flow_topology_global/PUBLICATION_MANIFEST.json"),
     Path("geometry/thomson_282_scar_escape/PUBLICATION_MANIFEST.json"),
 )
+
+# These packets authenticate their own exact file set and must be copied
+# byte-for-byte.  In particular, do not add the generic PUBLICATION_EXPORT.json
+# sidecar inside the packet: doing so would invalidate its allowlist replay.
+EXACT_PUBLICATION_MANIFESTS = {
+    Path("analysis/second_autocorrelation_native_basin/public_packet/manifest.json"): (
+        "1766c2348daa062be65d98a8cc269108e0ac192e47a01babcb41609cedf9877b"
+    ),
+}
 
 PUBLICATION_ALLOWLIST = (
     Path("discrete/difference_exact_synthesis/HANDOFF.md"),
@@ -605,6 +614,65 @@ def publication_allowlist(publication: dict[str, Any]) -> list[dict[str, Any]]:
     raise ValueError("publication manifest has no allowlist")
 
 
+def exact_publication_paths(
+    source: Path,
+    manifest_relative: Path,
+    detached_manifest_sha256: str,
+) -> list[Path]:
+    """Validate an exact, self-allowlisted packet and return source-relative paths."""
+    manifest_path = source / manifest_relative
+    if manifest_path.is_symlink() or not manifest_path.is_file():
+        raise ValueError(f"exact publication manifest is not a regular file: {manifest_relative}")
+    if sha256(manifest_path) != detached_manifest_sha256:
+        raise ValueError(f"exact publication detached hash mismatch: {manifest_relative}")
+
+    publication = json.loads(manifest_path.read_text(encoding="utf-8"))
+    packet_root = manifest_relative.parent
+    entries = publication_allowlist(publication)
+    paths: list[Path] = []
+    seen: set[Path] = set()
+    self_entry_seen = False
+
+    for entry in entries:
+        value = entry.get("path")
+        if not isinstance(value, str) or not value:
+            raise ValueError("exact publication path must be a nonempty string")
+        entry_path = Path(value)
+        if entry_path.is_absolute() or ".." in entry_path.parts:
+            raise ValueError(f"unsafe exact publication path: {value!r}")
+        if entry_path in seen:
+            raise ValueError(f"duplicate exact publication path: {value}")
+        seen.add(entry_path)
+
+        relative = packet_root / entry_path
+        src = source / relative
+        if src.is_symlink() or not src.is_file():
+            raise ValueError(f"exact publication entry is not a regular file: {relative}")
+        if relative == manifest_relative:
+            self_entry_seen = True
+            if entry.get("sha256") is not None or entry.get("bytes") is not None:
+                raise ValueError("exact publication manifest self hash/size must be null")
+        else:
+            if sha256(src) != entry.get("sha256") or src.stat().st_size != entry.get("bytes"):
+                raise ValueError(f"exact publication manifest mismatch: {relative}")
+        paths.append(relative)
+
+    if not self_entry_seen:
+        raise ValueError("exact publication manifest must allowlist itself")
+
+    packet_source = source / packet_root
+    if any(path.is_symlink() for path in packet_source.rglob("*")):
+        raise ValueError(f"exact publication packet contains a symlink: {packet_root}")
+    actual = {
+        path.relative_to(source)
+        for path in packet_source.rglob("*")
+        if path.is_file()
+    }
+    if actual != set(paths):
+        raise ValueError(f"exact publication file-set mismatch: {packet_root}")
+    return paths
+
+
 def mirror_source(source: Path) -> list[dict[str, Any]]:
     copied: list[dict[str, Any]] = []
     destination_root = REPO / "src" / "campaign"
@@ -747,6 +815,27 @@ def mirror_source(source: Path) -> list[dict[str, Any]]:
                 "bytes": export_path.stat().st_size,
             }
         )
+
+    for manifest_relative, detached_sha256 in EXACT_PUBLICATION_MANIFESTS.items():
+        relatives = exact_publication_paths(
+            source,
+            manifest_relative,
+            detached_sha256,
+        )
+        packet_root = manifest_relative.parent
+        packet_destination = destination_root / packet_root
+        if packet_destination.exists():
+            shutil.rmtree(packet_destination)
+        for relative in relatives:
+            copy_relative(relative)
+        exported = {
+            path.relative_to(destination_root)
+            for path in packet_destination.rglob("*")
+            if path.is_file()
+        }
+        expected = {relative.relative_to(packet_root) for relative in relatives}
+        if exported != expected:
+            raise ValueError(f"exact publication export mismatch: {packet_root}")
 
     difference_receipt = json.loads(
         (source / "discrete/difference_exact_synthesis/receipt.json").read_text(

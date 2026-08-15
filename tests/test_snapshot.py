@@ -1,6 +1,8 @@
 from __future__ import annotations
 
 import importlib.util
+import json
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -128,6 +130,62 @@ class SnapshotTests(unittest.TestCase):
             ),
             [{"path": "README.md", "sha256": "b" * 64, "bytes": 2}],
         )
+
+    def test_exact_publication_paths_accepts_self_allowlisted_packet(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            source = Path(temporary)
+            packet = source / "analysis" / "lane" / "public_packet"
+            packet.mkdir(parents=True)
+            readme = packet / "README.md"
+            readme.write_text("portable\n", encoding="utf-8")
+            manifest = packet / "manifest.json"
+            manifest.write_text(
+                json.dumps(
+                    {
+                        "allowlist": [
+                            {
+                                "path": "README.md",
+                                "sha256": MODULE.sha256(readme),
+                                "bytes": readme.stat().st_size,
+                            },
+                            {"path": "manifest.json", "sha256": None, "bytes": None},
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            relative = Path("analysis/lane/public_packet/manifest.json")
+            self.assertEqual(
+                MODULE.exact_publication_paths(source, relative, MODULE.sha256(manifest)),
+                [
+                    Path("analysis/lane/public_packet/README.md"),
+                    Path("analysis/lane/public_packet/manifest.json"),
+                ],
+            )
+
+    def test_exact_publication_paths_rejects_unlisted_file(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            source = Path(temporary)
+            packet = source / "analysis" / "lane" / "public_packet"
+            packet.mkdir(parents=True)
+            manifest = packet / "manifest.json"
+            manifest.write_text(
+                json.dumps(
+                    {
+                        "allowlist": [
+                            {"path": "manifest.json", "sha256": None, "bytes": None}
+                        ]
+                    }
+                ),
+                encoding="utf-8",
+            )
+            (packet / "extra.txt").write_text("not allowlisted\n", encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "file-set mismatch"):
+                MODULE.exact_publication_paths(
+                    source,
+                    Path("analysis/lane/public_packet/manifest.json"),
+                    MODULE.sha256(manifest),
+                )
 
 
 if __name__ == "__main__":

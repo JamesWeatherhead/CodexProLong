@@ -85,6 +85,17 @@ chain-of-thought.
   improved the retained seed. The frozen replay reconstructs every candidate
   byte-for-byte and prevents future contexts from repeating the same
   relocation family.
+- Ran a separate bounded C2 pilot directly at the native `N=1,999,999` grid:
+  four members for 50 steps, or 200 member-steps, with one scheduled respawn.
+  Its best exact-score receipt was only `0.3593416133285091`, leaving a
+  `0.6042564972535198` gap to the recorded strict gate; no candidate or
+  submission claim follows. The audited public packet contains deterministic
+  receipt replay, clean-room generated-fixture tests, and a four-history H100
+  plan for 3,200,000 member-steps and 6,528 exact evaluations. It omits the
+  native arrays, full optimizer, frozen verifier, and private acceptance
+  adapter, so it is a plan and evidence packet rather than an end-to-end
+  runner. Its detached manifest SHA-256 is
+  `1766c2348daa062be65d98a8cc269108e0ac192e47a01babcb41609cedf9877b`.
 - Verified the public d11/594 kissing construction exactly over all 176,121
   vector pairs: it is a genuine score-zero code, not a floating-point artifact.
   Because zero is the objective floor and the leaderboard assigns ordinal

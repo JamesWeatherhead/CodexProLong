@@ -82,6 +82,17 @@ critical path.
 [accelerator receipt →](src/campaign/analytic/flat_psl4_accelerator/HANDOFF.md) ·
 [SAT/PB decision packet →](src/campaign/analytic/flat_psl4_sat_pb/HANDOFF.md)
 
+The C2 lane now also has an independently audited native-grid publication
+packet. Its bounded Mac pilot ran 200 member-steps at `N=1,999,999` and did
+not clear the gate; the best exact-score receipt was `0.3593416133285091`, not
+a new frontier. The packet preserves byte-authenticated receipts, clean-room
+generated-fixture tests, and a four-history H100 continuation plan totaling
+3,200,000 member-steps. It deliberately omits the native checkpoint, full
+optimizer, frozen verifier, and private acceptance adapter, so it is not an
+end-to-end optimizer or score recomputation. The detached manifest SHA-256 is
+`1766c2348daa062be65d98a8cc269108e0ac192e47a01babcb41609cedf9877b`.
+[C2 native-basin packet →](src/campaign/analysis/second_autocorrelation_native_basin/public_packet/README.md)
+
 ## What this repository is
 
 CodexProLong is a persistent computational-mathematics system built around one
@@ -182,6 +193,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧫 [C2 comb-topology transfer audit](src/campaign/c2_simpletes_transfer/HANDOFF.md)
 - 🧬 [C2 global multiscale support-mosaic search](src/campaign/analysis/second_autocorrelation_global_multiscale/HANDOFF.md)
 - 🧬 [C2 sliding-support topology search](src/campaign/analysis/second_autocorrelation_sliding_support/HANDOFF.md)
+- 🧪 [C2 native-grid pilot and H100 plan](src/campaign/analysis/second_autocorrelation_native_basin/public_packet/README.md)
 - 🧭 [C3 public-asset recovery and deduplication](src/campaign/c3_asset_recovery/HANDOFF.md)
 - 🧭 [C3 exact sign-wall precision escape](src/campaign/analytic/c3_precision_escape/HANDOFF.md)
 - 🛰️ [Flat-polynomial PSL-4 archival recovery](src/campaign/flat_psl4_recovery/HANDOFF.md)
