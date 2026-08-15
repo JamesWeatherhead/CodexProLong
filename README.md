@@ -13,8 +13,9 @@ literature with [Paperclip](https://paperclip.gxl.ai/), write and run its own
 solvers, and learn from previous attempts.
 
 Inspired by [Jeremy Berman's ARC-AGI-3 approach](https://x.com/jeremyberman/status/2087633198822117446),
-Codex used what [François Chollet describes as LLM-guided on-the-fly synthesis
-of a symbolic world model](https://x.com/fchollet/status/2088243704603824311):
+Codex used what François Chollet (Co-founder, [ARC Prize](https://arcprize.org/))
+describes as [“LLM-guided on-the-fly synthesis of a symbolic world
+model”](https://x.com/fchollet/status/2088243704603824311):
 it turned hypotheses into programs, tested them, and carried the useful work
 forward through persistent memory.
 
