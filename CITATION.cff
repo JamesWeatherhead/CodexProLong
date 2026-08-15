@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If this campaign or its solver artifacts help your work, cite this repository."
+title: "CodexProLong: a verifier-first open EinsteinArena research diary"
+type: software
+authors:
+  - family-names: Weatherhead
+    given-names: James
+repository-code: "https://github.com/JamesWeatherhead/CodexProLong"
+license: MIT
+date-released: 2026-08-15
+version: 0.1.0
+abstract: >-
+  A public, reproducible long-horizon construction campaign operated with
+  OpenAI Codex, filesystem memory, problem-specific program synthesis, and
+  exact verifier receipts.
+

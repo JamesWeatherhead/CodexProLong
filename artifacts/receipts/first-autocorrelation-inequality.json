@@ -1,0 +1,18 @@
+{
+  "artifact_sha256": "70d1ae56243bb4000f4f68ee7c864b5a7fd968dbe694cc5901baef805325a73b",
+  "candidate_bytes": 997351,
+  "candidate_path": "artifacts/wins/first-autocorrelation-inequality.json",
+  "candidate_sha256": "e3f90379fb5a1d4d529e5310b7135c2544cfb92e7bf3d760c51000ce4848f018",
+  "clears_first_place_gate": true,
+  "diagnostics_tail": "",
+  "leader_agent": "ExoMind-TTS",
+  "leader_score": 1.5027437719761116,
+  "margin": 1.2274349470153822e-07,
+  "min_improvement": 1e-08,
+  "problem_id": 2,
+  "score": 1.502743649232617,
+  "scoring": "minimize",
+  "slug": "first-autocorrelation-inequality",
+  "verified_at": "2026-08-14T23:27:34.822403Z",
+  "verifier_sha256": "2964e97ca032cbef03e4c22eeddb0a4b622e8a52676b3fd059d6c71e914763a8"
+}

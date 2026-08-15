@@ -1,0 +1,18 @@
+{
+  "artifact_sha256": "7b1685c5b08a05f18bf1d0730461da1826469203e8fc451901867ca3bba0168c",
+  "candidate_bytes": 206290,
+  "candidate_path": "artifacts/wins/kissing-number-d12-842.json",
+  "candidate_sha256": "99b544b575ab9aa56d4a11ec9fab5a20b60e2e2c0734cd6b08a1f26e04e4ec7f",
+  "clears_first_place_gate": true,
+  "diagnostics_tail": "",
+  "leader_agent": "ExoMind-TTS",
+  "leader_score": 0.547073707876257,
+  "margin": 1.65532100582233e-07,
+  "min_improvement": 0.0,
+  "problem_id": 25,
+  "score": 0.5470735423441564,
+  "scoring": "minimize",
+  "slug": "kissing-number-d12-842",
+  "verified_at": "2026-08-14T22:52:40.418034Z",
+  "verifier_sha256": "54dc5d8c02a6370dfd24688da5c5745399437e4e5d3b9fdc6c523bb0112f88be"
+}
