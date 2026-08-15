@@ -70,14 +70,25 @@ Machine-readable coverage and the reproducible query log live in
    the established geometry at only rounded precision [13], reinforcing that
    another decimal polish of the incumbent graph is not the useful frontier.
 
+8. **The two remaining convolution gaps admit coarse lifted searches.** A
+   recent discrete-cube result reduces a related convolution minimax to
+   intersections where adjacent convolution coefficients agree [15]. Peak
+   sidelobe design supplies a complementary computational route: lift quadratic
+   lag responses into a semidefinite variable and recover rank one
+   sequentially [16]. At high resolution, higher-order trust-region bundle
+   models are designed specifically for finite max-type objectives [17]. For
+   C3 and Erdős, use the lifted formulation only to discover new coarse
+   support/topology basins, then upscale and accept exclusively by the literal
+   convolution/correlation verifier.
+
 ## Public-safe map for all 19 Arena slugs
 
 | Arena slug | Literature-grounded direction |
 |---|---|
-| `erdos-min-overlap` | Use bounded fixed-grid step functions, convex lower-bound diagnostics, and exact correlation replay; the published interval and construction history are summarized in [1]. |
-| `first-autocorrelation-inequality` | Piecewise-constant counterexamples, Newton-type intelligent perturbation directions, and cubic backtracking are the documented route; expect irregular optimizers [1]. |
+| `erdos-min-overlap` | Combine exact-correlation SLP with coarse lifted rank-one relaxations that search globally over lag-active support patterns, then upscale and replay every shift [1, 16, 17]. |
+| `first-autocorrelation-inequality` | Piecewise-constant counterexamples, Newton-type intelligent perturbation directions, cubic backtracking, and adjacent-convolution equality manifolds are the documented route; expect irregular optimizers [1, 15]. |
 | `second-autocorrelation-inequality` | Run high-resolution projected Adam with noise, elitist respawn, upsampling, and explicit spike/comb initialization [1, 3]. |
-| `third-autocorrelation-inequality` | Treat the maximum convolution lag as an active bundle and use peak-switching basin hops; signed values make naive single-peak gradients especially brittle [1, 3]. |
+| `third-autocorrelation-inequality` | Treat the maximum convolution lag as an active bundle, use peak-switching basin hops, and test coarse SDP/rank-one topology seeds before exact high-resolution polishing [1, 3, 15, 16, 17]. |
 | `min-distance-ratio-2d` | Share heuristics across nearby \((d,n)\) instances, normalize similarity degrees of freedom, then polish the active diameter/contact graph [1]. |
 | `kissing-number-d11` | Optimize finite vector configurations, then exactify a sufficiently accurate zero-loss candidate; preserve reusable subcodes and share partial constructions [1, 10]. |
 | `prime-number-theorem` | Start from truncated Möbius functions and structured divisor blocks, but replace Monte Carlo acceptance with an analytic all-\(x\) floor-sum certificate [1]. |
@@ -159,3 +170,12 @@ REFERENCES
 
 [14] Nathan Sudermann-Merx. “From Computational Certification to Exact Coordinates: Heilbronn's Triangle Problem on the Unit Square Using Mixed-Integer Optimization.” *arXiv* (2026).
     https://paperclip.gxl.ai/citations/papers/arx_2603.11107#L1
+
+[15] José Gaitán and José Madrid. “On suprema of convolutions on discrete cubes.” *arXiv* (2025).
+    https://paperclip.gxl.ai/citations/papers/arx_2512.18188#L13-L24,L33-L45,L75-L80
+
+[16] Weiting Lin, Yuwei Chang, and Borching Su. “Unimodular Waveform Design that Minimizes PSL of Ambiguity Function over a Continuous Doppler Frequency Shift Region of Interest.” *arXiv* (2025).
+    https://paperclip.gxl.ai/citations/papers/arx_2504.06038#L9-L14,L183-L183
+
+[17] Bennet Gebken and Michael Ulbrich. “Enclosing minima in nonsmooth optimization via trust regions of higher-order cutting-plane models.” *arXiv* (2026).
+    https://paperclip.gxl.ai/citations/papers/arx_2603.23261#L1

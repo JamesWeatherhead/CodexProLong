@@ -148,22 +148,43 @@
       "year": 2026,
       "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2603.11107#L1",
       "vfs_path": "/papers/arx_2603.11107/content.lines"
+    },
+    "discrete_cube_convolution": {
+      "title": "On suprema of convolutions on discrete cubes",
+      "authors": ["José Gaitán", "José Madrid"],
+      "year": 2025,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2512.18188#L13-L24,L33-L45,L75-L80",
+      "vfs_path": "/papers/arx_2512.18188/content.lines"
+    },
+    "waveform_peak_sidelobe": {
+      "title": "Unimodular Waveform Design that Minimizes PSL of Ambiguity Function over a Continuous Doppler Frequency Shift Region of Interest",
+      "authors": ["Weiting Lin", "Yuwei Chang", "Borching Su"],
+      "year": 2025,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2504.06038#L9-L14,L183-L183",
+      "vfs_path": "/papers/arx_2504.06038/content.lines"
+    },
+    "higher_order_bundle": {
+      "title": "Enclosing minima in nonsmooth optimization via trust regions of higher-order cutting-plane models",
+      "authors": ["Bennet Gebken", "Michael Ulbrich"],
+      "year": 2026,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2603.23261#L1",
+      "vfs_path": "/papers/arx_2603.23261/content.lines"
     }
   },
   "problems": [
     {
       "slug": "erdos-min-overlap",
       "status": "active",
-      "source_keys": ["alphaevolve_math"],
-      "line_pins": ["L122-L127"],
-      "research_direction": "Bounded fixed-grid step functions, convex lower-bound diagnostics, exact correlation replay"
+      "source_keys": ["alphaevolve_math", "waveform_peak_sidelobe", "higher_order_bundle"],
+      "line_pins": ["L122-L127", "L9-L14", "L183", "L1"],
+      "research_direction": "Exact-correlation SLP plus coarse lifted rank-one relaxations over globally changing lag-active support patterns"
     },
     {
       "slug": "first-autocorrelation-inequality",
       "status": "active",
-      "source_keys": ["alphaevolve_math", "barnard_steinerberger"],
-      "line_pins": ["L95-L104", "L59-L61"],
-      "research_direction": "Newton-type active-direction perturbations, cubic backtracking, irregular piecewise-constant profiles"
+      "source_keys": ["alphaevolve_math", "barnard_steinerberger", "discrete_cube_convolution"],
+      "line_pins": ["L95-L104", "L59-L61", "L13-L24", "L33-L45", "L75-L80"],
+      "research_direction": "Newton-type active-direction perturbations, cubic backtracking, irregular step profiles, and adjacent-convolution equality manifolds"
     },
     {
       "slug": "second-autocorrelation-inequality",
@@ -175,9 +196,9 @@
     {
       "slug": "third-autocorrelation-inequality",
       "status": "active",
-      "source_keys": ["alphaevolve_math", "jaech_joseph"],
-      "line_pins": ["L117-L121", "L38"],
-      "research_direction": "Active-lag epigraph minimax, peak-switching perturbations, exact maximum replay"
+      "source_keys": ["alphaevolve_math", "jaech_joseph", "discrete_cube_convolution", "waveform_peak_sidelobe", "higher_order_bundle"],
+      "line_pins": ["L117-L121", "L38", "L13-L24", "L75-L80", "L9-L14", "L183", "L1"],
+      "research_direction": "Active-lag epigraph minimax plus coarse SDP/rank-one support-topology seeds, followed by exact high-resolution replay"
     },
     {
       "slug": "min-distance-ratio-2d",

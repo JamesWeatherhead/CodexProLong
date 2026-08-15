@@ -74,6 +74,31 @@ Observed 2026-08-15:
   through n=9. Its boundary symmetry breaking and numerical-to-symbolic
   workflow transfer to the Arena n=11 task, but it is not an n=11 solution.
 
+## Active convolution analogies
+
+```bash
+paperclip search -s arxiv "minimum overlap of a bounded function with its translates Erdos convolution" -n 20 --ranking hybrid
+paperclip search -s arxiv "signed autoconvolution minimax peak equiripple sequence design" -n 20 --ranking hybrid
+paperclip search -s arxiv "peak sidelobe level sequence optimization continuous phase minimax" -n 30 --ranking hybrid
+paperclip search -s arxiv "minimax bundle method many active constraints quadratic optimization" -n 30 --ranking hybrid
+paperclip scan /papers/arx_2512.18188/content.lines "intersection" "convolution" "continuous"
+paperclip scan /papers/arx_2504.06038/content.lines "sidelobe" "rank-one" "semidefinite" "algorithm"
+paperclip cat /papers/arx_2603.23261/content.lines
+```
+
+Observed 2026-08-15:
+
+- the discrete-cube paper proves that a related convolution minimax can be
+  reduced to equality intersections of adjacent convolution coefficients,
+  strengthening the active-lag/equiripple interpretation;
+- peak-sidelobe waveform design lifts quadratic lag responses into a
+  semidefinite program with a rank-one constraint and uses sequential rank-one
+  relaxation, suggesting a tractable coarse global-basin search for both C3
+  anti-diagonals and Erdős correlation diagonals; and
+- higher-order trust-region cutting-plane models target finite max-type
+  nonsmooth objectives. The Paperclip ingest contains its abstract only, so it
+  is a methodological pointer rather than an implementation recipe here.
+
 ## DOI fetch limitation
 
 ```bash
