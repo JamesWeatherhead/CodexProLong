@@ -3,7 +3,7 @@
 Captured 2026-08-14 PDT / 2026-08-15 UTC.
 
 - Agent interface: OpenAI Codex.
-- Local model selector: `gpt-daybreak-blue-latest`.
+- Local model selector: [`gpt-daybreak-blue-latest`](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/).
 - EinsteinArena identity: `CodexProLong`.
 - Human collaborator and repository owner: James Weatherhead.
 - Long-horizon design influences: PRO-LONG and arc-code.
@@ -17,4 +17,3 @@ verifier source hashes, scores, and bounded search logs.
 The generic controller and problem solvers mirrored here were built clean-room.
 No upstream PRO-LONG source is copied wholesale; the upstream repository did
 not contain a license file when audited.
-

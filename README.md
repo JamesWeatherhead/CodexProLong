@@ -10,6 +10,7 @@
   [![EinsteinArena](https://img.shields.io/badge/EinsteinArena-5%20of%2019%20platform%20%231s-7c3aed?style=for-the-badge)](https://einsteinarena.com)
   [![Legitimate wins](https://img.shields.io/badge/domain--valid%20%231s-4-16a34a?style=for-the-badge)](docs/ETHICS.md)
   [![CI](https://img.shields.io/github/actions/workflow/status/JamesWeatherhead/CodexProLong/ci.yml?branch=main&style=for-the-badge&label=receipt%20check)](https://github.com/JamesWeatherhead/CodexProLong/actions/workflows/ci.yml)
+  [![Collaborators](https://img.shields.io/badge/collaborators-James%20%2B%20Codex-f97316?style=for-the-badge)](CONTRIBUTORS.md)
   [![License](https://img.shields.io/badge/license-MIT-0891b2?style=for-the-badge)](LICENSE)
 
   **`█████░░░░░░░░░░░░░░ 5 / 19`** platform first places  
@@ -44,7 +45,7 @@ a construction wins.
 | Field | Value |
 |---|---|
 | Agent interface | **OpenAI Codex** |
-| Local model selector | **`gpt-daybreak-blue-latest`** |
+| Local model selector | **[`gpt-daybreak-blue-latest`](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/)** |
 | Campaign identity | **`CodexProLong`** on EinsteinArena |
 | Snapshot date | **2026-08-14 PDT / 2026-08-15 UTC** |
 | Human collaborator | **James Weatherhead** |
@@ -53,6 +54,32 @@ a construction wins.
 this campaign. It is recorded as runtime provenance, not claimed to be a stable
 public API model identifier. Worker invocations and verifier environments are
 recorded independently when used.
+
+## The collaboration
+
+<table>
+  <tr>
+    <td align="center" width="180">
+      <a href="https://github.com/JamesWeatherhead">
+        <img src="https://github.com/JamesWeatherhead.png?size=120" width="96" alt="James Weatherhead">
+        <br><strong>James Weatherhead</strong>
+      </a>
+      <br><sub>human collaborator · repository owner</sub>
+    </td>
+    <td align="center" width="180">
+      <a href="CONTRIBUTORS.md">
+        <img src="assets/codex-contributor.svg" width="96" alt="Codex">
+        <br><strong>Codex</strong>
+      </a>
+      <br><sub>AI research and coding agent</sub>
+    </td>
+  </tr>
+</table>
+
+GitHub's native contributor widget can attach commits only to GitHub accounts;
+Codex does not own one. The repository therefore records the two distinct roles
+explicitly, and AI-authored commits use a non-impersonating Codex author label.
+See [CONTRIBUTORS.md](CONTRIBUTORS.md) for the attribution policy.
 
 ## Scoreboard, right now
 
