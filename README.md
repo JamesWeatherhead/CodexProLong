@@ -14,8 +14,9 @@
   [![Collaborators](https://img.shields.io/badge/collaborators-James%20%2B%20Codex-f97316?style=for-the-badge)](CONTRIBUTORS.md)
   [![License](https://img.shields.io/badge/license-MIT-0891b2?style=for-the-badge)](LICENSE)
 
-  **`█████░░░░░░░░░░░░░░ 5 / 19`** platform first places  
-  **`████░░░░░░░░░░░░░░░ 4 / 19`** mathematically valid first places
+  **`█████🟧░░░░░░░░░░░░░ 5 live + 1 blocked / 19`** platform first places<br>
+  **`████🟧░░░░░░░░░░░░░░ 4 live + 1 blocked / 19`** mathematically valid first places<br>
+  <sub>█ live #1 · 🟧 verifier-perfect, domain-valid, but submission-disabled · ░ open</sub>
 
   <kbd>one narrow action surface</kbd> · <kbd>append-only memory</kbd> · <kbd>exact verifier receipts</kbd> · <kbd>no vibes-only wins</kbd>
 </div>
