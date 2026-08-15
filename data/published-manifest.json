@@ -61,6 +61,11 @@
       "sha256": "50c45b9f1fd6efa82645059588ddfdffca9a9cc8b05ace38326bf9f699df4e0f"
     },
     {
+      "bytes": 6148,
+      "path": "artifacts/evidence/flat-psl4-exact-neighbourhood.json",
+      "sha256": "6aa99eb25c9e1a3f797e9bbe4c3c08c72689918e5f247c4ee667ad227a1cb1fd"
+    },
+    {
       "bytes": 93116,
       "path": "artifacts/evidence/flat-psl4-printed-neighbours.json",
       "sha256": "d9ce26827a2b94b5ff32d0a7fffb32325f0cac41e5b2c14a7b3ea8ef21ceed60"
@@ -959,6 +964,56 @@
       "bytes": 4750,
       "path": "src/campaign/evolver_asset_sweep_2026/replay_exact.py",
       "sha256": "37282318655a1986085b43a6326550346f20287f9d9d7a844c6f99078f82eab6"
+    },
+    {
+      "bytes": 133,
+      "path": "src/campaign/flat_psl4_enumerator/.gitignore",
+      "sha256": "b61c388370459d3e4824ba2b67d12781a413d5dbc7866876720f6b60e60b53be"
+    },
+    {
+      "bytes": 2021,
+      "path": "src/campaign/flat_psl4_enumerator/HANDOFF.md",
+      "sha256": "cc63174cc55211bbea2bfeb439703ad8cfd96e7514ddc1fb58ede4381a2994a0"
+    },
+    {
+      "bytes": 2670,
+      "path": "src/campaign/flat_psl4_enumerator/README.md",
+      "sha256": "952651d749845fc6c8994c291b452e3aa5be04951b4256e9781e4a4016a298fc"
+    },
+    {
+      "bytes": 8883,
+      "path": "src/campaign/flat_psl4_enumerator/freeze_receipt.py",
+      "sha256": "257464ddfa5ad37d7aa98b67df5061ec4774ef1690202dcd054a1fc500640586"
+    },
+    {
+      "bytes": 29394,
+      "path": "src/campaign/flat_psl4_enumerator/psl4_exact.cpp",
+      "sha256": "9ea5c950b687970051f74d858d279e1a65699dcad0c2b23b5c1eece6285b3046"
+    },
+    {
+      "bytes": 6148,
+      "path": "src/campaign/flat_psl4_enumerator/receipt.json",
+      "sha256": "6aa99eb25c9e1a3f797e9bbe4c3c08c72689918e5f247c4ee667ad227a1cb1fd"
+    },
+    {
+      "bytes": 1275,
+      "path": "src/campaign/flat_psl4_enumerator/runs/near-dimitrov-24.jsonl",
+      "sha256": "73a471275cb45e9c864743fca9266bd7f0338d059cf1156cafa73cccecad1f74"
+    },
+    {
+      "bytes": 1260,
+      "path": "src/campaign/flat_psl4_enumerator/runs/near-leukhin-24.jsonl",
+      "sha256": "6b280955775f7c2a6507ef12732d8992636aefc5018f718c273f09c1e849891b"
+    },
+    {
+      "bytes": 1098,
+      "path": "src/campaign/flat_psl4_enumerator/runs/near-pslrk-24.jsonl",
+      "sha256": "7c2f5052c87babb622e672da9598391d97ff83368548a8779923c9a4362437c4"
+    },
+    {
+      "bytes": 7989,
+      "path": "src/campaign/flat_psl4_enumerator/tests/test_exact_bound.py",
+      "sha256": "b4166b1e1617bf1093136b13bcc9dd048e96a57108c79e743e5e19249e4ada39"
     },
     {
       "bytes": 5309,

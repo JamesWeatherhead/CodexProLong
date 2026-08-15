@@ -92,6 +92,7 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "flat-psl4-source-manifest": "flat_psl4_recovery/source_manifest.json",
     "flat-psl4-printed-neighbours": "flat_psl4_recovery/printed_neighbour_screen.json",
     "flat-psl4-best-replay": "flat_psl4_recovery/receipts/best_printed_neighbor_n71_delete70.json",
+    "flat-psl4-exact-neighbourhood": "flat_psl4_enumerator/receipt.json",
     "geometry-literature-asset-replays": "literature_asset_hunt/receipt.json",
     "geometry-literature-asset-sources": "literature_asset_hunt/sources.json",
     "geometry-secondary-circle-assets": "literature_asset_hunt/secondary_circle_assets.json",
@@ -122,7 +123,7 @@ METHODS = {
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Active-bundle sequential linear programming over n=3,584 coordinates crossed the strict 1e-7 gate after 58 exact-accepted stages. Independent literal replay and evaluated solution #2507 agree at 0.3808585748578584.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
-    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. A separate 20-source archival recovery reconstructed three of 72 published PSL-4 classes and replayed 1,657 length-adjusted candidates; the complete historical table remains the strongest finite lead.",
+    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. A separate 20-source archival recovery reconstructed three of 72 published PSL-4 classes. The latest exact outside-in enumerator closed 72 seed-neighbour split subtrees and 4,338,836,968 DFS nodes, rediscovering only the three source symmetry classes; this is a bounded frontier, not a full length-70 enumeration.",
     "heilbronn-triangles": "A 100-digit active root, 462 topology trials, and exact q=25 lattice closure are supplemented by exact q=143 and q=144..220 rational-mesh campaigns. The latest packet closes 72 distinct finite labeled domains: 18 by determinant upper bounds and 57 fresh uncapped SAT formulas, with no candidate. These are finite-domain no-gos, not global proofs. An independent Escher asset replay scored 0.03372654309850653, below the gate.",
     "kissing-number-d11": "An exhaustive exact-rational audit verifies public solution #1492 as a genuine 594-vector score-0 construction over all 176,121 pairs. Zero is the objective floor, and the live API assigns later exact ties ordinal ranks rather than joint first place.",
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
@@ -142,7 +143,7 @@ SOURCE_ENTRYPOINTS = {
     "difference-bases": "discrete/difference_global/HANDOFF.md",
     "edges-vs-triangles": "discrete/edges_vs_triangles/HANDOFF.md",
     "erdos-min-overlap": "analytic/erdos_global/HANDOFF.md",
-    "flat-polynomials": "flat_psl4_recovery/HANDOFF.md",
+    "flat-polynomials": "flat_psl4_enumerator/HANDOFF.md",
     "heilbronn-triangles": "geometry/heilbronn_rational_mesh_global/HANDOFF.md",
     "kissing-number-d11": "kissing_d11_594_audit/README.md",
     "min-distance-ratio-2d": "geometry/min_distance_ratio_global_escape/HANDOFF.md",
@@ -178,6 +179,16 @@ ROOT_SOURCE_FILES = (
     "geometry/min_distance_ratio_global_escape/runs/FINAL_V2/events.jsonl",
     "geometry/min_distance_ratio_global_escape/runs/FINAL_V2/reconstructed_assets.json",
     "geometry/min_distance_ratio_global_escape/runs/FINAL_V2/summary.json",
+    "flat_psl4_enumerator/.gitignore",
+    "flat_psl4_enumerator/README.md",
+    "flat_psl4_enumerator/HANDOFF.md",
+    "flat_psl4_enumerator/psl4_exact.cpp",
+    "flat_psl4_enumerator/freeze_receipt.py",
+    "flat_psl4_enumerator/tests/test_exact_bound.py",
+    "flat_psl4_enumerator/receipt.json",
+    "flat_psl4_enumerator/runs/near-leukhin-24.jsonl",
+    "flat_psl4_enumerator/runs/near-dimitrov-24.jsonl",
+    "flat_psl4_enumerator/runs/near-pslrk-24.jsonl",
 )
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = (
@@ -218,7 +229,6 @@ UNPUBLISHED_SOURCE_PREFIXES = {
     Path("analysis/second_autocorrelation_global_multiscale"),
     Path("analytic/c3_precision_escape"),
     Path("discrete/difference_exact_synthesis"),
-    Path("flat_psl4_enumerator"),
 }
 
 

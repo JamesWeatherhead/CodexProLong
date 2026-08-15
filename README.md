@@ -138,6 +138,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧫 [C2 comb-topology transfer audit](src/campaign/c2_simpletes_transfer/HANDOFF.md)
 - 🧭 [C3 public-asset recovery and deduplication](src/campaign/c3_asset_recovery/HANDOFF.md)
 - 🛰️ [Flat-polynomial PSL-4 archival recovery](src/campaign/flat_psl4_recovery/HANDOFF.md)
+- 🧮 [Exact 4.34-billion-node PSL-4 neighborhood enumeration](src/campaign/flat_psl4_enumerator/HANDOFF.md)
 - 🔐 [Heilbronn q=143 exact support closure](src/campaign/geometry/heilbronn_q143_cegis/HANDOFF.md)
 - 🧩 [Heilbronn q=144–220 rational-mesh closure](src/campaign/geometry/heilbronn_rational_mesh_global/HANDOFF.md)
 - 🪐 [Thomson N=72→282 topology escape](src/campaign/geometry/thomson_282_topology_escape/HANDOFF.md)

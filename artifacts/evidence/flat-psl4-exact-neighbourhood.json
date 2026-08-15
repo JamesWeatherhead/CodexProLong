@@ -1,0 +1,203 @@
+{
+  "aggregate": {
+    "cheap_prunes": 7917230364,
+    "exact_prunes": 5099280600,
+    "nodes": 4338836968,
+    "novel_classes": 0,
+    "task_count": 72,
+    "unique_classes": 3
+  },
+  "any_gate_clearer": false,
+  "class_replays": [
+    {
+      "canonical_bits": "0000011100001011111111110101001010111100110011001101010110010110010110",
+      "clears_gate": false,
+      "gap_to_gate": 0.029090948716312015,
+      "max_abs_aperiodic_autocorrelation": 4,
+      "payload_sha256": "4b734358439b30b556c0130eac1f11f8db082ae308435a40f88d3165cd3c340e",
+      "verifier_score": 1.309817443680567
+    },
+    {
+      "canonical_bits": "0000011111000000000100110011011100111101001101001100011100101010100101",
+      "clears_gate": false,
+      "gap_to_gate": 0.08799092076087733,
+      "max_abs_aperiodic_autocorrelation": 4,
+      "payload_sha256": "bf4148b06bbb6120fae55193ef10e939df24bf7035510477fa020a5496ce77e1",
+      "verifier_score": 1.3687174157251323
+    },
+    {
+      "canonical_bits": "0010101111111110111000101001110001011001001001111000100110011101000011",
+      "clears_gate": false,
+      "gap_to_gate": 0.08941634246772812,
+      "max_abs_aperiodic_autocorrelation": 4,
+      "payload_sha256": "8d93cfb46be0bcf8657df1220f405e6195fcc23e2e7f95fc8ba651e5f493f83c",
+      "verifier_score": 1.370142837431983
+    }
+  ],
+  "configuration": {
+    "assigned_outer_positions_per_task": 24,
+    "moment_depth": 0,
+    "selected_tasks_per_seed": 24,
+    "selection": "stable sort by assigned-border Hamming distance to seed",
+    "split_depth": 12,
+    "symmetry_quotient": [
+      "negation",
+      "reversal",
+      "alternation"
+    ],
+    "threads": 6,
+    "total_viable_split_tasks": 678165
+  },
+  "live_leader_score": 1.2807274949642549,
+  "paperclip_citations": [
+    "https://paperclip.gxl.ai/citations/papers/arx_2306.07156#L9-L12,L64-L74",
+    "https://paperclip.gxl.ai/citations/papers/arx_1907.09464#L23,L32-L38,L79-L85",
+    "https://paperclip.gxl.ai/citations/papers/arx_cond-mat9605050#L28-L67"
+  ],
+  "problem": "flat-polynomials",
+  "psl_bound": 4,
+  "regression_test": "tests/test_exact_bound.py",
+  "regression_test_sha256": "b4166b1e1617bf1093136b13bcc9dd048e96a57108c79e743e5e19249e4ada39",
+  "runs": [
+    {
+      "canonical_seed_class": "0000011100001011111111110101001010111100110011001101010110010110010110",
+      "cheap_prunes": 2585480594,
+      "class_count": 1,
+      "classes": [
+        "0000011100001011111111110101001010111100110011001101010110010110010110"
+      ],
+      "exact_prunes": 1612573812,
+      "journal": "runs/near-leukhin-24.jsonl",
+      "journal_sha256": "6b280955775f7c2a6507ef12732d8992636aefc5018f718c273f09c1e849891b",
+      "label": "leukhin",
+      "max_task_seconds": 227.509,
+      "nodes": 1399351462,
+      "novel_class_count": 0,
+      "seed_bits": "1001011001011001010100110011001100001010110101000000000010111100011111",
+      "sum_task_seconds": 1802.6968,
+      "task_count": 24,
+      "task_ids": [
+        109264,
+        112511,
+        112618,
+        167909,
+        226491,
+        241495,
+        242520,
+        242534,
+        242545,
+        281635,
+        304950,
+        323169,
+        326364,
+        326389,
+        326398,
+        326399,
+        326400,
+        326408,
+        326495,
+        326554,
+        326696,
+        328345,
+        493957,
+        617145
+      ]
+    },
+    {
+      "canonical_seed_class": "0000011111000000000100110011011100111101001101001100011100101010100101",
+      "cheap_prunes": 4061236802,
+      "class_count": 1,
+      "classes": [
+        "0000011111000000000100110011011100111101001101001100011100101010100101"
+      ],
+      "exact_prunes": 2796851739,
+      "journal": "runs/near-dimitrov-24.jsonl",
+      "journal_sha256": "73a471275cb45e9c864743fca9266bd7f0338d059cf1156cafa73cccecad1f74",
+      "label": "dimitrov",
+      "max_task_seconds": 296.184,
+      "nodes": 2286029507,
+      "novel_class_count": 0,
+      "seed_bits": "1010110101101010101110011001110110010111100111100110110110000000001111",
+      "sum_task_seconds": 2808.2216,
+      "task_count": 24,
+      "task_ids": [
+        151141,
+        151388,
+        287288,
+        371084,
+        436723,
+        446105,
+        454894,
+        458075,
+        458296,
+        458314,
+        458321,
+        458322,
+        458323,
+        458325,
+        458337,
+        458360,
+        458412,
+        458491,
+        458795,
+        459235,
+        459900,
+        465652,
+        499581,
+        656932
+      ]
+    },
+    {
+      "canonical_seed_class": "0010101111111110111000101001110001011001001001111000100110011101000011",
+      "cheap_prunes": 1270512968,
+      "class_count": 1,
+      "classes": [
+        "0010101111111110111000101001110001011001001001111000100110011101000011"
+      ],
+      "exact_prunes": 689855049,
+      "journal": "runs/near-pslrk-24.jsonl",
+      "journal_sha256": "7c2f5052c87babb622e672da9598391d97ff83368548a8779923c9a4362437c4",
+      "label": "pslrk",
+      "max_task_seconds": 115.842,
+      "nodes": 653455999,
+      "novel_class_count": 0,
+      "seed_bits": "1000000101010100010010000011011011110011100011010010001100110111101001",
+      "sum_task_seconds": 784.184077576,
+      "task_count": 24,
+      "task_ids": [
+        480,
+        649,
+        782,
+        804,
+        819,
+        820,
+        821,
+        825,
+        7975,
+        8119,
+        8249,
+        8272,
+        8288,
+        8289,
+        8290,
+        8291,
+        8295,
+        8299,
+        9269,
+        9639,
+        9741,
+        9850,
+        9851,
+        31105
+      ]
+    }
+  ],
+  "schema_version": 1,
+  "scope": "This closes exactly the 24 nearest viable split-depth-12 tasks for each of three published seed classes. It is not an exhaustive enumeration of all 678165 viable split tasks or all length-70 PSL-4 classes.",
+  "search_source": "psl4_exact.cpp",
+  "search_source_sha256": "9ea5c950b687970051f74d858d279e1a65699dcad0c2b23b5c1eece6285b3046",
+  "size": 70,
+  "status": "bounded_no_gate_clearer",
+  "strict_gate_score": 1.280726494964255,
+  "verifier_sha256": "ff991bd84aec2b5b5d44f58a68dba00f961e01d517ec1de3225e0902f0f2fce2"
+}
