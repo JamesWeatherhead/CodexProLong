@@ -1,0 +1,132 @@
+{
+  "conclusion": "SimpleTES is a newly recovered independent 262,144-value public asset; Hyra's upstream asset is byte-for-value identical to the already frozen Arena reference. Neither clears the live submission gate.",
+  "external_writes": [],
+  "generated_at": "2026-08-15T04:22:13.417076+00:00",
+  "leader": {
+    "agent_name": "ClaudeExplorer",
+    "endpoint": "https://einsteinarena.com/api/solutions/best?problem_id=3&limit=1",
+    "id": 2416,
+    "minimum_improvement": 1e-05,
+    "score": 0.963588110582029,
+    "strict_gate": 0.9635981105820289
+  },
+  "mode": "commit_pinned_GET_and_unchanged_local_verifier_replay",
+  "paperclip_sources": [
+    {
+      "claim": "Jaech--Joseph publish the spike-plus-comb profile and link higher-resolution coefficients.",
+      "url": "https://paperclip.gxl.ai/citations/papers/arx_2508.02803#L27-L34"
+    },
+    {
+      "claim": "ImprovEvolve reports AlphaEvolve's irregular 50,000-step seed and a 0.96258 multiresolution continuation.",
+      "url": "https://paperclip.gxl.ai/citations/papers/arx_2602.10233#L87-L98"
+    },
+    {
+      "claim": "ImprovEvolve publishes the evolved C2 code and the human-edited 1.6-million-step schedule.",
+      "url": "https://paperclip.gxl.ai/citations/papers/arx_2602.10233#L240-L245"
+    }
+  ],
+  "results": {
+    "hyra": {
+      "exact_support_runs": 4214,
+      "frozen_arena_corpus": {
+        "c2_rows_checked": 38,
+        "database_path": "campaign/research_corpus/snapshots/20260815T003306Z/corpus.sqlite3",
+        "database_sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb",
+        "exact_matches": [
+          {
+            "agent_name": "Hyra",
+            "id": 2361,
+            "score": 0.9629011010961752
+          }
+        ],
+        "snapshot": "20260815T003306Z"
+      },
+      "gap_to_live_leader": 0.0006870094858532072,
+      "gap_to_strict_gate": 0.0006970094858531617,
+      "gate_cleared": false,
+      "material_nonzero": 139883,
+      "material_run_width_maximum": 14339,
+      "material_run_width_median": 8.0,
+      "material_support_runs": 4864,
+      "material_threshold": 13.97893084,
+      "maximum": 1397893084.0,
+      "minimum": 0.0,
+      "n": 524288,
+      "nonzero": 144912,
+      "payload_file_sha256": "4cb0dd5c7eaae6d20e79cdc29f1a59d56ce0830986ad7524552ba402ce7b57ce",
+      "payload_path": "campaign/c2_asset_recovery/payloads/hyra.npy",
+      "prior_local_reference": {
+        "array_equal": true,
+        "path": "campaign/analytic/c2_secondary/reference_Hyra_2361.npy",
+        "present": true,
+        "prior_values_sha256": "538e0194c38c81afc48151bdca770486429fb3fa857869771a79e35ceac3a382",
+        "shape_equal": true
+      },
+      "raw_cache_path": "campaign/c2_asset_recovery/cache/hyra-solution.json",
+      "reported_score": null,
+      "score": 0.9629011010961758,
+      "source": {
+        "array_key": "values",
+        "cache_name": "hyra-solution.json",
+        "commit": "26ebfbe7d491e6521d8bb5fc21fe88bb31460825",
+        "license": "Apache-2.0 (repository LICENSE)",
+        "license_sha256": "ece6c7026732f576af3a909a117b321c9e8cfd96fc4d56e5229ff1a288dae087",
+        "license_url": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hyra-results/26ebfbe7d491e6521d8bb5fc21fe88bb31460825/LICENSE",
+        "reported_score_key": null,
+        "repository": "Tencent-Hunyuan/Hyra-results",
+        "sha256": "7e5fc9864969d100982fdd56b085c996e62b42e2cf2f632d9f22bb1cd8ce893a",
+        "url": "https://raw.githubusercontent.com/Tencent-Hunyuan/Hyra-results/26ebfbe7d491e6521d8bb5fc21fe88bb31460825/AI4Science/autocorrelation_second/solution.json"
+      },
+      "sum": 2823735233439.0,
+      "values_sha256": "538e0194c38c81afc48151bdca770486429fb3fa857869771a79e35ceac3a382"
+    },
+    "simpletes": {
+      "exact_support_runs": 1,
+      "frozen_arena_corpus": {
+        "c2_rows_checked": 38,
+        "database_path": "campaign/research_corpus/snapshots/20260815T003306Z/corpus.sqlite3",
+        "database_sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb",
+        "exact_matches": [],
+        "snapshot": "20260815T003306Z"
+      },
+      "gap_to_live_leader": 0.0008943355865154157,
+      "gap_to_strict_gate": 0.0009043355865153702,
+      "gate_cleared": false,
+      "material_nonzero": 71583,
+      "material_run_width_maximum": 7473,
+      "material_run_width_median": 7.0,
+      "material_support_runs": 3141,
+      "material_threshold": 4.576264921056135e-09,
+      "maximum": 0.45762649210561346,
+      "minimum": 1.4277282807136494e-14,
+      "n": 262144,
+      "nonzero": 262144,
+      "payload_file_sha256": "c7365d9ebdcbc7f1014a891ea88cb4ff880152228fedbd5b7df5be7b3cdb9a72",
+      "payload_path": "campaign/c2_asset_recovery/payloads/simpletes.npy",
+      "raw_cache_path": "campaign/c2_asset_recovery/cache/simpletes-construction.json",
+      "reported_score": 0.9626937749954642,
+      "score": 0.9626937749955136,
+      "source": {
+        "array_key": "construction",
+        "cache_name": "simpletes-construction.json",
+        "commit": "a19a54b109db6185ab1f13dd59dd150074b24136",
+        "license": "GNU AGPL-3.0-or-later (repository LICENSE)",
+        "license_sha256": "3bdf828d3e3e55318bb9d12e10dbda27b4f7725d9da7ced98b526359ff80fb7d",
+        "license_url": "https://raw.githubusercontent.com/wq-will/SimpleTES/a19a54b109db6185ab1f13dd59dd150074b24136/LICENSE",
+        "program_sha256": "2e9acbdf8c3cea1bb475bed6b0d11840bd78400f42af13201922b8cccb2bc521",
+        "program_url": "https://raw.githubusercontent.com/wq-will/SimpleTES/a19a54b109db6185ab1f13dd59dd150074b24136/best_results/mathematics_discovery/second_autocorrelation_inequality/second_autocorrelation_inequality_best.py",
+        "reported_score_key": "score",
+        "repository": "wq-will/SimpleTES",
+        "sha256": "cd9d2fb1ba5280f46dbe8a836d1dc65c2b0c9e6a2c0cd9f857c47cee7d555ccd",
+        "url": "https://raw.githubusercontent.com/wq-will/SimpleTES/a19a54b109db6185ab1f13dd59dd150074b24136/best_results/mathematics_discovery/second_autocorrelation_inequality/second_autocorrelation_inequality_best_construction.json"
+      },
+      "sum": 592.7759155857598,
+      "values_sha256": "8a526d01d12973ead4e62797bf419e358718d92ae9264c6fc1778e957cb13f20"
+    }
+  },
+  "schema": 1,
+  "verifier": {
+    "path": "campaign/state/problems/second-autocorrelation-inequality/dc5ccffaa20ba6c112cab36ffe602c657372d192d8b486abd66b14bcad1ca768.py",
+    "sha256": "dc5ccffaa20ba6c112cab36ffe602c657372d192d8b486abd66b14bcad1ca768"
+  }
+}

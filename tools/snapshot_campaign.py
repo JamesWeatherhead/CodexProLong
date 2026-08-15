@@ -90,6 +90,7 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "geometry-literature-asset-sources": "literature_asset_hunt/sources.json",
     "geometry-contact-recombination": "geometry_asset_recombine/replay_receipt.json",
     "schema-gap-audit": "schema_gap_audit/receipt.json",
+    "c2-asset-recovery": "c2_asset_recovery/receipt.json",
 }
 FRONTIER_RECEIPTS = {
     "edges-vs-triangles": "state/receipts/edges-vs-triangles/20260815T024004430186Z-c71bc6912f5a.json",
@@ -144,6 +145,7 @@ ROOT_SOURCE_FILES = (
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = (
     "analytic",
+    "c2_asset_recovery",
     "c1_root",
     "c2_root",
     "c3_root",

@@ -41,6 +41,11 @@ chain-of-thought.
   tolerance is below its gate, and the only strong surviving mismatch is the
   already-disclosed Tammes platform first. This prevents future runs from
   mistaking locally callable evaluator quirks for submit-capable results.
+- Recovered and independently replayed a previously absent 262,144-sample C2
+  fine-comb construction from the commit-pinned SimpleTES repository. Its
+  3,141 support runs establish a genuinely distinct high-resolution seed, but
+  its exact score remains `9.04e-4` below the live gate; raw third-party arrays
+  stay local while provenance, hashes, code, and the receipt are public.
 
 ## Current high-information lanes
 

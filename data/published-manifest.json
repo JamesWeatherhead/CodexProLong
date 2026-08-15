@@ -1,6 +1,11 @@
 {
   "files": [
     {
+      "bytes": 6516,
+      "path": "artifacts/evidence/c2-asset-recovery.json",
+      "sha256": "1abdefe1c79fd324eee009bf53c109ec6fea7d87120936340babaa34bb98f86b"
+    },
+    {
       "bytes": 6149,
       "path": "artifacts/evidence/difference-global-audit.json",
       "sha256": "6d216d29734e88a0f3eb5b7aeba74347818b0648e66039ef7b777f3d20d44fd3"
@@ -414,6 +419,21 @@
       "bytes": 5191,
       "path": "src/campaign/c1_root/smooth_polish.py",
       "sha256": "71c04320ac2828a1eadf52f70a1e69941df9e6a061d1261eaab3b151c5c845fc"
+    },
+    {
+      "bytes": 1436,
+      "path": "src/campaign/c2_asset_recovery/HANDOFF.md",
+      "sha256": "dc92445b7bc9af188224925ce6660a2ba073370d03a416933743bc6aef655fac"
+    },
+    {
+      "bytes": 3626,
+      "path": "src/campaign/c2_asset_recovery/README.md",
+      "sha256": "0466c9f00a221dd3bf5476079e1dbdb20aaed5871f267bd009d3a8a1245829c0"
+    },
+    {
+      "bytes": 12759,
+      "path": "src/campaign/c2_asset_recovery/asset_replay.py",
+      "sha256": "c29a75d419967c9a999820abfc6f2957aa52f5e9c98b2d08c299cff98b444efe"
     },
     {
       "bytes": 1064,
