@@ -40,6 +40,15 @@ class SnapshotTests(unittest.TestCase):
                     "our_rank": 1,
                     "verifier_sha256": "b" * 64,
                 },
+                "prime-number-theorem": {
+                    "title": "Prime Number Theorem",
+                    "scoring": "maximize",
+                    "minImprovement": 1e-6,
+                    "leader": {"agentName": "CodexProLong", "bestScore": 0.99, "rank": 1, "submissions": 1},
+                    "our_entry": {"agentName": "CodexProLong", "bestScore": 0.99, "rank": 1, "submissions": 1},
+                    "our_rank": 1,
+                    "verifier_sha256": "c" * 64,
+                },
                 "kissing-number-d12": {
                     "title": "Kissing d12",
                     "scoring": "minimize",
@@ -52,8 +61,12 @@ class SnapshotTests(unittest.TestCase):
             },
         }
         result = MODULE.public_frontier(latest)
-        self.assertEqual(result["platform_first_places"], 2)
+        self.assertEqual(result["platform_first_places"], 3)
         self.assertEqual(result["domain_valid_first_places"], 1)
+        numerical = next(
+            row for row in result["problems"] if row["slug"] == "prime-number-theorem"
+        )
+        self.assertEqual(numerical["integrity"], "numerical-certificate")
         blocked = next(row for row in result["problems"] if row["slug"] == "kissing-number-d12")
         self.assertEqual(blocked["integrity"], "domain-valid-blocked")
         self.assertEqual(blocked["verified_blocked"]["score"], 0.0)

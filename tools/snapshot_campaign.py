@@ -14,6 +14,7 @@ from typing import Any
 REPO = Path(__file__).resolve().parents[1]
 AGENT = "CodexProLong"
 SOLUTION_IDS = {
+    "prime-number-theorem": [2506],
     "tammes-problem": [2496, 2497],
     "kissing-number-d12-842": [2499],
     "kissing-number-d11-605": [2500],
@@ -21,6 +22,12 @@ SOLUTION_IDS = {
     "uncertainty-principle": [2505],
 }
 DISCLOSURES = {"tammes-problem": "verifier/domain mismatch: one point is not on S^2"}
+NUMERICAL_CERTIFICATES = {
+    "prime-number-theorem": (
+        "full advertised verifier horizon checked exactly; the stronger all-x "
+        "analytic PNT certificate remains open"
+    )
+}
 VERIFIED_BLOCKED = {
     "kissing-number-d12": {
         "score": 0.0,
@@ -40,12 +47,14 @@ VERIFIED_BLOCKED = {
     }
 }
 WIN_ARTIFACTS = {
+    "prime-number-theorem": "discrete/prime_number_theorem/reach_extend_127849_fullrange.json",
     "kissing-number-d12-842": "geometry/runs/20260814T225047Z/kissing-number-d12-842/best.json",
     "kissing-number-d11-605": "geometry/runs/20260814T225229Z/kissing-number-d11-605/best.json",
     "first-autocorrelation-inequality": "c1_root/runs/20260814T232455Z/candidate.json",
     "uncertainty-principle": "analytic/payloads/uncertainty-k25-frozen-20260814T234458Z.json",
 }
 WIN_RECEIPTS = {
+    "prime-number-theorem": "state/receipts/prime-number-theorem/20260815T032933818594Z-4082fb8c9b71.json",
     "kissing-number-d12-842": "state/receipts/kissing-number-d12-842/20260814T225240418258Z-99b544b575ab.json",
     "kissing-number-d11-605": "state/receipts/kissing-number-d11-605/20260814T225509786111Z-89fad32eba9b.json",
     "first-autocorrelation-inequality": "state/receipts/first-autocorrelation-inequality/20260814T232734823043Z-e3f90379fb5a.json",
@@ -58,13 +67,18 @@ FRONTIER_ARTIFACTS = {
     "erdos-min-overlap": "analytic/erdos_global/slp_runs/20260815T063000Z-n3584-trust25e5/best.json",
     "heilbronn-triangles": "geometry/runs/20260814T231710Z/heilbronn-triangles/best.json",
     "min-distance-ratio-2d": "geometry/runs/20260814T231106Z/min-distance-ratio-2d/best.json",
-    "prime-number-theorem": "discrete/prime_number_theorem/group_refine_feasible.json",
     "second-autocorrelation-inequality": "analytic/c2_global_topology/runs/20260815T041000Z-terminal-split/best.npy",
     "third-autocorrelation-inequality": "c3_root/turbo-topology-continuation-v2/runs/20260815T031008Z/best.npy",
     "thomson-problem": "geometry/runs/20260814T234800Z/thomson-problem/best.json",
 }
 FROZEN_VERIFIER_SNAPSHOTS = {
     "erdos-min-overlap": "erdos_root/snapshots/erdos-min-overlap_20260814T232154Z.json",
+}
+EVIDENCE_ARTIFACTS = {
+    "prime-number-theorem-full-horizon": (
+        "discrete/prime_number_theorem/checkpoints/"
+        "reach_extend_127849_exact_audit.json"
+    ),
 }
 FRONTIER_RECEIPTS = {
     "edges-vs-triangles": "state/receipts/edges-vs-triangles/20260815T024004430186Z-c71bc6912f5a.json",
@@ -84,7 +98,7 @@ METHODS = {
     "kissing-number-d12": "Published 841-code replays at exact verifier score 0 with 1.24497e-7 distance-squared margin; submission is blocked by HTTP 409, tracked in issue #59.",
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
     "min-distance-ratio-2d": "100-digit active root and 280 topology release/promote trials; best local gain is 2.35e-11 versus a 1e-7 gate.",
-    "prime-number-theorem": "Exact cutting planes and 600 stratified support exchanges; best live-replayed local gain is 4.15e-7, below the 1e-6 gate.",
+    "prime-number-theorem": "Changed-reach cutting planes produce evaluated solution #2506 at 0.9976572852677297. An exact rational sweep covers every real state in the advertised verifier horizon; a global all-x proof remains open.",
     "second-autocorrelation-inequality": "Exact replay reaches 0.9635881172701123 after changed-support packet births; 362 whole-region phase schedules and 378 finite-mass terminal split constructions found no global escape, leaving a 9.9933e-6 gate gap.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
     "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation reach 1.4515653850221024; the frozen payload improves the pre-topology basin by 2.15e-8 but remains 3.52e-6 short of the gate.",
@@ -103,7 +117,16 @@ ROOT_SOURCE_FILES = (
     "c3_root/requirements-rank-lift.txt",
 )
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
-SOURCE_FAMILIES = ("analytic", "c1_root", "c2_root", "c3_root", "discrete", "erdos_root", "geometry", "research_corpus")
+SOURCE_FAMILIES = (
+    "analytic",
+    "c1_root",
+    "c2_root",
+    "c3_root",
+    "discrete",
+    "erdos_root",
+    "geometry",
+    "research_corpus",
+)
 EXCLUDED_PARTS = {
     "external",
     "runs",
@@ -116,7 +139,6 @@ EXCLUDED_PARTS = {
     "flat_global",
 }
 UNPUBLISHED_WORK_IN_PROGRESS = {
-    Path("discrete/prime_number_theorem/reach_extend.py"),
     Path("discrete/prime_number_theorem/tail_select_mip.py"),
 }
 
@@ -166,11 +188,13 @@ def public_frontier(latest: dict[str, Any]) -> dict[str, Any]:
                 "solution_ids": SOLUTION_IDS.get(slug, []),
                 "integrity": (
                     "disclosure" if slug in DISCLOSURES
+                    else "numerical-certificate" if slug in NUMERICAL_CERTIFICATES
                     else "domain-valid-blocked" if blocked
                     else "domain-valid" if problem.get("our_rank") == 1
                     else "active"
                 ),
                 "disclosure": DISCLOSURES.get(slug),
+                "numerical_certificate": NUMERICAL_CERTIFICATES.get(slug),
                 "verified_blocked": blocked,
             }
         )
@@ -202,7 +226,13 @@ def status_markdown(frontier: dict[str, Any]) -> str:
         if row["verified_blocked"]:
             ours = "🧊 **score `0` verified; submissions disabled**"
         elif row["our_entry"]:
-            icon = "⚠️" if row["integrity"] == "disclosure" else "🥇"
+            icon = (
+                "⚠️"
+                if row["integrity"] == "disclosure"
+                else "🧪"
+                if row["integrity"] == "numerical-certificate"
+                else "🥇"
+            )
             ours = f"{icon} **#{row['our_rank']}** / `{format_score(row['our_entry']['bestScore'])}`"
         else:
             ours = "— / active"
@@ -222,6 +252,7 @@ def status_markdown(frontier: dict[str, Any]) -> str:
             "",
             "> [!WARNING]",
             "> Tammes is a platform first place but not a spherical-code result; see [ETHICS.md](ETHICS.md).",
+            "> The PNT entry checks the complete advertised verifier horizon, but it is a numerical certificate rather than a proof of the all-x analytic statement.",
             "> Kissing d12/841 is domain-valid and verifier-perfect locally, but the Arena endpoint returns HTTP 409 because submissions are disabled; see [issue #59](https://github.com/vinid/einstein-arena/issues/59).",
             "",
             "The source of truth is [`data/frontier.json`](../data/frontier.json).",
@@ -325,6 +356,15 @@ def main() -> int:
         "sha256": sha256(blocked_evidence),
         "bytes": blocked_evidence.stat().st_size,
     })
+    for name, relative_text in EVIDENCE_ARTIFACTS.items():
+        src = source / relative_text
+        dst = REPO / "artifacts" / "evidence" / f"{name}{src.suffix}"
+        copy_file(src, dst)
+        manifest.append({
+            "path": str(dst.relative_to(REPO)),
+            "sha256": sha256(dst),
+            "bytes": dst.stat().st_size,
+        })
     for slug, relative_text in WIN_ARTIFACTS.items():
         src = source / relative_text
         suffix = src.suffix

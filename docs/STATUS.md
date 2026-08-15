@@ -1,8 +1,8 @@
 # Live 19-benchmark matrix
 
-Generated from the live Arena snapshot at `2026-08-15T01:34:31.520152Z`.
+Generated from the live Arena snapshot at `2026-08-15T03:32:26.037823Z`.
 
-Platform first places: **5/19**. Domain-valid first places: **4/19**.
+Platform first places: **6/19**. Domain-valid first places: **4/19**.
 
 | Benchmark | Direction | Live leader | Our rank / score | Gate | Verifier | Evidence | Literature |
 |---|:---:|---:|---:|---:|---|---|---|
@@ -19,7 +19,7 @@ Platform first places: **5/19**. Domain-valid first places: **4/19**.
 | [Kissing Number in Dimension 12 (n=841)](https://einsteinarena.com/problems/kissing-number-d12) | ↓ | CHRONOS `2` ↓ | 🧊 **score `0` verified; submissions disabled** | `0` | `eb043620439a` | [proof](../artifacts/evidence/kissing-number-d12.json) · [blocker](https://github.com/vinid/einstein-arena/issues/59) | [map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs) |
 | [Kissing Number in Dimension 12 (n=842)](https://einsteinarena.com/problems/kissing-number-d12-842) | ↓ | CodexProLong `0.5470735423441564` ↓ | 🥇 **#1** / `0.5470735423441564` | `0` | `54dc5d8c02a6` | [#2499](https://einsteinarena.com/api/solutions/2499) | [map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs) |
 | [Minimizing Max/Min Distance Ratio (2D, n=16)](https://einsteinarena.com/problems/min-distance-ratio-2d) | ↓ | Together-AI `12.88922990771752` ↓ | — / active | `1e-07` | `2971cbb9e167` | [lane source](../src/campaign/) | [map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs) |
-| [The Prime Number Theorem](https://einsteinarena.com/problems/prime-number-theorem) | ↑ | NumaroTech `0.9976488835182795` ↑ | — / active | `1e-06` | `fd76a069b269` | [lane source](../src/campaign/) | [map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs) |
+| [The Prime Number Theorem](https://einsteinarena.com/problems/prime-number-theorem) | ↑ | CodexProLong `0.9976572852677297` ↑ | 🧪 **#1** / `0.9976572852677297` | `1e-06` | `fd76a069b269` | [#2506](https://einsteinarena.com/api/solutions/2506) | [map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs) |
 | [Second Autocorrelation Inequality (Lower Bound)](https://einsteinarena.com/problems/second-autocorrelation-inequality) | ↑ | ClaudeExplorer `0.963588110582029` ↑ | — / active | `1e-05` | `dc5ccffaa20b` | [lane source](../src/campaign/) | [map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs) |
 | [Tammes Problem (n = 50)](https://einsteinarena.com/problems/tammes-problem) | ↑ | CodexProLong `0.5633081876528571` ↑ | ⚠️ **#1** / `0.5633081876528571` | `1e-08` | `b07f1a0bf0e1` | [#2496](https://einsteinarena.com/api/solutions/2496) · [#2497](https://einsteinarena.com/api/solutions/2497) | [map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs) |
 | [Third Autocorrelation Inequality (Upper Bound)](https://einsteinarena.com/problems/third-autocorrelation-inequality) | ↓ | BasinHopper `1.451571863890207` ↓ | — / active | `1e-05` | `b8288d5943d7` | [lane source](../src/campaign/) | [map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs) |
@@ -28,6 +28,7 @@ Platform first places: **5/19**. Domain-valid first places: **4/19**.
 
 > [!WARNING]
 > Tammes is a platform first place but not a spherical-code result; see [ETHICS.md](ETHICS.md).
+> The PNT entry checks the complete advertised verifier horizon, but it is a numerical certificate rather than a proof of the all-x analytic statement.
 > Kissing d12/841 is domain-valid and verifier-perfect locally, but the Arena endpoint returns HTTP 409 because submissions are disabled; see [issue #59](https://github.com/vinid/einstein-arena/issues/59).
 
 The source of truth is [`data/frontier.json`](../data/frontier.json).
@@ -49,7 +50,7 @@ The source of truth is [`data/frontier.json`](../data/frontier.json).
 | [`kissing-number-d12`](https://einsteinarena.com/problems/kissing-number-d12) | Published 841-code replays at exact verifier score 0 with 1.24497e-7 distance-squared margin; submission is blocked by HTTP 409, tracked in issue #59. | Reproduce the 60+60+720 block/bridge construction and flexible 48-systems |
 | [`kissing-number-d12-842`](https://einsteinarena.com/problems/kissing-number-d12-842) | Sparse tangent-space active-set SLP; evaluated solution #2499. | Search inside and around the flexible 840/841 family using logarithmic Riesz basin hopping |
 | [`min-distance-ratio-2d`](https://einsteinarena.com/problems/min-distance-ratio-2d) | 100-digit active root and 280 topology release/promote trials; best local gain is 2.35e-11 versus a 1e-7 gate. [artifact](../artifacts/frontier/min-distance-ratio-2d.json) | Cross-instance heuristic transfer followed by active diameter/contact-graph polishing |
-| [`prime-number-theorem`](https://einsteinarena.com/problems/prime-number-theorem) | Exact cutting planes and 600 stratified support exchanges; best live-replayed local gain is 4.15e-7, below the 1e-6 gate. [artifact](../artifacts/frontier/prime-number-theorem.json) | Truncated Möbius plus periodic Chebyshev-Sylvester schemes, smoothly tapered log-scale density, nested Rosser-Iwaniec prime-factor support pools, and exact fixed-stream/all-x floor-sum checking |
+| [`prime-number-theorem`](https://einsteinarena.com/problems/prime-number-theorem) | Changed-reach cutting planes produce evaluated solution #2506 at 0.9976572852677297. An exact rational sweep covers every real state in the advertised verifier horizon; a global all-x proof remains open. | Truncated Möbius plus periodic Chebyshev-Sylvester schemes, smoothly tapered log-scale density, nested Rosser-Iwaniec prime-factor support pools, and exact fixed-stream/all-x floor-sum checking |
 | [`second-autocorrelation-inequality`](https://einsteinarena.com/problems/second-autocorrelation-inequality) | Exact replay reaches 0.9635881172701123 after changed-support packet births; 362 whole-region phase schedules and 378 finite-mass terminal split constructions found no global escape, leaving a 9.9933e-6 gate gap. [artifact](../artifacts/frontier/second-autocorrelation-inequality.npy) | Projected high-resolution Adam, gradient noise, elitist respawn, upsampling, spike-plus-comb seeds |
 | [`tammes-problem`](https://einsteinarena.com/problems/tammes-problem) | Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction. | Contact-graph enumeration and LP/SDP pruning combined with spherical-code basin hopping |
 | [`third-autocorrelation-inequality`](https://einsteinarena.com/problems/third-autocorrelation-inequality) | Boundary-cell sign-topology escapes plus exact all-coordinate continuation reach 1.4515653850221024; the frozen payload improves the pre-topology basin by 2.15e-8 but remains 3.52e-6 short of the gate. [artifact](../artifacts/frontier/third-autocorrelation-inequality.npy) | Active-lag epigraph minimax plus coarse SDP/rank-one support-topology seeds, followed by exact high-resolution replay |

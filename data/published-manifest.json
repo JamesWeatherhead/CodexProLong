@@ -6,6 +6,11 @@
       "sha256": "114e9f053800d24c1222e3a02f5347f547ca855e89dd6d4aa0101a8f3b33b023"
     },
     {
+      "bytes": 64511,
+      "path": "artifacts/evidence/prime-number-theorem-full-horizon.json",
+      "sha256": "1ec5b03f9b1d72af559df9b4240e8c2384068d267044b48f86138dd1424d5f7c"
+    },
+    {
       "bytes": 2394,
       "path": "artifacts/frontier/circle-packing.json",
       "sha256": "e03c16d923ab3170442dcbc6c6984f8d34ec67cd7a9ccc87d1d17a6c9008a131"
@@ -36,11 +41,6 @@
       "sha256": "1627e06f81f2448ad5e05ea0f75c321c8b66a4fa0029e88610b4671e1924bbf9"
     },
     {
-      "bytes": 67238,
-      "path": "artifacts/frontier/prime-number-theorem.json",
-      "sha256": "6e9c84cf63f9d46179e9073df54be95c35018b36b1dd96799deef55ba971e236"
-    },
-    {
       "bytes": 16000120,
       "path": "artifacts/frontier/second-autocorrelation-inequality.npy",
       "sha256": "17ae46a8532acd2ed6eb355b968e9e59936adc0335975fd18b67251e0040e640"
@@ -56,9 +56,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 29426,
+      "bytes": 33569,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "ab8ab26d3eee0386274af87fac54a84d8d765c8d98cb3d078b374cfe459903f4"
+      "sha256": "b7da824e9a2f805e77ee385ba51e377bfb20176adc5bf1c9c3a9b484766e6404"
     },
     {
       "bytes": 715,
@@ -79,6 +79,11 @@
       "bytes": 717,
       "path": "artifacts/receipts/kissing-number-d12-842.json",
       "sha256": "5138779742da70497d0855303861fda445bb5e6b2bbbe2bb2b186f82220b302a"
+    },
+    {
+      "bytes": 714,
+      "path": "artifacts/receipts/prime-number-theorem.json",
+      "sha256": "68bd6d13d6fa2be105dc6e8443bacb5f12780deeb6af75e8cee8140e0e62d371"
     },
     {
       "bytes": 2697,
@@ -109,6 +114,11 @@
       "bytes": 285447,
       "path": "artifacts/wins/kissing-number-d12-842.json",
       "sha256": "7b1685c5b08a05f18bf1d0730461da1826469203e8fc451901867ca3bba0168c"
+    },
+    {
+      "bytes": 64494,
+      "path": "artifacts/wins/prime-number-theorem.json",
+      "sha256": "d43c5531d562d06981a55829deb1c579a87a7c02405d69688dcc79e7f45f22c1"
     },
     {
       "bytes": 617,
@@ -541,19 +551,24 @@
       "sha256": "bbf3b89c16fb416a608097a21ddb18a935a1bee3a56efa181e91eec8bd0e69cb"
     },
     {
-      "bytes": 3825,
+      "bytes": 6479,
       "path": "src/campaign/discrete/prime_number_theorem/HANDOFF.md",
-      "sha256": "8d492b87d27665c70a0d7924ddb97399ea8debf224586f2f673527672be26bd2"
+      "sha256": "e2d9ba1e583739fbb4cdaed9fd13b5c4adaa7c617e02884e9e98b744649aa5e7"
     },
     {
-      "bytes": 3201,
+      "bytes": 4771,
       "path": "src/campaign/discrete/prime_number_theorem/README.md",
-      "sha256": "a20b906549c7574ed715141bb7443d473320de203b8e40b3e1b63274827ef52b"
+      "sha256": "e01bb4055db67dc215ccd7b1bd0b036d2602bfa7359b7aafda53134d0509086d"
     },
     {
       "bytes": 6818,
       "path": "src/campaign/discrete/prime_number_theorem/audit.py",
       "sha256": "5ec3a1883044e3d5eb2ccbb96a77bc77b36d662332e895861b366cdcfdb67f51"
+    },
+    {
+      "bytes": 27429,
+      "path": "src/campaign/discrete/prime_number_theorem/audit_reach_extend_exact.py",
+      "sha256": "d1fb06c0020a34ac0575514cba3eb471819db8650c06f779f2991deef5f812e1"
     },
     {
       "bytes": 9847,
@@ -581,6 +596,11 @@
       "sha256": "f1e4934871d3e820aed855ef15c2ad9a5d50ac3c6ba3fb62a8b3548556ac295b"
     },
     {
+      "bytes": 17360,
+      "path": "src/campaign/discrete/prime_number_theorem/reach_extend.py",
+      "sha256": "de194d0026a42fb7031247b06d7c1b3d3140ba2a1b128e11be775647a7f6e5d0"
+    },
+    {
       "bytes": 3521,
       "path": "src/campaign/discrete/prime_number_theorem/refresh.py",
       "sha256": "9211288c9417b2230b86741ceb87a72a74894757408d55c51cc07de0a76bffb9"
@@ -594,6 +614,11 @@
       "bytes": 1645,
       "path": "src/campaign/discrete/prime_number_theorem/replay_group_feasible.py",
       "sha256": "1b5311ab4e1488ee5cfd60f62b071631ab8c99aa089ce5a1597a75ca5064e7de"
+    },
+    {
+      "bytes": 7699,
+      "path": "src/campaign/discrete/prime_number_theorem/replay_reach_extend.py",
+      "sha256": "ce5c3d87d98f918b5c0cb6082b91c891dc9a3beba30ef0e4b1e27d05c6d52c63"
     },
     {
       "bytes": 3813,
@@ -926,5 +951,5 @@
       "sha256": "8ffd7435d2c9f12d852c61e6f44ce77d0d64f7a51fdac12bf72b662b90b49c6c"
     }
   ],
-  "generated_at": "2026-08-15T01:34:31.520152Z"
+  "generated_at": "2026-08-15T03:32:26.037823Z"
 }

@@ -1,0 +1,18 @@
+{
+  "artifact_sha256": "d43c5531d562d06981a55829deb1c579a87a7c02405d69688dcc79e7f45f22c1",
+  "candidate_bytes": 52485,
+  "candidate_path": "artifacts/wins/prime-number-theorem.json",
+  "candidate_sha256": "4082fb8c9b71a034e9d56e7aa53d3ed86e5bf159513192f6af05a4b9c04ae9e5",
+  "clears_first_place_gate": true,
+  "diagnostics_tail": "",
+  "leader_agent": "NumaroTech",
+  "leader_score": 0.9976488835182795,
+  "margin": 8.401749449937768e-06,
+  "min_improvement": 1e-06,
+  "problem_id": 7,
+  "score": 0.9976572852677295,
+  "scoring": "maximize",
+  "slug": "prime-number-theorem",
+  "verified_at": "2026-08-15T03:29:33.818426Z",
+  "verifier_sha256": "fd76a069b269a521d6ded609bd79185bf859df778283bebc37719dfd15b1ded6"
+}

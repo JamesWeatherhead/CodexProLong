@@ -3,29 +3,31 @@
 
   <br>
 
-  [![EinsteinArena](https://img.shields.io/badge/EinsteinArena-5%20of%2019%20platform%20%231s-7c3aed?style=for-the-badge)](https://einsteinarena.com)
+  [![EinsteinArena](https://img.shields.io/badge/EinsteinArena-6%20of%2019%20platform%20%231s-7c3aed?style=for-the-badge)](https://einsteinarena.com)
   [![Legitimate wins](https://img.shields.io/badge/domain--valid%20%231s-4-16a34a?style=for-the-badge)](docs/ETHICS.md)
   [![Verified blocker](https://img.shields.io/badge/verifier--perfect%20but%20disabled-1-f59e0b?style=for-the-badge)](https://github.com/vinid/einstein-arena/issues/59)
   [![CI](https://img.shields.io/github/actions/workflow/status/JamesWeatherhead/CodexProLong/ci.yml?branch=main&style=for-the-badge&label=receipt%20check)](https://github.com/JamesWeatherhead/CodexProLong/actions/workflows/ci.yml)
   [![License](https://img.shields.io/badge/license-MIT-0891b2?style=for-the-badge)](LICENSE)
 
-  **`█████🟧░░░░░░░░░░░░░ 5 live + 1 blocked / 19`** platform first places<br>
+  **`██████🟧░░░░░░░░░░░░ 6 live + 1 blocked / 19`** platform first places<br>
   **`████🟧░░░░░░░░░░░░░░ 4 live + 1 blocked / 19`** mathematically valid first places<br>
   <sub>█ live #1 · 🟧 verifier-perfect, domain-valid, but submission-disabled · ░ open</sub>
 </div>
 
 > [!IMPORTANT]
 > This is a live computational-research campaign, not a retrospective victory
-> lap. The target is first place on every active EinsteinArena construction
-> benchmark. Every positive claim has candidate bytes, a verifier hash, and a
-> replay receipt; every failed lane keeps enough evidence to prevent the next
-> context window from rediscovering the same dead end.
+> lap. The target is first place across all 19 EinsteinArena construction
+> benchmarks. Where the platform disables submission, the target becomes a
+> verifier-perfect mathematical construction plus a public blocker receipt.
+> Every positive claim has candidate bytes, a verifier hash, and a replay
+> receipt; every failed lane keeps enough evidence to prevent the next context
+> window from rediscovering the same dead end.
 
 ## Results first
 
 | Lane | Rank | Score | Evidence | Integrity label |
 |---|---:|---:|---|---|
-| [Prime number theorem](https://einsteinarena.com/problems/prime-number-theorem) | **pending** | `0.9976572852677295` ↑ | [submission #2506](https://einsteinarena.com/api/solutions/2506) · full-horizon + Docker replay | ⏳ gate-clearing; server evaluation pending |
+| [Prime number theorem](https://einsteinarena.com/problems/prime-number-theorem) | **#1 platform** | `0.9976572852677297` ↑ | [#2506](https://einsteinarena.com/api/solutions/2506) · [payload](artifacts/wins/prime-number-theorem.json) · [receipt](artifacts/receipts/prime-number-theorem.json) · [exact audit](artifacts/evidence/prime-number-theorem-full-horizon.json) · [solver](src/campaign/discrete/prime_number_theorem/reach_extend.py) · [handoff](src/campaign/discrete/prime_number_theorem/HANDOFF.md) | 🧪 full verifier horizon; global all-\(x\) proof open |
 | [Uncertainty principle](https://einsteinarena.com/problems/uncertainty-principle) | **#1** | `0.3130922465438896` ↓ | [solution #2505](https://einsteinarena.com/api/solutions/2505) · [payload](artifacts/wins/uncertainty-principle.json) | ✅ domain-valid |
 | [First autocorrelation](https://einsteinarena.com/problems/first-autocorrelation-inequality) | **#1** | `1.5027436492326165` ↓ | [solution #2504](https://einsteinarena.com/api/solutions/2504) · [payload](artifacts/wins/first-autocorrelation-inequality.json) | ✅ domain-valid |
 | [Kissing d12 / 842](https://einsteinarena.com/problems/kissing-number-d12-842) | **#1** | `0.5470735423441564` ↓ | [solution #2499](https://einsteinarena.com/api/solutions/2499) · [payload](artifacts/wins/kissing-number-d12-842.json) | ✅ domain-valid |
