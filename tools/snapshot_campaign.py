@@ -55,6 +55,7 @@ FRONTIER_ARTIFACTS = {
     "circle-packing": "geometry/circle_packing_topology/runs/20260815T021013Z/topologies/1a3ddda1ed2e3083/candidate.json",
     "circles-rectangle": "geometry/rectangle_topology/runs/20260815T022200Z/stochastic_relax/topologies/cdea3037dafa48f9/candidate.json",
     "edges-vs-triangles": "discrete/edges_vs_triangles/candidate.json",
+    "erdos-min-overlap": "analytic/erdos_global/slp_runs/20260815T063000Z-n3584-trust25e5/best.json",
     "heilbronn-triangles": "geometry/runs/20260814T231710Z/heilbronn-triangles/best.json",
     "min-distance-ratio-2d": "geometry/runs/20260814T231106Z/min-distance-ratio-2d/best.json",
     "prime-number-theorem": "discrete/prime_number_theorem/group_refine_feasible.json",
@@ -62,12 +63,15 @@ FRONTIER_ARTIFACTS = {
     "third-autocorrelation-inequality": "c3_root/runs-102400/20260815T011534Z/best.npy",
     "thomson-problem": "geometry/runs/20260814T234800Z/thomson-problem/best.json",
 }
+FROZEN_VERIFIER_SNAPSHOTS = {
+    "erdos-min-overlap": "erdos_root/snapshots/erdos-min-overlap_20260814T232154Z.json",
+}
 METHODS = {
     "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short after 156 one-contact releases, 58 PAS-PCI relocations, and 80 clean-room FlowBoost-inspired seeds; a genuinely new multi-contact topology is required.",
     "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short after 100 global/aspect and void endpoints spanning 24 graph classes, 22 absent from the full public corpus; a genuinely new multi-contact topology is required.",
     "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109.",
     "edges-vs-triangles": "Exact curve-mesh optimization gains 7.61e-9, only 0.76% of the gate; the API independently enforces the 500-row domain.",
-    "erdos-min-overlap": "n=3,584 changed-grid active-set SLP reaches 0.3808586421686005; continuation is still 6.50e-8 short of the gate.",
+    "erdos-min-overlap": "Independent literal-verifier replay of the n=3,584 active-bundle SLP reaches 0.38085862169567786, improving the public leader by 5.55e-8 but remaining 4.45e-8 short of the gate; a bounded n=64 Shor–McCormick/SROCR lift extracted only worse feasible basins.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
     "flat-polynomials": "Structured search plus exhaustive all C(70,6)=131,115,985 masks found no gate-clearer on literal verifier-grid subsets.",
     "heilbronn-triangles": "100-digit active root, 462 topology trials, complete q=25 lattice proof, partial q=30 proof, and adaptive q=143 SAT cores.",
@@ -95,11 +99,23 @@ ROOT_SOURCE_FILES = (
 )
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = ("analytic", "c1_root", "c2_root", "c3_root", "discrete", "erdos_root", "geometry", "research_corpus")
-EXCLUDED_PARTS = {"external", "runs", "snapshots", "receipts", "checkpoints", "__pycache__", ".ruff_cache"}
+EXCLUDED_PARTS = {
+    "external",
+    "runs",
+    "snapshots",
+    "receipts",
+    "checkpoints",
+    "__pycache__",
+    ".ruff_cache",
+    # Active lanes are published only after their own frozen handoffs.
+    "c2_global_topology",
+}
 UNPUBLISHED_WORK_IN_PROGRESS = {
-    Path("analytic/erdos_global/srocr_seed.py"),
     Path("c3_root/rank_lift_escape.py"),
     Path("c3_root/topology_escape.py"),
+    Path("discrete/edges_vs_triangles/audit_corpus.py"),
+    Path("discrete/edges_vs_triangles/global_dp.py"),
+    Path("discrete/prime_number_theorem/reach_extend.py"),
 }
 
 
@@ -308,6 +324,17 @@ def main() -> int:
         src = source / relative_text
         dst = REPO / "artifacts" / "frontier" / f"{slug}{src.suffix}"
         copy_file(src, dst)
+        manifest.append({"path": str(dst.relative_to(REPO)), "sha256": sha256(dst), "bytes": dst.stat().st_size})
+
+    for slug, relative_text in FROZEN_VERIFIER_SNAPSHOTS.items():
+        snapshot = json.loads((source / relative_text).read_text(encoding="utf-8"))
+        compact_snapshot = {
+            "fetched_at": snapshot["fetched_at"],
+            "problem": {"verifier": snapshot["problem"]["verifier"]},
+            "verifier_sha256": snapshot["verifier_sha256"],
+        }
+        dst = REPO / "artifacts" / "verifiers" / f"{slug}.json"
+        write_json(dst, compact_snapshot)
         manifest.append({"path": str(dst.relative_to(REPO)), "sha256": sha256(dst), "bytes": dst.stat().st_size})
 
     events_src = source / "state" / "events.jsonl"

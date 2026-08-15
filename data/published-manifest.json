@@ -21,6 +21,11 @@
       "sha256": "3e2febc86d8ddf91ad315abb0c15aa0109e41044a6a89ab379f1ff787e01208e"
     },
     {
+      "bytes": 89702,
+      "path": "artifacts/frontier/erdos-min-overlap.json",
+      "sha256": "1d319d75970d206a92996934b0a8aa283d772cf9c4db23f854cad471e87a99d3"
+    },
+    {
       "bytes": 702,
       "path": "artifacts/frontier/heilbronn-triangles.json",
       "sha256": "bb81f8055ff6bcf8127d0bf81f694aa78986b8fd5e2d8fe41b92c81b9c658850"
@@ -74,6 +79,11 @@
       "bytes": 716,
       "path": "artifacts/receipts/uncertainty-principle.json",
       "sha256": "a64d2390bccaf225544b21c26173f2374272974ef32d2b512418a8f790a507a3"
+    },
+    {
+      "bytes": 1476,
+      "path": "artifacts/verifiers/erdos-min-overlap.json",
+      "sha256": "b63558902b32cff5b52f7dd8d3d7d66b77ef9fc382e6b643f92a22f5033fdefe"
     },
     {
       "bytes": 997352,
@@ -181,14 +191,29 @@
       "sha256": "10cd15d5ef0af617343e3e0754e3d31c7569949e21507f3252f824507be041ef"
     },
     {
-      "bytes": 2589,
-      "path": "src/campaign/analytic/erdos_global/JOURNAL.md",
-      "sha256": "09e22000e54ba26330ee8d0375cc56e282927d779154e69b5219ed789c9ff0e4"
+      "bytes": 3895,
+      "path": "src/campaign/analytic/erdos_global/HANDOFF.md",
+      "sha256": "2180ab3ff19a06e9a5ae5658326369312d8e55dd8f809f5016c8542078c4e3e0"
     },
     {
-      "bytes": 10430,
+      "bytes": 4817,
+      "path": "src/campaign/analytic/erdos_global/JOURNAL.md",
+      "sha256": "6f4faf008494419e06b244fc8d5562392533391bbf0d7f118620a2fba01a3b0d"
+    },
+    {
+      "bytes": 10490,
       "path": "src/campaign/analytic/erdos_global/active_slp.py",
-      "sha256": "316de9e958882ac33899ebb4e38caaf4445ec8300b3738cf28d454a5c4da9d84"
+      "sha256": "895f5a347144e64c494820f78da1715f23990a578c4378bfdfb3aef7769ba35c"
+    },
+    {
+      "bytes": 4186,
+      "path": "src/campaign/analytic/erdos_global/independent_replay.py",
+      "sha256": "c13b9ead3111371f4677cc2912abfbcca9bc0f6c80c8a327408d9909a28ed905"
+    },
+    {
+      "bytes": 10657,
+      "path": "src/campaign/analytic/erdos_global/srocr_seed.py",
+      "sha256": "8a8a07fc7205cfcda153b4ea2c80b0151a1366ffc20f7053a03d407a2e38dab3"
     },
     {
       "bytes": 2918,

@@ -72,9 +72,8 @@ def capped_simplex_projection(values: np.ndarray) -> np.ndarray:
 
 
 def exact_profile(values: np.ndarray) -> np.ndarray:
-    return np.correlate(values, 1.0 - values, mode="full") * (
-        2.0 / values.size
-    )
+    # Match the verifier's float64 operation order, not merely its algebra.
+    return np.correlate(values, 1.0 - values, mode="full") / values.size * 2.0
 
 
 def exact_score(values: np.ndarray) -> float:
