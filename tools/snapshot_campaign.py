@@ -127,7 +127,7 @@ def status_markdown(frontier: dict[str, Any]) -> str:
         verifier = f"`{row['verifier_sha256'][:12]}`"
         ids = row["solution_ids"]
         evidence = " · ".join(f"[#{sid}](https://einsteinarena.com/api/solutions/{sid})" for sid in ids) or "[lane source](../src/campaign/)"
-        literature = f"[packet](LITERATURE.md#{row['slug']})"
+        literature = "[map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs)"
         lines.append(
             f"| [{row['title']}]({row['problem_url']}) | {arrow} | {leader_text} | {ours} | "
             f"`{format_score(row['min_improvement'])}` | {verifier} | {evidence} | {literature} |"
@@ -223,4 +223,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

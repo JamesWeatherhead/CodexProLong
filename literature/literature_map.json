@@ -1,0 +1,257 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-08-15T01:45:00Z",
+  "public_safe": true,
+  "credential_material_present": false,
+  "method": "Paperclip direct full-text reads with line-pinned citations; no Paperclip repo",
+  "sources": {
+    "alphaevolve_math": {
+      "title": "Mathematical exploration and discovery at scale",
+      "authors": [
+        "Bogdan Georgiev",
+        "Javier Gómez-Serrano",
+        "Terence Tao",
+        "Adam Zsolt Wagner"
+      ],
+      "year": 2025,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2511.02864#L95-L151,L190-L207,L361-L398,L481-L521,L597-L640",
+      "vfs_path": "/papers/arx_2511.02864/content.lines"
+    },
+    "barnard_steinerberger": {
+      "title": "Three Convolution Inequalities on the Real Line with Connections to Additive Combinatorics",
+      "authors": [
+        "Richard C. Barnard",
+        "Stefan Steinerberger"
+      ],
+      "year": 2020,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_1903.08731#L35-L61,L142-L172",
+      "vfs_path": "/papers/arx_1903.08731/content.lines"
+    },
+    "jaech_joseph": {
+      "title": "Further Improvements to the Lower Bound for an Autoconvolution Inequality",
+      "authors": [
+        "Aaron Jaech",
+        "Alan Joseph"
+      ],
+      "year": 2025,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2508.02803#L5-L38",
+      "vfs_path": "/papers/arx_2508.02803/content.lines"
+    },
+    "heilbronn_global_optimization": {
+      "title": "Solving the Heilbronn Triangle Problem using Global Optimization Methods",
+      "authors": [
+        "Amirali Modir",
+        "Amirhossein Monji",
+        "Burak Kocuk"
+      ],
+      "year": 2025,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2512.14505#L7-L22,L30-L53,L168-L176",
+      "vfs_path": "/papers/arx_2512.14505/content.lines"
+    },
+    "heilbronn_asymptotic": {
+      "title": "A new upper bound for the Heilbronn triangle problem",
+      "authors": [
+        "Alex Cohen",
+        "Cosmin Pohoata",
+        "Dmitrii Zakharov"
+      ],
+      "year": 2023,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2305.18253#L5-L24",
+      "vfs_path": "/papers/arx_2305.18253/content.lines"
+    },
+    "musin_spherical_codes": {
+      "title": "An extension of the semidefinite programming bound for spherical codes",
+      "authors": [
+        "Oleg R. Musin"
+      ],
+      "year": 2019,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_1903.05767#L154-L165",
+      "vfs_path": "/papers/arx_1903.05767/content.lines"
+    },
+    "improveevolve": {
+      "title": "ImprovEvolve: Basin-Hopping Meets LLM-Guided Evolutionary Search",
+      "authors": [
+        "Alexey Kravatskiy",
+        "Valentin Khrulkov",
+        "Ivan Oseledets"
+      ],
+      "year": 2026,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2602.10233#L1",
+      "vfs_path": "/papers/arx_2602.10233/content.lines"
+    },
+    "kissing_841": {
+      "title": "Structure of kissing arrangements in R^12 and a place for the 841st sphere",
+      "authors": [
+        "Rustem Takhanov",
+        "Zhenisbek Assylbekov",
+        "Stanislav Yun"
+      ],
+      "year": 2026,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2606.18984#L1",
+      "vfs_path": "/papers/arx_2606.18984/content.lines"
+    },
+    "cohn_goncalves": {
+      "title": "An optimal uncertainty principle in twelve dimensions via modular forms",
+      "authors": [
+        "Henry Cohn",
+        "Felipe Gonçalves"
+      ],
+      "year": 2019,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_1712.04438#L15-L34",
+      "vfs_path": "/papers/arx_1712.04438/content.lines"
+    },
+    "einstein_arena": {
+      "title": "Harnessing the Collective Intelligence of AI Agents in the Wild for New Discoveries",
+      "authors": [
+        "Federico Bianchi",
+        "Yongchan Kwon",
+        "Aneesh Pappu",
+        "James Zou"
+      ],
+      "year": 2026,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2606.10402#L1",
+      "vfs_path": "/papers/arx_2606.10402/content.lines"
+    }
+  },
+  "problems": [
+    {
+      "slug": "erdos-min-overlap",
+      "status": "active",
+      "source_keys": ["alphaevolve_math"],
+      "line_pins": ["L122-L127"],
+      "research_direction": "Bounded fixed-grid step functions, convex lower-bound diagnostics, exact correlation replay"
+    },
+    {
+      "slug": "first-autocorrelation-inequality",
+      "status": "active",
+      "source_keys": ["alphaevolve_math", "barnard_steinerberger"],
+      "line_pins": ["L95-L104", "L59-L61"],
+      "research_direction": "Newton-type active-direction perturbations, cubic backtracking, irregular piecewise-constant profiles"
+    },
+    {
+      "slug": "second-autocorrelation-inequality",
+      "status": "active",
+      "source_keys": ["alphaevolve_math", "jaech_joseph"],
+      "line_pins": ["L106-L116", "L20-L37"],
+      "research_direction": "Projected high-resolution Adam, gradient noise, elitist respawn, upsampling, spike-plus-comb seeds"
+    },
+    {
+      "slug": "third-autocorrelation-inequality",
+      "status": "active",
+      "source_keys": ["alphaevolve_math", "jaech_joseph"],
+      "line_pins": ["L117-L121", "L38"],
+      "research_direction": "Active-lag epigraph minimax, peak-switching perturbations, exact maximum replay"
+    },
+    {
+      "slug": "min-distance-ratio-2d",
+      "status": "active",
+      "source_keys": ["alphaevolve_math"],
+      "line_pins": ["L635-L640"],
+      "research_direction": "Cross-instance heuristic transfer followed by active diameter/contact-graph polishing"
+    },
+    {
+      "slug": "kissing-number-d11",
+      "status": "active",
+      "source_keys": ["alphaevolve_math", "einstein_arena"],
+      "line_pins": ["L145-L151", "L1"],
+      "research_direction": "Finite subcode assembly, structural perturbation, then exact integer certification"
+    },
+    {
+      "slug": "prime-number-theorem",
+      "status": "active",
+      "source_keys": ["alphaevolve_math"],
+      "line_pins": ["L361-L379"],
+      "research_direction": "Truncated Möbius and divisor-block constructions with analytic all-x floor-sum checking"
+    },
+    {
+      "slug": "uncertainty-principle",
+      "status": "active",
+      "source_keys": ["alphaevolve_math", "cohn_goncalves"],
+      "line_pins": ["L190-L207", "L15-L34"],
+      "research_direction": "Laguerre/Hermite eigenfunction roots, prescribed double roots, nonanalytic-family escape"
+    },
+    {
+      "slug": "thomson-problem",
+      "status": "active",
+      "source_keys": ["alphaevolve_math"],
+      "line_pins": ["L481-L495"],
+      "research_direction": "Uniform sphere initialization, gradient descent, stochastic basin perturbations, asymptotic residual checks"
+    },
+    {
+      "slug": "tammes-problem",
+      "status": "active",
+      "source_keys": ["alphaevolve_math", "musin_spherical_codes", "improveevolve"],
+      "line_pins": ["L496-L508", "L154-L163", "L1"],
+      "research_direction": "Contact-graph enumeration and LP/SDP pruning combined with spherical-code basin hopping"
+    },
+    {
+      "slug": "flat-polynomials",
+      "status": "active",
+      "source_keys": ["alphaevolve_math"],
+      "line_pins": ["L380-L398"],
+      "research_direction": "Symmetry-reduced bit-flip search with FFT screening at active unit-circle maxima"
+    },
+    {
+      "slug": "edges-vs-triangles",
+      "status": "active",
+      "source_keys": ["alphaevolve_math"],
+      "line_pins": ["L597-L609"],
+      "research_direction": "Exact complete-multipartite curve sampling with verifier-aware horizontal/slope-3 envelopes"
+    },
+    {
+      "slug": "circle-packing",
+      "status": "active",
+      "source_keys": ["alphaevolve_math"],
+      "line_pins": ["L507-L521"],
+      "research_direction": "Fixed active tangency topology solves plus topology-changing perturbations"
+    },
+    {
+      "slug": "heilbronn-triangles",
+      "status": "active",
+      "source_keys": ["alphaevolve_math", "heilbronn_global_optimization", "heilbronn_asymptotic"],
+      "line_pins": ["L624-L634", "L7-L22", "L30-L53", "L168-L176", "L5-L24"],
+      "research_direction": "Barycentric symmetry breaking, active signed-area constraints, lattice seeds, fixed-sign MIQCP branch-and-bound"
+    },
+    {
+      "slug": "circles-rectangle",
+      "status": "active",
+      "source_keys": ["alphaevolve_math"],
+      "line_pins": ["L513-L521"],
+      "research_direction": "Joint aspect-ratio and active tangency-graph continuation"
+    },
+    {
+      "slug": "difference-bases",
+      "status": "active",
+      "source_keys": ["alphaevolve_math", "barnard_steinerberger"],
+      "line_pins": ["L139-L144", "L41-L58"],
+      "research_direction": "Singer difference-set seeds and deficit-aware swaps with incremental multiplicity tables"
+    },
+    {
+      "slug": "kissing-number-d12",
+      "status": "archived",
+      "source_keys": ["kissing_841"],
+      "line_pins": ["L1"],
+      "research_direction": "Reproduce the 60+60+720 block/bridge construction and flexible 48-systems"
+    },
+    {
+      "slug": "kissing-number-d11-605",
+      "status": "active",
+      "source_keys": ["alphaevolve_math", "einstein_arena"],
+      "line_pins": ["L145-L151", "L1"],
+      "research_direction": "Collaborative subcode recombination, structural perturbation, exact integer certification"
+    },
+    {
+      "slug": "kissing-number-d12-842",
+      "status": "active",
+      "source_keys": ["kissing_841", "improveevolve"],
+      "line_pins": ["L1"],
+      "research_direction": "Search inside and around the flexible 840/841 family using logarithmic Riesz basin hopping"
+    }
+  ],
+  "known_service_limitations": [
+    "Hybrid, BM25 full-text, boolean full-text, and exact-title arXiv search returned no result for a VFS-readable known paper",
+    "Direct VFS reads and corpus-wide grep remained available",
+    "Metadata was missing authors for several 2026 arXiv ingests; author names were cross-checked against canonical arXiv pages",
+    "Publisher DOI fetch can capture an outage/interstitial page instead of the article"
+  ]
+}

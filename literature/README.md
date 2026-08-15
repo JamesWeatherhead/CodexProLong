@@ -4,10 +4,6 @@ Generated 2026-08-15 from full text read through Paperclip. This directory is
 public-safe: it contains no API keys, cookies, account identifiers, or private
 clipboard paths. It is a direct-citation packet, not a Paperclip repository.
 
-Machine-readable coverage and the reproducible query log live in
-[`literature/literature_map.json`](../literature/literature_map.json) and
-[`literature/QUERY_LOG.md`](../literature/QUERY_LOG.md).
-
 ## Highest-value search implications
 
 1. **Third autocorrelation is a nonsmooth active-set problem.** The signed
