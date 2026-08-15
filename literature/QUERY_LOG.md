@@ -143,3 +143,24 @@ inequalities in ordered prime factors. A direct Arena check confirmed that the
 classical sieve guarantee does not survive the verifier's finite normalization
 unchanged; the construction is therefore a candidate-pool topology, not a
 valid certificate by itself.
+
+## Flat-polynomial global constructions
+
+```bash
+paperclip grep -m 60 -n "Littlewood polynomial|Littlewood polynomials|Rudin-Shapiro polynomial|Rudin-Shapiro polynomials|ultraflat polynomial|flat polynomials" /papers/
+paperclip cat /papers/arx_2306.07156/meta.json
+paperclip scan /papers/arx_2306.07156/content.lines "flat polynomials" "Littlewood" "construction" "Rudin" "Legendre" "Golay"
+paperclip grep -m 30 -n "Flat Littlewood polynomials exist" /papers/
+paperclip cat /papers/arx_1907.09464/meta.json
+paperclip scan /papers/arx_1907.09464/content.lines "Theorem" "construction" "random" "Legendre" "Rudin" "multiplicative" "block"
+```
+
+Observed 2026-08-15: Fekete polynomials supply the explicit Legendre-symbol
+sequence and a shifted random-process representation. The stronger algorithmic
+transfer comes from the flat-Littlewood existence proof: center the
+polynomial, partition coefficient pairs into symmetric cosine and
+antisymmetric sine terms, use a Rudin--Shapiro cosine seed, identify its
+well-separated low-magnitude intervals, and choose sine signs by discrepancy
+to repair those intervals. This motivates a degree-70 global pair-type/pair-
+sign search; it does not claim that the asymptotic proof's constants are
+competitive with the Arena incumbent.

@@ -96,6 +96,17 @@ clipboard paths. It is a direct-citation packet, not a Paperclip repository.
    all-integer floor-sum constraint are different, so we use the rule only to
    generate coherent global support pools before exact replay.
 
+10. **Flat-polynomial search should change pair topology, not just bits.**
+    Fekete polynomials provide an explicit Legendre-symbol family whose unit-
+    circle values admit a shifted random-process representation [21]. More
+    directly, the constructive flat-Littlewood proof centers the polynomial,
+    assigns coefficient pairs to a symmetric cosine component or an
+    antisymmetric sine component, seeds the cosine part with Rudin--Shapiro,
+    and uses discrepancy to push the sine part on the cosine part's dangerous
+    intervals [22]. At degree 70 this becomes a bounded global operator:
+    optimize pair type and pair sign against the current active unit-circle
+    peaks, then replay the complete million-point verifier grid.
+
 ## Public-safe map for all 19 Arena slugs
 
 | Arena slug | Literature-grounded direction |
@@ -110,7 +121,7 @@ clipboard paths. It is a direct-citation packet, not a Paperclip repository.
 | `uncertainty-principle` | Search Laguerre/Hermite Fourier-eigenfunction families through prescribed double roots, while testing the paper's warning that the best profile may be nonanalytic [1, 9]. |
 | `thomson-problem` | Seed nearly uniform spherical configurations, alternate gradient and stochastic perturbations, and use asymptotic energy residuals to compare basins [1]. |
 | `tammes-problem` | Combine contact-graph topology, LP/SDP pruning, and multi-start spherical-code basin hopping [1, 6, 7]. |
-| `flat-polynomials` | Exploit reversal/sign symmetries, FFT-based exact-grid screening, and targeted bit flips at active unit-circle maxima; published asymptotics show why merely smooth profiles are insufficient [1]. |
+| `flat-polynomials` | Combine reversal/sign symmetries with Fekete/Legendre seeds and a centered symmetric-cosine/antisymmetric-sine pair-topology search inspired by Rudin--Shapiro plus discrepancy, then replay every candidate on the full verifier grid [1, 21, 22]. |
 | `edges-vs-triangles` | Generate complete multipartite rows analytically from the exact Razborov curve and allocate rows to minimize the verifier's largest edge-density gap [1]. |
 | `circle-packing` | Keep centers as the global-search variables, solve radii exactly for each center set, and generate changed contact graphs with pain-ranked void relocation, split-neighbour moves, and stochastic center perturbations [1, 11, 12, 13]. |
 | `heilbronn-triangles` | Use barycentric symmetry breaking, active signed-area constraints, lattice seeds, and fixed-sign MIQCP/MINLP branch-and-bound certificates; the newer exact-coordinate workflow is certified only through \(n\leq 9\), so it supplies machinery rather than an \(n=11\) construction [1, 4, 5, 12, 13, 14]. |
@@ -203,3 +214,9 @@ REFERENCES
 
 [20] D. R. Heath-Brown. “Lectures on sieves.” *arXiv* (2002).
     https://paperclip.gxl.ai/citations/papers/arx_math0209360#L444-L460,L501-L510
+
+[21] Oleksiy Klurman, Youness Lamzouri, and Marc Munsch. “$L_q$ norms and Mahler measure of Fekete polynomials.” *arXiv* (2023).
+    https://paperclip.gxl.ai/citations/papers/arx_2306.07156#L9-L12,L64-L74
+
+[22] Paul Balister, Béla Bollobás, Robert Morris, Julian Sahasrabudhe, and Marius Tiba. “Flat Littlewood Polynomials Exist.” *Annals of Mathematics* 192, 977–1004 (2020).
+    https://paperclip.gxl.ai/citations/papers/arx_1907.09464#L23,L32-L38,L79-L85

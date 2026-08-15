@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-08-15T03:00:00Z",
+  "generated_at": "2026-08-15T03:06:00Z",
   "public_safe": true,
   "credential_material_present": false,
   "method": "Paperclip direct full-text reads with line-pinned citations; no Paperclip repo",
@@ -190,6 +190,20 @@
       "year": 2002,
       "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_math0209360#L444-L460,L501-L510",
       "vfs_path": "/papers/arx_math0209360/content.lines"
+    },
+    "fekete_polynomials": {
+      "title": "$L_q$ norms and Mahler measure of Fekete polynomials",
+      "authors": ["Oleksiy Klurman", "Youness Lamzouri", "Marc Munsch"],
+      "year": 2023,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_2306.07156#L9-L12,L64-L74",
+      "vfs_path": "/papers/arx_2306.07156/content.lines"
+    },
+    "flat_littlewood_exists": {
+      "title": "Flat Littlewood Polynomials Exist",
+      "authors": ["Paul Balister", "Béla Bollobás", "Robert Morris", "Julian Sahasrabudhe", "Marius Tiba"],
+      "year": 2020,
+      "citation_url": "https://paperclip.gxl.ai/citations/papers/arx_1907.09464#L23,L32-L38,L79-L85",
+      "vfs_path": "/papers/arx_1907.09464/content.lines"
     }
   },
   "problems": [
@@ -266,9 +280,9 @@
     {
       "slug": "flat-polynomials",
       "status": "active",
-      "source_keys": ["alphaevolve_math"],
-      "line_pins": ["L380-L398"],
-      "research_direction": "Symmetry-reduced bit-flip search with FFT screening at active unit-circle maxima"
+      "source_keys": ["alphaevolve_math", "fekete_polynomials", "flat_littlewood_exists"],
+      "line_pins": ["L380-L398", "L9-L12", "L64-L74", "L23", "L32-L38", "L79-L85"],
+      "research_direction": "Fekete/Legendre seeds plus centered symmetric-cosine/antisymmetric-sine pair-topology optimization, Rudin-Shapiro recursion, discrepancy-guided peak repair, and exact full-grid replay"
     },
     {
       "slug": "edges-vs-triangles",
