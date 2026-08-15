@@ -54,7 +54,7 @@ WIN_RECEIPTS = {
 FRONTIER_ARTIFACTS = {
     "circle-packing": "geometry/circle_packing_topology/runs/20260815T021013Z/topologies/1a3ddda1ed2e3083/candidate.json",
     "circles-rectangle": "geometry/rectangle_topology/runs/20260815T022200Z/stochastic_relax/topologies/cdea3037dafa48f9/candidate.json",
-    "edges-vs-triangles": "discrete/edges_vs_triangles/candidate.json",
+    "edges-vs-triangles": "discrete/edges_vs_triangles/runs/20260815T023100Z/global_dp/candidate.json",
     "erdos-min-overlap": "analytic/erdos_global/slp_runs/20260815T063000Z-n3584-trust25e5/best.json",
     "heilbronn-triangles": "geometry/runs/20260814T231710Z/heilbronn-triangles/best.json",
     "min-distance-ratio-2d": "geometry/runs/20260814T231106Z/min-distance-ratio-2d/best.json",
@@ -66,11 +66,14 @@ FRONTIER_ARTIFACTS = {
 FROZEN_VERIFIER_SNAPSHOTS = {
     "erdos-min-overlap": "erdos_root/snapshots/erdos-min-overlap_20260814T232154Z.json",
 }
+FRONTIER_RECEIPTS = {
+    "edges-vs-triangles": "state/receipts/edges-vs-triangles/20260815T024004430186Z-c71bc6912f5a.json",
+}
 METHODS = {
     "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short after 156 one-contact releases, 58 PAS-PCI relocations, and 80 clean-room FlowBoost-inspired seeds; a genuinely new multi-contact topology is required.",
     "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short after 100 global/aspect and void endpoints spanning 24 graph classes, 22 absent from the full public corpus; a genuinely new multi-contact topology is required.",
     "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109.",
-    "edges-vs-triangles": "Exact curve-mesh optimization gains 7.61e-9, only 0.76% of the gate; the API independently enforces the 500-row domain.",
+    "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Independent literal-verifier replay of the n=3,584 active-bundle SLP reaches 0.38085862169567786, improving the public leader by 5.55e-8 but remaining 4.45e-8 short of the gate; a bounded n=64 Shor–McCormick/SROCR lift extracted only worse feasible basins.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
     "flat-polynomials": "Structured search plus exhaustive all C(70,6)=131,115,985 masks found no gate-clearer on literal verifier-grid subsets.",
@@ -113,9 +116,8 @@ EXCLUDED_PARTS = {
 UNPUBLISHED_WORK_IN_PROGRESS = {
     Path("c3_root/rank_lift_escape.py"),
     Path("c3_root/topology_escape.py"),
-    Path("discrete/edges_vs_triangles/audit_corpus.py"),
-    Path("discrete/edges_vs_triangles/global_dp.py"),
     Path("discrete/prime_number_theorem/reach_extend.py"),
+    Path("discrete/prime_number_theorem/tail_select_mip.py"),
 }
 
 
@@ -324,6 +326,14 @@ def main() -> int:
         src = source / relative_text
         dst = REPO / "artifacts" / "frontier" / f"{slug}{src.suffix}"
         copy_file(src, dst)
+        manifest.append({"path": str(dst.relative_to(REPO)), "sha256": sha256(dst), "bytes": dst.stat().st_size})
+
+    for slug, relative_text in FRONTIER_RECEIPTS.items():
+        receipt = json.loads((source / relative_text).read_text(encoding="utf-8"))
+        artifact = REPO / "artifacts" / "frontier" / f"{slug}.json"
+        receipt["candidate_path"] = str(artifact.relative_to(REPO))
+        dst = REPO / "artifacts" / "receipts" / f"{slug}.json"
+        write_json(dst, receipt)
         manifest.append({"path": str(dst.relative_to(REPO)), "sha256": sha256(dst), "bytes": dst.stat().st_size})
 
     for slug, relative_text in FROZEN_VERIFIER_SNAPSHOTS.items():

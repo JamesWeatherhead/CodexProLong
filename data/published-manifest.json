@@ -16,9 +16,9 @@
       "sha256": "0423ef27077517c0b7b60ea482f822e7b1b363e4733f6e9f9887055aa534d93c"
     },
     {
-      "bytes": 154777,
+      "bytes": 154750,
       "path": "artifacts/frontier/edges-vs-triangles.json",
-      "sha256": "3e2febc86d8ddf91ad315abb0c15aa0109e41044a6a89ab379f1ff787e01208e"
+      "sha256": "5754da3a85e78445fe5eebde5295de3ff28d00ed180e339de0e615b63868bfc4"
     },
     {
       "bytes": 89702,
@@ -56,9 +56,14 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 27723,
+      "bytes": 28858,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "52263252228639c8fa2df785a1fe5509df488a98dcd6373ec1ebe9c10a35960f"
+      "sha256": "d82ade7f5932e72a579bbb9fae7f4b61ca8a8e89682320b4cb75c16c23b171c1"
+    },
+    {
+      "bytes": 715,
+      "path": "artifacts/receipts/edges-vs-triangles.json",
+      "sha256": "8694602e9d1d5de692fba69329d4800505a3f9cc687e52dae8d14c2461b8e2a9"
     },
     {
       "bytes": 740,
@@ -396,9 +401,19 @@
       "sha256": "4b312d78162de358a8bcd28040852d968bd14b8d9778841ac66553557809f7d3"
     },
     {
-      "bytes": 973,
+      "bytes": 10324,
+      "path": "src/campaign/discrete/edges_vs_triangles/HANDOFF.md",
+      "sha256": "d38c5606d09b82af1f1882d214301bf3ff1425bff3e54c9bb8eb344f4f2e427d"
+    },
+    {
+      "bytes": 1386,
       "path": "src/campaign/discrete/edges_vs_triangles/README.md",
-      "sha256": "d672a21856d50264971085d3341053f82e3f9cfb76df8552f2fa30d547af8c2e"
+      "sha256": "f632cf162b70b80b038d0a7f9b5d280aaf8bd537c843a45a502e45945f0b44e8"
+    },
+    {
+      "bytes": 8972,
+      "path": "src/campaign/discrete/edges_vs_triangles/audit_corpus.py",
+      "sha256": "c618478202ad52521d9ebeddc575090b4299b80cbd2a738e64eb13779aaec40a"
     },
     {
       "bytes": 713,
@@ -409,6 +424,11 @@
       "bytes": 1271,
       "path": "src/campaign/discrete/edges_vs_triangles/discussion-boundary.md",
       "sha256": "69d90aa44d73b6eb5b6dbaf5697a06e28a18a6f6918657b9a6629a973b467cfc"
+    },
+    {
+      "bytes": 9716,
+      "path": "src/campaign/discrete/edges_vs_triangles/global_dp.py",
+      "sha256": "d3bfe05def39fe2e4402019cc6345a3c97636f38e3c3f18e5f05e7cf01839d02"
     },
     {
       "bytes": 15050,
@@ -424,6 +444,11 @@
       "bytes": 2729,
       "path": "src/campaign/discrete/edges_vs_triangles/refresh.py",
       "sha256": "086cde7adf7f2ad422df6cb2405807d72a85b1d3ed31b9c77906e2c65d7c5c92"
+    },
+    {
+      "bytes": 20942,
+      "path": "src/campaign/discrete/edges_vs_triangles/transition_topology.py",
+      "sha256": "db2c099dd2d42dea75457ed98437c6a0d8c08b085de4e162dde9f7f72ab7efa8"
     },
     {
       "bytes": 5415,

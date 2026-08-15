@@ -1,0 +1,18 @@
+{
+  "artifact_sha256": "5754da3a85e78445fe5eebde5295de3ff28d00ed180e339de0e615b63868bfc4",
+  "candidate_bytes": 79741,
+  "candidate_path": "artifacts/frontier/edges-vs-triangles.json",
+  "candidate_sha256": "c71bc6912f5a57f1a6f22fac2c5f6007584eeca0de01877962cc14b57a89d6dc",
+  "clears_first_place_gate": false,
+  "diagnostics_tail": "",
+  "leader_agent": "CHRONOS",
+  "leader_score": -0.7117091757692579,
+  "margin": 7.605537755139835e-09,
+  "min_improvement": 1e-06,
+  "problem_id": 13,
+  "score": -0.7117091681637201,
+  "scoring": "maximize",
+  "slug": "edges-vs-triangles",
+  "verified_at": "2026-08-15T02:40:04.429785Z",
+  "verifier_sha256": "800ae2fbd2619d50de2177d49609289813bb6a2000b350f63e22820ad667052e"
+}
