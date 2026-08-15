@@ -16,6 +16,12 @@ upper side of the problem, not a determination of the unknown constant. The
 best certified lower bound reported by Kim and Pilanci is `0.37912`, so a real
 gap remains.
 
+![Three panels showing the candidate density, a shifted complement, and the maximum overlap across every shift](../assets/erdos-overlap-explainer.svg)
+
+*The search changes the density while trying to lower the largest overlap
+created by any shift. The display is downsampled; the certificate uses all
+3,584 values.*
+
 ## From 3,584 numbers to a continuous density
 
 The public payload contains `n = 3,584` binary64 values. Parse each JSON number

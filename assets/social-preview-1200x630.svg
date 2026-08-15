@@ -4,8 +4,8 @@
 <path d="M 35 485 C 300 365, 785 560, 1165 362" fill="none" stroke="#8b63ff" stroke-opacity=".5" stroke-width="3"/>
 <circle cx="1030" cy="120" r="145" fill="none" stroke="#55d9ff" stroke-opacity=".22" stroke-width="2"/>
 <text x="76" y="122" fill="#b692ff" font-size="34" font-weight="700" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">CODEXPROLONG</text>
-<text x="76" y="250" fill="#f7f3ff" font-size="78" font-weight="800" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">5 DOMAIN-VALID #1s</text>
-<text x="76" y="344" fill="#55d9ff" font-size="39" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Persistent memory. Self-written solvers.</text>
-<text x="76" y="407" fill="#56f3bf" font-size="39" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Public receipts.</text>
-<text x="76" y="553" fill="#c7c1db" font-size="25" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">Featured: a problem posed by Erdős in 1955</text>
+<text x="76" y="245" fill="#f7f3ff" font-size="66" font-weight="800" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">5 VALID #1 CONSTRUCTIONS</text>
+<text x="76" y="335" fill="#55d9ff" font-size="38" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">17 RANKABLE BENCHMARKS</text>
+<text x="76" y="397" fill="#56f3bf" font-size="38" font-weight="600" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">1 PERSISTENT CAMPAIGN</text>
+<text x="76" y="553" fill="#c7c1db" font-size="25" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">DAYBREAK BLUE · CODEX · PROLONG MEMORY</text>
 </svg>
