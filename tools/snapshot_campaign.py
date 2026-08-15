@@ -91,7 +91,7 @@ METHODS = {
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Independent literal-verifier replay of the n=3,584 active-bundle SLP reaches 0.38085862169567786, improving the public leader by 5.55e-8 but remaining 4.45e-8 short of the gate; a bounded n=64 Shor–McCormick/SROCR lift extracted only worse feasible basins.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
-    "flat-polynomials": "Structured search plus exhaustive all C(70,6)=131,115,985 masks found no gate-clearer on literal verifier-grid subsets.",
+    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools now cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals; the unrecovered 72/115 PSL-4 tables remain the strongest finite lead.",
     "heilbronn-triangles": "100-digit active root, 462 topology trials, complete q=25 lattice proof, partial q=30 proof, and adaptive q=143 SAT cores.",
     "kissing-number-d11": "The live score 0 is the exact objective floor; no strict numerical improvement below zero exists under this verifier.",
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
@@ -104,6 +104,19 @@ METHODS = {
     "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation reach 1.4515653850221024; the frozen payload improves the pre-topology basin by 2.15e-8 but remains 3.52e-6 short of the gate.",
     "thomson-problem": "48 topology-changing seeds and exact tangent polishing return to the defect-minimal basin; no gate-clearer yet.",
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
+}
+SOURCE_ENTRYPOINTS = {
+    "circle-packing": "geometry/circle_packing_topology/HANDOFF.md",
+    "circles-rectangle": "geometry/rectangle_topology/HANDOFF.md",
+    "difference-bases": "discrete/difference_bases/HANDOFF.md",
+    "edges-vs-triangles": "discrete/edges_vs_triangles/HANDOFF.md",
+    "erdos-min-overlap": "analytic/erdos_global/HANDOFF.md",
+    "flat-polynomials": "analytic/flat_global/HANDOFF.md",
+    "heilbronn-triangles": "geometry/heilbronn_bnb/HANDOFF.md",
+    "kissing-number-d12": "geometry/kissing_d12/HANDOFF.md",
+    "prime-number-theorem": "discrete/prime_number_theorem/HANDOFF.md",
+    "second-autocorrelation-inequality": "analytic/c2_global_topology/HANDOFF.md",
+    "third-autocorrelation-inequality": "c3_root/TOPOLOGY_ESCAPE_HANDOFF.md",
 }
 ROOT_SOURCE_FILES = (
     "AGENTS.md",
@@ -133,10 +146,11 @@ EXCLUDED_PARTS = {
     "snapshots",
     "receipts",
     "checkpoints",
+    "vendor",
+    # Active lanes are published only after their own frozen handoffs.
+    "difference_global",
     "__pycache__",
     ".ruff_cache",
-    # Active lanes are published only after their own frozen handoffs.
-    "flat_global",
 }
 UNPUBLISHED_WORK_IN_PROGRESS = {
     Path("discrete/prime_number_theorem/tail_select_mip.py"),
@@ -238,10 +252,20 @@ def status_markdown(frontier: dict[str, Any]) -> str:
             ours = "— / active"
         verifier = f"`{row['verifier_sha256'][:12]}`"
         ids = row["solution_ids"]
+        source_entrypoint = SOURCE_ENTRYPOINTS.get(row["slug"])
+        source_link = (
+            f"[handoff](../src/campaign/{source_entrypoint})"
+            if source_entrypoint
+            else "[lane source](../src/campaign/)"
+        )
         if row["verified_blocked"]:
             evidence = "[proof](../artifacts/evidence/kissing-number-d12.json) · [blocker](https://github.com/vinid/einstein-arena/issues/59)"
         else:
-            evidence = " · ".join(f"[#{sid}](https://einsteinarena.com/api/solutions/{sid})" for sid in ids) or "[lane source](../src/campaign/)"
+            solution_links = " · ".join(
+                f"[#{sid}](https://einsteinarena.com/api/solutions/{sid})"
+                for sid in ids
+            )
+            evidence = " · ".join(part for part in (solution_links, source_link) if part)
         literature = "[map](LITERATURE.md#public-safe-map-for-all-19-arena-slugs)"
         lines.append(
             f"| [{row['title']}]({row['problem_url']}) | {arrow} | {leader_text} | {ours} | "

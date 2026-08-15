@@ -261,6 +261,56 @@
       "sha256": "8a8a07fc7205cfcda153b4ea2c80b0151a1366ffc20f7053a03d407a2e38dab3"
     },
     {
+      "bytes": 7414,
+      "path": "src/campaign/analytic/flat_global/HANDOFF.md",
+      "sha256": "4dbcc29d45f90ca37dbb8aa15b0c273aa26f2939afce80b659c8e114b7fd3608"
+    },
+    {
+      "bytes": 614,
+      "path": "src/campaign/analytic/flat_global/README.md",
+      "sha256": "5f381144f038fda44c1fbd52e5cb2000ed92f6b64d0bb7846d5a85c5617e6aee"
+    },
+    {
+      "bytes": 11135,
+      "path": "src/campaign/analytic/flat_global/block_global_screen.cpp",
+      "sha256": "a0ab16ba3ab69c74ae2f8ef4c5ca1099c7f27cba1523bd04a3108b0a2c00d496"
+    },
+    {
+      "bytes": 5238,
+      "path": "src/campaign/analytic/flat_global/enumerate_psl4.py",
+      "sha256": "48e356e09980af088be8f7ac9ab2a42a673157e36a6353c8deb3a470c5584c83"
+    },
+    {
+      "bytes": 4463,
+      "path": "src/campaign/analytic/flat_global/enumerate_psl4_native.py",
+      "sha256": "547b1572db6fb0e9b354f3ec86993ad959b96f7d79c26d89436b5af20f1ae492"
+    },
+    {
+      "bytes": 3298,
+      "path": "src/campaign/analytic/flat_global/exact_replay.py",
+      "sha256": "c1638d90aa2f69abd386e568c0d6c37cb2da8ee995d745a7b8ac2e4f62cb3e3c"
+    },
+    {
+      "bytes": 13146,
+      "path": "src/campaign/analytic/flat_global/pair_partition_screen.cpp",
+      "sha256": "587f3acbaf3e5b24175769e170d2c5d167202f1f01b353a19f77d8198a0b5024"
+    },
+    {
+      "bytes": 20321,
+      "path": "src/campaign/analytic/flat_global/pair_topology_anneal.cpp",
+      "sha256": "09f8bad5bee9016fbf35df1302b5ac67c99cea6f7eab852d33366b336010c6e5"
+    },
+    {
+      "bytes": 5049,
+      "path": "src/campaign/analytic/flat_global/psl4_dfs.cpp",
+      "sha256": "c65377b0d0588ba0f0460b3b875494c31165e713a1aab38b3e7976dd4e986ccd"
+    },
+    {
+      "bytes": 13133,
+      "path": "src/campaign/analytic/flat_global/radius_frontier_anneal.cpp",
+      "sha256": "8659b076d567c3d7390c07fb8c91cdb42de50a083862e516821c0e631b8de6fc"
+    },
+    {
       "bytes": 2918,
       "path": "src/campaign/analytic/post_uncertainty_result.py",
       "sha256": "4b371cfa2dbd12e4b169f5221a0ea255755f27b32747dc09798cf4df99e3ca95"
