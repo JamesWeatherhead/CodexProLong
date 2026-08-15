@@ -52,7 +52,7 @@ WIN_RECEIPTS = {
     "uncertainty-principle": "state/receipts/uncertainty-principle/20260814T234525289383Z-12590e6c26a7.json",
 }
 FRONTIER_ARTIFACTS = {
-    "circle-packing": "geometry/runs/20260815T035000Z/circle-packing/candidate.json",
+    "circle-packing": "geometry/circle_packing_topology/runs/20260815T021013Z/topologies/1a3ddda1ed2e3083/candidate.json",
     "circles-rectangle": "geometry/runs/20260815T035100Z/circles-rectangle/candidate.json",
     "edges-vs-triangles": "discrete/edges_vs_triangles/candidate.json",
     "heilbronn-triangles": "geometry/runs/20260814T231710Z/heilbronn-triangles/best.json",
@@ -63,7 +63,7 @@ FRONTIER_ARTIFACTS = {
     "thomson-problem": "geometry/runs/20260814T234800Z/thomson-problem/best.json",
 }
 METHODS = {
-    "circle-packing": "100-digit 58-pair/20-wall active root reaches 2.635983095281625, still 7.92e-11 short; a new contact topology is required.",
+    "circle-packing": "Exact replay reaches 2.635983095281624, still 7.92e-11 short after 156 one-contact releases, 58 PAS-PCI relocations, and 80 clean-room FlowBoost-inspired seeds; a genuinely new multi-contact topology is required.",
     "circles-rectangle": "100-digit 47-pair/17-wall active root reaches 2.365832385227917, still 8.01e-11 short; a new topology is required.",
     "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, and block repairs were exhausted without extending coverage 49,109.",
     "edges-vs-triangles": "Exact curve-mesh optimization gains 7.61e-9, only 0.76% of the gate; the API independently enforces the 500-row domain.",
@@ -96,6 +96,7 @@ ROOT_SOURCE_FILES = (
 SOURCE_EXTENSIONS = {".py", ".md", ".cpp", ".sh"}
 SOURCE_FAMILIES = ("analytic", "c1_root", "c2_root", "c3_root", "discrete", "erdos_root", "geometry", "research_corpus")
 EXCLUDED_PARTS = {"external", "runs", "snapshots", "receipts", "checkpoints", "__pycache__", ".ruff_cache"}
+UNPUBLISHED_WORK_IN_PROGRESS = {Path("c3_root/topology_escape.py")}
 
 
 def sha256(path: Path) -> str:
@@ -252,6 +253,8 @@ def mirror_source(source: Path) -> list[dict[str, Any]]:
                 continue
             relative = src.relative_to(source)
             if any(part in EXCLUDED_PARTS for part in relative.parts):
+                continue
+            if relative in UNPUBLISHED_WORK_IN_PROGRESS:
                 continue
             dst = destination_root / relative
             copy_file(src, dst)

@@ -6,9 +6,9 @@
       "sha256": "114e9f053800d24c1222e3a02f5347f547ca855e89dd6d4aa0101a8f3b33b023"
     },
     {
-      "bytes": 2390,
+      "bytes": 2394,
       "path": "artifacts/frontier/circle-packing.json",
-      "sha256": "6d3b5fc5c1bec58361b1ae2bdacbd2bbc312e71f3051f02e09df117938a05302"
+      "sha256": "e03c16d923ab3170442dcbc6c6984f8d34ec67cd7a9ccc87d1d17a6c9008a131"
     },
     {
       "bytes": 1943,
@@ -51,9 +51,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 26039,
+      "bytes": 27160,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "53e8900007753fbaf1ea0a63089b3b3cbc75fa98905274f66ea8b1256e8e36b4"
+      "sha256": "deb59a27c612131434ce08d3c92e4f9b5ab57aa6bacaf290d5505a5a5ff8d8e4"
     },
     {
       "bytes": 740,
@@ -526,9 +526,9 @@
       "sha256": "9026c202038f0907e241961533a8ab241b5ce6357c59731eb7133f7e83d00b38"
     },
     {
-      "bytes": 20879,
+      "bytes": 21753,
       "path": "src/campaign/geometry/HANDOFF.md",
-      "sha256": "a8a4b83ca30329e503ee54f7133f4d1e308b52e67a0c859d9dea2a65fd4813d8"
+      "sha256": "6d9040277541ef28f08e63a36cfe0959008920110af103397f656f42689c2757"
     },
     {
       "bytes": 2695,
@@ -539,6 +539,26 @@
       "bytes": 14798,
       "path": "src/campaign/geometry/circle_packing_search.py",
       "sha256": "78a05a8067000b2586b86bc691455b2438df8288172aa0aaa9bcc676723728fc"
+    },
+    {
+      "bytes": 8210,
+      "path": "src/campaign/geometry/circle_packing_topology/HANDOFF.md",
+      "sha256": "18650a5b449760e1679cc65dd18620cc695586b3fce0ff9a46fc6930da2b27fb"
+    },
+    {
+      "bytes": 25748,
+      "path": "src/campaign/geometry/circle_packing_topology/continue_contacts.py",
+      "sha256": "1a0386195597aecf1e8362d74a94c79252aed5e787fe1ebbdc0b31bdb27fefcb"
+    },
+    {
+      "bytes": 15472,
+      "path": "src/campaign/geometry/circle_packing_topology/stochastic_relax.py",
+      "sha256": "f2592c5b6864b99776950f88fe4e5da33fa0f6f576ce5a69e690a749854dbc0a"
+    },
+    {
+      "bytes": 21459,
+      "path": "src/campaign/geometry/circle_packing_topology/void_relocate.py",
+      "sha256": "5da21ca451206048a22f30f8ccd02b4c4ea8e9717dc554a940504c45029bf03c"
     },
     {
       "bytes": 1042,

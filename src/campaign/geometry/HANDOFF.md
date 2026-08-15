@@ -202,6 +202,23 @@ Reproduce the roots, then replay only through Docker:
   geometry/runs/REPRO_RECTANGLE_TOLERANCE/circles-rectangle/candidate.json
 ```
 
+### Circle-packing changed-topology follow-up
+
+A dedicated follow-up exhaustively traced all 78 one-contact releases from the
+incumbent and the strongest distinct public rigid graph, then ran 58
+PAS-PCI-style void/split relocations and 80 clean-room coordinated stochastic
+relaxations.  It found 151 adjacent rigid systems, 58 relocation-refined
+systems, and 23 stochastic-refined signatures, but no strict or literal
+gate-clearer.  The only adjacent graph matching the incumbent objective is a
+neutral edge flip; the next-best non-neutral adjacent graph is already
+`5.69e-6` worse.  The strongest unchanged offline-verifier replay is
+`2.635983095281624`, still `7.92202e-11` short of the gate.  No external action
+was taken.
+
+Full corpus scope, literature citations, checkpoint hashes, exact receipt, and
+reproduction commands are in
+`circle_packing_topology/HANDOFF.md`.
+
 ## Tammes-50 strict unit-sphere pass
 
 The full frozen corpus contains 27 constructions and all 31 replies in three
