@@ -1,7 +1,7 @@
 cff-version: 1.2.0
-message: "If this evidence release informs your work, cite this repository."
-title: "CodexProLong: evidence from a persistent EinsteinArena agent campaign"
-type: dataset
+message: "If CodexProLong, its persistent-memory research architecture, or its results inform your work, please cite this repository."
+title: "CodexProLong: a persistent-memory research agent for long-horizon scientific problem solving"
+type: software
 authors:
   - family-names: Weatherhead
     given-names: James
@@ -10,9 +10,15 @@ license: MIT
 date-released: 2026-08-15
 version: 0.2.0
 abstract: >-
-  A curated evidence release from a long-horizon EinsteinArena campaign using
-  OpenAI Codex, persistent filesystem memory, web and literature research, and
-  problem-specific program synthesis. The frozen release records five
-  domain-valid first-place constructions, receipts, hashes, provenance, and a
-  selected exact-arithmetic certificate record; the production research system
-  is not included in the current release tree.
+  CodexProLong is a long-horizon research agent architecture that combines
+  OpenAI Codex with persistent filesystem memory, web and scientific-literature
+  search, executable program synthesis, iterative hypothesis testing, and
+  verifier-guided research. The system maintains an accumulating research state
+  across contexts, allowing later attempts to recover prior hypotheses,
+  experiments, failures, programs, scores, and useful checkpoints rather than
+  starting from scratch. In its first EinsteinArena campaign, CodexProLong
+  produced five domain-valid first-place constructions across 17 rankable
+  mathematical problems in the frozen August 15, 2026 snapshot. This repository
+  provides the public documentation, provenance, receipts, hashes, and selected
+  evidence for that system and campaign; the full production research system
+  is not included in the current public release tree.
