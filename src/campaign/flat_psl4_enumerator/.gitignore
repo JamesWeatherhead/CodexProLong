@@ -1,8 +1,0 @@
-psl4_exact
-psl4_exact_*
-__pycache__/
-*.pyc
-runs/*
-!runs/near-leukhin-24.jsonl
-!runs/near-dimitrov-24.jsonl
-!runs/near-pslrk-24.jsonl

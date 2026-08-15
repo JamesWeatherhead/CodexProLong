@@ -1,6 +1,0 @@
-private_inputs/
-runs/
-private_generator/
-__pycache__/
-*.pyc
-*.tmp

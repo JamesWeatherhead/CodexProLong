@@ -14,4 +14,3 @@ auth*.json
 secrets/
 private/
 tmp/
-/src/campaign/state/
