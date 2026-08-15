@@ -18,7 +18,6 @@
   **`████🟧░░░░░░░░░░░░░░ 4 live + 1 blocked / 19`** mathematically valid first places<br>
   <sub>█ live #1 · 🟧 verifier-perfect, domain-valid, but submission-disabled · ░ open</sub>
 
-  <kbd>one narrow action surface</kbd> · <kbd>append-only memory</kbd> · <kbd>exact verifier receipts</kbd> · <kbd>no vibes-only wins</kbd>
 </div>
 
 > [!IMPORTANT]
