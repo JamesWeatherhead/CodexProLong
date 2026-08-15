@@ -122,6 +122,10 @@ paperclip head -n 305 /papers/arx_2512.02466/content.lines
 paperclip grep -m 30 --exhaustive "Selberg sieve weights" /papers/
 paperclip cat /papers/arx_1606.06781/meta.json
 paperclip bash 'head -n 120 /papers/arx_1606.06781/sections/INTRODUCTION.lines'
+paperclip grep -m 40 -n "Rosser.*Iwaniec|linear sieve weights|beta sieve weights|fundamental lemma.*sieve" /papers/
+paperclip cat /papers/arx_math0209360/meta.json
+paperclip grep -n "T =|mu.*d.*T|Let T|d < y" /papers/arx_math0209360/sections/The_Rosser_sieve.lines
+paperclip grep -n "write d =|T_r|property" /papers/arx_math0209360/sections/The_Rosser_sieve.lines
 ```
 
 Observed 2026-08-15: the review makes the finite Möbius-surrogate and periodic
@@ -133,3 +137,9 @@ isolated-divisor mass, and shows why a sharp cutoff is structurally noisy. The
 Arena transfer is coherent block/tail generation with smoothly varying
 log-scale density followed by the unchanged fixed-stream verifier, not a claim
 that a historical scheme itself beats the current numerical LP frontier.
+The Rosser--Iwaniec lower weights provide a complementary global support law:
+they keep the Möbius signs on a squarefree subset selected by nested
+inequalities in ordered prime factors. A direct Arena check confirmed that the
+classical sieve guarantee does not survive the verifier's finite normalization
+unchanged; the construction is therefore a candidate-pool topology, not a
+valid certificate by itself.

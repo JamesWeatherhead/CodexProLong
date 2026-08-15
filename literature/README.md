@@ -88,7 +88,13 @@ clipboard paths. It is a direct-citation packet, not a Paperclip repository.
    cutoff leaves isolated-divisor mass too large [19]. For the Arena, this
    supports coherent block/tail changes and smoothly varying log-scale support
    density rather than isolated key pricing; every proposed support still
-   requires the exact fixed-stream LP and verifier replay.
+   requires the exact fixed-stream LP and verifier replay. Heath-Brown's
+   account of the Rosser--Iwaniec construction adds a discrete topology:
+   retain `mu(d)` only on squarefree integers satisfying nested inequalities
+   in the descending prime factors of `d` [20]. Those weights solve a
+   classical dimension-one sieve problem, but the Arena's normalization and
+   all-integer floor-sum constraint are different, so we use the rule only to
+   generate coherent global support pools before exact replay.
 
 ## Public-safe map for all 19 Arena slugs
 
@@ -100,7 +106,7 @@ clipboard paths. It is a direct-citation packet, not a Paperclip repository.
 | `third-autocorrelation-inequality` | Treat the maximum convolution lag as an active bundle, use peak-switching basin hops, and test coarse SDP/rank-one topology seeds before exact high-resolution polishing [1, 3, 15, 16, 17]. |
 | `min-distance-ratio-2d` | Share heuristics across nearby \((d,n)\) instances, normalize similarity degrees of freedom, then polish the active diameter/contact graph [1]. |
 | `kissing-number-d11` | Optimize finite vector configurations, then exactify a sufficiently accurate zero-loss candidate; preserve reusable subcodes and share partial constructions [1, 10]. |
-| `prime-number-theorem` | Combine truncated Möbius structure with periodic Chebyshev--Sylvester schemes, smoothly tapered log-scale tail density, and coherent hybrid/block support changes, then require exact fixed-stream and analytic floor-sum checks [1, 18, 19]. |
+| `prime-number-theorem` | Combine truncated Möbius structure with periodic Chebyshev--Sylvester schemes, smoothly tapered log-scale density, and nested Rosser--Iwaniec prime-factor support families, then require exact fixed-stream and analytic floor-sum checks [1, 18, 19, 20]. |
 | `uncertainty-principle` | Search Laguerre/Hermite Fourier-eigenfunction families through prescribed double roots, while testing the paper's warning that the best profile may be nonanalytic [1, 9]. |
 | `thomson-problem` | Seed nearly uniform spherical configurations, alternate gradient and stochastic perturbations, and use asymptotic energy residuals to compare basins [1]. |
 | `tammes-problem` | Combine contact-graph topology, LP/SDP pruning, and multi-start spherical-code basin hopping [1, 6, 7]. |
@@ -194,3 +200,6 @@ REFERENCES
 
 [19] Andrew Granville, Dimitris Koukoulopoulos, and James Maynard. “Sieve weights and their smoothings.” *arXiv* (2016).
     https://paperclip.gxl.ai/citations/papers/arx_1606.06781#L13-L27,L35-L42,L49-L58
+
+[20] D. R. Heath-Brown. “Lectures on sieves.” *arXiv* (2002).
+    https://paperclip.gxl.ai/citations/papers/arx_math0209360#L444-L460,L501-L510
