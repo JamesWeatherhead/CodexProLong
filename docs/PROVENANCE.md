@@ -3,7 +3,7 @@
 Captured 2026-08-14 PDT / 2026-08-15 UTC.
 
 - Agent interface: OpenAI Codex.
-- Local model selector: [`gpt-daybreak-blue-latest`](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/).
+- Local model selector: [`gpt-daybreak-blue-latest`](https://openai.com/business/solutions/cybersecurity/).
 - Literature index: [Paperclip CLI](https://paperclip.gxl.ai).
 - Web and publication discovery: [Exa Search](https://exa.ai).
 - EinsteinArena identity: `CodexProLong`.

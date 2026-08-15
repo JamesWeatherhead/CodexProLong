@@ -1,21 +1,32 @@
+<div align="center">
+
 # CodexProLong
 
-**I gave a Codex agent running OpenAI’s Daybreak Blue model persistent memory
-and sent it into EinsteinArena.**
+### I gave a Codex agent running [OpenAI's Daybreak Blue model](https://openai.com/business/solutions/cybersecurity/)—frontier intelligence designed for defensive cybersecurity work—persistent memory, pointed it at EinsteinArena, and let it run.
 
-The agent could search the web with Exa, search scientific literature with
-Paperclip, write and run its own solvers, and continue from earlier attempts
-instead of starting over.
+[EinsteinArena](https://einsteinarena.com/) is an open arena where AI agents
+collaborate and compete on unsolved science problems; its current problem set
+focuses on mathematics.
+
+The agent could search the web with [Exa](https://exa.ai/), search scientific
+literature with [Paperclip](https://paperclip.gxl.ai/), write and run its own
+solvers, and continue from earlier attempts instead of starting over.
+
+Inspired by [Jeremy Berman's ARC-AGI-3 approach](https://x.com/jeremyberman/status/2087633198822117446),
+Codex used what [François Chollet describes as LLM-guided on-the-fly synthesis
+of a symbolic world model](https://x.com/fchollet/status/2088243704603824311):
+writing executable code to encode its understanding, building the tools and
+solvers it needed, and carrying that work forward with persistent memory.
 
 **One persistent campaign reached five valid #&#8203;1 constructions across 17
-rankable EinsteinArena benchmarks.**
+rankable EinsteinArena problems.**
 
 Every positive claim links to public evidence.
 
 <!-- BEGIN GENERATED:SNAPSHOT -->
 <p align="center">
   <strong>5</strong> valid #1s &nbsp;·&nbsp;
-  <strong>17</strong> rankable benchmarks &nbsp;·&nbsp;
+  <strong>17</strong> rankable problems &nbsp;·&nbsp;
   <strong>1</strong> persistent campaign
 </p>
 <p align="center">
@@ -29,6 +40,8 @@ Every positive claim links to public evidence.
   <a href="docs/STATUS.md"><strong>Results</strong></a> ·
   <a href="artifacts/receipts/"><strong>Public evidence</strong></a>
 </p>
+
+</div>
 
 <p align="center">
   <a href="assets/source/prolong-memory-codex.jpg">
@@ -44,14 +57,15 @@ Every positive claim links to public evidence.
 
 ## The experiment
 
-EinsteinArena turns open mathematical problems into executable benchmarks: an
-agent submits a construction, and a verifier scores it.
+EinsteinArena turns open, unsolved research questions into executable problems:
+an agent submits a construction, and a frozen verifier scores it. The current
+arena is focused on mathematical optimization.
 
-- **Model:** OpenAI Daybreak Blue
+- **Model:** [OpenAI Daybreak Blue](https://openai.com/business/solutions/cybersecurity/)
 - **Agent:** Codex
 - **Memory:** an append-only [PRO-LONG-inspired](https://github.com/alexisfox7/PRO-LONG) research journal
 - **Research tools:** [Exa Search](https://exa.ai) and [Paperclip](https://paperclip.gxl.ai)
-- **Environment:** 17 rankable EinsteinArena benchmarks with frozen verifiers
+- **Environment:** 17 rankable, open mathematical problems with frozen verifiers
 
 Codex was not given one universal math solver. It could study each problem,
 search prior work, write whatever program it needed, run experiments, inspect
@@ -76,7 +90,7 @@ became constraints on the next attempt.
 ## What it found
 
 At the frozen snapshot, five constructions held first place and passed both
-the benchmark verifier and the written problem rules:
+the platform verifier and the written problem rules:
 
 - **Erdős minimum overlap** — [#1 result](https://einsteinarena.com/api/solutions/2507) · [evidence](docs/ERDOS_MINIMUM_OVERLAP.md)
 - **Uncertainty principle** — [#1 result](https://einsteinarena.com/api/solutions/2505) · [evidence](artifacts/receipts/uncertainty-principle.json)
@@ -84,7 +98,8 @@ the benchmark verifier and the written problem rules:
 - **Kissing number, dimension 12 / 842** — [#1 result](https://einsteinarena.com/api/solutions/2499) · [evidence](artifacts/receipts/kissing-number-d12-842.json)
 - **Kissing number, dimension 11 / 605** — [#1 result](https://einsteinarena.com/api/solutions/2500) · [evidence](artifacts/receipts/kissing-number-d11-605.json)
 
-These are improved mathematical constructions on verifier-backed benchmarks.
+These are improved mathematical constructions for verifier-backed open
+problems.
 They are not claims that five underlying open problems have been completely
 solved.
 
@@ -97,57 +112,6 @@ and handoffs in an append-only research journal.
 A later context can search that record, avoid measured dead ends, reuse working
 programs, and resume the strongest checkpoint. The context is temporary. The
 research state is not.
-
-## Open by construction
-
-The frozen snapshot contains seven platform-leading scores. Five are counted
-as valid #1s because they also follow the written mathematical rules.
-
-The other two remain public and explicitly labeled:
-
-- the Prime Number Theorem entry passes the finite platform verifier but not
-  the full written all-`x` statement;
-- the Tammes entry uses a point outside the required sphere.
-
-The 17-benchmark denominator is the rankable set: seven frozen leaders plus ten
-live frontiers. Two retired lanes remain outside that denominator because
-platform rules currently prevent a new first place.
-
-Every positive claim links to the candidate, verifier, hashes, score, and
-receipt.
-
-[Results](docs/STATUS.md) ·
-[Open notebook](docs/OPEN_LAB_NOTEBOOK.md) ·
-[Architecture](docs/ARCHITECTURE.md) ·
-[Integrity](docs/ETHICS.md) ·
-[Retired lanes](docs/BLOCKED_LANES.md)
-
-<details>
-<summary><strong>Run details and exact configuration</strong></summary>
-
-- **Model evidence:** local campaign session metadata records all five winning
-  submission events under the selector
-  [`gpt-daybreak-blue-latest`](docs/PROVENANCE.md) at `ultra` effort. That
-  selector is a runtime label, not a claim of a public API identifier or
-  permanently identical weights.
-- **Snapshot:** frozen August 15, 2026 at 12:07 UTC.
-- **Verification:** candidates were replayed against frozen verifier hashes;
-  submissions required both domain validity and human confirmation.
-- **Human boundary:** James set the campaign direction and authorized external
-  submissions and publication; Codex performed research, programming, and
-  verifier-backed search.
-- **Public boundary:** owned code, candidates, hashes, scores, and receipts are
-  published; credentials, private session text, unlicensed corpora, and
-  replaceable caches are excluded.
-
-```bash
-python tools/certify_erdos_continuous.py --check
-python tools/check_readme_claims.py
-python tools/check_local_links.py
-python -m unittest discover -s tests -v
-```
-
-</details>
 
 ## Explore the lab
 
@@ -162,6 +126,3 @@ python -m unittest discover -s tests -v
 
 Built in public by [James Weatherhead](https://github.com/JamesWeatherhead)
 with OpenAI Codex · [Attribution](CONTRIBUTORS.md) · [MIT License](LICENSE)
-
-CodexProLong is an independent experiment, not an official OpenAI,
-EinsteinArena, PRO-LONG, or ARC Prize product.

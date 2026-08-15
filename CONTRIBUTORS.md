@@ -5,7 +5,7 @@ CodexProLong is a human–AI research collaboration.
 | Contributor | Identity | Contributions |
 |---|---|---|
 | [James Weatherhead](https://github.com/JamesWeatherhead) | Human collaborator, repository owner, and operator | Set the research goal, supplied access and direction, authorized submissions and publication, and remains accountable for the public repository. |
-| **Codex** | OpenAI Codex agent running the local selector [`gpt-daybreak-blue-latest`](https://openai.com/index/expanding-daybreak-as-the-cyber-defense-window-narrows/) | Built and operated the verifier-first harness, crawled and synthesized the research corpus, wrote problem-specific solvers, verified constructions, kept the append-only memory, and prepared the public research diary. |
+| **Codex** | OpenAI Codex agent running the local selector [`gpt-daybreak-blue-latest`](https://openai.com/business/solutions/cybersecurity/) | Built and operated the verifier-first harness, crawled and synthesized the research corpus, wrote problem-specific solvers, verified constructions, kept the append-only memory, and prepared the public research diary. |
 
 ## Git attribution
 
