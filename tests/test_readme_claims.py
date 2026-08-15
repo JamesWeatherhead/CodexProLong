@@ -45,11 +45,38 @@ class ReadmeClaimsTest(unittest.TestCase):
             {"blocked": 2, "leaders": 7, "live": 10, "rankable": 17, "total": 19},
         )
 
-    def test_blocker_specifics_stay_off_the_landing_page(self) -> None:
+    def test_integrity_details_stay_off_the_landing_page(self) -> None:
         text = README.read_text(encoding="utf-8").lower()
         for detail in ("176,121", "353,220", "http 409", "solution #1492"):
             self.assertNotIn(detail, text)
-        self.assertIn("docs/blocked_lanes.md", text)
+        self.assertNotIn("## open by construction", text)
+        self.assertNotIn("docs/blocked_lanes.md", text)
+
+    def test_centered_intro_and_named_sources_are_required(self) -> None:
+        text = README.read_text(encoding="utf-8")
+        for required in (
+            '<div align="center">',
+            "https://openai.com/business/solutions/cybersecurity/",
+            "https://exa.ai/",
+            "https://paperclip.gxl.ai/",
+            "https://x.com/jeremyberman/status/2087633198822117446",
+            "https://x.com/fchollet/status/2088243704603824311",
+        ):
+            self.assertIn(required, text)
+
+    def test_benchmark_word_is_rejected(self) -> None:
+        text = README.read_text(encoding="utf-8") + "\n17 rankable benchmarks\n"
+        errors = validate_readme(text)
+        self.assertTrue(any("open problems, not benchmarks" in error for error in errors))
+
+    def test_old_disclaimer_is_rejected(self) -> None:
+        for disclaimer in (
+            "CodexProLong is an independent experiment, not an official OpenAI product.",
+            "An independent research experiment by James Weatherhead.",
+        ):
+            text = README.read_text(encoding="utf-8") + f"\n{disclaimer}\n"
+            errors = validate_readme(text)
+            self.assertTrue(any("forbidden claim" in error for error in errors))
 
     def test_missing_alt_text_is_rejected(self) -> None:
         text = README.read_text(encoding="utf-8") + '\n<img src="assets/prolong-memory-codex.webp">\n'
@@ -67,14 +94,14 @@ class ReadmeClaimsTest(unittest.TestCase):
         errors = validate_readme(duplicated)
         self.assertTrue(any("exactly one assets/prolong-memory-codex.webp" in error for error in errors))
 
-    def test_run_details_and_valid_definition_are_required(self) -> None:
+    def test_run_details_are_removed_and_valid_definition_is_required(self) -> None:
         text = README.read_text(encoding="utf-8")
-        without_details = text.replace("Run details and exact configuration", "Technical appendix")
+        with_details = text + "\nRun details and exact configuration\n"
         without_definition = text.replace(
             "“Valid #&#8203;1” means the construction ranked first in the frozen snapshot",
             "A valid result is documented",
         )
-        self.assertTrue(any("Run details" in error for error in validate_readme(without_details)))
+        self.assertTrue(any("forbidden claim" in error for error in validate_readme(with_details)))
         self.assertTrue(any("Valid #1" in error for error in validate_readme(without_definition)))
 
     def test_generated_visuals_are_current(self) -> None:

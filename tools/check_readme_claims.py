@@ -27,6 +27,10 @@ FORBIDDEN = (
     "openai’s best model",
     "19 open math benchmarks",
     "assets/erdos-overlap-explainer.svg",
+    "## open by construction",
+    "run details and exact configuration",
+    "codexprolong is an independent experiment, not an official",
+    "an independent research experiment by",
 )
 
 
@@ -50,7 +54,7 @@ def expected_snapshot(frontier: dict[str, object]) -> str:
     return f"""{SNAPSHOT_START}
 <p align="center">
   <strong>{valid}</strong> valid #1s &nbsp;·&nbsp;
-  <strong>{counts['rankable']}</strong> rankable benchmarks &nbsp;·&nbsp;
+  <strong>{counts['rankable']}</strong> rankable problems &nbsp;·&nbsp;
   <strong>1</strong> persistent campaign
 </p>
 <p align="center">
@@ -129,6 +133,8 @@ def validate_readme(text: str) -> list[str]:
             errors.append(f"forbidden claim appears: {phrase!r}")
     if re.search(r"\b19\b", text):
         errors.append("README landing-page denominator must be 17, not 19")
+    if re.search(r"\bbenchmarks?\b", lowered):
+        errors.append("README should describe EinsteinArena's open problems, not benchmarks")
 
     for detail in ("176,121", "353,220", "http 409", "solution #1492"):
         if detail in lowered:
@@ -138,16 +144,21 @@ def validate_readme(text: str) -> list[str]:
     contract_text = normalized.replace("#&#8203;1", "#1")
     required_strings = (
         "Daybreak Blue",
+        "https://openai.com/business/solutions/cybersecurity/",
+        "frontier intelligence designed for defensive cybersecurity work",
+        "persistent memory, pointed it at EinsteinArena, and let it run",
+        "open arena where AI agents collaborate and compete on unsolved science problems",
+        "https://x.com/jeremyberman/status/2087633198822117446",
+        "https://x.com/fchollet/status/2088243704603824311",
         "five valid #1 constructions",
-        "17 rankable EinsteinArena benchmarks",
+        "17 rankable EinsteinArena problems",
+        "<strong>17</strong> rankable problems",
         "<strong>1</strong> persistent campaign",
         "“Valid #1” means the construction ranked first in the frozen snapshot",
         "They are not claims that five underlying open problems have been completely solved.",
         "docs/ERDOS_MINIMUM_OVERLAP.md",
-        "docs/BLOCKED_LANES.md",
-        "docs/COMPUTE.md",
-        "<details>",
-        "Run details and exact configuration",
+        "## Explore the lab",
+        "Built in public by",
     )
     for required in required_strings:
         if required not in contract_text:
