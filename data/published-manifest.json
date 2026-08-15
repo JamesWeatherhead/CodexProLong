@@ -291,9 +291,9 @@
       "sha256": "82b177b44921149bd85bb7b941ff8244b048eadb95043396c2506bb2dd7dcd81"
     },
     {
-      "bytes": 40745,
+      "bytes": 42754,
       "path": "artifacts/journal/events.jsonl",
-      "sha256": "bec94b42024c25a37761a197cd9d3267d6be69530a3ffa14e11112418cfff160"
+      "sha256": "15ebb03064186d8591ab4b969485dfc11873f3f64b5cc32ab262ee8410d0ab71"
     },
     {
       "bytes": 715,
@@ -849,6 +849,1091 @@
       "bytes": 3736,
       "path": "src/campaign/analytic/flat_psl4_accelerator/verify_answer.py",
       "sha256": "144cac66f14bd9ff46ec8343aca9341e92e46efbed3af0317ab99a672e62fa04"
+    },
+    {
+      "bytes": 9936,
+      "path": "src/campaign/analytic/flat_psl4_hardware/HANDOFF.md",
+      "sha256": "c5a1c34c3918100baa556ad7e6bc3d12ba5b90c09fce626782fcd21e921aa9c0"
+    },
+    {
+      "bytes": 1074,
+      "path": "src/campaign/analytic/flat_psl4_hardware/LICENSE",
+      "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "bytes": 4131,
+      "path": "src/campaign/analytic/flat_psl4_hardware/PROVENANCE.md",
+      "sha256": "4f15720ce0d8aeffb3acfeffa7c64e7e1abe7dcb75b67dda61650fb6b95c6c15"
+    },
+    {
+      "bytes": 86444,
+      "path": "src/campaign/analytic/flat_psl4_hardware/PUBLICATION_EXPORT.json",
+      "sha256": "aff93b596d4a31933c86e1c5122e9ed0897a6bc5dc1845a70f52fbffefabfbd8"
+    },
+    {
+      "bytes": 65182,
+      "path": "src/campaign/analytic/flat_psl4_hardware/PUBLICATION_MANIFEST.json",
+      "sha256": "784623d5a92811c665029cf6d8f1a273fdd0dc16026d786dbdd95af6bc3bb3e7"
+    },
+    {
+      "bytes": 10081,
+      "path": "src/campaign/analytic/flat_psl4_hardware/README.md",
+      "sha256": "1c4f10814d8764e10c9a399f19ffdb26486635715a47be6f65812e67441477e2"
+    },
+    {
+      "bytes": 13138,
+      "path": "src/campaign/analytic/flat_psl4_hardware/audit_run.py",
+      "sha256": "0c098e8c2bce1895d21ab2f37ccfbd4638b24f53d2f1924f70d9a900b5d80afd"
+    },
+    {
+      "bytes": 11284,
+      "path": "src/campaign/analytic/flat_psl4_hardware/benchmark.py",
+      "sha256": "1b3ccdfb5f41785d4e671c81a862000d3fbb42d0ab28a3c08169f0cda1cb94f5"
+    },
+    {
+      "bytes": 9990,
+      "path": "src/campaign/analytic/flat_psl4_hardware/concurrency_benchmark.py",
+      "sha256": "3ed38fb4288072c504def8600e06a984aa7312f57452a02e84598b0d41367b2e"
+    },
+    {
+      "bytes": 2254,
+      "path": "src/campaign/analytic/flat_psl4_hardware/discoveries/psl4_class_04.json",
+      "sha256": "0483444e2eb53c8575d22a23d7dfd1156486990ea47bf54c58c32541406ae1e1"
+    },
+    {
+      "bytes": 11598,
+      "path": "src/campaign/analytic/flat_psl4_hardware/dispatcher_benchmark.py",
+      "sha256": "c65bb4bb04e1e1a568c4225751cf3a114b69d06a6f18f49ee8d5eb7a96c070d8"
+    },
+    {
+      "bytes": 417,
+      "path": "src/campaign/analytic/flat_psl4_hardware/fixtures/completed_shard_sample.tsv",
+      "sha256": "8b4dbc1a2180a043afdb5095f08e219d06c1128797dc4504df45e10f9b9b79fa"
+    },
+    {
+      "bytes": 4076,
+      "path": "src/campaign/analytic/flat_psl4_hardware/fixtures/shard0_reference.tsv",
+      "sha256": "7bca18847f1c8590a2493f1f1a01454c9a50b1c89a6d8b38aa85b9a29a91d504"
+    },
+    {
+      "bytes": 4739,
+      "path": "src/campaign/analytic/flat_psl4_hardware/fixtures/shard1_reference.tsv",
+      "sha256": "61dbf232d532c06059e1bb011957308316435ee3a109658868d9125b345cbb9e"
+    },
+    {
+      "bytes": 7939,
+      "path": "src/campaign/analytic/flat_psl4_hardware/freeze.py",
+      "sha256": "1afbed3dff689ab972e4d6afefce887465d5a7cac0f13c69d1909e831127a926"
+    },
+    {
+      "bytes": 28416,
+      "path": "src/campaign/analytic/flat_psl4_hardware/gpu_dispatch.py",
+      "sha256": "f2a47019462f7702675da4813b6de0d63682bb50b4d4e5bc5cc4316d6d8ca68f"
+    },
+    {
+      "bytes": 45437,
+      "path": "src/campaign/analytic/flat_psl4_hardware/psl4_metal_bfs.mm",
+      "sha256": "d10accf9ebaf7355e11df53df2808736271dbd5019e829cb91418a7d8ba18893"
+    },
+    {
+      "bytes": 5289,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T093000Z/concurrency_receipt.json",
+      "sha256": "259ef40a6693f553c6d6938db2ff94b6c9f85969153e944a98d025c5d2e3d360"
+    },
+    {
+      "bytes": 2744,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T093000Z/dispatcher_receipt.json",
+      "sha256": "22d6df8972c8637035ede48fab8c151bc21fd9aff9a9721d33f4c11122c9097d"
+    },
+    {
+      "bytes": 44360,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T093000Z/receipt.json",
+      "sha256": "89363d19b078d4eeba0884c71872575b47a0f0f46dd9cb56a381219fa61cadeb"
+    },
+    {
+      "bytes": 820,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/audit.json",
+      "sha256": "8e928283f88540b697da213d0f242fa4b3cd81251af0851df3a88b0454ba51ac"
+    },
+    {
+      "bytes": 3329,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/dispatcher_receipt.json",
+      "sha256": "7701b91e88692da92c672edb0ddf7650e2a48d16ce3146acb80f7a58820e98c6"
+    },
+    {
+      "bytes": 0,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/.setup.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 110856,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/artifacts/psl4_metal_bfs",
+      "sha256": "6e912e54c2b19ba5096c5fdf3eae5e7e919356835501b896e43e63996174de09"
+    },
+    {
+      "bytes": 45437,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/artifacts/psl4_metal_bfs.mm",
+      "sha256": "d10accf9ebaf7355e11df53df2808736271dbd5019e829cb91418a7d8ba18893"
+    },
+    {
+      "bytes": 682,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/config.json",
+      "sha256": "3db31d5b012fb9fe784c7810b45fd22369339d278eea385838019a4281bc76a4"
+    },
+    {
+      "bytes": 2051,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/initialization.json",
+      "sha256": "185b9864ccda3e39ec93df467a8f35e11970be31a61e938fb851c3ad6daf79a2"
+    },
+    {
+      "bytes": 0,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/.shard.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6799,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/journal.tsv",
+      "sha256": "efbb424186402f8dba6622ed4a0595c3c71e80b1a832a6020f859b3e31729dce"
+    },
+    {
+      "bytes": 1083,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/receipt.json",
+      "sha256": "b1301886ccacdd5e2eb89009972e6f67b2cb57dde692a9fbc2d384a0ff6a02b4"
+    },
+    {
+      "bytes": 2163,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/000006.json",
+      "sha256": "4c5a7f9c11131af09cf274f783dfb5fe5c60ad18033bf7e0c7707c51f92d82d8"
+    },
+    {
+      "bytes": 2071,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/010030.json",
+      "sha256": "dfde8aaf0533f7d58bea2f5b6babfd33e24e15356e777f9b84de8eebbad106e4"
+    },
+    {
+      "bytes": 2078,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/017159.json",
+      "sha256": "bc348f2dafaa69d2223f0e3388f679697ffcd8c70fddba1686f9b250fc3dc89b"
+    },
+    {
+      "bytes": 2169,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/018113.json",
+      "sha256": "8e1bbcf161757c9cdb9188a25bd28bf17d956846ba24bfa31e10b59ab852943c"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/022164.json",
+      "sha256": "70136c3aa16b02ca54e215196e95d2f740db2bd1352e1827c45bf7d11c647849"
+    },
+    {
+      "bytes": 2166,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/025122.json",
+      "sha256": "9d30161421cf807ea4155f78c014266f3e8e7848a542c9458de3d1aa24e73d95"
+    },
+    {
+      "bytes": 2169,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/032226.json",
+      "sha256": "443a9622556e98b21b2775f0b31c7576e109198dafdb2094311ffa218a0f0fc9"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/045012.json",
+      "sha256": "0b8065a4306e2fef1b3652611a60ad1a46c45451d66a899d32d1c1be621edf89"
+    },
+    {
+      "bytes": 2169,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/051709.json",
+      "sha256": "60753451fb87c61f3d63d624cf61052420f8a5b6fd37b9b55c33dc18526f858c"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/059587.json",
+      "sha256": "86b1de870b7c198ae56008cedfd92d9a20afd98040a7df475dfca7949ff2e82e"
+    },
+    {
+      "bytes": 2171,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/059877.json",
+      "sha256": "48071e21dd109d2bbdeefe50c2f28bba2a541d121dcdc7029e5d4b8752795a18"
+    },
+    {
+      "bytes": 2162,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/063775.json",
+      "sha256": "c4f7bce9ba58bc6a7d738ec4fd5425f4ead32fc6ec0fa33833ed6426e7401641"
+    },
+    {
+      "bytes": 2177,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/067056.json",
+      "sha256": "62114e3f0183461db7281af18750c0d30728986da6705194952063620efee504"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/072847.json",
+      "sha256": "5fda5c0866d8f4a2b1830e2bd6d07b3f4cfebcf00ed94784a9dae72f7231c428"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/094705.json",
+      "sha256": "5242329e5dcab8569ebb48473fe8b2206badb85369aed97e75ff645fecf4cd06"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/104069.json",
+      "sha256": "638d94d1eb89af1fdde8d048236c57d2bae67f1e75c362479c506446c29e7b64"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/106778.json",
+      "sha256": "362bcc1bb4d20b282f38154576400aa7528ec5afe6ef66207a323f814cec9d96"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/111837.json",
+      "sha256": "8b39348a9779d3617d97d84fa3ae3d15a6301fde95eaed35e4cd50332dffd476"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/138153.json",
+      "sha256": "0541e63c664284e168822e05b128f2888c187020a69576d14dfa2cbfd8374d26"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/144373.json",
+      "sha256": "319f9ca6a5353babd983f19099dbc123187ea3da1d3f6a6b80b66658616f6abb"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/146236.json",
+      "sha256": "44772e72f1457b07a5fe3e8e799269f88341557cb45af20662db18e2b08097e8"
+    },
+    {
+      "bytes": 2170,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/151772.json",
+      "sha256": "7d97d28c9a845b945322fb7271646c36dbbb415e2d8a7f471bfa58c8d250c249"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/153596.json",
+      "sha256": "ccb0872258469c3763030f690c81007835ff84c1b807820ab501ce703a351f93"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/161681.json",
+      "sha256": "2d872752f3c4cfc59140ba8c421193d95b3eaf82713c86dc8ba6f9a7932fd447"
+    },
+    {
+      "bytes": 2177,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/162021.json",
+      "sha256": "98ffc2457a3c1effe3ea1d97a1fc68c872652b469b9de753f259886e45e7669f"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/166995.json",
+      "sha256": "3fbbfe8b1008a3f8df617b5b6fbfbec0e9b1f55fd1132c061f07391947fa6a71"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/167086.json",
+      "sha256": "9553782d9251b4809a44876c20e28f5c124ca614068481a9ba369dd1dbf5e9f7"
+    },
+    {
+      "bytes": 2163,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/179358.json",
+      "sha256": "6b0b778f8c48955c37c59c2a0b304a2cbad251005470c19522c2aafca06e96d2"
+    },
+    {
+      "bytes": 2145,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/202968.json",
+      "sha256": "8449eb233160eb3508deaedfafd22df58ec1e14b036036ae8cefca4ddeaef663"
+    },
+    {
+      "bytes": 2080,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/204404.json",
+      "sha256": "e7eaa2f99054db2bc386f172ff30ea17036195bda4d53fe03d4fb9ae4de1dc25"
+    },
+    {
+      "bytes": 2175,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/218051.json",
+      "sha256": "6ce6855fe0c2dec8fda37eb0c32fed00ee192fd07336fcd4507ee4bbb111d9d7"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/231192.json",
+      "sha256": "dfaf152eb341f5cc701c2115199da382f08b2298ddaeb81ea0bc41fad861ac60"
+    },
+    {
+      "bytes": 2175,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/235053.json",
+      "sha256": "fe605e0a2d105a56d3620c6dd068d958d7cf62df3b069655ba97b7afbf494098"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/237465.json",
+      "sha256": "179ea575aba2e52f49ec135fe7b72ed41de03c20b6435229753ff24c0fd8c7f3"
+    },
+    {
+      "bytes": 2182,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/247354.json",
+      "sha256": "71b44a5e6dedc688cfa62e674c9f02d847991650e39369366b2e662fc15c3280"
+    },
+    {
+      "bytes": 2165,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/251857.json",
+      "sha256": "55c1f32545c8dd5bded66aa16c2a879524c1a8abdd40cd75de6314ab3f1a2427"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/269386.json",
+      "sha256": "17bab0a1bcf39a358add40b37878c15317d39ead4bde38a24153066964b7448a"
+    },
+    {
+      "bytes": 2158,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/281251.json",
+      "sha256": "9ed78abbce14d9e3ac1d33494bdda7243cba02b9ca2096ac9a54e44e460910e9"
+    },
+    {
+      "bytes": 2168,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/284505.json",
+      "sha256": "7383360c8f49b3e0a6520dbe675ba514475cb8cd635efb6bf1c3372d769c0eb8"
+    },
+    {
+      "bytes": 2170,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/286412.json",
+      "sha256": "a907f8a943f24cbd180d129063e00a3aaf76bdbec8880cc0aa6120ee6be5d604"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/290257.json",
+      "sha256": "6b4d312e48a7aa0bb1ccc51d57c030432b75432d08a80aed383b436758210416"
+    },
+    {
+      "bytes": 2157,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/296254.json",
+      "sha256": "f4d5fd837f6f942bf27216a68f060096a4c47b9ea3f2c4b8019446c00dcc231c"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/309812.json",
+      "sha256": "e24491d2ff92d7c1f00ef83aff247cd268571bbb887301b0de4b28a7ff34d201"
+    },
+    {
+      "bytes": 2171,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/319670.json",
+      "sha256": "4aa731fe80784238950b6f0fdc7a05f920652116e82850a09100da015773646f"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/327707.json",
+      "sha256": "03455a06f9c19110dc54e99e5a400d1c711459d97356f402cc5cca1432eeac20"
+    },
+    {
+      "bytes": 2163,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/331507.json",
+      "sha256": "61511a060297f5e911c0c3abcda40706c30bcd97cd849983418a4e5310d28c4e"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/335201.json",
+      "sha256": "1db90503bcbd462d5d291c56a12331d29f4fb28e1795e7162da661e0d7f6b07d"
+    },
+    {
+      "bytes": 2079,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/344245.json",
+      "sha256": "76b4520ef8eb68ceb66e1dd67be6655122b3a3b4f14e3af9f7bd7cb47e33d4b1"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/345792.json",
+      "sha256": "c01ae35179f41ef1d0dd7ee6f362b9c797f1546ab38bdb2301bd685d4b22f654"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/350200.json",
+      "sha256": "988b50a7426b5193627001cd603a59aad4e3d4e96db639b716aad6c60981ee94"
+    },
+    {
+      "bytes": 2165,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/362906.json",
+      "sha256": "3c3c8550d6b403075a6a44834712201dff950b16d04d495efb4f258cc3b53ca3"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/378311.json",
+      "sha256": "5bf76fc787833ba5ae0b273757bc40d806f1e8966d327e84feae86aa6be43671"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/389596.json",
+      "sha256": "b656f35c7367045bb5ff66e54fe0f6d250de381ef8edfbb4899a13b5517d4c88"
+    },
+    {
+      "bytes": 2169,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/399154.json",
+      "sha256": "b485511df0e792c12508d99660adc6d5fa5f89d42fcd14d53421a28c23429bc0"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/402088.json",
+      "sha256": "67713b5e6f8b236141b85c407232115aefd166cde3bfa60623f993b7dd752aa8"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/404316.json",
+      "sha256": "c60632834fbdc01e829d91d08ab976a9026702e4fd12ca7397fbdb91415a3d47"
+    },
+    {
+      "bytes": 2177,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/422329.json",
+      "sha256": "879573d0c1ae404cbbd7c7e6836f08adbd0226514f7f7daef1d98eec28a0b536"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/439107.json",
+      "sha256": "9a2bf92b0bd05593a3007f68b43ae75c79df816f833b488cce99b18565119847"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/452589.json",
+      "sha256": "5bf7bfb4e33c66ceff5728e30e74ea8a0dde88b9789c48016184a26d88b1746c"
+    },
+    {
+      "bytes": 2075,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/466458.json",
+      "sha256": "b701dad7b8c2f003f63ab3d7e84fb0d891de38002593fbe7396456d1a4c4809d"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/471639.json",
+      "sha256": "7f8802e02be9bc631351ac106f770732bf80ad7e2bc8d079300f1d6611dc5911"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/477745.json",
+      "sha256": "737aa4e7e629b244432437dc0fc5f978fb25537c1dae7a6e9b28caca7aea884a"
+    },
+    {
+      "bytes": 2159,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/478989.json",
+      "sha256": "4e2ee8aea579849c4817941a3e627526c167350b8ff412d47ac958f0fc69eab2"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/483770.json",
+      "sha256": "7e258b62d05f57cb1858b5eaec271cbe16dc0f49fb5a36b5f3796add2654ae42"
+    },
+    {
+      "bytes": 2177,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/486764.json",
+      "sha256": "bc63b01b675d5e6ebb886a992ba075a2ed7d91fdcc30cddde3c1b9ef7257d298"
+    },
+    {
+      "bytes": 2162,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/487458.json",
+      "sha256": "9e243580f5099cf113bb909a45310e7a7dfce56fabeec1347ee0a28ac84614b2"
+    },
+    {
+      "bytes": 2170,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/494400.json",
+      "sha256": "3922a9341cf4ba5bbc90e7ca7764291838aca0756d54083da36fba1a671176a5"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/496869.json",
+      "sha256": "4bbb5e15bb0cae2c518bca143babde23594af3d9d0200bcb716af887fac47e6a"
+    },
+    {
+      "bytes": 2181,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/518582.json",
+      "sha256": "3643a19c46439bcc7cc9f0bf81bf532a0d8d2bcf0d9ee699da4f486ad65b1915"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/524135.json",
+      "sha256": "a43a4b4bfdae38af7af0ce4407d731770d63ffb5d8c1e8e59cd632c27fe89516"
+    },
+    {
+      "bytes": 2076,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/532195.json",
+      "sha256": "7d61613db9e00e9eb7d88b158718f684c557a7b3a188a5b29d6e4dc04a82659f"
+    },
+    {
+      "bytes": 2171,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/532841.json",
+      "sha256": "3ad52a1401840c2cbb137e4d3782f445f1e3133b9edac74497e6504613831ca8"
+    },
+    {
+      "bytes": 2171,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/543364.json",
+      "sha256": "e5d26ca6b8977b2fdcaa9e13854bbc185d73dc9218b62a99f21c509ee194bcc5"
+    },
+    {
+      "bytes": 2183,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/558055.json",
+      "sha256": "087acec4116934c4aac3d30a210db443cce44842bc3a2f5b1998d438a6ddf54b"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/575352.json",
+      "sha256": "64ca68d5294981b8384bc87e98b4f41724f98b7c2941ea56229b5e9b53dced66"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/591079.json",
+      "sha256": "c6e8fc5b009a95eed93b904ea8fc48f76da6308287fd658b888dfc8a142bc27a"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/597888.json",
+      "sha256": "aa652e2613ba6bda291b3743ebf91c418761f4c572c50b8f36e514d6651f8bcf"
+    },
+    {
+      "bytes": 2082,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/603243.json",
+      "sha256": "6c69e756e437ab2d68ab050d4674a05113ebac774c28f1a83f68dadd17c5a6d2"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/651695.json",
+      "sha256": "09006307a8f9651ce9a8e3dc30114f74ab59fb6c54a08d549c7dd2bc821ba9ab"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/677029.json",
+      "sha256": "692bb8936db0e9c4e64c7601157a260ec7c82cdd46489aac21e91881b7e92cc3"
+    },
+    {
+      "bytes": 2080,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/678337.json",
+      "sha256": "6913fc23a93c9149b93a4850774a9144091fbcd4f43b510cbab293fdb8a7443b"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/717379.json",
+      "sha256": "e498d07dd6c597a6fc372087837c9e0749ddcd6c4e4a475030263f3ff27ce7d9"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/719495.json",
+      "sha256": "c60be9351c6dcaa8945f3e71b6c285488f8444cc2c96902abf8a0df878f276d5"
+    },
+    {
+      "bytes": 2163,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000000/tasks/723307.json",
+      "sha256": "00eeeb09753bb54bb13f37c657e695147e4f22f105c65aa43a7473e337b18c29"
+    },
+    {
+      "bytes": 0,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/.shard.lock",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7894,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/journal.tsv",
+      "sha256": "9a42f041147875c22dbe95dc7ac2b6e0942eab116e25333f8e93d807d1003d03"
+    },
+    {
+      "bytes": 1083,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/receipt.json",
+      "sha256": "2ac9e6839d8bb6cbe96d7dbdd3616833ddc40728236e8457cccf484da2a94514"
+    },
+    {
+      "bytes": 2077,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/022135.json",
+      "sha256": "55eaf8409962bac6efdf4705b43acad2d8c10cefa7aee9645fee36bfd2b57abd"
+    },
+    {
+      "bytes": 2164,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/029206.json",
+      "sha256": "65fe092cb749a5c2d33090e6663186dacfb808c75f7b38932b53986bdec2ba7a"
+    },
+    {
+      "bytes": 2167,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/029550.json",
+      "sha256": "46fa73e964f607bb7e6ebec919e60ec4a26ae095691f1739bc7e63fb922b1c42"
+    },
+    {
+      "bytes": 2171,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/034230.json",
+      "sha256": "b9935a35f8a61c946f59255c45e0312db03bc5f4e21c58ed28ed4f3d861b91ec"
+    },
+    {
+      "bytes": 2170,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/052719.json",
+      "sha256": "b59c9fec803a5d5326e7c1de37fed7bc19f46a01bef023c0da7c0d8e1c7ac2c4"
+    },
+    {
+      "bytes": 2175,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/055989.json",
+      "sha256": "d933008fd08853a9252ee62d7e951a98906db9fef6728353c71b5b7112d8921e"
+    },
+    {
+      "bytes": 2077,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/057995.json",
+      "sha256": "5f129843a8112a06831d11cc6a2f22a167cda02483de8f9cd1217de5c8b1cf72"
+    },
+    {
+      "bytes": 2170,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/065039.json",
+      "sha256": "8555c056c20ab6ab58deb4682b6d1913b282ea34c1f8cc9ced81ac2f3845f40a"
+    },
+    {
+      "bytes": 2165,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/077765.json",
+      "sha256": "8115e325f7cd1250d6f42275ab5136e4aff0a7f28909278f95c3afec29dbe174"
+    },
+    {
+      "bytes": 2077,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/077852.json",
+      "sha256": "fbfc5afdf0e3539f57147515f437cbae46f84b97b03864addf1a74ea82d41378"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/084933.json",
+      "sha256": "6d6866c5423912e3c0384d6f17fab1eac0991856a699d324361c4283942de67c"
+    },
+    {
+      "bytes": 2170,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/091122.json",
+      "sha256": "ed479f14f5ab3acc1252e49e49775a5fd38e22e7ae2e57c74a77ba8a2eef0c6f"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/116755.json",
+      "sha256": "6a5cc91695b577979170245131de76b263997413709058860c268b8ce309e71c"
+    },
+    {
+      "bytes": 2169,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/118731.json",
+      "sha256": "9d3a0f1c0c99dee5e2c24d27df0aa8748fa474d6702176766466bf4723a65fc6"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/140716.json",
+      "sha256": "3e883871ef5a2c93443146e1a8ee39de2eac9ad9f09baab0cfa5ac0a6ff617c7"
+    },
+    {
+      "bytes": 2168,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/144124.json",
+      "sha256": "e49772dde98a7bc4e7cf4efddc3ce4c810114a77b457d0e7eb9ac97939617387"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/153516.json",
+      "sha256": "7ddabc8a5d353d20546d0ffe52e7b3fdb5f22837878c77b6b1cc66be6ad51a1c"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/155100.json",
+      "sha256": "5bf1c9dc793bc8a21a17084e57f968f0e41becb044e5e8e85b04b9d358be62eb"
+    },
+    {
+      "bytes": 2181,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/157142.json",
+      "sha256": "dbe0f7ca089b39c5f8449e902d58140d19bf75ef430c34603a32bdd8c4e41118"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/158344.json",
+      "sha256": "dc7128b99288a0dab63084bf8bf1940fd7c46cfec5ed0b5c3ee5134de38aeb60"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/158432.json",
+      "sha256": "7d57b9f018b1ff209a0bfb2dda6a24b3055c17216d7e5d5076d11c7015749953"
+    },
+    {
+      "bytes": 2079,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/165233.json",
+      "sha256": "96016fbbe5b497f0450c57d93346339953b5281ef589d952a67e3aa17a87aea2"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/170758.json",
+      "sha256": "65c04f44c334290dffb9f6b36561a31aedfbb8ef06476d06945e5dbf8c4e69bf"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/171099.json",
+      "sha256": "dda4800a68815598294999a076895f011a1ab18a2783680081defd86500797d7"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/178280.json",
+      "sha256": "f4926a578cbebfbb1ffbc9370415b8ba91878cf223ec896387b4f4ff4856ffc6"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/178835.json",
+      "sha256": "51976d087fe22bcce92509309f08afbd87e5a08a5b0f32cdcfdd05a23e570d30"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/180369.json",
+      "sha256": "9058268326f7145de9e060ea0299fda249d8975ef4c1c7d153f608b82b523763"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/184982.json",
+      "sha256": "3f10952be12140d29a40d83b1a603b870aa14717708056ee0e4b660b2912fa4a"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/200707.json",
+      "sha256": "c4fe262496ba402a52c2e19f63577a6ae4b240abb1ad5c34a8d11101e2998ba3"
+    },
+    {
+      "bytes": 2167,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/202262.json",
+      "sha256": "a720245bab3486560da932245e23de606b73d6b15f57f01764882b9b5ba7d13a"
+    },
+    {
+      "bytes": 2168,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/211351.json",
+      "sha256": "2b2c226d41ad8cd1e3496b8eb0432500fc047c76e29a0a964666add6f7b0d0fc"
+    },
+    {
+      "bytes": 2183,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/214721.json",
+      "sha256": "2a820e67f05db003c6a09e001a5f43835fd12537224649eca7358f2cefe37a3a"
+    },
+    {
+      "bytes": 2171,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/222948.json",
+      "sha256": "72ba50b90626b8ab03a77fb6ca1f812f1a19103dd5d75eacce1c8ecc79178de1"
+    },
+    {
+      "bytes": 2171,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/223944.json",
+      "sha256": "a807e20ef7820f0b2383d473fab74c119ab27c4f01b25c0e1df169eca475c9b8"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/223971.json",
+      "sha256": "7446a218d776e280c4cf951d82bdcf71b252f1e4032f69c740b2183c6abfdaec"
+    },
+    {
+      "bytes": 2077,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/252142.json",
+      "sha256": "95df13834d129ca59a8fa68e76c25e58983794e568941f070bda341feaa7adba"
+    },
+    {
+      "bytes": 2167,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/256489.json",
+      "sha256": "dac33c184e30e0d2113dda04e5bf80919b81b39c0818599db55e015fe62ab397"
+    },
+    {
+      "bytes": 2171,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/260260.json",
+      "sha256": "ce52f289e64297995c211c97e5dabf5ed839c10a72ab2942c172067b6a0e58e5"
+    },
+    {
+      "bytes": 2079,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/268032.json",
+      "sha256": "6f15d7d73776fd465dae8a15ff66d401be7e594df37586670c5e03eed0a7557c"
+    },
+    {
+      "bytes": 2170,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/276194.json",
+      "sha256": "dc06a62751ef690226d7eb4ebac62d56d4c2daf3e4f04ad567fa0ef51f7bf186"
+    },
+    {
+      "bytes": 2079,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/284185.json",
+      "sha256": "7883de156914d09553dd6c6472810777c1a21386b23664bd4e69d339deb45dc7"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/286211.json",
+      "sha256": "b52a58cbef3dba7e406a836ed927f63ffc40aabcb07bc984ebc8b9e5423df6ff"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/287025.json",
+      "sha256": "2d59186ce9d96034363091cfc7e522af1dc453aa3ed403e265ec734251b206a3"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/291555.json",
+      "sha256": "f8a701a0899427864e1082387fa31c4d97be1563ae156aee067b81a413c1afd8"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/291657.json",
+      "sha256": "cf8305e24e313abd06b41c1309ba438a544b0dede9efc0fa0cdeadeb8e5678c9"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/310278.json",
+      "sha256": "399dc7e453a3c262a1d6e278edbff834beadcd3831a43409044eb4eb9c291ad9"
+    },
+    {
+      "bytes": 2175,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/316195.json",
+      "sha256": "267c4ddeab7e3e9fddc47abdfc528510e58e9d7c565a9f006b2dcd7d63037ee7"
+    },
+    {
+      "bytes": 2180,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/318312.json",
+      "sha256": "1ea1ee185fd53af23bdb276406bfe5ebd8281e96f66486abe47361c68f462b5d"
+    },
+    {
+      "bytes": 2079,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/318375.json",
+      "sha256": "ca36f2588a942512edf98c3cd54bf2cf65830ba1129df7736a0187164736e9c6"
+    },
+    {
+      "bytes": 2166,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/318386.json",
+      "sha256": "8f5e9941d4fd6c01c2713bf3ef3f12a7e77689c5ff9e78811d0115c263fadcfa"
+    },
+    {
+      "bytes": 2168,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/340658.json",
+      "sha256": "eb73a93c25a1b7d9f46a3adec1cd0f8ee66dec4f426af6066da5793d1eeb0683"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/343629.json",
+      "sha256": "96f65564019044ddad71db272b2c95b3b6ea43f23f6ea107031ac2bcdd8cf303"
+    },
+    {
+      "bytes": 2175,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/346541.json",
+      "sha256": "3cbace1899c1de50432b905eb64ce4948c0eae7753079c18456bfea0190f67a1"
+    },
+    {
+      "bytes": 2175,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/349065.json",
+      "sha256": "f0e912aed43351108c308f675734e9e656cbf0dfd7c7c9815965ce4eb3a196e5"
+    },
+    {
+      "bytes": 2175,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/361273.json",
+      "sha256": "63406995e5ce5580cd54ec25b040f0b07c140e5045ae1f4a442d4d364a2e7257"
+    },
+    {
+      "bytes": 2080,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/364398.json",
+      "sha256": "e729407ba8b13cc9f90a76b7beec8b4e165746001406a85edd8b8e3e8b1d9d98"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/370088.json",
+      "sha256": "1a248812694b4ef49c7bd7fed00fa7c36617163c9f8c462719d20c2c64dcaa2c"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/371486.json",
+      "sha256": "d4044e9fa9b3a76d22f476029c617cf202e8669a6c40c5daad21660a0366fb1c"
+    },
+    {
+      "bytes": 2075,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/386278.json",
+      "sha256": "179762abc737d377e33ce2814d6a7ed7e41a9d3883e5c55cd4b5663c1cb8fc9e"
+    },
+    {
+      "bytes": 2171,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/400923.json",
+      "sha256": "4655643358caa073ca75e2482c688f3fa8f36c719626dd0f8894168f7037b602"
+    },
+    {
+      "bytes": 2166,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/419102.json",
+      "sha256": "7b83baa0392f353e4bbea8647110a50e80f9d94e4fbd24b49cabaf1ab487a692"
+    },
+    {
+      "bytes": 2169,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/422565.json",
+      "sha256": "b5e4f229f0013019165c0424561b885c00343fa29c79ee10619e8198fced427b"
+    },
+    {
+      "bytes": 2163,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/428956.json",
+      "sha256": "575544b0a8eb85987f425eda7a9999f8f8db7cbd0f9b0770db2e63f6fed26a24"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/430787.json",
+      "sha256": "1408c74b5684a116a5d752ae1ae80bf58035123ec41f2e5fee136e4d3760a4f6"
+    },
+    {
+      "bytes": 2078,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/440424.json",
+      "sha256": "7772c886f5e08775f8a378b60375e87916d56f5c43ce9541de63e8a84c90f1b5"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/451145.json",
+      "sha256": "b4e9e29d89d3a3548374ddb84fe0cbb42ccafe5ddd12426566b360de4ba90650"
+    },
+    {
+      "bytes": 2080,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/455515.json",
+      "sha256": "c9e2de7fb9bd8a1d037b0659de32879d28a7ecf246288704d8ec5793b8f18c26"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/470640.json",
+      "sha256": "928f5a0790aef601329734bedad002df8a0c53b0166569ba91875239245f9baf"
+    },
+    {
+      "bytes": 2181,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/472568.json",
+      "sha256": "861310232aee995630198d35fa32eec08f0c779d9b24dd3247f580ed9ea124f0"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/474537.json",
+      "sha256": "b7a019d14aea4b878c64950c66b015b73386e370acf4d67877904fbb345321d8"
+    },
+    {
+      "bytes": 2170,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/478562.json",
+      "sha256": "694f76d941a7c05c51eae19c02afc6a6ba1760772ddccfe165a5a16085dcf8c7"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/482470.json",
+      "sha256": "b8484545e32217a5bd3fc72a7112beb78595009dbc839cd22868be47666fe67d"
+    },
+    {
+      "bytes": 2168,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/501369.json",
+      "sha256": "ae3dc8d86859eb3cee88f856d2ae2a41f615a3234af4d6af2965bd4745a9f337"
+    },
+    {
+      "bytes": 2170,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/502658.json",
+      "sha256": "6d943e44d9f936e9e85f10a62e302646a53bcec9511b0c5d028f427611936890"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/514540.json",
+      "sha256": "3217f2ac220fc48a144523b515719c25dee080b4ca8ba2db1ba2c99a784bc10b"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/541084.json",
+      "sha256": "bd8b2b5c72cfad771416bd14ee6ff2b494cc579f546364d0356711532cd7a94c"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/546260.json",
+      "sha256": "94f75e0cf0b51dcb3ab1219a8ba8006040c98be000630523aea41da4e5abc9ef"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/562230.json",
+      "sha256": "0ea6be27e18b8730e58ad90bd23131acc97916d4136e123cf466687e1f5cd5ab"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/574594.json",
+      "sha256": "c2356d01140f9a83f62721a050c33474471f10f593c2d03f7785f33e8ceb0af8"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/575160.json",
+      "sha256": "ccc6434871fa0064014eb46ccca476d6e9c4d13d95d0d7c9741dfa7ac6e7a775"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/579173.json",
+      "sha256": "02693505e47b1527e11c31d7587b9ddcb64e908ee4753371bdb05acbb70aa340"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/598354.json",
+      "sha256": "3482dfadf2320dbf0673e5fa7101ac9d9b9a2754cb55cc1f166705240abb88a4"
+    },
+    {
+      "bytes": 2178,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/599465.json",
+      "sha256": "ac8bab2c2aa055a8a5bb5863b72b24c3bfcd78fd1aa7bf80b2c14c3e9cf1883b"
+    },
+    {
+      "bytes": 2180,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/606316.json",
+      "sha256": "ec32345ac865d876e17e54b045bae2fa36fdc8c61012445ff7ccbc40d0cba4af"
+    },
+    {
+      "bytes": 2171,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/615462.json",
+      "sha256": "290544193bf58c5365828f0ddfe3674c1586193a5dd5a43ab97cb35fd57b1684"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/616056.json",
+      "sha256": "aa093d7a8c12ae351ba589c46d3eda43c1af121abf29e233939462661a0cad37"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/621477.json",
+      "sha256": "81e09a916c338183a99e1e2461fcf2c92b798b0e64611c5279e106bcef8a9784"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/629822.json",
+      "sha256": "89a248c9b01b59e92967c5b7fc21934b68889bbf211185168a92fc821290c31b"
+    },
+    {
+      "bytes": 2175,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/653542.json",
+      "sha256": "2a3cbd1150d2e0ff60aaeb98baaa361e6b9ef3e51f0fce7d64dea9d5eafcce7b"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/657658.json",
+      "sha256": "b686ad1dcb9f8b9a3a466420ef49ca46c88123ba6fe552d2ac07e3d17c5d1acf"
+    },
+    {
+      "bytes": 2173,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/676864.json",
+      "sha256": "ab2b30ee77961f6508d0b2dae350f529ef8009d0cba31ed46585a5aa738c9b79"
+    },
+    {
+      "bytes": 2176,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/677517.json",
+      "sha256": "82dc2bd375105a00bcd1c59141708bba03dae477c8693b253f607ecbe6d77f8d"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/686449.json",
+      "sha256": "19cf6b5cc9642ef784f8bd0375a6bc30967d10da32204485b201041a41097316"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/688519.json",
+      "sha256": "38e026a7fcd99b90e0623ad52f4828375158c79c275070fb0c0d175d8ec7063f"
+    },
+    {
+      "bytes": 2174,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/692007.json",
+      "sha256": "5c512a2e8195c333e9bcf133a6d7683d973cb1519c4ec831386f4ec0ae4b40ba"
+    },
+    {
+      "bytes": 2175,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/706632.json",
+      "sha256": "fe662f8ead960751f912056bdaedfb5bb79ec4a1089bdd404855baecbd2600f5"
+    },
+    {
+      "bytes": 2179,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/711929.json",
+      "sha256": "80a7d7f0948029215091b95f4d9d034025fa53af9350ab871171c87b7548756b"
+    },
+    {
+      "bytes": 2172,
+      "path": "src/campaign/analytic/flat_psl4_hardware/runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation/shards/000001/tasks/716101.json",
+      "sha256": "69d692cf1a2384affda347a764fb59d23c2e946c73cefcbaf9b13322c47a4eea"
+    },
+    {
+      "bytes": 27127,
+      "path": "src/campaign/analytic/flat_psl4_hardware/test_packet.py",
+      "sha256": "818db34700bfa63a15ec40b3282e6b82b98715367d2c28e56ef3831107159537"
+    },
+    {
+      "bytes": 4207,
+      "path": "src/campaign/analytic/flat_psl4_hardware/verify_discovery.py",
+      "sha256": "b9a7d0fc152a5c79698608c62152477f8230edf3127b5082267bdcbd911822b6"
     },
     {
       "bytes": 2440,
@@ -2712,6 +3797,71 @@
     },
     {
       "bytes": 25,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/.gitignore",
+      "sha256": "670eb88f324c3030e46eb13d450d910c0292ad5f05db40c4de6c28a78050693b"
+    },
+    {
+      "bytes": 7116,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/HANDOFF.md",
+      "sha256": "854845a9f911d50ab281e8c05231f0abf5a66c7a8ae95265543e94e7d2dd2212"
+    },
+    {
+      "bytes": 4027,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/PUBLICATION_EXPORT.json",
+      "sha256": "81537cace00306119512d3f70e0db8b72c3153125ddf23482eaca9949c53c4b2"
+    },
+    {
+      "bytes": 1795,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/PUBLICATION_MANIFEST.json",
+      "sha256": "17ccae42a25f679d6b751ef5828d457caf886165ba114e103066d740d8798fc5"
+    },
+    {
+      "bytes": 4748,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/README.md",
+      "sha256": "a4c29d5f6a7d0ce759298d28a2abc3ee7cf9470577d82c1b3f1d764adb3a495c"
+    },
+    {
+      "bytes": 28629,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/contact_homotopy.py",
+      "sha256": "cad76f2affd749b67349e57d4cc286afe50cfd84ad43d6ee25900251785b8788"
+    },
+    {
+      "bytes": 12390,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/freeze_receipt.py",
+      "sha256": "2d283b46344917def62cf347cf8111a5b4c5a21e59fde6c8363e6463f35c37e0"
+    },
+    {
+      "bytes": 1499,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/literature.json",
+      "sha256": "c7c128e2d6515b9c7ca09b1a78807f1e5c79a58360017eeade8c2f8bc03a3aef"
+    },
+    {
+      "bytes": 21870,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/pseudo_arclength.py",
+      "sha256": "43686b652abd1627145575fdb3b96ce60e1ce5958080ad54242d2ff78175a813"
+    },
+    {
+      "bytes": 3284,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/public_replay.py",
+      "sha256": "13569f890a10d2d648637b36fcbada39c6c77870dd5281f34942b40a394d4891"
+    },
+    {
+      "bytes": 12791,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/receipt.json",
+      "sha256": "95fbccab02529aa891751c3032d38165360172498720aa5ed031d1b15b8e78f5"
+    },
+    {
+      "bytes": 7839,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/replay.py",
+      "sha256": "6755f5a69093fa178f5530ffce8828d53909cbf48c704b3e035ed6566acde9f9"
+    },
+    {
+      "bytes": 27,
+      "path": "src/campaign/geometry/heilbronn_contact_homotopy_interval/requirements.txt",
+      "sha256": "79abe694f9f4e41b0494b8c944d257942b5e34c8f28a342b0fd7f39703e963cb"
+    },
+    {
+      "bytes": 25,
       "path": "src/campaign/geometry/heilbronn_flow_topology_global/.gitignore",
       "sha256": "81e271d4422393e3d29464a347e947c574d2868f63a51389a969d69a611a01a9"
     },
@@ -3349,6 +4499,71 @@
       "bytes": 27663,
       "path": "src/campaign/geometry/thomson_282_topology_escape/search.py",
       "sha256": "0afa1b045b7379b63aea9854268b72de3ee1df9a4485d5c6400d293c91dc2e13"
+    },
+    {
+      "bytes": 66,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/.gitignore",
+      "sha256": "cbc3693062194d8070bec7be8e4bcdff257ab616289e8df9df75954a2afd7e0b"
+    },
+    {
+      "bytes": 3242,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/HANDOFF.md",
+      "sha256": "2d931e94085b505962b2c466e8b27b0aa1ba871a9fb53324af72ded9253cfdce"
+    },
+    {
+      "bytes": 1074,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/LICENSE",
+      "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "bytes": 3307,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/PROVENANCE.md",
+      "sha256": "c053453ac418e672b13ad5f97c078f4b03ed1e6ebf0e358f1b7b87fbb2e1d8b9"
+    },
+    {
+      "bytes": 4001,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/PUBLICATION_EXPORT.json",
+      "sha256": "05ae865104365acb112b480f5ece9e5e38aaaa7ad7775dc224a52ea3f27c9bf4"
+    },
+    {
+      "bytes": 2658,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/PUBLICATION_MANIFEST.json",
+      "sha256": "ca4be3dcd083f1e0ad33daeca48ecadc55ba9e0863c9c0c5806b0bb12a2c6604"
+    },
+    {
+      "bytes": 3219,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/README.md",
+      "sha256": "400f9c1822d7652cdb22e06326497ae5b0676f0e8ab409d35396bf83a9c12d48"
+    },
+    {
+      "bytes": 9055,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/freeze_publication.py",
+      "sha256": "acc9570bb10bca06eb4a1d6233b2fd1d9819a9425d15538c04b078548597da21"
+    },
+    {
+      "bytes": 5066,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/receipt.json",
+      "sha256": "61d5492bb1535cf1a685ec335925d5e11603d568cbb44f1fb35caa3d31e8acd2"
+    },
+    {
+      "bytes": 20889,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/replay_exact.py",
+      "sha256": "8e8aa086332e1a34001d592d845558d7c2eb10b5fba25b3111f072a277037aa8"
+    },
+    {
+      "bytes": 43,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/requirements.txt",
+      "sha256": "26113773482037f399d36f0a9f6a9c8f82641f87f92c85cfbcf66ba07a107003"
+    },
+    {
+      "bytes": 19439,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/search.py",
+      "sha256": "d3c2307ab4e6149ddbe97e5a28b070fa826ff835a30b7c30b206468782084e5a"
+    },
+    {
+      "bytes": 3377,
+      "path": "src/campaign/geometry/thomson_c560_distant_pentagon/test_packet.py",
+      "sha256": "6935dea4e6446014858ddcd0c65dec2103521bba6e48fd19f14277f0d50012fb"
     },
     {
       "bytes": 19321,

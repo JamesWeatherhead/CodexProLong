@@ -1,0 +1,23 @@
+{
+  "audit": {
+    "artifact_set_sha256": "58ef80c142d9fc907ba0e716147f3ebb32a952fe0f4eaa7c89ed3a7020a18a31",
+    "complete_shards": 2,
+    "duplicate_task_count": 0,
+    "exactly_once": false,
+    "expected_nonempty_shards": 8192,
+    "expected_shards": 8192,
+    "expected_tasks": 730810,
+    "initialization_self_test": "verified",
+    "misplaced_task_count": 0,
+    "missing_task_count": 730628,
+    "schema": "psl4-metal-run-audit-v2",
+    "status": "incomplete",
+    "task_receipt_count": 182,
+    "unique_task_count": 182
+  },
+  "generated_at": "2026-08-15T10:39:21.179238+00:00",
+  "retained_relative_path": "runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation",
+  "run_name": "psl4-metal-run-20260815T104000Z-validation",
+  "schema": "psl4-metal-retained-validation-audit-v1",
+  "status": "pass"
+}

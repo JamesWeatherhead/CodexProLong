@@ -77,10 +77,23 @@ completes three supplied PSL-4 classes in sub-millisecond time, but cold search
 stalls and its solve-only cost is 46.5× slower for MiniCard and 661.9× slower
 for CaDiCaL than even the raw C++ DFS. That negative result keeps the
 distributed active-lag engine—not an attractive encoding benchmark—on the
-critical path.
+critical path. The next implementation step is now real, not aspirational: an
+exact Apple Metal breadth-first kernel row-matches both reference shards across
+all 182 tasks. Its retained, fsynced two-stream pilot processes 6.127 billion
+nodes in 41.19 seconds (148.76 million nodes/second), projecting 46.78 hours
+with a measured shard-size envelope of 38.16–56.42 hours. A separate eight-
+shard shadow gate then completed 733/733 unique tasks and 25.80 billion nodes
+with zero counter, placement, or answer mismatches. The full two-stream shadow
+has since recovered a fourth symmetry-distinct PSL-4 class; an independent CPU
+replay matched all counters exactly, while the unchanged Arena verifier scored
+it `1.5233061447261282`, so it was not submitted. The proof resumed after that
+checkpoint. This remains an operational result, not a completeness claim:
+success still requires all 730,810 tasks exactly once across all 8,192 shards
+and an independent final audit.
 [Distributed engine →](src/campaign/flat_psl4_global_exact/README.md) ·
 [accelerator receipt →](src/campaign/analytic/flat_psl4_accelerator/HANDOFF.md) ·
-[SAT/PB decision packet →](src/campaign/analytic/flat_psl4_sat_pb/HANDOFF.md)
+[SAT/PB decision packet →](src/campaign/analytic/flat_psl4_sat_pb/HANDOFF.md) ·
+[Metal engine and durable pilot →](src/campaign/analytic/flat_psl4_hardware/README.md)
 
 The C2 lane now also has an independently audited native-grid publication
 packet. Its bounded Mac pilot ran 200 member-steps at `N=1,999,999` and did
@@ -92,6 +105,28 @@ optimizer, frozen verifier, and private acceptance adapter, so it is not an
 end-to-end optimizer or score recomputation. The detached manifest SHA-256 is
 `1766c2348daa062be65d98a8cc269108e0ac192e47a01babcb41609cedf9877b`.
 [C2 native-basin packet →](src/campaign/analysis/second_autocorrelation_native_basin/public_packet/README.md)
+
+The Thomson lane also tested a genuinely different finite topology family:
+seven private, hash-identified C560 dual outputs at pentagon separation four,
+with four spectral realizations each. All 28 initial hulls reproduce their
+source graphs exactly; after relaxation, 20 retain the source graph, 24 remain
+defect-free, and the endpoints span seven exact graph classes. None approaches
+the gate. The best unrestricted endpoint is a scarred topology at
+`37148.1301703428` (short by `0.8357528805`), while the best source-retaining
+endpoint is `37148.250685079416` (short by `0.9562676172`). The packet therefore
+records a bounded negative result without calling the scarred winner a C560
+fullerene construction.
+[C560 distant-pentagon audit →](src/campaign/geometry/thomson_c560_distant_pentagon/HANDOFF.md)
+
+For Heilbronn `n=11`, a separate quadratic contact-homotopy program exhausts
+all `17 × 107 = 1,819` distant labelled active-triangle exchanges outside the
+previous top-58 pool, then pseudo-arclength-tracks every one of the 648 direct
+failures. Independent replay authenticates 1,200 endpoint roots and 72
+polishes. Twelve paths return to the incumbent; the next distinct high basin is
+only `0.03408442492012185`, and no path clears the gate. The bounded receipt
+also preserves the honest limit: 619 real branches remain unresolved beyond
+the explicit caps, so this is a closed search lane—not a global upper bound.
+[Heilbronn contact-homotopy census →](src/campaign/geometry/heilbronn_contact_homotopy_interval/HANDOFF.md)
 
 ## What this repository is
 
@@ -201,6 +236,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - ⚙️ [Distributed bit-parallel exact PSL-4 enumerator](src/campaign/flat_psl4_global_exact/HANDOFF.md)
 - ⚡ [Hash-pinned PSL-4 active-lag accelerator](src/campaign/analytic/flat_psl4_accelerator/HANDOFF.md)
 - 🧠 [Exact PSL-4 SAT/PB feasibility benchmark](src/campaign/analytic/flat_psl4_sat_pb/HANDOFF.md)
+- 🖥️ [Exact Apple Metal PSL-4 engine and durable dispatcher](src/campaign/analytic/flat_psl4_hardware/README.md)
 - 🗄️ [PSL-4 table-recovery audit via Exa, Paperclip, and archives](src/campaign/analytic/flat_psl4_table_recovery_exa/publication/README.md)
 - 📜 [Complete Bober/Landau factorial-ratio certificate audit](src/campaign/discrete/pnt_factorial_ratio_landau/HANDOFF.md)
 - ⚛️ [Exact 5,200-atom Landau packing dual](src/campaign/discrete/pnt_landau_atom_packing/HANDOFF.md)
@@ -212,8 +248,10 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🔐 [Heilbronn q=143 exact support closure](src/campaign/geometry/heilbronn_q143_cegis/HANDOFF.md)
 - 🧩 [Heilbronn q=144–220 rational-mesh closure](src/campaign/geometry/heilbronn_rational_mesh_global/HANDOFF.md)
 - 🌊 [Heilbronn continuous topology/death–rebirth search](src/campaign/geometry/heilbronn_flow_topology_global/HANDOFF.md)
+- 🧭 [Heilbronn distant-contact homotopy census](src/campaign/geometry/heilbronn_contact_homotopy_interval/HANDOFF.md)
 - 🪐 [Thomson N=72→282 topology escape](src/campaign/geometry/thomson_282_topology_escape/HANDOFF.md)
 - 🌐 [Thomson N=282 scar/dislocation escape](src/campaign/geometry/thomson_282_scar_escape/README.md)
+- 🕸️ [Thomson C560 distant-pentagon spectral audit](src/campaign/geometry/thomson_c560_distant_pentagon/HANDOFF.md)
 - 📐 [Min-distance adjacent-topology escape](src/campaign/geometry/min_distance_ratio_global_escape/HANDOFF.md)
 - 🔬 [Rectangle five-million-state precision audit](src/campaign/geometry/rectangle_precision_escape/HANDOFF.md)
 - 🧬 [2026 evolver asset sweep](src/campaign/evolver_asset_sweep_2026/HANDOFF.md)

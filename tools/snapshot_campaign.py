@@ -341,6 +341,7 @@ UNPUBLISHED_SOURCE_PREFIXES = {
     Path("analytic/flat_psl4_table_recovery_exa"),
     Path("analytic/flat_psl4_hardware"),
     Path("discrete/difference_exact_synthesis"),
+    Path("discrete/difference_exact_lns"),
     Path("discrete/prime_number_theorem_global_proof"),
     Path("discrete/pnt_factorial_ratio_landau"),
     Path("discrete/pnt_landau_atom_packing"),
@@ -353,13 +354,16 @@ UNPUBLISHED_SOURCE_PREFIXES = {
     Path("geometry/circle_packing_multicontact_global"),
     Path("geometry/claudeevolve_circle_recovery"),
     Path("geometry/heilbronn_flow_topology_global"),
+    Path("geometry/heilbronn_contact_homotopy_interval"),
     Path("geometry/thomson_282_scar_escape"),
+    Path("geometry/thomson_c560_distant_pentagon"),
 }
 
 PUBLICATION_MANIFESTS = (
     Path("analytic/flat_psl4_accelerator/PUBLICATION_MANIFEST.json"),
     Path("analytic/flat_psl4_sat_pb/PUBLICATION_MANIFEST.json"),
     Path("analytic/flat_psl4_table_recovery_exa/PUBLICATION_MANIFEST.json"),
+    Path("analytic/flat_psl4_hardware/PUBLICATION_MANIFEST.json"),
     Path("discrete/pnt_factorial_ratio_landau/PUBLICATION_MANIFEST.json"),
     Path("discrete/pnt_factorial_ratio_higher_height/PUBLICATION_MANIFEST.json"),
     Path("discrete/pnt_landau_atom_packing/PUBLICATION_MANIFEST.json"),
@@ -372,7 +376,9 @@ PUBLICATION_MANIFESTS = (
     Path("discrete/difference_interval_constructions/PUBLICATION_MANIFEST.json"),
     Path("geometry/claudeevolve_circle_recovery/PUBLICATION_MANIFEST.json"),
     Path("geometry/heilbronn_flow_topology_global/PUBLICATION_MANIFEST.json"),
+    Path("geometry/heilbronn_contact_homotopy_interval/PUBLICATION_MANIFEST.json"),
     Path("geometry/thomson_282_scar_escape/PUBLICATION_MANIFEST.json"),
+    Path("geometry/thomson_c560_distant_pentagon/PUBLICATION_MANIFEST.json"),
 )
 
 # These packets authenticate their own exact file set and must be copied
@@ -604,14 +610,27 @@ def publication_allowlist(publication: dict[str, Any]) -> list[dict[str, Any]]:
     """Normalize supported publication-manifest allowlist schemas."""
     entries = publication.get("include", publication.get("allowlist"))
     if entries is not None:
-        if not isinstance(entries, list):
-            raise ValueError("publication manifest allowlist must be a list")
-        return entries
+        if isinstance(entries, list):
+            return entries
+        if isinstance(entries, dict):
+            return [{"path": path, **metadata} for path, metadata in entries.items()]
+        raise ValueError("publication manifest allowlist must be a list or object")
 
     files = publication.get("files")
     if isinstance(files, dict):
         return [{"path": path, **metadata} for path, metadata in files.items()]
+    if isinstance(files, list):
+        return files
     raise ValueError("publication manifest has no allowlist")
+
+
+def relative_file_set(root: Path) -> set[Path]:
+    """Return packet-local file paths, never paths relative to the repo root."""
+    return {
+        path.relative_to(root)
+        for path in root.rglob("*")
+        if path.is_file()
+    }
 
 
 def exact_publication_paths(
@@ -828,14 +847,14 @@ def mirror_source(source: Path) -> list[dict[str, Any]]:
             shutil.rmtree(packet_destination)
         for relative in relatives:
             copy_relative(relative)
-        exported = {
-            path.relative_to(destination_root)
-            for path in packet_destination.rglob("*")
-            if path.is_file()
-        }
+        exported = relative_file_set(packet_destination)
         expected = {relative.relative_to(packet_root) for relative in relatives}
         if exported != expected:
-            raise ValueError(f"exact publication export mismatch: {packet_root}")
+            raise ValueError(
+                f"exact publication export mismatch: {packet_root}; "
+                f"extra={sorted(map(str, exported - expected))}; "
+                f"missing={sorted(map(str, expected - exported))}"
+            )
 
     difference_receipt = json.loads(
         (source / "discrete/difference_exact_synthesis/receipt.json").read_text(

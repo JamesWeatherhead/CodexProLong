@@ -131,6 +131,39 @@ class SnapshotTests(unittest.TestCase):
             [{"path": "README.md", "sha256": "b" * 64, "bytes": 2}],
         )
 
+    def test_publication_allowlist_accepts_files_list_schema(self) -> None:
+        entries = [
+            {"path": "README.md", "sha256": "a" * 64, "bytes": 12},
+            {"path": "receipt.json", "sha256": "b" * 64, "bytes": 34},
+        ]
+        self.assertEqual(MODULE.publication_allowlist({"files": entries}), entries)
+
+    def test_publication_allowlist_normalizes_include_object_schema(self) -> None:
+        publication = {
+            "include": {
+                "README.md": {"sha256": "a" * 64, "bytes": 12},
+                "receipt.json": {"sha256": "b" * 64, "bytes": 34},
+            }
+        }
+        self.assertEqual(
+            MODULE.publication_allowlist(publication),
+            [
+                {"path": "README.md", "sha256": "a" * 64, "bytes": 12},
+                {"path": "receipt.json", "sha256": "b" * 64, "bytes": 34},
+            ],
+        )
+
+    def test_relative_file_set_is_packet_local(self) -> None:
+        with tempfile.TemporaryDirectory() as temporary:
+            packet = Path(temporary) / "src" / "campaign" / "analysis" / "packet"
+            (packet / "configs").mkdir(parents=True)
+            (packet / "README.md").write_text("packet\n", encoding="utf-8")
+            (packet / "configs" / "run.json").write_text("{}\n", encoding="utf-8")
+            self.assertEqual(
+                MODULE.relative_file_set(packet),
+                {Path("README.md"), Path("configs/run.json")},
+            )
+
     def test_exact_publication_paths_accepts_self_allowlisted_packet(self) -> None:
         with tempfile.TemporaryDirectory() as temporary:
             source = Path(temporary)

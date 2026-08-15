@@ -1,0 +1,32 @@
+{
+  "exa": [
+    {
+      "request_id": "d959921f245b9830156a81d01c4d8c5a",
+      "scope": "2025-2026 Heilbronn n=11 exact-coordinate, homotopy, interval, and source-code assets",
+      "retained_response_body": false
+    },
+    {
+      "request_id": "e244789be402a5eafc3165f4de96cf8d",
+      "scope": "2026 certified unit-triangle Heilbronn paper and associated public assets",
+      "retained_response_body": false
+    }
+  ],
+  "paperclip": [
+    {
+      "citation": "https://paperclip.gxl.ai/citations/papers/arx_2511.02864#L59-L60,L624-L631",
+      "paper": "Mathematical exploration and discovery at scale",
+      "scope": "AlphaEvolve Heilbronn method and n=11 result"
+    },
+    {
+      "citation": "https://paperclip.gxl.ai/citations/papers/arx_2512.14505#L233-L238",
+      "paper": "Solving the Heilbronn Triangle Problem using Global Optimization Methods",
+      "scope": "larger-n global-optimization limits and orientation-count direction"
+    },
+    {
+      "citation": "https://paperclip.gxl.ai/citations/papers/arx_2512.01355#L5-L10,L42-L49,L61-L69",
+      "paper": "A priori bounds for certified Krawczyk homotopy tracking",
+      "scope": "affine parameter homotopy and certified predictor-corrector background"
+    }
+  ],
+  "asset_conclusion": "No new public n=11 coordinate table beyond the already-audited AlphaEvolve/LoongFlow construction was found. The 2026 certified unit-triangle result covers n <= 8, and the MIT spiralulam/heilbronn repository concerns the unit square."
+}

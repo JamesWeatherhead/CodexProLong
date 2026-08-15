@@ -1,0 +1,52 @@
+{
+  "answer_bits": "0011001101001101100011001010100101010000110100000101000000000111111100",
+  "answer_bits_sha256": "edb210a27094102ba2becc16f2134ac8964ae79d90c362ba25d7ae15ba9d459a",
+  "arena_replay": {
+    "candidate_sha256": "9b2bfd6a93d6788fffab5e5dbb06e427c325c833a8f3fe841c7840592272b3fe",
+    "clears_first_place_gate": false,
+    "leader_score": 1.2807274949642549,
+    "margin": -0.24257864976187338,
+    "min_improvement": 1e-06,
+    "receipt_sha256": "7d63c9b23b82d9098a35091e044d414b4dc90571a0906d8bed2ffc4009a7e374",
+    "score": 1.5233061447261282,
+    "verifier_sha256": "ff991bd84aec2b5b5d44f58a68dba00f961e01d517ec1de3225e0902f0f2fce2"
+  },
+  "autocorrelations_sha256": "b25a2510a72e2f17f0cad2b79fe60415cf0093e742d1e030d2296d033653f79c",
+  "canonical_under_eight_symmetries": true,
+  "cpu_replay": {
+    "binary_sha256": "958173f19d5c7b1e437ff783a2413e8ce509b59d1191ce30a0fa4041793cb546",
+    "counters": {
+      "central_rejects": 438,
+      "exact_checks": 220369636,
+      "exact_prunes": 117766375,
+      "leaves": 439,
+      "nodes": 103573514,
+      "strong_cheap_prunes": 87570847,
+      "valid_leaves": 1
+    },
+    "journal_sha256": "a51d4daebb1b61b910983cf4068962894c393cb0f7447cd423ecf3e7cd9702c5",
+    "source_sha256": "a9c7dfd13aeb06302d192215a49888552925f76b3a96e33b2450d16661363b42"
+  },
+  "exact_peak_sidelobe": 4,
+  "generated_at": "2026-08-15T11:42:17Z",
+  "metal_replay": {
+    "answers_sha256": "f9caa95a72cfefdc27cac6858be227814970d08697bef6b1c590c4c0a49c40f3",
+    "binary_sha256": "f1290781dd7ec6935e4e57d5eca1d9e3327ef9f597a99a7713a2faa210510e7e",
+    "counters": {
+      "central_rejects": 438,
+      "exact_checks": 220369636,
+      "exact_prunes": 117766375,
+      "leaves": 439,
+      "nodes": 103573514,
+      "strong_cheap_prunes": 87570847,
+      "valid_leaves": 1
+    },
+    "shard": 64,
+    "shard_receipt_sha256": "59916d886ac136b7aad88baf8e7e5b169d2aa210d36fcaa04e6bff2914b97f41",
+    "source_sha256": "d10accf9ebaf7355e11df53df2808736271dbd5019e829cb91418a7d8ba18893",
+    "task_index": 549676,
+    "task_receipt_sha256": "6a72b48f1dd6861ab2723ec95c051ff9600fc7dd16a73be604a1aa10f8ce572d"
+  },
+  "schema": "psl4-metal-discovered-class-v1",
+  "symmetry_distinct_from_retained_public_fixtures": true
+}

@@ -1,0 +1,86 @@
+{
+  "binary_sha256": "6e912e54c2b19ba5096c5fdf3eae5e7e919356835501b896e43e63996174de09",
+  "comparison": {
+    "0": {
+      "counter_or_answer_mismatches": 0,
+      "reference_sha256": "7bca18847f1c8590a2493f1f1a01454c9a50b1c89a6d8b38aa85b9a29a91d504",
+      "task_count": 84,
+      "totals": {
+        "central_rejects": 5209,
+        "exact_checks": 5513165177,
+        "exact_prunes": 2883827168,
+        "leaves": 5209,
+        "nodes": 2657274264,
+        "strong_cheap_prunes": 2380084186,
+        "valid_leaves": 0
+      }
+    },
+    "1": {
+      "counter_or_answer_mismatches": 0,
+      "reference_sha256": "61dbf232d532c06059e1bb011957308316435ee3a109658868d9125b345cbb9e",
+      "task_count": 98,
+      "totals": {
+        "central_rejects": 6769,
+        "exact_checks": 7179512531,
+        "exact_prunes": 3746927933,
+        "leaves": 6769,
+        "nodes": 3469781398,
+        "strong_cheap_prunes": 3116372541,
+        "valid_leaves": 0
+      }
+    }
+  },
+  "complete_shards": 2,
+  "config_schema": "psl4-metal-isolated-run-v2",
+  "generated_at": "2026-08-15T10:39:21.180298+00:00",
+  "initialization_engine_sha256": "d6fae0b3b2f6b7f87d72a5117993e0976c08bf062b01475131042701e34b9cd4",
+  "initialization_self_test": "SELFTEST random_parents=1408 fixtures=3",
+  "memory_evidence": {
+    "direct_child_max_resident_size_bytes": 10447060992,
+    "direct_child_swaps": 0,
+    "measurement_scope": "ru_maxrss is the maximum resident size of a directly launched bare-engine child, not aggregate concurrent GPU allocation",
+    "physical_memory_bytes": 51539607552,
+    "source_receipt_sha256": "259ef40a6693f553c6d6938db2ff94b6c9f85969153e944a98d025c5d2e3d360",
+    "tested_stream_ceiling": 2,
+    "untested_streams": "no safety or throughput claim"
+  },
+  "schema": "psl4-metal-durable-dispatcher-benchmark-v1",
+  "scope": "exactly two reference shards; never a production run",
+  "shards": [
+    0,
+    1
+  ],
+  "source_sha256": "d10accf9ebaf7355e11df53df2808736271dbd5019e829cb91418a7d8ba18893",
+  "status": "pass",
+  "task_external_wall_sums": {
+    "0": 32.41007666400003,
+    "1": 40.79506904100001
+  },
+  "task_receipts": 182,
+  "task_size_sample": {
+    "max_nodes": 3688507832,
+    "mean_nodes": 3058258137.909091,
+    "min_nodes": 2494612395,
+    "sha256": "8b4dbc1a2180a043afdb5095f08e219d06c1128797dc4504df45e10f9b9b79fa",
+    "shards": 11
+  },
+  "two_stream": {
+    "combined_nodes": 6127055662,
+    "external_wall_seconds": 41.188196708,
+    "nodes_per_second": 148757560.45930362,
+    "sample_max_eta_hours": 56.42338085474321,
+    "sample_min_eta_hours": 38.160272841749006,
+    "speedup_vs_active_8_worker_cpu_eta": 16.62314053962178,
+    "whole_run_eta_hours": 46.7824040307914
+  },
+  "validation_provenance": {
+    "artifact_set_sha256": "58ef80c142d9fc907ba0e716147f3ebb32a952fe0f4eaa7c89ed3a7020a18a31",
+    "audit_evidence_sha256": "8e928283f88540b697da213d0f242fa4b3cd81251af0851df3a88b0454ba51ac",
+    "config_sha256": "3db31d5b012fb9fe784c7810b45fd22369339d278eea385838019a4281bc76a4",
+    "initialization_sha256": "185b9864ccda3e39ec93df467a8f35e11970be31a61e938fb851c3ad6daf79a2",
+    "retained": true,
+    "retained_relative_path": "runs/20260815T104000Z/psl4-metal-run-20260815T104000Z-validation",
+    "run_name": "psl4-metal-run-20260815T104000Z-validation"
+  },
+  "virtual_shards": 8192
+}

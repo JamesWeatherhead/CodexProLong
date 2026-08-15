@@ -1,0 +1,96 @@
+{
+  "canonical_manifest": "geometry/thomson_c560_distant_pentagon/PUBLICATION_MANIFEST.json",
+  "canonical_manifest_sha256": "ca4be3dcd083f1e0ad33daeca48ecadc55ba9e0863c9c0c5806b0bb12a2c6604",
+  "files": [
+    {
+      "canonical_bytes": 66,
+      "canonical_sha256": "cbc3693062194d8070bec7be8e4bcdff257ab616289e8df9df75954a2afd7e0b",
+      "path": ".gitignore",
+      "portable_path_rewrite": false,
+      "public_bytes": 66,
+      "public_sha256": "cbc3693062194d8070bec7be8e4bcdff257ab616289e8df9df75954a2afd7e0b"
+    },
+    {
+      "canonical_bytes": 3242,
+      "canonical_sha256": "2d931e94085b505962b2c466e8b27b0aa1ba871a9fb53324af72ded9253cfdce",
+      "path": "HANDOFF.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 3242,
+      "public_sha256": "2d931e94085b505962b2c466e8b27b0aa1ba871a9fb53324af72ded9253cfdce"
+    },
+    {
+      "canonical_bytes": 1074,
+      "canonical_sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634",
+      "path": "LICENSE",
+      "portable_path_rewrite": false,
+      "public_bytes": 1074,
+      "public_sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "canonical_bytes": 3307,
+      "canonical_sha256": "c053453ac418e672b13ad5f97c078f4b03ed1e6ebf0e358f1b7b87fbb2e1d8b9",
+      "path": "PROVENANCE.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 3307,
+      "public_sha256": "c053453ac418e672b13ad5f97c078f4b03ed1e6ebf0e358f1b7b87fbb2e1d8b9"
+    },
+    {
+      "canonical_bytes": 3219,
+      "canonical_sha256": "400f9c1822d7652cdb22e06326497ae5b0676f0e8ab409d35396bf83a9c12d48",
+      "path": "README.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 3219,
+      "public_sha256": "400f9c1822d7652cdb22e06326497ae5b0676f0e8ab409d35396bf83a9c12d48"
+    },
+    {
+      "canonical_bytes": 9055,
+      "canonical_sha256": "acc9570bb10bca06eb4a1d6233b2fd1d9819a9425d15538c04b078548597da21",
+      "path": "freeze_publication.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 9055,
+      "public_sha256": "acc9570bb10bca06eb4a1d6233b2fd1d9819a9425d15538c04b078548597da21"
+    },
+    {
+      "canonical_bytes": 20889,
+      "canonical_sha256": "8e8aa086332e1a34001d592d845558d7c2eb10b5fba25b3111f072a277037aa8",
+      "path": "replay_exact.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 20889,
+      "public_sha256": "8e8aa086332e1a34001d592d845558d7c2eb10b5fba25b3111f072a277037aa8"
+    },
+    {
+      "canonical_bytes": 43,
+      "canonical_sha256": "26113773482037f399d36f0a9f6a9c8f82641f87f92c85cfbcf66ba07a107003",
+      "path": "requirements.txt",
+      "portable_path_rewrite": false,
+      "public_bytes": 43,
+      "public_sha256": "26113773482037f399d36f0a9f6a9c8f82641f87f92c85cfbcf66ba07a107003"
+    },
+    {
+      "canonical_bytes": 19439,
+      "canonical_sha256": "d3c2307ab4e6149ddbe97e5a28b070fa826ff835a30b7c30b206468782084e5a",
+      "path": "search.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 19439,
+      "public_sha256": "d3c2307ab4e6149ddbe97e5a28b070fa826ff835a30b7c30b206468782084e5a"
+    },
+    {
+      "canonical_bytes": 3377,
+      "canonical_sha256": "6935dea4e6446014858ddcd0c65dec2103521bba6e48fd19f14277f0d50012fb",
+      "path": "test_packet.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 3377,
+      "public_sha256": "6935dea4e6446014858ddcd0c65dec2103521bba6e48fd19f14277f0d50012fb"
+    },
+    {
+      "canonical_bytes": 5066,
+      "canonical_sha256": "61d5492bb1535cf1a685ec335925d5e11603d568cbb44f1fb35caa3d31e8acd2",
+      "path": "receipt.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 5066,
+      "public_sha256": "61d5492bb1535cf1a685ec335925d5e11603d568cbb44f1fb35caa3d31e8acd2"
+    }
+  ],
+  "policy": "Canonical bytes are hash-checked before export. Absolute host paths in manifest-approved JSON/JSONL are rewritten to portable campaign-relative paths; all other bytes are copied verbatim.",
+  "schema_version": 1
+}
