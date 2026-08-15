@@ -333,6 +333,9 @@ UNPUBLISHED_WORK_IN_PROGRESS = {
     Path("discrete/prime_number_theorem/tail_select_mip.py"),
 }
 UNPUBLISHED_SOURCE_PREFIXES = {
+    Path("analytic/flat_psl4_accelerator"),
+    Path("analytic/flat_psl4_sat_pb"),
+    Path("analytic/flat_psl4_table_recovery_exa"),
     Path("discrete/difference_exact_synthesis"),
     Path("discrete/prime_number_theorem_global_proof"),
     Path("geometry/circle_packing_multicontact_precision"),
@@ -343,6 +346,7 @@ UNPUBLISHED_SOURCE_PREFIXES = {
 }
 
 PUBLICATION_MANIFESTS = (
+    Path("analytic/flat_psl4_accelerator/PUBLICATION_MANIFEST.json"),
     Path("geometry/circle_packing_multicontact_precision/PUBLICATION_MANIFEST.json"),
     Path("geometry/rectangle_multicontact_precision/PUBLICATION_MANIFEST.json"),
     Path("geometry/circle_packing_multicontact_global/PUBLICATION_MANIFEST.json"),
@@ -657,6 +661,12 @@ def mirror_source(source: Path) -> list[dict[str, Any]]:
         manifest_path = source / manifest_relative
         publication = json.loads(manifest_path.read_text(encoding="utf-8"))
         packet_root = manifest_relative.parent
+        packet_destination = destination_root / packet_root
+        if packet_destination.exists():
+            # Publication packets are allowlist snapshots. Purge the previous
+            # export first so a file removed by a newer manifest cannot linger
+            # in the public tree as stale, untracked evidence.
+            shutil.rmtree(packet_destination)
         export_entries: list[dict[str, Any]] = []
         entries = publication.get("include", publication.get("allowlist"))
         if entries is None:

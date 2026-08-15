@@ -46,13 +46,17 @@ the source of truth for automation.
 
 The length-70 PSL-4 search is now a distributed exact program rather than a
 single heroic process. The C++ enumerator assigns all 730,810 tasks through
-deterministic SplitMix64 virtual shards; a new Python dispatcher schedules
-those shards across worker processes, validates source and binary hashes,
-writes atomic per-shard receipts, and refuses global completion unless every
-task appears exactly once with a final `COMPLETE` row. An 825-task capped
-profile exposed the expected heavy tail—only 12.7% finished below 100,000
-nodes—so dynamic virtual-shard scheduling is materially useful, not ornamental.
-[Source, profile, raw journals, and replay contract →](src/campaign/flat_psl4_global_exact/README.md)
+deterministic SplitMix64 virtual shards; a Python dispatcher schedules those
+shards across workers, validates source and binary hashes, writes atomic
+per-shard receipts, and refuses global completion unless every task appears
+exactly once with a final `COMPLETE` row. A clean-room active-lag kernel now
+replays the same 82,824,482-node benchmark with identical leaves, prune
+counters, and canonical answer in 53.29 seconds instead of 77.85 seconds—a
+1.46× speedup. That still projects to a multi-week full traversal, so the next
+architecture is an exact SAT/PB encoding of all 69 autocorrelation bounds,
+seeded only with a known witness to validate propagation and enumeration.
+[Distributed engine →](src/campaign/flat_psl4_global_exact/README.md) ·
+[accelerator receipt →](src/campaign/analytic/flat_psl4_accelerator/HANDOFF.md)
 
 ## What this repository is
 
@@ -157,6 +161,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🛰️ [Flat-polynomial PSL-4 archival recovery](src/campaign/flat_psl4_recovery/HANDOFF.md)
 - 🧮 [Exact 4.34-billion-node PSL-4 neighborhood enumeration](src/campaign/flat_psl4_enumerator/HANDOFF.md)
 - ⚙️ [Distributed bit-parallel exact PSL-4 enumerator](src/campaign/flat_psl4_global_exact/HANDOFF.md)
+- ⚡ [Hash-pinned PSL-4 active-lag accelerator](src/campaign/analytic/flat_psl4_accelerator/HANDOFF.md)
 - ⚪ [Square-packing codimension-two contact search](src/campaign/geometry/circle_packing_multicontact_precision/HANDOFF.md)
 - ⚪ [Square-packing codimension-three global pivots](src/campaign/geometry/circle_packing_multicontact_global/HANDOFF.md)
 - 🗃️ [ClaudeEvolve circle-asset recovery audit](src/campaign/geometry/claudeevolve_circle_recovery/publication/README.md)

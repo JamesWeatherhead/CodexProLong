@@ -95,6 +95,11 @@ chain-of-thought.
   after exact coverage validation. A deterministic 825-task profile found 105
   completions below 100,000 nodes and 720 capped tasks, quantifying the heavy
   tail that motivated dynamic scheduling.
+- Replaced the hottest exact PSL-4 feasibility kernels with precomputed active
+  lag tables. A full 82,824,482-node paired task retained identical leaves,
+  prune counters, and canonical output while improving from 77.85 to 53.29
+  seconds (1.46×). Because that is still not an order-of-magnitude speedup, the
+  global completion plan moved next to an independent SAT/PB formulation.
 - Closed a substantially broader carry-aware Difference Bases family. Every
   one of 90 cyclic residue columns may independently select any nonempty subset
   of shells 0 through 7; 19 independently rebuilt exact CSP formulas rule out
