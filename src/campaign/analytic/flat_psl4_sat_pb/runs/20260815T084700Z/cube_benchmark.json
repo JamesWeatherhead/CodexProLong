@@ -1,0 +1,7290 @@
+{
+  "cpp_exact_outside_in": {
+    "compile_command": [
+      "clang++",
+      "-std=c++20",
+      "-O3",
+      "-DNDEBUG",
+      "-march=native",
+      "-Wall",
+      "-Wextra",
+      "-Wpedantic",
+      "<source>",
+      "-o",
+      "<binary>"
+    ],
+    "done": {
+      "cubes": 256,
+      "leaves": 66452,
+      "nodes": 122148,
+      "sat_cubes": 3,
+      "seconds": 0.00137529
+    },
+    "rows": [
+      {
+        "index": 0,
+        "leaves": 1959,
+        "nodes": 3137,
+        "solutions": 1
+      },
+      {
+        "index": 1,
+        "leaves": 1074,
+        "nodes": 2003,
+        "solutions": 1
+      },
+      {
+        "index": 2,
+        "leaves": 131,
+        "nodes": 192,
+        "solutions": 1
+      },
+      {
+        "index": 3,
+        "leaves": 0,
+        "nodes": 18,
+        "solutions": 0
+      },
+      {
+        "index": 4,
+        "leaves": 0,
+        "nodes": 16,
+        "solutions": 0
+      },
+      {
+        "index": 5,
+        "leaves": 7,
+        "nodes": 84,
+        "solutions": 0
+      },
+      {
+        "index": 6,
+        "leaves": 619,
+        "nodes": 1097,
+        "solutions": 0
+      },
+      {
+        "index": 7,
+        "leaves": 25,
+        "nodes": 106,
+        "solutions": 0
+      },
+      {
+        "index": 8,
+        "leaves": 155,
+        "nodes": 315,
+        "solutions": 0
+      },
+      {
+        "index": 9,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 10,
+        "leaves": 94,
+        "nodes": 582,
+        "solutions": 0
+      },
+      {
+        "index": 11,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 12,
+        "leaves": 908,
+        "nodes": 1412,
+        "solutions": 0
+      },
+      {
+        "index": 13,
+        "leaves": 98,
+        "nodes": 225,
+        "solutions": 0
+      },
+      {
+        "index": 14,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 15,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 16,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 17,
+        "leaves": 766,
+        "nodes": 1126,
+        "solutions": 0
+      },
+      {
+        "index": 18,
+        "leaves": 326,
+        "nodes": 490,
+        "solutions": 0
+      },
+      {
+        "index": 19,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 20,
+        "leaves": 550,
+        "nodes": 1084,
+        "solutions": 0
+      },
+      {
+        "index": 21,
+        "leaves": 107,
+        "nodes": 170,
+        "solutions": 0
+      },
+      {
+        "index": 22,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 23,
+        "leaves": 371,
+        "nodes": 569,
+        "solutions": 0
+      },
+      {
+        "index": 24,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 25,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 26,
+        "leaves": 0,
+        "nodes": 2,
+        "solutions": 0
+      },
+      {
+        "index": 27,
+        "leaves": 1790,
+        "nodes": 2927,
+        "solutions": 0
+      },
+      {
+        "index": 28,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 29,
+        "leaves": 3,
+        "nodes": 36,
+        "solutions": 0
+      },
+      {
+        "index": 30,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 31,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 32,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 33,
+        "leaves": 114,
+        "nodes": 590,
+        "solutions": 0
+      },
+      {
+        "index": 34,
+        "leaves": 4595,
+        "nodes": 6956,
+        "solutions": 0
+      },
+      {
+        "index": 35,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 36,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 37,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 38,
+        "leaves": 0,
+        "nodes": 17,
+        "solutions": 0
+      },
+      {
+        "index": 39,
+        "leaves": 64,
+        "nodes": 131,
+        "solutions": 0
+      },
+      {
+        "index": 40,
+        "leaves": 0,
+        "nodes": 2,
+        "solutions": 0
+      },
+      {
+        "index": 41,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 42,
+        "leaves": 805,
+        "nodes": 1289,
+        "solutions": 0
+      },
+      {
+        "index": 43,
+        "leaves": 0,
+        "nodes": 2,
+        "solutions": 0
+      },
+      {
+        "index": 44,
+        "leaves": 0,
+        "nodes": 2,
+        "solutions": 0
+      },
+      {
+        "index": 45,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 46,
+        "leaves": 2,
+        "nodes": 94,
+        "solutions": 0
+      },
+      {
+        "index": 47,
+        "leaves": 138,
+        "nodes": 493,
+        "solutions": 0
+      },
+      {
+        "index": 48,
+        "leaves": 1354,
+        "nodes": 2078,
+        "solutions": 0
+      },
+      {
+        "index": 49,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 50,
+        "leaves": 17,
+        "nodes": 475,
+        "solutions": 0
+      },
+      {
+        "index": 51,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 52,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 53,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 54,
+        "leaves": 0,
+        "nodes": 6,
+        "solutions": 0
+      },
+      {
+        "index": 55,
+        "leaves": 0,
+        "nodes": 4,
+        "solutions": 0
+      },
+      {
+        "index": 56,
+        "leaves": 16,
+        "nodes": 108,
+        "solutions": 0
+      },
+      {
+        "index": 57,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 58,
+        "leaves": 171,
+        "nodes": 483,
+        "solutions": 0
+      },
+      {
+        "index": 59,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 60,
+        "leaves": 92,
+        "nodes": 151,
+        "solutions": 0
+      },
+      {
+        "index": 61,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 62,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 63,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 64,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 65,
+        "leaves": 2128,
+        "nodes": 3542,
+        "solutions": 0
+      },
+      {
+        "index": 66,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 67,
+        "leaves": 7,
+        "nodes": 68,
+        "solutions": 0
+      },
+      {
+        "index": 68,
+        "leaves": 153,
+        "nodes": 286,
+        "solutions": 0
+      },
+      {
+        "index": 69,
+        "leaves": 28,
+        "nodes": 221,
+        "solutions": 0
+      },
+      {
+        "index": 70,
+        "leaves": 363,
+        "nodes": 559,
+        "solutions": 0
+      },
+      {
+        "index": 71,
+        "leaves": 1035,
+        "nodes": 1711,
+        "solutions": 0
+      },
+      {
+        "index": 72,
+        "leaves": 0,
+        "nodes": 2,
+        "solutions": 0
+      },
+      {
+        "index": 73,
+        "leaves": 80,
+        "nodes": 206,
+        "solutions": 0
+      },
+      {
+        "index": 74,
+        "leaves": 690,
+        "nodes": 1184,
+        "solutions": 0
+      },
+      {
+        "index": 75,
+        "leaves": 0,
+        "nodes": 42,
+        "solutions": 0
+      },
+      {
+        "index": 76,
+        "leaves": 0,
+        "nodes": 10,
+        "solutions": 0
+      },
+      {
+        "index": 77,
+        "leaves": 27,
+        "nodes": 112,
+        "solutions": 0
+      },
+      {
+        "index": 78,
+        "leaves": 0,
+        "nodes": 2,
+        "solutions": 0
+      },
+      {
+        "index": 79,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 80,
+        "leaves": 1966,
+        "nodes": 3388,
+        "solutions": 0
+      },
+      {
+        "index": 81,
+        "leaves": 153,
+        "nodes": 300,
+        "solutions": 0
+      },
+      {
+        "index": 82,
+        "leaves": 428,
+        "nodes": 860,
+        "solutions": 0
+      },
+      {
+        "index": 83,
+        "leaves": 14,
+        "nodes": 131,
+        "solutions": 0
+      },
+      {
+        "index": 84,
+        "leaves": 0,
+        "nodes": 4,
+        "solutions": 0
+      },
+      {
+        "index": 85,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 86,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 87,
+        "leaves": 2892,
+        "nodes": 4405,
+        "solutions": 0
+      },
+      {
+        "index": 88,
+        "leaves": 121,
+        "nodes": 284,
+        "solutions": 0
+      },
+      {
+        "index": 89,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 90,
+        "leaves": 30,
+        "nodes": 63,
+        "solutions": 0
+      },
+      {
+        "index": 91,
+        "leaves": 11,
+        "nodes": 25,
+        "solutions": 0
+      },
+      {
+        "index": 92,
+        "leaves": 61,
+        "nodes": 322,
+        "solutions": 0
+      },
+      {
+        "index": 93,
+        "leaves": 0,
+        "nodes": 4,
+        "solutions": 0
+      },
+      {
+        "index": 94,
+        "leaves": 2,
+        "nodes": 125,
+        "solutions": 0
+      },
+      {
+        "index": 95,
+        "leaves": 112,
+        "nodes": 593,
+        "solutions": 0
+      },
+      {
+        "index": 96,
+        "leaves": 11,
+        "nodes": 174,
+        "solutions": 0
+      },
+      {
+        "index": 97,
+        "leaves": 253,
+        "nodes": 419,
+        "solutions": 0
+      },
+      {
+        "index": 98,
+        "leaves": 246,
+        "nodes": 603,
+        "solutions": 0
+      },
+      {
+        "index": 99,
+        "leaves": 0,
+        "nodes": 20,
+        "solutions": 0
+      },
+      {
+        "index": 100,
+        "leaves": 111,
+        "nodes": 254,
+        "solutions": 0
+      },
+      {
+        "index": 101,
+        "leaves": 169,
+        "nodes": 447,
+        "solutions": 0
+      },
+      {
+        "index": 102,
+        "leaves": 0,
+        "nodes": 4,
+        "solutions": 0
+      },
+      {
+        "index": 103,
+        "leaves": 1517,
+        "nodes": 2549,
+        "solutions": 0
+      },
+      {
+        "index": 104,
+        "leaves": 0,
+        "nodes": 2,
+        "solutions": 0
+      },
+      {
+        "index": 105,
+        "leaves": 0,
+        "nodes": 15,
+        "solutions": 0
+      },
+      {
+        "index": 106,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 107,
+        "leaves": 0,
+        "nodes": 64,
+        "solutions": 0
+      },
+      {
+        "index": 108,
+        "leaves": 22,
+        "nodes": 738,
+        "solutions": 0
+      },
+      {
+        "index": 109,
+        "leaves": 1610,
+        "nodes": 2512,
+        "solutions": 0
+      },
+      {
+        "index": 110,
+        "leaves": 0,
+        "nodes": 83,
+        "solutions": 0
+      },
+      {
+        "index": 111,
+        "leaves": 0,
+        "nodes": 59,
+        "solutions": 0
+      },
+      {
+        "index": 112,
+        "leaves": 603,
+        "nodes": 2450,
+        "solutions": 0
+      },
+      {
+        "index": 113,
+        "leaves": 435,
+        "nodes": 755,
+        "solutions": 0
+      },
+      {
+        "index": 114,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 115,
+        "leaves": 0,
+        "nodes": 16,
+        "solutions": 0
+      },
+      {
+        "index": 116,
+        "leaves": 2688,
+        "nodes": 4145,
+        "solutions": 0
+      },
+      {
+        "index": 117,
+        "leaves": 0,
+        "nodes": 49,
+        "solutions": 0
+      },
+      {
+        "index": 118,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 119,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 120,
+        "leaves": 0,
+        "nodes": 57,
+        "solutions": 0
+      },
+      {
+        "index": 121,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 122,
+        "leaves": 617,
+        "nodes": 1044,
+        "solutions": 0
+      },
+      {
+        "index": 123,
+        "leaves": 173,
+        "nodes": 317,
+        "solutions": 0
+      },
+      {
+        "index": 124,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 125,
+        "leaves": 0,
+        "nodes": 10,
+        "solutions": 0
+      },
+      {
+        "index": 126,
+        "leaves": 1111,
+        "nodes": 1804,
+        "solutions": 0
+      },
+      {
+        "index": 127,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 128,
+        "leaves": 0,
+        "nodes": 113,
+        "solutions": 0
+      },
+      {
+        "index": 129,
+        "leaves": 0,
+        "nodes": 7,
+        "solutions": 0
+      },
+      {
+        "index": 130,
+        "leaves": 140,
+        "nodes": 359,
+        "solutions": 0
+      },
+      {
+        "index": 131,
+        "leaves": 147,
+        "nodes": 335,
+        "solutions": 0
+      },
+      {
+        "index": 132,
+        "leaves": 0,
+        "nodes": 4,
+        "solutions": 0
+      },
+      {
+        "index": 133,
+        "leaves": 0,
+        "nodes": 34,
+        "solutions": 0
+      },
+      {
+        "index": 134,
+        "leaves": 986,
+        "nodes": 1616,
+        "solutions": 0
+      },
+      {
+        "index": 135,
+        "leaves": 359,
+        "nodes": 554,
+        "solutions": 0
+      },
+      {
+        "index": 136,
+        "leaves": 38,
+        "nodes": 182,
+        "solutions": 0
+      },
+      {
+        "index": 137,
+        "leaves": 1226,
+        "nodes": 2157,
+        "solutions": 0
+      },
+      {
+        "index": 138,
+        "leaves": 0,
+        "nodes": 65,
+        "solutions": 0
+      },
+      {
+        "index": 139,
+        "leaves": 16,
+        "nodes": 51,
+        "solutions": 0
+      },
+      {
+        "index": 140,
+        "leaves": 2939,
+        "nodes": 4587,
+        "solutions": 0
+      },
+      {
+        "index": 141,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 142,
+        "leaves": 0,
+        "nodes": 16,
+        "solutions": 0
+      },
+      {
+        "index": 143,
+        "leaves": 0,
+        "nodes": 6,
+        "solutions": 0
+      },
+      {
+        "index": 144,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 145,
+        "leaves": 973,
+        "nodes": 1580,
+        "solutions": 0
+      },
+      {
+        "index": 146,
+        "leaves": 1,
+        "nodes": 151,
+        "solutions": 0
+      },
+      {
+        "index": 147,
+        "leaves": 663,
+        "nodes": 1253,
+        "solutions": 0
+      },
+      {
+        "index": 148,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 149,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 150,
+        "leaves": 0,
+        "nodes": 4,
+        "solutions": 0
+      },
+      {
+        "index": 151,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 152,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 153,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 154,
+        "leaves": 0,
+        "nodes": 95,
+        "solutions": 0
+      },
+      {
+        "index": 155,
+        "leaves": 155,
+        "nodes": 508,
+        "solutions": 0
+      },
+      {
+        "index": 156,
+        "leaves": 0,
+        "nodes": 11,
+        "solutions": 0
+      },
+      {
+        "index": 157,
+        "leaves": 26,
+        "nodes": 91,
+        "solutions": 0
+      },
+      {
+        "index": 158,
+        "leaves": 0,
+        "nodes": 37,
+        "solutions": 0
+      },
+      {
+        "index": 159,
+        "leaves": 100,
+        "nodes": 217,
+        "solutions": 0
+      },
+      {
+        "index": 160,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 161,
+        "leaves": 1248,
+        "nodes": 2480,
+        "solutions": 0
+      },
+      {
+        "index": 162,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 163,
+        "leaves": 1109,
+        "nodes": 2153,
+        "solutions": 0
+      },
+      {
+        "index": 164,
+        "leaves": 71,
+        "nodes": 382,
+        "solutions": 0
+      },
+      {
+        "index": 165,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 166,
+        "leaves": 3237,
+        "nodes": 5341,
+        "solutions": 0
+      },
+      {
+        "index": 167,
+        "leaves": 0,
+        "nodes": 59,
+        "solutions": 0
+      },
+      {
+        "index": 168,
+        "leaves": 0,
+        "nodes": 92,
+        "solutions": 0
+      },
+      {
+        "index": 169,
+        "leaves": 18,
+        "nodes": 72,
+        "solutions": 0
+      },
+      {
+        "index": 170,
+        "leaves": 1845,
+        "nodes": 2959,
+        "solutions": 0
+      },
+      {
+        "index": 171,
+        "leaves": 156,
+        "nodes": 315,
+        "solutions": 0
+      },
+      {
+        "index": 172,
+        "leaves": 16,
+        "nodes": 76,
+        "solutions": 0
+      },
+      {
+        "index": 173,
+        "leaves": 0,
+        "nodes": 23,
+        "solutions": 0
+      },
+      {
+        "index": 174,
+        "leaves": 1543,
+        "nodes": 2479,
+        "solutions": 0
+      },
+      {
+        "index": 175,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 176,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 177,
+        "leaves": 262,
+        "nodes": 491,
+        "solutions": 0
+      },
+      {
+        "index": 178,
+        "leaves": 0,
+        "nodes": 4,
+        "solutions": 0
+      },
+      {
+        "index": 179,
+        "leaves": 0,
+        "nodes": 6,
+        "solutions": 0
+      },
+      {
+        "index": 180,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 181,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 182,
+        "leaves": 105,
+        "nodes": 330,
+        "solutions": 0
+      },
+      {
+        "index": 183,
+        "leaves": 269,
+        "nodes": 959,
+        "solutions": 0
+      },
+      {
+        "index": 184,
+        "leaves": 309,
+        "nodes": 494,
+        "solutions": 0
+      },
+      {
+        "index": 185,
+        "leaves": 0,
+        "nodes": 6,
+        "solutions": 0
+      },
+      {
+        "index": 186,
+        "leaves": 65,
+        "nodes": 200,
+        "solutions": 0
+      },
+      {
+        "index": 187,
+        "leaves": 26,
+        "nodes": 58,
+        "solutions": 0
+      },
+      {
+        "index": 188,
+        "leaves": 67,
+        "nodes": 182,
+        "solutions": 0
+      },
+      {
+        "index": 189,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 190,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 191,
+        "leaves": 230,
+        "nodes": 692,
+        "solutions": 0
+      },
+      {
+        "index": 192,
+        "leaves": 0,
+        "nodes": 4,
+        "solutions": 0
+      },
+      {
+        "index": 193,
+        "leaves": 79,
+        "nodes": 201,
+        "solutions": 0
+      },
+      {
+        "index": 194,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 195,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 196,
+        "leaves": 0,
+        "nodes": 12,
+        "solutions": 0
+      },
+      {
+        "index": 197,
+        "leaves": 0,
+        "nodes": 15,
+        "solutions": 0
+      },
+      {
+        "index": 198,
+        "leaves": 97,
+        "nodes": 708,
+        "solutions": 0
+      },
+      {
+        "index": 199,
+        "leaves": 34,
+        "nodes": 102,
+        "solutions": 0
+      },
+      {
+        "index": 200,
+        "leaves": 273,
+        "nodes": 456,
+        "solutions": 0
+      },
+      {
+        "index": 201,
+        "leaves": 41,
+        "nodes": 134,
+        "solutions": 0
+      },
+      {
+        "index": 202,
+        "leaves": 767,
+        "nodes": 1331,
+        "solutions": 0
+      },
+      {
+        "index": 203,
+        "leaves": 0,
+        "nodes": 13,
+        "solutions": 0
+      },
+      {
+        "index": 204,
+        "leaves": 0,
+        "nodes": 6,
+        "solutions": 0
+      },
+      {
+        "index": 205,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 206,
+        "leaves": 598,
+        "nodes": 1054,
+        "solutions": 0
+      },
+      {
+        "index": 207,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 208,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 209,
+        "leaves": 2225,
+        "nodes": 4371,
+        "solutions": 0
+      },
+      {
+        "index": 210,
+        "leaves": 0,
+        "nodes": 16,
+        "solutions": 0
+      },
+      {
+        "index": 211,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 212,
+        "leaves": 0,
+        "nodes": 20,
+        "solutions": 0
+      },
+      {
+        "index": 213,
+        "leaves": 17,
+        "nodes": 56,
+        "solutions": 0
+      },
+      {
+        "index": 214,
+        "leaves": 203,
+        "nodes": 348,
+        "solutions": 0
+      },
+      {
+        "index": 215,
+        "leaves": 1,
+        "nodes": 34,
+        "solutions": 0
+      },
+      {
+        "index": 216,
+        "leaves": 2064,
+        "nodes": 3074,
+        "solutions": 0
+      },
+      {
+        "index": 217,
+        "leaves": 0,
+        "nodes": 6,
+        "solutions": 0
+      },
+      {
+        "index": 218,
+        "leaves": 53,
+        "nodes": 157,
+        "solutions": 0
+      },
+      {
+        "index": 219,
+        "leaves": 40,
+        "nodes": 287,
+        "solutions": 0
+      },
+      {
+        "index": 220,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 221,
+        "leaves": 41,
+        "nodes": 165,
+        "solutions": 0
+      },
+      {
+        "index": 222,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 223,
+        "leaves": 40,
+        "nodes": 83,
+        "solutions": 0
+      },
+      {
+        "index": 224,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 225,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 226,
+        "leaves": 79,
+        "nodes": 146,
+        "solutions": 0
+      },
+      {
+        "index": 227,
+        "leaves": 653,
+        "nodes": 1129,
+        "solutions": 0
+      },
+      {
+        "index": 228,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 229,
+        "leaves": 20,
+        "nodes": 65,
+        "solutions": 0
+      },
+      {
+        "index": 230,
+        "leaves": 38,
+        "nodes": 93,
+        "solutions": 0
+      },
+      {
+        "index": 231,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 232,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 233,
+        "leaves": 0,
+        "nodes": 183,
+        "solutions": 0
+      },
+      {
+        "index": 234,
+        "leaves": 0,
+        "nodes": 2,
+        "solutions": 0
+      },
+      {
+        "index": 235,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 236,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 237,
+        "leaves": 1881,
+        "nodes": 3117,
+        "solutions": 0
+      },
+      {
+        "index": 238,
+        "leaves": 0,
+        "nodes": 9,
+        "solutions": 0
+      },
+      {
+        "index": 239,
+        "leaves": 73,
+        "nodes": 370,
+        "solutions": 0
+      },
+      {
+        "index": 240,
+        "leaves": 590,
+        "nodes": 928,
+        "solutions": 0
+      },
+      {
+        "index": 241,
+        "leaves": 6,
+        "nodes": 76,
+        "solutions": 0
+      },
+      {
+        "index": 242,
+        "leaves": 14,
+        "nodes": 95,
+        "solutions": 0
+      },
+      {
+        "index": 243,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 244,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 245,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 246,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 247,
+        "leaves": 0,
+        "nodes": 6,
+        "solutions": 0
+      },
+      {
+        "index": 248,
+        "leaves": 4,
+        "nodes": 54,
+        "solutions": 0
+      },
+      {
+        "index": 249,
+        "leaves": 1393,
+        "nodes": 2751,
+        "solutions": 0
+      },
+      {
+        "index": 250,
+        "leaves": 532,
+        "nodes": 815,
+        "solutions": 0
+      },
+      {
+        "index": 251,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 252,
+        "leaves": 0,
+        "nodes": 5,
+        "solutions": 0
+      },
+      {
+        "index": 253,
+        "leaves": 33,
+        "nodes": 127,
+        "solutions": 0
+      },
+      {
+        "index": 254,
+        "leaves": 0,
+        "nodes": 1,
+        "solutions": 0
+      },
+      {
+        "index": 255,
+        "leaves": 0,
+        "nodes": 6,
+        "solutions": 0
+      }
+    ]
+  },
+  "created_utc": "20260815T081913Z",
+  "cube_count": 256,
+  "cubes_sha256": "657ec4d1b4c48a6fe6f0a2c2bd9bc50e342df160b2ca033ac27ddaaac683d933",
+  "depth": 28,
+  "fixture_cube_indices": [
+    0,
+    1,
+    2
+  ],
+  "free_bits": 14,
+  "run_id": "20260815T084700Z",
+  "sat_backends": [
+    {
+      "backend": "minicard_native",
+      "conflict_budget_per_cube": 5000,
+      "cumulative_stats": {
+        "conflicts": 3549,
+        "decisions": 3191,
+        "propagations": 968293,
+        "restarts": 264
+      },
+      "formula": {
+        "cnf_clauses": 9662,
+        "native_atmosts": 130,
+        "variables": 2485
+      },
+      "resolved": 256,
+      "rows": [
+        {
+          "index": 0,
+          "model": {
+            "bits": "0000011100001011111111110101001010111100110011001101010110010110010110",
+            "canonical": "0000011100001011111111110101001010111100110011001101010110010110010110",
+            "correlations_sha256": "24b3747ef9fd36f5696616aa696acb786f290a3d3ff34c4b90228dbc362ededb",
+            "peak_sidelobe": 4
+          },
+          "seconds": 0.00195816601626575,
+          "stats_delta": {
+            "conflicts": 174,
+            "decisions": 186,
+            "propagations": 30754,
+            "restarts": 2
+          },
+          "status": "sat"
+        },
+        {
+          "index": 1,
+          "model": {
+            "bits": "0000011111000000000100110011011100111101001101001100011100101010100101",
+            "canonical": "0000011111000000000100110011011100111101001101001100011100101010100101",
+            "correlations_sha256": "65a53d3f36aaafbd3c737ff0b3a4e6c11bdc0969c7827021a099da96013688cd",
+            "peak_sidelobe": 4
+          },
+          "seconds": 0.0007106252014636993,
+          "stats_delta": {
+            "conflicts": 29,
+            "decisions": 41,
+            "propagations": 7972,
+            "restarts": 1
+          },
+          "status": "sat"
+        },
+        {
+          "index": 2,
+          "model": {
+            "bits": "0010101111111110111000101001110001011001001001111000100110011101000011",
+            "canonical": "0010101111111110111000101001110001011001001001111000100110011101000011",
+            "correlations_sha256": "a4b47e9c363d39d55f0029be13aa6c5ceb6839e4b38286fc7bcdf7bc994b134d",
+            "peak_sidelobe": 4
+          },
+          "seconds": 0.0004402920603752136,
+          "stats_delta": {
+            "conflicts": 14,
+            "decisions": 18,
+            "propagations": 4041,
+            "restarts": 1
+          },
+          "status": "sat"
+        },
+        {
+          "index": 3,
+          "seconds": 0.0002347910776734352,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 5,
+            "propagations": 2825,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 4,
+          "seconds": 0.00014629121869802475,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1957,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 5,
+          "seconds": 0.0001219587866216898,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1921,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 6,
+          "seconds": 0.0010055839084088802,
+          "stats_delta": {
+            "conflicts": 93,
+            "decisions": 93,
+            "propagations": 16310,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 7,
+          "seconds": 0.0001799999736249447,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 3,
+            "propagations": 2560,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 8,
+          "seconds": 0.0002674579154700041,
+          "stats_delta": {
+            "conflicts": 16,
+            "decisions": 11,
+            "propagations": 3901,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 9,
+          "seconds": 9.487499482929707e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1343,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 10,
+          "seconds": 0.00043400004506111145,
+          "stats_delta": {
+            "conflicts": 36,
+            "decisions": 35,
+            "propagations": 6703,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 11,
+          "seconds": 0.00010054209269583225,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1535,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 12,
+          "seconds": 0.0010456249583512545,
+          "stats_delta": {
+            "conflicts": 97,
+            "decisions": 97,
+            "propagations": 19774,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 13,
+          "seconds": 0.0002797499764710665,
+          "stats_delta": {
+            "conflicts": 12,
+            "decisions": 10,
+            "propagations": 4748,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 14,
+          "seconds": 8.866703137755394e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1381,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 15,
+          "seconds": 8.166697807610035e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1291,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 16,
+          "seconds": 9.645801037549973e-05,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1601,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 17,
+          "seconds": 0.0004563750699162483,
+          "stats_delta": {
+            "conflicts": 35,
+            "decisions": 33,
+            "propagations": 7431,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 18,
+          "seconds": 0.00011049979366362095,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 1733,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 19,
+          "seconds": 9.983289055526257e-05,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 1751,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 20,
+          "seconds": 0.0005783750675618649,
+          "stats_delta": {
+            "conflicts": 48,
+            "decisions": 52,
+            "propagations": 9471,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 21,
+          "seconds": 0.00025083310902118683,
+          "stats_delta": {
+            "conflicts": 10,
+            "decisions": 6,
+            "propagations": 3643,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 22,
+          "seconds": 0.00010120915248990059,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1466,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 23,
+          "seconds": 0.0002792910672724247,
+          "stats_delta": {
+            "conflicts": 17,
+            "decisions": 20,
+            "propagations": 4348,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 24,
+          "seconds": 0.00010875007137656212,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1844,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 25,
+          "seconds": 0.0001080420333892107,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1849,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 26,
+          "seconds": 0.00010087504051625729,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1646,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 27,
+          "seconds": 0.0005832079332321882,
+          "stats_delta": {
+            "conflicts": 58,
+            "decisions": 64,
+            "propagations": 10508,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 28,
+          "seconds": 0.0001067908015102148,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1646,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 29,
+          "seconds": 0.00013029202818870544,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 2070,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 30,
+          "seconds": 9.008287452161312e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1480,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 31,
+          "seconds": 0.00011987495236098766,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1627,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 32,
+          "seconds": 9.287497960031033e-05,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1543,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 33,
+          "seconds": 0.0004230830818414688,
+          "stats_delta": {
+            "conflicts": 32,
+            "decisions": 31,
+            "propagations": 6378,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 34,
+          "seconds": 0.001916209002956748,
+          "stats_delta": {
+            "conflicts": 193,
+            "decisions": 203,
+            "propagations": 32804,
+            "restarts": 2
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 35,
+          "seconds": 0.00011462508700788021,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1578,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 36,
+          "seconds": 9.933300316333771e-05,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1540,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 37,
+          "seconds": 8.995784446597099e-05,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1441,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 38,
+          "seconds": 0.00010158400982618332,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1714,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 39,
+          "seconds": 0.0002936669625341892,
+          "stats_delta": {
+            "conflicts": 13,
+            "decisions": 12,
+            "propagations": 3915,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 40,
+          "seconds": 8.599995635449886e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1343,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 41,
+          "seconds": 0.00012066587805747986,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 0,
+            "propagations": 1868,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 42,
+          "seconds": 0.0006650830619037151,
+          "stats_delta": {
+            "conflicts": 54,
+            "decisions": 50,
+            "propagations": 10900,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 43,
+          "seconds": 9.112502448260784e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1505,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 44,
+          "seconds": 9.833299554884434e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1469,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 45,
+          "seconds": 9.191595017910004e-05,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1572,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 46,
+          "seconds": 0.00012650014832615852,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 2119,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 47,
+          "seconds": 0.0004997081123292446,
+          "stats_delta": {
+            "conflicts": 33,
+            "decisions": 31,
+            "propagations": 7064,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 48,
+          "seconds": 0.0005457501392811537,
+          "stats_delta": {
+            "conflicts": 49,
+            "decisions": 50,
+            "propagations": 8114,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 49,
+          "seconds": 0.00011487491428852081,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 1678,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 50,
+          "seconds": 0.00017608306370675564,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 6,
+            "propagations": 2650,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 51,
+          "seconds": 0.00011350004933774471,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1765,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 52,
+          "seconds": 7.475004531443119e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1259,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 53,
+          "seconds": 0.00012874999083578587,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1923,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 54,
+          "seconds": 0.00010245805606245995,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1704,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 55,
+          "seconds": 0.00011029187589883804,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1870,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 56,
+          "seconds": 0.00017354218289256096,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 3,
+            "propagations": 2386,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 57,
+          "seconds": 9.454204700887203e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1345,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 58,
+          "seconds": 0.0002620411105453968,
+          "stats_delta": {
+            "conflicts": 12,
+            "decisions": 9,
+            "propagations": 3901,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 59,
+          "seconds": 0.00010558310896158218,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1601,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 60,
+          "seconds": 0.0001360001042485237,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 2113,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 61,
+          "seconds": 8.395896293222904e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1397,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 62,
+          "seconds": 7.604178972542286e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1312,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 63,
+          "seconds": 9.579211473464966e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1695,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 64,
+          "seconds": 9.666592814028263e-05,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1614,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 65,
+          "seconds": 0.00012691691517829895,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 2032,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 66,
+          "seconds": 8.062506094574928e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1399,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 67,
+          "seconds": 9.612506255507469e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1583,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 68,
+          "seconds": 0.00035887514241039753,
+          "stats_delta": {
+            "conflicts": 19,
+            "decisions": 17,
+            "propagations": 4434,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 69,
+          "seconds": 0.000296624843031168,
+          "stats_delta": {
+            "conflicts": 13,
+            "decisions": 12,
+            "propagations": 4009,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 70,
+          "seconds": 0.00046037486754357815,
+          "stats_delta": {
+            "conflicts": 30,
+            "decisions": 31,
+            "propagations": 7743,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 71,
+          "seconds": 0.0002429161686450243,
+          "stats_delta": {
+            "conflicts": 15,
+            "decisions": 13,
+            "propagations": 3429,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 72,
+          "seconds": 0.0001101659145206213,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1678,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 73,
+          "seconds": 0.00010887510143220425,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1761,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 74,
+          "seconds": 0.00017474987544119358,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 2388,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 75,
+          "seconds": 0.0001657919492572546,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 3,
+            "propagations": 2348,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 76,
+          "seconds": 0.00011204206384718418,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1577,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 77,
+          "seconds": 0.00020183390006422997,
+          "stats_delta": {
+            "conflicts": 10,
+            "decisions": 7,
+            "propagations": 2764,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 78,
+          "seconds": 0.00010458310134708881,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1748,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 79,
+          "seconds": 0.00010458286851644516,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1770,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 80,
+          "seconds": 0.000746958889067173,
+          "stats_delta": {
+            "conflicts": 67,
+            "decisions": 65,
+            "propagations": 12130,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 81,
+          "seconds": 0.0001388750970363617,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 2107,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 82,
+          "seconds": 0.00025583384558558464,
+          "stats_delta": {
+            "conflicts": 14,
+            "decisions": 13,
+            "propagations": 4004,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 83,
+          "seconds": 0.00017899996601045132,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 4,
+            "propagations": 2727,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 84,
+          "seconds": 0.00010191602632403374,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1513,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 85,
+          "seconds": 8.412497118115425e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1314,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 86,
+          "seconds": 0.0001032920554280281,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1624,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 87,
+          "seconds": 0.0008480001706629992,
+          "stats_delta": {
+            "conflicts": 81,
+            "decisions": 80,
+            "propagations": 14393,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 88,
+          "seconds": 0.0003485421184450388,
+          "stats_delta": {
+            "conflicts": 18,
+            "decisions": 17,
+            "propagations": 6133,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 89,
+          "seconds": 9.374995715916157e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1288,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 90,
+          "seconds": 0.0001714171376079321,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 2,
+            "propagations": 2395,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 91,
+          "seconds": 0.00015379185788333416,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 2304,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 92,
+          "seconds": 0.00011716713197529316,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1754,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 93,
+          "seconds": 9.187497198581696e-05,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1539,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 94,
+          "seconds": 0.00010995916090905666,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1734,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 95,
+          "seconds": 0.0006874168757349253,
+          "stats_delta": {
+            "conflicts": 58,
+            "decisions": 62,
+            "propagations": 12223,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 96,
+          "seconds": 0.0001850421540439129,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 2,
+            "propagations": 2416,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 97,
+          "seconds": 0.00021737487986683846,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 2,
+            "propagations": 3277,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 98,
+          "seconds": 0.00014491681940853596,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 2008,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 99,
+          "seconds": 9.683403186500072e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1477,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 100,
+          "seconds": 0.00044708303175866604,
+          "stats_delta": {
+            "conflicts": 29,
+            "decisions": 23,
+            "propagations": 6124,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 101,
+          "seconds": 0.00020491681061685085,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 9,
+            "propagations": 3044,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 102,
+          "seconds": 0.00010770885273814201,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1603,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 103,
+          "seconds": 0.0004907920956611633,
+          "stats_delta": {
+            "conflicts": 38,
+            "decisions": 40,
+            "propagations": 8063,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 104,
+          "seconds": 0.00011962489224970341,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1659,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 105,
+          "seconds": 0.0001629579346626997,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 0,
+            "propagations": 2335,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 106,
+          "seconds": 0.00010379101149737835,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1552,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 107,
+          "seconds": 0.00021425005979835987,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 4,
+            "propagations": 3177,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 108,
+          "seconds": 0.00027295807376503944,
+          "stats_delta": {
+            "conflicts": 12,
+            "decisions": 11,
+            "propagations": 4071,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 109,
+          "seconds": 0.0002450421452522278,
+          "stats_delta": {
+            "conflicts": 11,
+            "decisions": 8,
+            "propagations": 3663,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 110,
+          "seconds": 0.00018683401867747307,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 2,
+            "propagations": 2597,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 111,
+          "seconds": 0.00014312495477497578,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 2053,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 112,
+          "seconds": 0.00014170794747769833,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 2107,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 113,
+          "seconds": 0.00019279099069535732,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 5,
+            "propagations": 2665,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 114,
+          "seconds": 9.429198689758778e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1488,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 115,
+          "seconds": 0.00010433304123580456,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1650,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 116,
+          "seconds": 9.379209950566292e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1485,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 117,
+          "seconds": 0.00013408297672867775,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 1,
+            "propagations": 1827,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 118,
+          "seconds": 8.924980647861958e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1315,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 119,
+          "seconds": 9.862496517598629e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1646,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 120,
+          "seconds": 0.00018570804968476295,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 2,
+            "propagations": 2587,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 121,
+          "seconds": 9.32919792830944e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1259,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 122,
+          "seconds": 0.0004742499440908432,
+          "stats_delta": {
+            "conflicts": 38,
+            "decisions": 37,
+            "propagations": 7411,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 123,
+          "seconds": 0.00014050002209842205,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1844,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 124,
+          "seconds": 0.00013337493874132633,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 1822,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 125,
+          "seconds": 0.0001335421111434698,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1780,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 126,
+          "seconds": 0.0011159158311784267,
+          "stats_delta": {
+            "conflicts": 112,
+            "decisions": 117,
+            "propagations": 18099,
+            "restarts": 2
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 127,
+          "seconds": 0.00011195801198482513,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1492,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 128,
+          "seconds": 0.0003273750189691782,
+          "stats_delta": {
+            "conflicts": 15,
+            "decisions": 14,
+            "propagations": 4947,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 129,
+          "seconds": 0.00012045796029269695,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1762,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 130,
+          "seconds": 0.00045545795001089573,
+          "stats_delta": {
+            "conflicts": 28,
+            "decisions": 28,
+            "propagations": 6261,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 131,
+          "seconds": 0.00020508305169641972,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 5,
+            "propagations": 2714,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 132,
+          "seconds": 0.00010187504813075066,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1345,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 133,
+          "seconds": 0.00018395902588963509,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 6,
+            "propagations": 2479,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 134,
+          "seconds": 0.0001449170522391796,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 2325,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 135,
+          "seconds": 0.0001485829707235098,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 2185,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 136,
+          "seconds": 0.00021191593259572983,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 5,
+            "propagations": 3199,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 137,
+          "seconds": 0.00015050009824335575,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 2158,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 138,
+          "seconds": 0.0002242091577500105,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 7,
+            "propagations": 3109,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 139,
+          "seconds": 0.00011329096741974354,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1583,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 140,
+          "seconds": 0.0002974581439048052,
+          "stats_delta": {
+            "conflicts": 18,
+            "decisions": 18,
+            "propagations": 4653,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 141,
+          "seconds": 0.00010541686788201332,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1669,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 142,
+          "seconds": 0.00010895798914134502,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1663,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 143,
+          "seconds": 0.00011808308772742748,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1726,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 144,
+          "seconds": 0.0001137908548116684,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1873,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 145,
+          "seconds": 0.0006564578507095575,
+          "stats_delta": {
+            "conflicts": 62,
+            "decisions": 63,
+            "propagations": 11250,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 146,
+          "seconds": 0.00019500008784234524,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 1,
+            "propagations": 2386,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 147,
+          "seconds": 0.0001351668033748865,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 1921,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 148,
+          "seconds": 9.050010703504086e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1486,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 149,
+          "seconds": 0.0001032920554280281,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1594,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 150,
+          "seconds": 0.00016854191198945045,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 1890,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 151,
+          "seconds": 0.00013658404350280762,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 1953,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 152,
+          "seconds": 0.00010487507097423077,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1608,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 153,
+          "seconds": 8.995900861918926e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1400,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 154,
+          "seconds": 0.00015849992632865906,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 1,
+            "propagations": 2021,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 155,
+          "seconds": 0.0004694999661296606,
+          "stats_delta": {
+            "conflicts": 26,
+            "decisions": 29,
+            "propagations": 6861,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 156,
+          "seconds": 0.0001432080753147602,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 2171,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 157,
+          "seconds": 0.00014241691678762436,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 2015,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 158,
+          "seconds": 0.0001893751323223114,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 4,
+            "propagations": 2464,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 159,
+          "seconds": 0.0003292080946266651,
+          "stats_delta": {
+            "conflicts": 16,
+            "decisions": 15,
+            "propagations": 4633,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 160,
+          "seconds": 0.0001016668975353241,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1392,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 161,
+          "seconds": 0.0002709580585360527,
+          "stats_delta": {
+            "conflicts": 11,
+            "decisions": 12,
+            "propagations": 3583,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 162,
+          "seconds": 0.0001530421432107687,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 0,
+            "propagations": 2114,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 163,
+          "seconds": 0.0010389171075075865,
+          "stats_delta": {
+            "conflicts": 88,
+            "decisions": 92,
+            "propagations": 15350,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 164,
+          "seconds": 0.0006236669141799212,
+          "stats_delta": {
+            "conflicts": 39,
+            "decisions": 40,
+            "propagations": 8992,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 165,
+          "seconds": 0.00015470804646611214,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 0,
+            "propagations": 2128,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 166,
+          "seconds": 0.0019266249146312475,
+          "stats_delta": {
+            "conflicts": 224,
+            "decisions": 241,
+            "propagations": 36263,
+            "restarts": 3
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 167,
+          "seconds": 0.00014375010505318642,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1892,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 168,
+          "seconds": 0.00032029091380536556,
+          "stats_delta": {
+            "conflicts": 16,
+            "decisions": 17,
+            "propagations": 4088,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 169,
+          "seconds": 0.00015658303163945675,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 2082,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 170,
+          "seconds": 0.0005422919057309628,
+          "stats_delta": {
+            "conflicts": 40,
+            "decisions": 37,
+            "propagations": 7566,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 171,
+          "seconds": 0.00036816601641476154,
+          "stats_delta": {
+            "conflicts": 21,
+            "decisions": 20,
+            "propagations": 5122,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 172,
+          "seconds": 0.0002900841645896435,
+          "stats_delta": {
+            "conflicts": 16,
+            "decisions": 17,
+            "propagations": 4537,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 173,
+          "seconds": 0.00015516695566475391,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1959,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 174,
+          "seconds": 0.0007540828082710505,
+          "stats_delta": {
+            "conflicts": 61,
+            "decisions": 62,
+            "propagations": 12431,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 175,
+          "seconds": 0.00011158408597111702,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1508,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 176,
+          "seconds": 0.00010308297351002693,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1437,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 177,
+          "seconds": 0.00047166598960757256,
+          "stats_delta": {
+            "conflicts": 31,
+            "decisions": 28,
+            "propagations": 7330,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 178,
+          "seconds": 0.00012495811097323895,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1508,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 179,
+          "seconds": 0.00011604209430515766,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1562,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 180,
+          "seconds": 0.00011166604235768318,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1632,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 181,
+          "seconds": 0.0001069169957190752,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1566,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 182,
+          "seconds": 0.00017379107885062695,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 1,
+            "propagations": 2252,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 183,
+          "seconds": 0.00020016590133309364,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 1,
+            "propagations": 2577,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 184,
+          "seconds": 0.0004384161438792944,
+          "stats_delta": {
+            "conflicts": 24,
+            "decisions": 20,
+            "propagations": 6593,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 185,
+          "seconds": 0.0001496251206845045,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 2,
+            "propagations": 1954,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 186,
+          "seconds": 0.0002569160424172878,
+          "stats_delta": {
+            "conflicts": 10,
+            "decisions": 8,
+            "propagations": 3363,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 187,
+          "seconds": 0.00018420908600091934,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 1,
+            "propagations": 2327,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 188,
+          "seconds": 0.00018258392810821533,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 5,
+            "propagations": 2407,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 189,
+          "seconds": 0.00010379194281995296,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1456,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 190,
+          "seconds": 0.00014112493954598904,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 2089,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 191,
+          "seconds": 0.00011699995957314968,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1551,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 192,
+          "seconds": 0.00011470797471702099,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1664,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 193,
+          "seconds": 0.00018091616220772266,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 2,
+            "propagations": 2595,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 194,
+          "seconds": 0.00010799989104270935,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1449,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 195,
+          "seconds": 0.00011966703459620476,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1704,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 196,
+          "seconds": 9.012501686811447e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1244,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 197,
+          "seconds": 0.00010624993592500687,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1653,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 198,
+          "seconds": 0.00023966701701283455,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 8,
+            "propagations": 3075,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 199,
+          "seconds": 0.0002507918979972601,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 8,
+            "propagations": 3223,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 200,
+          "seconds": 0.0005202079191803932,
+          "stats_delta": {
+            "conflicts": 31,
+            "decisions": 30,
+            "propagations": 6521,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 201,
+          "seconds": 0.0003252921160310507,
+          "stats_delta": {
+            "conflicts": 13,
+            "decisions": 14,
+            "propagations": 4368,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 202,
+          "seconds": 0.0006501669995486736,
+          "stats_delta": {
+            "conflicts": 51,
+            "decisions": 53,
+            "propagations": 9990,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 203,
+          "seconds": 0.00010770908556878567,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1342,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 204,
+          "seconds": 0.00010720803402364254,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1388,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 205,
+          "seconds": 0.00012512505054473877,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1620,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 206,
+          "seconds": 0.0002673331182450056,
+          "stats_delta": {
+            "conflicts": 13,
+            "decisions": 11,
+            "propagations": 3498,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 207,
+          "seconds": 0.00011400016956031322,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1507,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 208,
+          "seconds": 0.00011575012467801571,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1698,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 209,
+          "seconds": 0.0012420408893376589,
+          "stats_delta": {
+            "conflicts": 112,
+            "decisions": 121,
+            "propagations": 19916,
+            "restarts": 2
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 210,
+          "seconds": 0.00011683302000164986,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1344,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 211,
+          "seconds": 0.00010541710071265697,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1560,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 212,
+          "seconds": 0.00010254187509417534,
+          "stats_delta": {
+            "conflicts": 0,
+            "decisions": 0,
+            "propagations": 1596,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 213,
+          "seconds": 0.00011754198931157589,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1742,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 214,
+          "seconds": 0.00029229093343019485,
+          "stats_delta": {
+            "conflicts": 13,
+            "decisions": 14,
+            "propagations": 3730,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 215,
+          "seconds": 0.00014391704462468624,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1786,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 216,
+          "seconds": 0.0012585411313921213,
+          "stats_delta": {
+            "conflicts": 101,
+            "decisions": 100,
+            "propagations": 19210,
+            "restarts": 2
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 217,
+          "seconds": 0.00015179207548499107,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 1951,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 218,
+          "seconds": 0.000442249933257699,
+          "stats_delta": {
+            "conflicts": 23,
+            "decisions": 22,
+            "propagations": 6330,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 219,
+          "seconds": 0.0005115000531077385,
+          "stats_delta": {
+            "conflicts": 34,
+            "decisions": 33,
+            "propagations": 7385,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 220,
+          "seconds": 0.00014316593296825886,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1609,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 221,
+          "seconds": 0.0006257500499486923,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 7,
+            "propagations": 3319,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 222,
+          "seconds": 0.00011420808732509613,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 1687,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 223,
+          "seconds": 0.00010075001046061516,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1510,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 224,
+          "seconds": 0.0001069169957190752,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1632,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 225,
+          "seconds": 0.00010641687549650669,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1571,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 226,
+          "seconds": 0.00021845893934369087,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 8,
+            "propagations": 3010,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 227,
+          "seconds": 0.0002858750522136688,
+          "stats_delta": {
+            "conflicts": 14,
+            "decisions": 10,
+            "propagations": 3742,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 228,
+          "seconds": 9.541609324514866e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1339,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 229,
+          "seconds": 0.00026420806534588337,
+          "stats_delta": {
+            "conflicts": 12,
+            "decisions": 8,
+            "propagations": 4261,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 230,
+          "seconds": 0.00015050009824335575,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 2296,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 231,
+          "seconds": 9.445915929973125e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1487,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 232,
+          "seconds": 0.00010212510824203491,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1654,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 233,
+          "seconds": 0.00020941696129739285,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 4,
+            "propagations": 2795,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 234,
+          "seconds": 0.00011033308692276478,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1561,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 235,
+          "seconds": 9.287521243095398e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1439,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 236,
+          "seconds": 0.00012062489986419678,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1953,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 237,
+          "seconds": 0.0004420420154929161,
+          "stats_delta": {
+            "conflicts": 36,
+            "decisions": 36,
+            "propagations": 6930,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 238,
+          "seconds": 0.00010508298873901367,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1525,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 239,
+          "seconds": 0.00028787506744265556,
+          "stats_delta": {
+            "conflicts": 17,
+            "decisions": 16,
+            "propagations": 4967,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 240,
+          "seconds": 0.000610667048022151,
+          "stats_delta": {
+            "conflicts": 48,
+            "decisions": 47,
+            "propagations": 10690,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 241,
+          "seconds": 0.0002734169829636812,
+          "stats_delta": {
+            "conflicts": 12,
+            "decisions": 13,
+            "propagations": 4294,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 242,
+          "seconds": 0.00026770797558128834,
+          "stats_delta": {
+            "conflicts": 11,
+            "decisions": 8,
+            "propagations": 4271,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 243,
+          "seconds": 0.0001105419360101223,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1510,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 244,
+          "seconds": 0.00013245781883597374,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1820,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 245,
+          "seconds": 0.00011958298273384571,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1755,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 246,
+          "seconds": 9.958399459719658e-05,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1595,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 247,
+          "seconds": 0.00011312495917081833,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1773,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 248,
+          "seconds": 0.0002252080012112856,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 7,
+            "propagations": 3142,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 249,
+          "seconds": 0.0013642499689012766,
+          "stats_delta": {
+            "conflicts": 130,
+            "decisions": 136,
+            "propagations": 25066,
+            "restarts": 2
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 250,
+          "seconds": 0.0002535840030759573,
+          "stats_delta": {
+            "conflicts": 11,
+            "decisions": 10,
+            "propagations": 3510,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 251,
+          "seconds": 0.00012395810335874557,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 1664,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 252,
+          "seconds": 9.570899419486523e-05,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 1445,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 253,
+          "seconds": 0.000269290991127491,
+          "stats_delta": {
+            "conflicts": 11,
+            "decisions": 7,
+            "propagations": 3560,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 254,
+          "seconds": 0.00010804110206663609,
+          "stats_delta": {
+            "conflicts": 0,
+            "decisions": 0,
+            "propagations": 1708,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 255,
+          "seconds": 0.00010574981570243835,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 1545,
+            "restarts": 1
+          },
+          "status": "unsat"
+        }
+      ],
+      "sat": 3,
+      "seconds": 0.10804591700434685,
+      "unknown": 0,
+      "unsat": 253
+    },
+    {
+      "backend": "cadical_seqcounter",
+      "conflict_budget_per_cube": 5000,
+      "cumulative_stats": {
+        "conflicts": 5289,
+        "decisions": 13834,
+        "propagations": 15191129,
+        "restarts": 211
+      },
+      "formula": {
+        "cnf_clauses": 120246,
+        "native_atmosts": 0,
+        "variables": 57995
+      },
+      "resolved": 256,
+      "rows": [
+        {
+          "index": 0,
+          "model": {
+            "bits": "0000011100001011111111110101001010111100110011001101010110010110010110",
+            "canonical": "0000011100001011111111110101001010111100110011001101010110010110010110",
+            "correlations_sha256": "24b3747ef9fd36f5696616aa696acb786f290a3d3ff34c4b90228dbc362ededb",
+            "peak_sidelobe": 4
+          },
+          "seconds": 0.08643000014126301,
+          "stats_delta": {
+            "conflicts": 497,
+            "decisions": 5028,
+            "propagations": 2145228,
+            "restarts": 76
+          },
+          "status": "sat"
+        },
+        {
+          "index": 1,
+          "model": {
+            "bits": "0000011111000000000100110011011100111101001101001100011100101010100101",
+            "canonical": "0000011111000000000100110011011100111101001101001100011100101010100101",
+            "correlations_sha256": "65a53d3f36aaafbd3c737ff0b3a4e6c11bdc0969c7827021a099da96013688cd",
+            "peak_sidelobe": 4
+          },
+          "seconds": 0.033016583882272243,
+          "stats_delta": {
+            "conflicts": 208,
+            "decisions": 2147,
+            "propagations": 798658,
+            "restarts": 1
+          },
+          "status": "sat"
+        },
+        {
+          "index": 2,
+          "model": {
+            "bits": "0010101111111110111000101001110001011001001001111000100110011101000011",
+            "canonical": "0010101111111110111000101001110001011001001001111000100110011101000011",
+            "correlations_sha256": "a4b47e9c363d39d55f0029be13aa6c5ceb6839e4b38286fc7bcdf7bc994b134d",
+            "peak_sidelobe": 4
+          },
+          "seconds": 0.004379166988655925,
+          "stats_delta": {
+            "conflicts": 16,
+            "decisions": 1405,
+            "propagations": 95898,
+            "restarts": 0
+          },
+          "status": "sat"
+        },
+        {
+          "index": 3,
+          "seconds": 0.0017170410137623549,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 6,
+            "propagations": 41778,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 4,
+          "seconds": 0.0010346248745918274,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 31187,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 5,
+          "seconds": 0.001136082923039794,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 33063,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 6,
+          "seconds": 0.018863957840949297,
+          "stats_delta": {
+            "conflicts": 134,
+            "decisions": 154,
+            "propagations": 467236,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 7,
+          "seconds": 0.0030413330532610416,
+          "stats_delta": {
+            "conflicts": 10,
+            "decisions": 14,
+            "propagations": 77203,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 8,
+          "seconds": 0.0025162079837173223,
+          "stats_delta": {
+            "conflicts": 15,
+            "decisions": 14,
+            "propagations": 59557,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 9,
+          "seconds": 0.0005953330546617508,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 19289,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 10,
+          "seconds": 0.013856499921530485,
+          "stats_delta": {
+            "conflicts": 70,
+            "decisions": 87,
+            "propagations": 204697,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 11,
+          "seconds": 0.0006753748748451471,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 22740,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 12,
+          "seconds": 0.021378791891038418,
+          "stats_delta": {
+            "conflicts": 175,
+            "decisions": 206,
+            "propagations": 541559,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 13,
+          "seconds": 0.003928625024855137,
+          "stats_delta": {
+            "conflicts": 16,
+            "decisions": 18,
+            "propagations": 88343,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 14,
+          "seconds": 0.0006274168845266104,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 20696,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 15,
+          "seconds": 0.0005040830001235008,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 17947,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 16,
+          "seconds": 0.0005616659764200449,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 22396,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 17,
+          "seconds": 0.0037908339872956276,
+          "stats_delta": {
+            "conflicts": 27,
+            "decisions": 25,
+            "propagations": 95884,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 18,
+          "seconds": 0.0006647910922765732,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 23711,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 19,
+          "seconds": 0.0005969170015305281,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 22649,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 20,
+          "seconds": 0.010493667097762227,
+          "stats_delta": {
+            "conflicts": 91,
+            "decisions": 106,
+            "propagations": 259982,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 21,
+          "seconds": 0.002207458019256592,
+          "stats_delta": {
+            "conflicts": 12,
+            "decisions": 8,
+            "propagations": 55810,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 22,
+          "seconds": 0.0004854169674217701,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 18992,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 23,
+          "seconds": 0.001581083983182907,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 12,
+            "propagations": 47957,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 24,
+          "seconds": 0.0006968330126255751,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 28677,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 25,
+          "seconds": 0.0005108329933136702,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 20980,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 26,
+          "seconds": 0.0006749581079930067,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 26897,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 27,
+          "seconds": 0.0043067908845841885,
+          "stats_delta": {
+            "conflicts": 46,
+            "decisions": 76,
+            "propagations": 129431,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 28,
+          "seconds": 0.0005013749469071627,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 20693,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 29,
+          "seconds": 0.0007836248259991407,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 29779,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 30,
+          "seconds": 0.0004888339899480343,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 20789,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 31,
+          "seconds": 0.0005344168748706579,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 21185,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 32,
+          "seconds": 0.0005046671722084284,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 22075,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 33,
+          "seconds": 0.005131707992404699,
+          "stats_delta": {
+            "conflicts": 49,
+            "decisions": 59,
+            "propagations": 134955,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 34,
+          "seconds": 0.04260962503030896,
+          "stats_delta": {
+            "conflicts": 417,
+            "decisions": 504,
+            "propagations": 1074648,
+            "restarts": 25
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 35,
+          "seconds": 0.0010128750000149012,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 25805,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 36,
+          "seconds": 0.0005227501969784498,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 20796,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 37,
+          "seconds": 0.0004783750046044588,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 20210,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 38,
+          "seconds": 0.000783249968662858,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 29110,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 39,
+          "seconds": 0.00241499999538064,
+          "stats_delta": {
+            "conflicts": 13,
+            "decisions": 12,
+            "propagations": 68053,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 40,
+          "seconds": 0.00046975002624094486,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 19105,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 41,
+          "seconds": 0.0005732080899178982,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 24271,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 42,
+          "seconds": 0.012126416899263859,
+          "stats_delta": {
+            "conflicts": 73,
+            "decisions": 98,
+            "propagations": 195729,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 43,
+          "seconds": 0.0008151659276336432,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 26464,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 44,
+          "seconds": 0.0005911670159548521,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 21880,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 45,
+          "seconds": 0.000631874892860651,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 23598,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 46,
+          "seconds": 0.0010991659946739674,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 42430,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 47,
+          "seconds": 0.007813167059794068,
+          "stats_delta": {
+            "conflicts": 69,
+            "decisions": 88,
+            "propagations": 184888,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 48,
+          "seconds": 0.007160041946917772,
+          "stats_delta": {
+            "conflicts": 61,
+            "decisions": 70,
+            "propagations": 175657,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 49,
+          "seconds": 0.0007212921045720577,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 23349,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 50,
+          "seconds": 0.0013853339478373528,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 10,
+            "propagations": 36874,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 51,
+          "seconds": 0.000750166829675436,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 23895,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 52,
+          "seconds": 0.00042529194615781307,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 18146,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 53,
+          "seconds": 0.0006197921466082335,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 25293,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 54,
+          "seconds": 0.0005065000150352716,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 22095,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 55,
+          "seconds": 0.0007820830214768648,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 28840,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 56,
+          "seconds": 0.0012305411510169506,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 3,
+            "propagations": 39910,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 57,
+          "seconds": 0.14961849991232157,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 311552,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 58,
+          "seconds": 0.002187125151976943,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 6,
+            "propagations": 24506,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 59,
+          "seconds": 0.000593540957197547,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 11371,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 60,
+          "seconds": 0.0007786669302731752,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 15088,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 61,
+          "seconds": 0.0005253339186310768,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 11312,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 62,
+          "seconds": 0.0003843340091407299,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9401,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 63,
+          "seconds": 0.0004057500045746565,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10531,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 64,
+          "seconds": 0.0003979590255767107,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10309,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 65,
+          "seconds": 0.0007260418497025967,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 14338,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 66,
+          "seconds": 0.00041716708801686764,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10219,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 67,
+          "seconds": 0.000401749974116683,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10257,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 68,
+          "seconds": 0.0028437920846045017,
+          "stats_delta": {
+            "conflicts": 21,
+            "decisions": 21,
+            "propagations": 43342,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 69,
+          "seconds": 0.002741290954872966,
+          "stats_delta": {
+            "conflicts": 16,
+            "decisions": 28,
+            "propagations": 44583,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 70,
+          "seconds": 0.003885915968567133,
+          "stats_delta": {
+            "conflicts": 29,
+            "decisions": 30,
+            "propagations": 65836,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 71,
+          "seconds": 0.00108233280479908,
+          "stats_delta": {
+            "conflicts": 10,
+            "decisions": 6,
+            "propagations": 18477,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 72,
+          "seconds": 0.0007728748023509979,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 14825,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 73,
+          "seconds": 0.0005332920700311661,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 12731,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 74,
+          "seconds": 0.0008288330864161253,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 16036,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 75,
+          "seconds": 0.0010778331197798252,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 9,
+            "propagations": 21481,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 76,
+          "seconds": 0.0006402498111128807,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 14326,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 77,
+          "seconds": 0.0010248750913888216,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 3,
+            "propagations": 19652,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 78,
+          "seconds": 0.0004320000298321247,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 10943,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 79,
+          "seconds": 0.0004200420808047056,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 11001,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 80,
+          "seconds": 0.00821041688323021,
+          "stats_delta": {
+            "conflicts": 106,
+            "decisions": 120,
+            "propagations": 127867,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 81,
+          "seconds": 0.0007944169919937849,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 15665,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 82,
+          "seconds": 0.0015552497934550047,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 9,
+            "propagations": 26769,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 83,
+          "seconds": 0.001273792004212737,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 5,
+            "propagations": 24330,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 84,
+          "seconds": 0.0004296661354601383,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10476,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 85,
+          "seconds": 0.0003312078770250082,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9219,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 86,
+          "seconds": 0.0004426660016179085,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 11503,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 87,
+          "seconds": 0.012180541874840856,
+          "stats_delta": {
+            "conflicts": 150,
+            "decisions": 169,
+            "propagations": 191111,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 88,
+          "seconds": 0.003757416969165206,
+          "stats_delta": {
+            "conflicts": 24,
+            "decisions": 29,
+            "propagations": 67117,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 89,
+          "seconds": 0.0003894579131156206,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9200,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 90,
+          "seconds": 0.0010951249860227108,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 11,
+            "propagations": 20137,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 91,
+          "seconds": 0.0009752078913152218,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 19194,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 92,
+          "seconds": 0.0007516248151659966,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 14427,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 93,
+          "seconds": 0.0003850411158055067,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10564,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 94,
+          "seconds": 0.0006300001405179501,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 14310,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 95,
+          "seconds": 0.00863062497228384,
+          "stats_delta": {
+            "conflicts": 68,
+            "decisions": 77,
+            "propagations": 145489,
+            "restarts": 5
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 96,
+          "seconds": 0.0010542499367147684,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 4,
+            "propagations": 19591,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 97,
+          "seconds": 0.0018239999189972878,
+          "stats_delta": {
+            "conflicts": 13,
+            "decisions": 19,
+            "propagations": 34322,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 98,
+          "seconds": 0.0008593748789280653,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 17026,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 99,
+          "seconds": 0.0004901669453829527,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 11048,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 100,
+          "seconds": 0.0039594999980181456,
+          "stats_delta": {
+            "conflicts": 35,
+            "decisions": 45,
+            "propagations": 68393,
+            "restarts": 3
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 101,
+          "seconds": 0.001169875031337142,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 15,
+            "propagations": 21680,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 102,
+          "seconds": 0.0004161249380558729,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 10950,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 103,
+          "seconds": 0.004591541830450296,
+          "stats_delta": {
+            "conflicts": 41,
+            "decisions": 44,
+            "propagations": 74877,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 104,
+          "seconds": 0.000584334135055542,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 12292,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 105,
+          "seconds": 0.0008994161617010832,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 0,
+            "propagations": 16849,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 106,
+          "seconds": 0.0004231249913573265,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10315,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 107,
+          "seconds": 0.0012760001700371504,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 10,
+            "propagations": 22091,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 108,
+          "seconds": 0.0017258329316973686,
+          "stats_delta": {
+            "conflicts": 14,
+            "decisions": 15,
+            "propagations": 27990,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 109,
+          "seconds": 0.0022160420194268227,
+          "stats_delta": {
+            "conflicts": 18,
+            "decisions": 18,
+            "propagations": 33984,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 110,
+          "seconds": 0.0013734581880271435,
+          "stats_delta": {
+            "conflicts": 8,
+            "decisions": 11,
+            "propagations": 24471,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 111,
+          "seconds": 0.000676875002682209,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 14471,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 112,
+          "seconds": 0.0010179169476032257,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 22020,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 113,
+          "seconds": 0.0012615418527275324,
+          "stats_delta": {
+            "conflicts": 14,
+            "decisions": 14,
+            "propagations": 20805,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 114,
+          "seconds": 0.0004020421765744686,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10778,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 115,
+          "seconds": 0.0003629999700933695,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9823,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 116,
+          "seconds": 0.00038225017488002777,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10684,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 117,
+          "seconds": 0.0006397499237209558,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 17,
+            "propagations": 14258,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 118,
+          "seconds": 0.00033691711723804474,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9372,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 119,
+          "seconds": 0.00040412507951259613,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10567,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 120,
+          "seconds": 0.0011930419132113457,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 5,
+            "propagations": 23412,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 121,
+          "seconds": 0.00036437506787478924,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9420,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 122,
+          "seconds": 0.0034861250314861536,
+          "stats_delta": {
+            "conflicts": 31,
+            "decisions": 34,
+            "propagations": 52753,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 123,
+          "seconds": 0.0008817920461297035,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 16347,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 124,
+          "seconds": 0.0005730409175157547,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 12760,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 125,
+          "seconds": 0.0007046661339700222,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 13008,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 126,
+          "seconds": 0.010686082998290658,
+          "stats_delta": {
+            "conflicts": 119,
+            "decisions": 139,
+            "propagations": 169864,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 127,
+          "seconds": 0.0004538330249488354,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10922,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 128,
+          "seconds": 0.0029853330925107002,
+          "stats_delta": {
+            "conflicts": 22,
+            "decisions": 28,
+            "propagations": 51499,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 129,
+          "seconds": 0.000626124907284975,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 13339,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 130,
+          "seconds": 0.003439707914367318,
+          "stats_delta": {
+            "conflicts": 31,
+            "decisions": 45,
+            "propagations": 50243,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 131,
+          "seconds": 0.002320042112842202,
+          "stats_delta": {
+            "conflicts": 22,
+            "decisions": 25,
+            "propagations": 33493,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 132,
+          "seconds": 0.00039941701106727123,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9659,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 133,
+          "seconds": 0.0008130830246955156,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 12,
+            "propagations": 16733,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 134,
+          "seconds": 0.000597124919295311,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 13401,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 135,
+          "seconds": 0.0007626248989254236,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 15973,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 136,
+          "seconds": 0.0016242088750004768,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 10,
+            "propagations": 29811,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 137,
+          "seconds": 0.0007921671494841576,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 16110,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 138,
+          "seconds": 0.0010762501042336226,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 11,
+            "propagations": 20422,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 139,
+          "seconds": 0.0004761249292641878,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9611,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 140,
+          "seconds": 0.0018903748132288456,
+          "stats_delta": {
+            "conflicts": 11,
+            "decisions": 13,
+            "propagations": 29660,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 141,
+          "seconds": 0.0004536248743534088,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 11440,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 142,
+          "seconds": 0.00041224993765354156,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10765,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 143,
+          "seconds": 0.0008254169952124357,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 15464,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 144,
+          "seconds": 0.0005677500739693642,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 11892,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 145,
+          "seconds": 0.009853540919721127,
+          "stats_delta": {
+            "conflicts": 89,
+            "decisions": 108,
+            "propagations": 154560,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 146,
+          "seconds": 0.0011038749944418669,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 1,
+            "propagations": 18408,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 147,
+          "seconds": 0.000615208875387907,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 13429,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 148,
+          "seconds": 0.0005838340148329735,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 12222,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 149,
+          "seconds": 0.0004991251043975353,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10254,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 150,
+          "seconds": 0.0004925839602947235,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 12134,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 151,
+          "seconds": 0.0004844579380005598,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 12755,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 152,
+          "seconds": 0.00035816594026982784,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10373,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 153,
+          "seconds": 0.00032237498089671135,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9794,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 154,
+          "seconds": 0.004744125064462423,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 37,
+            "propagations": 20002,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 155,
+          "seconds": 0.004602916073054075,
+          "stats_delta": {
+            "conflicts": 32,
+            "decisions": 32,
+            "propagations": 60677,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 156,
+          "seconds": 0.0008436250500380993,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 13509,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 157,
+          "seconds": 0.0009591251146048307,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 15916,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 158,
+          "seconds": 0.0010390421375632286,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 3,
+            "propagations": 16709,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 159,
+          "seconds": 0.0029119160026311874,
+          "stats_delta": {
+            "conflicts": 18,
+            "decisions": 24,
+            "propagations": 43064,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 160,
+          "seconds": 0.000429375097155571,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10061,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 161,
+          "seconds": 0.0018996670842170715,
+          "stats_delta": {
+            "conflicts": 14,
+            "decisions": 15,
+            "propagations": 29095,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 162,
+          "seconds": 0.0006117089651525021,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 0,
+            "propagations": 13087,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 163,
+          "seconds": 0.011735917069017887,
+          "stats_delta": {
+            "conflicts": 130,
+            "decisions": 162,
+            "propagations": 182640,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 164,
+          "seconds": 0.005838250042870641,
+          "stats_delta": {
+            "conflicts": 49,
+            "decisions": 55,
+            "propagations": 88801,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 165,
+          "seconds": 0.0006592499557882547,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 0,
+            "propagations": 14012,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 166,
+          "seconds": 0.024297791067510843,
+          "stats_delta": {
+            "conflicts": 286,
+            "decisions": 312,
+            "propagations": 406019,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 167,
+          "seconds": 0.0008755840826779604,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 14009,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 168,
+          "seconds": 0.001972875092178583,
+          "stats_delta": {
+            "conflicts": 13,
+            "decisions": 13,
+            "propagations": 32843,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 169,
+          "seconds": 0.0010003750212490559,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 16265,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 170,
+          "seconds": 0.0036322500091046095,
+          "stats_delta": {
+            "conflicts": 42,
+            "decisions": 51,
+            "propagations": 58448,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 171,
+          "seconds": 0.0031145410612225533,
+          "stats_delta": {
+            "conflicts": 21,
+            "decisions": 35,
+            "propagations": 47307,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 172,
+          "seconds": 0.00158633291721344,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 4,
+            "propagations": 26926,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 173,
+          "seconds": 0.0008623749017715454,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 16935,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 174,
+          "seconds": 0.010680583072826266,
+          "stats_delta": {
+            "conflicts": 91,
+            "decisions": 98,
+            "propagations": 171247,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 175,
+          "seconds": 0.00045591709204018116,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10646,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 176,
+          "seconds": 0.00040120817720890045,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10003,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 177,
+          "seconds": 0.008492958964779973,
+          "stats_delta": {
+            "conflicts": 71,
+            "decisions": 77,
+            "propagations": 137114,
+            "restarts": 3
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 178,
+          "seconds": 0.00044829188846051693,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 9842,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 179,
+          "seconds": 0.0009445420000702143,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 16806,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 180,
+          "seconds": 0.0005185001064091921,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 11990,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 181,
+          "seconds": 0.0004085421096533537,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10440,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 182,
+          "seconds": 0.0009395419619977474,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 18,
+            "propagations": 17469,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 183,
+          "seconds": 0.0017129580955952406,
+          "stats_delta": {
+            "conflicts": 10,
+            "decisions": 9,
+            "propagations": 27938,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 184,
+          "seconds": 0.008009917102754116,
+          "stats_delta": {
+            "conflicts": 51,
+            "decisions": 101,
+            "propagations": 145578,
+            "restarts": 10
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 185,
+          "seconds": 0.0006963340565562248,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 6,
+            "propagations": 15568,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 186,
+          "seconds": 0.0013349158689379692,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 7,
+            "propagations": 21548,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 187,
+          "seconds": 0.0009485001210123301,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 20,
+            "propagations": 19026,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 188,
+          "seconds": 0.0007747500203549862,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 6,
+            "propagations": 16316,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 189,
+          "seconds": 0.0003607089165598154,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10372,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 190,
+          "seconds": 0.0008257918525487185,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 15081,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 191,
+          "seconds": 0.0005772500298917294,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 11633,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 192,
+          "seconds": 0.0004314170219004154,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10871,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 193,
+          "seconds": 0.0012069579679518938,
+          "stats_delta": {
+            "conflicts": 10,
+            "decisions": 9,
+            "propagations": 20374,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 194,
+          "seconds": 0.0004741661250591278,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10043,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 195,
+          "seconds": 0.00045725004747509956,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 10438,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 196,
+          "seconds": 0.0003709578886628151,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9565,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 197,
+          "seconds": 0.00034729111939668655,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9972,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 198,
+          "seconds": 0.0018720421940088272,
+          "stats_delta": {
+            "conflicts": 16,
+            "decisions": 16,
+            "propagations": 28292,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 199,
+          "seconds": 0.002882750006392598,
+          "stats_delta": {
+            "conflicts": 16,
+            "decisions": 18,
+            "propagations": 46249,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 200,
+          "seconds": 0.00988708296790719,
+          "stats_delta": {
+            "conflicts": 96,
+            "decisions": 107,
+            "propagations": 146591,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 201,
+          "seconds": 0.0017500000540167093,
+          "stats_delta": {
+            "conflicts": 11,
+            "decisions": 10,
+            "propagations": 31219,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 202,
+          "seconds": 0.013430541846901178,
+          "stats_delta": {
+            "conflicts": 118,
+            "decisions": 161,
+            "propagations": 214045,
+            "restarts": 23
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 203,
+          "seconds": 0.0004979579243808985,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10168,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 204,
+          "seconds": 0.00044004200026392937,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10233,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 205,
+          "seconds": 0.00042249984107911587,
+          "stats_delta": {
+            "conflicts": 4,
+            "decisions": 0,
+            "propagations": 10198,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 206,
+          "seconds": 0.0014831670559942722,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 8,
+            "propagations": 25097,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 207,
+          "seconds": 0.000445749843493104,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 9971,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 208,
+          "seconds": 0.00046466710045933723,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 11614,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 209,
+          "seconds": 0.011726959142833948,
+          "stats_delta": {
+            "conflicts": 144,
+            "decisions": 178,
+            "propagations": 179724,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 210,
+          "seconds": 0.0004390839021652937,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9791,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 211,
+          "seconds": 0.00042816693894565105,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10978,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 212,
+          "seconds": 0.000489167170599103,
+          "stats_delta": {
+            "conflicts": 0,
+            "decisions": 0,
+            "propagations": 12267,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 213,
+          "seconds": 0.0005582910962402821,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 13115,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 214,
+          "seconds": 0.0018011671490967274,
+          "stats_delta": {
+            "conflicts": 9,
+            "decisions": 8,
+            "propagations": 30971,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 215,
+          "seconds": 0.0006823341827839613,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 14011,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 216,
+          "seconds": 0.016774124931544065,
+          "stats_delta": {
+            "conflicts": 143,
+            "decisions": 205,
+            "propagations": 277214,
+            "restarts": 25
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 217,
+          "seconds": 0.0006479169242084026,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 13426,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 218,
+          "seconds": 0.0035414169542491436,
+          "stats_delta": {
+            "conflicts": 22,
+            "decisions": 26,
+            "propagations": 59231,
+            "restarts": 3
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 219,
+          "seconds": 0.004028666997328401,
+          "stats_delta": {
+            "conflicts": 35,
+            "decisions": 49,
+            "propagations": 69065,
+            "restarts": 5
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 220,
+          "seconds": 0.0006214580498635769,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10617,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 221,
+          "seconds": 0.008279208093881607,
+          "stats_delta": {
+            "conflicts": 37,
+            "decisions": 66,
+            "propagations": 60726,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 222,
+          "seconds": 0.0006269579753279686,
+          "stats_delta": {
+            "conflicts": 5,
+            "decisions": 0,
+            "propagations": 11381,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 223,
+          "seconds": 0.0005194998811930418,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 11188,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 224,
+          "seconds": 0.0004702918231487274,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 10536,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 225,
+          "seconds": 0.0004269590135663748,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10640,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 226,
+          "seconds": 0.0019147919956594706,
+          "stats_delta": {
+            "conflicts": 12,
+            "decisions": 29,
+            "propagations": 28689,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 227,
+          "seconds": 0.0019617078360170126,
+          "stats_delta": {
+            "conflicts": 18,
+            "decisions": 29,
+            "propagations": 30554,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 228,
+          "seconds": 0.0003756249789148569,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9718,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 229,
+          "seconds": 0.002370583824813366,
+          "stats_delta": {
+            "conflicts": 13,
+            "decisions": 20,
+            "propagations": 46018,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 230,
+          "seconds": 0.0006883330643177032,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 15578,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 231,
+          "seconds": 0.0003584169317036867,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10707,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 232,
+          "seconds": 0.0003467090427875519,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9745,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 233,
+          "seconds": 0.001451167045161128,
+          "stats_delta": {
+            "conflicts": 6,
+            "decisions": 4,
+            "propagations": 21853,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 234,
+          "seconds": 0.0005956250242888927,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10456,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 235,
+          "seconds": 0.0004693749360740185,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10218,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 236,
+          "seconds": 0.0007282081060111523,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 14595,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 237,
+          "seconds": 0.004638833925127983,
+          "stats_delta": {
+            "conflicts": 37,
+            "decisions": 40,
+            "propagations": 68099,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 238,
+          "seconds": 0.0003885000478476286,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 9457,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 239,
+          "seconds": 0.004547207849100232,
+          "stats_delta": {
+            "conflicts": 42,
+            "decisions": 38,
+            "propagations": 63599,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 240,
+          "seconds": 0.04187870817258954,
+          "stats_delta": {
+            "conflicts": 73,
+            "decisions": 119,
+            "propagations": 277748,
+            "restarts": 6
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 241,
+          "seconds": 0.00375987496227026,
+          "stats_delta": {
+            "conflicts": 14,
+            "decisions": 15,
+            "propagations": 49534,
+            "restarts": 2
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 242,
+          "seconds": 0.0030317080672830343,
+          "stats_delta": {
+            "conflicts": 13,
+            "decisions": 19,
+            "propagations": 44384,
+            "restarts": 1
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 243,
+          "seconds": 0.0005955828819423914,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10760,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 244,
+          "seconds": 0.0005831250455230474,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 11021,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 245,
+          "seconds": 0.0005548750050365925,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 11364,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 246,
+          "seconds": 0.0004983751568943262,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 11256,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 247,
+          "seconds": 0.0005164160393178463,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 11015,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 248,
+          "seconds": 0.0016429999377578497,
+          "stats_delta": {
+            "conflicts": 7,
+            "decisions": 6,
+            "propagations": 27479,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 249,
+          "seconds": 0.019369375193491578,
+          "stats_delta": {
+            "conflicts": 162,
+            "decisions": 212,
+            "propagations": 309561,
+            "restarts": 21
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 250,
+          "seconds": 0.0021603330969810486,
+          "stats_delta": {
+            "conflicts": 16,
+            "decisions": 27,
+            "propagations": 32318,
+            "restarts": 2
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 251,
+          "seconds": 0.0005211669486016035,
+          "stats_delta": {
+            "conflicts": 3,
+            "decisions": 0,
+            "propagations": 11020,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 252,
+          "seconds": 0.0004456669557839632,
+          "stats_delta": {
+            "conflicts": 1,
+            "decisions": 0,
+            "propagations": 10619,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 253,
+          "seconds": 0.002320624887943268,
+          "stats_delta": {
+            "conflicts": 15,
+            "decisions": 14,
+            "propagations": 35697,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 254,
+          "seconds": 0.0005982080474495888,
+          "stats_delta": {
+            "conflicts": 0,
+            "decisions": 0,
+            "propagations": 13640,
+            "restarts": 0
+          },
+          "status": "unsat"
+        },
+        {
+          "index": 255,
+          "seconds": 0.0005164160393178463,
+          "stats_delta": {
+            "conflicts": 2,
+            "decisions": 0,
+            "propagations": 10579,
+            "restarts": 0
+          },
+          "status": "unsat"
+        }
+      ],
+      "sat": 3,
+      "seconds": 0.9958849160466343,
+      "unknown": 0,
+      "unsat": 253
+    }
+  ],
+  "schema": "flat-psl4-cube-feasibility-v1",
+  "scope": "C++ is the exact newly-fixed-sidelobe outside-in baseline, not the stronger active-lag accelerator. SAT unknown rows are not proofs and are excluded from agreement counts.",
+  "seed": 303188272
+}

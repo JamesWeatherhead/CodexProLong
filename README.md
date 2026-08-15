@@ -27,7 +27,7 @@
 
 | Lane | Rank | Score | Evidence | Integrity label |
 |---|---:|---:|---|---|
-| [Prime number theorem](https://einsteinarena.com/problems/prime-number-theorem) | **#1 platform** | `0.9976572852677297` ↑ | [#2506](https://einsteinarena.com/api/solutions/2506) · [payload](artifacts/wins/prime-number-theorem.json) · [receipt](artifacts/receipts/prime-number-theorem.json) · [exact audit](artifacts/evidence/prime-number-theorem-full-horizon.json) · [solver](src/campaign/discrete/prime_number_theorem/reach_extend.py) · [handoff](src/campaign/discrete/prime_number_theorem/HANDOFF.md) | 🧪 full verifier horizon; global all-\(x\) proof open |
+| [Prime number theorem](https://einsteinarena.com/problems/prime-number-theorem) | **#1 platform** | `0.9976572852677297` ↑ | [#2506](https://einsteinarena.com/api/solutions/2506) · [payload](artifacts/wins/prime-number-theorem.json) · [receipt](artifacts/receipts/prime-number-theorem.json) · [finite-horizon audit](artifacts/evidence/prime-number-theorem-full-horizon.json) · [global audit](src/campaign/discrete/prime_number_theorem_global_proof/HANDOFF.md) | 🧪 platform-only; exact all-\(x\) counterexample at `x=1` |
 | [Erdős minimum overlap](https://einsteinarena.com/problems/erdos-min-overlap) | **#1** | `0.3808585748578584` ↓ | [solution #2507](https://einsteinarena.com/api/solutions/2507) · [payload](artifacts/wins/erdos-min-overlap.json) · [receipt](artifacts/receipts/erdos-min-overlap.json) · [replayer](src/campaign/analytic/erdos_global/independent_replay.py) · [handoff](src/campaign/analytic/erdos_global/HANDOFF.md) | ✅ domain-valid |
 | [Uncertainty principle](https://einsteinarena.com/problems/uncertainty-principle) | **#1** | `0.3130922465438896` ↓ | [solution #2505](https://einsteinarena.com/api/solutions/2505) · [payload](artifacts/wins/uncertainty-principle.json) | ✅ domain-valid |
 | [First autocorrelation](https://einsteinarena.com/problems/first-autocorrelation-inequality) | **#1** | `1.5027436492326165` ↓ | [solution #2504](https://einsteinarena.com/api/solutions/2504) · [payload](artifacts/wins/first-autocorrelation-inequality.json) | ✅ domain-valid |
@@ -42,6 +42,16 @@ gate, verifier hash, local frontier, negative result, and literature-grounded
 next move. The compact **[machine-readable frontier](data/frontier.json)** is
 the source of truth for automation.
 
+> [!WARNING]
+> **The PNT leaderboard win is not the Prime Number Theorem certificate.**
+> Solution #2506 passes the platform's finite, tolerant verifier, but exact
+> arithmetic gives `S(1) = 1.000099989952235... > 1` and
+> `S(8,015,392) = 106.150121507295...`. A solver-independent weak dual also
+> proves that no coefficient repair on its 2,000-key support can retain the
+> historical winning score under the written all-\(x\) condition. The public
+> packet includes those counterexamples, the dual certificate, and a genuinely
+> global periodic construction scoring `0.970073558281127`.
+
 ### Latest checkpoint: exact search that can actually resume
 
 The length-70 PSL-4 search is now a distributed exact program rather than a
@@ -52,11 +62,16 @@ per-shard receipts, and refuses global completion unless every task appears
 exactly once with a final `COMPLETE` row. A clean-room active-lag kernel now
 replays the same 82,824,482-node benchmark with identical leaves, prune
 counters, and canonical answer in 53.29 seconds instead of 77.85 seconds—a
-1.46× speedup. That still projects to a multi-week full traversal, so the next
-architecture is an exact SAT/PB encoding of all 69 autocorrelation bounds,
-seeded only with a known witness to validate propagation and enumeration.
+1.46× speedup. We also built the independent SAT/PB architecture rather than
+merely proposing it. It exactly agrees with C++ on 256 deterministic cubes and
+completes three supplied PSL-4 classes in sub-millisecond time, but cold search
+stalls and its solve-only cost is 46.5× slower for MiniCard and 661.9× slower
+for CaDiCaL than even the raw C++ DFS. That negative result keeps the
+distributed active-lag engine—not an attractive encoding benchmark—on the
+critical path.
 [Distributed engine →](src/campaign/flat_psl4_global_exact/README.md) ·
-[accelerator receipt →](src/campaign/analytic/flat_psl4_accelerator/HANDOFF.md)
+[accelerator receipt →](src/campaign/analytic/flat_psl4_accelerator/HANDOFF.md) ·
+[SAT/PB decision packet →](src/campaign/analytic/flat_psl4_sat_pb/HANDOFF.md)
 
 ## What this repository is
 
@@ -162,6 +177,8 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧮 [Exact 4.34-billion-node PSL-4 neighborhood enumeration](src/campaign/flat_psl4_enumerator/HANDOFF.md)
 - ⚙️ [Distributed bit-parallel exact PSL-4 enumerator](src/campaign/flat_psl4_global_exact/HANDOFF.md)
 - ⚡ [Hash-pinned PSL-4 active-lag accelerator](src/campaign/analytic/flat_psl4_accelerator/HANDOFF.md)
+- 🧠 [Exact PSL-4 SAT/PB feasibility benchmark](src/campaign/analytic/flat_psl4_sat_pb/HANDOFF.md)
+- 🗄️ [PSL-4 table-recovery audit via Exa, Paperclip, and archives](src/campaign/analytic/flat_psl4_table_recovery_exa/publication/README.md)
 - ⚪ [Square-packing codimension-two contact search](src/campaign/geometry/circle_packing_multicontact_precision/HANDOFF.md)
 - ⚪ [Square-packing codimension-three global pivots](src/campaign/geometry/circle_packing_multicontact_global/HANDOFF.md)
 - 🗃️ [ClaudeEvolve circle-asset recovery audit](src/campaign/geometry/claudeevolve_circle_recovery/publication/README.md)

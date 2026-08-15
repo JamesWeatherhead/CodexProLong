@@ -19,12 +19,15 @@ The evaluator leaves an exact zero vector at the origin instead of rejecting it
 or projecting it onto the unit sphere. We disclosed the mismatch publicly and
 do not represent that payload as a 50-point spherical code.
 
-The Prime Number Theorem platform first place is labeled a numerical
-certificate. An exact rational sweep verifies every floor-sum state throughout
-the server's full advertised horizon and the unchanged 10-million-sample
-verifier accepts it. Its maximum nevertheless exceeds the ideal analytic bound
-of 1 by less than the verifier's `1e-4` tolerance, and no proof for all
-`x >= 1` is claimed.
+The Prime Number Theorem platform first place is labeled a platform-only
+numerical certificate. An exact rational sweep verifies every floor-sum state
+throughout the server's advertised horizon and the unchanged sampled verifier
+accepts it. It is not a certificate for the written all-`x` inequality: exact
+arithmetic already gives `S(1) > 1`, and a later integer witness exceeds `106`.
+The public global audit preserves both counterexamples and a weak-duality proof
+that no coefficient-only repair on the same support can keep the historical
+winning score. We therefore do not count PNT among the domain-valid first
+places.
 
 The controller now forbids submission unless both `--confirm-domain-valid` and
 `--confirm-submit` are present. A separate Edges-vs-Triangles schema mismatch

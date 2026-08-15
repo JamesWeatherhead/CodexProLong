@@ -1,0 +1,153 @@
+{
+  "schema_version": 1,
+  "credential_policy": "Credentials remained in the local environment and are not recorded.",
+  "raw_response_set_sha256": "ca2fd2e0a66b7b9ace0d3ba9ca8cbf1033fcf1b929e7083e6df1522b3bf7c05a",
+  "raw_response_set_hash_method": "SHA-256 of the sorted lines '<response_sha256><two spaces><basename>' for all 46 Exa JSON responses",
+  "search_requests": [
+    ["exact_title.json", "f766906c6b0baf77c8b76ca976b1ffaa", 10, "\"Minimum peak sidelobe sequences (PSL-4)\""],
+    ["page_id_1779.json", "539e8cb2fbb6bc5b06d95d5d13a7a5dd", 10, "\"page_id=1779\" signalslab"],
+    ["domain_psl4.json", "967f11490cd8e6323ba4ff42ded747d3", 10, "signalslab.marstu.net PSL-4 binary sequences"],
+    ["count72_n70.json", "3ffec42dd10c1df98449fad58a744fbe", 10, "\"72\" \"length 70\" \"PSL-4\" binary sequences"],
+    ["optimal74_pdf.json", "074415f6cb8fd73198c51ca836e308cb", 20, "\"Optimal peak sidelobe level sequences up to length 74\" PDF"],
+    ["authors_length74.json", "a372558433c9acc161482be3dd06451f", 19, "\"Leukhin\" \"Potekhin\" \"length 74\" sequence table"],
+    ["72_nonequivalent_psl.json", "541f4b7507cde59dce18993bb40d64fb", 20, "\"72 non-equivalent\" \"PSL\" binary sequences"],
+    ["exhaustive80_pdf.json", "18308d729acf4a151b7ddb33301ecb63", 20, "\"Exhaustive Search for Optimal Minimum Peak Sidelobe Binary Sequences up to Length 80\" PDF"],
+    ["deep_asset_recovery.json", "7f184fbb1603d347dfd86f6d3fd8c5ec", 14, "Find lawful public mirrors, cached PDFs, attachments, supplemental tables, or repository files for Anatolii Leukhin and Egor Potekhin complete non-equivalent PSL-4 binary sequences at length 70, especially SignalsLab page_id 1779 and the papers up to length 74 or 80"],
+    ["signalslab_uploads.json", "96c3c465785704b5f2474c3920627d54", 20, "\"signalslab.marstu.net/wp-content/uploads\""],
+    ["site_uploads_psl.json", "4b8e9f36dc0551b5089db73e10ef0788", 0, "site:signalslab.marstu.net/wp-content/uploads PSL sequence"],
+    ["attachment1780.json", "ea72b8993b481a6cbdd77cd91950153f", 20, "\"attachment_id=1780\""],
+    ["signalslab_1780.json", "c12cb416c59e72eaff72f9f7a5f9a73e", 20, "\"signalslab.marstu.net\" \"1780\""],
+    ["email_leukhin.json", "d81b3ef340e5d78cfb03a6c7e914bca5", 14, "[redacted public author-email exact query]", "query_sha256=17b04e41b68829ebe7a5db8db0aae5534fbbb37f3e83b16ee11c89f8a4b42210"],
+    ["email_potekhin.json", "006c24098afefaa92adb1740bc8cf039", 2, "[redacted public author-email exact query]", "query_sha256=75c2c95f90fbfb9505cefa37f10ae367356c0fc3102c428bd1ca6d533e7c2dcf"],
+    ["thesis_russian_appendix.json", "99cb2ae6110f82938919c6033695855d", 20, "\"Синтез и анализ оптимальных бинарных последовательностей\" приложения"],
+    ["potekhin_72_russian.json", "4b4b2c5e1ee71fabfb44e95db385e2ac", 20, "\"Потехин\" \"72\" бинарных последовательностей"],
+    ["volgatech_authors.json", "b5bc80b132f90f39e6c400c398b52499", 20, "site:science.volgatech.net Leukhin Potekhin binary sequence sidelobe"],
+    ["volgatech_optimal_psl.json", "b0acaf45563dc964df592073aaafbe47", 20, "site:volgatech.net \"Optimal peak sidelobe\""],
+    ["marsu_signalslab.json", "7472ad0d3aaaee7ef6365971cc15e201", 20, "site:marsu.ru signalslab binary sequences PSL"],
+    ["marstu_minimum_psl.json", "f27a36f3a900a3894325a23025b5ad9f", 7, "site:marstu.net \"Minimum peak sidelobe\""],
+    ["volgatech_domain_exact.json", "bfc764aea4668b462d7bb46dd3afc7b9", 4, "\"signalslab.volgatech.net\""],
+    ["volgatech_psl4.json", "cd98f10897f1d8680b93baa37bb409cf", 0, "site:signalslab.volgatech.net PSL4 minimum peak sidelobe sequences"],
+    ["volgatech_page1779.json", "09a9e2c11079e533db9f85848ac07282", 12, "signalslab.volgatech.net page_id 1779"],
+    ["dspa2013_exact_ru.json", "9aebb874aad49e3b9fee0f5ffb21839c", 13, "\"Синтез бинарных оптимальных по минимаксному критерию последовательностей до длин N=70\""],
+    ["dspa2013_authors.json", "92a69d8b1fe1423ba18db4595044bfdc", 11, "Лейхин Потехин DSPA 2013 N=70 бинарных последовательностей"],
+    ["dspa2013_translit.json", "55b532ae8d9df8c6fa3d1c44e10b872d", 7, "Leukhin Potekhin synthesis binary optimal minimax sequences lengths 70 DSPA 2013 PDF"],
+    ["volgatech_psl4_exact_title.json", "8a5768910fb50349365047672f98222c", 9, "\"Minimum peak sidelobe sequences (PSL-4)\" \"signalslab.volgatech.net\""],
+    ["marstu_psl4_fulltable.json", "073444ab389ca558a913052d14d41d0a", 9, "\"Minimum peak sidelobe sequences (PSL-4)\" sequence table 70 72"],
+    ["page1779_archives.json", "0d17a31f0a69a54d67fc34c12b0e4e8d", 29, "\"signalslab.marstu.net/?page_id=1779\" OR \"signalslab.volgatech.net/?page_id=1779\" archive cache mirror"],
+    ["dspa117_direct_asset.json", "c038f61afb1ba25a5d20c6cc34c6d53c", 9, "\"dspa2013_1_117\" OR \"1_117.pdf\" Потехин Леухин"],
+    ["dspa117_title_variants.json", "978a9ff87962749bd1a3d87e95df267a", 11, "\"Синтез бинарных оптимальных\" \"n=70\" filetype:pdf"],
+    ["psl4_70_72_russian.json", "2a5e7cff76f1eb43c17e353b26ecd922", 24, "ПВБП ПАКФ 4 длина 70 72 неизоморфных последовательностей таблица"],
+    ["margrid_client_exact.json", "cc3c6a13e473188b3012eb789338edb3", 7, "\"MarGrid Client v.1.0.1\""],
+    ["margrid_zip_size.json", "9d9eb6ab080c3dd7dd560891a60942e6", 11, "\"47369 КБ\" MarGrid OR \"47,369 KB\" MarGrid"],
+    ["hpc_marsu_download.json", "c6ce48c4372d0208e1e6a2203ee35bd0", 0, "site:hpc.marsu.ru MarGrid скачать client zip"],
+    ["margrid_results_assets.json", "bb9e7388cf826d2ecd39a1723007cc65", 10, "MarGrid Potekhin Leukhin results PSL binary sequences download"],
+    ["margrid_psl_exe_exact.json", "d9d0bab522ac43ddcbf2f8610a8159c7", 10, "\"GridServer.exe\" \"psl.exe\" MarGrid"],
+    ["margrid_psl_description_ru.json", "8c17e2d32ba722c1b041ae2ff4a298de", 15, "\"64-битная версия поиска PSL\""],
+    ["margrid_task_filenames.json", "7e9f20c9f7fe4080cab10687382b560a", 11, "\"48_2.exe\" \"psl.exe\" OR \"impulse_read.xcmd\""]
+  ],
+  "content_requests": [
+    {
+      "artifact": "contents_signalslab_variants.json",
+      "request_id": "361f6733d8569ec67e426520d96388fe",
+      "requested": 15,
+      "succeeded": 0,
+      "urls": [
+        "http://signalslab.marstu.net/?page_id=1776",
+        "http://signalslab.marstu.net/?page_id=1778",
+        "http://signalslab.marstu.net/?page_id=1779",
+        "https://signalslab.marstu.net/?page_id=1779",
+        "http://www.signalslab.marstu.net/?page_id=1779",
+        "http://signalslab.marstu.net/?page_id=1779&lang=en",
+        "http://signalslab.marstu.net/?page_id=1779&lang=ru",
+        "http://signalslab.marstu.net/?p=1779",
+        "http://signalslab.marstu.net/?attachment_id=1780",
+        "http://signalslab.marstu.net/?p=1780",
+        "http://signalslab.marstu.net/?page_id=1781",
+        "http://signalslab.marstu.net/?feed=rss2",
+        "http://signalslab.marstu.net/?feed=atom",
+        "http://signalslab.marstu.net/wp-json/wp/v2/pages/1779",
+        "http://signalslab.marstu.net/wp-json/wp/v2/media/1780"
+      ]
+    },
+    {
+      "artifact": "contents_optimal74.json",
+      "request_id": "3249de5f6c596a9bfd03f3460a343736",
+      "requested": 5,
+      "succeeded": 2,
+      "urls": [
+        "http://ieeexplore.ieee.org/iel7/6679725/6689067/06689222.pdf",
+        "https://ieeexplore.ieee.org/iel7/6679725/6689067/06689222.pdf",
+        "https://exa.ai/library/publication/vvxqgc31g52",
+        "https://ieeexplore.ieee.org/document/6687030",
+        "https://doi.org/10.1109/EuRAD.2013.6687030"
+      ]
+    },
+    {
+      "artifact": "contents_russian_thesis_methods.json",
+      "request_id": "932bb6e51497a202d75f28a12b91f3d0",
+      "requested": 5,
+      "succeeded": 5,
+      "urls": [
+        "http://www.dslib.net/teor-informatika/sintez-i-analiz-optimalnyh-binarnyh-posledovatelnostej.html",
+        "https://www.dissercat.com/content/sintez-i-analiz-optimalnykh-binarnykh-posledovatelnostei",
+        "https://tekhnosfera.com/sintez-i-analiz-optimalnyh-binarnyh-posledovatelnostey",
+        "https://ru.aurora-journals.com/library_read_article.php?id=63026",
+        "https://doi.org/10.7256/2305-6061.2013.2.7600"
+      ]
+    },
+    {
+      "artifact": "contents_volgatech_variants.json",
+      "request_id": "b7ff79989f76639d23885416d92cb8cb",
+      "requested": 19,
+      "succeeded": 5,
+      "urls": [
+        "http://signalslab.volgatech.net/",
+        "https://signalslab.volgatech.net/",
+        "http://www.signalslab.volgatech.net/",
+        "http://signalslab.volgatech.net/?page_id=1776",
+        "http://signalslab.volgatech.net/?page_id=1778",
+        "http://signalslab.volgatech.net/?page_id=1779",
+        "https://signalslab.volgatech.net/?page_id=1779",
+        "http://www.signalslab.volgatech.net/?page_id=1779",
+        "http://signalslab.volgatech.net/?page_id=1779&lang=en",
+        "http://signalslab.volgatech.net/?page_id=1779&lang=ru",
+        "http://signalslab.volgatech.net/?p=1779",
+        "http://signalslab.volgatech.net/?attachment_id=1780",
+        "http://signalslab.volgatech.net/?p=1780",
+        "http://signalslab.volgatech.net/?page_id=1781",
+        "http://signalslab.volgatech.net/wp-json/wp/v2/pages/1779",
+        "http://signalslab.volgatech.net/wp-json/wp/v2/media/1780",
+        "http://signalslab.volgatech.net/feed/",
+        "http://signalslab.volgatech.net/sitemap.xml",
+        "http://signalslab.volgatech.net/robots.txt"
+      ]
+    },
+    {
+      "artifact": "contents_pptonline_15496.json",
+      "request_id": "a87540cb94f50581294f9c2b0e1e9b67",
+      "requested": 2,
+      "succeeded": 2,
+      "urls": [
+        "https://en.ppt-online.org/15496",
+        "https://ppt-online.org/15496"
+      ]
+    },
+    {
+      "artifact": "contents_researchgate_optimal74.json",
+      "request_id": "69c0f64009737298cf99f95e4dcf8716",
+      "requested": 1,
+      "succeeded": 0,
+      "urls": [
+        "https://www.researchgate.net/publication/259466557_Optimal_Peak_Sidelobe_Level_Sequences_up_to_Length_74"
+      ]
+    }
+  ],
+  "totals": {
+    "requests": 46,
+    "search_requests": 40,
+    "search_results": 518,
+    "content_requests": 6,
+    "content_urls_requested": 47,
+    "content_successes": 14
+  }
+}

@@ -1,0 +1,10 @@
+*
+!.gitignore
+!PUBLICATION_MANIFEST.json
+!publication/
+!publication/ARCHIVE_AND_CODE_SEARCH_RECEIPT.json
+!publication/EXA_REQUEST_LEDGER.json
+!publication/PAPERCLIP_PROVENANCE.json
+!publication/PROVENANCE_AND_RIGHTS.md
+!publication/README.md
+!publication/RECOVERY_RECEIPT.json

@@ -1,0 +1,26 @@
+{
+  "ceiling_gap_to_gate_decimal": "-0.00002410521383243269517951757047",
+  "checkpoint_rows_selected": 7460,
+  "checkpoint_sha256": "72411372498cdf78b40f14c8dff30a91ce16f7c573c6bc5dd26fc89471220907",
+  "dual_certificate": {
+    "nonzero_multipliers": 1849,
+    "path": "campaign/discrete/prime_number_theorem_global_proof/same_support_dual.json",
+    "sha256": "673f2b70a55027534fa8d22b060d412d0d36bec641605034fa67ee34af66b7c9"
+  },
+  "dual_multiplier_sha256": "6039f74c4f538f030ca9be9fd0ea40b1fc83e939ea5f6b2a0ceafa5424248abd",
+  "external_actions": "none",
+  "historical_gate": "0.9976498835182795",
+  "logic": "The selected inequalities are a subset of the all-x system. The recorded nonnegative multiplier gives a direct weak-duality upper bound, independent of solver optimality.",
+  "master_rows": 7464,
+  "payload_sha256": "d43c5531d562d06981a55829deb1c579a87a7c02405d69688dcc79e7f45f22c1",
+  "same_support_gate_impossible_if_negative": true,
+  "scope": "all coefficient assignments on the exact 2000-key #2506 support",
+  "solver_score": 0.9976257782917383,
+  "tail_witnesses": [
+    1814943,
+    3312217,
+    4570184,
+    8015392
+  ],
+  "weak_duality_score_ceiling_decimal": "0.99762577830444706730482048242952755039300085138709618732994627306341993925441563"
+}

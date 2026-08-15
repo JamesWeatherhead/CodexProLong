@@ -1,0 +1,100 @@
+{
+  "schema": "flat-psl4-sat-pb-publication-manifest-v1",
+  "root": "campaign/analytic/flat_psl4_sat_pb",
+  "boundary": "Publish exactly this manifest and the allowlist. Runtime solver packages are pinned dependencies and are not vendored.",
+  "allowlist": [
+    {
+      "path": "HANDOFF.md",
+      "sha256": "4437f7ac294788720da7bd3dbfcb26423f3a5eee031d7e97abad851d48fb70cc",
+      "bytes": 2440,
+      "license": "project-native documentation"
+    },
+    {
+      "path": "README.md",
+      "sha256": "7d10e0e9043f845fd8559a70efc2e728c197f6b4e7cc1a746c42301cd4724714",
+      "bytes": 4474,
+      "license": "project-native documentation"
+    },
+    {
+      "path": "cube_baseline.cpp",
+      "sha256": "79980030cd096f4ead70cb687b0f44379d46d988b7e9d17aedb144a4177bc7cb",
+      "bytes": 3457,
+      "license": "project-native source"
+    },
+    {
+      "path": "cube_benchmark.py",
+      "sha256": "9a30ccf87ea6ce5ca1b2716791cfcc17ed2eb5ebad545f0999c2c0ae8e14dc84",
+      "bytes": 10107,
+      "license": "project-native source"
+    },
+    {
+      "path": "literature.json",
+      "sha256": "4507a1a4c099c27a48b0305c9486919a20183a913cc585c4ee7682ccb4858f1d",
+      "bytes": 1479,
+      "license": "project-native metadata; citations only"
+    },
+    {
+      "path": "receipt.json",
+      "sha256": "2f7ad2b97d4543024653d5968e038d21878482f9c6f8c713fccf1e8962540553",
+      "bytes": 2512,
+      "license": "project-native generated metadata"
+    },
+    {
+      "path": "requirements.txt",
+      "sha256": "008b4378df60ecd8db61331b1aa35cbaba924ebdabbebe141a6941971515f843",
+      "bytes": 41,
+      "license": "dependency pins only"
+    },
+    {
+      "path": "runs/20260815T084700Z/cube_benchmark.json",
+      "sha256": "141d6284bddfb579b64a2688b43ade448482142d223b20de7ce0c14bfadcec48",
+      "bytes": 171113,
+      "license": "project-native generated evidence"
+    },
+    {
+      "path": "runs/20260815T085500Z/benchmark.json",
+      "sha256": "db6bbfd8cd81422aed55775a9f5b309b0d31db8fd22e585332611e19ae0d0a09",
+      "bytes": 50464,
+      "license": "project-native generated evidence"
+    },
+    {
+      "path": "sat_pb_benchmark.py",
+      "sha256": "cb677519b7fdccb3d5314988647ba2912bcb080b68460f10c76a3b65031ac0ff",
+      "bytes": 19646,
+      "license": "project-native source"
+    },
+    {
+      "path": "test_packet.py",
+      "sha256": "d53d0d736f24443344f8f7cca3ba6fffb0582df52f032e51ba76174135fd3d51",
+      "bytes": 3547,
+      "license": "project-native source"
+    }
+  ],
+  "exclude": [
+    {
+      "path": "runs/20260815T083500Z/",
+      "reason": "superseded pre-freeze run blocked raw assignments rather than full symmetry classes"
+    },
+    {
+      "path": "runs/smoke-20260815T0845Z/",
+      "reason": "exploratory smoke run"
+    },
+    {
+      "path": "__pycache__/",
+      "reason": "regenerable interpreter cache"
+    },
+    {
+      "path": "any unlisted file",
+      "reason": "allowlist-only publication boundary"
+    }
+  ],
+  "runtime_dependencies": {
+    "python": "3.12",
+    "python_sat": "1.9.dev14",
+    "ortools": "9.14.6206",
+    "compiler": "C++20 clang-compatible"
+  },
+  "third_party_assets_vendored": false,
+  "credentials_present": false,
+  "external_writes_performed": false
+}

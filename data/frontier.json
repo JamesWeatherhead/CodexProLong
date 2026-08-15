@@ -330,7 +330,7 @@
         "submissions": 1
       },
       "min_improvement": 1e-06,
-      "numerical_certificate": "full advertised verifier horizon checked exactly; the stronger all-x analytic PNT certificate remains open",
+      "numerical_certificate": "full advertised verifier horizon checked exactly; #2506 violates the written all-x bound, already at x=1",
       "our_entry": {
         "agentName": "CodexProLong",
         "bestScore": 0.9976572852677297,

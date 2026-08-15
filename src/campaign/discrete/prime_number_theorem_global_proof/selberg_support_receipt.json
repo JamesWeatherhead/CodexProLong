@@ -1,0 +1,356 @@
+{
+  "all_real_reduction": "The floor sum is constant on every [m,m+1).",
+  "conclusion": "bounded changed-support screen is globally upper-valid; negative values are unrestricted",
+  "external_actions": "none",
+  "historical_gate": "0.9976498835182795",
+  "identity": "For exact zero mean and support dividing L, S(m)=-sum_{k>1} f(k)(m mod k)/k is L-periodic.",
+  "optimized_support_screen": {
+    "candidate_sha256": "e9b316a81a1d23ad8623e0ff2d218199843c0704051b471b253337ca74e1be46",
+    "certified_global_maximum": {
+      "decimal": "1",
+      "denominator": "1",
+      "numerator": "1"
+    },
+    "certified_global_minimum": {
+      "decimal": "-3.56166608771339328728075961853292499033641298770306385266018",
+      "denominator": "9699712809097",
+      "numerator": "-34547138172720"
+    },
+    "certified_score_decimal": "0.9301344563635095848633115526319450754920019685574804558091452540049458",
+    "exact_uniform_scale": {
+      "decimal": "0.999997648477078763796389361728756131455098904799837502718212",
+      "denominator": "9699712809097",
+      "numerator": "9699690000000"
+    },
+    "gap_to_historical_gate_decimal": "-0.06751542715476991513668844737",
+    "history": [
+      {
+        "full_period_float_maximum": 2.3041706586802855,
+        "full_period_float_maximum_at": 4849855,
+        "full_period_float_minimum": -4.7192869151706915,
+        "full_period_float_minimum_at": 4849834,
+        "iteration": 0,
+        "master_rows": 41992,
+        "solver_score": 0.9454551571616877
+      },
+      {
+        "full_period_float_maximum": 2.0437785793368066,
+        "full_period_float_maximum_at": 8261028,
+        "full_period_float_minimum": -4.606514880122912,
+        "full_period_float_minimum_at": 1438661,
+        "iteration": 1,
+        "master_rows": 42120,
+        "solver_score": 0.9369253729101809
+      },
+      {
+        "full_period_float_maximum": 1.4388667618546678,
+        "full_period_float_maximum_at": 8914319,
+        "full_period_float_minimum": -4.086069988226733,
+        "full_period_float_minimum_at": 785370,
+        "iteration": 2,
+        "master_rows": 42248,
+        "solver_score": 0.9341115246180989
+      },
+      {
+        "full_period_float_maximum": 1.370370370370372,
+        "full_period_float_maximum_at": 2811143,
+        "full_period_float_minimum": -4.012417223768836,
+        "full_period_float_minimum_at": 6888546,
+        "iteration": 3,
+        "master_rows": 42376,
+        "solver_score": 0.9323935965194258
+      },
+      {
+        "full_period_float_maximum": 1.2412999712395882,
+        "full_period_float_maximum_at": 1528469,
+        "full_period_float_minimum": -3.8743169398907176,
+        "full_period_float_minimum_at": 8171220,
+        "iteration": 4,
+        "master_rows": 42504,
+        "solver_score": 0.9310275924871816
+      },
+      {
+        "full_period_float_maximum": 1.0917813455657517,
+        "full_period_float_maximum_at": 9307009,
+        "full_period_float_minimum": -3.694151376146798,
+        "full_period_float_minimum_at": 392680,
+        "iteration": 5,
+        "master_rows": 42632,
+        "solver_score": 0.9302680438791937
+      },
+      {
+        "full_period_float_maximum": 1.0143715143715006,
+        "full_period_float_maximum_at": 5542687,
+        "full_period_float_minimum": -3.544401544401549,
+        "full_period_float_minimum_at": 4157000,
+        "iteration": 6,
+        "master_rows": 42692,
+        "solver_score": 0.9301393248150722
+      },
+      {
+        "full_period_float_maximum": 1.0000000000000036,
+        "full_period_float_maximum_at": 8691941,
+        "full_period_float_minimum": -3.5616740088105763,
+        "full_period_float_minimum_at": 1007748,
+        "iteration": 7,
+        "master_rows": 42722,
+        "solver_score": 0.930136323480829
+      }
+    ],
+    "iterations": 8,
+    "period": 9699690,
+    "pre_scale_exact_maximum": {
+      "decimal": "1.00000235152845090925586281623433326219703928682256855631469",
+      "denominator": "9699690000000",
+      "numerator": "9699712809097"
+    },
+    "pre_scale_exact_maximum_at": 5729729,
+    "pre_scale_exact_minimum": {
+      "decimal": "-3.56167446307253118398629234542547236045688058071959000751570",
+      "denominator": "40415375000",
+      "numerator": "-143946409053"
+    },
+    "pre_scale_exact_minimum_at": 3969960,
+    "rounding_denominator": 1000000,
+    "support_size_excluding_one": 57,
+    "z": 19
+  },
+  "pure_weight_screens": [
+    {
+      "G": {
+        "decimal": "2",
+        "denominator": "1",
+        "numerator": "2"
+      },
+      "global_feasibility_scale": {
+        "decimal": "2",
+        "denominator": "1",
+        "numerator": "2"
+      },
+      "globally_feasible_score_decimal": "0.6931471805599453094172321214581765680755001343602552541206800094933935",
+      "lambda_support_size": 2,
+      "period": 2,
+      "rho_support_size": 2,
+      "unscaled_exact_maximum": {
+        "decimal": "0.5",
+        "denominator": "2",
+        "numerator": "1"
+      },
+      "unscaled_exact_maximum_at": 1,
+      "unscaled_exact_minimum": {
+        "decimal": "0",
+        "denominator": "1",
+        "numerator": "0"
+      },
+      "unscaled_exact_minimum_at": 0,
+      "z": 2
+    },
+    {
+      "G": {
+        "decimal": "2.5",
+        "denominator": "2",
+        "numerator": "5"
+      },
+      "global_feasibility_scale": {
+        "decimal": "1.66666666666666666666666666666666666666666666666666666666667",
+        "denominator": "3",
+        "numerator": "5"
+      },
+      "globally_feasible_score_decimal": "0.5894009540322594366349061788288659772364315165566860258779682051239752",
+      "lambda_support_size": 4,
+      "period": 6,
+      "rho_support_size": 3,
+      "unscaled_exact_maximum": {
+        "decimal": "0.6",
+        "denominator": "5",
+        "numerator": "3"
+      },
+      "unscaled_exact_maximum_at": 1,
+      "unscaled_exact_minimum": {
+        "decimal": "-0.36",
+        "denominator": "25",
+        "numerator": "-9"
+      },
+      "unscaled_exact_minimum_at": 4,
+      "z": 3
+    },
+    {
+      "G": {
+        "decimal": "2.75",
+        "denominator": "4",
+        "numerator": "11"
+      },
+      "global_feasibility_scale": {
+        "decimal": "1.57142857142857142857142857142857142857142857142857142857143",
+        "denominator": "7",
+        "numerator": "11"
+      },
+      "globally_feasible_score_decimal": "0.5637824260273515333908852908553622965170636073343344176914458670754469",
+      "lambda_support_size": 7,
+      "period": 30,
+      "rho_support_size": 4,
+      "unscaled_exact_maximum": {
+        "decimal": "0.636363636363636363636363636363636363636363636363636363636364",
+        "denominator": "11",
+        "numerator": "7"
+      },
+      "unscaled_exact_maximum_at": 1,
+      "unscaled_exact_minimum": {
+        "decimal": "-0.801652892561983471074380165289256198347107438016528925619835",
+        "denominator": "121",
+        "numerator": "-97"
+      },
+      "unscaled_exact_minimum_at": 28,
+      "z": 5
+    },
+    {
+      "G": {
+        "decimal": "3.41666666666666666666666666666666666666666666666666666666667",
+        "denominator": "12",
+        "numerator": "41"
+      },
+      "global_feasibility_scale": {
+        "decimal": "1.12066666666666666666666666666666666666666666666666666666667",
+        "denominator": "1500",
+        "numerator": "1681"
+      },
+      "globally_feasible_score_decimal": "0.4424333510581942376064008629711902038806429679358130414118398796542900",
+      "lambda_support_size": 13,
+      "period": 210,
+      "rho_support_size": 6,
+      "unscaled_exact_maximum": {
+        "decimal": "0.892325996430696014277215942891136228435455086258179654967281",
+        "denominator": "1681",
+        "numerator": "1500"
+      },
+      "unscaled_exact_maximum_at": 199,
+      "unscaled_exact_minimum": {
+        "decimal": "-0.942296252230814991076740035693039857227840571088637715645449",
+        "denominator": "1681",
+        "numerator": "-1584"
+      },
+      "unscaled_exact_minimum_at": 10,
+      "z": 7
+    },
+    {
+      "G": {
+        "decimal": "3.76666666666666666666666666666666666666666666666666666666667",
+        "denominator": "30",
+        "numerator": "113"
+      },
+      "global_feasibility_scale": {
+        "decimal": "0.707933691855630093696290957476298719299218273548816322004768",
+        "denominator": "18037",
+        "numerator": "12769"
+      },
+      "globally_feasible_score_decimal": "0.2855117226978807884357907923545767417704677742578137737553293396192290",
+      "lambda_support_size": 21,
+      "period": 2310,
+      "rho_support_size": 8,
+      "unscaled_exact_maximum": {
+        "decimal": "1.41256167280131568642806797713211684548515937035006656746809",
+        "denominator": "12769",
+        "numerator": "18037"
+      },
+      "unscaled_exact_maximum_at": 1163,
+      "unscaled_exact_minimum": {
+        "decimal": "-1.42900775315216540057952854569660897486099146370115122562456",
+        "denominator": "12769",
+        "numerator": "-18247"
+      },
+      "unscaled_exact_minimum_at": 1146,
+      "z": 11
+    },
+    {
+      "G": {
+        "decimal": "3.85",
+        "denominator": "20",
+        "numerator": "77"
+      },
+      "global_feasibility_scale": {
+        "decimal": "0.632779148088416658761028365430224836353287164405654112513044",
+        "denominator": "84328",
+        "numerator": "53361"
+      },
+      "globally_feasible_score_decimal": "0.2541588595766732587430369213702059969620697877241226575008975783347615",
+      "lambda_support_size": 29,
+      "period": 30030,
+      "rho_support_size": 9,
+      "unscaled_exact_maximum": {
+        "decimal": "1.58033020370682708345046007383669721332058994396656734319072",
+        "denominator": "53361",
+        "numerator": "84328"
+      },
+      "unscaled_exact_maximum_at": 15023,
+      "unscaled_exact_minimum": {
+        "decimal": "-1.92777496673600569704465808361912258016154120050223946327842",
+        "denominator": "53361",
+        "numerator": "-102868"
+      },
+      "unscaled_exact_minimum_at": 15006,
+      "z": 13
+    },
+    {
+      "G": {
+        "decimal": "4.20416666666666666666666666666666666666666666666666666666667",
+        "denominator": "240",
+        "numerator": "1009"
+      },
+      "global_feasibility_scale": {
+        "decimal": "0.465964419261381579850701865997830554398619610140556275144286",
+        "denominator": "2184890",
+        "numerator": "1018081"
+      },
+      "globally_feasible_score_decimal": "0.1900383760614105124358415480937859477743098623886207639583657510485869",
+      "lambda_support_size": 46,
+      "period": 510510,
+      "rho_support_size": 12,
+      "unscaled_exact_maximum": {
+        "decimal": "2.14608660804002824922574922820482849596446648154714605222964",
+        "denominator": "1018081",
+        "numerator": "2184890"
+      },
+      "unscaled_exact_maximum_at": 106039,
+      "unscaled_exact_minimum": {
+        "decimal": "-2.13453546427052464391340178237291531813284011782952436986841",
+        "denominator": "1018081",
+        "numerator": "-2173130"
+      },
+      "unscaled_exact_minimum_at": 404470,
+      "z": 17
+    },
+    {
+      "G": {
+        "decimal": "4.25972222222222222222222222222222222222222222222222222222222",
+        "denominator": "720",
+        "numerator": "3067"
+      },
+      "global_feasibility_scale": {
+        "decimal": "0.430562143672390642282840271625456956437258304860691367394005",
+        "denominator": "21846995",
+        "numerator": "9406489"
+      },
+      "globally_feasible_score_decimal": "0.1751466264455132946488881877833120098405077314592673319497028174109875",
+      "lambda_support_size": 58,
+      "period": 9699690,
+      "rho_support_size": 13,
+      "unscaled_exact_maximum": {
+        "decimal": "2.32254510689376238041632749477514936763334332289125092263436",
+        "denominator": "9406489",
+        "numerator": "21846995"
+      },
+      "unscaled_exact_maximum_at": 8964889,
+      "unscaled_exact_minimum": {
+        "decimal": "-2.58378604386822756078277452937009759964637177590916228148462",
+        "denominator": "9406489",
+        "numerator": "-24304355"
+      },
+      "unscaled_exact_minimum_at": 734800,
+      "z": 19
+    }
+  ],
+  "scope": "finite standard Selberg weights and their induced squarefree-lcm support",
+  "source": "https://paperclip.gxl.ai/citations/papers/arx_2208.05762#L39-L50",
+  "source_role": "support/candidate generator only; no theorem transfer claimed",
+  "verifier_executed": false
+}

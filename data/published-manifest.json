@@ -221,6 +221,11 @@
       "sha256": "1ec5b03f9b1d72af559df9b4240e8c2384068d267044b48f86138dd1424d5f7c"
     },
     {
+      "bytes": 3285,
+      "path": "artifacts/evidence/prime-number-theorem-global-proof.json",
+      "sha256": "771fd9250ed8a04151a7e476e2364d2cdad5b72216a64d5b55189703296d2eea"
+    },
+    {
       "bytes": 2077,
       "path": "artifacts/evidence/rectangle-precision-escape.json",
       "sha256": "e1c58e33c94a6595fa5d98e059ac11a744c1820a2e48f5382c6364a84317073a"
@@ -754,6 +759,116 @@
       "bytes": 3736,
       "path": "src/campaign/analytic/flat_psl4_accelerator/verify_answer.py",
       "sha256": "144cac66f14bd9ff46ec8343aca9341e92e46efbed3af0317ab99a672e62fa04"
+    },
+    {
+      "bytes": 2440,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/HANDOFF.md",
+      "sha256": "4437f7ac294788720da7bd3dbfcb26423f3a5eee031d7e97abad851d48fb70cc"
+    },
+    {
+      "bytes": 4068,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/PUBLICATION_EXPORT.json",
+      "sha256": "f4e5c5ce7c83e514b45d62d7645d4ca0a319508da66d95d82ddb23b576207b3e"
+    },
+    {
+      "bytes": 3216,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/PUBLICATION_MANIFEST.json",
+      "sha256": "acd17cf955edc892937c893037de27579a298c1e5ec0eb81768db15cd50783de"
+    },
+    {
+      "bytes": 4474,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/README.md",
+      "sha256": "7d10e0e9043f845fd8559a70efc2e728c197f6b4e7cc1a746c42301cd4724714"
+    },
+    {
+      "bytes": 3457,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/cube_baseline.cpp",
+      "sha256": "79980030cd096f4ead70cb687b0f44379d46d988b7e9d17aedb144a4177bc7cb"
+    },
+    {
+      "bytes": 10107,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/cube_benchmark.py",
+      "sha256": "9a30ccf87ea6ce5ca1b2716791cfcc17ed2eb5ebad545f0999c2c0ae8e14dc84"
+    },
+    {
+      "bytes": 1479,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/literature.json",
+      "sha256": "4507a1a4c099c27a48b0305c9486919a20183a913cc585c4ee7682ccb4858f1d"
+    },
+    {
+      "bytes": 2512,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/receipt.json",
+      "sha256": "2f7ad2b97d4543024653d5968e038d21878482f9c6f8c713fccf1e8962540553"
+    },
+    {
+      "bytes": 41,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/requirements.txt",
+      "sha256": "008b4378df60ecd8db61331b1aa35cbaba924ebdabbebe141a6941971515f843"
+    },
+    {
+      "bytes": 171113,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/runs/20260815T084700Z/cube_benchmark.json",
+      "sha256": "141d6284bddfb579b64a2688b43ade448482142d223b20de7ce0c14bfadcec48"
+    },
+    {
+      "bytes": 50464,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/runs/20260815T085500Z/benchmark.json",
+      "sha256": "db6bbfd8cd81422aed55775a9f5b309b0d31db8fd22e585332611e19ae0d0a09"
+    },
+    {
+      "bytes": 19646,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/sat_pb_benchmark.py",
+      "sha256": "cb677519b7fdccb3d5314988647ba2912bcb080b68460f10c76a3b65031ac0ff"
+    },
+    {
+      "bytes": 3547,
+      "path": "src/campaign/analytic/flat_psl4_sat_pb/test_packet.py",
+      "sha256": "d53d0d736f24443344f8f7cca3ba6fffb0582df52f032e51ba76174135fd3d51"
+    },
+    {
+      "bytes": 277,
+      "path": "src/campaign/analytic/flat_psl4_table_recovery_exa/.gitignore",
+      "sha256": "e1b0f3a40528ee506335e1b3294908182a442292f90da28c39865259497d8da2"
+    },
+    {
+      "bytes": 2840,
+      "path": "src/campaign/analytic/flat_psl4_table_recovery_exa/PUBLICATION_EXPORT.json",
+      "sha256": "f98d63e97698ab3b5b44fcc1bef96bdf867250bbf686350dd1a907c8f08c4bd8"
+    },
+    {
+      "bytes": 2873,
+      "path": "src/campaign/analytic/flat_psl4_table_recovery_exa/PUBLICATION_MANIFEST.json",
+      "sha256": "ba4fe915c8f416194b0238a20aad3eac064335a8f4071e2b6a2dbfbd6477c2d1"
+    },
+    {
+      "bytes": 2608,
+      "path": "src/campaign/analytic/flat_psl4_table_recovery_exa/publication/ARCHIVE_AND_CODE_SEARCH_RECEIPT.json",
+      "sha256": "e0105f5b9f8231db469e02e5f7641b60ae98668f1f62f9bd8ae6403499f73773"
+    },
+    {
+      "bytes": 10433,
+      "path": "src/campaign/analytic/flat_psl4_table_recovery_exa/publication/EXA_REQUEST_LEDGER.json",
+      "sha256": "02c622885a0cb6d9336ebc5ffbc0f6f15d68e104c361c16dabb72958b9863b3e"
+    },
+    {
+      "bytes": 1848,
+      "path": "src/campaign/analytic/flat_psl4_table_recovery_exa/publication/PAPERCLIP_PROVENANCE.json",
+      "sha256": "5aff3df183e58a598552f3eb654ec520af4d39b3b82c11aa28e6a3d234c46573"
+    },
+    {
+      "bytes": 1181,
+      "path": "src/campaign/analytic/flat_psl4_table_recovery_exa/publication/PROVENANCE_AND_RIGHTS.md",
+      "sha256": "599e35f387ffa200f89c96614ede8ed39d6c7929eab5269d026e705cd7892c45"
+    },
+    {
+      "bytes": 2734,
+      "path": "src/campaign/analytic/flat_psl4_table_recovery_exa/publication/README.md",
+      "sha256": "3368af5bfb4dceb275be03e2d10970eb5bf44309765b8bf9503f338058e78056"
+    },
+    {
+      "bytes": 4082,
+      "path": "src/campaign/analytic/flat_psl4_table_recovery_exa/publication/RECOVERY_RECEIPT.json",
+      "sha256": "4502702ea10538850abc4f510f39cc4d9d1af1a852df0d72273263d315df328e"
     },
     {
       "bytes": 2918,
@@ -1404,6 +1519,136 @@
       "bytes": 3813,
       "path": "src/campaign/discrete/prime_number_theorem/verify.py",
       "sha256": "20fb78227ea87fd6c4435c1350436f2b8d24b8aab114ecbab006eb7d96c03c0f"
+    },
+    {
+      "bytes": 572,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/EXA_PROVENANCE.json",
+      "sha256": "a0c8bd1986d4b8f8f8a392eb865fbaf419607f8f1e0c426007903470184d20ea"
+    },
+    {
+      "bytes": 3698,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/HANDOFF.md",
+      "sha256": "ef4829076431710bf300154c946edfd8544715a90d5b7cc9e0d7cf652bcff931"
+    },
+    {
+      "bytes": 1069,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/LICENSE",
+      "sha256": "0a0267fb239a57e2fc467ad1dd5ae04aa261c3dd20be7ac885c8c6ae502e45f3"
+    },
+    {
+      "bytes": 8486,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/PUBLICATION_EXPORT.json",
+      "sha256": "99be9b5abae16dc67bbe7b6afa3d414f522ef207c7c0f09c74cc343d5c1d2ea6"
+    },
+    {
+      "bytes": 8576,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/PUBLICATION_MANIFEST.json",
+      "sha256": "136a9f359c18648f6fd71cb0780a3a0b7258c993bf532741bc6d07624c2f08e3"
+    },
+    {
+      "bytes": 1525,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/SCOPE.md",
+      "sha256": "d72612223f828f01cede8e554be351278f8ef1e3665ba8a351bea138cad5af19"
+    },
+    {
+      "bytes": 3379,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/SOURCES.md",
+      "sha256": "765d3863cd72edf95953ac6a342d32d7bd1f0d3ef3e878879abc145fe7a3d089"
+    },
+    {
+      "bytes": 7232,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/certify_counterexample.py",
+      "sha256": "f73d03129745fc70b53187913a25528bbef49b8bcda8293a3edb1eac97625819"
+    },
+    {
+      "bytes": 2618,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/chebyshev_baseline.py",
+      "sha256": "bc660084f7af3abc84900a991706b54ae51b68fb51d78d5c7d5a4b3758088cff"
+    },
+    {
+      "bytes": 857,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/chebyshev_baseline_receipt.json",
+      "sha256": "1cdc3fa898f18e5f396e35dc08547e15b371fccf270f34b58c0252f6278a50ca"
+    },
+    {
+      "bytes": 172671,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/counterexample_receipt.json",
+      "sha256": "dace812c0cb103f9dedbdffdbf4c7ea411152a8c3af29cb36b6a3917815f9b23"
+    },
+    {
+      "bytes": 14995,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/divisor_periodic_exact_candidate.json",
+      "sha256": "58ef9323fa496b9e8779d00b532f88d75b995fe53950a745e2a15d694912f83a"
+    },
+    {
+      "bytes": 3516,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/divisor_periodic_receipt.json",
+      "sha256": "c8908f49e95c65db41530b470c0da2c10dba4a2714f207aeadf4f52bcf20a8be"
+    },
+    {
+      "bytes": 11076,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/divisor_periodic_screen.py",
+      "sha256": "4e072b62869305d5fb8bee3263f5844222487da142e84332e5a6b656b895b71d"
+    },
+    {
+      "bytes": 64511,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/finite_horizon_audit.json",
+      "sha256": "1ec5b03f9b1d72af559df9b4240e8c2384068d267044b48f86138dd1424d5f7c"
+    },
+    {
+      "bytes": 64494,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/input_payload.json",
+      "sha256": "d43c5531d562d06981a55829deb1c579a87a7c02405d69688dcc79e7f45f22c1"
+    },
+    {
+      "bytes": 3285,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/receipt.json",
+      "sha256": "771fd9250ed8a04151a7e476e2364d2cdad5b72216a64d5b55189703296d2eea"
+    },
+    {
+      "bytes": 203464,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/same_support_dual.json",
+      "sha256": "673f2b70a55027534fa8d22b060d412d0d36bec641605034fa67ee34af66b7c9"
+    },
+    {
+      "bytes": 20143,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/same_support_keys.json",
+      "sha256": "00479853fe3e2961515acb5d03e848309d394de670e53dc743e7dd0abcae2586"
+    },
+    {
+      "bytes": 1272,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/same_support_upper_receipt.json",
+      "sha256": "f6b6dce990d35eabe2077f928c4c1449bbd7a81c67f8a5b657feb0621f3f11a2"
+    },
+    {
+      "bytes": 4277,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/scan_tail.py",
+      "sha256": "c6ccc418cf091e22e42ec06492d4be4ffdfba47463d6eff8b2d8981d053d911c"
+    },
+    {
+      "bytes": 3903,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/selberg_squarefree_exact_candidate.json",
+      "sha256": "e9b316a81a1d23ad8623e0ff2d218199843c0704051b471b253337ca74e1be46"
+    },
+    {
+      "bytes": 12456,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/selberg_support_receipt.json",
+      "sha256": "18a1b414b3880ff6539091a3316935a97f9d57ab597f94115beaa60da8f6686a"
+    },
+    {
+      "bytes": 15601,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/selberg_support_screen.py",
+      "sha256": "80e3346b4aa83047d6a9d66657753e6a9905e4b89dc5b62cb4ee477f628ed2be"
+    },
+    {
+      "bytes": 5214,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/verify_periodic_candidate.py",
+      "sha256": "b6563fd8302d71b87ce7ec2f7b0a1e9412fc8f3657edeee6ad78c2b98bd6becc"
+    },
+    {
+      "bytes": 3809,
+      "path": "src/campaign/discrete/prime_number_theorem_global_proof/verify_same_support_dual.py",
+      "sha256": "9edb9b50810e5f728398a081be65f24575f3279e03493f30c0a7a01c8dd3d510"
     },
     {
       "bytes": 5979,

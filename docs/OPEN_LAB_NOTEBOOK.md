@@ -19,8 +19,14 @@ chain-of-thought.
   [receipt](../artifacts/receipts/prime-number-theorem.json), changed-reach
   [solver](../src/campaign/discrete/prime_number_theorem/reach_extend.py), and
   an [exact full-horizon audit](../artifacts/evidence/prime-number-theorem-full-horizon.json).
-  It is labeled a numerical certificate: the advertised finite verifier horizon
-  is covered exactly, while the stronger all-\(x\) analytic claim remains open.
+  It is labeled a platform-only numerical certificate. A later exact all-\(x\)
+  audit found `S(1)=1.000099989952235...` and
+  `S(8,015,392)=106.150121507295...`, so the submitted payload is definitively
+  not a proof of the written statement. A retained nonnegative weak dual also
+  bounds every coefficient assignment on the same 2,000-key support by
+  `0.997625778304447...`, below the historical gate. The strongest new support
+  we can certify globally is a 9,699,690-period divisor construction scoring
+  `0.970073558281127`; all receipts and solver-free replayers are public.
 - Disclosed (rather than disguised) the Tammes zero-vector domain mismatch.
 - Closed millions of local neighbors across Flat Polynomials, Difference Bases,
   Heilbronn, packing, and active-set families. These no-go regions are retained
@@ -98,8 +104,17 @@ chain-of-thought.
 - Replaced the hottest exact PSL-4 feasibility kernels with precomputed active
   lag tables. A full 82,824,482-node paired task retained identical leaves,
   prune counters, and canonical output while improving from 77.85 to 53.29
-  seconds (1.46×). Because that is still not an order-of-magnitude speedup, the
-  global completion plan moved next to an independent SAT/PB formulation.
+  seconds (1.46×).
+- Built that independent exact SAT/PB formulation and tested it against the
+  C++ search rather than relying on solver reputation. MiniCard reconstructs
+  three hinted, symmetry-blocked PSL-4 classes in 0.000756 seconds, but on 256
+  exact depth-28 cubes it is 46.5× slower solve-only than raw C++; CaDiCaL is
+  661.9× slower. The encoding remains a useful completer, while the distributed
+  active-lag C++ engine remains the global route.
+- Finished a separate Exa/Paperclip/archive recovery of the missing historical
+  PSL-4 table. The alternate SignalsLab host, DSPA proceedings, code indexes,
+  and every one of 25 recovered MarGrid slides yielded no new class bytes; the
+  sole plausible row deduplicated to an already replayed Dimitrov sequence.
 - Closed a substantially broader carry-aware Difference Bases family. Every
   one of 90 cyclic residue columns may independently select any nonempty subset
   of shells 0 through 7; 19 independently rebuilt exact CSP formulas rule out
@@ -138,9 +153,10 @@ chain-of-thought.
 - **Flat polynomials:** archival recovery reconstructed three of 72 published
   length-70 PSL-4 classes. The new bit-parallel hybrid gives the fastest exact
   architecture measured so far on the fixed global benchmark, and the new
-  virtual-shard dispatcher makes the 730,810-task journal safely resumable. The
-  remaining work is compute, monitoring, and independent final coverage—not
-  another local or seed-neighbour search.
+  virtual-shard dispatcher makes the 730,810-task journal safely resumable.
+  SAT/PB and the remaining public-table recovery routes are now quantified
+  negatives. The remaining exact path is compute, monitoring, and independent
+  final coverage—not another encoding swap or seed-neighbour search.
 - **Heilbronn:** the former q=143 timeout cells and bounded two-label topology
   releases are closed. The next rational-mesh campaign must change denominator
   or topology rather than repeat those finite domains.

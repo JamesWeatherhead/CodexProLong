@@ -1,0 +1,61 @@
+{
+  "conclusion": "#2506 is not globally valid; every same-support repair is below the historical gate; bounded changed-support periodic constructions are globally valid but remain below that gate.",
+  "condition_is_upper_only": true,
+  "evaluated_submission": {
+    "agent": "CodexProLong",
+    "finite_audit_sha256": "1ec5b03f9b1d72af559df9b4240e8c2384068d267044b48f86138dd1424d5f7c",
+    "id": 2506,
+    "payload_sha256": "d43c5531d562d06981a55829deb1c579a87a7c02405d69688dcc79e7f45f22c1",
+    "stored_score": 0.9976572852677297
+  },
+  "external_actions": "none",
+  "frozen_verifier": {
+    "executed_in_this_lane": false,
+    "role": "read and hash-audited only",
+    "sha256": "fd76a069b269a521d6ded609bd79185bf859df778283bebc37719dfd15b1ded6"
+  },
+  "global_counterexamples": {
+    "counterexample_receipt_sha256": "dace812c0cb103f9dedbdffdbf4c7ea411152a8c3af29cb36b6a3917815f9b23",
+    "exact_decimal_S_at_1": "1.00009998995223526404913480863355946685073916821203281736129",
+    "exact_decimal_S_at_8015392": "106.150121507295472126869580399802119679922973382148015120434",
+    "full_horizon_safe_uniform_scale_S_at_8015392": "106.139508609467267866502349375859346529661557494033703809626"
+  },
+  "other_global_certificates": {
+    "chebyshev_receipt_sha256": "1cdc3fa898f18e5f396e35dc08547e15b371fccf270f34b58c0252f6278a50ca",
+    "chebyshev_score": "0.92129202293409078091340844996160471641708078909303024109550028643386180950271649",
+    "selberg_candidate_sha256": "e9b316a81a1d23ad8623e0ff2d218199843c0704051b471b253337ca74e1be46",
+    "selberg_induced_support_score": "0.9301344563635095848633115526319450754920019685574804558091452540049458",
+    "selberg_receipt_sha256": "18a1b414b3880ff6539091a3316935a97f9d57ab597f94115beaa60da8f6686a"
+  },
+  "same_support_impossibility": {
+    "dual_sha256": "673f2b70a55027534fa8d22b060d412d0d36bec641605034fa67ee34af66b7c9",
+    "gap": "-0.00002410521383243269517951757047",
+    "historical_gate": "0.9976498835182795",
+    "master_rows": 7464,
+    "portable_key_packet_sha256": "00479853fe3e2961515acb5d03e848309d394de670e53dc743e7dd0abcae2586",
+    "receipt_sha256": "f6b6dce990d35eabe2077f928c4c1449bbd7a81c67f8a5b657feb0621f3f11a2",
+    "scope": "all coefficient assignments on the exact 2000-key #2506 support",
+    "weak_duality_score_ceiling": "0.99762577830444706730482048242952755039300085138709618732994627306341993925441563"
+  },
+  "schema_version": 1,
+  "statement": "sum_k f(k) floor(x/k) <= 1 for every real x>=1",
+  "strongest_changed_support_certificate": {
+    "candidate_sha256": "58ef9323fa496b9e8779d00b532f88d75b995fe53950a745e2a15d694912f83a",
+    "certified_maximum": {
+      "decimal": "1",
+      "denominator": "1",
+      "numerator": "1"
+    },
+    "family": "all divisors of a smooth period",
+    "gap_to_historical_gate": "-0.02757632523715259607758884532",
+    "negative_minimum_diagnostic": {
+      "decimal": "-100.194496262593720799993753567290207473426274854167731171888",
+      "denominator": "43890010945",
+      "numerator": "-4397537537594"
+    },
+    "period": 9699690,
+    "period_states_checked": 9699690,
+    "receipt_sha256": "c8908f49e95c65db41530b470c0da2c10dba4a2714f207aeadf4f52bcf20a8be",
+    "score": "0.9700735582811269039224111546813584232761257686802398581542833971639969"
+  }
+}

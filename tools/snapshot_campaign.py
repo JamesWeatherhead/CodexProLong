@@ -25,8 +25,8 @@ SOLUTION_IDS = {
 DISCLOSURES = {"tammes-problem": "verifier/domain mismatch: one point is not on S^2"}
 NUMERICAL_CERTIFICATES = {
     "prime-number-theorem": (
-        "full advertised verifier horizon checked exactly; the stronger all-x "
-        "analytic PNT certificate remains open"
+        "full advertised verifier horizon checked exactly; #2506 violates the "
+        "written all-x bound, already at x=1"
     )
 }
 VERIFIED_BLOCKED = {
@@ -84,6 +84,9 @@ EVIDENCE_ARTIFACTS = {
 }
 SANITIZED_EVIDENCE_ARTIFACTS = {
     "difference-global-audit": "discrete/difference_global/checkpoints/audit_receipt.json",
+    "prime-number-theorem-global-proof": (
+        "discrete/prime_number_theorem_global_proof/receipt.json"
+    ),
     "difference-global-relative-checkpoint": "discrete/difference_global/checkpoints/relative_graph.json",
     "difference-global-sparse-patch-checkpoint": "discrete/difference_global/checkpoints/sparse_patch.json",
     "difference-global-relative-candidate": "discrete/difference_global/candidates/relative_graph_best.json",
@@ -158,14 +161,14 @@ METHODS = {
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Active-bundle sequential linear programming over n=3,584 coordinates crossed the strict 1e-7 gate after 58 exact-accepted stages. Independent literal replay and evaluated solution #2507 agree at 0.3808585748578584.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
-    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. A separate 20-source archival recovery reconstructed three of 72 published PSL-4 classes. The newest clean-room exact hybrid combines outside-in XOR/popcount with a grouped path-parity bound; on one fixed global task it is 6.60% faster than raw popcount, 25.89% faster than the prior strong solver, and visits 143.67x fewer nodes than raw. Deterministic hash sharding, atomic per-shard receipts, resume validation, and a 926-task capped workload profile now make the open 730,810-task enumeration distributable.",
+    "flat-polynomials": "Exact radius-six closure plus global pair-topology, block-family, SAT, and annealing tools cover 144,193,119 local masks, 8,388,608 block constructions, and more than 403 million global proposals. Archival recovery reconstructed three of 72 published PSL-4 classes but found no missing table bytes after exact Exa, Paperclip, archive, code-index, and 25-slide visual audits. The clean-room hybrid visits 143.67x fewer nodes than raw, and its active-lag kernel replays a fixed 82,824,482-node task 1.461x faster. An independent SAT/PB formulation exactly agrees on 256 cubes, but MiniCard is 46.5x and CaDiCaL 661.9x slower than even the raw C++ DFS solve-only, so the resumable 730,810-task distributed C++ enumeration remains the honest exact route.",
     "heilbronn-triangles": "A 100-digit active root, 462 topology trials, and exact q=25 lattice closure are supplemented by exact q=143 and q=144..220 rational-mesh campaigns. The latest packet closes 72 distinct finite labeled domains: 18 by determinant upper bounds and 57 fresh uncapped SAT formulas, with no candidate. These are finite-domain no-gos, not global proofs. An independent Escher asset replay scored 0.03372654309850653, below the gate.",
     "kissing-number-d11": "An exhaustive exact-rational audit verifies public solution #1492 as a genuine 594-vector score-0 construction over all 176,121 pairs. Zero is the objective floor, and the live API assigns later exact ties ordinal ranks rather than joint first place.",
     "kissing-number-d11-605": "Sparse tangent-space active-set SLP; evaluated solution #2500.",
     "kissing-number-d12": "Published 841-code replays at exact verifier score 0 with 1.24497e-7 distance-squared margin; submission is blocked by HTTP 409, tracked in issue #59.",
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
     "min-distance-ratio-2d": "A 100-digit active root, 280 release/promote trials, and 550 canonical contact-graph recombinations all return the same micro-polished basin. A separate adjacent-cardinality topology campaign exact-replayed 214 births/deaths and found 153 corpus-novel contact graphs; the best novel graph remains 0.00577 worse, while the overall best gains only 2.35e-11 against a 1e-7 gate.",
-    "prime-number-theorem": "Changed-reach cutting planes produce evaluated solution #2506 at 0.9976572852677297. An exact rational sweep covers every real state in the advertised verifier horizon; a global all-x proof remains open.",
+    "prime-number-theorem": "Changed-reach cutting planes produce platform #1 solution #2506 at 0.9976572852677297, but an exact all-x audit proves it is not a mathematical certificate: S(1)=1.000099989952235... and S(8,015,392)=106.150121507295.... A nonnegative exact weak dual bounds every coefficient assignment on the same 2,000-key support by 0.997625778304447..., below the historical gate. The strongest new globally certified periodic divisor support scores 0.970073558281127, so a fundamentally different support identity is required.",
     "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. Paperclip/Exa-grounded multiscale and sliding-support campaigns then reconstructed 360 coordinated mosaics plus 64 exact relocation paths; 56 sliding paths changed topology, but none improved the seed materially. The strict gate gap remains 9.9913e-6.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
     "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation now reach 1.4515653796072292. The latest lane screened 14,333 deletions, 100,152 block transplants, 20,000 single sign walls, and 7,140 wall pairs; two exact-accepted orthant crossings gained another 5.41e-9, leaving a 3.5157e-6 gate gap.",
@@ -183,7 +186,7 @@ SOURCE_ENTRYPOINTS = {
     "kissing-number-d11": "kissing_d11_594_audit/README.md",
     "min-distance-ratio-2d": "geometry/min_distance_ratio_global_escape/HANDOFF.md",
     "kissing-number-d12": "geometry/kissing_d12/HANDOFF.md",
-    "prime-number-theorem": "discrete/prime_number_theorem/HANDOFF.md",
+    "prime-number-theorem": "discrete/prime_number_theorem_global_proof/HANDOFF.md",
     "second-autocorrelation-inequality": (
         "analysis/second_autocorrelation_sliding_support/HANDOFF.md"
     ),
@@ -338,6 +341,7 @@ UNPUBLISHED_SOURCE_PREFIXES = {
     Path("analytic/flat_psl4_table_recovery_exa"),
     Path("discrete/difference_exact_synthesis"),
     Path("discrete/prime_number_theorem_global_proof"),
+    Path("discrete/pnt_factorial_ratio_landau"),
     Path("geometry/circle_packing_multicontact_precision"),
     Path("geometry/rectangle_multicontact_precision"),
     Path("discrete/difference_interval_constructions"),
@@ -347,6 +351,9 @@ UNPUBLISHED_SOURCE_PREFIXES = {
 
 PUBLICATION_MANIFESTS = (
     Path("analytic/flat_psl4_accelerator/PUBLICATION_MANIFEST.json"),
+    Path("analytic/flat_psl4_sat_pb/PUBLICATION_MANIFEST.json"),
+    Path("analytic/flat_psl4_table_recovery_exa/PUBLICATION_MANIFEST.json"),
+    Path("discrete/prime_number_theorem_global_proof/PUBLICATION_MANIFEST.json"),
     Path("geometry/circle_packing_multicontact_precision/PUBLICATION_MANIFEST.json"),
     Path("geometry/rectangle_multicontact_precision/PUBLICATION_MANIFEST.json"),
     Path("geometry/circle_packing_multicontact_global/PUBLICATION_MANIFEST.json"),
@@ -493,7 +500,7 @@ def status_markdown(frontier: dict[str, Any]) -> str:
             "",
             "> [!WARNING]",
             "> Tammes is a platform first place but not a spherical-code result; see [ETHICS.md](ETHICS.md).",
-            "> The PNT entry checks the complete advertised verifier horizon, but it is a numerical certificate rather than a proof of the all-x analytic statement.",
+            "> PNT solution #2506 is a platform-only finite-horizon result: an exact audit proves it violates the written all-x bound already at x=1; see its global-proof handoff.",
             "> Kissing d12/841 is domain-valid and verifier-perfect locally, but the Arena endpoint returns HTTP 409 because submissions are disabled; see [issue #59](https://github.com/vinid/einstein-arena/issues/59).",
             "",
             "The source of truth is [`data/frontier.json`](../data/frontier.json).",

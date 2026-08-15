@@ -1,0 +1,62 @@
+{
+  "schema": "flat-psl4-sat-pb-freeze-v1",
+  "created_utc": "2026-08-15T08:55:00Z",
+  "status": "frozen_hinted_completer_only",
+  "decision": "Retain native MiniCard for exact hinted completion/verification; reject tested SAT/PB and cube regimes as the next global enumerator.",
+  "encoding": {
+    "variables": "x_i sequence bits; y_(i,k) = x_i XOR x_(i+k)",
+    "correlation_identity": "C_k = (70-k) - 2*sum_i y_(i,k)",
+    "lower_bound": "ceil(((70-k)-4)/2)",
+    "upper_bound": "floor(((70-k)+4)/2)",
+    "xor_cnf_clauses_per_pair": 4,
+    "symmetry": "x_0=x_1=0, optional x<=reverse(x), and exact eight-transform class blocks",
+    "integer_replay_for_every_model": true
+  },
+  "best_hinted_backend": {
+    "name": "MiniCard native",
+    "variables": 2485,
+    "cnf_clauses": 9662,
+    "native_atmosts": 130,
+    "first_hint_seconds": 0.0002262501511722803,
+    "three_full_class_blocked_fixtures_seconds": 0.0007564576808363199,
+    "three_models_exact_psl": 4,
+    "conflicts": 0
+  },
+  "cold_frontier": {
+    "cadical_and_minicard": "all cold and post-three-class-block stages reached the external 5-second process cap",
+    "cp_sat": "UNKNOWN at deterministic 3-second internal limit for cold and post-three-class-block stages",
+    "lex_leader_changed_classification": false,
+    "timeouts_are_unsat_proofs": false
+  },
+  "cube_frontier": {
+    "cubes": 256,
+    "depth": 28,
+    "free_bits": 14,
+    "sat": 3,
+    "unsat": 253,
+    "unknown": 0,
+    "all_statuses_agree": true,
+    "cpp_seconds": 0.00137529,
+    "minicard_total_seconds": 0.10804591700434685,
+    "minicard_solve_seconds": 0.06398445786908269,
+    "cadical_total_seconds": 0.9958849160466343,
+    "cadical_solve_seconds": 0.9102600049227476,
+    "minicard_solve_only_slowdown": 46.52433877151924,
+    "cadical_solve_only_slowdown": 661.8676823962566,
+    "baseline_scope": "raw exact newly-fixed-sidelobe C++ outside-in DFS, weaker than active-lag accelerator"
+  },
+  "evidence": {
+    "sat_pb_receipt": "runs/20260815T085500Z/benchmark.json",
+    "sat_pb_receipt_sha256": "db6bbfd8cd81422aed55775a9f5b309b0d31db8fd22e585332611e19ae0d0a09",
+    "cube_receipt": "runs/20260815T084700Z/cube_benchmark.json",
+    "cube_receipt_sha256": "141d6284bddfb579b64a2688b43ade448482142d223b20de7ce0c14bfadcec48"
+  },
+  "scope": {
+    "global_enumeration_complete": false,
+    "new_arena_construction": false,
+    "arena_writes": false,
+    "github_writes": false,
+    "credentials_present": false,
+    "third_party_assets_vendored": false
+  }
+}

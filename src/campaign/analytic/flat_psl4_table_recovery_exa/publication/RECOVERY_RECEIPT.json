@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "frozen_at_utc": "2026-08-15T08:18:02Z",
+  "target": {
+    "family": "binary aperiodic PSL-4 equivalence classes",
+    "length": 70,
+    "reported_non_equivalent_classes": 72,
+    "historical_page": "http://signalslab.marstu.net/?page_id=1779"
+  },
+  "outcome": {
+    "complete_table_recovered": false,
+    "new_length_70_classes_recovered": 0,
+    "new_candidate_bytes_published": 0,
+    "gate_clearing_candidates": 0,
+    "verdict": "quantified negative result"
+  },
+  "candidate_deduplication": {
+    "plausible_length_70_rows_in_new_search_corpus": 1,
+    "new_after_prior_baseline_deduplication": 0,
+    "duplicate_payload_sha256": "69ee18c669959c2c1026c81d28058c3f15ee3eb6b747090ff0e47cd2ed2ab0a7",
+    "candidate_bytes_withheld": true,
+    "withholding_reason": "Third-party sequence rights were not established; the byte sequence is already represented in the prior frozen lane."
+  },
+  "offline_replay": {
+    "replayed_duplicates": 1,
+    "verifier_sha256": "ff991bd84aec2b5b5d44f58a68dba00f961e01d517ec1de3225e0902f0f2fce2",
+    "grid": "numpy.linspace(0, 2*pi, 1000000), endpoints included",
+    "normalization": "maximum absolute polynomial value divided by sqrt(71)",
+    "score": 1.3687174140805314,
+    "strict_gate": 1.280726494964255,
+    "gap_above_gate": 0.08799091911627643,
+    "clears_gate": false
+  },
+  "coverage": {
+    "exa_search_requests": 40,
+    "exa_search_results_returned": 518,
+    "exa_contents_requests": 6,
+    "exa_contents_urls_requested": 47,
+    "exa_contents_successes": 14,
+    "paperclip_exact_greps": 5,
+    "paperclip_semantic_searches": 2,
+    "paperclip_relevant_papers_read": 1,
+    "sourcegraph_queries": 12,
+    "sourcegraph_matches": 0,
+    "github_json_queries": 16,
+    "github_exact_new_asset_matches": 0,
+    "archive_org_exact_searches": 3,
+    "archive_org_results": 0,
+    "arquivo_exact_text_searches": 6,
+    "arquivo_results": 0,
+    "common_crawl_collections_attempted": 20,
+    "common_crawl_patterns_per_collection": 3,
+    "common_crawl_requests": 60,
+    "common_crawl_http_000_empty_responses": 60
+  },
+  "resolved_leads": [
+    {
+      "lead": "signalslab.volgatech.net historical hostname",
+      "finding": "The hostname is attested in a 2014 thesis, but current target variants resolve to the modern university homepage and no target capture was recovered from Wayback or Arquivo."
+    },
+    {
+      "lead": "DSPA-2013 N<=70 proceedings entry",
+      "finding": "The proceedings index marks the paper N (not posted). Its CGI returns a generic notice rather than the article; three URL variants were byte-identical.",
+      "generic_notice_sha256": "c1d7487ce1f274f391a70e0b73142836041420ef832072e835feec49e6128541"
+    },
+    {
+      "lead": "public MarGrid presentation",
+      "finding": "All 25 slide images were visually audited. They document architecture, timing, a client release, and PSL task-executable names, but no output filename, class table, or candidate row. Exact searches for the task identifiers returned no relevant match."
+    }
+  ],
+  "prior_frozen_context": {
+    "receipt_path": "flat_psl4_recovery/archive_audit.json",
+    "receipt_sha256": "e151892821f25c73ae39c986cc43174a57ac196c7903c50fbc1a432f27472c14",
+    "role": "Supplies the earlier clean 20-collection Common Crawl audit for the marstu hostname and the three already-known N=70 classes."
+  },
+  "limitations": [
+    "Common Crawl was unavailable for the complementary hostname during this lane; HTTP 000 is not a negative index result.",
+    "Wayback availability requests became rate-limited; only explicit HTTP 200 empty CDX results and HTTP 404 replay results are treated as evidence.",
+    "Search completeness cannot be proved across unindexed private backups, offline institutional storage, or non-public database exports.",
+    "No claim is made that the historical table never existed or is no longer recoverable."
+  ],
+  "external_mutations": {
+    "github": 0,
+    "arena": 0,
+    "messages_or_posts": 0,
+    "network_methods_other_than_get_or_semantically_read_only_exa_post": 0
+  }
+}

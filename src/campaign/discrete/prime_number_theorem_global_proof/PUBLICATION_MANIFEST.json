@@ -1,0 +1,210 @@
+{
+  "downloaded_verifier_executed": false,
+  "dynamic_execution_token_audit": "passed",
+  "exclude": [
+    {
+      "bytes": 570967,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "divisor_periodic_checkpoint.json",
+      "reason": "restart-only optimizer state; not needed to verify the retained certificate",
+      "sha256": "3e5978434813fb78fb8cf3f0855cc04537e6749b967e6b815693b3f2fd613c0b"
+    },
+    {
+      "bytes": 5004,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "freeze_publication.py",
+      "reason": "local packaging utility; excluded from the public replay contract",
+      "sha256": "3dd68916a72989de20a1aff4e65dfcce1256b0985f54144bb6c40a66fe1c84bf"
+    },
+    {
+      "bytes": 8493,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "freeze_receipt.py",
+      "reason": "generation-only provenance utility with non-packet live-cache dependencies",
+      "sha256": "9f0edfd3a1a02dbded623212fe51d6245273e9e82c4aeb9ea34f0b6b3ed82cb1"
+    },
+    {
+      "bytes": 1703,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "freeze_same_support_keys.py",
+      "reason": "generation-only utility; its hash-pinned output is included",
+      "sha256": "e98cfc72f5bd71bbc75d589f6d122f00f7352a679d1e1ae8bb027e7f61dc32c4"
+    },
+    {
+      "bytes": 6515,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "same_support_upper.py",
+      "reason": "solver/generation utility with excluded optimizer-checkpoint dependencies",
+      "sha256": "cccd02e26e9b6bb7de0606869bb40831d280df5def78c6e3f4bcf83a9f06d9a9"
+    },
+    {
+      "bytes": 4577,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "selberg_master_checkpoint.json",
+      "reason": "restart-only optimizer state; not needed to verify the retained certificate",
+      "sha256": "0f72c10e892dca5eebe3861dc10edc8fb6b993f30978f46f2794720b84de96da"
+    }
+  ],
+  "external_actions": "none",
+  "include": [
+    {
+      "bytes": 572,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "EXA_PROVENANCE.json",
+      "sha256": "a0c8bd1986d4b8f8f8a392eb865fbaf419607f8f1e0c426007903470184d20ea"
+    },
+    {
+      "bytes": 3698,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "HANDOFF.md",
+      "sha256": "ef4829076431710bf300154c946edfd8544715a90d5b7cc9e0d7cf652bcff931"
+    },
+    {
+      "bytes": 1069,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "LICENSE",
+      "sha256": "0a0267fb239a57e2fc467ad1dd5ae04aa261c3dd20be7ac885c8c6ae502e45f3"
+    },
+    {
+      "bytes": 1525,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "SCOPE.md",
+      "sha256": "d72612223f828f01cede8e554be351278f8ef1e3665ba8a351bea138cad5af19"
+    },
+    {
+      "bytes": 3379,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "SOURCES.md",
+      "sha256": "765d3863cd72edf95953ac6a342d32d7bd1f0d3ef3e878879abc145fe7a3d089"
+    },
+    {
+      "bytes": 7232,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "certify_counterexample.py",
+      "sha256": "f73d03129745fc70b53187913a25528bbef49b8bcda8293a3edb1eac97625819"
+    },
+    {
+      "bytes": 2618,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "chebyshev_baseline.py",
+      "sha256": "bc660084f7af3abc84900a991706b54ae51b68fb51d78d5c7d5a4b3758088cff"
+    },
+    {
+      "bytes": 857,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "chebyshev_baseline_receipt.json",
+      "sha256": "1cdc3fa898f18e5f396e35dc08547e15b371fccf270f34b58c0252f6278a50ca"
+    },
+    {
+      "bytes": 172671,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "counterexample_receipt.json",
+      "sha256": "dace812c0cb103f9dedbdffdbf4c7ea411152a8c3af29cb36b6a3917815f9b23"
+    },
+    {
+      "bytes": 64511,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "finite_horizon_audit.json",
+      "sha256": "1ec5b03f9b1d72af559df9b4240e8c2384068d267044b48f86138dd1424d5f7c"
+    },
+    {
+      "bytes": 14995,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "divisor_periodic_exact_candidate.json",
+      "sha256": "58ef9323fa496b9e8779d00b532f88d75b995fe53950a745e2a15d694912f83a"
+    },
+    {
+      "bytes": 3516,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "divisor_periodic_receipt.json",
+      "sha256": "c8908f49e95c65db41530b470c0da2c10dba4a2714f207aeadf4f52bcf20a8be"
+    },
+    {
+      "bytes": 11076,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "divisor_periodic_screen.py",
+      "sha256": "4e072b62869305d5fb8bee3263f5844222487da142e84332e5a6b656b895b71d"
+    },
+    {
+      "bytes": 64494,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "input_payload.json",
+      "sha256": "d43c5531d562d06981a55829deb1c579a87a7c02405d69688dcc79e7f45f22c1"
+    },
+    {
+      "bytes": 3285,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "receipt.json",
+      "sha256": "771fd9250ed8a04151a7e476e2364d2cdad5b72216a64d5b55189703296d2eea"
+    },
+    {
+      "bytes": 203464,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "same_support_dual.json",
+      "sha256": "673f2b70a55027534fa8d22b060d412d0d36bec641605034fa67ee34af66b7c9"
+    },
+    {
+      "bytes": 20143,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "same_support_keys.json",
+      "sha256": "00479853fe3e2961515acb5d03e848309d394de670e53dc743e7dd0abcae2586"
+    },
+    {
+      "bytes": 1272,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "same_support_upper_receipt.json",
+      "sha256": "f6b6dce990d35eabe2077f928c4c1449bbd7a81c67f8a5b657feb0621f3f11a2"
+    },
+    {
+      "bytes": 4277,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "scan_tail.py",
+      "sha256": "c6ccc418cf091e22e42ec06492d4be4ffdfba47463d6eff8b2d8981d053d911c"
+    },
+    {
+      "bytes": 3903,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "selberg_squarefree_exact_candidate.json",
+      "sha256": "e9b316a81a1d23ad8623e0ff2d218199843c0704051b471b253337ca74e1be46"
+    },
+    {
+      "bytes": 12456,
+      "licensing": "locally generated research data; CodexProLong MIT; no third-party bytes",
+      "path": "selberg_support_receipt.json",
+      "sha256": "18a1b414b3880ff6539091a3316935a97f9d57ab597f94115beaa60da8f6686a"
+    },
+    {
+      "bytes": 15601,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "selberg_support_screen.py",
+      "sha256": "80e3346b4aa83047d6a9d66657753e6a9905e4b89dc5b62cb4ee477f628ed2be"
+    },
+    {
+      "bytes": 5214,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "verify_periodic_candidate.py",
+      "sha256": "b6563fd8302d71b87ce7ec2f7b0a1e9412fc8f3657edeee6ad78c2b98bd6becc"
+    },
+    {
+      "bytes": 3809,
+      "licensing": "locally authored packet material; CodexProLong MIT",
+      "path": "verify_same_support_dual.py",
+      "sha256": "9edb9b50810e5f728398a081be65f24575f3279e03493f30c0a7a01c8dd3d510"
+    }
+  ],
+  "manifest_self": {
+    "path": "PUBLICATION_MANIFEST.json",
+    "sha256": "reported after generation to avoid self-reference"
+  },
+  "policy": "allowlist only",
+  "portable_path_audit": "passed",
+  "publication_license": {
+    "copyright": "Copyright (c) 2026 CodexProLong",
+    "scope": "locally authored/generated packet only",
+    "spdx": "MIT"
+  },
+  "publication_root": "campaign/discrete/prime_number_theorem_global_proof",
+  "schema_version": 1,
+  "third_party_bytes_included": false,
+  "third_party_material_policy": "papers and verifier are represented by citation/hash metadata only; their bytes are not copied"
+}
