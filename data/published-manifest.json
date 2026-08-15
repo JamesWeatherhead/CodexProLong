@@ -1356,6 +1356,66 @@
       "sha256": "4b312d78162de358a8bcd28040852d968bd14b8d9778841ac66553557809f7d3"
     },
     {
+      "bytes": 3147,
+      "path": "src/campaign/discrete/difference_wichmann_leech/HANDOFF.md",
+      "sha256": "85fea976294f792c92d7b9b8cca49dbaebcd99d63cb41ee2228ce6246fc54666"
+    },
+    {
+      "bytes": 2302,
+      "path": "src/campaign/discrete/difference_wichmann_leech/PROVENANCE.md",
+      "sha256": "b92d07ffa840891d4ff487038a0bdcbe194207252e2d9ba2e31b1f3e7e45c89a"
+    },
+    {
+      "bytes": 3791,
+      "path": "src/campaign/discrete/difference_wichmann_leech/PUBLICATION_EXPORT.json",
+      "sha256": "a70c2a0b675dab3b2c5ae54c32b11493c957cd60f2098510e3529486453e1ac5"
+    },
+    {
+      "bytes": 6180,
+      "path": "src/campaign/discrete/difference_wichmann_leech/PUBLICATION_MANIFEST.json",
+      "sha256": "47ec856f35a672959c74bee1dbde0cfc1591a1d6e44dfb93d2710405053ba321"
+    },
+    {
+      "bytes": 2750,
+      "path": "src/campaign/discrete/difference_wichmann_leech/README.md",
+      "sha256": "7d0e06aa422cccc662310edb5dfb1c76085c5fbee146fc691f7f781b0c693a1b"
+    },
+    {
+      "bytes": 5295,
+      "path": "src/campaign/discrete/difference_wichmann_leech/freeze_publication.py",
+      "sha256": "ffee5b74c60cddcc912c1c57c510b6e411639bf3a609935090613e4442400978"
+    },
+    {
+      "bytes": 1617,
+      "path": "src/campaign/discrete/difference_wichmann_leech/local_verifier_audit.json",
+      "sha256": "4bdae775741d9336cc95528f0cd6722c7031f70b46d769ccbb69e8c49d0d815c"
+    },
+    {
+      "bytes": 370,
+      "path": "src/campaign/discrete/difference_wichmann_leech/runs/20260815T084100Z_exact_sweep/config.json",
+      "sha256": "fa26f6e963517f7576fd8ba53016c5a99fcc81d81e6bc979c22c02091d7f285e"
+    },
+    {
+      "bytes": 4354,
+      "path": "src/campaign/discrete/difference_wichmann_leech/runs/20260815T084100Z_exact_sweep/events.jsonl",
+      "sha256": "baecc7b5732398bf139ebabbb086f98e1e49c67c31a851df94db47a33cf829a6"
+    },
+    {
+      "bytes": 5477,
+      "path": "src/campaign/discrete/difference_wichmann_leech/runs/20260815T084100Z_exact_sweep/summary.json",
+      "sha256": "cc678a56cd5d9764494d9ad488f59b0b477da5826e727a9cfc9975da2fc9c5c9"
+    },
+    {
+      "bytes": 13884,
+      "path": "src/campaign/discrete/difference_wichmann_leech/search.py",
+      "sha256": "64b3b3a746af11ac38dc5edd6aa70fd0b36e51642a6ff28aa252f9ad81a3faa4"
+    },
+    {
+      "bytes": 3932,
+      "path": "src/campaign/discrete/difference_wichmann_leech/test_packet.py",
+      "sha256": "344f28eb0896266c4b6ca0e329babc5d6111b112e35257f3fad5115b8ddf2615"
+    },
+    {
       "bytes": 10324,
       "path": "src/campaign/discrete/edges_vs_triangles/HANDOFF.md",
       "sha256": "d38c5606d09b82af1f1882d214301bf3ff1425bff3e54c9bb8eb344f4f2e427d"
@@ -1444,6 +1504,141 @@
       "bytes": 7158,
       "path": "src/campaign/discrete/flat_search.py",
       "sha256": "bbf3b89c16fb416a608097a21ddb18a935a1bee3a56efa181e91eec8bd0e69cb"
+    },
+    {
+      "bytes": 794,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/EXA_PROVENANCE.json",
+      "sha256": "29271051c9e164cc5da802becd87d884655aed514d98a64a9cc17c1eed2e2f88"
+    },
+    {
+      "bytes": 4957,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/HANDOFF.md",
+      "sha256": "a8e765e8e480a97773a96749b65d82e203e007828ae7e30c491040c729649009"
+    },
+    {
+      "bytes": 1074,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/LICENSE",
+      "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "bytes": 1160,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/LIVE_METADATA.json",
+      "sha256": "fc22245a7a7e39893f662a0eaa1e208ee6b51c4866a49d377f6198f7aebff311"
+    },
+    {
+      "bytes": 5030,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/PUBLICATION_EXPORT.json",
+      "sha256": "3cd23761e0b25434b079af33e2e03c3045be6d504886314ce381eccb3ec90a8a"
+    },
+    {
+      "bytes": 8062,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/PUBLICATION_MANIFEST.json",
+      "sha256": "e05ae0cda584083d5f18f1858af823472d6022a4f7cab53a0b5fd28773995287"
+    },
+    {
+      "bytes": 1453,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/SCOPE.md",
+      "sha256": "94a92cbe54dbb5ae5a56e40ed59a87235a3f49ff15af44cdaa117ba5b127c8be"
+    },
+    {
+      "bytes": 1929,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/SOURCES.md",
+      "sha256": "b5f6b3cbf26c15fbb51fcce9b816627a009e14ecca11a9e02cb3af35ca33f21f"
+    },
+    {
+      "bytes": 1238,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/SOURCE_EXTRACTION_RECEIPT.md",
+      "sha256": "a6e053989a38b0efb99f8cacb817642a1399f55eda248e3ef762072829f75eab"
+    },
+    {
+      "bytes": 91,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/best_payload.json",
+      "sha256": "f060e0ca6eb51df73f33ddd5377c6bd60a8add79b90fa8f716968ddc65bf723d"
+    },
+    {
+      "bytes": 3705,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/bober_sporadic_52.json",
+      "sha256": "016c250ff6b2b9dae71fe96b0fc0e6f9ddf04b73c1acb8ba3a620cbde620162d"
+    },
+    {
+      "bytes": 2708,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/family_search_checkpoint.json",
+      "sha256": "616bd3dadc52e62d389cc8ff54e82d58baf3e5dde90c18300c045530a4a97cfa"
+    },
+    {
+      "bytes": 7510,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/landau_core.py",
+      "sha256": "05749c9d0ab7f6a18871c697b34c3cd38820f374933967caf08e8645f549703c"
+    },
+    {
+      "bytes": 10549,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/screen_bober.py",
+      "sha256": "89c87fd4f1cb6c7e7a64e8755b4e815cedaaccbac96575444507d79e51f64d1f"
+    },
+    {
+      "bytes": 51832,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/screen_receipt.json",
+      "sha256": "34daf3eb00fa04315ab1a68923bed557e9f52fc234206a136a704c11385251f6"
+    },
+    {
+      "bytes": 3354,
+      "path": "src/campaign/discrete/pnt_factorial_ratio_landau/verify_best.py",
+      "sha256": "551652b0c781e6a38d4fd0607e880714cb1790ecae4988354b7e8959ef540e58"
+    },
+    {
+      "bytes": 1918,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/HANDOFF.md",
+      "sha256": "4f35554f90d1236dc6424036c534e2f3e38c1de48dc382cb5aef65a9f0ebd05f"
+    },
+    {
+      "bytes": 1074,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/LICENSE",
+      "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "bytes": 3344,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/PUBLICATION_EXPORT.json",
+      "sha256": "c641de3da9b0afebe23604dc5853a1fa7f6bf1c58530f862e13b02231dbcc1f9"
+    },
+    {
+      "bytes": 1937,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/PUBLICATION_MANIFEST.json",
+      "sha256": "8f171f26144ff75b45b85bb1a8d689d80bea76ab5f0fb7b613de69ae47f2823a"
+    },
+    {
+      "bytes": 1500,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/README.md",
+      "sha256": "4273d13ad3196a991a8d6a043c66848df4bc727b5959aeeb1510f8cc25b6a950"
+    },
+    {
+      "bytes": 593,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/SOURCES.md",
+      "sha256": "01c78d2a406c19ea31b3938d7fb39780cb0cff9b310c80e7eb4290bcc697b416"
+    },
+    {
+      "bytes": 3705,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/bober_sporadic_52.json",
+      "sha256": "016c250ff6b2b9dae71fe96b0fc0e6f9ddf04b73c1acb8ba3a620cbde620162d"
+    },
+    {
+      "bytes": 731,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/dual_receipt.json",
+      "sha256": "9e42a28249dc15c7b1f3d11e011298aafe843f7bfa6a738fe1bc9ac1e4e69267"
+    },
+    {
+      "bytes": 9278,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/prove_dual.py",
+      "sha256": "2bd58db64649c2a9f7c537e073de1309b79671fe239030b531ce218e5def6805"
+    },
+    {
+      "bytes": 27,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/requirements.txt",
+      "sha256": "cf4d1dc9a101f290fca565d8a6fb4f3ca3f1ada0912c93a81bf37f3fcdf20973"
+    },
+    {
+      "bytes": 6764,
+      "path": "src/campaign/discrete/pnt_landau_atom_packing/search.py",
+      "sha256": "af3b1b3b2ebdf8341e564cdf419e0876b9a5055c0e6bb0ea3b37ad391cbfb214"
     },
     {
       "bytes": 6479,
@@ -2699,6 +2894,81 @@
       "bytes": 22369,
       "path": "src/campaign/geometry/tammes_d6_search.py",
       "sha256": "39926a169772d22bcdfd444365a987907876d133db2e1d82156c180c21e477b0"
+    },
+    {
+      "bytes": 25,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/.gitignore",
+      "sha256": "a2f81bc28162798e8770423293f20b024f05c3d2fa235b26eca00a4bdb6b1f2c"
+    },
+    {
+      "bytes": 1074,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/LICENSE",
+      "sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "bytes": 1197,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/PROVENANCE.md",
+      "sha256": "7ed1662aeeaa44787a0e9ab1257c7c63cb1a4599675794b5022f906877a85517"
+    },
+    {
+      "bytes": 4805,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/PUBLICATION_EXPORT.json",
+      "sha256": "e18bcabb01ba96a05b4040b6bd53c24da00024740a37b410b9144b86c10da5db"
+    },
+    {
+      "bytes": 3164,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/PUBLICATION_MANIFEST.json",
+      "sha256": "91280f836b06269d97c7804916fae8c14d85f37c214e6954de76a2a54d7e8a23"
+    },
+    {
+      "bytes": 1372,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/README.md",
+      "sha256": "a1f4571f79ceaec8e2f8c3c81169e2e4e629ee4224f4f64a5ede8a566b776f84"
+    },
+    {
+      "bytes": 7331,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/freeze.py",
+      "sha256": "029eb1067e7bce3f3055ccc6bd057cedf9207f40f8a6d15d0cb7c5b1ffb5eaab"
+    },
+    {
+      "bytes": 7456,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/literature.json",
+      "sha256": "cdf5f6eb757a52c80c66e6f303c70449d5351271e9208c41e86fe41191bdaee8"
+    },
+    {
+      "bytes": 9208,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/replay.py",
+      "sha256": "636c3e3bfce4414cfbf6a3883b9e65e7d0c7ff7f9d7eef8bc145a41605b06ff9"
+    },
+    {
+      "bytes": 114231,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/runs/20260815T_THOMSON_SCAR_V2/events.jsonl",
+      "sha256": "a149743e84e438d7c7809d4fda3e5a6423a072823a68b7a5d700093c1568737c"
+    },
+    {
+      "bytes": 1528,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/runs/20260815T_THOMSON_SCAR_V2/independent_replay.json",
+      "sha256": "1a98152f996454e8e673892b3dc61539d10bc0a18a1b1f61a1f2bfa77d80172a"
+    },
+    {
+      "bytes": 768,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/runs/20260815T_THOMSON_SCAR_V2/receipt.json",
+      "sha256": "8e449bb4583a5eda30259999f8a42b8ae47574163837440b57423326685cce50"
+    },
+    {
+      "bytes": 2291,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/runs/20260815T_THOMSON_SCAR_V2/summary.json",
+      "sha256": "b3fd030197d4582d813be8eb6f910c286a677787034b6af00d45da0d4fa5bb9a"
+    },
+    {
+      "bytes": 33687,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/runs/20260815T_THOMSON_SCAR_V2/topology_classes.json",
+      "sha256": "187868be112be4a7045a8e661171ad7ba74106ad8ac2c133c3b96c4065eaa730"
+    },
+    {
+      "bytes": 28289,
+      "path": "src/campaign/geometry/thomson_282_scar_escape/search.py",
+      "sha256": "655e3c6a465945ee09fed06aeae4a534289c6e2a520c675780c54aef38193406"
     },
     {
       "bytes": 25,

@@ -1,0 +1,153 @@
+{
+  "created_utc": "2026-08-15T02:00:00Z",
+  "scope": "Read-only literature and public-data provenance for direct N=282 scar/dislocation mutations.",
+  "paperclip": {
+    "queries": [
+      "grain boundary scars",
+      "spherical crystallography",
+      "Thomson problem dislocations defects sphere"
+    ],
+    "sources": [
+      {
+        "paperclip_id": "arx_cond-mat9701090",
+        "title": "Influence of Dislocations in Thomson's Problem",
+        "authors": "A. Perez-Garrido, M. J. W. Dodgson, M. A. Moore",
+        "primary_url": "https://arxiv.org/abs/cond-mat/9701090",
+        "doi": "10.1103/PhysRevB.56.3640",
+        "paperclip_content_lines_sha256": "ad88e49f772ca0d9bcf62b686586d62da9517bbe1001bf44be4ccc90a6dad7ec",
+        "paperclip_rendered_bytes": 14365,
+        "lines_used": [
+          "L7-L16",
+          "L23-L26"
+        ],
+        "derived_fact": "Five-seven dislocation pairs can screen the unavoidable twelve fivefold disclinations; older Coulomb estimates put favorable additional dislocations at order 10^3 particles, and the landscape has exponentially many metastable states."
+      },
+      {
+        "paperclip_id": "arx_cond-mat0206144",
+        "title": "Crystalline Order on a Sphere and the Generalized Thomson Problem",
+        "authors": "M. Bowick, A. Cacciuto, D. R. Nelson, A. Travesset",
+        "primary_url": "https://arxiv.org/abs/cond-mat/0206144",
+        "doi": "10.1103/PhysRevLett.89.185502",
+        "paperclip_content_lines_sha256": "3082c4636c26d0161497f3bbc2fcc94cb75961e348a5fd87df790defc17ea7b6",
+        "paperclip_rendered_bytes": 18491,
+        "lines_used": [
+          "L6-L16",
+          "L31-L35"
+        ],
+        "derived_fact": "Defects are represented by fivefold (+1) and sevenfold (-1) sites; dislocations and finite grain boundaries are built from these elementary disclinations."
+      },
+      {
+        "paperclip_id": "arx_cond-mat0303289",
+        "title": "Grain Boundary Scars and Spherical Crystallography",
+        "authors": "A. R. Bausch et al.",
+        "primary_url": "https://arxiv.org/abs/cond-mat/0303289",
+        "doi": "10.1126/science.1081160",
+        "paperclip_content_lines_sha256": "87071094e86e75d7559f62876b766593534927846cf100ee1503f7abac0994bb",
+        "paperclip_rendered_bytes": 18897,
+        "lines_used": [
+          "L9-L27"
+        ],
+        "derived_fact": "Spherical crystals can carry freely terminating alternating five-seven scars; observed onset is associated with a sufficiently large radius-to-spacing ratio."
+      },
+      {
+        "paperclip_id": "arx_0707.1909",
+        "title": "Interstitial fractionalization and spherical crystallography",
+        "authors": "M. J. Bowick, D. R. Nelson, H. Shin",
+        "primary_url": "https://arxiv.org/abs/0707.1909",
+        "doi": "10.1039/b705475e",
+        "paperclip_content_lines_sha256": "e5893e9170f6f69c889240eab04830715ac31e889444b3f3ec73b4468cc75db1",
+        "paperclip_rendered_bytes": 44816,
+        "lines_used": [
+          "L13-L17",
+          "L20-L31"
+        ],
+        "derived_fact": "A minimal mini-scar is 5-7-5; dislocations glide parallel to their Burgers vectors toward fivefold disclinations, and thermal noise may be needed to cross the Peierls barrier."
+      }
+    ],
+    "retention": "No Paperclip paper body, figure, or metadata payload is stored in this packet; only hashes, line locators, bibliographic facts, and paraphrases are retained."
+  },
+  "exa": {
+    "endpoint": "https://api.exa.ai/search",
+    "method": "authenticated POST used as a semantically read-only search",
+    "credentials_retained": false,
+    "requests": [
+      {
+        "request_id": "af154a53d687b758a97b47a157d98050",
+        "query": "Thomson problem N=282 37147.294418 energy",
+        "primary_results_used": [
+          "https://einsteinarena.com/problems/thomson-problem",
+          "https://arxiv.org/html/2506.08398v1",
+          "https://journals.aps.org/pre/abstract/10.1103/PhysRevE.71.047703"
+        ]
+      },
+      {
+        "request_id": "ffff062f3424f69e241b91df6ba70ef7",
+        "query": "Influence of Dislocations in Thomson problem edge flip defect glide algorithm",
+        "primary_results_used": [
+          "https://arxiv.org/abs/cond-mat/9701090",
+          "https://journals.aps.org/prb/abstract/10.1103/PhysRevB.56.3640"
+        ]
+      },
+      {
+        "request_id": "34166e779c572983bcbafe297668e0ad",
+        "query": "Thomson problem grain boundary scar transition particle number Coulomb sphere",
+        "primary_results_used": [
+          "https://link.aps.org/doi/10.1103/PhysRevLett.89.185502",
+          "https://www.science.org/doi/10.1126/science.1081160"
+        ]
+      }
+    ],
+    "retention": "No Exa response body or snippet is stored; credentials were sourced from the local environment and never written or printed."
+  },
+  "public_reference_configuration": {
+    "url": "https://www-wales.ch.cam.ac.uk/~wales/CCD/Thomson/xyz/282.xyz",
+    "retrieval": "GET-only, inspected in memory, not retained",
+    "sha256": "e1b5d99abe1e054df28b176ff0d18c51bf870198eb2cba3a99c20adf64ea21ba",
+    "bytes": 13964,
+    "literal_frozen_formula_score": 37147.294418462254,
+    "topology": {
+      "face_count": 560,
+      "degree_histogram": {
+        "5": 12,
+        "6": 270
+      }
+    },
+    "license": "No explicit redistribution license was established; the XYZ bytes are excluded from publication."
+  },
+  "arena_corpus": {
+    "database": "research_corpus/snapshots/20260815T003306Z/corpus.sqlite3",
+    "database_sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb",
+    "problem_slug": "thomson-problem",
+    "records_read": 22,
+    "notable_thread_ids": [
+      115,
+      134,
+      172,
+      233
+    ],
+    "retention": "No discussion body is copied into this packet."
+  },
+  "operator_derivation": [
+    {
+      "operator": "mini_scar",
+      "graph_rule": "Flip the edge opposite an existing degree-5 vertex in an adjacent triangle. The old edge endpoints lose one degree, while the two opposite vertices gain one degree, changing the local defect inventory from one 5 to two 5s plus one 7 (a 5-7-5 charge pattern)."
+    },
+    {
+      "operator": "dislocation_glide",
+      "graph_rule": "Apply a neighboring legal 2-2 flip that preserves the global 13x5/1x7 degree histogram; this transports the bound 5-7 defect without changing its net charge. One- and two-step paths are retained."
+    },
+    {
+      "operator": "scar_extension",
+      "graph_rule": "Apply a second local legal flip to a mini-scar and retain only degree-5/6/7 triangulations with 14x5/2x7, giving a two-dislocation extension."
+    },
+    {
+      "operator": "stone_wales_dipole",
+      "graph_rule": "Flip an edge whose four participating vertices are all degree 6. The update creates two degree-5 and two degree-7 sites, a neutral 5-7-7-5 defect quartet; neighboring histogram-preserving flips glide the dipole."
+    }
+  ],
+  "inference_limits": [
+    "The literature motivates defect families and expected onset scales; it does not certify the discrete edge-flip implementation or global optimality.",
+    "N=282 equals the icosadeltahedral magic number 10*(4^2+4*2+2^2)+2, but this lane reads only the frozen N=282 incumbent and never reads or constructs an N=72 split source.",
+    "Agreement with the public Cambridge energy is evidence of an established basin, not a proof that a lower N=282 state cannot exist."
+  ]
+}

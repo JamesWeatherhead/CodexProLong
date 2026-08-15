@@ -1,0 +1,20 @@
+{
+  "candidate_sha256": "86af83d289e48c2713a3f612c98f4fa625eb8038cf8be85de1afb625eae4c241",
+  "domain": {
+    "finite": true,
+    "norm_max": 1.0000000000000002,
+    "norm_min": 1.0,
+    "shape": [
+      282,
+      3
+    ]
+  },
+  "events_sha256_before_completion": "e542133029002ef84cfeb6416a5fba1641a38051a1f6eca72923a14e3139723f",
+  "frozen_formula_score": 37147.29441846225,
+  "gate_clearing": false,
+  "run": "runs/20260815T_THOMSON_SCAR_V2",
+  "summary_sha256": "b3fd030197d4582d813be8eb6f910c286a677787034b6af00d45da0d4fa5bb9a",
+  "target_strictly_below": 37147.29441746226,
+  "topology_classes_sha256": "187868be112be4a7045a8e661171ad7ba74106ad8ac2c133c3b96c4065eaa730",
+  "verifier_sha256": "4cdf454acc790c97f2cfcb1e62f44f571ff9f44f87566c341865bc1c234ba5af"
+}

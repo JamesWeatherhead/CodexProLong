@@ -157,7 +157,7 @@ FRONTIER_RECEIPTS = {
 METHODS = {
     "circle-packing": "Exact replay reaches 2.635983095281623, still 7.92e-11 short. Beyond one-contact continuation, relocation, and 550 contact-graph recombinations, the codimension-two campaign solved 9,270 systems and deduplicated 5,147 unlabeled WL classes. A disjoint codimension-three campaign then tested 3,500 release triples and 2,848 genuine changed graphs. Exa archive recovery found the complete linked ClaudeEvolve strict generator, but it reproduces only 2.6359829285577328; the higher README headline has no recoverable candidate bytes and used a looser -1e-6 gap allowance. No tested topology or recovered asset escaped the canonical tolerance ceiling.",
     "circles-rectangle": "Exact replay reaches 2.365832385227916, still 8.01e-11 short. The latest simultaneous-contact campaign exhausts all 2,016 two-contact and 41,664 three-contact releases from both rigid public graph classes: 11,933 nonlinear systems, 11,884 accepted endpoints, and 8,828 unlabeled WL classes. The canonical tolerance ceiling remains best, so a higher-codimension or genuinely different topology is required.",
-    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, block repairs, and a separate quadratic relative-difference-set family are closed. A carry-exact CSP proves infeasibility for every size 320..720 within the fixed 90-point cyclic-core/shell-0..7 family. Independently, an exhaustive Banakh–Gavrylkiv four-block interval-basis sweep covers every unit multiplier and cyclic cut for 114 prime powers q<=499 plus complete tail sweeps at selected q; it regenerates but cannot beat the incumbent. These are family closures, not a global lower bound.",
+    "difference-bases": "All relevant 1-swaps, exact 2-for-2 exchanges, block repairs, and a separate quadratic relative-difference-set family are closed. A carry-exact CSP proves infeasibility for every size 320..720 within the fixed 90-point cyclic-core/shell-0..7 family. An exhaustive Banakh–Gavrylkiv four-block interval-basis sweep covers every unit multiplier and cyclic cut for 114 prime powers q<=499. A separate clean-room Wichmann/Leech gap-family sweep exact-checks 498,002 parameter pairs; its best 360-mark basis covers only 43,318 versus 49,110 required. These are family closures, not a global lower bound.",
     "edges-vs-triangles": "Exact dynamic programming solves all 8,514 branch/count states and the complete 18-branch allocation; a 131,071-mask transition-topology screen finds no escape. Exact replay gains 7.61e-9, still 9.92e-7 short of the gate.",
     "erdos-min-overlap": "Active-bundle sequential linear programming over n=3,584 coordinates crossed the strict 1e-7 gate after 58 exact-accepted stages. Independent literal replay and evaluated solution #2507 agree at 0.3808585748578584.",
     "first-autocorrelation-inequality": "Exact-accepted high-beta FFT continuation; evaluated solution #2504.",
@@ -168,11 +168,11 @@ METHODS = {
     "kissing-number-d12": "Published 841-code replays at exact verifier score 0 with 1.24497e-7 distance-squared margin; submission is blocked by HTTP 409, tracked in issue #59.",
     "kissing-number-d12-842": "Sparse tangent-space active-set SLP; evaluated solution #2499.",
     "min-distance-ratio-2d": "A 100-digit active root, 280 release/promote trials, and 550 canonical contact-graph recombinations all return the same micro-polished basin. A separate adjacent-cardinality topology campaign exact-replayed 214 births/deaths and found 153 corpus-novel contact graphs; the best novel graph remains 0.00577 worse, while the overall best gains only 2.35e-11 against a 1e-7 gate.",
-    "prime-number-theorem": "Changed-reach cutting planes produce platform #1 solution #2506 at 0.9976572852677297, but an exact all-x audit proves it is not a mathematical certificate: S(1)=1.000099989952235... and S(8,015,392)=106.150121507295.... A nonnegative exact weak dual bounds every coefficient assignment on the same 2,000-key support by 0.997625778304447..., below the historical gate. The strongest new globally certified periodic divisor support scores 0.970073558281127, so a fundamentally different support identity is required.",
+    "prime-number-theorem": "Changed-reach cutting planes produce platform #1 solution #2506 at 0.9976572852677297, but an exact all-x audit proves it is not a mathematical certificate: S(1)=1.000099989952235... and S(8,015,392)=106.150121507295.... A nonnegative exact weak dual bounds every assignment on the same 2,000-key support by 0.997625778304447..., below the historical gate. The strongest new globally certified periodic divisor support scores 0.970073558281127. The complete Bober height-one classification peaks at Chebyshev 0.921292022934091; a second 23-point symbolic dual proves Chebyshev optimal over all nonnegative combinations of 5,200 sporadic atoms at dilations 1..100. A fundamentally different support identity is required.",
     "second-autocorrelation-inequality": "Exact replay reaches 0.9635881192968997 after changed-support packet births and a 2,184-call SimpleTES topology-transfer campaign. Paperclip/Exa-grounded multiscale and sliding-support campaigns then reconstructed 360 coordinated mosaics plus 64 exact relocation paths; 56 sliding paths changed topology, but none improved the seed materially. The strict gate gap remains 9.9913e-6.",
     "tammes-problem": "Platform #1 uses an interior zero vector admitted by the verifier; disclosed and not claimed as a spherical construction.",
     "third-autocorrelation-inequality": "Boundary-cell sign-topology escapes plus exact all-coordinate continuation now reach 1.4515653796072292. The latest lane screened 14,333 deletions, 100,152 block transplants, 20,000 single sign walls, and 7,140 wall pairs; two exact-accepted orthant crossings gained another 5.41e-9, leaving a 3.5157e-6 gate gap.",
-    "thomson-problem": "A literature-grounded N=72 to N=282 split campaign enumerated 48 alternative defect-free source triangulations and realized 30 distinct defect-free N=282 initial graphs. Exact isomorphism replay shows all 30 releases return to the incumbent topology; the best score differs only by 1.46e-11 float dust and remains 9.99986e-7 short.",
+    "thomson-problem": "A literature-grounded N=72 to N=282 split campaign enumerated 48 alternative defect-free source triangulations and realized 30 distinct defect-free N=282 initial graphs, all returning to the incumbent. A disjoint direct-N282 scar campaign then tested 49 deterministic mutation paths spanning 44 exact graph classes at two amplitudes: all 98 releases again returned to the incumbent topology. The best score differs only by float dust and remains 9.99986e-7 short.",
     "uncertainty-principle": "k=25 contact-manifold continuation with fresh-process high-precision replay; evaluated solution #2505.",
 }
 SOURCE_ENTRYPOINTS = {
@@ -342,23 +342,32 @@ UNPUBLISHED_SOURCE_PREFIXES = {
     Path("discrete/difference_exact_synthesis"),
     Path("discrete/prime_number_theorem_global_proof"),
     Path("discrete/pnt_factorial_ratio_landau"),
+    Path("discrete/pnt_landau_atom_packing"),
     Path("geometry/circle_packing_multicontact_precision"),
     Path("geometry/rectangle_multicontact_precision"),
     Path("discrete/difference_interval_constructions"),
+    Path("discrete/difference_global_evolution"),
+    Path("discrete/difference_wichmann_leech"),
+    Path("discrete/pnt_factorial_ratio_higher_height"),
     Path("geometry/circle_packing_multicontact_global"),
     Path("geometry/claudeevolve_circle_recovery"),
+    Path("geometry/thomson_282_scar_escape"),
 }
 
 PUBLICATION_MANIFESTS = (
     Path("analytic/flat_psl4_accelerator/PUBLICATION_MANIFEST.json"),
     Path("analytic/flat_psl4_sat_pb/PUBLICATION_MANIFEST.json"),
     Path("analytic/flat_psl4_table_recovery_exa/PUBLICATION_MANIFEST.json"),
+    Path("discrete/pnt_factorial_ratio_landau/PUBLICATION_MANIFEST.json"),
+    Path("discrete/pnt_landau_atom_packing/PUBLICATION_MANIFEST.json"),
     Path("discrete/prime_number_theorem_global_proof/PUBLICATION_MANIFEST.json"),
+    Path("discrete/difference_wichmann_leech/PUBLICATION_MANIFEST.json"),
     Path("geometry/circle_packing_multicontact_precision/PUBLICATION_MANIFEST.json"),
     Path("geometry/rectangle_multicontact_precision/PUBLICATION_MANIFEST.json"),
     Path("geometry/circle_packing_multicontact_global/PUBLICATION_MANIFEST.json"),
     Path("discrete/difference_interval_constructions/PUBLICATION_MANIFEST.json"),
     Path("geometry/claudeevolve_circle_recovery/PUBLICATION_MANIFEST.json"),
+    Path("geometry/thomson_282_scar_escape/PUBLICATION_MANIFEST.json"),
 )
 
 PUBLICATION_ALLOWLIST = (

@@ -1,0 +1,120 @@
+{
+  "canonical_manifest": "discrete/pnt_factorial_ratio_landau/PUBLICATION_MANIFEST.json",
+  "canonical_manifest_sha256": "e05ae0cda584083d5f18f1858af823472d6022a4f7cab53a0b5fd28773995287",
+  "files": [
+    {
+      "canonical_bytes": 794,
+      "canonical_sha256": "29271051c9e164cc5da802becd87d884655aed514d98a64a9cc17c1eed2e2f88",
+      "path": "EXA_PROVENANCE.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 794,
+      "public_sha256": "29271051c9e164cc5da802becd87d884655aed514d98a64a9cc17c1eed2e2f88"
+    },
+    {
+      "canonical_bytes": 4957,
+      "canonical_sha256": "a8e765e8e480a97773a96749b65d82e203e007828ae7e30c491040c729649009",
+      "path": "HANDOFF.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 4957,
+      "public_sha256": "a8e765e8e480a97773a96749b65d82e203e007828ae7e30c491040c729649009"
+    },
+    {
+      "canonical_bytes": 1074,
+      "canonical_sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634",
+      "path": "LICENSE",
+      "portable_path_rewrite": false,
+      "public_bytes": 1074,
+      "public_sha256": "0ae1929487caa34d6ce1871ca4c20278002eaa6bd34655cc3e8e061c2d853634"
+    },
+    {
+      "canonical_bytes": 1160,
+      "canonical_sha256": "fc22245a7a7e39893f662a0eaa1e208ee6b51c4866a49d377f6198f7aebff311",
+      "path": "LIVE_METADATA.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 1160,
+      "public_sha256": "fc22245a7a7e39893f662a0eaa1e208ee6b51c4866a49d377f6198f7aebff311"
+    },
+    {
+      "canonical_bytes": 1453,
+      "canonical_sha256": "94a92cbe54dbb5ae5a56e40ed59a87235a3f49ff15af44cdaa117ba5b127c8be",
+      "path": "SCOPE.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 1453,
+      "public_sha256": "94a92cbe54dbb5ae5a56e40ed59a87235a3f49ff15af44cdaa117ba5b127c8be"
+    },
+    {
+      "canonical_bytes": 1929,
+      "canonical_sha256": "b5f6b3cbf26c15fbb51fcce9b816627a009e14ecca11a9e02cb3af35ca33f21f",
+      "path": "SOURCES.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 1929,
+      "public_sha256": "b5f6b3cbf26c15fbb51fcce9b816627a009e14ecca11a9e02cb3af35ca33f21f"
+    },
+    {
+      "canonical_bytes": 1238,
+      "canonical_sha256": "a6e053989a38b0efb99f8cacb817642a1399f55eda248e3ef762072829f75eab",
+      "path": "SOURCE_EXTRACTION_RECEIPT.md",
+      "portable_path_rewrite": false,
+      "public_bytes": 1238,
+      "public_sha256": "a6e053989a38b0efb99f8cacb817642a1399f55eda248e3ef762072829f75eab"
+    },
+    {
+      "canonical_bytes": 91,
+      "canonical_sha256": "f060e0ca6eb51df73f33ddd5377c6bd60a8add79b90fa8f716968ddc65bf723d",
+      "path": "best_payload.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 91,
+      "public_sha256": "f060e0ca6eb51df73f33ddd5377c6bd60a8add79b90fa8f716968ddc65bf723d"
+    },
+    {
+      "canonical_bytes": 3705,
+      "canonical_sha256": "016c250ff6b2b9dae71fe96b0fc0e6f9ddf04b73c1acb8ba3a620cbde620162d",
+      "path": "bober_sporadic_52.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 3705,
+      "public_sha256": "016c250ff6b2b9dae71fe96b0fc0e6f9ddf04b73c1acb8ba3a620cbde620162d"
+    },
+    {
+      "canonical_bytes": 2708,
+      "canonical_sha256": "616bd3dadc52e62d389cc8ff54e82d58baf3e5dde90c18300c045530a4a97cfa",
+      "path": "family_search_checkpoint.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 2708,
+      "public_sha256": "616bd3dadc52e62d389cc8ff54e82d58baf3e5dde90c18300c045530a4a97cfa"
+    },
+    {
+      "canonical_bytes": 7510,
+      "canonical_sha256": "05749c9d0ab7f6a18871c697b34c3cd38820f374933967caf08e8645f549703c",
+      "path": "landau_core.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 7510,
+      "public_sha256": "05749c9d0ab7f6a18871c697b34c3cd38820f374933967caf08e8645f549703c"
+    },
+    {
+      "canonical_bytes": 10549,
+      "canonical_sha256": "89c87fd4f1cb6c7e7a64e8755b4e815cedaaccbac96575444507d79e51f64d1f",
+      "path": "screen_bober.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 10549,
+      "public_sha256": "89c87fd4f1cb6c7e7a64e8755b4e815cedaaccbac96575444507d79e51f64d1f"
+    },
+    {
+      "canonical_bytes": 51832,
+      "canonical_sha256": "34daf3eb00fa04315ab1a68923bed557e9f52fc234206a136a704c11385251f6",
+      "path": "screen_receipt.json",
+      "portable_path_rewrite": false,
+      "public_bytes": 51832,
+      "public_sha256": "34daf3eb00fa04315ab1a68923bed557e9f52fc234206a136a704c11385251f6"
+    },
+    {
+      "canonical_bytes": 3354,
+      "canonical_sha256": "551652b0c781e6a38d4fd0607e880714cb1790ecae4988354b7e8959ef540e58",
+      "path": "verify_best.py",
+      "portable_path_rewrite": false,
+      "public_bytes": 3354,
+      "public_sha256": "551652b0c781e6a38d4fd0607e880714cb1790ecae4988354b7e8959ef540e58"
+    }
+  ],
+  "policy": "Canonical bytes are hash-checked before export. Absolute host paths in manifest-approved JSON/JSONL are rewritten to portable campaign-relative paths; all other bytes are copied verbatim.",
+  "schema_version": 1
+}

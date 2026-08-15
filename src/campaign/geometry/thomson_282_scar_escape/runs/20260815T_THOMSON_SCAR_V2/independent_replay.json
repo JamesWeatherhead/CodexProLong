@@ -1,0 +1,39 @@
+{
+  "abstract_mutation_path_count": 49,
+  "candidate_frozen_formula_score": 37147.29441846225,
+  "candidate_sha256": "86af83d289e48c2713a3f612c98f4fa625eb8038cf8be85de1afb625eae4c241",
+  "candidate_topology": {
+    "degree_histogram": {
+      "5": 12,
+      "6": 270
+    },
+    "edge_count": 840,
+    "face_count": 560,
+    "faces_sha256": "1fa61868716bfd805e5ea16cd8ad5c7040c83a4130089bf408072fea26bd8bbe",
+    "wl_hash": "e78fb651b7b5576ac0f9edf9fca7cbe0"
+  },
+  "exact_graph_class_count": 44,
+  "full_trial_replay_requested": true,
+  "full_trials_replayed": 98,
+  "gate_clearing": false,
+  "hashes": {
+    "events_sha256": "a149743e84e438d7c7809d4fda3e5a6423a072823a68b7a5d700093c1568737c",
+    "receipt_sha256": "8e449bb4583a5eda30259999f8a42b8ae47574163837440b57423326685cce50",
+    "snapshot_sha256": "4e7c1ccf2b31a03841791a796bdea8a21a0408778f593e7110de2a026bbdb0cd",
+    "summary_sha256": "b3fd030197d4582d813be8eb6f910c286a677787034b6af00d45da0d4fa5bb9a",
+    "topology_classes_sha256": "187868be112be4a7045a8e661171ad7ba74106ad8ac2c133c3b96c4065eaa730",
+    "verifier_sha256": "4cdf454acc790c97f2cfcb1e62f44f571ff9f44f87566c341865bc1c234ba5af"
+  },
+  "max_replayed_score_delta": 0.0,
+  "recorded_trial_count": 98,
+  "run": "20260815T_THOMSON_SCAR_V2",
+  "software": {
+    "networkx": "3.6.1",
+    "numpy": "2.5.2",
+    "python": "3.12.13",
+    "scipy": "1.18.0"
+  },
+  "status": "pass",
+  "target_strictly_below": 37147.29441746226,
+  "verifier_execution": "none; hash checked and formula independently transcribed"
+}

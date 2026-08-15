@@ -1,0 +1,66 @@
+{
+  "attempted_trial_slots": 98,
+  "best": {
+    "candidate": "best_candidate.json",
+    "candidate_sha256": "86af83d289e48c2713a3f612c98f4fa625eb8038cf8be85de1afb625eae4c241",
+    "gate_clearing": false,
+    "gate_gap": 9.999857866205275e-07,
+    "improvement_over_live": 1.4551915228366852e-11,
+    "operator": "stone_wales",
+    "score": 37147.29441846225,
+    "topology": {
+      "degree_histogram": {
+        "5": 12,
+        "6": 270
+      },
+      "edge_count": 840,
+      "face_count": 560,
+      "faces_sha256": "1fa61868716bfd805e5ea16cd8ad5c7040c83a4130089bf408072fea26bd8bbe",
+      "wl_hash": "e78fb651b7b5576ac0f9edf9fca7cbe0"
+    },
+    "trial": 34
+  },
+  "bounds": {
+    "amplitudes": [
+      0.1,
+      0.16
+    ],
+    "maxiter": 700,
+    "mutation_cap": 96,
+    "rounds": 2
+  },
+  "claim_scope": "This closes only the enumerated exact graph classes, retained local glide/extension paths, two geometric flip amplitudes, and the stated deterministic relaxation. It is not a proof over all N=282 triangulations or Coulomb basins.",
+  "completed_trials": 98,
+  "enumeration": {
+    "mini_scar": 60,
+    "scar_extension": 8,
+    "scar_glide_1": 2,
+    "scar_glide_2": 2,
+    "selected_mini_scar": 1,
+    "selected_path_count": 49,
+    "selected_scar_extension": 8,
+    "selected_scar_glide_1": 2,
+    "selected_scar_glide_2": 2,
+    "selected_stone_wales": 12,
+    "selected_stone_wales_glide": 24,
+    "selected_unique_graph_class_count": 44,
+    "stone_wales": 720,
+    "stone_wales_glide": 50
+  },
+  "explicit_exclusion": "No member of the closed 48-class N=72 split family was read or generated.",
+  "final_wl_frequencies": {
+    "e78fb651b7b5576ac0f9edf9fca7cbe0": 98
+  },
+  "gate_clearer_count": 0,
+  "live_score": 37147.29441846226,
+  "mode": "direct N=282 legal 2-2 scar/dislocation flips plus spherical Coulomb L-BFGS",
+  "normalized_incumbent_score": 37147.29441846226,
+  "realization_failures": 0,
+  "returned_to_incumbent_wl_count": 98,
+  "selected_mutation_count": 49,
+  "snapshot_sha256": "4e7c1ccf2b31a03841791a796bdea8a21a0408778f593e7110de2a026bbdb0cd",
+  "status": "bounded_negative_frontier",
+  "target_strictly_below": 37147.29441746226,
+  "unique_final_wl_count": 1,
+  "verifier_sha256": "4cdf454acc790c97f2cfcb1e62f44f571ff9f44f87566c341865bc1c234ba5af"
+}

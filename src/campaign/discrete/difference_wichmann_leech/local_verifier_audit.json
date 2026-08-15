@@ -1,0 +1,42 @@
+{
+  "all_literal_matches": true,
+  "audit_scope": "Read-only local replay against the frozen Arena verifier; the verifier source is not copied into the publication packet.",
+  "rows": [
+    {
+      "clean_score": 2.6666666666666665,
+      "frozen_verifier_score": 2.6666666666666665,
+      "label": "degenerate_r0_known_four_mark_control",
+      "literal_match": true,
+      "payload_sha256": "1e388e6d5bdee37d499b504ea58a05908c269bbf6835cc8b2444cebb50a49092"
+    },
+    {
+      "clean_score": 2.7777777777777777,
+      "frozen_verifier_score": 2.7777777777777777,
+      "label": "nondegenerate_global_best",
+      "literal_match": true,
+      "payload_sha256": "6494e57af1850519504d0c4c9b6838fa0d77025d37abcee030ad6dc3305bd1f8"
+    },
+    {
+      "clean_score": 2.991827877556674,
+      "frozen_verifier_score": 2.991827877556674,
+      "label": "size_360_best",
+      "literal_match": true,
+      "payload_sha256": "373a6c0e517922e335e9f3e7566d6382770868d48fa228bdce05f104cbaf5bc0"
+    },
+    {
+      "clean_score": 2.992248536401281,
+      "frozen_verifier_score": 2.992248536401281,
+      "label": "near_49k_window_best",
+      "literal_match": true,
+      "payload_sha256": "82970bd7c89de8b4c473b4c95f8a8e2dec0f6602fa584ef395e9569efbe82fc9"
+    },
+    {
+      "clean_score": 2.992327569071755,
+      "frozen_verifier_score": 2.992327569071755,
+      "label": "coverage_at_least_49110_best",
+      "literal_match": true,
+      "payload_sha256": "46e3dff0c37423575e2c297d7e72f17288abdc27092e3bae7b20ef01a4b9aec0"
+    }
+  ],
+  "verifier_sha256": "a7521e8a701ac31131932d2a732769d65426d329f4a933c4819516adacf2e585"
+}

@@ -1,0 +1,1579 @@
+{
+  "enumeration": {
+    "mini_scar": 60,
+    "scar_extension": 8,
+    "scar_glide_1": 2,
+    "scar_glide_2": 2,
+    "selected_mini_scar": 1,
+    "selected_path_count": 49,
+    "selected_scar_extension": 8,
+    "selected_scar_glide_1": 2,
+    "selected_scar_glide_2": 2,
+    "selected_stone_wales": 12,
+    "selected_stone_wales_glide": 24,
+    "selected_unique_graph_class_count": 44,
+    "stone_wales": 720,
+    "stone_wales_glide": 50
+  },
+  "explicit_non_source": "No N=72 graph, class, coordinates, or split construction is read.",
+  "mutations": [
+    {
+      "degree_histogram": {
+        "5": 13,
+        "6": 268,
+        "7": 1
+      },
+      "faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        }
+      ],
+      "mutation_id": 0,
+      "operator": "mini_scar",
+      "parent_faces_sha256": null,
+      "wl_hash": "ee5dbc7f9b3c9131661a4d8db92eaec4"
+    },
+    {
+      "degree_histogram": {
+        "5": 13,
+        "6": 268,
+        "7": 1
+      },
+      "faces_sha256": "7a3fc1059fae85c12ee42346648f1103fd33d2b71f8028902eb88427b966cc66",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "opposite": [
+            1,
+            14
+          ]
+        }
+      ],
+      "mutation_id": 1,
+      "operator": "scar_glide_1",
+      "parent_faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "wl_hash": "d79397d9a44685bf66d6ffd390c7fbac"
+    },
+    {
+      "degree_histogram": {
+        "5": 13,
+        "6": 268,
+        "7": 1
+      },
+      "faces_sha256": "187603fc2fa64ca2b958666e36aaebdd6b1e0735e488e6a492b3660a76372c46",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            3,
+            8
+          ],
+          "opposite": [
+            0,
+            11
+          ]
+        }
+      ],
+      "mutation_id": 2,
+      "operator": "scar_glide_1",
+      "parent_faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "wl_hash": "18398ecc9bb630b9e0998bbc29f37044"
+    },
+    {
+      "degree_histogram": {
+        "5": 13,
+        "6": 268,
+        "7": 1
+      },
+      "faces_sha256": "5f3677c67569b255138acfadf7e40ca527f31a6cb6bb2d5052253780e079a270",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "opposite": [
+            1,
+            14
+          ]
+        },
+        {
+          "edge": [
+            14,
+            25
+          ],
+          "opposite": [
+            6,
+            33
+          ]
+        }
+      ],
+      "mutation_id": 3,
+      "operator": "scar_glide_2",
+      "parent_faces_sha256": "7a3fc1059fae85c12ee42346648f1103fd33d2b71f8028902eb88427b966cc66",
+      "wl_hash": "11b5229890f5bdab8897d3db82cfdd37"
+    },
+    {
+      "degree_histogram": {
+        "5": 13,
+        "6": 268,
+        "7": 1
+      },
+      "faces_sha256": "f6949b4465b77475315b7e16e4b4a45f74df1ce60195ae36164e6fdd1145d236",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            3,
+            8
+          ],
+          "opposite": [
+            0,
+            11
+          ]
+        },
+        {
+          "edge": [
+            11,
+            19
+          ],
+          "opposite": [
+            8,
+            30
+          ]
+        }
+      ],
+      "mutation_id": 4,
+      "operator": "scar_glide_2",
+      "parent_faces_sha256": "187603fc2fa64ca2b958666e36aaebdd6b1e0735e488e6a492b3660a76372c46",
+      "wl_hash": "89778cd283d613135e435e7aeb03954e"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "0c1d94ed251898488a3da4caf4197775103e9984e05b29b0a9bb1ab590477bc9",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            2,
+            4
+          ],
+          "opposite": [
+            1,
+            7
+          ]
+        }
+      ],
+      "mutation_id": 5,
+      "operator": "scar_extension",
+      "parent_faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "wl_hash": "e03785c0da68e90a7d7e4ff7b9d5eabd"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "2e6535f8679d756c9d27c6f164188af3611cfe6d1675f1469554e19e9a563a9b",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            2,
+            5
+          ],
+          "opposite": [
+            0,
+            7
+          ]
+        }
+      ],
+      "mutation_id": 6,
+      "operator": "scar_extension",
+      "parent_faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "wl_hash": "b486a2c9d98c082cb9a5472147c1fb8a"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "bf253dfd7362d5ff515d4d9b31f5c6e66e67cbd9feddfefb0a833717e06cbef6",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            3,
+            11
+          ],
+          "opposite": [
+            8,
+            14
+          ]
+        }
+      ],
+      "mutation_id": 7,
+      "operator": "scar_extension",
+      "parent_faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "wl_hash": "78a37e8f5bd831dbf55318758c07b631"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "350f392ce133cdbcfcda5388f006e6cc53a06eb55a5bb62b9070e160c8cb53a2",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            3,
+            14
+          ],
+          "opposite": [
+            6,
+            11
+          ]
+        }
+      ],
+      "mutation_id": 8,
+      "operator": "scar_extension",
+      "parent_faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "wl_hash": "b28344b21ab8ac09783a284174e522e9"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "8890c6756d0e97891ee848a636a46cb8c0cbfa9e94ec1c75e1118ffc06a9791b",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            4,
+            9
+          ],
+          "opposite": [
+            1,
+            12
+          ]
+        }
+      ],
+      "mutation_id": 9,
+      "operator": "scar_extension",
+      "parent_faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "wl_hash": "d08709b57fac8907d1694b37ec4aea99"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "a8ef988531f5c27420d7f2c4f78aa890f71f9373a8f6feb7e8a87c0d99fa7c5f",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            5,
+            16
+          ],
+          "opposite": [
+            0,
+            13
+          ]
+        }
+      ],
+      "mutation_id": 10,
+      "operator": "scar_extension",
+      "parent_faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "wl_hash": "6e24d01b1440ba270f87590342e74c1d"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "a243e1d2d0897d998a80c99bf5d41a50ffe4d88a1acc34c6d5cfed6e8bf89b5e",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            6,
+            9
+          ],
+          "opposite": [
+            1,
+            17
+          ]
+        }
+      ],
+      "mutation_id": 11,
+      "operator": "scar_extension",
+      "parent_faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "wl_hash": "880a4fcd3893c28e3d993c95a6a22bcd"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "bf4105c6afccf753043f9e2211195745593a5bf5401bcb038c4115e9f3472fba",
+      "moves": [
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        },
+        {
+          "edge": [
+            8,
+            16
+          ],
+          "opposite": [
+            0,
+            27
+          ]
+        }
+      ],
+      "mutation_id": 12,
+      "operator": "scar_extension",
+      "parent_faces_sha256": "abcdad39bac5295dd6ce805b1f645168e0a83bebba33e38b40925b590887b8af",
+      "wl_hash": "166b4f7687f5e8503ca0a29771c3db4d"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "05d1fbf4de79caf9534ce7b677e3f401e99fcbb249596765a468fd6dc158c3f4",
+      "moves": [
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "opposite": [
+            1,
+            8
+          ]
+        }
+      ],
+      "mutation_id": 13,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "5a13f812ef137876782b1c63ff168e9c"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "a91baf10a719db1800ba984d73c1ab9071524ba9fe9d330847ef063581b21ae9",
+      "moves": [
+        {
+          "edge": [
+            0,
+            8
+          ],
+          "opposite": [
+            3,
+            16
+          ]
+        }
+      ],
+      "mutation_id": 14,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "91ac858cf8b39dd327f6f961e770fda9"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "4b3c5a83e16284d759606e68e5572043695f1d479f6da11488c268b92164a0cb",
+      "moves": [
+        {
+          "edge": [
+            0,
+            16
+          ],
+          "opposite": [
+            5,
+            8
+          ]
+        }
+      ],
+      "mutation_id": 15,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "7c1d65ed67496cbb0e793d390b7ac090"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "4779ed082249bfb97842b2fbcdbe478eaadaeb56fa13ff1d1f1dc5e948730867",
+      "moves": [
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "opposite": [
+            1,
+            14
+          ]
+        }
+      ],
+      "mutation_id": 16,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "5bf6ba89cd8ea76fe2933960fa2ed591"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "e824d7a6a1a6d04f6b2e31e4391e2ab1f1d383c74e41f461ff1c7b3431c41f2f",
+      "moves": [
+        {
+          "edge": [
+            3,
+            8
+          ],
+          "opposite": [
+            0,
+            11
+          ]
+        }
+      ],
+      "mutation_id": 17,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "ab0040e8e354aa2616db84adfbd5e82c"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "fe7b9eaf5ea8c7734d766d5e0effc617dd2eb98fa5cd6002f797d1d0df8a35cd",
+      "moves": [
+        {
+          "edge": [
+            3,
+            11
+          ],
+          "opposite": [
+            8,
+            14
+          ]
+        }
+      ],
+      "mutation_id": 18,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "b251c019de3fb72e64fb3bd97b436fd5"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "fb1574b297eb55d6a3a393cc8718ba41abbc2996d9ead598e7a0af12dee742f8",
+      "moves": [
+        {
+          "edge": [
+            3,
+            14
+          ],
+          "opposite": [
+            6,
+            11
+          ]
+        }
+      ],
+      "mutation_id": 19,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "666971f62069e766fe38d67dfa40fa28"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "6b5d1b1807065adfd615edf12fa62de8f2f4a4b97dfe9a0108b2e890468b0056",
+      "moves": [
+        {
+          "edge": [
+            6,
+            14
+          ],
+          "opposite": [
+            3,
+            25
+          ]
+        }
+      ],
+      "mutation_id": 20,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "8a5aebcb1753c55eef7317fe52275b12"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "d2c6f6bba56f18b5d93ecc8167fcba3c707da4d122ccc1297ebc27379cf67fea",
+      "moves": [
+        {
+          "edge": [
+            6,
+            17
+          ],
+          "opposite": [
+            9,
+            25
+          ]
+        }
+      ],
+      "mutation_id": 21,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "dc5ae87b61b4126fef349fb042de8b99"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "a4c4b31111e33e90b717113fb7c31ebdcbbda310b6d66a67197d666f96296ca8",
+      "moves": [
+        {
+          "edge": [
+            6,
+            25
+          ],
+          "opposite": [
+            14,
+            17
+          ]
+        }
+      ],
+      "mutation_id": 22,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "017aee14f25f4f65690f23964e4bce68"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "94e512b833afca139a3fd88ea003312b37bc5100c6b6eb26496bf3159a3fd8f6",
+      "moves": [
+        {
+          "edge": [
+            11,
+            14
+          ],
+          "opposite": [
+            3,
+            22
+          ]
+        }
+      ],
+      "mutation_id": 23,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "a319da769497739cb7e58da334cc64e2"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "2c766dc2644222707ca1f462f9e562591eae8ad75db9401e77e933dbee15b20a",
+      "moves": [
+        {
+          "edge": [
+            14,
+            25
+          ],
+          "opposite": [
+            6,
+            33
+          ]
+        }
+      ],
+      "mutation_id": 24,
+      "operator": "stone_wales",
+      "parent_faces_sha256": null,
+      "wl_hash": "3f1741f1fce80c548f937ee10b81160d"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "03b5bae13c9bf859f0d26e2d711a83fcb216e9a9bff57b830b14a8d33f12aa57",
+      "moves": [
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "opposite": [
+            1,
+            8
+          ]
+        },
+        {
+          "edge": [
+            8,
+            11
+          ],
+          "opposite": [
+            3,
+            19
+          ]
+        }
+      ],
+      "mutation_id": 25,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "05d1fbf4de79caf9534ce7b677e3f401e99fcbb249596765a468fd6dc158c3f4",
+      "wl_hash": "f8bc28ed90d2cf6505abc4027206c5bc"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "50ea8c61e515e5db07abcc9e87f4e927efbfb70ba0e910ad2b0383f1f4e95715",
+      "moves": [
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "opposite": [
+            1,
+            8
+          ]
+        },
+        {
+          "edge": [
+            1,
+            6
+          ],
+          "opposite": [
+            3,
+            9
+          ]
+        }
+      ],
+      "mutation_id": 26,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "05d1fbf4de79caf9534ce7b677e3f401e99fcbb249596765a468fd6dc158c3f4",
+      "wl_hash": "8e55b136b9dae1f0b932de02c3b5245e"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "f0a452a20cd629c9f6c854faf7a9243b32d52bf4b73fa0d9d388df3b05386a5b",
+      "moves": [
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "opposite": [
+            1,
+            8
+          ]
+        },
+        {
+          "edge": [
+            1,
+            4
+          ],
+          "opposite": [
+            2,
+            9
+          ]
+        }
+      ],
+      "mutation_id": 27,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "05d1fbf4de79caf9534ce7b677e3f401e99fcbb249596765a468fd6dc158c3f4",
+      "wl_hash": "6e24d01b1440ba270f87590342e74c1d"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "f5ca528529faf3608dfa8d2dfc60c328edbcaf4df7197ac996d606f13f7ebd11",
+      "moves": [
+        {
+          "edge": [
+            0,
+            3
+          ],
+          "opposite": [
+            1,
+            8
+          ]
+        },
+        {
+          "edge": [
+            8,
+            16
+          ],
+          "opposite": [
+            0,
+            27
+          ]
+        }
+      ],
+      "mutation_id": 28,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "05d1fbf4de79caf9534ce7b677e3f401e99fcbb249596765a468fd6dc158c3f4",
+      "wl_hash": "392445c765a4e9e2ff08597aaa72405f"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "3f2479efb82e52293d38a3741684528889dcee03a233f271ddeb628a817fe34e",
+      "moves": [
+        {
+          "edge": [
+            0,
+            8
+          ],
+          "opposite": [
+            3,
+            16
+          ]
+        },
+        {
+          "edge": [
+            1,
+            3
+          ],
+          "opposite": [
+            0,
+            6
+          ]
+        }
+      ],
+      "mutation_id": 29,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "a91baf10a719db1800ba984d73c1ab9071524ba9fe9d330847ef063581b21ae9",
+      "wl_hash": "1184845c97aac82e4cf545bf951bfbb5"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "6fdfc1808ee31ba177fec29ebb27c733b71f96765eaa40d24db0477649c62b8e",
+      "moves": [
+        {
+          "edge": [
+            0,
+            8
+          ],
+          "opposite": [
+            3,
+            16
+          ]
+        },
+        {
+          "edge": [
+            16,
+            27
+          ],
+          "opposite": [
+            8,
+            24
+          ]
+        }
+      ],
+      "mutation_id": 30,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "a91baf10a719db1800ba984d73c1ab9071524ba9fe9d330847ef063581b21ae9",
+      "wl_hash": "8c6b0cde14413511ebf0d4cdd4b0aee3"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "a7abe7e668306d89b74f4902885d1f170711d4c6542d27c103c171d325ba50db",
+      "moves": [
+        {
+          "edge": [
+            0,
+            8
+          ],
+          "opposite": [
+            3,
+            16
+          ]
+        },
+        {
+          "edge": [
+            3,
+            11
+          ],
+          "opposite": [
+            8,
+            14
+          ]
+        }
+      ],
+      "mutation_id": 31,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "a91baf10a719db1800ba984d73c1ab9071524ba9fe9d330847ef063581b21ae9",
+      "wl_hash": "758457f69b00d2e0acb46ce0b752cf7a"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "3879a6a2003a5f4bf0f9e4c88d79e34fdd26161dbf54b898a79c1d83b1634acf",
+      "moves": [
+        {
+          "edge": [
+            0,
+            16
+          ],
+          "opposite": [
+            5,
+            8
+          ]
+        },
+        {
+          "edge": [
+            3,
+            8
+          ],
+          "opposite": [
+            0,
+            11
+          ]
+        }
+      ],
+      "mutation_id": 32,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "4b3c5a83e16284d759606e68e5572043695f1d479f6da11488c268b92164a0cb",
+      "wl_hash": "2a5cc2dae8d6d25ef0b804ec40d546e7"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "d029f46806f374e108f1888d2a4630d51050487932c3ba20e96bc7d08598d20a",
+      "moves": [
+        {
+          "edge": [
+            0,
+            16
+          ],
+          "opposite": [
+            5,
+            8
+          ]
+        },
+        {
+          "edge": [
+            8,
+            27
+          ],
+          "opposite": [
+            16,
+            19
+          ]
+        }
+      ],
+      "mutation_id": 33,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "4b3c5a83e16284d759606e68e5572043695f1d479f6da11488c268b92164a0cb",
+      "wl_hash": "9cd57451d9ec3a228c8060c75fe94d3c"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "e204f4af5786abbfbb861b4d98287a750de0f6eab14b29f63efda47bd0d4a99f",
+      "moves": [
+        {
+          "edge": [
+            0,
+            16
+          ],
+          "opposite": [
+            5,
+            8
+          ]
+        },
+        {
+          "edge": [
+            5,
+            7
+          ],
+          "opposite": [
+            2,
+            10
+          ]
+        }
+      ],
+      "mutation_id": 34,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "4b3c5a83e16284d759606e68e5572043695f1d479f6da11488c268b92164a0cb",
+      "wl_hash": "d08709b57fac8907d1694b37ec4aea99"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "1181751a5c764964977001c00a00343e44a295f582adf0f08170af4ab232566b",
+      "moves": [
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "opposite": [
+            1,
+            14
+          ]
+        },
+        {
+          "edge": [
+            11,
+            14
+          ],
+          "opposite": [
+            3,
+            22
+          ]
+        }
+      ],
+      "mutation_id": 35,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "4779ed082249bfb97842b2fbcdbe478eaadaeb56fa13ff1d1f1dc5e948730867",
+      "wl_hash": "a9fc4b34c00a613f517ffecc410dcc26"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "2b46b781d392c75d28acacee6a8479437b5ec6adb5965193f4ac7e65d8c37194",
+      "moves": [
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "opposite": [
+            1,
+            14
+          ]
+        },
+        {
+          "edge": [
+            1,
+            4
+          ],
+          "opposite": [
+            2,
+            9
+          ]
+        }
+      ],
+      "mutation_id": 36,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "4779ed082249bfb97842b2fbcdbe478eaadaeb56fa13ff1d1f1dc5e948730867",
+      "wl_hash": "166b4f7687f5e8503ca0a29771c3db4d"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "f9872ff63bb3d5d28e88d2f895510faeb43663cc8abf0b97bbaed1e490c08b5b",
+      "moves": [
+        {
+          "edge": [
+            3,
+            6
+          ],
+          "opposite": [
+            1,
+            14
+          ]
+        },
+        {
+          "edge": [
+            14,
+            25
+          ],
+          "opposite": [
+            6,
+            33
+          ]
+        }
+      ],
+      "mutation_id": 37,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "4779ed082249bfb97842b2fbcdbe478eaadaeb56fa13ff1d1f1dc5e948730867",
+      "wl_hash": "0f6fea17906f4c16c18c0ad805080159"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "197d125f48724b7dfc43fae9bbeccf49e9c42b702e5f5da05f3e6210853dcba1",
+      "moves": [
+        {
+          "edge": [
+            3,
+            8
+          ],
+          "opposite": [
+            0,
+            11
+          ]
+        },
+        {
+          "edge": [
+            0,
+            5
+          ],
+          "opposite": [
+            2,
+            16
+          ]
+        }
+      ],
+      "mutation_id": 38,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "e824d7a6a1a6d04f6b2e31e4391e2ab1f1d383c74e41f461ff1c7b3431c41f2f",
+      "wl_hash": "880a4fcd3893c28e3d993c95a6a22bcd"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "72e0e11e6aaddfd735781355ee5fbf8ee91d75e411bd02952f09a90c64ce569c",
+      "moves": [
+        {
+          "edge": [
+            3,
+            8
+          ],
+          "opposite": [
+            0,
+            11
+          ]
+        },
+        {
+          "edge": [
+            11,
+            19
+          ],
+          "opposite": [
+            8,
+            30
+          ]
+        }
+      ],
+      "mutation_id": 39,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "e824d7a6a1a6d04f6b2e31e4391e2ab1f1d383c74e41f461ff1c7b3431c41f2f",
+      "wl_hash": "aa784d4589dc0a4390b8d914590f9d33"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "ece5c409c6a7e6c0896fecb696836228c749d5cfd2be4d23124ac02408875ac8",
+      "moves": [
+        {
+          "edge": [
+            3,
+            8
+          ],
+          "opposite": [
+            0,
+            11
+          ]
+        },
+        {
+          "edge": [
+            11,
+            14
+          ],
+          "opposite": [
+            3,
+            22
+          ]
+        }
+      ],
+      "mutation_id": 40,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "e824d7a6a1a6d04f6b2e31e4391e2ab1f1d383c74e41f461ff1c7b3431c41f2f",
+      "wl_hash": "40add1cb2d18455e9413f37ba369eba9"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "a4598b70cfe06664d27ea4aa6b42be26f9bcc0201c5753a0ece410c0d829216a",
+      "moves": [
+        {
+          "edge": [
+            3,
+            11
+          ],
+          "opposite": [
+            8,
+            14
+          ]
+        },
+        {
+          "edge": [
+            14,
+            22
+          ],
+          "opposite": [
+            11,
+            33
+          ]
+        }
+      ],
+      "mutation_id": 41,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "fe7b9eaf5ea8c7734d766d5e0effc617dd2eb98fa5cd6002f797d1d0df8a35cd",
+      "wl_hash": "4bb024c4477740ebf0d8d0dc35765eab"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "b8d9d35f2e6a9eb34ba4e4861e7917fae1df37bc0a0fa05a9f0da0bf8562c0be",
+      "moves": [
+        {
+          "edge": [
+            3,
+            11
+          ],
+          "opposite": [
+            8,
+            14
+          ]
+        },
+        {
+          "edge": [
+            6,
+            14
+          ],
+          "opposite": [
+            3,
+            25
+          ]
+        }
+      ],
+      "mutation_id": 42,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "fe7b9eaf5ea8c7734d766d5e0effc617dd2eb98fa5cd6002f797d1d0df8a35cd",
+      "wl_hash": "93b1be2d0b6c8d365b98d9e6ee39dc36"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "b986ff5819cd84497b357cf4e344f05c518d943d1c027717cf64482e80089c02",
+      "moves": [
+        {
+          "edge": [
+            3,
+            11
+          ],
+          "opposite": [
+            8,
+            14
+          ]
+        },
+        {
+          "edge": [
+            8,
+            19
+          ],
+          "opposite": [
+            11,
+            27
+          ]
+        }
+      ],
+      "mutation_id": 43,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "fe7b9eaf5ea8c7734d766d5e0effc617dd2eb98fa5cd6002f797d1d0df8a35cd",
+      "wl_hash": "d51f70f60b9741aaa1971d771356133f"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "1f7cc013c5823d58605592fffd257b896a7df488de907ac34b29b9f0a4402426",
+      "moves": [
+        {
+          "edge": [
+            3,
+            14
+          ],
+          "opposite": [
+            6,
+            11
+          ]
+        },
+        {
+          "edge": [
+            6,
+            25
+          ],
+          "opposite": [
+            14,
+            17
+          ]
+        }
+      ],
+      "mutation_id": 44,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "fb1574b297eb55d6a3a393cc8718ba41abbc2996d9ead598e7a0af12dee742f8",
+      "wl_hash": "fac2823a6c9ee1a9cfa0e00498de6cd7"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "350f392ce133cdbcfcda5388f006e6cc53a06eb55a5bb62b9070e160c8cb53a2",
+      "moves": [
+        {
+          "edge": [
+            3,
+            14
+          ],
+          "opposite": [
+            6,
+            11
+          ]
+        },
+        {
+          "edge": [
+            0,
+            1
+          ],
+          "opposite": [
+            2,
+            3
+          ]
+        }
+      ],
+      "mutation_id": 45,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "fb1574b297eb55d6a3a393cc8718ba41abbc2996d9ead598e7a0af12dee742f8",
+      "wl_hash": "b28344b21ab8ac09783a284174e522e9"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "cab0a47afa399d7725d39201a635506426039b44e061618913ab29e1960dcf60",
+      "moves": [
+        {
+          "edge": [
+            3,
+            14
+          ],
+          "opposite": [
+            6,
+            11
+          ]
+        },
+        {
+          "edge": [
+            11,
+            22
+          ],
+          "opposite": [
+            14,
+            30
+          ]
+        }
+      ],
+      "mutation_id": 46,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "fb1574b297eb55d6a3a393cc8718ba41abbc2996d9ead598e7a0af12dee742f8",
+      "wl_hash": "fcbd7b6e26667b7d97363b8cb49bee80"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "89cfa06fd4c4beffe1b8584fa53af5a7269517828ddfe2d7ed48039bac800447",
+      "moves": [
+        {
+          "edge": [
+            6,
+            14
+          ],
+          "opposite": [
+            3,
+            25
+          ]
+        },
+        {
+          "edge": [
+            17,
+            25
+          ],
+          "opposite": [
+            6,
+            36
+          ]
+        }
+      ],
+      "mutation_id": 47,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "6b5d1b1807065adfd615edf12fa62de8f2f4a4b97dfe9a0108b2e890468b0056",
+      "wl_hash": "e1a21940b85d8729b890409ab1970a30"
+    },
+    {
+      "degree_histogram": {
+        "5": 14,
+        "6": 266,
+        "7": 2
+      },
+      "faces_sha256": "e75334947a74d9ca87101883f367f05b6cd51264f49569f5e829151761f5d591",
+      "moves": [
+        {
+          "edge": [
+            6,
+            14
+          ],
+          "opposite": [
+            3,
+            25
+          ]
+        },
+        {
+          "edge": [
+            25,
+            33
+          ],
+          "opposite": [
+            14,
+            44
+          ]
+        }
+      ],
+      "mutation_id": 48,
+      "operator": "stone_wales_glide",
+      "parent_faces_sha256": "6b5d1b1807065adfd615edf12fa62de8f2f4a4b97dfe9a0108b2e890468b0056",
+      "wl_hash": "255365464114cb4c80ceb612c65c7222"
+    }
+  ],
+  "selected_count_after_cap": 49,
+  "source": "frozen N=282 incumbent triangulation (solution 561)"
+}

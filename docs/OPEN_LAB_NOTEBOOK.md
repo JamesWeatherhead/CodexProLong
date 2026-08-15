@@ -27,6 +27,17 @@ chain-of-thought.
   `0.997625778304447...`, below the historical gate. The strongest new support
   we can certify globally is a 9,699,690-period divisor construction scoring
   `0.970073558281127`; all receipts and solver-free replayers are public.
+- Reconstructed the complete Bober height-one factorial-ratio classification
+  from Paperclip and the official arXiv source, then exact-replayed all 52
+  sporadics and 3,649,763 symmetry-reduced family parameters through 2,000.
+  Analytic family bounds complete the infinite cases. The global winner is the
+  classical Chebyshev `{0,1}` step function at `0.921292022934091`, decisively
+  below the Arena frontier; this closes a theorem-backed support family.
+- Tested whether scaled sporadic Landau step functions become stronger when
+  fractionally packed rather than used alone. A 23-point exact dual, rebuilt
+  over rational prime-log coefficients with outward log bounds, proves
+  Chebyshev optimal for all nonnegative combinations of 52 sporadics at every
+  dilation from 1 through 100—5,200 atoms and 5,177 strict dual inequalities.
 - Disclosed (rather than disguised) the Tammes zero-vector domain mismatch.
 - Closed millions of local neighbors across Flat Polynomials, Difference Bases,
   Heilbronn, packing, and active-set families. These no-go regions are retained
@@ -136,6 +147,12 @@ chain-of-thought.
   cut was exhausted for 114 schema-compatible prime powers through 499, with
   complete tail sweeps at selected orders. The family exactly regenerates the
   incumbent at `q=89` but yields no improvement.
+- Reconstructed the classical Wichmann/Leech gap family independently and
+  exact-bitset checked all 498,002 legal parameter pairs under the Arena mark
+  limit. Its best 360-mark basis covers 43,318 consecutive differences versus
+  49,110 required, while the best member near 49,000 has score
+  `2.992248536401281`; this cleanly rules out another non-Singer construction
+  family at the relevant finite scale.
 - Recovered the deleted ClaudeEvolve circle-packing strict generator through
   Exa and replayed it under the frozen Arena formula. It scores
   `2.6359829285577328`, matching the published table but missing the live gate;
@@ -147,6 +164,11 @@ chain-of-thought.
   20,000 single walls, and 7,140 wall pairs, literal `numpy.convolve` replay
   reached `1.4515653796072292`; the remaining gate gap is
   `3.5157170224e-6`, so no submission was made.
+- Mutated Thomson N=282 directly through mini scars, dipole glides,
+  scar extensions, and Stone--Wales defects, independently of the earlier N=72
+  split construction. Forty-nine paths span 44 exact graph classes and 98
+  relaxed trials; every endpoint returned to the incumbent topology, leaving
+  the strict gate gap at `9.999857866205275e-7`.
 
 ## Current high-information lanes
 

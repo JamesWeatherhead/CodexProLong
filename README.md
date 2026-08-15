@@ -50,7 +50,13 @@ the source of truth for automation.
 > proves that no coefficient repair on its 2,000-key support can retain the
 > historical winning score under the written all-\(x\) condition. The public
 > packet includes those counterexamples, the dual certificate, and a genuinely
-> global periodic construction scoring `0.970073558281127`.
+> global periodic construction scoring `0.970073558281127`. A separate complete
+> [Bober/Landau height-one audit](src/campaign/discrete/pnt_factorial_ratio_landau/HANDOFF.md)
+> peaks at the weaker Chebyshev certificate `0.921292022934091`, closing that
+> literature-derived family rather than merely sampling it. A 23-point
+> [exact atom-packing dual](src/campaign/discrete/pnt_landau_atom_packing/HANDOFF.md)
+> further proves Chebyshev optimal over every nonnegative combination of 5,200
+> scaled sporadic atoms.
 
 ### Latest checkpoint: exact search that can actually resume
 
@@ -164,6 +170,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧮 [Paperclip-derived relative-difference-set search](src/campaign/discrete/difference_global/HANDOFF.md)
 - 🧮 [Carry-exact Difference Bases family closure](src/campaign/discrete/difference_exact_synthesis/HANDOFF.md)
 - 📏 [Prime-power interval Difference Bases sweep](src/campaign/discrete/difference_interval_constructions/HANDOFF.md)
+- 📐 [Exact Wichmann/Leech interval-basis family sweep](src/campaign/discrete/difference_wichmann_leech/HANDOFF.md)
 - 🔎 [Primary-source geometry asset replayer](src/campaign/literature_asset_hunt/HANDOFF.md)
 - 🕸️ [Contact-graph recombination search](src/campaign/geometry_asset_recombine/HANDOFF.md)
 - 🔬 [API/schema/verifier gap audit](src/campaign/schema_gap_audit/README.md)
@@ -179,6 +186,8 @@ unlicensed corpora, or terabytes of replaceable cache.
 - ⚡ [Hash-pinned PSL-4 active-lag accelerator](src/campaign/analytic/flat_psl4_accelerator/HANDOFF.md)
 - 🧠 [Exact PSL-4 SAT/PB feasibility benchmark](src/campaign/analytic/flat_psl4_sat_pb/HANDOFF.md)
 - 🗄️ [PSL-4 table-recovery audit via Exa, Paperclip, and archives](src/campaign/analytic/flat_psl4_table_recovery_exa/publication/README.md)
+- 📜 [Complete Bober/Landau factorial-ratio certificate audit](src/campaign/discrete/pnt_factorial_ratio_landau/HANDOFF.md)
+- ⚛️ [Exact 5,200-atom Landau packing dual](src/campaign/discrete/pnt_landau_atom_packing/HANDOFF.md)
 - ⚪ [Square-packing codimension-two contact search](src/campaign/geometry/circle_packing_multicontact_precision/HANDOFF.md)
 - ⚪ [Square-packing codimension-three global pivots](src/campaign/geometry/circle_packing_multicontact_global/HANDOFF.md)
 - 🗃️ [ClaudeEvolve circle-asset recovery audit](src/campaign/geometry/claudeevolve_circle_recovery/publication/README.md)
@@ -186,6 +195,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🔐 [Heilbronn q=143 exact support closure](src/campaign/geometry/heilbronn_q143_cegis/HANDOFF.md)
 - 🧩 [Heilbronn q=144–220 rational-mesh closure](src/campaign/geometry/heilbronn_rational_mesh_global/HANDOFF.md)
 - 🪐 [Thomson N=72→282 topology escape](src/campaign/geometry/thomson_282_topology_escape/HANDOFF.md)
+- 🌐 [Thomson N=282 scar/dislocation escape](src/campaign/geometry/thomson_282_scar_escape/README.md)
 - 📐 [Min-distance adjacent-topology escape](src/campaign/geometry/min_distance_ratio_global_escape/HANDOFF.md)
 - 🔬 [Rectangle five-million-state precision audit](src/campaign/geometry/rectangle_precision_escape/HANDOFF.md)
 - 🧬 [2026 evolver asset sweep](src/campaign/evolver_asset_sweep_2026/HANDOFF.md)

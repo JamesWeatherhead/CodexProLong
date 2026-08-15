@@ -1,0 +1,132 @@
+{
+  "copied_allowlist_audit": {
+    "command": "python3 test_packet.py",
+    "external_verifier_required": false,
+    "network_required": false,
+    "status": "passed-before-freeze"
+  },
+  "dependencies_not_copied": [
+    {
+      "item": "EinsteinArena difference-bases verifier",
+      "license": "MIT in vinid/einstein-arena; source not copied",
+      "sha256": "a7521e8a701ac31131932d2a732769d65426d329f4a933c4819516adacf2e585"
+    },
+    {
+      "item": "frozen public Arena corpus",
+      "license": "GET-readable public data; no blanket relicensing asserted and bytes not copied",
+      "sha256": "9d447872f2f38f0bcec004f683ea098b938f7e68e8bd16707f4a2effe5e1c5bb"
+    },
+    {
+      "doi": "10.37236/13806",
+      "item": "Saarela--Vanhatalo article PDF",
+      "license": "CC BY 4.0; PDF not copied",
+      "sha256": "b6f32a562a4f421496b94c0c4ab61079df623e59afd8e32da0f1b06561475fce"
+    },
+    {
+      "arxiv": "1702.02631",
+      "item": "Banakh--Gavrylkiv Paperclip full text",
+      "license": "not copied; line-pinned citation links only"
+    }
+  ],
+  "exclude": [
+    {
+      "decision": "exclude-from-self-hash",
+      "path": "PUBLICATION_MANIFEST.json",
+      "reason": "manifest cannot include its own cryptographic digest"
+    },
+    {
+      "decision": "exclude",
+      "path": "__pycache__/",
+      "reason": "generated interpreter cache"
+    },
+    {
+      "decision": "exclude",
+      "path": "all files outside the explicit include list",
+      "reason": "not required to reproduce this bounded result"
+    }
+  ],
+  "include": [
+    {
+      "bytes": 3147,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party PDF, verifier, corpus, program, or payload array is embedded.",
+      "path": "HANDOFF.md",
+      "reason": "original clean-room source, documentation, or deterministic receipt",
+      "sha256": "85fea976294f792c92d7b9b8cca49dbaebcd99d63cb41ee2228ce6246fc54666"
+    },
+    {
+      "bytes": 2302,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party PDF, verifier, corpus, program, or payload array is embedded.",
+      "path": "PROVENANCE.md",
+      "reason": "original clean-room source, documentation, or deterministic receipt",
+      "sha256": "b92d07ffa840891d4ff487038a0bdcbe194207252e2d9ba2e31b1f3e7e45c89a"
+    },
+    {
+      "bytes": 2750,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party PDF, verifier, corpus, program, or payload array is embedded.",
+      "path": "README.md",
+      "reason": "original clean-room source, documentation, or deterministic receipt",
+      "sha256": "7d0e06aa422cccc662310edb5dfb1c76085c5fbee146fc691f7f781b0c693a1b"
+    },
+    {
+      "bytes": 5295,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party PDF, verifier, corpus, program, or payload array is embedded.",
+      "path": "freeze_publication.py",
+      "reason": "original clean-room source, documentation, or deterministic receipt",
+      "sha256": "ffee5b74c60cddcc912c1c57c510b6e411639bf3a609935090613e4442400978"
+    },
+    {
+      "bytes": 1617,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party PDF, verifier, corpus, program, or payload array is embedded.",
+      "path": "local_verifier_audit.json",
+      "reason": "original clean-room source, documentation, or deterministic receipt",
+      "sha256": "4bdae775741d9336cc95528f0cd6722c7031f70b46d769ccbb69e8c49d0d815c"
+    },
+    {
+      "bytes": 370,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party PDF, verifier, corpus, program, or payload array is embedded.",
+      "path": "runs/20260815T084100Z_exact_sweep/config.json",
+      "reason": "original clean-room source, documentation, or deterministic receipt",
+      "sha256": "fa26f6e963517f7576fd8ba53016c5a99fcc81d81e6bc979c22c02091d7f285e"
+    },
+    {
+      "bytes": 4354,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party PDF, verifier, corpus, program, or payload array is embedded.",
+      "path": "runs/20260815T084100Z_exact_sweep/events.jsonl",
+      "reason": "original clean-room source, documentation, or deterministic receipt",
+      "sha256": "baecc7b5732398bf139ebabbb086f98e1e49c67c31a851df94db47a33cf829a6"
+    },
+    {
+      "bytes": 5477,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party PDF, verifier, corpus, program, or payload array is embedded.",
+      "path": "runs/20260815T084100Z_exact_sweep/summary.json",
+      "reason": "original clean-room source, documentation, or deterministic receipt",
+      "sha256": "cc678a56cd5d9764494d9ad488f59b0b477da5826e727a9cfc9975da2fc9c5c9"
+    },
+    {
+      "bytes": 13884,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party PDF, verifier, corpus, program, or payload array is embedded.",
+      "path": "search.py",
+      "reason": "original clean-room source, documentation, or deterministic receipt",
+      "sha256": "64b3b3a746af11ac38dc5edd6aa70fd0b36e51642a6ff28aa252f9ad81a3faa4"
+    },
+    {
+      "bytes": 3932,
+      "decision": "include",
+      "licensing": "Original campaign work; publish under the destination repository license. No third-party PDF, verifier, corpus, program, or payload array is embedded.",
+      "path": "test_packet.py",
+      "reason": "original clean-room source, documentation, or deterministic receipt",
+      "sha256": "344f28eb0896266c4b6ca0e329babc5d6111b112e35257f3fad5115b8ddf2615"
+    }
+  ],
+  "policy": "explicit conservative allowlist; caches and all external bytes excluded",
+  "scope": "campaign/discrete/difference_wichmann_leech"
+}
