@@ -35,6 +35,12 @@ chain-of-thought.
   patch births, modular coverage repeatedly failed when embedded into the
   ordered integers. The code, candidates, and negative receipt remain useful
   for testing future carry-aware terraces without repeating this family.
+- Audited submission schemas, evaluator routing, and frozen verifier behavior
+  across the remaining mismatch candidates. Extra Edges rows are stopped by
+  the API, C2 negative values are score-equivalent to zero, Heilbronn boundary
+  tolerance is below its gate, and the only strong surviving mismatch is the
+  already-disclosed Tammes platform first. This prevents future runs from
+  mistaking locally callable evaluator quirks for submit-capable results.
 
 ## Current high-information lanes
 

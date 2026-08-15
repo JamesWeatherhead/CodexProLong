@@ -89,6 +89,7 @@ SANITIZED_EVIDENCE_ARTIFACTS = {
     "geometry-literature-asset-replays": "literature_asset_hunt/receipt.json",
     "geometry-literature-asset-sources": "literature_asset_hunt/sources.json",
     "geometry-contact-recombination": "geometry_asset_recombine/replay_receipt.json",
+    "schema-gap-audit": "schema_gap_audit/receipt.json",
 }
 FRONTIER_RECEIPTS = {
     "edges-vs-triangles": "state/receipts/edges-vs-triangles/20260815T024004430186Z-c71bc6912f5a.json",
@@ -152,6 +153,7 @@ SOURCE_FAMILIES = (
     "literature_asset_hunt",
     "geometry_asset_recombine",
     "research_corpus",
+    "schema_gap_audit",
 )
 EXCLUDED_PARTS = {
     "external",

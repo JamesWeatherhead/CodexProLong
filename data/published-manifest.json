@@ -51,6 +51,11 @@
       "sha256": "1ec5b03f9b1d72af559df9b4240e8c2384068d267044b48f86138dd1424d5f7c"
     },
     {
+      "bytes": 5711,
+      "path": "artifacts/evidence/schema-gap-audit.json",
+      "sha256": "a73011fda67f2da4b26e05e86a3dca82789b2adafddfec67b5733f1448a2b979"
+    },
+    {
       "bytes": 2394,
       "path": "artifacts/frontier/circle-packing.json",
       "sha256": "e03c16d923ab3170442dcbc6c6984f8d34ec67cd7a9ccc87d1d17a6c9008a131"
@@ -1099,6 +1104,16 @@
       "bytes": 3634,
       "path": "src/campaign/research_corpus/crawl_pages.py",
       "sha256": "6483e10024f7aad2476463861a53e65910cfb5f0d361545781542cb034c378bd"
+    },
+    {
+      "bytes": 1678,
+      "path": "src/campaign/schema_gap_audit/README.md",
+      "sha256": "6bb22544bdc851f3b2fd142182759ab44aeb5a0e608ea4ea7ffec872d322bfea"
+    },
+    {
+      "bytes": 11865,
+      "path": "src/campaign/schema_gap_audit/audit.py",
+      "sha256": "3b3bbf11c4c46b26e9fc92ee68c4a8c3dea879d6e8761c4758da22eaa4f8fb52"
     },
     {
       "bytes": 4788,

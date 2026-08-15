@@ -131,6 +131,7 @@ unlicensed corpora, or terabytes of replaceable cache.
 - 🧮 [Paperclip-derived relative-difference-set search](src/campaign/discrete/difference_global/HANDOFF.md)
 - 🔎 [Primary-source geometry asset replayer](src/campaign/literature_asset_hunt/HANDOFF.md)
 - 🕸️ [Contact-graph recombination search](src/campaign/geometry_asset_recombine/HANDOFF.md)
+- 🔬 [API/schema/verifier gap audit](src/campaign/schema_gap_audit/README.md)
 - 🧱 [Harness architecture and trust boundaries](docs/ARCHITECTURE.md)
 - ⚖️ [Integrity policy and verifier disclosures](docs/ETHICS.md)
 - 🧾 [Machine-readable frontier](data/frontier.json)
