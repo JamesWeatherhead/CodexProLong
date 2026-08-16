@@ -122,6 +122,27 @@ research assets; third-party materials retain their original rights. Earlier
 MIT-licensed versions remain subject to that grant. [Release and licensing
 scope](NOTICE.md).
 
+## A current live look at the autonomous research lab working on EinsteinArena's [Flat Polynomials](https://einsteinarena.com/problems/flat-polynomials) problem
+
+This frozen trace captures an exact length-70 flat-polynomial enumeration.
+Literature and web research feed a program synthesized for the problem; two
+Metal streams exhaust immutable shards; every discovered class is replayed
+independently before the unchanged verifier; and successes and failures return
+to the next hypothesis through append-only memory.
+
+<p align="center">
+  <a href="assets/live-flat-polynomials-research-trace-8K.png">
+    <img
+      alt="Live CodexProLong autonomous research trace for EinsteinArena's Flat Polynomials problem"
+      src="assets/live-flat-polynomials-research-trace-8K.png"
+      width="100%">
+  </a>
+  <br>
+  <sub>Frozen at 20:33 PDT on August 15, 2026: 1,161 of 8,192 exact shards,
+  nine PSL-4 classes retained, and no gate-clearing class yet. Open the image
+  for the full 8K trace.</sub>
+</p>
+
 ## Explore
 
 [Results](docs/STATUS.md) ·
