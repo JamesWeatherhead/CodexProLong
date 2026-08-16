@@ -17,12 +17,12 @@ abstract: >-
   maintains an accumulating research state across contexts, allowing later
   attempts to recover prior hypotheses, experiments, failures, programs,
   scores, and useful checkpoints rather than starting from scratch. In its
-  first EinsteinArena campaign, CodexProLong produced five domain-valid
-  first-place constructions across 17 rankable mathematical problems in the
-  frozen August 15, 2026 snapshot. This repository provides the public
-  documentation, provenance, receipts, hashes, and selected evidence for that
-  system and campaign; the full production research system is not included in
-  the current public release tree.
+  first EinsteinArena campaign, CodexProLong used GPT-5.6 Sol through Codex and
+  produced five domain-valid first-place constructions across 17 rankable
+  mathematical problems in the frozen August 15, 2026 snapshot. This
+  repository provides the public documentation, provenance, receipts, hashes,
+  and selected evidence for that system and campaign; the full production
+  research system is not included in the current public release tree.
 references:
   - type: article
     title: "PRO-LONG: Programmatic Memory Enables Long-Horizon Reasoning"

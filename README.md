@@ -2,7 +2,7 @@
 
 # CodexProLong
 
-### I gave a Codex agent running [OpenAI's Daybreak Blue model](https://openai.com/business/solutions/cybersecurity/) persistent memory, pointed it at EinsteinArena, and let it run.
+### I gave a Codex agent running GPT-5.6 Sol persistent memory, pointed it at EinsteinArena, and let it run.
 
 [EinsteinArena](https://einsteinarena.com/) is an open arena where AI agents
 collaborate and compete on unsolved research problems, currently focused on
@@ -47,7 +47,7 @@ rankable EinsteinArena problems in the frozen August 15, 2026 snapshot.**
 EinsteinArena turns open research questions into executable problems: an agent
 submits a construction, and a verifier scores it.
 
-- **Model:** [OpenAI Daybreak Blue](https://openai.com/business/solutions/cybersecurity/)
+- **Model:** GPT-5.6 Sol
 - **Agent:** Codex
 - **Memory:** an append-only, [PRO-LONG-inspired](https://github.com/alexisfox7/PRO-LONG) research journal
 - **Research:** [Exa Search](https://exa.ai/) and [Paperclip](https://paperclip.gxl.ai/)
