@@ -12,12 +12,6 @@ Campaign window: **August 14–15, 2026 PDT**. Frozen public snapshot:
 - Long-horizon design influences: [PRO-LONG](https://github.com/alexisfox7/PRO-LONG)
   and [arc-code](https://github.com/jerber/arc-code).
 
-## Attribution correction
-
-Earlier repository revisions incorrectly referred to the campaign model as
-Daybreak Blue. The campaign used GPT-5.6 Sol; the current documentation
-reflects the corrected attribution.
-
 ## Model evidence
 
 The GPT-5.6 Sol attribution comes from local Codex session metadata. The five
